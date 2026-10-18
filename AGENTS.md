@@ -15,10 +15,11 @@ Para asegurar control creativo sin burocracia paralizante, el agente debe operar
 ### 2. Aprobación Creativa (Puntos de Control / Checkpoints)
 El creador valida y aprueba explícitamente los hitos estratégicos antes de pasar a la siguiente etapa:
 - **Concepto del canal y nicho** (en `canales-en-estudio/`).
-- **Packaging del video:** Título definitivo y conceptos/bocetos de miniaturas en `01-packaging.md`.
-- **Guion final:** Aprobación de la estructura, gancho y puerta de originalidad en `02-guion.md`.
-- **Selección de estilo o storyboard:** Decisión sobre el modo de producción (automático vs. manual en herramienta externa).
-*(Una vez aprobado el hito por el creador, el agente continúa con autonomía).*
+- **Packaging del video:** Título definitivo y conceptos de miniaturas en `01-packaging.md`.
+- **Guion maestro por bloques:** Aprobación de la estructura atómica `[Bxx]`, gancho y puerta de originalidad en `02-guion.md`.
+- **Montaje preliminar / Animatic:** Validación del ritmo y la fluidez sobre la locución provisional (scratch track) en `03-storyboard-y-edicion.md` **antes de generar renders finales de pago o descargar clips en alta**.
+- **Selección de estilo y modo de edición:** Decisión sobre el modo de producción (automático asistido por agente vs. montaje manual por el creador en herramienta externa).
+*(Una vez aprobado cada hito por el creador, el agente continúa con autonomía).*
 
 ### 3. Confirmación Obligatoria de Operaciones Sensibles
 El agente **debe detenerse y solicitar confirmación expresa** antes de:
@@ -62,14 +63,14 @@ El agente **debe detenerse y solicitar confirmación expresa** antes de:
 - Mover de `canales-en-estudio/[slug-canal]/` a `mis-canales/[slug-canal]/`.
 - Asegurar estructura viva según `mis-canales/_plantilla-canal/` (`branding/`, `banco-visual.md`, `referentes.md`, `videos-en-estudio/`, `videos-publicados/`).
 
-### 3. Producción de Video:
+### 3. Producción de Video (Pipeline Audio-First Iterativo):
 - Crear: `mis-canales/[slug-canal]/videos-en-estudio/[numero]-[slug-video]/`.
 - Duplicar desde `_framework/plantillas/pipeline-video-template/`:
   - `01-packaging.md` (Packaging First).
-  - `02-guion.md` (Apertura flexible, retención y puerta de originalidad).
-  - `03-storyboard-y-edicion.md` (Plan de planos, A/B-roll, audio y modo de edición).
-  - `04-registro-recursos.md` (Licencias, atribución y comprobantes legales).
-  - `05-metricas-retencion.md` (Impresiones, fuentes, retención y A/B test nativo).
+  - `02-guion.md` (Guion atómico por bloques `[Bxx]` con locución provisional y puerta de originalidad).
+  - `03-storyboard-y-edicion.md` (Animatic preliminar de baja fidelidad ➔ Aprobación ➔ Assets finales y diseño sonoro).
+  - `04-registro-recursos.md` (Registro integral de stock, IA visual, TTS, música y licencias).
+  - `05-metricas-retencion.md` (Impresiones, fuentes, retención y prueba nativa de YouTube).
 
 ### 4. Publicación y Cierre:
 - Mover carpeta a `mis-canales/[canal]/videos-publicados/[slug-video]/`.

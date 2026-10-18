@@ -3,7 +3,8 @@
 - **Título aprobado:**
 - **Promesa de Trama (Plot Promise):**
 - **Formato / Género:** (Divulgación / Ensayo / Tutorial / Narrativa / Relax)
-- **Duración estimada:**
+- **Duración total estimada:** (ej. 8 minutos)
+- **Estado de Locución:** `[ ] Borrador provisional (Scratch Track)` / `[ ] Definitiva aprobada`
 
 ---
 
@@ -18,34 +19,67 @@
 
 ---
 
-## 2. Apertura y Ganchos (Primeros 5 a 30 Segundos)
+## 2. Guion Maestro Estructurado por Bloques Atómicos (IDs Estables)
 
-### Momento de Apertura (Validar la expectativa del packaging)
-*Ajustar el tiempo según el formato (5-10s en formatos ágiles/tutoriales; 15-30s en documentales o piezas inmersivas).*
-- **Audio / Locución inicial:**
-- **Visual en pantalla (y punto focal):**
+> **Regla de ingeniería:** Cada bloque de locución tiene un identificador estable `[Bxx]`. Esto permite que una modificación futura en una frase solo requiera regenerar el audio de ese bloque y reajustar su escena correspondiente en el editor.
 
-### Consolidación de la Intro
-- **Contexto (dosificado, solo el necesario):**
-- **Curiosity Gaps (preguntas abiertas o promesas que se resolverán después):**
-- **Unique Service Proposition (demostración de esfuerzo, estilo o prueba):**
-- **Frontloading:** *¿Qué muestra de alta calidad visual/sonora se adelanta aquí?*
+### [B01_Hook] — Apertura y Validación de Promesa
+- **Tiempo estimado:** `00:00 - 00:08` (~8s)
+- **Objetivo narrativo:** Validar de inmediato la expectativa del packaging con audio y visual de impacto.
+- **Locución literal (Texto para voz):**
+  > *"..."*
+- **Visual sugerido (para Animatic):** Placa de texto o imagen temporal de alta tensión.
 
 ---
 
-## 3. Desarrollo (Estructura Dinámica: Conflicto ➔ Contexto ➔ Mensaje / Valor)
-
-### Bloque 1: El Conflicto o Dilema Central
-*(Tensión cognitiva, contradicción o problema planteado)*
-
-### Bloque 2: Contexto y Avance Progresivo
-*(Desarrollo argumental sin relleno, entrega escalonada de respuestas)*
-
-### Bloque 3: Mensaje Central y Resolución (Payoff)
-*(Cumplimiento contundente de la promesa inicial)*
+### [B02_Contexto] — Contexto Mínimo Indispensable y Curiosity Gap
+- **Tiempo estimado:** `00:08 - 00:25` (~17s)
+- **Objetivo narrativo:** Plantear la pregunta que mantendrá al espectador atento durante el video.
+- **Locución literal (Texto para voz):**
+  > *"..."*
+- **Visual sugerido (para Animatic):** Gráfico provisional o captura del paper/fuente.
 
 ---
 
-## 4. Cierre y Llamado a la Acción (CTA Orgánico)
-- **Llamado a la acción (integrado a la narrativa, no invasivo):**
-- **Gancho o puente temático hacia el siguiente video:**
+### [B03_Conflicto] — El Dilema Central o Tensión Cognitiva
+- **Tiempo estimado:** `00:25 - 01:10` (~45s)
+- **Objetivo narrativo:** Establecer por qué este problema o misterio es difícil o fascinante.
+- **Locución literal (Texto para voz):**
+  > *"..."*
+- **Visual sugerido (para Animatic):** B-roll rápido o animación esquemática de prueba.
+
+---
+
+### [B04_Desarrollo_1] — Primer Núcleo de Valor / Evidencia
+- **Tiempo estimado:** `01:10 - 02:30` (~80s)
+- **Objetivo narrativo:** Explicación del primer experimento, dato o paso práctico.
+- **Locución literal (Texto para voz):**
+  > *"..."*
+- **Visual sugerido (para Animatic):** Diagrama preliminar o grabación de pantalla provisional.
+
+---
+
+### [B05_Desarrollo_2] — Segundo Núcleo de Valor / Contraste
+- **Tiempo estimado:** `02:30 - 04:00` (~90s)
+- **Objetivo narrativo:** El giro inesperado, complicación o segunda evidencia.
+- **Locución literal (Texto para voz):**
+  > *"..."*
+- **Visual sugerido (para Animatic):** Comparativa A vs. B en baja fidelidad.
+
+---
+
+### [B06_Payoff] — Resolución Contundente (Cumplimiento de la Promesa)
+- **Tiempo estimado:** `04:00 - 05:00` (~60s)
+- **Objetivo narrativo:** La recompensa final prometida en el título y la miniatura.
+- **Locución literal (Texto para voz):**
+  > *"..."*
+- **Visual sugerido (para Animatic):** Resultado gráfico contundente.
+
+---
+
+### [B07_Cierre_CTA] — Cierre Orgánico y Recomendación
+- **Tiempo estimado:** `05:00 - 05:20` (~20s)
+- **Objetivo narrativo:** CTA no invasivo y gancho hacia el siguiente video del canal.
+- **Locución literal (Texto para voz):**
+  > *"..."*
+- **Visual sugerido (para Animatic):** Tarjeta final y plantilla de recomendación.

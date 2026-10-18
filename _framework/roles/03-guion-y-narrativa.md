@@ -65,3 +65,25 @@ Toda apertura debe confirmar al espectador que está en el lugar correcto y que 
 
 ### 3. Frontloading (Adelantar la Experiencia)
 Si el video contendrá animación destacada, datos reveladores o edición especial, mostrar un destello de esa calidad en los primeros compases para fijar el estándar de producción en la mente de la audiencia.
+
+---
+
+## 5. Arquitectura Atómica del Guion (Bloques con IDs Estables y Locución Provisional)
+
+Para trabajar de forma modular y económica con agentes de IA y herramientas de montaje, el guion no se redacta como un texto corrido monolítico:
+
+### 1. Identificadores Estables de Bloque (`[B01]`, `[B02]...`)
+- El guion maestro se divide en bloques numerados con un objetivo narrativo y una duración estimada en segundos:
+  - `[B01_Hook]` (Apertura / Promesa inicial - ~8s)
+  - `[B02_Contexto]` (Contexto indispensable - ~15s)
+  - `[B03_Conflicto]` (Tensión o dilema central - ~30s)
+  - `...`
+- **Ventaja de ingeniería:** Permite correlacionar cada frase exacta con su escena en el storyboard. Si se detecta un error o dato desactualizado en el minuto 2, **no se reconstruye el video completo**: se regenera únicamente el audio de ese bloque y se ajustan solo los clips asociados.
+
+### 2. Locución Provisional (*Scratch Track*) vs. Definitiva
+- **Regla de ahorro y validación:** No gastar créditos de locución de pago (ElevenLabs, etc.) ni grabar locución definitiva en el primer borrador.
+- Se genera una locución provisional rápida (TTS gratuito del sistema o borrador) para verificar:
+  - Pronunciación de términos técnicos o nombres.
+  - Duración real de las frases y naturalidad de las pausas.
+  - Fluidez al oído (frases que en texto parecen buenas pero habladas suenan pedantes o trabadas).
+- Una vez validado y aprobado el ritmo con el *animatic*, recién se procede a renderizar la locución definitiva.
