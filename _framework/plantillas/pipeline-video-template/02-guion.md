@@ -12,9 +12,9 @@
 - [ ] **Aportación Original:** ¿Aporta análisis, síntesis, narrativa o conclusiones que van más allá del material de origen?
 - [ ] **Anti-Contenido Reutilizado:** ¿Evita sustituir la obra original (en libros) o reproducir clips ajenos sin valor añadido (en noticias)?
 - [ ] **Fact-Checking Completado:** ¿Las afirmaciones sustanciales están verificadas en `_framework/plantillas/registro-verificacion-fuentes-template.md`?
-- [ ] **Declaración de Contenido Sintético (YouTube):** ¿Contiene IA fotorrealista que altere personas o hechos reales?
-  - [ ] No requiere declaración (animación, voz sintética estándar, assets gráficos abstractos).
-  - [ ] Sí requiere marcar la casilla en YouTube Studio al subir.
+- [ ] **Declaración de Contenido Sintético / IA (YouTube Policy):**
+  - [ ] **No requiere declaración:** Animación/estilo ficticio, clonación de la propia voz del creador, voz sintética estándar de biblioteca que no imita a terceros, o gráficos abstractos.
+  - [ ] **Sí requiere declaración obligatoria en Studio:** Muestra personas reales diciendo/haciendo cosas ficticias, voz que imita a una persona real, escenas/eventos fotorrealistas que parecen reales pero no ocurrieron, o música IA fotorrealista.
 
 ---
 

@@ -105,7 +105,7 @@ youtube/
 
 1. **Selección de Idea:** Seleccionar idea de `ideas.md` o validar outlier con `_framework/roles/01-investigacion-ideas.md`.
 2. **Packaging First:** Definir 5 títulos y conceptualizar las 3 miniaturas independientes en `01-packaging.md`.
-3. **Guionado de Retención:** Redactar el guion en `02-guion.md` asegurando la promesa en los primeros 5 segundos.
+3. **Guionado de Retención:** Redactar el guion en `02-guion.md` con apertura adaptada al género y puerta obligatoria de originalidad.
 4. **Storyboard y Edición:** Planificar tomas y diseño sonoro en `03-storyboard-y-edicion.md`.
-5. **Auditoría Legal:** Asentar cada recurso descargado en `04-registro-recursos.md`.
-6. **Publicación y Pruebas A/B:** Monitorear CTR y retención en `05-metricas-retencion.md`, activando miniaturas de reemplazo si es necesario.
+5. **Auditoría Legal y de Fuentes:** Asentar cada recurso, licencia y afirmación factual en `04-registro-recursos.md`.
+6. **Publicación y Pruebas A/B:** Configurar la prueba nativa "Prueba y Compara" (hasta 3 miniaturas) en YouTube Studio y monitorear el resultado por tiempo de visualización compartido (*Watch Time Share*) en `05-metricas-retencion.md` sin alterar los metadatos durante el experimento.

@@ -7,10 +7,12 @@
 Thumbs.db
 ehthumbs.db
 
-# Entorno y credenciales
+# Entorno, credenciales y secretos
 .env
 .env.*
 *.local
+*.pem
+*.key
 
 # Cachés y temporales de agentes/herramientas
 .atl/
@@ -18,3 +20,39 @@ ehthumbs.db
 *.tmp
 *.temp
 *.log
+
+# Medios pesados y material audiovisual crudo (evitar saturación de Git y redistribución no autorizada)
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.flv
+*.m4v
+*.wav
+*.aiff
+*.flac
+*.aac
+
+# Carpetas de metraje en bruto y renders de edición
+raw_footage/
+**/raw_footage/
+renders/
+**/renders/
+exports/
+**/exports/
+cache/
+**/cache/
+
+# Proyectos de software de edición de terceros
+*.prproj
+*.drp
+*.aep
+*.fcpx
+*.blend
+
+# PRESERVAR EVIDENCIAS DE LICENCIAS (Comprobantes legales bajo control de versiones)
+!**/licencias/
+!**/licencias/**
+!**/assets/licencias/
+!**/assets/licencias/**

@@ -19,9 +19,11 @@
 
 ---
 
-## 2. Estrategia de las 3 Miniaturas (Thumbnails Independientes)
+## 2. Estrategia de las 3 Miniaturas (Prueba Nativa "Prueba y Compara" de YouTube)
 
-### Miniatura A (Principal - Publicación Inicial)
+> *Nota operativa:* Las 3 variantes se cargan simultáneamente en YouTube Studio para que el algoritmo determine la ganadora por porcentaje de tiempo de visualización compartido (*Watch Time Share*). No intervenir ni cambiar las miniaturas manualmente durante la prueba activa.
+
+### Miniatura A (Variante 1)
 - **Brecha de Curiosidad:** (Moment / Story / Result / Transformation / Novelty)
 - **Scroll Stoppers utilizados:** (Caras / Números / Emoción / Contraste / Colores)
 - **Punto focal principal (Hero):**
@@ -29,12 +31,12 @@
 - **Texto en miniatura (máx 5 palabras, no repetir título):**
 - **Prompt para generador de imágenes / boceto:**
 
-### Miniatura B (Variante de Contingencia / Prueba A/B)
+### Miniatura B (Variante 2 - Ángulo Visual Alternativo)
 - **Brecha de Curiosidad:**
-- **Concepto diferencial respecto a la Miniatura A:**
+- **Concepto diferencial respecto a la Variante A:**
 - **Prompt / boceto:**
 
-### Miniatura C (Variante Radical / Prueba A/B)
+### Miniatura C (Variante 3 - Enfoque Conceptual Radical)
 - **Brecha de Curiosidad:**
 - **Concepto diferencial:**
 - **Prompt / boceto:**

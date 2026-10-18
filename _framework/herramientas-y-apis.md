@@ -1,76 +1,70 @@
 # Herramientas, APIs y Conexiones Técnicas
 
-Herramientas y plataformas identificadas para el trabajo de investigación, creación y producción de videos:
-
-## Analítica, Competencia e Investigación de Audiencia
-- **YouTube Studio - Analytics Research:** https://studio.youtube.com/channel/UCfVh9kWK5YHRm27p0VNSFjQ/analytics/tab-research/period-default?pageType=FEED_PAGE
-- **YouTube Studio - Build Audience:** https://studio.youtube.com/channel/UCfVh9kWK5YHRm27p0VNSFjQ/analytics/tab-build_audience/period-default
-- **VidIQ Principal:** https://vidiq.com/es/
-- **VidIQ Competitors:** https://vidiq.com/features/competitors/
-- **VidIQ Keywords Research:** https://support.vidiq.com/en/articles/9421214-keywords-research
-- **Thumblytics (A/B testing y simulación de miniaturas):** https://thumblytics.com/
-- **Google Books Ngram Viewer:** https://books.google.com/ngrams/
-- **Google Trends:** https://trends.google.es/trends/
-- **Google Scholar:** https://scholar.google.com/?hl=es
-- **Google Scholar Labs:** https://scholar.google.com/scholar_labs/search?hl=es
-- **AdForum (Creatividad publicitaria y referencias):** https://www.adforum.com/
-- **Google AI Studio (Generación y chat):** https://aistudio.google.com/prompts/new_chat
-- **Google Docs Video Scene Editor:** https://docs.google.com/videos/d/1__4zyHR8Q6gJsdy2LexqHgmX13M2XEb6NfSAlNeUh7s/edit?pli=1&scene=id.p#scene=id.p
+Catálogo técnico de plataformas, APIs y software para la oficina de YouTube, clasificado rigurosamente por su **estado de madurez y viabilidad operativa real**.
 
 ---
 
-## Música y Audio
-- **FlowMusic:** https://www.flowmusic.app/
-- **Google Flow:** https://flow.google.com/
+## 🚦 Leyenda de Madurez y Estado Operativo
+- 🟢 **Operativo Verificado:** Funcional hoy en día sin bloqueos de desarrollo (vía web o API madura).
+- 🟡 **Alfa / Experimental:** En desarrollo activo; no utilizar como única dependencia para el video inicial.
+- 🔴 **Restricción Legal / No Comercial:** Herramientas con pesos o licencias restringidas para monetización.
+- 🔵 **Visión Futura / No Implementado:** Automatizaciones que requieren auditorías de cuotas o no disponen de API pública oficial.
 
 ---
 
-## Suite ArtCraft (Automatización y Control para Agentes)
-Portal general: https://getartcraft.com/apps
-*Evaluar cuál de sus productos conviene usarse en qué momento u objetivo. Modos de uso: "Headless" y "Modo Puente o Bridge".*
+## 1. Analítica, Competencia e Investigación de Audiencia
 
-- **FilmCraft** (Equivalente moderno a *Adobe Premiere Pro* para montaje y línea de tiempo):
-  - Repositorio: https://github.com/storytold/filmcraft
-  - Get Started: https://github.com/storytold/filmcraft#get-started
-  - Control Protocol: https://github.com/storytold/filmcraft/blob/main/docs/control-protocol.md
-  - Built for Agents: https://github.com/storytold/filmcraft#built-for-agents
-
-- **EffectCraft** (Equivalente moderno a *Adobe After Effects* para motion graphics y efectos):
-  - Repositorio: https://github.com/storytold/effectcraft
-  - Get Started: https://github.com/storytold/effectcraft#get-started
-  - Built for Agents: https://github.com/storytold/effectcraft#built-for-agents
-  - Agents Docs: https://github.com/storytold/effectcraft/blob/main/docs/agents.md
-  - Control Protocol: https://github.com/storytold/effectcraft/blob/main/docs/control-protocol.md
-
-- **SoundCraft** (Equivalente moderno a *Adobe Audition* parcialmente para mezcla y edición de audio):
-  - Repositorio: https://github.com/storytold/soundcraft
-  - Getting Started: https://github.com/storytold/soundcraft#getting-started
-  - For Agents and Scripts: https://github.com/storytold/soundcraft#for-agents-and-scripts
-
-- **AudioCraft** (Generación de música y diseño sonoro).
+| Plataforma / Herramienta | Enlace / Endpoint | Estado Operativo | Notas y Condiciones de Uso |
+| :--- | :--- | :---: | :--- |
+| **YouTube Studio Web** | [studio.youtube.com](https://studio.youtube.com/) | 🟢 Operativo | Interfaz nativa para analítica, retención, fuentes y "Prueba y Compara" de miniaturas. |
+| **Google Trends** | [trends.google.es](https://trends.google.es/trends/) | 🟢 Operativo | Detección de volumen de búsqueda relativo e interés estacional en tiempo real. |
+| **Google Books Ngrams** | [books.google.com/ngrams](https://books.google.com/ngrams/) | 🟢 Operativo | Análisis de frecuencia histórica de términos y evolución cultural. |
+| **Google Scholar & Labs** | [scholar.google.com](https://scholar.google.com/) | 🟢 Operativo | Búsqueda de papers académicos primarios para el protocolo de fact-checking. |
+| **VidIQ (Web & Extension)** | [vidiq.com](https://vidiq.com/es/) | 🟢 Operativo | Auditoría de competidores, detección de outliers y análisis de palabras clave. |
+| **Thumblytics** | [thumblytics.com](https://thumblytics.com/) | 🟢 Operativo | Simulación previa de miniaturas en feed antes de publicar. |
+| **AdForum** | [adforum.com](https://www.adforum.com/) | 🟢 Operativo | Referencias de creatividad publicitaria y ganchos audiovisuales. |
+| **Google AI Studio** | [aistudio.google.com](https://aistudio.google.com/) | 🟢 Operativo | Prototipado rápido de prompts largos y análisis multimodal. |
 
 ---
 
-## Repositorios de Recursos de Stock, APIs y MCPs
+## 2. Repositorios de Recursos de Stock, APIs y MCPs
 
-### Coverr (Vídeos de stock con MCP oficial)
-- Web: https://coverr.co/
-- Documentación MCP: https://api.coverr.co/docs/mcp/
-- *Uso:* Encontrar vídeos de stock y conectarse mediante MCP oficial, respetando las limitaciones de su plan y licencia.
+| Plataforma | Integración | Estado | Consideraciones Legales y de Acceso |
+| :--- | :--- | :---: | :--- |
+| **Coverr (Web)** | Descarga directa vía [coverr.co](https://coverr.co/) | 🟢 Operativo | Videos de stock libres bajo términos web. Guardar evidencia en cada descarga. |
+| **Coverr (MCP / API)** | MCP Server ([api.coverr.co/docs/mcp/](https://api.coverr.co/docs/mcp/)) | 🟡 Precaución | Requiere API Key (Demo: 50 req/h). **Atención:** la documentación de la API condiciona el acceso gratuito a uso no comercial. Antes de monetizar con clips obtenidos vía API, verificar términos por escrito; por defecto, descargar desde la web oficial. |
+| **Pexels API** | [pexels.com/api/](https://www.pexels.com/api/) | 🟢 Operativo | Fotos y videos gratuitos con API Key. Permite uso comercial; prohibido redistribuir o vender assets no modificados. |
+| **Pixabay API** | [pixabay.com/api/docs/](https://pixabay.com/api/docs/) | 🟢 Operativo | Amplio catálogo de ilustración, vector y video. Verificar restricciones de marcas registradas. |
+| **Wikimedia Commons** | [mediawiki.org/wiki/API:Search](https://www.mediawiki.org/wiki/API:Search) | 🟢 Operativo | Ideal para material documental e histórico. **Exige registrar la licencia exacta (ej. CC-BY) y transferir la atribución obligatoria**. |
+| **Openverse API** | [api.openverse.org](https://api.openverse.org/v1/) | 🟢 Operativo | Buscador federado de contenido con licencias abiertas verificables. |
 
-### Pixabay API (Fotos y vídeos para montajes creativos)
-- Web: https://pixabay.com/
-- Documentación API: https://pixabay.com/api/docs/
+---
 
-### Pexels API (Fotos y vídeos gratuitos con API key)
-- Web: https://www.pexels.com/es-es/
-- Documentación API: https://www.pexels.com/api/
+## 3. Suite ArtCraft (Estado Real de los Repositorios para Agentes)
 
-### Wikimedia Commons API (Material documental e histórico)
-- Web: https://commons.wikimedia.org/
-- Documentación API: https://www.mediawiki.org/wiki/API:Search
-- *Uso:* Encontrar material documental e histórico de licencia abierta.
+> ⚠️ **Advertencia de Arquitectura:** ArtCraft es una iniciativa prometedora para control de agentes, pero actualmente se encuentra en fase temprana de desarrollo. **No depender de esta suite como pipeline único para el primer video**. Utilizar editores tradicionales (Premiere, DaVinci Resolve, CapCut) como base segura mientras la suite madura.
 
-### Openverse API (Búsqueda de imágenes con filtro de licencia abierta)
-- Web: https://openverse.org/
-- Documentación API: https://api.openverse.org/v1/
+| Herramienta | Repositorio / Documentación | Estado Real | Madurez y Evaluación Técnica |
+| :--- | :--- | :---: | :--- |
+| **FilmCraft** | [github.com/storytold/filmcraft](https://github.com/storytold/filmcraft) | 🟡 Alfa (~56%) | Montaje en línea de tiempo. El propio equipo estima que está aproximadamente al 56% de preparación para trabajo de producción real frente a Premiere. |
+| **EffectCraft** | [github.com/storytold/effectcraft](https://github.com/storytold/effectcraft) | 🟡 Alfa | Motion graphics y efectos visuales vía protocolo de control para agentes. |
+| **SoundCraft** | [github.com/storytold/soundcraft](https://github.com/storytold/soundcraft) | 🟡 Pre-Alfa | Mezcla y edición de audio basada en arquitectura similar a Pro Tools (no Audition). Aún en fases iniciales. |
+| **AudioCraft (Meta)** | Modelo externo | 🔴 No Comercial (CC-BY-NC) | Si se refiere a la suite abierta de Meta (MusicGen / AudioGen), sus pesos oficiales se publican bajo licencia **CC-BY-NC (No Comercial)**. Prohibido su uso para canales que moneticen en YouTube. |
+
+---
+
+## 4. Música y Locución
+
+| Servicio | Tipo | Estado | Términos de Licencia |
+| :--- | :--- | :---: | :--- |
+| **YouTube Audio Library** | Música y SFX integrados en Studio | 🟢 Operativo | 100% seguro contra reclamos de Content ID. Cuidar si requiere atribución. |
+| **ElevenLabs / PlayHT** | TTS y Voces sintéticas | 🟢 Operativo | Requiere plan de pago comercial (Creator o superior) para explotar en YouTube. |
+| **FlowMusic / Flow Google** | Herramientas experimentales de música | 🟡 Experimental | Verificar los términos comerciales del generador antes de incluir en videos públicos. |
+
+---
+
+## 5. Automatización del Pipeline (Realidad de la API de YouTube)
+
+- 🔵 **Subida automática y publicación por API:** Las aplicaciones que utilizan la YouTube Data API v3 creadas después de julio de 2020 tienen sus subidas marcadas como `privadas` de forma predeterminada hasta que el proyecto pase una auditoría formal de seguridad y cumplimiento de Google.
+- 🔵 **Lanzamiento de pruebas A/B "Prueba y Compara" por API:** Actualmente YouTube no dispone de endpoints públicos para inicializar ni gestionar pruebas nativas de Test & Compare. 
+- **Decisión operativa:** La publicación definitiva y la carga de variantes de miniaturas para A/B testing se realizan **manualmente por el creador en YouTube Studio**.

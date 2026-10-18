@@ -16,12 +16,20 @@ El guion debe responder afirmativamente a estas 4 preguntas:
 3. **¿Está el guion sustentado en fuentes y evita presentar afirmaciones dudosas como hechos?** (Verificación previa con el protocolo de fact-checking).
 4. **¿Los recursos externos citados respetan los derechos y permisos aplicables?** (Fair use legítimo, citas directas y respeto a la propiedad intelectual).
 
-### Declaración de Contenido Sintético / IA (YouTube Policy)
-- YouTube exige declarar obligatoriamente en YouTube Studio si el video contiene **contenido generado o alterado significativamente por IA** que muestre:
-  - Personas reales diciendo o haciendo cosas que no hicieron.
-  - Eventos o escenas fotorrealistas que parecen reales pero nunca ocurrieron.
-  - Lugares reales alterados con apariencia verídica.
-- *Nota:* No requiere declaración el contenido puramente animado, gráficos abstractos, corrección de audio menor o generación de ideas de fondo.
+### Declaración de Contenido Sintético y Voces IA (Política Vigente de YouTube)
+
+YouTube exige declarar en YouTube Studio cuando el contenido pueda confundirse con la realidad o involucre personas, lugares o eventos reales:
+
+**Casos que SÍ requieren marcar la casilla de declaración obligatoria:**
+1. **Personas reales y su voz:** Hacer parecer que una persona real dijo o hizo algo que no ocurrió, o generar sintéticamente la voz de una persona reconocible.
+2. **Escenas y eventos fotorrealistas:** Mostrar desastres, sucesos de actualidad, lugares geográficos o eventos históricos con apariencia realista generados por IA que nunca sucedieron.
+3. **Música generada por IA:** Composiciones musicales sintéticas realistas que imiten estilos de artistas o ejecuciones reales.
+
+**Casos que NO requieren declaración:**
+1. **Animación y contenido manifiestamente ficticio:** Estilos de anime, dibujos animados, stop-motion o efectos visuales claramente fantásticos.
+2. **Clonación de la propia voz del creador:** Utilizar una réplica de tu propia voz para locuciones, narración o doblajes multiidioma (con tu propio consentimiento).
+3. **Voces sintéticas de biblioteca claramente reconocibles como IA:** Locución sintética estándar que no intente engañar sobre la identidad de una persona real.
+4. **Asistencia de producción interna:** Uso de IA para lluvia de ideas, redacción de guiones, generación de subtítulos automáticos o corrección de color.
 
 ---
 

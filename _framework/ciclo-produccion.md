@@ -13,11 +13,13 @@
 
 ---
 
-## Flujo Automatizado Objetivo
-Construir un flujo automatizado que:
-1. Genere varias ideas de vídeos.
-2. Produzca diferentes títulos y miniaturas.
-3. Publique el vídeo.
-4. Lance una prueba A/B nativa cuando sea posible.
-5. Recopile los resultados y los analice.
-6. Utilice lo aprendido para orientar los siguientes vídeos.
+## Flujo Automatizado Objetivo (Visión Futura y Realidad Operativa)
+
+> **Nota de ingeniería:** El siguiente flujo define la arquitectura objetivo hacia la que evoluciona la oficina. En la actualidad, debido a restricciones de la YouTube Data API (las subidas de proyectos no verificados quedan forzadas como privadas y no existe API pública para el A/B testing nativo), los pasos 3 y 4 se ejecutan con asistencia de los agentes pero con **carga y publicación manual por el creador en YouTube Studio**.
+
+1. **Generación de ideas:** Asistida por agentes mediante análisis de outliers y Google Trends.
+2. **Producción de títulos y miniaturas (Packaging First):** El agente produce variantes de títulos y prompts/bocetos de 3 miniaturas.
+3. **Publicación del video:** El creador sube el archivo a YouTube Studio, configura la descripción, tags y pantallas finales.
+4. **Prueba A/B nativa:** El creador carga las 3 variantes en la herramienta "Prueba y Compara" de YouTube Studio.
+5. **Recopilación y análisis:** El agente asiste en la lectura de métricas tras el cierre del experimento (por *Watch Time Share*).
+6. **Aprendizaje y retroalimentación:** Los resultados alimentan la incubadora de ideas para el siguiente ciclo.

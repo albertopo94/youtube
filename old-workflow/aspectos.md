@@ -1,3 +1,7 @@
+<!-- ⚠️ DOCUMENTO HISTÓRICO Y DE REFERENCIA - NO OPERATIVO ⚠️ -->
+<!-- Este archivo contiene notas iniciales de estudio. NO aplicar directamente como reglas para agentes. -->
+<!-- Las directivas vigentes residen en AGENTS.md, _framework/reglas-sistema.md y _framework/roles/. -->
+
 1. sea el punto que sea que estemos tratando y tengas que darme un resultado u elemento pues que no sea uno que sea minimo 5.
 2. debes preguntarme si quiero que ejecutes el siguiente paso que definas, yo defina o definamos, es decir si lo proximo es hacer un storyboard, ..., o pistas de audio, debes preguntarme si quiero que lo hagas tu directamente o si quiero ir y hacerlo yo "manualmente" en otra herramienta (la cual tu mismo pudieras sugerirme).
 
