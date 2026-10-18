@@ -105,7 +105,12 @@ herramientas/tools que tenemos identificadas hasta ahora para el trabajo de prod
 - https://www.adforum.com/
 - https://aistudio.google.com/prompts/new_chat
 - https://docs.google.com/videos/d/1__4zyHR8Q6gJsdy2LexqHgmX13M2XEb6NfSAlNeUh7s/edit?pli=1&scene=id.p#scene=id.p
-- https://getartcraft.com/apps (evaluar cual de sus productos conviene usarse en que momento u objetivo, pricipalmente usar FilmCraft (lo que venia siendo "Adobe Premiere Pro"), EffectCraft (lo que venia siendo "Adobe After Effects"), SoundCraft (lo que venia siendo "Adobe Audition" parcialmente), AudioCraft ). modos de uso: "Headless" y "Modo Puente o "Bridge"".
+- https://getartcraft.com/apps (evaluar cual de sus productos conviene usarse en que momento u objetivo, pricipalmente usar FilmCraft (lo que venia siendo "Adobe Premiere Pro"), EffectCraft (lo que venia siendo "Adobe After Effects"), SoundCraft (lo que venia siendo "Adobe Audition" parcialmente), AudioCraft ). modos de uso: "Headless" y "Modo Puente o "Bridge"". https://github.com/storytold/filmcraft , https://github.com/storytold/filmcraft#get-started , https://github.com/storytold/filmcraft/blob/main/docs/control-protocol.md , https://github.com/storytold/filmcraft#built-for-agents , https://github.com/storytold/effectcraft , https://github.com/storytold/effectcraft#get-started , https://github.com/storytold/effectcraft#built-for-agents , https://github.com/storytold/effectcraft/blob/main/docs/agents.md , https://github.com/storytold/effectcraft/blob/main/docs/control-protocol.md , https://github.com/storytold/soundcraft , https://github.com/storytold/soundcraft#getting-started , https://github.com/storytold/soundcraft#for-agents-and-scripts , 
+- https://coverr.co/ , https://api.coverr.co/docs/mcp/
+- https://www.pexels.com/es-es/ , https://www.pexels.com/api/
+- https://pixabay.com/ , https://pixabay.com/api/docs/
+- https://commons.wikimedia.org/ , https://www.mediawiki.org/wiki/API:Search
+- https://openverse.org/ , https://api.openverse.org/v1/
 - 
 
 Encontrar vídeos de stock y conectarse mediante MCP oficial:
