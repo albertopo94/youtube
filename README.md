@@ -17,15 +17,31 @@ La producción moderna en YouTube funciona como un ciclo de vida de desarrollo d
 | **Audio Engineer** | **Diseñador Sonoro** | Música de fondo, ecualización de voz y colocación de efectos de sonido (SFX) para acentuar emociones. |
 | **QA / Linter / Compliance** | **Auditor de Calidad & Legal** | Sound check, flow check, style check y registro estricto de procedencia/licencias de cada recurso. |
 | **DevOps / Release** | **Publisher & Growth** | Publicación, carga de metadatos, tags y configuración de pruebas A/B de miniaturas en YouTube Studio. |
-| **Telemetría / Observabilidad** | **Analista de Retención** | Análisis de CTR, AVD y retención a 30s para retroalimentar la incubadora de ideas. |
+| **Telemetría / Observabilidad** | **Analista de Retención** | Análisis de impresiones, fuentes de tráfico, CTR, AVD y retención para retroalimentar el pipeline. |
 
 ---
 
-## ⚡ Reglas de Oro del Sistema (Gobernanza de Agentes)
+## ⚡ Gobernanza y Niveles de Autonomía de los Agentes
 
-Documentadas en detalle en `_framework/reglas-sistema.md`:
-1. **Regla de Alternativas (Mínimo 5):** Cada vez que un agente genere o proponga un resultado (ideas, títulos, nichos, conceptos de miniatura, ganchos), debe ofrecer como mínimo **5 alternativas**.
-2. **Regla de Bifurcación Operativa (Manual vs. Automático):** El agente debe consultar siempre antes de dar el siguiente paso si el creador desea que la IA lo ejecute automáticamente o si prefiere realizarlo de forma manual en una herramienta externa sugerida.
+Documentadas en detalle en `AGENTS.md` y `_framework/reglas-sistema.md`:
+
+1. **Autonomía Normal (Ejecución Fluida):** Tareas reversibles, investigación, redacción de borradores, búsqueda de stock y fact-checking se ejecutan sin pedir confirmación en cada micro-paso. Recomendación principal fundamentada para tareas rutinarias.
+2. **Aprobación Creativa (Puntos de Control / Checkpoints):** Validación humana explícita antes de pasar de fase:
+   - Nicho y concepto del canal.
+   - Packaging (títulos y miniaturas candidatas en `01-packaging.md`).
+   - Guion definitivo y puerta de originalidad/políticas en `02-guion.md`.
+   - Modo de producción (ejecución automática en agente vs. manual en herramienta externa).
+3. **Confirmación Obligatoria de Operaciones Sensibles:** Detención obligatoria antes de publicar en YouTube, consumir créditos/costos o ejecutar operaciones destructivas.
+4. **Regla de 5 Alternativas:** Aplicada estrictamente a **decisiones creativas clave** (nombres de canales, ángulos, ganchos de intro, títulos y conceptos de miniatura).
+
+---
+
+## 🛡️ Puertas de Calidad, Políticas y Rigor
+
+- **Puerta de Originalidad y Monetización:** Verificación obligatoria de valor editorial añadido y anti-contenido repetitivo/reutilizado antes de aprobar guiones.
+- **Protocolo de Fact-Checking:** Registro de fuentes primarias y verificación de afirmaciones en temas científicos, técnicos, históricos o noticias.
+- **Pruebas A/B Nativas de YouTube (Test & Compare):** Roteo de hasta 3 miniaturas en YouTube Studio evaluado por *Watch Time Share* durante semanas, evitando cambios manuales precipitados a las pocas horas.
+- **Trazabilidad Legal Precisa:** Registro de licencia exacta, versión consultada y texto de atribución para cada recurso.
 
 ---
 
@@ -55,6 +71,7 @@ youtube/
 │   └── plantillas/
 │       ├── prompts-utiles.md          # Prompts para perfil, banner con medidas y storyboards
 │       ├── registro-licencias-template.md # Tabla legal de trazabilidad de clips y audios
+│       ├── registro-verificacion-fuentes-template.md # Tabla de fact-checking y fuentes primarias
 │       ├── estudio-canal-template.md  # Plantilla para evaluar viabilidad de un canal nuevo
 │       ├── propuesta-branding-template.md # Plantilla para identidad, logo, banner y tono
 │       ├── entregable-final-template.md # Plantilla del video publicado (metadata, tags, créditos)

@@ -1,32 +1,31 @@
-# Plantilla: Registro de Procedencia y Licencias de Recursos
+# Plantilla: Registro de Procedencia, Licencias y Evidencias Legales
 
-Cada recurso que descargue tu agente (imagen, clip de video, pista musical o efecto de sonido) debe llevar consigo un registro estricto de dónde salió, quién lo creó y bajo qué condiciones legales se puede utilizar.
+Cada recurso que descargue tu agente o creador (imagen, clip de video, pista musical, efecto de sonido o modelo 3D) debe contar con un registro formal de procedencia y términos de uso.
 
 > **¿Por qué es indispensable?**  
-> Si dentro de seis meses tienes cientos de vídeos publicados y un propietario reclama derechos sobre uno de los clips, necesitas poder identificarlo y acreditar qué permiso o licencia tenías al momento de descargarlo.
+> Si meses después un tercero o una discográfica reclama derechos sobre un asset, este registro permite identificar el origen, acreditar la licencia vigente al momento de descarga y presentar el comprobante de términos.
 
 ---
 
 ## Tabla de Registro de Recursos
 
-| Campo | Ejemplo / Valor |
+| Campo | Especificación / Ejemplo |
 | :--- | :--- |
-| **Archivo** | `montanas_drone.mp4` |
-| **Plataforma** | `Coverr` (o Pexels, Pixabay, Wikimedia Commons, Openverse) |
-| **Página original** | `https://...` (URL directa del recurso) |
-| **Autor / Creador** | Nombre del creador |
-| **Licencia** | Nombre y enlace a las condiciones aplicables |
+| **Archivo local** | `assets/clips/montanas_drone_01.mp4` |
+| **Plataforma / Repositorio** | `Coverr` (o Pexels, Pixabay, Wikimedia Commons, Openverse, suscripción de pago) |
+| **Página original** | `https://coverr.co/videos/...` (URL directa del asset) |
+| **Autor / Creador** | Nombre o usuario del creador original |
+| **Licencia exacta y versión** | `Coverr License (Términos consultados 18/10/2026)` / `CC-BY 4.0` / etc. |
 | **Fecha de descarga** | `18/10/2026` |
-| **Uso comercial permitido** | `Sí`, según las condiciones verificadas |
-| **Atribución obligatoria** | `Sí` / `No`, según los términos de la licencia |
-| **Proyectos utilizados** | `youtube_video_001` |
+| **Permisos comerciales y restricciones** | Verificar según plan y asset (ojo: derechos de imagen de personas reconocibles, marcas comerciales o propiedades privadas pueden requerir autorizaciones adicionales aunque la plataforma sea libre). |
+| **Atribución requerida** | `Sí` / `No` |
+| **Texto exacto de atribución** | `"Video de [Autor] en Coverr.co bajo licencia libre."` (Texto exacto a colocar en la descripción de YouTube si aplica). |
+| **Evidencia / Copia de términos** | Enlace archivado o captura de la licencia aplicable guardada en `assets/licencias/`. |
+| **Proyectos / Videos utilizados** | `video-001-slug` (identificar exactamente en qué piezas se utilizó). |
 
 ---
 
-## Ventajas Clave
-1. **Acreditar la procedencia:** Demostrar el origen legítimo ante cualquier reclamación.
-2. **Comprobar las condiciones de utilización:** Validar si requiere atribución en la descripción de YouTube o si permite monetización comercial.
-3. **Localizar rápidamente los recursos empleados:** Identificar qué proyectos comparten el mismo archivo.
-
-> ⚠️ **Nota crítica sobre Pinterest y plataformas similares:**  
-> Que un archivo esté publicado en un Pin o tablero no demuestra que su autor haya autorizado reutilizarlo ni que sea de dominio público. Evitar material sin licencia comprobable.
+## Directrices de Seguridad Legal
+1. **Sin asunciones universales:** No asumir que un sitio "gratuito" otorga permiso comercial irrestricto para todos sus activos. Cada plataforma tiene restricciones específicas (ej. prohibición de revender, restricciones sobre personas identificables, uso en marcas registradas).
+2. **Atribución en descripción:** Si la licencia exige crédito (ej. Creative Commons con atribución), el texto exacto debe transferirse a la plantilla `entregable-final.md` para incluirse en la descripción pública de YouTube.
+3. **Plataformas de riesgo (Pinterest, foros, redes):** Que un archivo esté publicado en internet no implica que sea de uso libre. Prohibido usar recursos cuya cadena de derechos no esté explícitamente acreditada.

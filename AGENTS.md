@@ -1,64 +1,90 @@
 # AGENTS.md — Protocolo Operativo para Agentes de IA
 
-Este repositorio es la oficina y fábrica de creación de canales y videos de YouTube del creador. Todo agente que opere en este workspace debe acatar estrictamente las siguientes directivas y protocolos.
+Este repositorio es la oficina y fábrica de creación de canales y videos de YouTube del creador. Todo agente que opere en este workspace debe acatar estrictamente las siguientes directivas, niveles de autonomía y protocolos.
 
 ---
 
-## ⚡ Reglas de Oro del Sistema (Gobernanza Absoluta)
+## ⚡ Gobernanza y Niveles de Autonomía de los Agentes
 
-1. **Regla de las 5 Alternativas (Obligatoria):**
-   Siempre que el agente deba proponer, generar o sugerir cualquier elemento (nichos, nombres de canales, ángulos, ganchos de intro, títulos, conceptos de miniaturas, descripciones, llamadas a la acción, estilos visuales, etc.), **debe entregar como mínimo 5 alternativas bien diferenciadas**. Jamás entregar una sola opción salvo que el usuario lo pida expresamente.
+Para asegurar control creativo sin burocracia paralizante, el agente debe operar bajo **tres niveles de autonomía**:
 
-2. **Regla de Bifurcación Operativa (Manual vs. Automático):**
-   Antes de ejecutar el siguiente paso del pipeline (redactar guion, armar storyboard, generar locución, buscar clips o armar timeline), el agente **debe preguntar obligatoriamente al creador si desea que el agente lo ejecute directamente o si prefiere realizarlo él manualmente en una herramienta externa** (la cual el agente debe sugerir activamente).
+### 1. Autonomía Normal (Ejecución Fluida)
+- El agente investiga, redacta borradores, organiza archivos, busca recursos de stock, verifica fuentes y ejecuta tareas reversibles **sin pedir permiso en cada paso**.
+- Para tareas rutinarias o técnicas, el agente presenta una **recomendación principal fundamentada**, acompañada de alternativas solo cuando aporten valor genuino.
 
-3. **Filosofía "Packaging First" (Innegociable):**
-   **Está prohibido escribir un guion o producir metraje sin packaging aprobado.**
-   El 90% del éxito de un video depende de su promesa de interfaz (Título + Miniatura). Primero se valida la idea, se definen los títulos candidatos y se diseñan las 3 miniaturas independientes en `01-packaging.md`. Solo cuando el creador aprueba el packaging se avanza al guion.
+### 2. Aprobación Creativa (Puntos de Control / Checkpoints)
+El creador valida y aprueba explícitamente los hitos estratégicos antes de pasar a la siguiente etapa:
+- **Concepto del canal y nicho** (en `canales-en-estudio/`).
+- **Packaging del video:** Título definitivo y conceptos/bocetos de miniaturas en `01-packaging.md`.
+- **Guion final:** Aprobación de la estructura, gancho y puerta de originalidad en `02-guion.md`.
+- **Selección de estilo o storyboard:** Decisión sobre el modo de producción (automático vs. manual en herramienta externa).
+*(Una vez aprobado el hito por el creador, el agente continúa con autonomía).*
 
----
-
-## 🏗️ Protocolo de Archivos y Carpetas (Scaffolding Automático)
-
-### 1. Cuando el creador pida investigar un nuevo nicho o canal:
-- Crear una nueva carpeta en: `canales-en-estudio/[slug-del-canal]/`.
-- Copiar el contenido de `canales-en-estudio/_plantilla-canal/` dentro de la nueva carpeta:
-  - `estudio-mercado.md`: Outliers detectados, competidores y primeras 5 ideas.
-  - `propuesta-branding.md`: Concepto, público objetivo, paleta, logo y banner.
-- Consultar la metodología en `_framework/roles/01-investigacion-ideas.md`.
-
-### 2. Cuando un canal en estudio sea APROBADO:
-- Mover la carpeta de `canales-en-estudio/[slug-del-canal]/` a `mis-canales/[slug-del-canal]/`.
-- Asegurar que contenga la estructura viva según `mis-canales/_plantilla-canal/`:
-  - `branding/`: Carpeta con `banner.png`, `logo.png` y especificaciones.
-  - `banco-visual.md`: Estilos artísticos propios de este canal.
-  - `referentes.md`: Canales benchmark de este nicho.
-  - `videos-en-estudio/`: Pipeline de videos.
-  - `videos-publicados/`: Historial de entregas.
-
-### 3. Cuando se inicie un nuevo video para un canal activo:
-- Crear la carpeta en: `mis-canales/[slug-del-canal]/videos-en-estudio/[numero]-[slug-del-video]/`.
-- Copiar la plantilla modular desde `_framework/plantillas/pipeline-video-template/`:
-  - `01-packaging.md`: Títulos + Miniaturas A/B/C (completar y aprobar primero).
-  - `02-guion.md`: Estructura `Conflicto ➔ Contexto ➔ Mensaje ➔ CTA` con los primeros 5s resolviendo la promesa.
-  - `03-storyboard-y-edicion.md`: Escenas, A-roll, B-roll, SFX y modo de edición.
-  - `04-registro-recursos.md`: Tabla obligatoria de licencias y procedencia.
-  - `05-metricas-retencion.md`: Registro de rendimiento post-publicación.
-
-### 4. Cuando el video sea PUBLICADO en YouTube:
-- Mover la carpeta de `videos-en-estudio/[slug-video]/` a `mis-canales/[canal]/videos-publicados/[slug-video]/`.
-- Generar el archivo `entregable-final.md` usando `_framework/plantillas/entregable-final-template.md` con la URL de YouTube, miniatura definitiva, tags y descripción final.
-- Registrar el CTR y retención a los 30s en `05-metricas-retencion.md`.
+### 3. Confirmación Obligatoria de Operaciones Sensibles
+El agente **debe detenerse y solicitar confirmación expresa** antes de:
+- Publicar videos o metadatos en producción en YouTube.
+- Operaciones que impliquen costos financieros o consumo de créditos de pago.
+- Modificar o borrar archivos existentes relevantes de forma irreversible.
+- Operaciones destructivas de Git.
 
 ---
 
-## 📚 Mapa de Referencia y Conocimiento por Rol
+## 🎨 Regla de las 5 Alternativas (Decisiones Creativas Clave)
 
-| Etapa | Archivo de Conocimiento Obligatorio |
+- Para **decisiones creativas de alto impacto** (nombres de canales, ángulos diferenciadores, ganchos de apertura, títulos candidatos de video y conceptos de miniaturas independientes), el agente **debe proponer como mínimo 5 alternativas bien contrastadas**.
+- Para ajustes menores, microediciones o tareas operativas, basta con la mejor recomendación justificada.
+
+---
+
+## 🎯 Filosofía "Packaging First" (Hipótesis de Interfaz)
+
+- **El packaging (Título + Miniatura) es la hipótesis de interfaz del video:** No garantiza por sí solo el éxito, pero define qué público hace clic y fija la promesa que el contenido debe cumplir en los primeros segundos.
+- **Flujo:** Antes de escribir el guion definitivo, se validan los títulos candidatos y las 3 variantes de miniatura en `01-packaging.md`. Solo cuando el packaging está aprobado se avanza a la redacción y producción.
+
+---
+
+## 🛡️ Puertas de Seguridad: Originalidad, Fact-Checking y Legal
+
+1. **Originalidad y Monetización:** Ningún guion se aprueba sin verificar que aporta análisis o valor editorial propio que evite las sanciones de YouTube por contenido repetitivo o reutilizado.
+2. **Fact-Checking:** En videos de papers científicos, historia o noticias, registrar las afirmaciones clave y fuentes primarias (`_framework/plantillas/registro-verificacion-fuentes-template.md`). Evitar simplificaciones que alteren el sentido científico.
+3. **Licencias Precisas:** Todo recurso descargado debe registrar la licencia exacta y versión consultada a la fecha de descarga (`04-registro-recursos.md`).
+
+---
+
+## 🏗️ Protocolo de Archivos y Carpetas (Scaffolding)
+
+### 1. Investigación de Nuevo Canal:
+- Crear: `canales-en-estudio/[slug-canal]/`.
+- Duplicar contenido desde `canales-en-estudio/_plantilla-canal/` (`estudio-mercado.md` y `propuesta-branding.md`).
+- Consultar metodología en `_framework/roles/01-investigacion-ideas.md`.
+
+### 2. Promoción de Canal Aprobado:
+- Mover de `canales-en-estudio/[slug-canal]/` a `mis-canales/[slug-canal]/`.
+- Asegurar estructura viva según `mis-canales/_plantilla-canal/` (`branding/`, `banco-visual.md`, `referentes.md`, `videos-en-estudio/`, `videos-publicados/`).
+
+### 3. Producción de Video:
+- Crear: `mis-canales/[slug-canal]/videos-en-estudio/[numero]-[slug-video]/`.
+- Duplicar desde `_framework/plantillas/pipeline-video-template/`:
+  - `01-packaging.md` (Packaging First).
+  - `02-guion.md` (Apertura flexible, retención y puerta de originalidad).
+  - `03-storyboard-y-edicion.md` (Plan de planos, A/B-roll, audio y modo de edición).
+  - `04-registro-recursos.md` (Licencias, atribución y comprobantes legales).
+  - `05-metricas-retencion.md` (Impresiones, fuentes, retención y A/B test nativo).
+
+### 4. Publicación y Cierre:
+- Mover carpeta a `mis-canales/[canal]/videos-publicados/[slug-video]/`.
+- Completar `entregable-final.md` con URL pública, miniatura ganadora y créditos legales.
+- Registrar datos de rendimiento e informe de la prueba nativa "Prueba y Compara" de YouTube en `05-metricas-retencion.md`.
+
+---
+
+## 📚 Mapa de Referencia y Roles
+
+| Función | Documento de Consulta |
 | :--- | :--- |
-| **Generar ideas o evaluar outliers** | `_framework/roles/01-investigacion-ideas.md` y la raíz `ideas.md` |
-| **Diseñar títulos y miniaturas** | `_framework/roles/02-packaging-miniaturas.md` |
-| **Redactar ganchos, intros y guiones** | `_framework/roles/03-guion-y-narrativa.md` |
-| **Edición, ritmo, sonido y ArtCraft** | `_framework/roles/04-direccion-y-edicion.md` y `_framework/herramientas-y-apis.md` |
-| **Descarga de clips y trazabilidad legal** | `_framework/plantillas/registro-licencias-template.md` |
-| **Idiomas y mercados** | `_framework/estrategia-idiomas.md` |
+| **Ideación, Outliers y Fact-Checking** | `_framework/roles/01-investigacion-ideas.md`, `ideas.md` y `_framework/plantillas/registro-verificacion-fuentes-template.md` |
+| **Títulos, Miniaturas y A/B Nativo** | `_framework/roles/02-packaging-miniaturas.md` |
+| **Guion, Ganchos y Puerta de Originalidad** | `_framework/roles/03-guion-y-narrativa.md` |
+| **Edición, Ritmo, Sonido y ArtCraft** | `_framework/roles/04-direccion-y-edicion.md` y `_framework/herramientas-y-apis.md` |
+| **Trazabilidad Legal y Licencias** | `_framework/plantillas/registro-licencias-template.md` |
+| **Hipótesis de Mercados e Idiomas** | `_framework/estrategia-idiomas.md` |

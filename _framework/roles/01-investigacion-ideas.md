@@ -58,3 +58,31 @@ Antes de pasar una idea a guion, debe aprobar estos 6 filtros:
 4. **View Potential:** *¿Tiene el potencial real de alcanzar el objetivo de visualizaciones del canal?*
 5. **Alineación con el Branding:** *¿Esta idea encaja con la marca, tono, misión y visión del canal? (En un canal nuevo no limita tanto, pero no debe desvirtuar el concepto).*
 6. **Packageability (Adaptabilidad de packaging):** *¿Puedes idear un título contundente y una miniatura atractiva e irresistible para esta idea? Si no tiene buen packaging, la idea no avanza.*
+
+---
+
+## 3. Protocolo de Verificación de Hechos y Rigor de Fuentes (Fact-Checking)
+
+Para videos que aborden papers científicos, divulgación tecnológica, historia, noticias o finanzas, **el rigor es un pilar de retención y credibilidad**:
+- **Peligro de la sobresimplificación:** Explicar un paper complejo o un concepto técnico de forma accesible para todos los públicos no debe significar distorsionar las conclusiones originales de los autores ni afirmar correlaciones dudosas como hechos demostrados.
+- **Registro de afirmaciones y fuentes:** Para cada afirmación sustancial del guion, debe registrarse:
+  1. *Afirmación relevante:* Qué se dice en el video.
+  2. *Fuente primaria:* DOI del paper, libro, documento histórico o medio de origen.
+  3. *Fecha de consulta:* Cuándo se verificó la información.
+  4. *Segunda fuente independiente:* Obligatoria ante afirmaciones polémicas, extraordinarias o no consensuadas en la comunidad científica.
+  5. *Estado de verificación:* `Verificado` / `En debate` / `Descartado`.
+*(Utilizar la plantilla `_framework/plantillas/registro-verificacion-fuentes-template.md`).*
+
+---
+
+## 4. Maduración de Ideas: De la Variedad a la Decisión Estratégica
+Tener un banco amplio de ideas en `ideas.md` (papers, noticias satíricas, cócteles, lore, relax/dormir) es valioso como semillero, pero **cada canal exige una estrategia, público y métricas distintas**:
+- Un canal de divulgación científica exige rigor, gráficos claros y credibilidad.
+- Un canal pausado para dormir exige diseño sonoro inmersivo y duraciones extendidas.
+- **Regla:** No evaluar ideas de naturalezas incompatibles bajo el mismo molde ni mezclar públicos en un mismo canal. Cada canal en `canales-en-estudio/` debe responder a una apuesta de contenido clara y coherente.
+
+---
+
+## 5. Estrategia Lingüística como Hipótesis de Mercado
+La tabla de mercados de `_framework/estrategia-idiomas.md` (Español, Inglés, Hindi) debe tratarse como una **herramienta para formular hipótesis**, no como un ranking definitivo obligatorio:
+- Un mercado de cientos de millones de hablantes solo es una oportunidad real si somos capaces de producir contenido con la calidad cultural, idiomática y diferenciación requerida para competir en ese nicho.

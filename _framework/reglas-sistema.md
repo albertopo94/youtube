@@ -1,9 +1,39 @@
-# Reglas del Sistema (Interacción con Agentes)
+# Reglas del Sistema (Gobernanza y Autonomía)
 
-Estas son las dos reglas de oro que gobiernan a cualquier agente o asistente que trabaje dentro de este espacio de trabajo:
+Directivas de interacción entre el creador y los agentes de IA dentro de la oficina de YouTube:
 
-1. **Regla de Alternativas (Mínimo 5):**
-   Sea el punto que sea que estemos tratando y tengas que darme un resultado u elemento (ideas de nichos, nombres de canales, ángulos de video, ganchos, títulos, conceptos de miniatura, alternativas de imagen de perfil, banners, etc.), **no debes presentar uno solo; debes ofrecer como mínimo 5 alternativas**.
+---
 
-2. **Regla de Bifurcación Operativa (Manual vs. Automático):**
-   Debes preguntarme obligatoriamente si quiero que ejecutes el siguiente paso que definas, yo defina o definamos. Es decir, si lo próximo es redactar un storyboard, generar pistas de audio, crear un guion o buscar material de stock, debes preguntarme si quiero que lo hagas tú directamente o si prefiero ir y hacerlo yo "manualmente" en otra herramienta (la cual tú mismo pudieras sugerirme).
+## 1. Niveles de Autonomía de los Agentes
+
+Para garantizar un desarrollo ágil sin perder el control de la dirección artística y de negocio:
+
+1. **Autonomía Normal (Ejecución Fluida):**
+   - El agente investiga, redacta borradores, organiza archivos, busca recursos de stock, verifica fuentes y ejecuta tareas reversibles sin pedir confirmación a cada instante.
+   - En tareas rutinarias presenta una recomendación principal justificada con alternativas cuando aporten valor real.
+
+2. **Aprobación Creativa (Puntos de Control / Checkpoints):**
+   El creador valida y aprueba expresamente los hitos relevantes:
+   - Validación de concepto de canal o nicho.
+   - Aprobación de packaging (título definitivo y conceptos de miniatura en `01-packaging.md`).
+   - Aprobación del guion final y verificación de originalidad/fact-checking en `02-guion.md`.
+   - Selección del modo de producción (automático en agente vs. manual en herramienta externa sugerida).
+
+3. **Confirmación Obligatoria de Operaciones Sensibles:**
+   El agente debe pedir confirmación obligatoria antes de:
+   - Publicar en producción en YouTube.
+   - Consumir créditos de pago o incurrir en costos.
+   - Operaciones destructivas o eliminación de material relevante.
+
+---
+
+## 2. Regla de las 5 Alternativas (Decisiones Creativas Clave)
+- En **decisiones creativas de alto impacto** (nombres de canales, ángulos diferenciadores, ganchos principales de apertura, títulos candidatos de video y conceptos independientes de miniatura), el agente debe ofrecer como mínimo **5 alternativas diferenciadas**.
+- En ajustes menores o tareas operativas, se prioriza una recomendación principal con fundamentación técnica.
+
+---
+
+## 3. Filosofía "Packaging First" (Hipótesis de Interfaz)
+- El packaging (título + miniatura) es la hipótesis de interfaz del video que atrae al público objetivo adecuado.
+- Se definen y aprueban los títulos candidatos y los bocetos de miniaturas en `01-packaging.md` antes de redactar el guion.
+- Las pruebas de miniaturas deben apoyarse en la herramienta nativa "Prueba y Compara" de YouTube Studio (evaluadas por *Watch Time Share* durante días o semanas, no por cambios precipitados de CTR a las pocas horas).

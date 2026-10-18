@@ -1,11 +1,12 @@
 # Rol: Packaging y Diseño de Miniaturas (Thumbnails)
 
-El packaging (título + miniatura) es la promesa de interfaz de tu video. Define la tasa de click (CTR) y genera la expectativa central que el contenido debe satisfacer en los primeros segundos.
+El packaging (título + miniatura) es la **hipótesis de interfaz** de tu video. No es una garantía mágica ni un porcentaje matemático fijo: es la herramienta para captar al público adecuado y generar la expectativa correcta que el contenido debe validar en los primeros 30 segundos y sostener a lo largo del metraje.
 
 ---
 
 ## 1. Reglas Generales de Packaging
 - **Asignación de tiempo:** Dedicarle tanto tiempo, foco y detalle al packaging como a la edición del video.
+- **Hipótesis de audiencia:** El packaging debe atraer al espectador que realmente va a disfrutar y consumir el video, evitando el clickbait vacío que destruye la retención posterior.
 - **Amigable para Smart TV:** Los elementos visuales clave o partes críticas de dichos elementos deben ubicarse en o desde la parte superior, garantizando su visibilidad en interfaces de televisión.
 - **Relación Título vs. Miniatura:** La miniatura no debe repetir el título; debe aportar información complementaria, generar curiosidad, preguntas y/o emociones.
 
@@ -70,8 +71,18 @@ Antes de dar por buena una miniatura, debe superar 3 pruebas:
 
 ---
 
-## 5. Estrategia de las 3 Miniaturas (Pruebas A/B y Sustitución Rápida)
-Para cada video se producen **3 miniaturas completas**:
-- **Miniatura A:** La que se publica inicialmente.
-- **Miniaturas B y C:** Diseñadas de forma independiente (aplicando los 4 pasos anteriores para que no sean simples variaciones mínimas de color).
-- **Plan de contingencia:** Si en las primeras 2 a 6 horas el CTR está por debajo de la media esperada, se reemplaza de inmediato por la Miniatura B o C.
+## 5. Estrategia de 3 Miniaturas y Pruebas A/B Nativas (Test & Compare)
+Para cada video se desarrollan **hasta 3 conceptos de miniatura independientes**:
+- **Variante A, Variante B y Variante C:** Cada una debe explorar una brecha de curiosidad o ángulo visual diferente (no simples variaciones de color o tipografía).
+
+### Protocolo de Pruebas en YouTube:
+1. **Priorizar la herramienta nativa "Prueba y Compara" de YouTube:**
+   - Cargar las 3 miniaturas directamente en YouTube Studio al publicar o preparar el video.
+   - YouTube rota automáticamente las variantes entre la audiencia durante días o hasta 2 semanas.
+   - El ganador lo determina el algoritmo por **porcentaje de tiempo de visualización compartido (Watch Time Share)**, no únicamente por CTR bruto. Una miniatura puede tener más clics pero generar abandonos inmediatos; YouTube premia la que genera visualizaciones más largas y valiosas.
+2. **NO cambiar manualmente la miniatura durante una prueba activa:**
+   - Modificar títulos o miniaturas mientras corre una prueba nativa **detiene y reinicia el experimento**, invalidando los datos acumulados.
+3. **No precipitar decisiones a las 2–6 horas:**
+   - El CTR fluctúa drásticamente según el origen de las impresiones (sugeridos, búsqueda, notificaciones o página de inicio).
+   - En canales nuevos no existe una media histórica fiable contra la cual contrastar.
+   - Acumular evidencia estadística suficiente antes de sacar conclusiones o intervenir manualmente. Solo si no se dispone de la herramienta nativa se evaluará un reemplazo planificado tras varios días y con volumen de impresiones significativo.

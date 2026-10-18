@@ -1,55 +1,59 @@
 # Rol: Guion, Narrativa y Estructura
 
-El guion es el motor de retención. Su misión principal es cumplir de inmediato la promesa del packaging y mantener al espectador pegado a la pantalla escena tras escena.
+El guion es el motor de retención y la base de la monetización. Su misión principal es cumplir la expectativa generada por el packaging, aportar valor editorial genuino y sostener el interés del espectador escena tras escena.
 
 ---
 
-## 1. Estructura de Storytelling Prohibida vs. Recomendada
+## 1. Puerta de Control Obligatoria: Originalidad y Monetización (Policy Check)
 
-- ❌ **NO usar la estructura clásica de relato:** `Inicio -> Desarrollo -> Final` (en YouTube mata la retención al demorar el conflicto).
--  **USAR la estructura de retención moderna:**
-  $$\text{Conflicto} \longrightarrow \text{Contexto} \longrightarrow \text{Mensaje / Resolución} \longrightarrow \text{CTA}$$
+Antes de dar por aprobado cualquier guion (especialmente en canales automatizados o asistidos por IA), debe superar este filtro de políticas de YouTube:
+
+### Aportación Editorial Propia (Anti-Contenido Reutilizado y Anti-Spam)
+YouTube prohíbe o desmonetiza el contenido producido en masa, repetitivo o que reutilice material de terceros sin una transformación sustancial, educativa o de entretenimiento.
+El guion debe responder afirmativamente a estas 4 preguntas:
+1. **¿Qué argumento, explicación, análisis o experiencia original aporta este video?** (No basta con resumir o leer información pública).
+2. **¿Qué aprende o experimenta el espectador aquí que no obtiene simplemente viendo/leyendo el material de origen?** (En resúmenes de libros, no sustituir la obra; en noticias o lore, aportar perspectiva crítica, investigación o narrativa propia).
+3. **¿Está el guion sustentado en fuentes y evita presentar afirmaciones dudosas como hechos?** (Verificación previa con el protocolo de fact-checking).
+4. **¿Los recursos externos citados respetan los derechos y permisos aplicables?** (Fair use legítimo, citas directas y respeto a la propiedad intelectual).
+
+### Declaración de Contenido Sintético / IA (YouTube Policy)
+- YouTube exige declarar obligatoriamente en YouTube Studio si el video contiene **contenido generado o alterado significativamente por IA** que muestre:
+  - Personas reales diciendo o haciendo cosas que no hicieron.
+  - Eventos o escenas fotorrealistas que parecen reales pero nunca ocurrieron.
+  - Lugares reales alterados con apariencia verídica.
+- *Nota:* No requiere declaración el contenido puramente animado, gráficos abstractos, corrección de audio menor o generación de ideas de fondo.
 
 ---
 
-## 2. Ganchos (Hooks)
-- **Select and write a good hook or hooks:** El gancho debe captar la atención en milisegundos y conectar sin fricción con el conflicto inicial del video.
+## 2. Estructura de Storytelling: Del Conflicto al Valor
+
+- ❌ **Evitar la estructura clásica rígida de aula:** `Introducción formal -> Desarrollo plano -> Conclusión` (suele provocar caídas masivas de retención).
+-  **Estructura dinámica orientada al valor:**
+  $$\text{Conflicto / Dilema} \longrightarrow \text{Contexto Dosificado} \longrightarrow \text{Desarrollo / Argumento Central} \longrightarrow \text{Resolución (Payoff)} \longrightarrow \text{CTA Orgánico}$$
 
 ---
 
-## 3. Cómo Crear una Intro de YouTube Aún Más Impactante
+## 3. Ganchos y Apertura (Los Primeros 5 a 30 Segundos)
+
+El objetivo de la apertura es alinear de inmediato las expectativas del espectador con lo prometido en el título y la miniatura, protegiendo la métrica clave de **retención a los 30 segundos**.
+
+### Adaptabilidad según Formato (Apertura Flexible)
+La regla de validar la promesa en los primeros segundos es una guía de retención, no una camisa de fuerza idéntica para todos los géneros:
+- **Formatos dinámicos / Desafíos / Tutoriales:** La promesa debe validarse en los primeros **5 a 10 segundos** tanto con audio como con video para evitar abandono inmediato.
+- **Ensayos científicos / Documentales / Divulgación profunda:** Requieren establecer una atmósfera o pregunta provocadora (*hook de misterio o tensión*) en los primeros 15 a 30 segundos antes de desplegar el argumento.
+- **Relatos / Contenido pausado (ej. relax o bedtime stories):** El tono y la inmersión sonora inicial son prioritarios sobre un corte apresurado.
+
+---
+
+## 4. Elementos Clave de una Gran Introducción
 
 ### 1. Defining Your "Plot Promise" (Promesa de Trama)
-El título y la miniatura no sólo consiguen el clic: generan expectativas explícitas sobre lo que va a suceder. Toda la intro debe estar orientada a respaldar esa promesa.
+Toda apertura debe confirmar al espectador que está en el lugar correcto y que la promesa del packaging será saldada.
 
-### 2. Your First 5 Seconds (Los Primeros 5 Segundos)
-Su **único trabajo** es cumplir la promesa de trama ("plot promise") de forma simultánea con **audio y video**. El espectador debe confirmar al instante que está en el video correcto.
+### 2. The "Rest" of Your Intro (Los 3 Ingredientes)
+1. **Contexto mínimo indispensable:** Sólo el necesario para entender el siguiente punto; el resto se dosifica durante el desarrollo.
+2. **Curiosity Gaps (Brechas de curiosidad):** Abrir preguntas o contradicciones al inicio cuyas respuestas se entregarán a lo largo del video.
+3. **Unique Service Proposition:** Evidenciar esfuerzo, autoridad, estilo visual o prueba tangible desde temprano (*métrica: reducir el "tiempo hasta el valor"*).
 
-### 3. The "Rest" of Your Intro (El Resto de la Introducción)
-Construida con 3 ingredientes clave (el orden entre ellos puede variar según la pieza):
-
-1. **Context (Contexto):**
-   - Sólo el suficiente y necesario para comprender la siguiente entrega de valor.
-   - Prohibidos los bloques largos y aburridos de introducción contextual. Si hace falta más contexto, se dosifica a lo largo del video.
-
-2. **Curiosity Gap (Brecha de Curiosidad entre lo que se sabe y lo que se desea saber):**
-   - Abrir preguntas abiertas o dilemas desde la introducción (puede haber más de una) y resolverlas gradualmente durante el desarrollo.
-   - *Planning Your Intro:*
-     - ¿Qué preguntas podés introducir?
-     - ¿Qué contradicciones, interrupciones o anticipos (*teases*) podés incorporar?
-     - ¿Qué promesas podés hacer ahora que se pagarán (*payoff*) más adelante en el video?
-
-3. **Unique Service Proposition (Lo que hace especial a tu video):**
-   Cuatro caminos para establecerlo:
-   - **Expertise (Autoridad/Conocimiento):** Demostrar conocimiento profundo del tema.
-   - **Effort (Esfuerzo visible):** Demostrar dedicación mediante un nivel de edición o investigación que evidencie el trabajo detrás (método muy recomendado).
-   - **Personality (Personalidad):** Tono, carisma o perspectiva particular.
-   - **Proof (Prueba del resultado):** Mostrar el resultado tangible si la temática lo permite.
-   
-   *Métrica clave:* **"Tiempo hasta el valor"**. Evaluar cuánto tarda el espectador en recibir la primera recompensa de valor; no demorar innecesariamente la entrega prometida.
-
-### 4. Frontloading the Viewing Experience (Adelantar la Experiencia Visual)
-Los espectadores juzgan la calidad completa de la producción por lo que experimentan en la intro:
-- *¿Qué escuchan sus oídos en los primeros segundos?* (Música de impacto, voces claras, efectos envolventes).
-- *¿Qué ven sus ojos?* (Tomas impactantes, animaciones personalizadas, metraje de calidad, motion graphics).
-- **Regla:** Si el video incluirá animaciones o tomas impresionantes, un destello o muestra de esos elementos de alta calidad **debe aparecer obligatoriamente en la intro**.
+### 3. Frontloading (Adelantar la Experiencia)
+Si el video contendrá animación destacada, datos reveladores o edición especial, mostrar un destello de esa calidad en los primeros compases para fijar el estándar de producción en la mente de la audiencia.
