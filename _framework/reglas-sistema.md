@@ -14,10 +14,11 @@ Para garantizar un desarrollo ágil sin perder el control de la dirección artí
 
 2. **Aprobación Creativa (Puntos de Control / Checkpoints):**
    El creador valida y aprueba expresamente los hitos relevantes:
-   - Validación de concepto de canal o nicho.
-   - Aprobación de packaging (título definitivo y conceptos de miniatura en `01-packaging.md`).
-   - Aprobación del guion final y verificación de originalidad/fact-checking en `02-guion.md`.
-   - Selección del modo de producción (automático en agente vs. manual en herramienta externa sugerida).
+   - Validación de concepto de canal o nicho (en `canales-en-estudio/`).
+   - Aprobación de packaging (título definitivo y 3 conceptos de miniatura en `01-packaging.md`).
+   - Aprobación del guion maestro por bloques `[Bxx]`, fact-checking (`06-fuentes-y-verificacion.md`) y puerta de originalidad en `02-guion.md`.
+   - Aprobación del montaje preliminar (*Animatic / Radio Edit*) en `03-storyboard-y-edicion.md` antes de generar o descargar assets finales de pago.
+   - Selección del modo de producción (asistido por agente vs. montaje manual en editor externo).
 
 3. **Confirmación Obligatoria de Operaciones Sensibles:**
    El agente debe pedir confirmación obligatoria antes de:

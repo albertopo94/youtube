@@ -76,11 +76,13 @@ youtube/
 │       ├── propuesta-branding-template.md # Plantilla para identidad, logo, banner y tono
 │       ├── entregable-final-template.md # Plantilla del video publicado (metadata, tags, créditos)
 │       └── pipeline-video-template/   # Plantilla modular para producir un video:
-│           ├── 01-packaging.md
-│           ├── 02-guion.md
-│           ├── 03-storyboard-y-edicion.md
-│           ├── 04-registro-recursos.md
-│           └── 05-metricas-retencion.md
+│           ├── 00-estado-produccion.md       # Estado persistente y siguiente acción permitida
+│           ├── 01-packaging.md               # 5 títulos + 3 variantes de miniatura nativas
+│           ├── 02-guion.md                   # Guion por bloques [Bxx] y puerta de originalidad
+│           ├── 03-storyboard-y-edicion.md    # Animatic preliminar, tabla de escenas y diseño sonoro
+│           ├── 04-registro-recursos.md       # Registro integral de licencias, stock, IA y música
+│           ├── 05-metricas-retencion.md      # Impresiones, fuentes, retención y Test & Compare
+│           └── 06-fuentes-y-verificacion.md  # Fact-checking con DOI/fuentes primarias y matices
 │
 ├── canales-en-estudio/                # Incubadora de canales en fase de investigación y validación
 │   ├── README.md                      # Instrucciones de uso
@@ -93,11 +95,12 @@ youtube/
 
 ---
 
-## 🔄 Flujo Operativo de un Video (Packaging First)
+## 🔄 Flujo Operativo de un Video (Pipeline Consolidado)
 
-1. **Selección de Idea:** Seleccionar idea de `ideas.md` o validar outlier con `_framework/roles/01-investigacion-ideas.md`.
-2. **Packaging First:** Definir 5 títulos y conceptualizar las 3 miniaturas independientes en `01-packaging.md`.
-3. **Guionado de Retención:** Redactar el guion en `02-guion.md` con apertura adaptada al género y puerta obligatoria de originalidad.
-4. **Storyboard y Edición:** Planificar tomas y diseño sonoro en `03-storyboard-y-edicion.md`.
-5. **Auditoría Legal y de Fuentes:** Asentar cada recurso, licencia y afirmación factual en `04-registro-recursos.md`.
-6. **Publicación y Pruebas A/B:** Configurar la prueba nativa "Prueba y Compara" (hasta 3 miniaturas) en YouTube Studio y monitorear el resultado por tiempo de visualización compartido (*Watch Time Share*) en `05-metricas-retencion.md` sin alterar los metadatos durante el experimento.
+1. **Inicio y Estado Persistente:** Identificar canal/video y verificar entregables en `00-estado-produccion.md`.
+2. **Packaging First:** Definir 5 títulos y las 3 variantes de miniatura en `01-packaging.md` antes de escribir el guion.
+3. **Fact-Checking y Rigor:** Enlazar afirmaciones clave con DOIs y fuentes primarias en `06-fuentes-y-verificacion.md`.
+4. **Guionado Atómico por Bloques:** Redactar la locución por bloques `[Bxx]` con puerta de originalidad en `02-guion.md`.
+5. **Animatic y Edición:** Montar la locución provisional (scratch track) y wireframe visual en `03-storyboard-y-edicion.md`. Validar el ritmo narrativo antes de generar o descargar assets finales de pago.
+6. **Auditoría Legal:** Asentar cada recurso, licencia, plan y texto de atribución en `04-registro-recursos.md`.
+7. **Publicación y Pruebas A/B Nativas:** Cargar variantes en "Prueba y Compara" de YouTube Studio y monitorear el resultado por tiempo de visualización compartido (*Watch Time Share*) en `05-metricas-retencion.md`. Cerrar el video con `entregable-final.md`.

@@ -4,13 +4,33 @@ La edición transforma el guion en una experiencia audiovisual dinámica, evitan
 
 ---
 
-## ⚡ Metodología Central: El Pipeline Audio-First y Fase de Animatic
+## ⚡ Metodología: Selección del Flujo Audiovisual según el Género
 
-En producciones narradas o automatizadas con IA, **el audio es la columna vertebral temporal y el video se construye en consecuencia**:
+No todo video se produce de la misma manera. El agente y el creador deben seleccionar el flujo en `00-estado-produccion.md` antes de montar:
 
+### 1. Flujo Audio-First (Predeterminado)
+- **Géneros:** Divulgación científica, ensayos audiovisuales, documentales, historias de lore y resúmenes analíticos.
+- **Principio:** La voz es la columna vertebral temporal y el video se construye en consecuencia.
 $$\text{Guion por Bloques} \longrightarrow \text{Locución Provisional (Scratch)} \longrightarrow \text{Animatic (Montaje Preliminar)} \longrightarrow \text{Aprobación Narrativa} \longrightarrow \text{Assets y Locución Final} \longrightarrow \text{Música y SFX}$$
 
-### Las 6 Fases del Montaje Iterativo:
+### 2. Flujo Screen-First / Action-First
+- **Géneros:** Tutoriales técnicos, demostraciones de software, resolución de bugs y programación.
+- **Principio:** La acción real en pantalla determina los tiempos indispensables.
+$$\text{Escaleta de Acciones} \longrightarrow \text{Grabación de Pantalla (Screencast)} \longrightarrow \text{Edición de Tiempos Muertos} \longrightarrow \text{Locución Ajustada a la Acción} \longrightarrow \text{Rótulos y Zooms}$$
+
+### 3. Flujo Speaker-First (A-Roll Directo)
+- **Géneros:** Presentador a cámara, entrevistas, comentarios y vlogs.
+- **Principio:** La espontaneidad y los gestos del presentador fijan el ritmo base.
+$$\text{Puntos Clave / Guion de Apoyo} \longrightarrow \text{Grabación de Cámara (A-Roll)} \longrightarrow \text{Selección de Tomas Válidas} \longrightarrow \text{B-Roll de Apoyo y Reacciones} \longrightarrow \text{Música y Pulido}$$
+
+### 4. Flujo Music-First / Ambient
+- **Géneros:** Videos para dormir, concentración, relax, viajes cinematográficos o ritmos musicales.
+- **Principio:** La pista musical o atmósfera sonora dicta la emoción, la cadencia y el tempo de los cortes.
+$$\text{Selección de Pista / Beat} \longrightarrow \text{Marcación de Golpes Rítmicos} \longrightarrow \text{Montaje de Planos Fluidos} \longrightarrow \text{Locución Pausada (si aplica)} \longrightarrow \text{Efectos Ambientales}$$
+
+---
+
+### Las 6 Fases del Montaje Iterativo (Flujo Audio-First):
 1. **Guion maestro estructurado por bloques (`[B01]`, `[B02]...`):** Cada bloque tiene texto de locución, objetivo y duración estimada.
 2. **Locución provisional (*Scratch track*):** Montar la voz de prueba en la línea de tiempo de Premiere, DaVinci o FilmCraft.
 3. **Animatic / Montaje preliminar (Wireframe audiovisual):** Colocar imágenes provisionales, capturas de pantalla, bocetos rápidos o placas de texto sobre la voz de prueba.

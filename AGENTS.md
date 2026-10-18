@@ -1,91 +1,119 @@
-# AGENTS.md — Protocolo Operativo para Agentes de IA
+# AGENTS.md — Protocolo Operativo y Contrato de Gobernanza para Agentes
 
-Este repositorio es la oficina y fábrica de creación de canales y videos de YouTube del creador. Todo agente que opere en este workspace debe acatar estrictamente las siguientes directivas, niveles de autonomía y protocolos.
+Este repositorio es la oficina de producción de canales y videos de YouTube del creador. Todo agente de IA que opere en este workspace debe acatar estrictamente el siguiente contrato de trabajo, niveles de autonomía y directivas técnicas.
 
 ---
 
-## ⚡ Gobernanza y Niveles de Autonomía de los Agentes
+## 🧭 01. Protocolo Universal de Inicio y Continuidad de Tareas
 
-Para asegurar control creativo sin burocracia paralizante, el agente debe operar bajo **tres niveles de autonomía**:
+Tanto si un agente ingresa al repositorio por primera vez como si retoma el trabajo de otro agente o del creador, debe seguir este protocolo antes de ejecutar cualquier acción:
+
+### Al Iniciar una Sesión de Trabajo:
+1. **Identificar el Contexto:** Detectar si la tarea pertenece a un canal en investigación (`canales-en-estudio/[canal]/`) o a un canal activo en producción (`mis-canales/[canal]/`).
+2. **Consultar el Estado Real (`00-estado-produccion.md`):** Leer el archivo de estado de producción del video o canal. No asumir nada a partir de conversaciones pasadas.
+3. **Verificación Física de Entregables:** Inspeccionar qué archivos existen realmente en el disco (ej. si `01-packaging.md` tiene títulos y miniaturas aprobados; si `06-fuentes-y-verificacion.md` tiene las fuentes primarias validadas). **Completar casillas no equivale a haber demostrado el resultado.**
+4. **Determinar la Siguiente Acción Permitida:** Identificar la fase activa y verificar si se encuentra en estado `EN_CURSO` o si está bloqueada en `PENDIENTE_APROBACION` esperando validación humana.
+
+### Al Finalizar o Pausar la Sesión:
+1. **Registrar Entregables y Estado:** Actualizar `00-estado-produccion.md` con:
+   - Entregables completados y verificados físicamente.
+   - Estado normalizado (`NO_INICIADO`, `EN_CURSO`, `BLOQUEADO`, `PENDIENTE_APROBACION`, `APROBADO`).
+   - Bloqueos detectados o decisiones pendientes de validación.
+   - Siguiente acción exacta que debe ejecutar el próximo agente.
+2. Si se alcanzó un hito creativo, cambiar el estado a `PENDIENTE_APROBACION` y presentar la solicitud al creador.
+
+---
+
+## ⚡ 02. Gobernanza y Niveles de Autonomía
+
+Para asegurar control creativo y seguridad financiera sin burocracia paralizante:
 
 ### 1. Autonomía Normal (Ejecución Fluida)
 - El agente investiga, redacta borradores, organiza archivos, busca recursos de stock, verifica fuentes y ejecuta tareas reversibles **sin pedir permiso en cada paso**.
 - Para tareas rutinarias o técnicas, el agente presenta una **recomendación principal fundamentada**, acompañada de alternativas solo cuando aporten valor genuino.
 
 ### 2. Aprobación Creativa (Puntos de Control / Checkpoints)
-El creador valida y aprueba explícitamente los hitos estratégicos antes de pasar a la siguiente etapa:
+El creador valida y aprueba explícitamente los hitos estratégicos antes de avanzar:
 - **Concepto del canal y nicho** (en `canales-en-estudio/`).
-- **Packaging del video:** Título definitivo y conceptos de miniaturas en `01-packaging.md`.
-- **Guion maestro por bloques:** Aprobación de la estructura atómica `[Bxx]`, gancho y puerta de originalidad en `02-guion.md`.
-- **Montaje preliminar / Animatic:** Validación del ritmo y la fluidez sobre la locución provisional (scratch track) en `03-storyboard-y-edicion.md` **antes de generar renders finales de pago o descargar clips en alta**.
-- **Selección de estilo y modo de edición:** Decisión sobre el modo de producción (automático asistido por agente vs. montaje manual por el creador en herramienta externa).
+- **Packaging del video:** Título definitivo y conceptos de miniatura en `01-packaging.md`.
+- **Guion maestro por bloques:** Estructura `[Bxx]`, gancho, fuentes y puerta de originalidad en `02-guion.md`.
+- **Montaje preliminar / Animatic:** Validación del ritmo sobre la locución provisional en `03-storyboard-y-edicion.md` **antes de generar renders de pago o descargar clips en alta**.
+- **Modo de producción:** Decisión entre montaje asistido por agente o edición manual por el creador en software externo.
 *(Una vez aprobado cada hito por el creador, el agente continúa con autonomía).*
 
 ### 3. Confirmación Obligatoria de Operaciones Sensibles
 El agente **debe detenerse y solicitar confirmación expresa** antes de:
 - Publicar videos o metadatos en producción en YouTube.
-- Operaciones que impliquen costos financieros o consumo de créditos de pago.
+- Operaciones que impliquen costos financieros o consumo de créditos de pago (APIs de voz, generadores de imagen de pago, etc.).
 - Modificar o borrar archivos existentes relevantes de forma irreversible.
 - Operaciones destructivas de Git.
 
 ---
 
-## 🎨 Regla de las 5 Alternativas (Decisiones Creativas Clave)
+## 🎬 03. Selección del Flujo Audiovisual según el Género
 
-- Para **decisiones creativas de alto impacto** (nombres de canales, ángulos diferenciadores, ganchos de apertura, títulos candidatos de video y conceptos de miniaturas independientes), el agente **debe proponer como mínimo 5 alternativas bien contrastadas**.
-- Para ajustes menores, microediciones o tareas operativas, basta con la mejor recomendación justificada.
+Al iniciar la producción de un video, el agente debe identificar el género y aplicar el flujo audiovisual correspondiente:
 
----
-
-## 🎯 Filosofía "Packaging First" (Hipótesis de Interfaz)
-
-- **El packaging (Título + Miniatura) es la hipótesis de interfaz del video:** No garantiza por sí solo el éxito, pero define qué público hace clic y fija la promesa que el contenido debe cumplir en los primeros segundos.
-- **Flujo:** Antes de escribir el guion definitivo, se validan los títulos candidatos y las 3 variantes de miniatura en `01-packaging.md`. Solo cuando el packaging está aprobado se avanza a la redacción y producción.
-
----
-
-## 🛡️ Puertas de Seguridad: Originalidad, Fact-Checking y Legal
-
-1. **Originalidad y Monetización:** Ningún guion se aprueba sin verificar que aporta análisis o valor editorial propio que evite las sanciones de YouTube por contenido repetitivo o reutilizado.
-2. **Fact-Checking:** En videos de papers científicos, historia o noticias, registrar las afirmaciones clave y fuentes primarias (`_framework/plantillas/registro-verificacion-fuentes-template.md`). Evitar simplificaciones que alteren el sentido científico.
-3. **Licencias Precisas:** Todo recurso descargado debe registrar la licencia exacta y versión consultada a la fecha de descarga (`04-registro-recursos.md`).
+1. **Audio-First (Predeterminado):**
+   - *Aplicable a:* Ensayos audiovisuales, divulgación científica, documentales e historias narradas.
+   - *Flujo:* Guion por bloques ➔ Locución provisional (Scratch Track) ➔ Animatic preliminar ➔ Aprobación narrativa ➔ Locución final y assets de alta resolución ➔ Música y SFX al final.
+2. **Screen-First / Action-First:**
+   - *Aplicable a:* Tutoriales de software, desarrollo de código, screencasts paso a paso.
+   - *Flujo:* Guion de acciones técnicas ➔ Grabación de pantalla de las acciones reales ➔ Locución adaptada a los tiempos de la interacción ➔ Montaje y acentos visuales.
+3. **Speaker-First (A-Roll Directo):**
+   - *Aplicable a:* Presentador hablando directamente a cámara, entrevistas o vlogs.
+   - *Flujo:* Puntos clave/escaleta ➔ Grabación de A-Roll ➔ Selección de tomas buenas ➔ B-Roll de apoyo sobre la voz del presentador.
+4. **Music-First / Ambient:**
+   - *Aplicable a:* Piezas contemplativas, videos para relax, concentración o dormir.
+   - *Flujo:* Selección de pista sonora o atmósfera ambiental ➔ Selección de metraje fluido ➔ Locución pausada (si aplica) sincronizada con la música.
 
 ---
 
-## 🏗️ Protocolo de Archivos y Carpetas (Scaffolding)
+## 🎯 04. Criterios de Salida Verificables (Definition of Done) por Fase
 
-### 1. Investigación de Nuevo Canal:
-- Crear: `canales-en-estudio/[slug-canal]/`.
-- Duplicar contenido desde `canales-en-estudio/_plantilla-canal/` (`estudio-mercado.md` y `propuesta-branding.md`).
-- Consultar metodología en `_framework/roles/01-investigacion-ideas.md`.
+Para que una fase se considere `APROBADO`, debe existir evidencia física demostrable:
 
-### 2. Promoción de Canal Aprobado:
-- Mover de `canales-en-estudio/[slug-canal]/` a `mis-canales/[slug-canal]/`.
-- Asegurar estructura viva según `mis-canales/_plantilla-canal/` (`branding/`, `banco-visual.md`, `referentes.md`, `videos-en-estudio/`, `videos-publicados/`).
-
-### 3. Producción de Video (Pipeline Audio-First Iterativo):
-- Crear: `mis-canales/[slug-canal]/videos-en-estudio/[numero]-[slug-video]/`.
-- Duplicar desde `_framework/plantillas/pipeline-video-template/`:
-  - `01-packaging.md` (Packaging First).
-  - `02-guion.md` (Guion atómico por bloques `[Bxx]` con locución provisional y puerta de originalidad).
-  - `03-storyboard-y-edicion.md` (Animatic preliminar de baja fidelidad ➔ Aprobación ➔ Assets finales y diseño sonoro).
-  - `04-registro-recursos.md` (Registro integral de stock, IA visual, TTS, música y licencias).
-  - `05-metricas-retencion.md` (Impresiones, fuentes, retención y prueba nativa de YouTube).
-
-### 4. Publicación y Cierre:
-- Mover carpeta a `mis-canales/[canal]/videos-publicados/[slug-video]/`.
-- Completar `entregable-final.md` con URL pública, miniatura ganadora y créditos legales.
-- Registrar datos de rendimiento e informe de la prueba nativa "Prueba y Compara" de YouTube en `05-metricas-retencion.md`.
+- **Fase Packaging:** Existen 5 títulos candidatos y 3 conceptos de miniatura bien diferenciados con bocetos/prompts en `01-packaging.md`. Título y enfoque elegidos por el creador.
+- **Fase Guion:** Existe el documento `02-guion.md` con estructura atómica por bloques `[Bxx]`, plot promise definida en los primeros segundos, aportación editorial justificada y fuentes primarias registradas en `06-fuentes-y-verificacion.md`.
+- **Fase Animatic:** Existe una locución provisional reproducible y un timeline/animatic de baja fidelidad donde el ritmo y el flujo narrativo fueron evaluados y aprobados.
+- **Fase Producción y Edición:** Existen los recursos generados/descargados, la tabla de `03-storyboard-y-edicion.md` vinculada 1:1 con los bloques de guion, y el video exportado ha superado los checks de sonido (*sound check*), ritmo (*flow check*) y estilo (*style check*).
+- **Fase Auditoría Legal:** Todos los recursos cuentan con licencia verificada, términos archivados y textos de atribución en `04-registro-recursos.md`.
 
 ---
 
-## 📚 Mapa de Referencia y Roles
+## 🛡️ 05. Dos Reglas Críticas de Realidad Operativa
 
-| Función | Documento de Consulta |
+1. **El Control de Originalidad NO es Garantía de Monetización:**
+   El filtro de originalidad y anti-contenido repetitivo eleva el estándar editorial y mitiga riesgos conocidos, pero **no garantiza la monetización ni blinda el canal de forma infalible**. Las decisiones de YouTube son discrecionales y están sujetas a revisiones humanas y cambios de políticas. La función del agente es señalar riesgos y maximizar el valor genuino.
+2. **No Automatizar Prematuramente:**
+   No desarrollar aplicaciones de orquestación complejas, dashboards analíticos ni bots de publicación automática por API antes de completar manualmente con éxito un **primer video piloto**. El foco actual es validar el pipeline y las capacidades reales del entorno.
+
+---
+
+## 🏗️ 06. Scaffolding y Estructura por Video en Producción
+
+Cada carpeta de video en `mis-canales/[canal]/videos-en-estudio/[numero-slug]/` debe contener exactamente:
+
+```text
+[numero-slug]/
+├── 00-estado-produccion.md       # Estado persistente, fase actual y siguiente acción
+├── 01-packaging.md               # 5 títulos + 3 variantes de miniatura para prueba nativa
+├── 02-guion.md                   # Guion por bloques [Bxx], locución provisional y puerta de originalidad
+├── 03-storyboard-y-edicion.md    # Animatic preliminar, tabla de escenas y diseño sonoro
+├── 04-registro-recursos.md       # Registro integral de stock, IA visual, TTS, música y licencias
+├── 05-metricas-retencion.md      # Impresiones, fuentes, retención y prueba nativa de YouTube
+└── 06-fuentes-y-verificacion.md  # Fact-checking: afirmaciones, fuentes primarias DOI y estado
+```
+
+---
+
+## 📚 07. Mapa de Conocimiento Especializado
+
+| Etapa | Documento de Consulta |
 | :--- | :--- |
-| **Ideación, Outliers y Fact-Checking** | `_framework/roles/01-investigacion-ideas.md`, `ideas.md` y `_framework/plantillas/registro-verificacion-fuentes-template.md` |
+| **Ideación, Outliers y Nichos** | `_framework/roles/01-investigacion-ideas.md` e `ideas.md` |
 | **Títulos, Miniaturas y A/B Nativo** | `_framework/roles/02-packaging-miniaturas.md` |
 | **Guion, Ganchos y Puerta de Originalidad** | `_framework/roles/03-guion-y-narrativa.md` |
-| **Edición, Ritmo, Sonido y ArtCraft** | `_framework/roles/04-direccion-y-edicion.md` y `_framework/herramientas-y-apis.md` |
-| **Trazabilidad Legal y Licencias** | `_framework/plantillas/registro-licencias-template.md` |
-| **Hipótesis de Mercados e Idiomas** | `_framework/estrategia-idiomas.md` |
+| **Dirección, Flujos Audiovisuales y Edición** | `_framework/roles/04-direccion-y-edicion.md` |
+| **Matriz de Capacidades Comprobadas** | `_framework/herramientas-y-apis.md` |
+| **Trazabilidad Legal de Recursos** | `_framework/plantillas/registro-licencias-template.md` |
