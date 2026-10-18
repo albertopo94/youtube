@@ -89,14 +89,6 @@ youtube/
 ├── mis-canales/                       # Canales aprobados y en operación activa
 │   ├── README.md                      # Instrucciones de uso
 │   └── _plantilla-canal/              # Scaffolding vivo (branding/, banco-visual, referentes, videos)
-│
-└── old-workflow/                      # Respaldo intacto de las notas y archivos originales del workspace
-    ├── aspectos.md
-    ├── banco-visual.md
-    ├── ideas.md
-    ├── medidas-banner-youtube.png
-    ├── prompts-utiles.md
-    └── referentes.md
 ```
 
 ---
