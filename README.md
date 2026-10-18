@@ -34,6 +34,7 @@ Documentadas en detalle en `_framework/reglas-sistema.md`:
 ```text
 youtube/
 ├── README.md                          # Este manual general
+├── AGENTS.md                          # Protocolo de gobernanza y directivas para agentes de IA
 ├── .gitignore                         # Exclusión de credenciales y archivos del sistema
 │
 ├── ideas.md                           # Banco vivo de nichos, formatos e ideas propias
@@ -55,6 +56,8 @@ youtube/
 │       ├── prompts-utiles.md          # Prompts para perfil, banner con medidas y storyboards
 │       ├── registro-licencias-template.md # Tabla legal de trazabilidad de clips y audios
 │       ├── estudio-canal-template.md  # Plantilla para evaluar viabilidad de un canal nuevo
+│       ├── propuesta-branding-template.md # Plantilla para identidad, logo, banner y tono
+│       ├── entregable-final-template.md # Plantilla del video publicado (metadata, tags, créditos)
 │       └── pipeline-video-template/   # Plantilla modular para producir un video:
 │           ├── 01-packaging.md
 │           ├── 02-guion.md
@@ -63,10 +66,12 @@ youtube/
 │           └── 05-metricas-retencion.md
 │
 ├── canales-en-estudio/                # Incubadora de canales en fase de investigación y validación
-│   └── README.md
+│   ├── README.md                      # Instrucciones de uso
+│   └── _plantilla-canal/              # Scaffolding vivo (estudio-mercado.md + propuesta-branding.md)
 │
 ├── mis-canales/                       # Canales aprobados y en operación activa
-│   └── README.md
+│   ├── README.md                      # Instrucciones de uso
+│   └── _plantilla-canal/              # Scaffolding vivo (branding/, banco-visual, referentes, videos)
 │
 └── old-workflow/                      # Respaldo intacto de las notas y archivos originales del workspace
     ├── aspectos.md
