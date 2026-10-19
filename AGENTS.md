@@ -107,13 +107,22 @@ Cada carpeta de video en `mis-canales/[canal]/videos-en-estudio/[numero-slug]/` 
 
 ---
 
-## 📚 07. Mapa de Conocimiento Especializado
+## 🛠️ 08. Protocolo de Herramientas: Mapeo por Fase, Traspaso y Proactividad
 
-| Etapa | Documento de Consulta |
-| :--- | :--- |
-| **Ideación, Outliers y Nichos** | `_framework/roles/01-investigacion-ideas.md` e `ideas.md` |
-| **Títulos, Miniaturas y A/B Nativo** | `_framework/roles/02-packaging-miniaturas.md` |
-| **Guion, Ganchos y Puerta de Originalidad** | `_framework/roles/03-guion-y-narrativa.md` |
-| **Dirección, Flujos Audiovisuales y Edición** | `_framework/roles/04-direccion-y-edicion.md` |
-| **Matriz de Capacidades Comprobadas** | `_framework/herramientas-y-apis.md` |
-| **Trazabilidad Legal de Recursos** | `_framework/plantillas/registro-licencias-template.md` |
+Las herramientas de la oficina están catalogadas en `_framework/herramientas-y-apis.md`. El agente debe manejarlas bajo las siguientes directivas:
+
+### 1. Cuándo invocar cada herramienta (Mapeo por Fase):
+- **Investigación e Ideación:** Consultar YouTube Studio (pestañas Research y Audience), VidIQ (competencia y outliers), Google Trends y Books Ngrams.
+- **Packaging:** Diseñar variantes de títulos y miniaturas; sugerir **Thumblytics** para simulación previa de feed; inspirarse en **AdForum** para ganchos publicitarios de alto impacto; usar **Google AI Studio** para refinamiento multimodal de prompts.
+- **Fact-Checking:** Consultar **Google Scholar & Labs** para abstracts y DOIs de papers primarios.
+- **Storyboard y Animatic:** Usar **Google Docs Video Scene Editor** o plantillas internas; generar locución provisional con **ElevenLabs (tier gratuito)** o TTS de sistema.
+- **Montaje y Edición:** Priorizar **FilmCraft** por su arquitectura abierta nativa para CLI y protocolo de control con agentes (MCP). El resultado del video piloto determinará si es viable en el entorno local o si se requiere asistencia manual en editores de escritorio.
+- **Música y SFX:** Explorar **FlowMusic**, **Google Flow** o la **YouTube Audio Library** libre de reclamos.
+- **Búsqueda de Assets:** Conectar vía API/MCP con **Coverr**, **Pexels**, **Pixabay**, **Wikimedia Commons** u **Openverse**.
+
+### 2. Protocolo de Traspaso (Handoff Agente ➔ Creador):
+- Cuando una herramienta requiere interacción humana, interfaz visual o inicio de sesión (ej. *Thumblytics*, *YouTube Studio*, *DaVinci Resolve*), el agente **no debe dar instrucciones genéricas**: debe **entregar el paquete completamente preparado** (los 3 prompts redactados, los textos listos para copiar, o las marcas de tiempo exactas) e indicarle al creador qué acción específica ejecutar en la web o software.
+
+### 3. Proactividad de Herramientas (Con Visto Bueno Obligatorio):
+- Si durante cualquier fase del flujo el agente identifica que hace falta una herramienta, biblioteca, CLI o recurso gratuito/FOSS que resolvería un cuello de botella técnico o de costos y que no figura en `herramientas-y-apis.md`, **debe proponerla proactivamente con su justificación**.
+- **Regla innegociable:** El agente **NUNCA la incorpora al catálogo de forma automática**. Debe presentar la sugerencia al creador y, únicamente si el creador otorga su **visto bueno explícito**, registrarla en `_framework/herramientas-y-apis.md` indicando su estado de validación en el entorno local.

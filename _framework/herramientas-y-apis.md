@@ -1,45 +1,56 @@
 # Herramientas, APIs y Conexiones Técnicas
 
-Catálogo técnico de plataformas, APIs y software para la oficina de YouTube.
+Catálogo técnico de plataformas, software y APIs de la oficina de YouTube.
 
-> **Regla de ingeniería:** Una URL identificada o un servidor MCP documentado **no equivale a una capacidad validada**. Cada herramienta debe clasificarse por lo que realmente se ha podido ejecutar y comprobar en el entorno real de trabajo (macOS x86_64).
+> **Reglas operativas del catálogo:**
+> 1. Una URL identificada o un servidor MCP documentado **no equivale a una capacidad validada**. Cada herramienta se clasifica por lo que realmente se ha podido ejecutar y comprobar en este entorno (macOS Intel x86_64).
+> 2. **Proactividad con Visto Bueno:** El agente debe sugerir activamente herramientas gratuitas o FOSS si detecta cuellos de botella en el flujo, pero **solo el creador autoriza su incorporación a esta matriz**.
+> 3. **Prioridad de Montaje:** **FilmCraft** se mantiene como la herramienta objetivo principal para edición automatizada por su compatibilidad nativa con CLI y MCP para agentes. Su viabilidad definitiva para renders locales se resolverá en la prueba del **Video Piloto**.
 
 ---
 
 ## 🚦 Niveles de Validación en el Entorno Local
 
 - 🟢 **PROBADA EN ENTORNO:** Función ejecutada con éxito en este entorno (web o local). Lista para producción.
-- 🟡 **DISPONIBLE / DOCUMENTADA:** Integración o API accesible, pero no probada exhaustivamente de extremo a extremo.
-- 🔴 **EXPERIMENTAL / NO VERIFICADA:** Herramienta en fase temprana o que aún no ha completado una ejecución real con éxito localmente.
+- 🟡 **DISPONIBLE / DOCUMENTADA:** Integración o API accesible con credenciales, pendiente de validación de extremo a extremo.
+- 🔴 **EXPERIMENTAL / CANDIDATA A PILOTO:** Herramienta en fase temprana cuyo rendimiento se evaluará en el video piloto.
 - ⛔ **RESTRICCIÓN LEGAL:** Licencias incompatibles con monetización en YouTube (ej. pesos CC-BY-NC).
 - 🔵 **VISIÓN FUTURA:** No disponible por limitaciones oficiales de la API del proveedor.
 
 ---
 
-## 1. Matriz de Capacidades Realmente Comprobadas (Entorno: macOS Intel x86_64)
+## 1. Matriz de Capacidades y Mapeo por Fase del Pipeline
 
-| Herramienta / Servicio | Función Documentada | Estado en este Entorno | Acciones Específicamente Probadas | Limitaciones Detectadas | Última Comprobación |
-| :--- | :--- | :---: | :--- | :--- | :---: |
-| **YouTube Studio Web** | Analítica, retención y Test & Compare | 🟢 PROBADA EN ENTORNO | Acceso web, lectura de métricas de audiencia e investigación. | Las pruebas A/B son 100% manuales; no existe API pública. | 18/10/2026 |
-| **Google Trends & Ngrams** | Volumen relativo e interés histórico | 🟢 PROBADA EN ENTORNO | Búsqueda de consultas y comparación de tendencias. | Muestra interés relativo, no volumen absoluto de búsquedas. | 18/10/2026 |
-| **Google Scholar & Labs** | Búsqueda de papers académicos | 🟢 PROBADA EN ENTORNO | Búsqueda de DOIs, autores y lectura de abstracts. | Requiere suscripción institucional para acceder a ciertos papers completos. | 18/10/2026 |
-| **VidIQ (Web)** | Outliers, palabras clave y competencia | 🟢 PROBADA EN ENTORNO | Identificación de videos con ratio 5x de visualizaciones. | Versión gratuita tiene límites en el historial de competidores. | 18/10/2026 |
-| **Coverr (Web)** | Descarga de clips de stock libres | 🟢 PROBADA EN ENTORNO | Descarga directa de archivos de video para edición. | La web otorga licencia libre; la API impone condiciones no comerciales en plan demo. | 18/10/2026 |
-| **Coverr (MCP / API)** | Búsqueda y descarga asistida por agente | 🟡 DISPONIBLE / DOC. | Identificación del servidor MCP (`mcp.coverr.co`). | Plan Demo limitado a 50 req/h; términos de API restringen uso comercial gratuito. | 18/10/2026 |
-| **Pexels & Pixabay APIs** | Búsqueda de fotos y videos por API | 🟡 DISPONIBLE / DOC. | Documentación de API y generación de credenciales. | Requiere curaduría humana para descartar personas o marcas registradas. | 18/10/2026 |
-| **Wikimedia Commons API** | Material histórico y documental | 🟡 DISPONIBLE / DOC. | Endpoints de búsqueda en MediaWiki. | Exige transcribir obligatoriamente la licencia exacta y atribución en cada asset. | 18/10/2026 |
-| **FilmCraft** | Montaje en línea de tiempo para agentes | 🔴 EXPERIMENTAL | Lectura de repositorio y protocolo de control. | **En fase alfa (~56% de preparación). No ha ejecutado renders de producción exitosos en este Mac Intel.** | 18/10/2026 |
-| **EffectCraft** | Motion graphics asistido por agentes | 🔴 EXPERIMENTAL | Lectura de documentación y protocolo. | Fase alfa temprana. No integrado en pipeline de producción real. | 18/10/2026 |
-| **SoundCraft** | Mezcla de audio tipo Pro Tools | 🔴 EXPERIMENTAL | Lectura de repositorio. | Fase pre-alfa. No apto para mezcla master final. | 18/10/2026 |
-| **AudioCraft (Meta)** | Generación musical por IA | ⛔ RESTRICCIÓN LEGAL | Identificación de modelos MusicGen/AudioGen. | **Pesos oficiales bajo licencia CC-BY-NC (No Comercial). Incompatible con monetización.** | 18/10/2026 |
-| **YouTube Data API v3** | Subida y publicación desatendida | 🔵 VISIÓN FUTURA | Lectura de especificaciones de Google Cloud. | Subidas de apps no auditadas quedan privadas. No automatizar en fase piloto. | 18/10/2026 |
+| Herramienta / Servicio | Fase de Uso | Función en la Oficina | Estado en este Entorno | Acciones Específicamente Probadas | Limitaciones / Condiciones de Uso |
+| :--- | :---: | :--- | :---: | :--- | :--- |
+| **YouTube Studio Web** | `00 / 07` | Analítica, investigación de audiencia y Test & Compare | 🟢 PROBADA EN ENTORNO | Acceso a métricas de audiencia y research de términos. | Operación 100% manual por el creador; no existe API para Test & Compare. |
+| **Google Trends & Ngrams** | `00 / 01` | Validación de demanda relativa e interés histórico | 🟢 PROBADA EN ENTORNO | Búsqueda de términos y estacionalidad. | Proporciona interés relativo, no volumen absoluto de búsquedas. |
+| **VidIQ (Web & Extension)** | `00 / 01` | Detección de outliers (5x) y palabras clave | 🟢 PROBADA EN ENTORNO | Auditoría de competidores y casos atípicos. | Tier gratuito limita el historial profundo de métricas. |
+| **Thumblytics** | `01` | Simulación de miniaturas en feed de YouTube | 🟢 PROBADA EN ENTORNO | Carga de bocetos para evaluar contraste en feed. | Requiere que el creador suba las imágenes manualmente en la web. |
+| **AdForum** | `01` | Referencias publicitarias y ganchos de alto impacto | 🟢 PROBADA EN ENTORNO | Inspiración para intros y promesas visuales. | Catálogo comercial externo para consulta manual. |
+| **Google AI Studio** | `01 / 03` | Prototipado rápido de prompts largos y multimodal | 🟢 PROBADA EN ENTORNO | Análisis de referencias visuales y refinamiento de guion. | Interfaz web de Google para experimentación con modelos Gemini. |
+| **Google Scholar & Labs** | `02` | Búsqueda de papers primarios (Fact-checking) | 🟢 PROBADA EN ENTORNO | Localización de DOIs, abstracts y autores. | Ciertos papers completos exigen suscripción institucional. |
+| **Google Docs Video Scene Editor** | `03 / 04` | Estructuración colaborativa de escenas y guion | 🟢 PROBADA EN ENTORNO | Organización visual de escenas por bloques. | Editor colaborativo en la nube de Google. |
+| **ElevenLabs (Tier Free)** | `04` | Locución provisional (*Scratch Track*) para animatic | 🟢 PROBADA EN ENTORNO | Generación rápida de voz para validar ritmo sin costo. | Cuota mensual limitada de caracteres; apto para pruebas internas. |
+| **ElevenLabs (Tier Creator)** | `05` | Locución comercial definitiva | 🟡 DISPONIBLE / DOC. | Derechos comerciales de salida bajo suscripción de pago. | Requiere suscripción activa para monetización en YouTube. |
+| **FilmCraft** | `04 / 05` | **Montaje y timeline asistido por agentes (CLI / MCP)** | 🔴 CANDIDATA A PILOTO | Lectura de repositorio y protocolo de control para agentes. | **Herramienta prioritaria para automatización.** En fase alfa (~56%); su viabilidad para renders se decidirá en el piloto. |
+| **EffectCraft** | `05` | Motion graphics y efectos visuales vía agentes | 🔴 EXPERIMENTAL | Protocolo de control documentado. | Fase alfa temprana. Se evaluará tras consolidar FilmCraft. |
+| **SoundCraft** | `05` | Mezcla y edición de pistas de audio | 🔴 EXPERIMENTAL | Arquitectura tipo Pro Tools documentada. | Fase pre-alfa. No apto para master final inmediato. |
+| **Coverr (Web)** | `05` | Descarga de clips de stock libres de derechos | 🟢 PROBADA EN ENTORNO | Descarga directa de archivos mp4 para edición. | La web otorga licencia libre; guardar captura de términos en `licencias/`. |
+| **Coverr (MCP / API)** | `05` | Búsqueda asistida de clips para agentes | 🟡 DISPONIBLE / DOC. | Identificación del servidor MCP (`mcp.coverr.co`). | Plan Demo limitado a 50 req/h; términos de API restringen uso comercial gratuito. |
+| **Pexels & Pixabay APIs** | `05` | Catálogo de fotos y videos de stock | 🟡 DISPONIBLE / DOC. | Documentación y obtención de credenciales de API. | Exige verificar derechos de imagen de personas y marcas registradas. |
+| **Wikimedia Commons API** | `05` | Archivo histórico y documental de licencia abierta | 🟡 DISPONIBLE / DOC. | Endpoints de MediaWiki Search. | Exige transcribir obligatoriamente la licencia exacta y atribución en cada asset. |
+| **Openverse API** | `05` | Buscador federado de contenido con licencias libres | 🟡 DISPONIBLE / DOC. | Endpoints de búsqueda federada. | Filtrar por licencias que permitan uso comercial. |
+| **FlowMusic & Google Flow** | `05` | Generación y experimentación musical | 🟡 DISPONIBLE / DOC. | Exploración de plataformas y generación de pistas. | Comprobar términos comerciales de salida antes de publicar. |
+| **YouTube Audio Library** | `05` | Música y efectos sonoros libres de Content ID | 🟢 PROBADA EN ENTORNO | Descarga de pistas seguras directamente desde Studio. | 100% segura contra reclamos en YouTube. Cuidar atribución si aplica. |
+| **AudioCraft (Meta)** | `05` | Generación musical por IA de Meta | ⛔ RESTRICCIÓN LEGAL | Identificación de modelos MusicGen/AudioGen. | **Pesos oficiales bajo licencia CC-BY-NC (No Comercial). Incompatible con monetización.** |
+| **YouTube Data API v3** | `07` | Subida y publicación desatendida | 🔵 VISIÓN FUTURA | Lectura de especificaciones de Google Cloud. | Subidas de apps no auditadas quedan privadas. No automatizar en fase piloto. |
 
 ---
 
 ## 2. Recomendación Operativa para el Video Piloto
 
-Para producir el **Video 01**:
-1. **Locución:** Generar borrador de locución provisional (scratch track) con TTS gratuito; grabar o procesar locución final en ElevenLabs (plan comercial) una vez validado el animatic.
-2. **Edición:** Utilizar editores consolidados de escritorio (**DaVinci Resolve, Premiere Pro o CapCut**) para el montaje manual asistido, en lugar de depender de versiones alfa de FilmCraft.
+1. **Locución:** Armar la locución provisional con el tier gratuito de ElevenLabs (o TTS de sistema) para el animatic. Solo tras aprobar la narrativa, generar la locución final comercial.
+2. **Montaje:** Intentar el montaje con **FilmCraft** por su integración con agentes (CLI/MCP). Si en este Mac Intel surgen fallos de render o inestabilidad, recurrir a un editor consolidado de escritorio (DaVinci Resolve o CapCut) como plan de contingencia documentado.
 3. **Imágenes / B-Roll:** Descargar stock verificado desde las webs oficiales de Coverr/Pexels archivando la licencia en `licencias/`. Generar visuales con Midjourney/Flux bajo suscripción comercial.
 4. **Publicación:** Subir manualmente a YouTube Studio y activar la prueba nativa "Prueba y Compara".
