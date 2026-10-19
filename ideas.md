@@ -18,8 +18,15 @@ Ideas propias:
 6. producto/contenido como moto, golf, ..., que en un futuro permite comerciar productos de esa tematiga o hacer asociaciones.
 7. Clases de ingenieria Informatica (contenplando la actualidad tecnologica) desde 0, un video es una clase de todas las materias mezcadas de forma integradora con un caracter practico, ..., y que al final del video exortemos al usuario a ponerlo en practica diciendo algo asi como "ahora para que te diviertas practicandolo pidele a tu iA favorita: ..." y lo que le pediremos que le pida a su iA sera algun ejercicio o interactividad que hara que la iA lo rete o siga de forma practica esa "clase" divertida/interesante que le dimos.
 8. Sobre Cataluyna, cultura raices, ..., historia.
-9. 
-10. pedirle a la iA subnichos.
+9. **Visión a largo plazo: YouTube como nueva televisión y estudio creativo independiente**
+  - **YouTube como plataforma de programación audiovisual:** explorar la creación de canales que se sientan como una programación de televisión o un catálogo de streaming, con series, temporadas, episodios recurrentes, especiales, personajes o presentadores reconocibles y universos narrativos. No pensar únicamente en vídeos aislados que buscan visitas, sino en formatos que construyan hábito, identidad y una audiencia que regrese. Adaptar la lógica de programación de la televisión y plataformas como Netflix al lenguaje, la distribución y la relación directa con el público de YouTube.
+  - **Producción cinematográfica independiente impulsada por creadores:** estudiar el modelo de creadores que desarrollan conceptos originales en internet y consiguen llevarlos a producciones cinematográficas ambiciosas mediante una combinación de visión autoral, comunidad, propiedad intelectual propia y uso eficiente de los recursos. La meta no es imitar los presupuestos de Hollywood, sino lograr el mayor impacto creativo y técnico posible con los medios disponibles, manteniendo el control sobre las ideas y la ejecución.
+  - **Escalar ideas y universos creativos:** considerar YouTube como un posible punto de partida para probar conceptos, desarrollar una identidad artística, encontrar una audiencia y aprender qué despierta interés. Si un concepto demuestra potencial, explorar su expansión hacia cortometrajes, largometrajes, series, animación u otros formatos. No asumir que toda idea debe convertirse en una película: cada proyecto debe justificar su escala y su formato.
+  - **Referencias para investigar:** Kane Parsons (*Backrooms*), Markiplier (*Iron Lung*) y Curry Barker (*Obsession*). Analizar cómo surgieron sus proyectos, qué experiencia previa tenían, cómo desarrollaron sus ideas, qué relación existe entre su audiencia digital y sus producciones cinematográficas, y cómo financiaron y organizaron la producción. Verificar por separado las cifras de presupuesto y recaudación antes de utilizarlas como evidencia.
+  - **Principio estratégico:** combinar la capacidad de YouTube para construir audiencia y mantener una programación continua con la libertad creativa y la eficiencia de una producción independiente. Desarrollar primero conceptos distintivos y ejecutables; ampliar la ambición y los recursos cuando la idea, la experiencia adquirida y la respuesta del público lo justifiquen.
+10.
+11. pedirle a la iA subnichos.
+
 
 quizas en partes del video comentarios y tonos medio tontos y chill como el creador "Ryan Trahan".
 
