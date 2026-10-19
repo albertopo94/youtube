@@ -121,7 +121,14 @@ Las herramientas de la oficina están catalogadas en `_framework/herramientas-y-
 - **Búsqueda de Assets:** Conectar vía API/MCP con **Coverr**, **Pexels**, **Pixabay**, **Wikimedia Commons** u **Openverse**.
 
 ### 2. Protocolo de Traspaso (Handoff Agente ➔ Creador):
-- Cuando una herramienta requiere interacción humana, interfaz visual o inicio de sesión (ej. *Thumblytics*, *YouTube Studio*, *DaVinci Resolve*), el agente **no debe dar instrucciones genéricas**: debe **entregar el paquete completamente preparado** (los 3 prompts redactados, los textos listos para copiar, o las marcas de tiempo exactas) e indicarle al creador qué acción específica ejecutar en la web o software.
+Cuando una herramienta requiera interacción visual, inicio de sesión o ejecución manual en una interfaz web o software de escritorio, el agente **tiene prohibido dar instrucciones abstractas**. Debe **entregar el paquete completamente preparado y listo para usar** según el caso:
+
+- **Generadores de Música y Audio (FlowMusic, Google Flow, etc.):** El agente debe entregar el **prompt musical completo listo para copiar** (género, tempo/BPM aproximado, instrumentación, curva emocional y duración deseada para cada bloque).
+- **Generadores Visuales y de Miniaturas (Midjourney, Flux, DALL-E):** El agente entrega el **prompt visual detallado**, con parámetros técnicos (relación de aspecto `--ar 16:9` o `--ar 1:1`, estilo de iluminación, encuadre y focal point).
+- **Simuladores de Feed (Thumblytics):** El agente entrega los 3 conceptos visuales y la pregunta exacta para el *glance test* para que el creador solo tenga que subirlos y simular.
+- **Plataformas de Publicación (YouTube Studio):** El agente entrega el título final, la descripción formateada con capítulos y marcas de tiempo, la lista de tags separada por comas y los textos de atribución de licencias listos para pegar.
+- **Investigación con Paywall (Google Scholar & Labs):** El agente entrega el DOI, enlace directo, título del paper y el abstract resumido para que el creador pueda descargar el PDF completo si requiere credenciales.
+- **Montaje en Editores de Escritorio (DaVinci, Premiere, CapCut o FilmCraft manual):** El agente entrega la tabla de `03-storyboard-y-edicion.md` con los timecodes exactos y los IDs de bloque `[Bxx]` para facilitar el corte sin fricción.
 
 ### 3. Proactividad de Herramientas (Con Visto Bueno Obligatorio):
 - Si durante cualquier fase del flujo el agente identifica que hace falta una herramienta, biblioteca, CLI o recurso gratuito/FOSS que resolvería un cuello de botella técnico o de costos y que no figura en `herramientas-y-apis.md`, **debe proponerla proactivamente con su justificación**.
