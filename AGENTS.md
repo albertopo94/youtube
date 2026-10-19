@@ -217,7 +217,14 @@ Las herramientas de la oficina están catalogadas en `_framework/herramientas-y-
 - **Búsqueda de Assets:** Conectar vía API/MCP con **Coverr**, **Pexels**, **Pixabay**, **Wikimedia Commons** u **Openverse**.
 
 ### 2. Protocolo de Traspaso (Handoff Agente ➔ Creador):
-Cuando una herramienta requiera interacción visual, inicio de sesión o ejecución manual en una interfaz web o software de escritorio, el agente **tiene prohibido dar instrucciones abstractas**. Debe **entregar el paquete completamente preparado y listo para usar** según el caso:
+Cuando una herramienta requiera interacción visual, inicio de sesión o ejecución manual en una interfaz web o software de escritorio, el agente **tiene terminantemente prohibido dar instrucciones abstractas o arrojar listas de prompts sin clasificar**. Debe **entregar el paquete completamente preparado y listo para usar** mediante una **Ficha Técnica Inequívoca por Recurso**:
+
+- **Ficha Obligatoria de Entrega de Prompts:** Todo prompt que el agente solicite generar al creador (sea en el chat o en `03-storyboard-y-edicion.md`) debe estructurarse con estos campos obligatorios:
+  1. *Tipo de Recurso:* Identificar con claridad si el resultado esperado es: 🖼️ **Imagen estática**, 🎥 **Clip de video con movimiento**, 🎵 **Pista musical** o 🔊 **Efecto sonoro (SFX)**.
+  2. *Herramienta y Pestaña / Módulo exacto:* Indicar la plataforma y la sección concreta (ej. Google Flow [`flow.google.com`] ➔ Pestaña *"Imagen"* [Modelo Imagen 3] vs. Pestaña *"Video"* [Modelo Veo]; Google Flow Music [`flowmusic.app`]; Midjourney; ElevenLabs).
+  3. *Modo Operativo:* (ej. Text-to-Image con `--ar 16:9`, Image-to-Video con movimiento de cámara, o Text-to-Music con BPM/género).
+  4. *Prompt listo para copiar:* Texto completo, calibrado y sin necesidad de edición posterior.
+  5. *Acción sugerida en la interfaz:* (ej. *"si te convence el fotograma en Flow, hacé clic en el botón 'Crear Video' de ese mismo nodo para animarlo 5 segundos"*).
 
 - **Generadores de Música y Audio (Google Flow Music, etc.):** El agente debe entregar el **prompt musical completo listo para copiar** (género, tempo/BPM aproximado, instrumentación, curva emocional y duración deseada para cada bloque).
 - **Generadores Visuales, Video Cinemático y Personajes (Google Flow, Midjourney, Flux, DALL-E):** El agente entrega el **prompt visual o cinemático detallado** (con encuadre, iluminación y punto focal), y en caso de requerir un personaje recurrente en Google Flow, define el nodo de referencia maestro para asegurar la coherencia estética en planos derivados.

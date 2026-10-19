@@ -35,14 +35,19 @@
 
 ## 🎬 3. Fase 2: Tabla de Escenas y Adquisición de Assets
 
-> **Nota de trazabilidad:** Cada fila enlaza con el bloque de guion `[Bxx]` correspondiente. La relación es **trazable y flexible**: un solo bloque largo puede dividirse en varios planos y ángulos, y una toma amplia puede cubrir dos frases cortas.
+> **Nota de trazabilidad y entrega de prompts:** Cada fila enlaza con el bloque de guion `[Bxx]` correspondiente.  
+> **Ficha de Prompt Obligatoria:** Todo prompt que el agente entregue al creador debe indicar:  
+> 1) *Tipo de Asset* (🖼️ Imagen estática / 🎥 Clip de video / 🎵 Música / 🔊 SFX).  
+> 2) *Herramienta y Pestaña exacta* (ej. Google Flow `flow.google.com` ➔ Pestaña *"Imagen"* vs. Pestaña *"Video"*).  
+> 3) *Modo operativo* (Text-to-Image 16:9, Image-to-Video con cámara, etc.).  
+> 4) *Prompt listo para copiar*.
 
-| Escena # | Bloque Guion | Timecode | Texto de Locución Asociado | Tipo de Recurso & Fuente (Google Flow / Stock / Gráfico) | Prompt de Generación / URL del Asset | Diseño Sonoro (SFX / Música) |
-| :---: | :---: | :---: | :--- | :--- | :--- | :--- |
-| **01** | `[B01_Dilema]` | `00:00 - 00:08` | *"..."* | Google Flow (Veo / Imagen 3) | `[Prompt con anclajes de estilo]` | Impact Whoosh + Pista musical |
-| **02** | `[B02_FalsaCausa]` | `00:08 - 00:25` | *"..."* | Stock Coverr / Pexels | `[URL directa de búsqueda]` | Sub-bass bajo voz |
-| **03** | `[B03_Anomalia]` | `00:25 - 01:10` | *"..."* | Google Flow / Animación | `[Prompt cinemático]` | SFX click en palabra clave |
-| **...** | ... | ... | ... | ... | ... | ... |
+| Escena # | Bloque Guion | Timecode | Texto de Locución Asociado | Tipo de Asset (Imagen / Video / Audio) | Herramienta Destino & Módulo Exacto | Prompt de Generación / URL del Asset | Diseño Sonoro (SFX / Música) |
+| :---: | :---: | :---: | :--- | :---: | :--- | :--- | :--- |
+| **01** | `[B01_Dilema]` | `00:00 - 00:08` | *"..."* | 🖼️ Imagen estática *(luego animar)* | Google Flow ➔ Pestaña *"Imagen"* (Imagen 3) | `[Prompt con anclajes de estilo] --ar 16:9` | Impact Whoosh + Pista musical |
+| **02** | `[B02_FalsaCausa]` | `00:08 - 00:25` | *"..."* | 🎥 Clip de video | Stock libre: Coverr / Pexels | `[URL directa de búsqueda / descarga]` | Sub-bass bajo voz |
+| **03** | `[B03_Anomalia]` | `00:25 - 01:10` | *"..."* | 🎥 Clip de video cinemático | Google Flow ➔ Pestaña *"Video"* (Veo) | `[Prompt con movimiento de cámara]` | SFX click en palabra clave |
+| **...** | ... | ... | ... | ... | ... | ... | ... |
 
 ---
 
