@@ -8,7 +8,19 @@
 
 ---
 
-## 1. Opciones de Títulos (Mínimo 5)
+## 🧠 1. Calibración de Demanda y Niveles de Conciencia (Eugene Schwartz)
+
+- **Nivel de Conciencia predominante en la audiencia target:**
+  - [ ] **Problem Aware (Mayor masa):** Siente el síntoma o dolor pero no conoce la solución ni el mecanismo.
+  - [ ] **Solution Aware (Cualificada):** Conoce soluciones comunes pero busca algo significativamente mejor.
+  - [ ] **Mechanism Aware (Especializada):** Conoce el método técnico y busca comparación o análisis profundo.
+- **Deseo Amplio o Dolor Preexistente (*Broad Desire*):** *(El dolor o deseo universal que le da demanda a la idea)*:
+- **Mecanismo Novedoso (*Unfamiliar Mechanism*):** *(La explicación o hallazgo desconocido que les da una nueva razón para que les importe)*:
+- **El Puente (*The Bridge*):** *(Cómo conectamos el dolor que ya buscan con el mecanismo sorprendente del video)*:
+
+---
+
+## 2. Opciones de Títulos (Mínimo 5)
 1. Título 1:
 2. Título 2:
 3. Título 3:
@@ -19,7 +31,7 @@
 
 ---
 
-## 2. Estrategia de las 3 Miniaturas (Prueba Nativa "Prueba y Compara" de YouTube)
+## 3. Estrategia de las 3 Miniaturas (Prueba Nativa "Prueba y Compara" de YouTube)
 
 > *Nota operativa:* Las 3 variantes se cargan simultáneamente en YouTube Studio para que el algoritmo determine la ganadora por porcentaje de tiempo de visualización compartido (*Watch Time Share*). No intervenir ni cambiar las miniaturas manualmente durante la prueba activa.
 
@@ -43,7 +55,7 @@
 
 ---
 
-## 3. Checklist de Control de Calidad
+## 4. Checklist de Control de Calidad
 - [ ] **Clarity Test:** ¿Legible y comprensible en tamaño reducido?
 - [ ] **Contrast Test:** ¿Destaca entre miniaturas de la competencia directa?
 - [ ] **Glance Test:** ¿Se entiende el gancho en menos de 2 segundos?

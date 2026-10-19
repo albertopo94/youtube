@@ -69,7 +69,34 @@ Al iniciar la producción de un video, el agente debe identificar el género y a
 
 ---
 
-## 🎯 04. Criterios de Salida Verificables (Definition of Done) por Fase
+## 🧠 04. Ingeniería de Demanda y Niveles de Conciencia (Eugene Schwartz)
+
+Todo tema y propuesta de packaging debe fundamentarse en los principios de *Breakthrough Advertising*:
+
+1. **Evidencia de Demanda Cualificada:**
+   - Antes de proponer o validar una idea, el agente debe responder con evidencia objetiva:
+     > *"¿Qué evidencia demuestra que las personas que quiero como clientes o seguidores cualificados ya están eligiendo ver este tema en YouTube?"*
+   - No confundir reproducciones masivas casuales o entretenimiento viral con demanda de audiencia cualificada.
+
+2. **Calibrar el Nivel de Conciencia (Schwartz):**
+   - El agente debe identificar dónde está la masa de la audiencia target:
+     - **Problem Aware (Mayor masa):** Sienten el síntoma o dolor pero desconocen la solución. El packaging debe hablarle directamente al dolor o síntoma que ya reconocen.
+     - **Solution Aware (Cualificada):** Buscan activamente soluciones y comparan métodos. El packaging debe posicionar una alternativa superior.
+     - **Mechanism Aware:** Conocen el método técnico. Solo apto para nichos avanzados.
+
+3. **La Regla del Deseo Amplio y el Mecanismo Novedoso:**
+   > *"The broad desire gives the idea demand. The unfamiliar mechanism gives them a new reason to care."*
+   - La gente desea el resultado sin entender el mecanismo subyacente.
+   - El packaging apela al **Deseo Amplio o Dolor Preexistente** (lo que genera el volumen de clics).
+   - El guion desvela el **Mecanismo Novedoso** (lo que genera la retención, la sorpresa y el valor).
+
+4. **El Principio del Puente (The Bridge Principle):**
+   > *"If direct demand exists, build around it. If it does not, change the subject or bridge it to something people already want."*
+   - Si no hay demanda directa por un tema técnico o paper científico, el agente **tiene prohibido empaquetarlo con el mecanismo técnico solo**. Debe construir obligatoriamente un **puente** que conecte el deseo que la gente ya busca con el mecanismo que el video viene a revelar.
+
+---
+
+## 🎯 05. Criterios de Salida Verificables (Definition of Done) por Fase
 
 Para que una fase se considere `APROBADO`, debe existir evidencia física demostrable:
 
@@ -81,7 +108,7 @@ Para que una fase se considere `APROBADO`, debe existir evidencia física demost
 
 ---
 
-## 🛡️ 05. Dos Reglas Críticas de Realidad Operativa
+## 🛡️ 06. Dos Reglas Críticas de Realidad Operativa
 
 1. **El Control de Originalidad NO es Garantía de Monetización:**
    El filtro de originalidad y anti-contenido repetitivo eleva el estándar editorial y mitiga riesgos conocidos, pero **no garantiza la monetización ni blinda el canal de forma infalible**. Las decisiones de YouTube son discrecionales y están sujetas a revisiones humanas y cambios de políticas. La función del agente es señalar riesgos y maximizar el valor genuino.
@@ -90,7 +117,7 @@ Para que una fase se considere `APROBADO`, debe existir evidencia física demost
 
 ---
 
-## 🏗️ 06. Scaffolding y Estructura por Video en Producción
+## 🏗️ 07. Scaffolding y Estructura por Video en Producción
 
 Cada carpeta de video en `mis-canales/[canal]/videos-en-estudio/[numero-slug]/` debe contener exactamente:
 
@@ -133,3 +160,17 @@ Cuando una herramienta requiera interacción visual, inicio de sesión o ejecuci
 ### 3. Proactividad de Herramientas (Con Visto Bueno Obligatorio):
 - Si durante cualquier fase del flujo el agente identifica que hace falta una herramienta, biblioteca, CLI o recurso gratuito/FOSS que resolvería un cuello de botella técnico o de costos y que no figura en `herramientas-y-apis.md`, **debe proponerla proactivamente con su justificación**.
 - **Regla innegociable:** El agente **NUNCA la incorpora al catálogo de forma automática**. Debe presentar la sugerencia al creador y, únicamente si el creador otorga su **visto bueno explícito**, registrarla en `_framework/herramientas-y-apis.md` indicando su estado de validación en el entorno local.
+
+---
+
+## 📚 09. Mapa de Conocimiento Especializado
+
+| Etapa | Documento de Consulta |
+| :--- | :--- |
+| **Ideación, Outliers y Niveles de Conciencia** | `_framework/roles/01-investigacion-ideas.md` e `ideas.md` |
+| **Títulos, Miniaturas y A/B Nativo** | `_framework/roles/02-packaging-miniaturas.md` |
+| **Guion, Ganchos y Puerta de Originalidad** | `_framework/roles/03-guion-y-narrativa.md` |
+| **Dirección, Flujos Audiovisuales y Edición** | `_framework/roles/04-direccion-y-edicion.md` |
+| **Matriz de Capacidades Comprobadas** | `_framework/herramientas-y-apis.md` |
+| **Trazabilidad Legal de Recursos** | `_framework/plantillas/registro-licencias-template.md` |
+| **Fact-Checking y Fuentes Primarias** | `_framework/plantillas/registro-verificacion-fuentes-template.md` |
