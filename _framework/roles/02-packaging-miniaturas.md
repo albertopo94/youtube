@@ -7,7 +7,7 @@ El packaging (título + miniatura) es la **hipótesis de interfaz** de tu video.
 ## 1. Reglas Generales de Packaging
 - **Asignación de tiempo:** Dedicarle tanto tiempo, foco y detalle al packaging como a la edición del video.
 - **Hipótesis de audiencia:** El packaging debe atraer al espectador que realmente va a disfrutar y consumir el video, evitando el clickbait vacío que destruye la retención posterior.
-- **Amigable para Smart TV:** Los elementos visuales clave o partes críticas de dichos elementos deben ubicarse en o desde la parte superior, garantizando su visibilidad en interfaces de televisión.
+- **Consideración de Dispositivos (Heurística):** Si el canal tiene un consumo relevante en Smart TV, situar los elementos clave hacia la mitad superior previene que los rótulos inferiores de la interfaz de TV tapen el punto focal. En canales consumidos principalmente en móvil, la prioridad absoluta es el contraste y la legibilidad en tamaño reducido.
 - **Relación Título vs. Miniatura:** La miniatura no debe repetir el título; debe aportar información complementaria, generar curiosidad, preguntas y/o emociones.
 
 ---
@@ -44,10 +44,11 @@ Todos los elementos que componen la pieza (personas, iconos, gráficos, fondos, 
 - **Personajes / elementos secundarios:** Elementos de apoyo al protagonista.
 - **Líneas guía (Leading lines):** Fondos con perspectiva natural, flechas sutiles o círculos que atraigan la mirada hacia el punto focal.
 - **Jerarquía:** Jugar con escala, enfoque/desenfoque y profundidad entre el elemento principal y los secundarios.
-- **Reglas del texto en miniatura:**
-  - El texto es un actor secundario: sólo debe usarse si es estrictamente complementario a la historia de la imagen.
+- **Tratamiento del texto en miniatura (Heurísticas de diseño):**
+  - El texto es un actor secundario: sólo debe usarse si es estrictamente complementario y aporta intriga que la imagen sola no transmite.
   - El texto añade carga cognitiva al cerebro: no debe repetir el título del video.
-  - **Máximo 5 palabras**. Evitar bloques de texto.
+  - **Recomendación general:** Preferir entre 1 y 5 palabras de alto impacto para evitar saturar la pieza. No es un límite matemático excluyente: si una frase de 6 o 7 palabras tiene una legibilidad impecable y genera un contraste irresistible, se valida por su efectividad global.
+  - **Opción sin texto:** Si el elemento visual o la expresión del sujeto ya comunican la tensión de forma obvia, la miniatura sin texto suele ser la más potente.
   - Tipografía limpia, tamaño legible y lenguaje sencillo.
   - Nunca debe superar jerárquicamente al personaje o punto focal principal.
 

@@ -42,7 +42,7 @@ YouTube exige declarar en YouTube Studio cuando el contenido pueda confundirse c
 
 ## 2. Estructura de Storytelling: Del Conflicto al Valor
 
-- ❌ **Evitar la estructura clásica rígida de aula:** `Introducción formal -> Desarrollo plano -> Conclusión` (suele provocar caídas masivas de retención).
+- ❌ **Evitar aperturas lentas o académicas sin gancho:** Demorar el conflicto con saludos formales o preámbulos innecesarios genera caídas tempranas de retención. Las estructuras narrativas de tres actos (planteamiento, confrontación y resolución) son plenamente válidas siempre que atrapen al espectador desde el inicio.
 -  **Estructura dinámica orientada al valor:**
   $$\text{Conflicto / Dilema} \longrightarrow \text{Contexto Dosificado} \longrightarrow \text{Desarrollo / Argumento Central} \longrightarrow \text{Resolución (Payoff)} \longrightarrow \text{CTA Orgánico}$$
 
@@ -73,23 +73,25 @@ La regla de validar la promesa en los primeros segundos es una guía de retenci�
 
 ## 4. La Fórmula de la Intro en 3 Pasos (Alineación, Autoridad y Compromiso Mental)
 
-Toda apertura eficaz debe responder en pocos segundos a las 3 preguntas críticas que se hace el espectador al hacer clic:
+> **Criterio de Aplicabilidad:** Esta fórmula de 3 pasos está diseñada para **formatos de Autoridad, Negocios, Divulgación Científica, Ensayos o Videos de Media y Larga Duración**. En formatos de **Ficción, Cuentos para Dormir, Sátira, Misterio o Tutoriales Ágiles**, forzar un *Unfair Edge* o un *Roadmap* rompe la inmersión: en esos géneros se prioriza la atmósfera, el enigma o la acción inmediata.
+
+Toda apertura en formatos educativos o de autoridad responde a 3 preguntas críticas:
 
 ### 1. Reafirmar la Promesa (*Reaffirm what they clicked for*)
 - En el segundo cero, confirmar de inmediato con audio y video que el espectador está en el lugar correcto.
 - Cumplir la expectativa directa del título y la miniatura para que decida quedarse unos segundos más.
 
 ### 2. El "Unfair Edge Statement" (Por qué debes escucharme a mí y no a otro)
-- La pregunta inconsciente inmediata es: *¿Por qué debería creerte a vos y no a los otros 20 creadores que hablan de lo mismo?*
+- *(Aplicable a canales de experto, análisis, ciencia o negocios)*:
 - Establecer en **una frase memorable, clavada y contundente** tu autoridad o ventaja injusta única:
   - *"Sé esto porque pasé los últimos 3 meses leyendo los 50 papers originales de Oxford sobre..."*
   - *"Gestiono 100M$ al mes en pauta publicitaria para clientes como X..."*
-- **Regla:** Esta declaración debe pulirse y repetirse como un sello de autoridad a lo largo de los videos del canal.
 
 ### 3. El Roadmap de Compromiso Mental (*Where the video is going / Spoiler Intro*)
-- Una cosa es hacer una promesa; otra es lograr que el espectador decida **mentalmente comprometerse** a mirar un video de 10, 20 o 60 minutos.
+- *(Aplicable a videos largos o explicaciones complejas donde el espectador debe comprometerse a mirar 15-40 minutos)*:
 - Enumerar de forma lógica y rápida los hitos del video: *"Te voy a mostrar exactamente cómo configurar X, qué error arruina el 90% de los intentos, y el método exacto para resolver Y"*.
 - Al ver la estructura completa de lo que viene, el espectador concluye lógicamente: *"Esto es exactamente todo lo que necesito saber"* y se queda hasta el final.
+- *Nota:* En relatos, misterio o ficción, **NO usar roadmap**: revelar lo que viene destruye la intriga y el factor sorpresa.
 
 ### 4. Frontloading (Adelantar la Experiencia)
 Si el video contendrá animación destacada, datos reveladores o edición especial, mostrar un destello de esa calidad en los primeros compases para fijar el estándar de producción en la mente de la audiencia.
