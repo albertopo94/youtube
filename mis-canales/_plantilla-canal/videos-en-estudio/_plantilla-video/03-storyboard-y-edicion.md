@@ -1,42 +1,61 @@
-# 03 - Storyboard, Animatic y Plan de Montaje
+# 03 - Storyboard, Orquestación de Assets y Plan de Montaje
 
-- **Herramienta de edición:** (Premiere Pro / DaVinci Resolve / CapCut / FilmCraft)
-- **Modo de trabajo:** `[ ] Automatizado asistido por agente` / `[ ] Edición manual por el creador`
+- **Canal / Video:** 
+- **Entorno de Montaje Principal:** `[ ] FilmCraft (CLI / MCP)` / `[ ] DaVinci Resolve` / `[ ] Premiere Pro` / `[ ] CapCut` / `[ ] Híbrido`
+- **Estrategia de Adquisición Multifuente:**
+  - *Generación Cinemática / Abstracta:* Google Flow / Midjourney / Flux
+  - *B-Roll Real / Documental:* Coverr / Pexels / Wikimedia Commons / Google Imágenes
+  - *Motion Graphics / Efectos:* EffectCraft / Rótulos gráficos
 
 ---
 
-## 🚦 Fase 1: Montaje Preliminar (Animatic & Radio Edit)
+## 🎨 1. Consistencia Visual y Libertad de Contraste Intencional
 
-> **Punto de control de costos y ritmo:** Antes de generar renders en alta resolución con IA o descargar clips de stock de pago, se arma un animatic de baja fidelidad sobre la locución provisional.
+- **Anclajes de Coherencia Estética del Video:**
+  1. *Motor / Medio visual:* `[ej. Cinematic 35mm grain / Ilustración 3D / Micrografía de laboratorio]`
+  2. *Paleta cromática dominante:* `[ej. Tonos fríos azulados con sombras navy y acentos teal]`
+  3. *Iluminación y óptica:* `[ej. Volumétrica suave, lente 50mm con poca profundidad de campo]`
+  4. *Sujeto / Escenario Maestro:* `[Imagen o nodo de referencia fijado en Google Flow]`
+- **Rupturas Visuales Intencionales (Opcional por humor o impacto):**  
+  *(¿Hay algún plano que rompe deliberadamente el estilo para causar gracia, sorpresa o excentricidad consciente? ej. meme retro pixel art, plano VHS o dibujo infantil)*:
 
-- [ ] **Radio Edit completado:** Locución provisional montada en la línea de tiempo con silencios y pausas ajustadas.
-- [ ] **Wireframe visual (Animatic):** Placas de texto temporales, capturas de pantalla o bocetos rápidos colocados sobre la voz para verificar el ritmo.
+---
+
+## 🚦 2. Fase 1: Montaje Preliminar (Animatic & Radio Edit)
+
+> **Punto de control de costos y ritmo:** Antes de generar renders en alta resolución con IA o descargar clips de pago, se monta la locución provisional con imágenes temporales de baja fidelidad.
+
+- [ ] **Radio Edit completado:** Locución provisional montada con silencios y pausas medidos.
+- [ ] **Wireframe visual (Animatic):** Placas temporales o capturas fijadas sobre la voz para verificar el ritmo.
 - [ ] **Hito de Aprobación Narrativa (Creador):**
-  - ¿Algún bloque se siente aburrido o denso? (Recortar texto en `02-guion.md`).
-  - ¿Alguna transición visual se siente apresurada? (Dar más aire o añadir pausa a la locución).
-  - *Estado:* `[ ] Aprobado para producción definitiva` / `[ ] Requiere ajustes en guion`
+  - ¿Algún bloque se siente denso o apresurado? (Ajustar en `02-guion.md`).
+  - *Estado:* `[ ] Aprobado para producción definitiva` / `[ ] Requiere ajustes`
 
 ---
 
-## 🎬 Fase 2: Tabla de Escenas y Producción Definitiva
+## 🎬 3. Fase 2: Tabla de Escenas y Adquisición de Assets
 
-> **Nota de trazabilidad:** Cada fila enlaza con el bloque de guion `[Bxx]` correspondiente para saber exactamente qué frase de la locución acompaña la imagen. Esta relación es **trazable y flexible, no rígidamente 1 a 1**: un solo bloque largo de guion puede dividirse en varios planos y ángulos visuales, y una toma amplia puede sostenerse durante dos frases cortas.
+> **Nota de trazabilidad:** Cada fila enlaza con el bloque de guion `[Bxx]` correspondiente. La relación es **trazable y flexible**: un solo bloque largo puede dividirse en varios planos y ángulos, y una toma amplia puede cubrir dos frases cortas.
 
-| Escena # | Bloque Guion | Timecode | Texto de Locución Asociado | Tipo de Plano / Visual Definitivo | Asset Final (`assets/...`) | Diseño Sonoro (SFX / Música) |
+| Escena # | Bloque Guion | Timecode | Texto de Locución Asociado | Tipo de Recurso & Fuente (Google Flow / Stock / Gráfico) | Prompt de Generación / URL del Asset | Diseño Sonoro (SFX / Música) |
 | :---: | :---: | :---: | :--- | :--- | :--- | :--- |
-| **01** | `[B01_Hook]` | `00:00 - 00:08` | *"..."* | B-roll extreme close-up + Motion title | `clips/intro_zoom.mp4` | Impact Whoosh + Inicio de beat |
-| **02** | `[B02_Contexto]` | `00:08 - 00:25` | *"..."* | Gráfico animado del paper + zoom lento | `renders/grafico_dilema.png` | Sub-bass + música chill baja |
-| **03** | `[B03_Conflicto]`| `00:25 - 01:10` | *"..."* | Stock wide shot + texto resaltador | `clips/ciudad_noche.mp4` | Click sound en palabra clave |
+| **01** | `[B01_Dilema]` | `00:00 - 00:08` | *"..."* | Google Flow (Veo / Imagen 3) | `[Prompt con anclajes de estilo]` | Impact Whoosh + Pista musical |
+| **02** | `[B02_FalsaCausa]` | `00:08 - 00:25` | *"..."* | Stock Coverr / Pexels | `[URL directa de búsqueda]` | Sub-bass bajo voz |
+| **03** | `[B03_Anomalia]` | `00:25 - 01:10` | *"..."* | Google Flow / Animación | `[Prompt cinemático]` | SFX click en palabra clave |
 | **...** | ... | ... | ... | ... | ... | ... |
 
 ---
 
-## 3. Checklist de Control de Calidad Audiovisual
+## 🎛️ 4. Las 4 Capas Obligatorias de Pulido Técnico (No Aceptar Ensambles Crudos)
 
-- [ ] **3 C's Visuales:**
-  - *Content:* ¿Cada plano o gráfico tiene un propósito justificado (evitar relleno vacío)?
-  - *Clarity:* ¿El punto focal es evidente sin saltos bruscos que fatiguen la vista del espectador?
-  - *Continuity:* ¿Cortes limpios (J/L cuts) sin microgaps ni fotogramas negros?
-- [ ] **Sound Check (Prueba de Ruido):** ¿La locución es 100% inteligible sobre la música si se escucha con ruido de fondo o en altavoz de móvil? ¿Música con *ducking* adecuado?
-- [ ] **Flow Check:** ¿Hay contraste adecuado entre secciones rápidas e introspectivas?
-- [ ] **Style Check:** ¿Coherencia en la paleta de colores, tipografía y estilo gráfico respecto al branding del canal?
+Para que el montaje se considere profesional (sea ejecutado por el agente en FilmCraft o en editor de escritorio), debe incorporar estas cuatro capas:
+
+1. **Cortes de Continuidad (J-Cuts y L-Cuts):**
+   - [ ] En transiciones narrativas clave, el audio de la siguiente escena entra entre 12 y 24 fotogramas (0.5 a 1s) antes de que la imagen corte, evitando cambios de plano secos.
+2. **Diseño Sonoro y Mezcla (*Audio Ducking* Paramétrico):**
+   - [ ] Nivel de locución normalizado a estándares de transmisión (-23 LUFS / `essentialSound.autoMatch`).
+   - [ ] Curva de ducking sobre la música: reducida a **-18 dB / -24 dB** durante la voz, subiendo con rampa suave (*fade-up*) en las pausas dramáticas (`essentialSound.generateDucking`).
+3. **Dinámica de Cuadro (*Pacing Visual*):**
+   - [ ] En planos estáticos o imágenes fijas de más de 3 segundos, aplicar zooms continuos sutiles (*punch-ins* de escala 100% a 105% o paneo Ken Burns) para evitar sensación de foto congelada.
+4. **Sincronización Milimétrica de SFX:**
+   - [ ] Los efectos de sonido de acento (impactos, swooshes, clicks) caen exactamente en la sílaba o fotograma donde ocurre el gancho visual.

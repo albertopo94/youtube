@@ -84,6 +84,19 @@ Toda secuencia sólida de video se apoya en 3 momentos clave que a su vez ayudan
 - **No sub-editar lo que se prometió cinemático:** Si el packaging vende un documental de alto impacto o divulgación científica profunda, el ritmo, el color grading y la selección de B-roll deben cumplir ese estándar.
 - **Principio:** La edición debe calibrarse para cumplir y superar la expectativa estética exacta generada por el empaque, ni un milímetro por encima ni por debajo.
 
+### Las 4 Capas de Pulido Técnico y el Protocolo de Control de FilmCraft
+Un software de edición no es una simple pegadora de clips; un montaje sin pulido resulta tosco y amateur. Toda edición profesional exige aplicar cuatro capas:
+
+1. **Cortes de Continuidad (J-Cuts y L-Cuts):** Desfasar la entrada o salida del audio respecto a la imagen (entre 12 y 24 fotogramas) en transiciones de bloques narrativos, evitando cortes rectos secos que delaten el montaje.
+2. **Diseño Sonoro y Ducking Paramétrico:** La pista de música debe atenuarse a **-18 dB / -24 dB** durante el diálogo, subiendo con rampa suave a **-12 dB** en los silencios.
+   - *Soporte nativo en FilmCraft:* El agente debe aplicar `essentialSound.setType` (`dialogue` y `music`), normalizar la voz con `essentialSound.autoMatch` (-23 LUFS) y generar la curva de atenuación con `essentialSound.generateDucking` (`ducking.reduceDb` y `ducking.fadeS`).
+3. **Dinámica de Cuadro (*Pacing Visual*):** En planos estáticos o imágenes que permanezcan más de 3 segundos en pantalla, aplicar reencuadres o zooms lentos continuos (*punch-ins* de escala del 100% al 105% mediante keyframes de transformación en FilmCraft) para evitar sensación de foto congelada.
+4. **Sincronización Milimétrica de SFX:** Los efectos de sonido de acento (whooshes, impactos, clics) deben caer exactamente en el timecode de la sílaba o corte visual correspondiente.
+
+### Consistencia Visual y Libertad de Contraste Intencional:
+- **Línea base de coherencia:** Aplicar en los prompts visuales los 4 anclajes de estilo (medio visual, paleta cromática dominante, iluminación/óptica y nodo maestro del sujeto o entorno).
+- **Excepción creativa (Sin camisas de fuerza):** Se permite y promueve romper deliberadamente la coherencia estética si existe un objetivo narrativo consciente: un meme retro, un plano con estilo caricatura para causar risa, un corte a blanco y negro dramático o un contraste excéntrico deliberado.
+
 ---
 
 ## 4. Dominar las 3 C's of YouTube Visuals
