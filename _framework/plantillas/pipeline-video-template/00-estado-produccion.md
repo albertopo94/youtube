@@ -35,5 +35,21 @@
 
 ---
 
+## 🎥 Ficha Técnica y Verificación del Render Master (Fase 06)
+
+- **Ruta del archivo master:** `[ej. exports/video_final_v1.mp4]`
+- **Resolución y Relación de Aspecto:** `[1920x1080 (16:9) / 1080x1920 (9:16)]`
+- **Tasa de fotogramas (FPS) y Códec:** `[ej. 30 fps, H.264 / AAC]`
+- **Duración exacta:** `[MM:SS]`
+- **Inspección Técnica de Calidad:**
+  - [ ] ¿El archivo abre y reproduce de principio a fin sin errores de códec ni artefactos?
+  - [ ] ¿Sincronización exacta entre locución y cortes de imagen (sin desfases de audio)?
+  - [ ] ¿Cero fotogramas negros no intencionados ni microgaps?
+  - [ ] ¿Niveles de audio balanceados (*sound check* superado en móvil y auriculares)?
+  - [ ] ¿Subtítulos sincronizados y ortografía revisada (si aplica)?
+- **Estado de Aprobación Técnica:** `[ ] PENDIENTE` / `[ ] INSPECCIONADO_Y_APROBADO`
+
+---
+
 ## 🎯 Siguiente Acción Permitida
 - **Acción inmediata:** Inicializar la fase de Packaging en `01-packaging.md` proponiendo 5 títulos y 3 conceptos de miniatura independientes para la prueba nativa de YouTube.

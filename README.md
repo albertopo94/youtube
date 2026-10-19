@@ -39,8 +39,8 @@ Documentadas en detalle en `AGENTS.md` y `_framework/reglas-sistema.md`:
 ## 🛡️ Puertas de Calidad, Políticas y Rigor
 
 - **Puerta de Originalidad y Monetización:** Verificación obligatoria de valor editorial añadido y anti-contenido repetitivo/reutilizado antes de aprobar guiones.
-- **Protocolo de Fact-Checking:** Registro de fuentes primarias y verificación de afirmaciones en temas científicos, técnicos, históricos o noticias.
-- **Pruebas A/B Nativas de YouTube (Test & Compare):** Roteo de hasta 3 miniaturas en YouTube Studio evaluado por *Watch Time Share* durante semanas, evitando cambios manuales precipitados a las pocas horas.
+- **Protocolo de Fact-Checking en Dos Etapas:** Investigación de fuentes de partida antes de redactar ➔ verificación de afirmaciones del borrador contra DOIs, libros o fuentes institucionales.
+- **Pruebas A/B Nativas de YouTube (Test & Compare):** Prueba de hasta 3 combinaciones de títulos y miniaturas en videos largos (Long-form) evaluado por *Watch Time Share*.
 - **Trazabilidad Legal Precisa:** Registro de licencia exacta, versión consultada y texto de atribución para cada recurso.
 
 ---
@@ -101,9 +101,9 @@ youtube/
 ## 🔄 Flujo Operativo de un Video (Pipeline Consolidado)
 
 1. **Inicio y Estado Persistente:** Identificar canal/video y verificar entregables en `00-estado-produccion.md`.
-2. **Packaging First:** Definir 5 títulos y las 3 variantes de miniatura en `01-packaging.md` antes de escribir el guion.
-3. **Fact-Checking y Rigor:** Enlazar afirmaciones clave con DOIs y fuentes primarias en `06-fuentes-y-verificacion.md`.
+2. **Packaging First:** Definir 5 títulos y miniaturas en `01-packaging.md` (y hasta 3 variantes de título/miniatura para videos largos).
+3. **Investigación Previa:** Recopilar fuentes primarias y límites de evidencia en `06-fuentes-y-verificacion.md` (Parte 1).
 4. **Guionado Atómico por Bloques:** Redactar la locución por bloques `[Bxx]` con puerta de originalidad en `02-guion.md`.
-5. **Animatic y Edición:** Montar la locución provisional (scratch track) y wireframe visual en `03-storyboard-y-edicion.md`. Validar el ritmo narrativo antes de generar o descargar assets finales de pago.
-6. **Auditoría Legal:** Asentar cada recurso, licencia, plan y texto de atribución en `04-registro-recursos.md`.
-7. **Publicación y Pruebas A/B Nativas:** Cargar variantes en "Prueba y Compara" de YouTube Studio y monitorear el resultado por tiempo de visualización compartido (*Watch Time Share*) en `05-metricas-retencion.md`. Cerrar el video con `entregable-final.md`.
+5. **Verificación de Afirmaciones:** Contrastar cada dato del guion contra fuentes verificadas en `06-fuentes-y-verificacion.md` (Parte 2).
+6. **Animatic y Edición:** Montar la locución provisional (scratch track) y wireframe visual en `03-storyboard-y-edicion.md`. Validar ritmo antes de generar assets finales.
+7. **Montaje, Licencias y Cierre:** Master exportado con ficha técnica de render, registro legal en `04-registro-recursos.md`, seguimiento en `05-metricas-retencion.md` y cierre en `entregable-final.md`.

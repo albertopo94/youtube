@@ -14,7 +14,7 @@ Ficha de análisis y aprendizajes de casos reales de producción y crecimiento e
 1. **La Estructura del Arco en Bucle (*Looped Arc*):**  
    Rompe la predictibilidad lineal (`Gancho ➔ Acción ➔ Recompensa`) introduciendo una complicación intermedia:  
    $$\text{Bucle Abierto} \longrightarrow \text{Acción} \longrightarrow \mathbf{Conflicto / Error\ Inesperado} \longrightarrow \mathbf{Recuperación / Reintento} \longrightarrow \text{Payoff / Recompensa}$$
-   El error imprevisto (ej. cálculo fallido de peso o máquina atascada) y su reintento mantienen la retención por encima del 80%.
+   En este caso de estudio, la introducción de un error imprevisto (ej. cálculo fallido o máquina atascada) y su reintento funcionaron como un recurso dramático eficaz para sostener la atención sin caer en la monotonía.
 2. **Ganchos en Bucle Abierto:**  
    Formular el gancho como una pregunta o incógnita que no pueda resolverse sin ver el video (*"¿Qué pasaría si comprimes 100 Red Bulls en una bebida?"*), en lugar de una afirmación cerrada que destripe el desenlace (*"Este creador convirtió 100 latas en polvo"*).
 3. **Relatibilidad Universal sobre Volumen Bruto:**  

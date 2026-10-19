@@ -42,22 +42,20 @@ $$\text{Selección de Pista / Beat} \longrightarrow \text{Marcación de Golpes R
 
 ---
 
-## ⚡ Especialización: Dinámica Operativa y Algoritmo de YouTube Shorts
+## ⚡ Guía Operativa para YouTube Shorts `[Hipótesis Experimentales y Técnicas Narrativas]`
 
-Si el video producido es en formato vertical (**YouTube Shorts**), rigen reglas algorítmicas y de cadencia específicas:
+En formatos verticales cortos (**YouTube Shorts**), rigen principios de dinamismo y retención específicos que deben tratarse como **herramientas de diseño y no como leyes algorítmicas deterministas**:
 
-### 1. El Primer Short es una Sonda Algorítmica (No sobre-perfeccionar la entrega 1):
-- El primer Short de un canal nuevo no busca la perfección absoluta: su único trabajo es servir de **sonda exploratoria** para que los sistemas de recomendación de YouTube calibren a qué perfil de usuario enviarle las primeras impresiones.
-- La viralidad matemática y los picos fuertes suelen desencadenarse entre el **2º, 3º o 4º upload**. No perder días en el primero; lanzarlo rápido y analizar la respuesta.
+### 1. Enfoque de Lanzamiento Inicial:
+- En las primeras subidas de un canal nuevo, priorizar la agilidad y el aprendizaje sobre el perfeccionismo paralizante. La primera entrega permite observar qué temas y estilos generan tracción inicial en el feed sin gastar semanas en un solo archivo.
 
 ### 2. Duración, Ritmo y Bucles Continuos (*Seamless Loops*):
-- Los Shorts de **25 a 50 segundos** con densidad de información tienen ventaja matemática sobre piezas excesivamente cortas (permiten acumular más tiempo de visualización total).
-- Diseñar el último segundo del Short para que la frase o el movimiento conecte de forma natural con el primer segundo del video (*Seamless Loop*), elevando el porcentaje medio visto por encima del 100%.
+- **Duración adaptada al contenido:** Duraciones de **25 a 50 segundos** permiten desarrollar un arco narrativo con suficiente densidad de información sin saturar.
+- **Bucles continuos (*Seamless Loops*):** Si el contenido lo permite de forma orgánica, diseñar el último segundo para que enlace de manera fluida con el primero ayuda a incentivar re-visualizaciones naturales. No forzar el bucle si rompe la coherencia del remate.
 
-### 3. La Regla de Cadencia: "Dejar Respirar a los Shorts" (*Do Not Stifle Momentum*):
-- ❌ **El error fatal:** Subir videos en horarios fijos ciegos. Si un Short anterior está en pleno despegue algorítmico (recibiendo miles de vistas por hora), **ESTÁ TERMINANTEMENTE PROHIBIDO subir el siguiente Short**.
-- **La razón algorítmica:** El feed de YouTube Shorts prioriza empujar un solo video a la vez por canal. Si subes un nuevo Short mientras el anterior está en pleno pico, el nuevo quedará atrapado con 100 o 200 vistas y el canal perderá el impulso.
-- **La Métrica Guía:** Monitorear las **velas horarias en tiempo real de YouTube Studio**. Mientras las velas sigan creciendo o se mantengan en picos altos, se espera. Solo cuando las velas horarias se aplanan (*flatline*) o decrecen de forma sostenida, se publica el siguiente video.
+### 3. Observación de Cadencia y Picos de Visitas:
+- YouTube indica formalmente que las visualizaciones no dependen del intervalo de tiempo entre publicaciones `[Política Oficial YouTube]`. La prioridad es mantener un ritmo de producción sostenible y centrado en la calidad.
+- *Práctica experimental opcional:* Si un Short experimenta un pico viral atípico en tiempo real en YouTube Studio, el creador puede evaluar espaciar la siguiente subida para observar el comportamiento de la curva de audiencia de forma aislada.
 
 ---
 

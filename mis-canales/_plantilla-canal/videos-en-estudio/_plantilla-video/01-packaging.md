@@ -20,35 +20,38 @@
 
 ---
 
-## 2. Opciones de Títulos (Mínimo 5)
+## 2. Opciones de Títulos (Mínimo 5 Alternativas Creativas)
 1. Título 1:
 2. Título 2:
 3. Título 3:
 4. Título 4:
 5. Título 5:
 
-**Título seleccionado:** 
+- **Título Principal Seleccionado:** 
+- *(Opcional para Videos Largos en Prueba A/B Nativa):*
+  - Título Variante B:
+  - Título Variante C:
 
 ---
 
-## 3. Estrategia de las 3 Miniaturas (Prueba Nativa "Prueba y Compara" de YouTube)
+## 3. Variantes de Miniatura (Thumbnails)
 
-> *Nota operativa:* Las 3 variantes se cargan simultáneamente en YouTube Studio para que el algoritmo determine la ganadora por porcentaje de tiempo de visualización compartido (*Watch Time Share*). No intervenir ni cambiar las miniaturas manualmente durante la prueba activa.
+> *Nota de aplicabilidad oficial:* La herramienta nativa "Prueba y Compara" de YouTube Studio permite probar **hasta 3 combinaciones de títulos y miniaturas exclusivamente en videos largos (Long-form)**. En YouTube Shorts no está disponible esta función; se selecciona la miniatura más sólida sin forzar cargas triples innecesarias.
 
-### Miniatura A (Variante 1)
+### Miniatura A (Principal)
 - **Brecha de Curiosidad:** (Moment / Story / Result / Transformation / Novelty)
 - **Scroll Stoppers utilizados:** (Caras / Números / Emoción / Contraste / Colores)
 - **Punto focal principal (Hero):**
 - **Elementos secundarios:**
-- **Texto en miniatura (máx 5 palabras, no repetir título):**
+- **Texto en miniatura (heurística: 1-5 palabras breves o sin texto si la imagen basta):**
 - **Prompt para generador de imágenes / boceto:**
 
-### Miniatura B (Variante 2 - Ángulo Visual Alternativo)
+### Miniatura B (Variante de Contraste - para Prueba Nativa en Video Largo o histórico)
 - **Brecha de Curiosidad:**
 - **Concepto diferencial respecto a la Variante A:**
 - **Prompt / boceto:**
 
-### Miniatura C (Variante 3 - Enfoque Conceptual Radical)
+### Miniatura C (Variante Radical - para Prueba Nativa en Video Largo o histórico)
 - **Brecha de Curiosidad:**
 - **Concepto diferencial:**
 - **Prompt / boceto:**

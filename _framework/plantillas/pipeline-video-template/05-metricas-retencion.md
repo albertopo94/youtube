@@ -40,18 +40,18 @@
 
 ## 4. Estado de la Herramienta Nativa "Prueba y Compara" (Test & Compare) `[Política Oficial YouTube]`
 
-> **Condición de elegibilidad oficial:** La herramienta nativa "Prueba y Compara" de YouTube Studio **solo está disponible para videos largos estándar (Long-form)**. Actualmente **NO es compatible con YouTube Shorts**, transmisiones en vivo ni estrenos.
+> **Condición de elegibilidad oficial:** La herramienta nativa "Prueba y Compara" de YouTube Studio permite probar **hasta 3 combinaciones de títulos y miniaturas exclusivamente en videos largos estándar (Long-form)** (incluyendo emisiones en vivo archivadas y estrenos finalizados). Actualmente **NO es compatible con YouTube Shorts**, transmisiones en vivo programadas activas ni estrenos en curso.
 
 - **Elegibilidad del formato:**
-  - [ ] **Video Largo (Long-form):** Elegible para prueba nativa en YouTube Studio (hasta 3 miniaturas).
-  - [ ] **YouTube Short / Directo:** No elegible para la herramienta nativa (se realiza seguimiento estándar de métricas).
+  - [ ] **Video Largo (Long-form):** Elegible para prueba nativa en YouTube Studio (hasta 3 títulos/miniaturas).
+  - [ ] **YouTube Short / Directo programado:** No elegible para la herramienta nativa (seguimiento estándar de métricas).
 
 - **Si es Video Largo y la prueba está activa:**
-  - Variante A: `[Descripción breve]`
-  - Variante B: `[Descripción breve]`
-  - Variante C: `[Descripción breve]`
+  - Variante 1: `[Título A + Miniatura A]`
+  - Variante 2: `[Título B + Miniatura B]`
+  - Variante 3: `[Título C + Miniatura C]`
   - **Duración de la prueba:** (del `DD/MM` al `DD/MM`)
-  - **Ganador determinado por YouTube:** (por *Watch Time Share*) ➔ Variante [A / B / C]
+  - **Ganador determinado por YouTube:** (por porcentaje de tiempo de visualización compartido: *Watch Time Share*) ➔ Variante [1 / 2 / 3]
   - *Nota oficial:* No modificar títulos ni miniaturas manualmente mientras la prueba esté en curso para evitar reiniciar la recolección de datos.
 
 ---
