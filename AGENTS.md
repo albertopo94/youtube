@@ -17,6 +17,7 @@ Tanto si un agente ingresa al repositorio por primera vez como si retoma el trab
    - La lista negra global en `ideas.md` (`## 4. 🚫 Territorios y Nichos Vetados`).
    - El archivo `backlog-ideas.md` del canal correspondiente (`## 3. 🚫 Ideas y Enfoques Vetados`).
    *Prohibido terminantemente proponer temas o formatos que figuren en estas secciones.*
+6. **Prohibición de Atribuir Contenido Inexistente a Archivos de Notas:** Si un archivo de referencia (`banco-visual.md`, `referentes.md`) contiene notas breves, listas en borrador o está incompleto, el agente **tiene terminantemente prohibido inventar paletas de color, códigos hexadecimales o estándares de diseño atribuyéndoselos falsamente a ese archivo**. Debe consultar con honestidad: *"En banco-visual.md solo tienes anotado X e Y; ¿qué estilo visual tienes en mente para este canal o prefieres que te proponga 5 alternativas?"*.
 
 ### Al Finalizar o Pausar la Sesión:
 1. **Registrar Entregables y Estado:** Actualizar `00-estado-produccion.md` con:
@@ -54,6 +55,10 @@ El agente **debe detenerse y solicitar confirmación expresa** antes de:
 - Operaciones que impliquen costos financieros o consumo de créditos de pago (APIs de voz, generadores de imagen de pago, etc.).
 - Modificar o borrar archivos existentes relevantes de forma irreversible.
 - Operaciones destructivas de Git.
+
+### 4. Filtro de Comunicación Ejecutiva (Entregables y Experiencia vs. Fontanería Interna)
+- El agente debe comunicarse con el creador como un **Director Creativo y de Producción**, hablando en términos de entregables tangibles y experiencia de escucha (*"uní las pistas de audio de los bloques con medio segundo de pausa entre cada una para que escuches el flujo continuo en tu reproductor"*).
+- **Prohibido el ruido de fontanería de terminal:** No arrojar nombres de herramientas de bajo nivel ni comandos de consola (`ffmpeg`, `sox`, scripts bash crudos) como justificación del resultado, a menos que el creador pregunte explícitamente por la implementación técnica interna.
 
 ---
 
@@ -198,7 +203,8 @@ Las herramientas de la oficina están catalogadas en `_framework/herramientas-y-
 - **Investigación e Ideación:** Consultar YouTube Studio (pestañas Research y Audience), VidIQ (competencia y outliers), Google Trends y Books Ngrams.
 - **Packaging:** Diseñar variantes de títulos y miniaturas; sugerir **Thumblytics** para simulación previa de feed; inspirarse en **AdForum** para ganchos publicitarios de alto impacto; usar **Google AI Studio** para refinamiento multimodal de prompts, contraste visual de miniaturas frente al feed y lectura profunda de textos largos.
 - **Fact-Checking:** Consultar **Google Scholar & Labs** para abstracts y fuentes primarias (apoyándose en **Google AI Studio** para ingesta de documentos en acceso abierto o PDFs facilitados por el creador si están tras paywall institucional).
-- **Storyboard, Animatic y Locución:** Usar **Google Docs Video Scene Editor** o plantillas internas; generar locución provisional o definitiva con **Google AI Studio Generate Speech (`aistudio.google.com/generate-speech?model=gemini-3.8-flash-tts`)**, **ElevenLabs (tier gratuito)**, **Luvvoice (Free tier / MCP oficial: `luvvoice.com/es/mcp`)** o TTS de sistema.
+- **Storyboard, Animatic y Locución:** Usar **Google Docs Video Scene Editor** o plantillas internas. Para el montaje preliminar (*Radio Edit* y animatic), utilizar exclusivamente **voces neuronales modernas con entonación y pausas naturales**: **Google AI Studio Generate Speech** (`aistudio.google.com/generate-speech?model=gemini-3.8-flash-tts`), **Luvvoice (Free tier / MCP oficial)** o **ElevenLabs (tier gratuito)**.  
+  ❌ **Prohibición de TTS mecánico:** Queda terminantemente prohibido utilizar sintetizadores locales arcaicos (como el comando `/usr/bin/say` de macOS) para cualquier audio que deba evaluar el creador. El agente debe presentar las vías disponibles, dar su recomendación técnica y consultar al creador cuál prefiere utilizar antes de generar el archivo.
 - **Montaje y Edición:** Priorizar **FilmCraft** por su arquitectura abierta nativa para CLI y protocolo de control con agentes (MCP). El resultado del video piloto determinará si es viable en el entorno local o si se requiere asistencia manual en editores de escritorio.
 - **Video Cinemático, Storyboard y Personajes IA:** Usar **Google Flow (`flow.google.com`)** para:
   1. Montar storyboards visuales de concepto antes de arriesgar tiempo en una producción completa.

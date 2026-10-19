@@ -60,7 +60,7 @@ Toda herramienta debe evaluarse sobre cuatro evidencias técnicas verificables:
 
 ## 2. Recomendación Operativa para el Video Piloto
 
-1. **Locución:** Armar la locución provisional con el tier gratuito de ElevenLabs, el tier gratuito de **Luvvoice** (vía web o MCP oficial: `luvvoice.com/es/mcp`) o TTS de sistema para el animatic. Solo tras aprobar la narrativa, generar la locución final comercial.
+1. **Locución y Voz Neuronal:** Armar la locución provisional (*Scratch Track*) utilizando exclusivamente **motores de voz neuronal moderna** con entonación natural, respiración y pausas realistas (Google AI Studio Generate Speech, Luvvoice Free tier o ElevenLabs Free tier). **Queda terminantemente prohibido utilizar sintetizadores mecánicos locales arcaicos (como `/usr/bin/say` de macOS)**; su cadencia metálica y robótica imposibilita evaluar el ritmo del video y degrada la experiencia. El agente debe presentar las vías disponibles, dar su recomendación técnica y consultar al creador cuál prefiere antes de generar el archivo. Solo tras aprobar la narrativa, generar la locución final comercial.
 2. **Montaje:** Intentar el montaje con **FilmCraft** por su integración con agentes (CLI/MCP). Si en este Mac Intel surgen fallos de render o inestabilidad, recurrir a un editor consolidado de escritorio (DaVinci Resolve o CapCut) como plan de contingencia documentado.
 3. **Imágenes / B-Roll:** Descargar stock verificado desde las webs oficiales de Coverr/Pexels archivando la licencia en `licencias/`. Generar visuales con Midjourney/Flux bajo suscripción comercial.
 4. **Publicación:** Subir manualmente a YouTube Studio y activar la prueba nativa "Prueba y Compara".
