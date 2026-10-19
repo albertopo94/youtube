@@ -68,11 +68,20 @@ YouTube exige declarar en YouTube Studio cuando el contenido pueda confundirse c
   $$\text{Gancho (Bucle Abierto)} \longrightarrow \text{Acción Inicial} \longrightarrow \mathbf{Conflicto / Error\ Inesperado} \longrightarrow \mathbf{Recuperación / Reintento} \longrightarrow \text{Payoff / Recompensa}$$
 - *Mecánica:* El reto arranca con normalidad ➔ A mitad de camino ocurre un fallo imprevisto, error de cálculo o dificultad técnica (**Conflicto**) ➔ El creador debe adaptarse, probar otra técnica o recalibrar (**Recuperación**) ➔ Se alcanza el resultado final con un remate de impacto (**Payoff**). Esto mantiene al espectador sin saber si el intento tendrá éxito o fracasará.
 
+### Prohibición del Cliché del "Listicle" de Autoayuda en el Payoff:
+- ❌ **El reflejo perezoso a evitar:** Terminar un video de divulgación científica, histórica o de análisis profundo con "3 tips rápidos de autoayuda para tu día a día (1. Duerme bien, 2. Repasa tus notas, 3. Come sano)". Esto degrada un descubrimiento de alto nivel a un post genérico de TikTok y destruye la recompensa intelectual.
+-  **El Payoff de Reencuadre Mental:** La resolución debe cerrar el dilema planteado al inicio ofreciendo un **nuevo modelo mental transformador** para el espectador (ej. entender que el olvido no es un fallo de memoria, sino un mecanismo biológico activo de limpieza sináptica sin el cual el cerebro colapsaría por sobrecalentamiento informático).
+
 ---
 
 ## 3. Ganchos y Apertura (Los Primeros 5 a 30 Segundos)
 
 El objetivo de la apertura es alinear de inmediato las expectativas del espectador con lo prometido en el título y la miniatura, protegiendo la métrica clave de **retención a los 30 segundos**.
+
+### ❌ Linter Narrativo Anti-Spoiler (Prohibición de Resolución Prematura)
+- **La trampa mortal del agente:** Desvelar la causa biológica, técnica o el desenlace del misterio en los primeros compases del video (*"un estudio descubrió que el cerebro se come los recuerdos con microglía celular..."*). Si en el segundo 30 el espectador ya sabe la respuesta, la tensión cognitiva muere y el resto del video se convierte en una monografía enciclopédica aburrida.
+- **La regla estricta:** En los dos primeros bloques de apertura **está terminantemente prohibido nombrar el mecanismo técnico/biológico central o dar la conclusión**.
+- **Qué va en la apertura:** El síntoma universal, el dolor, el dilema o la paradoja (*"Olvidar no es un desgaste pasivo de tu mente: es una orden activa que consume enormes cantidades de energía... pero ¿por qué tu cerebro gastaría tantos recursos en destruir lo que tanto te costó aprender?"*). La revelación del mecanismo desconocido se reserva para la mitad del video.
 
 ### El Filtro del Gancho en Bucle Abierto (*Open Loop Hook*)
 - ❌ **El error que mata la retención (Afirmación cerrada):** Redactar un gancho que describe y destripa el resultado final (*"Este creador convirtió 100 Red Bulls en polvo usando una máquina especial"*). El espectador ya obtuvo la respuesta en el segundo 3; no tiene motivo para seguir mirando y desliza (*swipe away*).
@@ -109,6 +118,7 @@ Toda apertura en formatos educativos o de autoridad responde a 3 preguntas crít
 - Establecer en **una frase memorable, clavada y contundente** tu autoridad o ventaja injusta única:
   - *"Sé esto porque pasé los últimos 3 meses leyendo los 50 papers originales de Oxford sobre..."*
   - *"Gestiono 100M$ al mes en pauta publicitaria para clientes como X..."*
+- ❌ **Prohibición de interrupciones institucionales:** No interrumpir la tensión inicial con autopromoción o eslóganes del canal (*"En este canal leemos los papers de las mejores revistas..."*). Al espectador que recién entra a YouTube no le importa el nombre del canal; la autoridad se demuestra a través del rigor de las fuentes y la calidad de la narración, no con un discurso institucional en los primeros 45 segundos.
 
 ### 3. El Roadmap de Compromiso Mental (*Where the video is going / Spoiler Intro*)
 - *(Aplicable a videos largos o explicaciones complejas donde el espectador debe comprometerse a mirar 15-40 minutos)*:

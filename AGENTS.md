@@ -138,6 +138,7 @@ Para que una fase se considere `APROBADO`, debe existir evidencia física demost
     3. *Verificación según naturaleza y riesgo:* Toda afirmación fáctica relevante debe sustentarse en fuentes consultadas registradas en `06-fuentes-y-verificacion.md`, aplicando el linter de léxico prohibido y matización en temas sensibles (YMYL).
     4. *Aportación editorial propia:* Supera la puerta de originalidad (no es mera paráfrasis ni duplicado de videos ajenos).
     5. *Grado de guionado adecuado:* Justifica la elección entre *palabra por palabra* (para locución IA/off) o *estructura nítida con viñetas* (para screencasts o experto a cámara).
+    6. *Linter Anti-Spoiler y Progresión Dramática:* En los bloques de apertura (`[B01]` y `[B02]`) **está terminantemente prohibido nombrar el mecanismo biológico/técnico central o dar la conclusión prematura**. La apertura plantea el dilema y la paradoja; el mecanismo desconocido se desvela a mitad del metraje (`[B04]`) y se prohíbe cerrar con listicles vagos de autoayuda en el payoff (`[B06]`).
   - **Técnicas Narrativas Opcionales (Caja de Herramientas a Evaluar):**
     - La fórmula de intro de 3 pasos (*Unfair Edge* + Roadmap) se evalúa para educación o negocios; en ficción, misterio, relax o tutoriales rápidos se eligen aperturas inmersivas o de acción directa sin destripar la intriga.
     - El gancho puede formularse como pregunta, dato chocante, hipótesis o demostración según el impacto buscado.

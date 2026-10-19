@@ -30,61 +30,59 @@
 > **Regla de ingeniería y flexibilidad temporal:** Cada bloque de locución tiene un identificador estable `[Bxx]` para facilitar la sincronización con el audio y las escenas en el editor.  
 > *Nota de adaptabilidad:* La cantidad de bloques y su duración deben calcularse en función de la **duración objetivo real del video** (ej. 1 min en Shorts, 8 min en divulgación o 20 min en un ensayo) y la velocidad de locución (~130 a 150 palabras por minuto). Los bloques y tiempos siguientes son un **ejemplo ilustrativo de referencia modular**: el agente puede añadir, dividir o consolidar bloques según el contenido, asegurando que no existan solapamientos de tiempo.
 
-### [B01_Hook_Promesa] — Reafirmar la Promesa y Bucle Abierto
-- **Tiempo estimado (Ejemplo):** `00:00 - 00:10` (~10s)
-- **1. Reafirmación de la Promesa (Segundos 0-5):** *(Confirmar que están en el lugar correcto cumpliendo lo prometido en el packaging)*.
-- **2. Filtro de Bucle Abierto:** ¿El gancho plantea una pregunta o incógnita irresistible en lugar de una afirmación cerrada que destripe el final?
-- **3. Unfair Edge Statement (Autoridad en una frase - si aplica según género):** *(Por qué deben escucharme a mí y no a otro)*:
-  > *"..."*
+### [B01_Dilema_BucleAbierto] — Tensión Inicial y Pregunta Irresistible
+- **Tiempo estimado (Ejemplo):** `00:00 - 00:15` (~15s)
+- **Objetivo narrativo:** Plantear el síntoma universal, el dolor o la paradoja en bucle abierto.  
+  *(❌ LINTER ANTI-SPOILER: Terminantemente prohibido nombrar el mecanismo biológico/técnico central o dar la solución aquí).*
 - **Locución literal (Texto para voz):**
   > *"..."*
-- **Visual sugerido (para Animatic):** Placa de texto o imagen temporal de alta tensión.
+- **Visual sugerido (para Animatic):** Imagen o plano de máxima tensión cognitiva (sin desvelar el desenlace).
 
 ---
 
-### [B02_Roadmap_Compromiso] — Roadmap de Compromiso Mental y Curiosity Gap
-- **Tiempo estimado (Ejemplo):** `00:10 - 00:25` (~15s)
-- **3. Roadmap de Compromiso Mental (*Where the video is going*):** *(Desglose rápido de lo que cubriremos para que el espectador decida quedarse el video completo; opcional según género)*.
-- **Curiosity Gap:** *(Pregunta o enigma central que mantendrá la tensión)*.
+### [B02_La_Falsa_Causa] — Desmontar la Creencia Habitual
+- **Tiempo estimado (Ejemplo):** `00:15 - 00:40` (~25s)
+- **Objetivo narrativo:** Cuestionar la explicación intuitiva que la mayoría asume como cierta (*"Siempre te dijeron que X ocurría por Y, pero los datos muestran que no es así"*).
 - **Locución literal (Texto para voz):**
   > *"..."*
-- **Visual sugerido (para Animatic):** Gráfico provisional o captura del paper/fuente con rótulos de las secciones.
+- **Visual sugerido (para Animatic):** Gráfico, archivo o metáfora visual que evidencie la contradicción.
 
 ---
 
-### [B03_Conflicto] — El Dilema Central o Tensión Cognitiva
-- **Tiempo estimado (Ejemplo):** `00:25 - 01:10` (~45s)
-- **Objetivo narrativo:** Establecer por qué este problema o misterio es difícil o fascinante.
+### [B03_El_Quiebre_o_Anomalia] — La Paradoja Extrema
+- **Tiempo estimado (Ejemplo):** `00:40 - 01:20` (~40s)
+- **Objetivo narrativo:** Presentar el caso límite, experimento o enigma donde la lógica convencional se rompe por completo. Eleva la urgencia por conocer la respuesta.
 - **Locución literal (Texto para voz):**
   > *"..."*
-- **Visual sugerido (para Animatic):** B-roll rápido o animación esquemática de prueba.
+- **Visual sugerido (para Animatic):** B-roll rápido, recreación o animación esquemática de la anomalía.
 
 ---
 
-### [B04_Desarrollo_1] — Primer Núcleo de Valor / Evidencia
-- **Tiempo estimado:** `01:10 - 02:30` (~80s)
-- **Objetivo narrativo:** Explicación del primer experimento, dato o paso práctico.
+### [B04_La_Revelacion_del_Mecanismo] — El Hallazgo Oculto
+- **Tiempo estimado (Ejemplo):** `01:20 - 02:40` (~80s)
+- **Objetivo narrativo:** Revelar por primera vez el **Mecanismo Desconocido** (*Unfamiliar Mechanism* de Eugene Schwartz) que explica la verdad detrás del enigma.
 - **Locución literal (Texto para voz):**
   > *"..."*
-- **Visual sugerido (para Animatic):** Diagrama preliminar o grabación de pantalla provisional.
+- **Visual sugerido (para Animatic):** Diagrama animado o visualización conceptual del mecanismo.
 
 ---
 
-### [B05_Desarrollo_2] — Segundo Núcleo de Valor / Contraste
-- **Tiempo estimado:** `02:30 - 04:00` (~90s)
-- **Objetivo narrativo:** El giro inesperado, complicación o segunda evidencia.
+### [B05_La_Prueba_o_Experimento] — Evidencia Factual y Rigor
+- **Tiempo estimado (Ejemplo):** `02:40 - 04:10` (~90s)
+- **Objetivo narrativo:** Demostrar cómo se descubrió o validó el mecanismo (citar paper o fuentes primarias de `06`, matizando si aplica modelo animal).
 - **Locución literal (Texto para voz):**
   > *"..."*
-- **Visual sugerido (para Animatic):** Comparativa A vs. B en baja fidelidad.
+- **Visual sugerido (para Animatic):** Documentos primarios, visualización del experimento o datos empíricos.
 
 ---
 
-### [B06_Payoff] — Resolución Contundente (Cumplimiento de la Promesa)
-- **Tiempo estimado:** `04:00 - 05:00` (~60s)
-- **Objetivo narrativo:** La recompensa final prometida en el título y la miniatura.
+### [B06_Payoff_Reencuadre_Mental] — Resolución y Nuevo Modelo Mental
+- **Tiempo estimado (Ejemplo):** `04:10 - 05:00` (~50s)
+- **Objetivo narrativo:** Cumplimiento contundente de la promesa inicial y reencuadre de cómo el espectador comprende su realidad.  
+  *(❌ PROHIBIDO el listicle vago de '3 tips de autoayuda' de TikTok; aportar una conclusión transformadora).*
 - **Locución literal (Texto para voz):**
   > *"..."*
-- **Visual sugerido (para Animatic):** Resultado gráfico contundente.
+- **Visual sugerido (para Animatic):** Resultado gráfico contundente o metáfora de síntesis.
 
 ---
 
