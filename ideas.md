@@ -48,5 +48,20 @@ Este documento centraliza el semillero de conceptos de la oficina. Para evitar l
 
 ---
 
-## 3. Notas de Tono y Estilo
+## 3. 📥 Canales y Nichos Aprobados en Cola de Investigación (Backlog Global)
+*(Ideas de canales validadas por el creador que esperan turno para inicializar su carpeta en `canales-en-estudio/`)*:
+- *(Actualmente vacío: las ideas aprobadas en sesiones se apilan aquí automáticamente).*
+
+---
+
+## 4. 🚫 Territorios y Nichos Vetados (Lista Negra Global - NO PROPONER)
+> **Directiva estricta para cualquier agente:** Antes de sugerir o proponer nichos o temáticas, el agente **debe consultar obligatoriamente esta lista**. Está terminantemente prohibido proponer ideas que toquen los siguientes territorios:
+- ❌ Criptomonedas, trading especulativo o esquemas de enriquecimiento rápido.
+- ❌ Política partidaria, militancia o debates de polarización ideológica.
+- ❌ Chismes de farándula, sensacionalismo vacío o contenido de bajo valor intelectual (*AI Slop*).
+- ❌ *(El creador puede añadir temas vetados aquí en cualquier momento para que ningún agente vuelva a sugerirlos)*.
+
+---
+
+## 5. Notas de Tono y Estilo
 - *Referencia de tono:* Comentarios espontáneos, humor sutil y ritmo chill como el creador "Ryan Trahan".

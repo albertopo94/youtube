@@ -13,6 +13,10 @@ Tanto si un agente ingresa al repositorio por primera vez como si retoma el trab
 2. **Consultar el Estado Real (`00-estado-produccion.md`):** Leer el archivo de estado de producción del video o canal. No asumir nada a partir de conversaciones pasadas.
 3. **Verificación Física de Entregables:** Inspeccionar qué archivos existen realmente en el disco (ej. si `01-packaging.md` tiene títulos y miniaturas aprobados; si `06-fuentes-y-verificacion.md` tiene las fuentes primarias validadas). **Completar casillas no equivale a haber demostrado el resultado.**
 4. **Determinar la Siguiente Acción Permitida:** Identificar la fase activa y verificar si se encuentra en estado `EN_CURSO` o si está bloqueada en `PENDIENTE_APROBACION` esperando validación humana.
+5. **Linter Obligatorio de Ideas y Temáticas Vetadas:** Antes de proponer o listar cualquier idea de canal o video, el agente **está obligado a consultar**:
+   - La lista negra global en `ideas.md` (`## 4. 🚫 Territorios y Nichos Vetados`).
+   - El archivo `backlog-ideas.md` del canal correspondiente (`## 3. 🚫 Ideas y Enfoques Vetados`).
+   *Prohibido terminantemente proponer temas o formatos que figuren en estas secciones.*
 
 ### Al Finalizar o Pausar la Sesión:
 1. **Registrar Entregables y Estado:** Actualizar `00-estado-produccion.md` con:
@@ -21,6 +25,9 @@ Tanto si un agente ingresa al repositorio por primera vez como si retoma el trab
    - Bloqueos detectados o decisiones pendientes de validación.
    - Siguiente acción exacta que debe ejecutar el próximo agente.
 2. Si se alcanzó un hito creativo, cambiar el estado a `PENDIENTE_APROBACION` y presentar la solicitud al creador.
+3. **Persistencia Automática de Ideas (Gestión de Backlog):** Cada vez que en una sesión el creador apruebe ideas pero solo se produzca una:
+   - Las ideas aprobadas restantes **deben registrarse inmediatamente en `backlog-ideas.md`** bajo `## 📥 1. Ideas Aprobadas en Cola de Producción`.
+   - Las ideas explícitamente descartadas por el creador **deben registrarse en `## 🚫 3. Ideas Vetadas para este Canal` con su motivo breve**, asegurando que ningún agente futuro vuelva a insistir sobre ellas.
 
 ---
 
@@ -150,9 +157,18 @@ Para que una fase se considere `APROBADO`, debe existir evidencia física demost
 
 ---
 
-## 🏗️ 07. Scaffolding y Contrato Canónico de Archivos por Video
+## 🏗️ 07. Scaffolding y Contrato Canónico de Archivos
 
-### 1. Durante la Producción Activa:
+### 1. Estructura de un Canal (tanto en `canales-en-estudio/` como en `mis-canales/`):
+```text
+[nombre-canal]/
+├── backlog-ideas.md              # 📥 Ideas aprobadas en cola + 🚫 Ideas vetadas para este canal
+├── estudio-mercado.md            # Outliers, competidores y análisis DFS
+└── propuesta-branding.md         # Concepto, audiencia, tono y Unfair Edge Statement
+```
+*(Al aprobarse el canal, se traslada íntegramente de `canales-en-estudio/[canal]` a `mis-canales/[canal]`, conservando su `backlog-ideas.md` y añadiendo las carpetas `branding/`, `videos-en-estudio/` y `videos-publicados/`).*
+
+### 2. Durante la Producción Activa de un Video:
 Cada carpeta de video en `mis-canales/[canal]/videos-en-estudio/[numero-slug]/` se compone de los siguientes archivos:
 
 ```text
@@ -166,7 +182,7 @@ Cada carpeta de video en `mis-canales/[canal]/videos-en-estudio/[numero-slug]/` 
 └── 06-fuentes-y-verificacion.md  # Fact-checking: investigación previa y verificación de borrador
 ```
 
-### 2. Tras la Publicación en YouTube:
+### 3. Tras la Publicación en YouTube:
 - La carpeta del video se traslada **íntegramente** de `videos-en-estudio/[numero-slug]/` a `mis-canales/[canal]/videos-publicados/[numero-slug]/`.
 - **Preservación estricta de trazabilidad:** Se conservan intactos todos los archivos de producción originales (`00` a `06`) para mantener las pruebas de licencias, DOIs verificados y versiones aprobadas.
 - Se genera el archivo **`entregable-final.md`** (usando `_framework/plantillas/entregable-final-template.md`) con la URL pública definitiva, créditos y descripción oficial, y se actualiza `00-estado-produccion.md` al estado de cierre.

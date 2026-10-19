@@ -5,6 +5,7 @@ Esta carpeta contiene los canales formalmente aprobados y en operación activa.
 ## Estructura canónica para cada canal:
 ```text
 mis-canales/[nombre-canal]/
+├── backlog-ideas.md              # 📥 Ideas aprobadas en cola + 🚫 Ideas vetadas para este canal
 ├── branding/                      # Logo, banner, tipografías, bio, paleta de colores
 │   └── banner.png
 ├── banco-visual.md                # Estilos visuales específicos de este canal

@@ -79,6 +79,7 @@ youtube/
 │       ├── registro-verificacion-fuentes-template.md # Tabla de fact-checking y fuentes primarias
 │       ├── estudio-canal-template.md  # Plantilla para evaluar viabilidad de un canal nuevo
 │       ├── propuesta-branding-template.md # Plantilla para identidad, logo, banner y tono
+│       ├── backlog-ideas-template.md  # Plantilla de ideas en cola y lista de temas vetados
 │       ├── entregable-final-template.md # Plantilla del video publicado (metadata, tags, créditos)
 │       └── pipeline-video-template/   # Plantilla modular para producir un video:
 │           ├── 00-estado-produccion.md       # Estado persistente y siguiente acción permitida
@@ -91,11 +92,11 @@ youtube/
 │
 ├── canales-en-estudio/                # Incubadora de canales en fase de investigación y validación
 │   ├── README.md                      # Instrucciones de uso
-│   └── _plantilla-canal/              # Scaffolding vivo (estudio-mercado.md + propuesta-branding.md)
+│   └── _plantilla-canal/              # Scaffolding vivo (estudio-mercado, propuesta-branding, backlog-ideas)
 │
 ├── mis-canales/                       # Canales aprobados y en operación activa
 │   ├── README.md                      # Instrucciones de uso
-│   └── _plantilla-canal/              # Scaffolding vivo (branding/, banco-visual, referentes, videos)
+│   └── _plantilla-canal/              # Scaffolding vivo (backlog-ideas, branding/, banco-visual, videos)
 ```
 
 ---
