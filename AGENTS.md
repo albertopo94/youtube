@@ -159,7 +159,7 @@ Las herramientas de la oficina están catalogadas en `_framework/herramientas-y-
 - **Investigación e Ideación:** Consultar YouTube Studio (pestañas Research y Audience), VidIQ (competencia y outliers), Google Trends y Books Ngrams.
 - **Packaging:** Diseñar variantes de títulos y miniaturas; sugerir **Thumblytics** para simulación previa de feed; inspirarse en **AdForum** para ganchos publicitarios de alto impacto; usar **Google AI Studio** para refinamiento multimodal de prompts.
 - **Fact-Checking:** Consultar **Google Scholar & Labs** para abstracts y DOIs de papers primarios.
-- **Storyboard y Animatic:** Usar **Google Docs Video Scene Editor** o plantillas internas; generar locución provisional con **ElevenLabs (tier gratuito)** o TTS de sistema.
+- **Storyboard y Animatic:** Usar **Google Docs Video Scene Editor** o plantillas internas; generar locución provisional con **ElevenLabs (tier gratuito)**, **Luvvoice (Free tier / MCP oficial: `luvvoice.com/es/mcp`)** o TTS de sistema.
 - **Montaje y Edición:** Priorizar **FilmCraft** por su arquitectura abierta nativa para CLI y protocolo de control con agentes (MCP). El resultado del video piloto determinará si es viable en el entorno local o si se requiere asistencia manual en editores de escritorio.
 - **Música y SFX:** Explorar **FlowMusic**, **Google Flow** o la **YouTube Audio Library** libre de reclamos.
 - **Búsqueda de Assets:** Conectar vía API/MCP con **Coverr**, **Pexels**, **Pixabay**, **Wikimedia Commons** u **Openverse**.

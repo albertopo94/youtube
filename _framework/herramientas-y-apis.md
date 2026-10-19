@@ -32,6 +32,7 @@ Catálogo técnico de plataformas, software y APIs de la oficina de YouTube.
 | **Google Scholar & Labs** | `02` | Búsqueda de papers primarios (Fact-checking) | 🟢 PROBADA EN ENTORNO | Localización de DOIs, abstracts y autores. | Ciertos papers completos exigen suscripción institucional. |
 | **Google Docs Video Scene Editor** | `03 / 04` | Estructuración colaborativa de escenas y guion | 🟢 PROBADA EN ENTORNO | Organización visual de escenas por bloques. | Editor colaborativo en la nube de Google. |
 | **ElevenLabs (Tier Free)** | `04` | Locución provisional (*Scratch Track*) para animatic | 🟢 PROBADA EN ENTORNO | Generación rápida de voz para validar ritmo sin costo. | Cuota mensual limitada de caracteres; apto para pruebas internas. |
+| **Luvvoice (Web, MCP & Skill)** | `04` | Locución provisional (TTS gratuito) con soporte MCP y Skill | 🟢 DISPONIBLE / MCP | Web: [luvvoice.com/es](https://luvvoice.com/es) (Docs: [/es/doc](https://luvvoice.com/es/doc), MCP: [/es/mcp](https://luvvoice.com/es/mcp), Skill: [/es/skill](https://luvvoice.com/es/skill)). | **Solo Free Tier.** Ideal para locución provisional (*Scratch Track*) y animatic sin costo. Dispone de servidor MCP oficial y Skill para integración con agentes. |
 | **ElevenLabs (Tier Creator)** | `05` | Locución comercial definitiva | 🟡 DISPONIBLE / DOC. | Derechos comerciales de salida bajo suscripción de pago. | Requiere suscripción activa para monetización en YouTube. |
 | **FilmCraft** | `04 / 05` | **Montaje y timeline asistido por agentes (CLI / MCP)** | 🔴 CANDIDATA A PILOTO | Lectura de repositorio y protocolo de control para agentes. | **Herramienta prioritaria para automatización.** En fase alfa (~56%); su viabilidad para renders se decidirá en el piloto. |
 | **EffectCraft** | `05` | Motion graphics y efectos visuales vía agentes | 🔴 EXPERIMENTAL | Protocolo de control documentado. | Fase alfa temprana. Se evaluará tras consolidar FilmCraft. |
@@ -50,7 +51,7 @@ Catálogo técnico de plataformas, software y APIs de la oficina de YouTube.
 
 ## 2. Recomendación Operativa para el Video Piloto
 
-1. **Locución:** Armar la locución provisional con el tier gratuito de ElevenLabs (o TTS de sistema) para el animatic. Solo tras aprobar la narrativa, generar la locución final comercial.
+1. **Locución:** Armar la locución provisional con el tier gratuito de ElevenLabs, el tier gratuito de **Luvvoice** (vía web o MCP oficial: `luvvoice.com/es/mcp`) o TTS de sistema para el animatic. Solo tras aprobar la narrativa, generar la locución final comercial.
 2. **Montaje:** Intentar el montaje con **FilmCraft** por su integración con agentes (CLI/MCP). Si en este Mac Intel surgen fallos de render o inestabilidad, recurrir a un editor consolidado de escritorio (DaVinci Resolve o CapCut) como plan de contingencia documentado.
 3. **Imágenes / B-Roll:** Descargar stock verificado desde las webs oficiales de Coverr/Pexels archivando la licencia en `licencias/`. Generar visuales con Midjourney/Flux bajo suscripción comercial.
 4. **Publicación:** Subir manualmente a YouTube Studio y activar la prueba nativa "Prueba y Compara".
