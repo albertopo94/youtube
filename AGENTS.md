@@ -172,6 +172,10 @@ Cuando una herramienta requiera interacción visual, inicio de sesión o ejecuci
 - **Simuladores de Feed (Thumblytics):** El agente entrega los 3 conceptos visuales y la pregunta exacta para el *glance test* para que el creador solo tenga que subirlos y simular.
 - **Plataformas de Publicación (YouTube Studio):** El agente entrega el título final, la descripción formateada con capítulos y marcas de tiempo, la lista de tags separada por comas y los textos de atribución de licencias listos para pegar.
 - **Investigación con Paywall (Google Scholar & Labs):** El agente entrega el DOI, enlace directo, título del paper y el abstract resumido para que el creador pueda descargar el PDF completo si requiere credenciales.
+- **Búsqueda de Imágenes en Alta Resolución (Google Imágenes Handoff):** Cuando una escena requiera material visual específico que no esté en los bancos habituales, el agente construye y entrega la URL codificada en dos variantes:
+  - *Alta resolución general:* `https://www.google.com/search?udm=2&tbs=isz:l&q={CONSULTA_URL_ENCODED}`
+  - *Alta resolución + Licencia libre (Creative Commons):* `https://www.google.com/search?udm=2&tbs=isz:l,il:cl&q={CONSULTA_URL_ENCODED}`
+  - El creador abre el enlace, descarga la imagen deseada y le proporciona la URL de origen al agente para que asiente autor, origen y licencia en `04-registro-recursos.md`.
 - **Montaje en Editores de Escritorio (DaVinci, Premiere, CapCut o FilmCraft manual):** El agente entrega la tabla de `03-storyboard-y-edicion.md` con los timecodes exactos y los IDs de bloque `[Bxx]` para facilitar el corte sin fricción.
 
 ### 3. Proactividad de Herramientas (Con Visto Bueno Obligatorio):
