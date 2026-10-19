@@ -1,149 +1,237 @@
-[00:00] Este es mi canal de YouTube de IA que hice estallar en 7 días y quiero que tú empieces a hacer lo mismo, pero aún más rápido. Así que en este video voy a iniciar un canal de YouTube completamente nuevo y lo operaré durante 24 horas con inteligencia artificial para que puedas replicar mis acciones y obtener resultados similares. Pero para que esto suceda, necesitamos empezar ahora mismo.
+[00:00] Este es un principiante que nunca antes había hecho un video de YouTube y voy a cambiar eso. Así que en este video voy a ayudar a comenzar un canal de YouTube desde cero y hacerlo viral en solo 7 días.
 
-Hora 1: Selección del nicho
-Tomaremos inspiración de este canal de aquí: a través de 29 subidas, han ganado más de 250 millones de visitas y su primera subida fue hace solo 3 meses. Si te preguntas cuánto significa esto en términos de retorno financiero, este canal habría ganado 50,000 dólares estadounidenses, lo que significa que este canal está ganando 16,000 dólares al mes. Como puedes entender, esta es la razón por la que tomamos este canal como inspiración. Lo que este canal está subiendo son estos procedimientos de comida obsesivos que consumen un tiempo increíble.
+[00:15] La idea es que puedas seguir el mismo proceso y obtener resultados similares, pero para que esto suceda necesitamos empezar hoy seleccionando el nicho.
 
-[01:00] Mientras ves esto, probablemente estés pensando: "Jack, esto es contenido de comida que requiere un esfuerzo extremo e inversión financiera". Y eso es lo que yo también pensé al ver este contenido por primera vez, pero tras una mayor investigación, este contenido se está creando con IA. Si prestas mucha atención a ciertas partes de algunos videos, hay pequeños errores que no ocurrirían si fuera una grabación real, como esta parte de aquí donde claramente hay un problema con la regla y hay una cara en la tabla de cortar.
+[00:23] A principios de este año creamos este canal llamado Isa and Jack. Nuestra primera subida obtuvo más de 150.000 reproducciones, lo cual fue un gran primer intento.
 
-[01:30] En el momento en que me di cuenta de esto, todavía tenía mis dudas porque nadie en los comentarios hacía observaciones sobre que el contenido fuera de IA, así que tuve que probarlo por mí mismo. Aquí está mi intento de 10 segundos en este contenido: "Hoy convertimos este trozo de carne en una funda de iPhone 17 Pro Max. Primero recorto el filete a exactamente 1 milímetro de ancho". ¿Es realista, verdad?
+[00:30] Conseguí esta idea de canal de uno llamado Jasmine and James, y a simple vista parece bastante simple, pero de hecho gana más de 250.000 dólares al mes.
 
-[01:55] Y al igual que el canal de ejemplo, aparte de esta prueba, esta no es la forma en que vamos a abordarlo. Lo que los creadores suelen hacer cuando ven un canal como este es simplemente replicar el contenido, pero esa es la forma más rápida de no obtener resultados, porque YouTube no premia los duplicados de canales existentes. Así que lo que voy a hacer para evitar esto es estudiar este contenido.
+[00:37] Es una locura que un canal de YouTube pueda ganar tanto dinero, por lo que fue bastante fácil para Jack convencerme de participar en este canal.
 
-[02:13] Así que entré en estado de flujo para analizar el contenido. Primero comencé abriendo un documento de Word y anoté el título del video más popular del canal, la cantidad de visitas que tenía, y para cada escena anoté ciertos detalles como la duración de cada escena, una descripción de lo que sucedió visualmente, el guion y una captura de pantalla de la escena.
+[00:48] Pero hoy quiero un canal para mí misma. Mirando atrás en nuestro intento de una sola subida, hubo algunos desafíos: fue increíblemente lento para un solo video y, aunque solo duraba 47 segundos, nos llevó aproximadamente una hora filmarlo.
 
-[02:37] Diseñar el video de esta manera estructurada te obliga a prestar atención a cómo se están creando estos videos, lo que nos permitirá replicar las fuentes que están dentro de estos videos virales. Y repetí este proceso para los tres videos más populares del canal para aumentar nuestro tamaño de muestra, y después de 18 minutos de trabajo repetitivo, el documento estaba completo.
+[01:05] Además, el canal no era apto para principiantes, ya que sin mí no habrías tenido acceso al equipo de filmación ni a la idea inicial.
 
-[02:57] Así que he mapeado cómo creo que se están creando estos videos, y para ayudarte a entender, desglosaremos este de aquí con 35 millones de visitas. El video comienza con una declaración: "Hoy estamos pellizcando 99,099 floretes de brócoli", que es lo que vamos a llamar la fase de declaración.
+[01:11] Y como tercer desafío, tuvimos alta competencia, ya que técnicamente competíamos con Jasmine and James, quienes suben contenido cada 30 minutos.
 
-[03:13] Luego, el creador pasa a una fase de evaluación, como en este video donde los floretes son inspeccionados y medidos. A continuación viene lo que me gusta llamar la fase de aislamiento, donde en este video cada florete se abre y se inserta un solo pellizco de sal uno por uno.
+[01:21] Todos estos fueron desafíos que nos frenaron, pero a partir de ahora se convertirán en nuestros criterios de selección para decidir qué nicho entraremos hoy.
 
-[03:31] Después de eso, suele haber un lapso de tiempo de algún proceso intrincado que vamos a llamar la fase de proceso, y típicamente hay una fase de construcción donde todas las partes se juntan rápidamente, y finalmente la fase de revelación del producto terminado.
+[01:31] Lo que podemos hacer es descargar videos virales existentes en YouTube y luego transformarlos mediante algo llamado "edición de valor añadido", lo que nos permite monetizar los videos bajo los términos de servicio de YouTube.
 
-[03:44] Y podemos representar visualmente esta estructura en un gráfico que se ve así. Y esto es lo que vamos a llamar la fórmula general del canal Brazen, y lo que creo que podemos hacer con esta estructura —que está probada con más de 250 millones de visitas— es que podemos aplicarla a un tema diferente para crear nuestro propio nicho que no tenga competencia.
+[01:43] Este enfoque satisface nuestro criterio de contenido apto para principiantes, ya que utilizamos videos virales existentes y, por supuesto, es extremadamente eficiente en cuanto a tiempo, ya que no grabamos nosotros mismos los videos.
 
-[04:04] Pero tenemos que tener cuidado aquí: el canal de Brazen satisface tres criterios que permiten que su contenido funcione tan bien, y debemos asegurarnos de que nuestro nuevo tema satisfaga cada uno de estos criterios.
+[01:58] Sin embargo, nos queda un desafío: necesitamos decidir qué contenido vamos a descargar. Así que, Isa, ¿qué contenido te interesa crear?
 
-Criterio 1: El contenido tiene que ser universalmente relatable. Brazen hace videos sobre comida; no se requiere conocimiento de nicho o interés específico para entenderlo, es una cuestión de la vida cotidiana, y esa es una de las razones por las que sus videos obtienen tantas visitas. Es instantáneamente comprensible y accesible para todos.
+[02:05] Realmente no me importa qué contenido hagamos, estoy más aquí por los resultados.
 
-Criterio 2: Debe haber un gancho emocional. ¿Recuerdas los comentarios que te mostraba? Todo el mundo llama loco al creador por gastar tanto tiempo en esto. El espectador ve una cantidad irracional de esfuerzo por un resultado inútil y no puede apartar la mirada. En el caso de Brazen, está desencadenando una emoción de absurdidad. Así que cualquier tema que decidamos debe tener algún tipo de gancho emocional.
+[02:10] Muy bien, centrémonos en una investigación amplia. Entramos en una fase de investigación de nicho buscando dos cosas: número uno, canales con un recuento promedio de visualizaciones alto por video, y dos, que nadie esté resubiendo su contenido.
 
-Criterio 3: Compulsión de finalización. Como sabes, en el gancho de los videos el creador hace una declaración y los espectadores quieren verla cumplida y terminada. Es por eso que la retención en estos videos es muy alta y otra razón del éxito del canal.
+[02:23] Después de 16 minutos de investigación, encontramos nuestro canal.
 
-[05:16] Así que ahora, con estos criterios identificados, surge la pregunta de qué seleccionaremos exactamente como nuestro tema. Y estamos de suerte porque he estado pensando en esto durante mucho tiempo: he visto muchos videos de mascotas funcionar extremadamente bien porque es un tema altamente relatable.
+[02:30] Encontramos un canal llamado Nile Blue y, como Jack me ayudó a entender, hay una audiencia extremadamente alta por video. Hemos tomado los títulos de estos videos, los hemos puesto en la barra de búsqueda y, como puedes ver, es solo el video original, lo que significa que cumplimos con el último criterio de baja competencia.
 
-[05:35] He estado haciendo lluvias de ideas sobre cómo podríamos dar forma a esta idea para cumplir con los dos criterios restantes, y lo que creo que podemos hacer es crear un salón de mascotas con IA donde las mascotas vendrán a nosotros sucias y luego se irán completamente transformadas, lo cual cumple con nuestro criterio de compulsión de finalización y cumple con nuestro gancho emocional porque iremos a extremos en el proceso de aseo para crear una emoción de absurdidad.
+[02:48] Esto significa que nuestro nicho está listo: descargamos los videos de Nile Blue, aplicamos edición de valor añadido y hacemos que Isa se vuelva viral en su propio canal.
 
-[06:03] Con los criterios cumplidos, creo que no hay razón por la cual no obtengamos resultados locos. Por supuesto, esto depende de si podemos obtener buenos resultados usando IA, porque no tengo los fondos para invertir en un salón de mascotas real, ni tenemos el tiempo porque solo tenemos 24 horas aquí. Así que veo este proceso como ligeramente problemático, pero averigüemos si podemos hacer esto juntos.
+[02:55] Esto parece fácil en el papel, pero debemos recordar que Isa es una principiante completa, así que debemos ir paso a paso.
 
-Configuración del canal
-Este es el canal de YouTube que usaremos para subir nuestros videos. Si hago clic en la sección "más", notarás que la cuenta fue creada hace 7 meses. Si quieres empezar en YouTube y empezar a subir videos, recomiendo tener una cuenta que tenga al menos 7 días de antigüedad y tenga algo de historial de visualización. Si no haces esto, YouTube pensará que tu cuenta es spam y no tendrás ninguna posibilidad de conseguir visitas.
+[03:09] Creación de canal: este es el canal personal de YouTube que Isa usa para ver videos y hoy subiremos videos desde él, pero como puedes ver necesita algunos cambios.
 
-[06:46] De todos modos, volviendo a nuestro canal, notarás que tenemos un nombre de usuario generado aleatoriamente. Lo que voy a hacer es entrar en "Personalizar canal" aquí y vamos a cambiar primero el nombre. No sé muy bien cómo llamarlo, así que voy a venir aquí e ir a ChatGPT; voy a alimentarlo con una descripción simple de lo que trata nuestro canal y luego pedirle sugerencias de nombres.
+[03:15] Así que, Isa, presiona personalizar canal, baja un poco y empecemos con el identificador del canal. ¿Alguna idea? No.
 
-[07:08] Así que obtuvimos bastantes resultados, pero inmediatamente lo que me llamó la atención fue este concepto de aquí: Street Dog Salon (Salón de perros callejeros). Vamos a copiarlo y volver a YouTube para ver si nos da la opción, y no está disponible. Lo que me gusta hacer si el nombre no está disponible es simplemente añadir un "real" al final, y eso está disponible. Vamos con eso.
+[03:25] Bien, abramos una pestaña nueva, vayamos a ChatGPT y escribamos una descripción del canal basada en la idea que se nos ocurrió. Ahora pídele que te dé algunas ideas para el nombre del canal.
 
-[07:29] Muy bien, nuestro nombre de canal está configurado, pasemos a los recursos del canal comenzando con la foto de perfil. Decidí usar un generador de imágenes de IA llamado Higsfield. Todo lo que hice fue escribir una instrucción de imagen y hacer clic en generar. La imagen que decidí crear fue esta, que mostraba pelaje sucio a la izquierda y pelaje limpio a la derecha. Con esa imagen descargada, volví a nuestro canal y subí la foto de perfil, y después de 4 minutos el canal estaba listo.
+[03:37] Los resultados están listos, ¿hay alguno que te llame la atención? Hm, no me importa este: "Tested Improved" (Probado y mejorado).
 
-[08:00] Muy bien, el canal ya está configurado y si miras desde mi fondo notarás que no hay un banner de canal, solo tenemos una foto de perfil configurada. Y la razón por la que hice esto es simple: no afecta a cuántas visitas obtenemos y queremos centrarnos en las visitas para nuestro canal de YouTube porque así es como nos pagan. Así que continuemos con lo que realmente importa.
+[03:45] Copiémoslo, volvamos a YouTube y peguémoslo como identificador del canal. No está disponible, lo cual suele ser habitual en YouTube. Resaltemos y pongamos una "N" al final. Genial, ahora está disponible.
 
-Ideación de videos (Hora 2)
-Me moví a la etapa más importante de un canal de YouTube: la ideación de videos, porque al final del día los videos que subes determinan cuántas visitas obtienes; tu nicho solo te da dirección. Antes de crear cualquier video, paso 11 minutos simplemente generando la idea del video.
+[03:57] Para el nombre del canal, simplemente resaltamos y pegamos lo que teníamos: "Tested Improved".
 
-[08:42] Así que la ideación está completa y lo hice basándome en mi intuición en lugar de la investigación. A un alto nivel, lo tenía claro: empezar con un perro descuidado, luego realizar una evaluación donde medimos la longitud del pelaje y la cobertura de suciedad; a partir de ahí pasamos a una fase de aislamiento donde el perro se coloca en un baño y cada enredo se limpia uno por uno usando una aspiradora. Luego, para la fase de proceso, sería acondicionamiento y un masaje terapéutico. Después de eso iríamos a la fase de construcción donde secamos el pelo con secador y cortamos el pelaje a medidas exactas usando instrumentos, y finalmente pasamos a la fase de revelación donde sería la transformación final.
+[04:02] Ahora necesitamos hacer los recursos visuales del canal. Empezamos abriendo Photoshop; para nuestra foto de perfil decidimos poner el identificador del canal apilado verticalmente, y Isa decidió poner una marca de verificación verde en la parte inferior. Para el banner del canal usamos el mismo diseño.
 
-[09:17] Esa es la idea general que tengo para nuestro primer video y para avanzar desde aquí necesitamos escribir un guion y luego generar el video usando IA. Para ayudarnos a hacer esto, profundicé más en el documento de Word que hicimos antes pegándolo en ChatGPT; le pedí que nos ayudara a entender las técnicas de redacción de guiones, los cortes promedio por fase y la duración de las escenas. Esto dio como resultado la siguiente información, y se extiende sobre nuestra estructura general inicial, y lo llamaremos el desglose de fases.
+[04:14] Una vez exportados los recursos del canal, se subieron y en 8 minutos el canal estuvo listo.
 
-[09:50] Esencialmente actúa como una estructura para cada fase donde tenemos la duración de cada fase, cuántas escenas hay y finalmente una fórmula de guion. Espero que puedas ver que cuando abordas YouTube de esta manera, no dejas nada a la suerte porque todo se basa en videos probados que tienen millones de visitas. Obviamente todo esto sigue siendo a un alto nivel, pero queremos mantenerlo en marcha desde este punto para no quedar atrapados en la parálisis por análisis.
+[04:26] No pasamos demasiado tiempo en esto porque en realidad no afecta cuántas vistas obtienes. El siguiente paso es el más importante: la ideación de videos.
 
-Hora 2: Creación del video
-Es hora de dar vida al video que se nos ocurrió y no vamos a perder el tiempo. Primero comencé copiando nuestra estructura en ChatGPT para cada fase junto con la estructura general de guiones que encontramos, y le pedí que generara un guion. El que obtuvimos no era perfecto de ninguna manera; incluso si le proporcionas a la IA mucha información, debes recordar que no tiene experiencia en la gestión de canales de YouTube, por lo que nunca debes confiar ciegamente en ella.
+[04:36] Para crear cualquier video exitoso en YouTube, siempre pasas por una fase llamada ideación, y la belleza de nuestro enfoque es que utilizamos videos virales existentes, por lo que la mayor parte del trabajo ya está hecho.
 
-[10:50] Así que hice muchos ajustes para mejorar el flujo y alinearlo mejor con las fases de Brazen. Era hora de hacer el video usando Higsfield. Fui a la pestaña de imágenes, hice clic en "crear imagen" y necesitábamos una instrucción de imagen que va en este cuadro de aquí. Así que fui a ChatGPT y le di una descripción simple de lo que quería; por ejemplo, para nuestra primera imagen quería crear un entorno de salón de perros que no pareciera perfecto, tuviera buena iluminación y no tuviera perros visibles porque en esta etapa solo estoy construyendo nuestra escena. Una vez que obtuvimos la primera instrucción de vuelta, la copié a Higsfield y presioné generar, y después de 30 segundos teníamos la imagen de vuelta.
+[04:56] De los videos del canal, ¿cuál crees que deberíamos usar para nuestra primera subida? Y mientras ves esto, intenta decidir por ti mismo también.
 
-[11:26] Así es como se va a ver el salón de perros; Higsfield hizo un gran trabajo generando esta imagen basada en la instrucción que le dimos. Vamos a usar esta imagen en el futuro cada vez que creemos una imagen dentro de nuestro salón presionando este botón de imagen de referencia aquí abajo. Es importante construir tus escenas de IA tal como lo estoy haciendo aquí porque te permitirá alcanzar consistencia en tus videos de IA.
+[05:05] Es una pregunta con trampa, ¿no? ¿Seguramente es el que tiene 21 millones de visitas, verdad?
 
-[11:51] Con nuestra imagen de referencia fuera del camino, pasamos a crear nuestra primera imagen para el video y, por supuesto, necesitábamos un perro. Así que fui a Google Imágenes y encontré esta imagen de un perro desaliñado y se convirtió en nuestra segunda imagen de referencia. Seguí el mismo proceso que antes generando la instrucción de imagen usando ChatGPT, luego presionando generar, y finalmente tuvimos nuestra primera imagen para nuestro video, con la que estaba bastante feliz. Es bastante lindo. Creo que necesitamos ponerle un nombre juntos, aunque no sé cómo lo llamaríamos.
+[05:12] Yo no diría que esa es la mejor opción para nuestra primera subida. Para aclarar un poco esta fase de ideación, sigamos un enfoque de tres criterios.
 
-[12:21] No más juegos, volví directamente al grano. Presioné el botón de animar y nos llevó al generador de video de Higsfield; simplemente le di una instrucción de video simple para que el perro se moviera y mirara alrededor, y después de 30 segundos se generó el primer video. Sin embargo, no estaba completamente satisfecho con el resultado, ya que era bastante básico y para que fuera una de las primeras tres escenas de nuestro video tenía que ser perfecto.
+[05:21] Empecemos con el criterio número uno: relatibilidad universal. Esto significa que el concepto del video no requiere conocimientos específicos para entenderse.
 
-[12:49] Así que decidí trabajar un poco más en nuestra primera imagen. Tuve la idea de convertir nuestra primera imagen en una Polaroid con la palabra "antes" en la parte inferior y luego recrear nuestra primera imagen con dos manos con guantes sosteniendo la Polaroid. Luego convertí esta imagen en un video y la obtuve de vuelta.
+[05:35] Si tomamos tu video y lo puntuamos según este criterio, puntuaría bastante bajo porque, aunque es el de mejor rendimiento en este canal de ciencia, si lo impulsamos hacia una audiencia más amplia, la mayoría de la gente no sabrá qué es un vaso de precipitados ni le importará.
 
-[13:01] Segundo intento hecho en el primer video y estoy mucho más impresionado con este nivel de calidad. Se ve mucho mejor y hay mucho en qué centrarse. Supongo que con nuestra primera imagen simplemente no pusimos suficiente amor en ella. También con esta idea de la Polaroid del "antes", creo que al final del video podemos comparar esta imagen de "antes" con la transformación completa del perro. Creo que va a ser una idea genial y una mejor manera de alimentar el criterio de compulsión de finalización. Al menos creo que es una buena idea, pero veamos si realmente resulta bien.
+[05:53] Lo mismo ocurre con el segundo video: no tengo idea de qué es un cuchillo de bismuto, ¿tú sí? Así que no podemos esperar que los demás lo sepan tampoco.
 
-[13:39] Con eso fuera del camino, repetí el mismo proceso que viste generando las imágenes y videos para cada fase del video. Luego era hora de juntar todas las generaciones usando mi editor de elección: Premiere Pro. Antes de continuar, necesitaba una locución, así que fui a la función de locución de Higsfield para generar todas las locuciones. Después de completarlas, las descargué y las arrastré a mi línea de tiempo; eliminé todo el aire muerto en la locución y luego sincronicé los clips con los videos. Se añadió música de fondo y finalmente se generaron y redimensionaron los subtítulos, dejando un total de 2 horas y 3 minutos de trabajo completado.
+[05:59] Lo que haremos es tomar este video de Red Bull como nuestro video número uno, que actualmente tiene 10 millones de visitas, el cual cumple con nuestro primer criterio porque la comida es lo más relacionable que hay y Red Bull es la bebida más comercializada de todos los tiempos.
 
-[14:18] Así que el video está terminado. Definitivamente pasé un poco demasiado tiempo en él y me excedí, pero déjame mostrarte lo que pudimos crear.
+[06:12] Pasando al criterio número dos: compulsión de finalización. La mayoría de los principiantes, cuando crean un video, suele verse así: un gancho, acción ascendente y algún tipo de recompensa.
 
-Y aquí vamos, comenzando con la fase de declaración donde hacemos nuestra declaración.
+[06:25] El problema de este enfoque es que es muy predecible. Para evitar esto, me gusta usar un enfoque llamado arco en bucle, que añade tanto un conflicto como una recuperación a la estructura original, lo que a su vez hace que el video sea menos predecible y mantiene a la gente viendo hasta el final.
 
-Luego pasamos a la fase de evaluación donde medimos la longitud del pelaje uno por uno.
+[06:43] Sé que fue mucha información, así que pongamos esta estructura en acción. Empezamos viendo el video de Red Bull y anotando marcas de tiempo que pudieran aplicarse a nuestra estructura.
 
-Y si avanzamos un poco, eventualmente entramos en la fase de aislamiento donde el perro se coloca en un baño y cada enredo se limpia uno por uno usando una aspiradora de agua.
+[06:56] Por ejemplo, a mitad del video, Nile calculó mal el peso del Red Bull mientras se concentraba, lo cual se convirtió en nuestro conflicto; su reintento para obtener el peso correcto se convirtió en nuestra recuperación. Finalmente, terminó probando el Red Bull y tuvo una reacción divertida, que obviamente sería nuestra recompensa.
 
-Avanzando un poco más, eventualmente llegamos a la fase de proceso donde estamos acondicionando y masajeando al perro.
+[07:14] Después de ver el video, pasamos a escribir el guion: el arco en bucle y las marcas de tiempo actuaron como nuestra estructura. Luego rellenamos los espacios en blanco describiendo lo que sucedió en el video. Todo fue sencillo hasta que llegamos al gancho.
 
-Avanzando una vez más, eventualmente llegamos a la fase de construcción donde hacemos esos recortes finales usando instrumentos.
+[07:28] Esto necesita un poco de trabajo y es nuestro último criterio: el bucle abierto. Actualmente, tu gancho puntuaría bastante bajo en este criterio. Léelo en voz alta:
 
-Y después de esto llegamos a la revelación final donde se nos ocurrió la idea de la Polaroid, donde tenemos esa Polaroid de "antes y después" comparando el producto final. Y si seguimos adelante, finalmente llegamos a esa idea de tablero que ideamos.
+[07:35] "Este YouTuber convirtió 100 latas de Red Bull en polvo usando una máquina de secado especial". Es preciso y claro, pero responde la pregunta por ellos; no hay razón para que realmente vean el video.
 
-[15:13] Así que ese es el video completado y estoy muy impresionado con lo que la IA pudo hacer por nosotros. Vamos a subir este video y ponerlo a prueba ahora. Pero si quieres acceso al mismo generador de imágenes y videos que usé en este video, puedes registrarte en Higsfield usando mi enlace abajo. Estoy patrocinado por Higsfield, pero puedo decir honestamente que son mi generador de imágenes y videos de IA preferido al crear videos de IA. Pero continuemos subiendo el video.
+[07:47] Un buen gancho no responde lo que sucede en el video, por lo general plantea una pregunta. Así que probemos esto:
 
-Hora de subida
-Es hora de poner a prueba todo lo que hemos hecho y subir nuestro video. Para el título de nuestro video, vamos a tomar inspiración de Brazen y, basándonos en lo que estudiamos antes, sus títulos suelen seguir una fórmula. Así que ahora lo que voy a hacer es reemplazar estas palabras con lo relevante para nosotros.
+[07:54] "¿Qué pasaría si comprimieras 100 latas de Red Bull en una sola bebida?"
 
-[15:59] Lo que también me gusta hacer con mis títulos es agregar dos emojis. Para las descripciones, de nuevo, lo que he hecho es tomar inspiración de Brazen y luego aquí abajo simplemente añadiremos tres hashtags diferentes. Muy bien, nuestro título y descripción están ordenados, bajemos aquí. Siempre queremos seleccionar que este contenido no está hecho para niños para no terminar en YouTube Kids. Para todas estas otras configuraciones aquí, no hay nada más que necesitemos seleccionar, y para las etiquetas voy a añadir algunas que sean relevantes.
+[08:05] ¿Notas la diferencia? Sí, básicamente estás haciendo una pregunta en lugar de una afirmación.
 
-[16:27] Muy bien, se ve listo para funcionar, publiquemos este video. Muy bien, el video ya está publicado, pero hay una última cosa que queremos hacer. Algo que he notado sobre el canal de Brazen es que está configurando miniaturas personalizadas, por eso su canal se ve tan limpio entre todas sus subidas. Y ahora mismo si miras el nuestro, es un poco feo. No te mencioné esto, pero mientras creábamos nuestro video creé una miniatura usando Photoshop y si vengo a nuestro archivo de video aquí verás que la establecí como nuestro primer fotograma. Para configurar miniaturas personalizadas en los Shorts de YouTube, por alguna razón solo puedes hacerlo desde tu teléfono móvil.
+[08:12] Exactamente, y eso significa que el tercer criterio ahora se cumple porque los estás metiendo en un bucle abierto, y la única forma de cerrarlo es que realmente terminen de ver el video. Esto completó la fase de ideación en 45 minutos.
 
-[17:02] Así que voy a entrar en mi teléfono aquí y seleccionar mi aplicación de YouTube, luego venir a nuestro canal y luego podemos ver nuestro primer video allí con la miniatura fea. Voy a presionar esos tres puntos, luego presionar "editar", y luego presionar este lápiz en la esquina superior izquierda, y luego, como es nuestro primer fotograma, todo lo que necesitamos hacer es presionar el botón de verificación y luego guardar.
+[08:31] Es hora de dar vida a nuestra estructura y guion creando nuestro primer video. ¿Has usado un software de edición antes? No. Esto va a ser un reto entonces. Sí.
 
-[17:23] Y luego, si venimos a nuestra computadora aquí y actualizamos, la miniatura se ha actualizado y se ve mucho más limpia. Para ser honesto, aunque hicimos esto, probablemente no afectará cuántas visitas obtengamos en nuestro video; es más para el caso en que YouTube comience a servir este video en la página de inicio de YouTube. Y realmente espero que lo haga porque solo tenemos 24 horas para hacer que esto funcione. Pero por ahora, sentémonos y veamos cómo se desempeña este video.
+[08:46] Empezamos abriendo CapCut, que es mi editor preferido para principiantes. Descargamos el video de Red Bull, lo arrastramos a la línea de tiempo e hice que Isa cortara los clips de acuerdo con nuestras marcas de tiempo.
 
-Hora 12
-Después de tomar un descanso durante la tarde, fue hora de otra fase de ideación para un segundo video. Para la estructura del video esta vez decidí reemplazar al perro con un gato porque realmente quería inclinarme más hacia el ángulo de la absurdidad para nuestro segundo video, y esta nueva estructura lo hace porque los gatos no se asean tan a menudo como los perros.
+[08:58] Luego pasamos a la voz en off. Fuimos a ElevenLabs y generamos la locución línea por línea. Arrastramos la locución a CapCut y recortamos los espacios vacíos.
 
-[18:14] Con la ideación del video completa para el segundo video, volví a Higsfield para empezar a crear el segundo video, y durante este tiempo eché un primer vistazo a nuestras analíticas. Actualmente estamos pasando por nuestro primer impulso de YouTube y puedes ver que es una línea recta hacia arriba. Espero que esta línea comience a aplanarse, como ya lo está haciendo, porque este es nuestro primer impulso. Cuando tu canal es nuevo y empiezas a publicar Shorts de YouTube, es muy común que YouTube haga impulsos de prueba como el que estamos experimentando ahora.
+[09:09] No fue tan sencillo como parece; la mayor parte del proceso consistió en que yo demostraba una acción y luego hacía que Isa intentara hacer lo mismo. Le costó un poco aprender, pero ese es el proceso de aprendizaje como principiante.
 
-[18:48] Y durante estos impulsos YouTube comienza a entender: 1) quién está interactuando mejor con tu contenido, y 2) probando tu short para ver qué tan bien se desempeña contra esa audiencia. Y podemos obtener una visión temprana de qué tan bien se está desempeñando viniendo a nuestro panel aquí y mirando esta métrica de porcentaje promedio visualizado: es igual al 82%, y considerando que la duración de nuestro video es de 59 segundos, eso es muy fuerte.
+[09:22] Para terminar el video, añadimos gráficos para llamar la atención en momentos clave, luego efectos de sonido, subtítulos y música. Finalmente, lo vimos dos veces para hacer ajustes finales y, después de 51 minutos, el video quedó completo.
 
-[19:08] Sin embargo, voy a seguir haciendo nuestro segundo video aquí porque nos permitirá tener otra subida lista si este video no continúa desempeñándose como esperamos. Después de esa rápida revisión, volví directamente a crear nuestro segundo video usando Higsfield. Después de hacer todas las generaciones y editar el video tal como antes, el segundo video finalmente se completó después de 2 horas y 4 minutos.
+[09:34] El primer video de Isa está terminado. ¿Cómo lo encontraste? Tomó mucho más tiempo de lo esperado, pero la estructura del arco en bucle es prácticamente el plano y luego solo rellenas los espacios en blanco.
 
-Hora 20
-Es la mañana siguiente después de terminar nuestro segundo video y no lo hemos subido todavía porque no queremos abrumar al algoritmo; queremos darle una sola cosa en qué enfocarse. No he revisado las analíticas todavía, pero una buena señal ya es que tenemos notificaciones de canal, lo que significa que 1) la gente está comentando o 2) se están suscribiendo.
+[09:48] Lo que quiere decir es que le dije que mirara la línea de tiempo como si cada sección fuera una fase de la estructura, y a medida que avanzamos de izquierda a derecha, simplemente emparejamos las imágenes con la voz en off.
 
-[19:55] Hagamos clic en esta notificación de campana para averiguarlo: tres suscriptores. Eso no está nada mal, habría preferido comentarios. Pero vengamos aquí a la foto de perfil de nuestro canal y luego presionemos "YouTube Studio": 14,000 visitas, ¡fantástico! Más importante aún, nuestro porcentaje promedio visualizado es del 88%, eso es un aumento del 6% desde ayer, lo que significa que a medida que YouTube continúa impulsando este video, se está desempeñando aún mejor, lo cual es una señal muy fuerte para que YouTube siga impulsando este video.
+[09:59] Realmente, si tienes una buena ideación, la edición es la parte fácil. Pero pongamos este video a prueba ahora.
 
-[20:32] En cuanto a los suscriptores del canal, estamos en 18, lo cual es genial. Pero una cosa que quiero ver en las próximas 24 horas es que lleguen algunos comentarios en el canal, porque esa es una indicación realmente buena de que la gente disfruta de tu contenido.
+[09:12] Hora de subirlo. Es momento de probar el video subiéndolo a YouTube. Primero, para el título, describamos lo que sucede: "Comprimí 100 Red Bulls en una bebida".
 
-[20:42] Pero con eso fuera del camino, dirijámonos a nuestras analíticas de video y obtengamos una mirada más profunda. Muy bien, impulsos muy interesantes aquí. Lo más importante, ese primer impulso que estábamos analizando la noche pasada de alrededor de 1,000 visitas se ve muy pequeño en comparación con los otros impulsos que obtuvimos. Obtuvimos este impulso más grande aquí a las 5 horas y luego otro impulso a las 7 horas, y ahora estamos siendo impulsados continuamente hacia el algoritmo cada hora, dejándonos en 14,500 visitas. Sé que solo tenemos 14,000 visitas, pero en mi opinión, dado que estamos siendo impulsados continuamente y nuestra retención sigue aumentando, parece que esto es solo el principio para Street Dog Salon.
+[09:26] Lo que me gusta hacer es añadir dos emojis. Así que ve a otra pestaña, escribe "emoji de cara sorprendida", cópialo y pégalo en el título. Luego le doy crédito al creador original poniendo su identificador.
 
-Hora 27
-Como puedes ver, se está ralentizando, lo cual no se esperaba. YouTube puede ser una montaña rusa emocional donde las cosas pueden ir perfectamente pero luego de repente no continúan como se esperaba. Es importante que mantengamos la cabeza fría porque fundamentalmente nuestras estadísticas siguen siendo casi perfectas.
+[09:45] Para la descripción, nuevamente describimos lo que pasó en el video, pero con un poco más de detalle que en el título. Agregamos algunas etiquetas aleatorias como #shorts, #science, experiment y viral porque queremos hacernos virales. Eso funciona.
 
-[21:51] También hemos llegado a 30 suscriptores ahora, pero todavía no hay comentarios, lo cual no es ideal. Nuestra proporción de "me gusta" a "no me gusta" se mantiene saludable, pero sí, no hay mucho más que podamos hacer ahora mismo excepto mantenernos positivos. Sigo reteniendo nuestra segunda subida aquí solo porque necesito ver al menos 12 horas de una línea plana continua antes de subir nuestro segundo video.
+[11:16] Eso es todo para la descripción y el título. Bajamos y seleccionamos que el contenido no está creado para niños. Ignoramos la configuración avanzada, presionamos siguiente tres veces, seleccionamos público y publicamos. ¡Tu primer video está en vivo! ¿Cómo te sientes? Bastante bien.
 
-Han pasado poco menos de 12 horas desde que hablamos por última vez y eché un vistazo a esas analíticas, y no voy a mentir, podría sorprenderte tanto como a mí. Redoble de tambores por favor...
+[11:39] Solo quiero establecer una expectativa: a veces los resultados no son los mejores en tu primera, segunda o incluso tercera subida. Cuando revisemos los resultados mañana y los días siguientes, mantén la cabeza gacha y sigamos avanzando. Entendido.
 
-[22:31]  300,000 visitas, ¡insano verdad! Parece que después de aplanarse por un tiempo fuimos impulsados muy agresivamente y parece que no va a disminuir la velocidad en el corto plazo. Usualmente no veo resultados tan rápidos como este porque suelo seleccionar nichos con baja relatabilidad universal.
+[11:57] Día dos. Han pasado poco menos de 24 horas desde que subimos el video por primera vez y es hora de ver los resultados. Estoy nerviosa. ¿Cómo crees que ha ido hasta ahora? ¿Cuántas visitas? ¿100.000 visitas? Pensé que era bastante bueno.
 
-[22:54] A pesar de todo esto, seguimos viendo una tasa de porcentaje promedio visualizado muy fuerte y continua del 85%. Ha disminuido alrededor de un 3%, pero eso es de esperar considerando lo duro que YouTube ha empujado este video. Un elefante en la habitación, sin embargo, es que hemos visto un aumento masivo en suscriptores a 730 y, lo que es más importante, finalmente tenemos 22 comentarios.
+[12:16] ¡¿Qué pasó con las expectativas?! De todos modos, entremos al canal y veamos cómo se ha desempeñado: 3.000 visitas.
 
-[23:16] Todavía no podemos ver una métrica muy importante llamada tasa de deslizamiento (swipe rate) que generalmente se encuentra en este cuadro de aquí, y esta métrica se refiere a cuántas personas se quedan viendo nuestro video pasados los primeros 3 segundos. Pero considerando lo duro que estamos siendo impulsados, asumo que es muy alto. En general, estoy muy orgulloso de lo que pudimos lograr aquí con una sola subida. Te actualizaré mañana.
+[12:26] Eso es lo que ves debajo de la miniatura. Qué mal. Por eso me reí y por eso establecí esas expectativas. De todos modos, vayamos a las estadísticas para verlo mejor.
 
-(Jack Craig Coaching)
-Si quieres iniciar tu propio canal de YouTube que te genere un ingreso, puedes obtener acceso a mi asesoramiento privado dentro de mi coaching. Te llevo a través del mismo proceso que ves en mis videos para contenido de formato largo o corto. Te ayudo a desarrollar tu propio nicho que está construido para el crecimiento y te guío a través de la ideación y ejecución de cada video que subes.
+[12:37] Parece que inicialmente nos impulsaron a unas 300 visitas en la primera hora, luego tuvimos otro impulso a 1.000 visitas justo antes de la tercera hora, y luego tuvimos este impulso más largo alrededor de la marca de las 7 horas, llegando a poco menos de 3.000. Desde entonces se ha mantenido relativamente plano.
 
-[24:22] Actualización final (Hora 48)
-Así que es la hora 48 y ahora estamos en 700,000 visitas, bueno, para ser específicos, 694,000. Nuestro porcentaje promedio visualizado bajó alrededor de un 18%, lo cual no es ideal, pero no importa porque tenemos 700,000 visitas en las últimas 48 horas. Así que las cosas salieron mejor de lo esperado, hasta el punto de que todavía no tiene sentido subir nuestro segundo video porque todavía estamos siendo impulsados. No estamos viendo visitas por hora tan altas en comparación con hace 12 horas, pero sigue siendo sustancial con alrededor de 10,000 visitas por hora.
+[12:53] Después de ver esto, ¿cómo te sientes ahora? Dándose por vencida. Bueno, de esto hablaba, esto es bastante estándar para un canal de YouTube nuevo. Honestamente, para mí este video es casi perfecto y realmente no hay mucho más que hubiéramos podido hacer.
 
-[25:06] Y finalmente llegamos a 2,000 suscriptores. Este es nuestro conteo de visitas en vivo, veamos juntos si podemos ver un aumento allí... ahí lo tienes, ¡casi perfectamente cuando lo dije!
+[13:13] Mientras te quejabas de 3.000 visitas, yo estaba mirando esta métrica: el porcentaje medio de visualización, que representa cuánto tiempo en promedio ve alguien el video. Está alrededor del 82%, lo cual es muy alto para nuestra primera subida. ¿Cómo te sientes ahora? 3.000 visitas...
 
-[25:19] Pero quiero que te des cuenta de lo que ocurrió aquí: durante las últimas 48 horas en un día laborable cualquiera, pudimos iniciar un canal de YouTube que bien podría continuar ganando miles de dólares al mes al igual que nuestro canal de inspiración Brazen. Y sí, este contenido sería monetizable.
+[13:31] Hablando en serio, esto era lo que esperaba para nuestra primera subida. Lo que deberíamos hacer es darle otras 24 horas antes de comentar más sobre este video y empezar con nuestro segundo video.
 
-[25:32] Muchos creadores en esta plataforma difunden desinformación y generan miedo sobre si el contenido de IA es monetizable o no simplemente por visitas. Para explicarte los hechos, YouTube introdujo una política llamada contenido inauténtico que apunta al contenido de IA, pero no al contenido que hemos creado aquí hoy. Lo que específicamente no monetizan es: 1) contenido que tiene una variación mínima entre las subidas, o 2) contenido que es fácilmente replicable a escala.
+[13:40] ¿Otro video? Sí, empezamos con el segundo video porque si nuestro primer video no continúa como esperamos, necesitamos mantener el canal en movimiento.
 
-[26:02] Como has visto hoy, el proceso que seguimos es muy manual y hay un gran elemento humano involucrado. Y creo que necesitamos una definición cuando creamos contenido de IA de esta manera, tal vez algo como contenido habilitado por IA, y la definición sería: contenido en el cual la inteligencia artificial sirve como una extensión de la visión creativa humana produciendo resultados que no serían factibles a través de medios tradicionales. Y esto es muy diferente a la basura de IA (AI slop).
+[13:53] Esta vez estábamos resumiendo el video de Nile Blue donde condensó 20 cervezas en una sola bebida. Este video tenía 6 millones de visitas, pero el problema era que Isa estaba bastante desmotivada y hacerla pasar por una segunda ronda de ideación fue pesado, así que tuve que pararla para darle una charla motivacional.
 
-[26:28] Y si todavía te preocupa la postura de YouTube sobre la IA, YouTube ha estado presionando a los creadores para que usen su IA a través de la aplicación YouTube Create, y si continúas proporcionando una instrucción de video y luego esperas a que se genere, inmediatamente te ofrecen subir ese video de IA directamente a su plataforma. Así que si eso no es evidencia de que YouTube quiere que crees contenido de IA, no sé qué lo es.
+[14:13] Lo que estás experimentando ahora es totalmente normal. Recuerda que incluso antes de tener este proceso del arco en bucle y los tres criterios, yo solo estaba adivinando. ¿Cuántas veces adivinando crees que me tomó antes de conseguir mi primer video viral? Sí, más de 50.
 
-[26:52] Si quieres estar al frente de esta nueva era de creación de contenido y quieres mi ayuda para hacerlo, puedes obtener acceso a mi coaching privado usando el enlace de abajo, donde ayudo a creadores de todos los niveles a iniciar su propio canal de YouTube rentable.
+[14:34] He iniciado muchos canales diferentes que se ven así, recortando contenido sin una estructura real, y puedes ver que algunas de las visitas aquí son incluso más bajas de lo que ya has obtenido. Así que intenta seguir adelante porque, de nuevo, para mí el primer video es perfecto.
+
+[14:59] A pesar de toda esa charla motivacional, decidió que era mejor tomar un descanso por la tarde. ¿Quieres rendirte? Bien, dejémoslo ahí.
+
+[15:08] Temprano en la mañana volvimos directamente a crear el video 2. Después de terminar de ver el video de la cerveza y tener nuestras marcas de tiempo listas, escribimos el guion igual que antes y nos enfocamos en el gancho.
+
+[15:20] Isa se movía mucho más rápido esta vez tras haber dormido y entendido que necesitamos darle tiempo al canal. No la dejé revisar las analíticas en todo el proceso para no desanimarla de nuevo.
+
+[15:38] Después del guion editamos y, tras un total de 1 hora y 5 minutos, el segundo video estuvo completo. Fue ya entrada la noche cuando me dispuse a revisar las estadísticas.
+
+[15:57] Isa, ven a echar un vistazo, es sobre tu canal. ¿Estás grabando? Sí. Está bien, ven a mirar. ¿Sabes dónde mirar? ¡380.000 visitas! ¡Oh, por Dios!
+
+[16:32] Y lo que es más importante, 186 comentarios, lo cual es increíble. Tomemos asiento y veamos las estadísticas.
+
+[16:45] Conozco el gráfico de visitas, pero ignoremos eso un segundo y vayamos a las velas por hora. Representan cuántas visitas obtuvo el video en un período de 48 horas.
+
+[16:58] Hasta las 12:00 a.m. estuvo relativamente plano, tuvimos un impulso a 4.000 visitas y luego otro a 6.000. Las cosas se ralentizaron un poco, pero tuvimos este impulso masivo a 17.000 visitas.
+
+[17:21] Podemos mirar las pestañas de alcance y participación. En esta última hay dos métricas importantes: la primera es la tasa de visualización inicial ("swipe through rate"), donde obtuvimos un 80%, lo que significa que el 80% de la gente se queda más allá de los primeros 3 segundos.
+
+[17:54] La segunda métrica es la duración media de reproducción: alcanzamos los 52 segundos, lo cual es muy fuerte considerando que la duración del video es de 1 minuto y 1 segundo.
+
+[18:20] Salgamos de estas estadísticas geeks y celebremos el hecho de que conseguiste 380.000 visitas en tu segunda subida. No muchos principiantes pueden decir eso. ¡Una locura! Todo gracias a mi ayuda, por supuesto.
+
+[18:38] Entonces, ¿cuándo subiremos el nuevo video? ¿Seguramente mientras las cosas están populares querremos subir y aprovecharlo, no? Queremos esperar. ¿Cuánto tiempo? Es una incógnita. Lo que podemos hacer es monitorear los gráficos de visitas por hora: cuando caen por debajo de 5.000 visitas por hora durante más de 24 horas, ahí es cuando debemos considerar subir contenido.
+
+[19:11] Además, solo han pasado 48 horas, considera cuántas visitas podría tener en 7 días, ¡podría tener 50 millones! Podríamos aprovechar esos 50 millones si simplemente esperamos.
+
+[19:29] Día cuatro. Una revisión rápida de los resultados. Isa ha estado revisando las analíticas en su teléfono cada 10 minutos (culpable).
+
+[19:49] El video ya ha superado los 1,2 millones de visitas, y la participación en 'me gusta' y comentarios ha sido muy alta. Como gran hito, casi has superado los 1.000 suscriptores.
+
+[20:11] He estado vigilando las velas y algunas de ellas son una locura, como 100.000 visitas en 1 hora. Y no pasemos por alto el hecho de que hace apenas 48 horas este video tenía 3.000 visitas y estabas deprimida. Esto demuestra la montaña rusa que puede ser YouTube.
+
+[20:34] En cuanto a la tasa de visualización inicial, ha aumentado en más del 1%, lo que significa que a medida que YouTube continúa impulsando el video, este rinde aún mejor.
+
+[21:01] Día seis. Han pasado 2 días desde nuestra última revisión y el video ya está en 5 millones de visitas. Sin embargo, las cosas están empezando a disminuir: estábamos promediando unas 120.000 visitas por hora anoche y ahora estamos en 40.000.
+
+[21:27] Necesitamos mantener el movimiento subiendo nuestro próximo video. Tom el control y subamos el segundo video (Nota: se refiere a la tercera subida en total, ya que el video anterior era el segundo).
+
+[21:40] El segundo video ya está subido. Después de 12 minutos ya estamos recibiendo visitas desde la sección de Shorts. ¿Alguna predicción para las primeras 24 horas? ¿100.000 visitas?
+
+[22:04] Teniendo en cuenta que nuestro primer video tiene 5 millones de visitas y que el segundo obtuvo 3.000 en las primeras 24 horas, creo que una estimación realista para este es de alrededor de 20.000 visitas. Veamos qué pasa.
+
+[22:27] (Espacio publicitario sobre el coaching de Jack Craig).
+
+[23:07] Día siete. Isa me cuenta cómo van las cosas: estamos en 16.000 visitas en el último video, lo cual está por debajo de lo esperado, pero las analíticas muestran que la gran mayoría de las visitas llegaron en las últimas dos horas (casi 6.000 visitas en la última hora).
+
+[23:44] La tasa de visualización inicial está en 72% y subiendo desde un inicio de 66%.
+
+[23:59] ¿Y qué pasa con el primer video? Sigue subiendo, ¡en 7 millones de visitas!
+
+[24:09] ¿Has tenido la oportunidad de mirar la pestaña "Earn" (Ganancias)? Si bajamos, veremos la elegibilidad para empezar a generar ingresos. Has hecho dos subidas de video en los últimos 90 días, pero en cuanto a las visitas solo muestra 187.000. ¿Cuántas visitas tiene tu primer video? ¡7 millones!
+
+[24:32] Por lo general, YouTube tarda unos días en validar los números. Solo necesitamos hacer otra subida más para cumplir con los requisitos y enviar el canal a revisión para la monetización.
+
+[24:51] Creamos contenido monetizable porque hacemos edición de valor añadido, así que deberíamos estar bien.
+
+[25:11] Isa se puso manos a la obra para crear un tercer video y cumplir con el requisito de tres subidas para la monetización. Lo completó sin mi ayuda ni una sola vez, y cuando me lo mostró no tuve nada que decir, quedó bastante bien.
+
+[25:43] Mi trabajo ha sido exitoso: Isa opera de forma independiente. Sin embargo, he decidido llevar este contenido al siguiente nivel utilizando IA para evitar riesgos con la política de contenido reutilizado de YouTube.
+
+[25:57] Ve a Google, escribe Higsfield AI. Haz clic en la opción de video. Para crear cualquier video con IA necesitamos un guion o instrucción ("prompt").
+
+[26:20] Vamos al guion que escribiste, tomamos la parte donde hablas de los ingredientes, lo pegamos en ChatGPT para pedirle un prompt de video y luego lo llevamos a Higsfield AI para generarlo.
+
+[26:47] Reemplazamos la mayoría de los clips con IA (alrededor de 28 segundos, casi la mitad de la duración del video). Exportamos el video y lo subimos a YouTube.
+
+[27:32] El tercer video está subido. En la pestaña de ganancias ya vemos los tres videos subidos y 2.5 millones de visitas contabilizadas, lo que prepara el terreno para el día 10.
+
+[27:47] Día 10. En la pestaña de ganancias las cosas se ven muy diferentes porque YouTube ha verificado que alcanzamos el criterio de 3 millones de visitas y tres videos subidos.
+
+[28:01] Completamos la revisión de los términos de YouTube y la configuración de una cuenta de AdSense. Ahora estamos esperando que YouTube revise los datos personales y el canal para la monetización, lo cual puede tardar desde varios días hasta un mes.
+
+[28:33] El canal está a punto de superar los 10 millones de visitas totales y ya tenemos una pestaña de ingresos estimados.
+
+[29:03] Fue en el día 18 cuando la cuenta de AdSense de Isa fue aprobada y el canal entró en revisión para la monetización.
+
+[29:11] El día 19 todo cobró sentido: ¡Felicidades, eres socia de YouTube! El canal está monetizado.
+
+[29:40] El canal está en una posición muy sólida: casi 7.000 suscriptores, el video más reciente superando las 100.000 visitas, la notificación del Programa de Socios de YouTube y casi 11 millones de visitas en los primeros tres videos.
+
+[29:55] ¿Qué vas a hacer ahora? ¿Continuar produciendo este contenido o hacer un cambio ("pivot")?
+
+[30:03] Tu nicho tiene un gran inconveniente: dependemos completamente del canal de Nile. Si él deja de subir contenido, tu canal muere.
+
+[30:22] Si hubieras estado monetizada desde el primer día, habrías ganado aproximadamente 4.000 dólares USD según tus datos demográficos. Este nicho funciona, pero con tus nuevas habilidades es hora de volar con tus propias alas. ¿Decides ahora? Te daré tiempo.
+
+[30:50] Actualización final. Han pasado unas semanas. El primer video superó los 10 millones de visitas y los otros dos se estabilizaron en algo más de 100.000.
+
+[31:10] Respecto a este cuarto video, me frustré por no poder superar la marca de las 100.000 visitas en las subidas recientes, así que lo hice y lo superé con este único video.
+
+[31:20] ¿Has tomado una decisión? He decidido construir un canal con contenido que realmente me interese, sin tener que depender del canal de Nile ni de nadie más.
+
+[31:32] Ese es el punto de nuestro enfoque: aprendes los fundamentos de la creación de contenido sin un proceso complejo. Para muchas personas, lo inteligente es mantener un canal que genere flujo de caja mientras construyen un canal original que realmente les importe.
+
+[31:52] Si sigues un enfoque similar, asegúrate de cumplir con la edición de valor añadido para pasar la política de contenido reutilizado de YouTube mediante comentarios y líneas argumentales, tal como hicimos con el arco en bucle y la edición.
+
+[32:17] Si quieres la misma ayuda que recibió Isa, puedes acceder a mi coaching privado usando el enlace de abajo
