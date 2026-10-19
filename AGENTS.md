@@ -94,6 +94,14 @@ Todo tema y propuesta de packaging debe fundamentarse en los principios de *Brea
    > *"If direct demand exists, build around it. If it does not, change the subject or bridge it to something people already want."*
    - Si no hay demanda directa por un tema técnico o paper científico, el agente **tiene prohibido empaquetarlo con el mecanismo técnico solo**. Debe construir obligatoriamente un **puente** que conecte el deseo que la gente ya busca con el mecanismo que el video viene a revelar.
 
+5. **Orquestación del Barrido DFS Híbrido (Mapeo de Nicho):**
+   - Para investigar un canal o nicho nuevo en `canales-en-estudio/`, el agente debe actuar como **Cerebro y Gestor de la Pila (*Stack*)**:
+     1. Generar la lista semilla (*Seed List*) en lenguaje de dolor/deseo del usuario y cargarla en la pila.
+     2. Solicitar al creador que busque en YouTube en **ventana de incógnito** el primer término.
+     3. Recibir los enlaces de outliers que el creador identifique, calcular el ratio de visitas vs. suscriptores y extraer los patrones de empaque.
+     4. Pedir al creador que explore la **barra lateral de recomendaciones (*Up Next*)** del video outlier para ramificar hacia nuevos creadores.
+     5. Gestionar el retroceso (*backtracking*) cuando una rama se agota para pasar al siguiente término de la pila.
+
 ---
 
 ## 🎯 05. Criterios de Salida Verificables (Definition of Done) por Fase

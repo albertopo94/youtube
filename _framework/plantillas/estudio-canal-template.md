@@ -7,13 +7,30 @@
 
 ---
 
-## 1. Análisis de Competidores y Casos Atípicos (Outliers)
-- **Canales de referencia principales:**
-  1. Canal A (enlace y análisis de volumen)
-  2. Canal B (enlace y análisis de volumen)
-- **Outliers identificados:**
-  - Video outlier 1: [Enlace] | *¿Por qué explotó? (Tema + Formato + Packaging)*
-  - Video outlier 2: [Enlace] | *¿Por qué explotó?*
+## 1. Matriz de Investigación DFS (Depth-First Search) y Grafo de Recomendaciones
+
+> **Protocolo de barrido híbrido:** El agente genera la lista semilla y gestiona la pila (*stack*). El creador o VA busca en ventana de incógnito en YouTube, localiza los outliers y sigue las recomendaciones laterales.
+
+### Lista Semilla en Lenguaje de Dolor (*Seed List / The Stack*):
+1. [Término semilla 1]
+2. [Término semilla 2]
+3. [Término semilla 3]
+4. ...
+
+### Base de Datos de Nodos y Outliers Validados:
+
+| Término Semilla | Video Outlier (Título y URL) | Canal (Vistas vs. Subs) | Ratio Outlier | Deseo Amplio / Dolor Detectado | Curiosity Gap de Miniatura | Recomendaciones Laterales Relevantes (Próximos Nodos) |
+| :--- | :--- | :--- | :---: | :--- | :--- | :--- |
+| *[Semilla 1]* | *"..."* - `https://...` | Canal X (`15k subs`) | `12x` (`180k views`) | Alivio de niebla mental | Comparativa cerebro limpio vs. opaco | Video Y (`https://...`), Canal Z |
+| *[Semilla 2]* | *"..."* - `https://...` | Canal W (`50k subs`) | `8x` (`400k views`) | Energía matutina rápida | Número redondo grande + cara asombro | Video K (`https://...`) |
+| ... | ... | ... | ... | ... | ... | ... |
+
+---
+
+### Patrones Extraídos del Recorrido DFS:
+- **Títulos con mayor tracción:** (¿Usan preguntas, declaraciones contundentes o superlativos?)
+- **Patrones visuales en miniaturas:** (¿Ilustraciones, personas, interfaces o esquemas?)
+- **Gaps o vacíos de contenido detectados:** ¿Qué preguntas recurrentes en comentarios ningún competidor está respondiendo bien?
 
 ---
 

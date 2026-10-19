@@ -4,11 +4,52 @@ Este rol es el responsable de la fase de descubrimiento: encontrar nichos rentab
 
 ---
 
-## 1. Encontrar y Explotar Outliers con Demanda Cualificada
-- **Outliers:** Excepciones, valores o casos atípicos en canales de la competencia.
-- Analizar videos de canales pequeños o medianos que hayan obtenido 5x o 10x más reproducciones que el promedio habitual de ese canal.
-- **Filtro de Evidencia de Clientes Target:** No basta con que un video tenga millones de visitas si la audiencia es casual o infantil cuando buscas clientes cualificados. Pregunta obligatoria:
-  > *"¿Qué evidencia objetiva demuestra que las personas que quiero como clientes o seguidores cualificados ya están eligiendo ver activamente este tema en YouTube?"*
+## 1. Mapeo Exhaustivo del Nicho: Protocolo DFS Híbrido (Depth-First Search)
+
+Para entender la demanda real de un nicho en YouTube sin dejar rincones sin explorar, aplicamos el algoritmo de **Búsqueda en Profundidad con Retroceso (*Depth-First Search + Backtracking*)** sobre el grafo de recomendaciones de YouTube.
+
+> **Realidad Técnica:** YouTube bloquea el web scraping masivo y eliminó de su API oficial el acceso a la barra lateral de recomendaciones. Por ello, este protocolo opera en **modalidad híbrida (Agente = Cerebro y Pila / Creador o VA = Ojos en el Navegador)**.
+
+---
+
+### Conceptos del Grafo de YouTube:
+- **Nodo Raíz (*Root Node*):** El nicho central que queremos investigar (ej. *salud cognitiva / papers simplificados*).
+- **Nodo:** Cada término de búsqueda, video individual o canal descubierto.
+- **Aristas (Conexiones):** La barra lateral derecha de **videos recomendados (*Up Next / Related*)** que el algoritmo de YouTube genera para cada video.
+- **La Pila (*The Stack*):** Lista ordenada de elementos pendientes de explorar (LIFO: último en entrar, primero en salir) gestionada por el agente.
+- **Base de Datos de Research:** La matriz en `estudio-mercado.md` donde se asientan todos los hallazgos validados.
+
+---
+
+### Los 6 Pasos del Algoritmo DFS:
+
+1. **Generación de Semillas de Dolor (*Seed List*):**
+   - El agente genera 10 a 15 términos en el lenguaje exacto que el mercado utiliza para describir su problema o deseo (no jerga técnica: ej. *"cómo quitar la niebla mental"*, *"por qué no descanso bien"*).
+   - Estos términos se cargan en la **Pila (*Stack*)**.
+
+2. **Búsqueda en Ventana de Incógnito (Creador / VA):**
+   - El creador abre una ventana de navegación en **modo incógnito** (libre de sesgos de historial de visualización personal) y busca el primer término de la pila.
+
+3. **Detección del Outlier (Anomalía Estadística):**
+   - Se localiza un video que haya superado ampliamente el rendimiento habitual (métrica: **5x a 10x de visualizaciones respecto al promedio del canal o a suscriptores**).
+   - El creador pasa el enlace o título al agente, quien lo registra en la base de datos de research y analiza su *curiosity gap*.
+
+4. **Inmersión en el Canal:**
+   - El creador entra al canal de ese video outlier y revisa sus videos más populares. Si hay otros videos con rendimiento sobresaliente en el mismo nicho, se registran en la base de datos para extraer patrones recurrentes del creador.
+
+5. **Exploración de la Barra de Recomendaciones Laterales:**
+   - El creador vuelve al video outlier original y mira la **barra lateral derecha de recomendaciones**.
+   - Identifica si hay videos de otros canales relacionados que también presenten rendimiento anómalo y los empuja a la pila (*push to stack*).
+
+6. **Backtracking (Retroceso Ordenado):**
+   - Cuando una rama o canal deja de producir información útil (*dead end*), el agente indica retroceder un paso en el grafo (*backtrack*) y continuar con el siguiente elemento pendiente de la pila.
+   - El ciclo se repite hasta agotar los términos semilla y las ramas principales, obteniendo un **mapa 360° de la demanda real y los ángulos ganadores del nicho**.
+
+---
+
+### Filtro de Evidencia de Clientes Target:
+No basta con que un video tenga millones de visitas si la audiencia es casual o infantil cuando buscas clientes cualificados. Pregunta obligatoria:
+> *"¿Qué evidencia objetiva demuestra que las personas que quiero como clientes o seguidores cualificados ya están eligiendo ver activamente este tema en YouTube?"*
 - Inspeccionar comentarios, preguntas recurrentes y patrones de búsqueda para confirmar dolor o interés genuino antes de producir.
 
 ---
