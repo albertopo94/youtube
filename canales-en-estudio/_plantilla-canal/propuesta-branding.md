@@ -14,16 +14,28 @@
 
 ---
 
-## 2. Estrategia de Conversión y Modelo de Negocio (*The Backend*)
-- **Modelo de Monetización Principal del Canal:**
-  - [ ] **Servicios / Consultoría / Agencia:** (El canal posiciona autoridad para atraer clientes de alto valor).
-  - [ ] **Software / SaaS / Herramienta propia:** (Los videos demuestran cómo resolver desafíos usando la herramienta).
-  - [ ] **Infoproductos / Plantillas / Formación:** (Venta de activos digitales, cursos o comunidad).
-  - [ ] **Afiliación de Herramientas Recomendadas:** (Comisiones por recomendar software verificado que resuelve el dolor).
-  - [ ] **Monetización Publicitaria Pura:** (AdSense + Patrocinios por volumen).
-- **Activo Insignia del Canal / Lead Magnet (*The Big Give*):**  
-  *(El recurso gratuito de altísimo valor —plantilla de Notion, Google Sheet con métricas, base de datos de referencias, checklist— que extenderá las lecciones del canal y que los espectadores descargarán con agradecimiento).*
-- **Ruta del Embudo:** *(Qué ocurre después de que el espectador descarga el activo: secuencia de valor por email, invitación a demo, etc.)*.
+## 2. Arquetipo, Etapa de Madurez y Modelo de Negocio (Adaptable)
+
+- **Arquetipo del Canal:**
+  - [ ] **Entretenimiento / Relax / Ficción / Sátira:** (Foco en AdSense, retención continua y patrocinios. Sin embudos complejos ni lead magnets invasivos).
+  - [ ] **Pasión / Hobby / Cultura / Práctico:** (Foco en comunidad, afiliados de herramientas/libros recomendados y AdSense).
+  - [ ] **Autoridad / Negocio / Servicios / B2B:** (Foco en posicionar autoridad y captar clientes cualificados).
+
+- **Etapa de Desarrollo del Canal:**
+  - [ ] **Etapa 1 (Validación y Tracción Inicial - Primeros 10-20 videos):** *Sin backend ni embudos*. El único objetivo es descubrir qué temas funcionan y alimentar el algoritmo conectando cada video con el siguiente.
+  - [ ] **Etapa 2 (Monetización Blanda):** Activación de AdSense y enlaces de afiliados limpios en descripciones.
+  - [ ] **Etapa 3 (Backend Consolidado):** Embudo formal con productos propios, consultoría o membresías.
+
+- **Modelo de Monetización Proyectado:**
+  - [ ] **Monetización Publicitaria Pura:** (AdSense + Patrocinios por volumen de vistas).
+  - [ ] **Afiliación de Herramientas Recomendadas:** (Comisiones por recomendar libros, software o equipo).
+  - [ ] **Servicios / Consultoría / Agencia:** (Captación de clientes de alto valor).
+  - [ ] **Software / SaaS propio:** (Demostraciones prácticas del software en acción).
+  - [ ] **Infoproductos / Plantillas / Formación:** (Venta de activos digitales o cursos).
+
+- **Activo Insignia / Lead Magnet (*The Big Give* - Opcional según arquetipo/etapa):**  
+  *(En canales de entretenimiento o en Etapa 1, indicar: `N/A - Foco en loop al siguiente video`. En canales de negocio/servicios maduros, definir la plantilla o recurso gratuito).*
+- **Ruta del Embudo:** *(Si aplica: qué ocurre después de que el espectador descarga el activo)*.
 
 ---
 

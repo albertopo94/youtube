@@ -80,13 +80,14 @@
 
 ---
 
-### [B07_Cierre_CTA] — Conversión Orgánica (El Siguiente Paso Más Útil)
+### [B07_Cierre_CTA] — Conversión Orgánica Adaptada (El Siguiente Paso Más Útil)
 - **Tiempo estimado:** `05:00 - 05:30` (~30s)
-- **Tipo de Llamada a la Acción:**
-  - [ ] **Vía 1 (Herramienta / Software):** La herramienta fue el desatascador que resolvió el obstáculo del video. *(Filtro del Experto Imparcial validado: ¿un experto independiente la mencionaría? Sí).*
-  - [ ] **Vía 2 (Extensión de la Lección / Lead Magnet):** Activo funcional gratuito que el espectador necesita para aplicar lo aprendido *(plantilla de Notion, Google Sheet, dataset, checklist, código fuente)*.
-  - [ ] **Cierre Editorial (Flywheel de YouTube):** Recomendación contundente del siguiente video del canal que responde la siguiente duda lógica.
-- **El Recurso / Activo Ofrecido (*The Give*):** *(Descripción del recurso que se entrega en la descripción)*.
-- **Locución literal (Texto para voz - Redactado como 'Give' indispensable, prohibido el pitch comercial desconectado):**
+- **Selección de Llamada a la Acción según Arquetipo y Etapa:**
+  - [ ] **Opción Predeterminada (Etapa 1 o Entretenimiento/Relax): Bucle al Siguiente Video.**  
+    *(Recomendación fluida del siguiente video del canal que responde a la duda lógica inmediata. Maximiza la retención en cadena sin romper la experiencia con ventas ni registros).*
+  - [ ] **Opción Vía 1 (Herramienta / Software):** La herramienta fue el desatascador que resolvió el obstáculo del video *(Filtro del Experto Imparcial validado: ¿un experto independiente la mencionaría de todos modos? Sí)*.
+  - [ ] **Opción Vía 2 (Extensión de la Lección / Lead Magnet):** Activo funcional gratuito *(plantilla de Notion, Google Sheet, dataset, checklist)* para canales de negocio o servicios consolidados.
+- **El Recurso o Video Ofrecido (*The Give*):** *(Enlace al siguiente video de la lista o recurso descargable en la descripción)*.
+- **Locución literal (Texto para voz - Redactado como 'Give' natural y fluido, prohibido el pitch comercial desconectado):**
   > *"..."*
-- **Visual sugerido (para Animatic):** Mockup en pantalla del recurso descargable o flecha sutil a la descripción + Tarjeta final del siguiente video.
+- **Visual sugerido (para Animatic):** Tarjeta final de YouTube hacia el siguiente video (o mockup sutil del recurso si aplica).

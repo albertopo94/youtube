@@ -127,3 +127,33 @@ Para trabajar de forma modular y económica con agentes de IA y herramientas de 
   - *Si el video enseña una estrategia de anuncios:* El dolor inmediato siguiente es dónde ver ejemplos ➔ **Lead Magnet:** *"Te dejo gratis nuestra biblioteca viva de anuncios ganadores en Notion"*.
   - *Si el video enseña a gestionar una empresa con KPIs:* El dolor inmediato es cómo estructurar la tabla ➔ **Lead Magnet:** *"Descarga gratis la plantilla exacta de Google Sheets con el Scorecard que uso cada semana"*.
 - **La función del Lead Magnet:** El espectador se descarga un recurso que necesita desesperadamente para ejecutar lo que acaba de aprender, entra al embudo encantado y agradecido, y queda en la lista para ofertas de alto valor posteriores.
+
+---
+
+### 3. Principio de Adaptabilidad: Arquetipos de Canal y Etapas de Madurez
+
+> **Regla de ingeniería:** Jamás aplicar un enfoque de "todo o nada". El CTA y la monetización se amoldan a la naturaleza de la temática y al momento de vida del canal. Forzar un embudo de ventas en un canal de relax o en un canal nuevo es un error de diseño.
+
+#### Matriz por Arquetipo de Canal:
+1. **Canales de Entretenimiento, Relax, Ficción o Sátira:**
+   - *Temáticas:* Cuentos para dormir, animación, lore, noticias satíricas, curiosidades.
+   - *Modelo:* AdSense puro, patrocinios futuros de marcas y volumen masivo.
+   - *El Siguiente Paso Más Útil:* **EL SIGUIENTE VIDEO COMPLEMENTARIO**.  
+     - En un video para dormir o relajarse, nadie quiere descargarse un PDF ni suscribirse a una newsletter (rompe la experiencia).
+     - El CTA ideal es: *"Si te sirvió esta historia, acá tenés la lista con los 3 relatos más relajantes para esta noche"*. Genera reproducción en cadena (*binge-watching*), que es la métrica de oro que YouTube más premia.
+2. **Canales de Pasión, Hobby o Nicho Práctico:**
+   - *Temáticas:* Coctelería, motos, cultura, programación básica.
+   - *Modelo:* Enlaces de afiliación transparentes (libros o herramientas recomendadas en la descripción) o comunidad abierta.
+3. **Canales de Autoridad, Servicios, Consultoría o SaaS:**
+   - *Temáticas:* B2B, marketing, productividad avanzada, finanzas profesionales.
+   - *Modelo:* Lead Magnets funcionales (plantillas de Notion, Google Sheets, demos) orientados a captar clientes cualificados.
+
+#### Etapas de Madurez del Canal (Ciclo de Vida):
+- **Etapa 1: Validación y Tracción Inicial (Primeros 10 a 20 videos):**
+  - **Foco único:** Descubrir qué busca la audiencia y lograr que YouTube comience a recomendar el canal.
+  - **Cero complejidad de backend:** No hay producto, no hay lead magnet complejo, no hay newsletter obligatoria.
+  - **El único CTA permitido:** Recomendar el siguiente video del canal que responde a la siguiente duda lógica para alimentar el algoritmo.
+- **Etapa 2: Monetización Blanda (Audiencia recurrente):**
+  - Activación de AdSense y enlaces de afiliados limpios en la descripción sin interrumpir la narrativa.
+- **Etapa 3: Backend Propio (Consolidación):**
+  - Solo cuando el canal tiene tracción real y audiencia recurrente, se construyen recursos descargables, productos o servicios.
