@@ -109,3 +109,24 @@ youtube/
 5. **Verificación de Afirmaciones:** Contrastar cada dato del guion contra fuentes verificadas en `06-fuentes-y-verificacion.md` (Parte 2).
 6. **Animatic y Edición:** Montar la locución provisional (scratch track) y wireframe visual en `03-storyboard-y-edicion.md`. Validar ritmo antes de generar assets finales.
 7. **Montaje, Licencias y Cierre:** Master exportado con ficha técnica de render, registro legal en `04-registro-recursos.md`, seguimiento en `05-metricas-retencion.md` y cierre en `entregable-final.md`.
+
+---
+
+## 🧪 Entorno de Pruebas y Sandbox Aislado
+
+Para realizar pruebas experimentales, testear herramientas (como locuciones TTS o renders locales) o producir videos piloto sin alterar este repositorio maestro ni ensuciar su historial de Git:
+
+```bash
+# 1. Desde la carpeta padre del proyecto (ej. /Users/.../Proyectos):
+rsync -av --exclude='.git' youtube/ youtube-prueba/
+
+# 2. (Opcional) Si deseas versionar los avances del sandbox en un repositorio privado independiente:
+cd youtube-prueba
+git init -b main
+gh repo create youtube-prueba --private --source=. --remote=origin --push
+```
+
+*Ventajas de este aislamiento:*
+- Permite que un agente opere "en frío" desde cero sin contaminar la plantilla canónica.
+- Libertad total para generar archivos de audio, imágenes de prueba o renders descartables.
+- Si la prueba no convence, basta con eliminar la carpeta `youtube-prueba/` sin dejar rastro en la oficina principal.
