@@ -55,12 +55,13 @@
 
 Para que el montaje se considere profesional (sea ejecutado por el agente en FilmCraft o en editor de escritorio), debe incorporar estas cuatro capas:
 
-1. **Cortes de Continuidad (J-Cuts y L-Cuts):**
+1. **Regla de Pacing Visual y Densidad de Planos (Máximo 4 a 7s por cambio):**
+   - [ ] **Sin imágenes congeladas:** Ningún plano o gráfico estático permanece en pantalla más de 4 a 7 segundos sin variación visual (corte a nuevo plano, detalle B-roll, zoom punch-in de escala 100% a 105% o aparición escalonada de textos y flechas).
+2. **Cortes de Continuidad (J-Cuts y L-Cuts):**
    - [ ] En transiciones narrativas clave, el audio de la siguiente escena entra entre 12 y 24 fotogramas (0.5 a 1s) antes de que la imagen corte, evitando cambios de plano secos.
-2. **Diseño Sonoro y Mezcla (*Audio Ducking* Paramétrico):**
-   - [ ] Nivel de locución normalizado a estándares de transmisión (-23 LUFS / `essentialSound.autoMatch`).
-   - [ ] Curva de ducking sobre la música: reducida a **-18 dB / -24 dB** durante la voz, subiendo con rampa suave (*fade-up*) en las pausas dramáticas (`essentialSound.generateDucking`).
-3. **Dinámica de Cuadro (*Pacing Visual*):**
+3. **Arquitectura Obligatoria de 3 Pistas de Audio (Diseño Sonoro y Ducking):**
+   - [ ] **Pista A1 (Voz):** Nivel de locución normalizado a estándares de transmisión (-23 LUFS / `essentialSound.autoMatch`).
+   - [ ] **Pista A2 (Música):** Curva de ducking sobre la música: reducida a **-18 dB / -24 dB** durante la voz, subiendo con rampa suave (*fade-up*) a **-12 dB** en las pausas dramáticas (`essentialSound.generateDucking`).
+   - [ ] **Pista A3 (SFX):** Efectos de sonido de acento (impactos, swooshes, clicks) colocados exactamente en la sílaba o fotograma donde ocurre el gancho visual.
+4. **Dinámica de Cuadro (*Pacing Visual*):**
    - [ ] En planos estáticos o imágenes fijas de más de 3 segundos, aplicar zooms continuos sutiles (*punch-ins* de escala 100% a 105% o paneo Ken Burns) para evitar sensación de foto congelada.
-4. **Sincronización Milimétrica de SFX:**
-   - [ ] Los efectos de sonido de acento (impactos, swooshes, clicks) caen exactamente en la sílaba o fotograma donde ocurre el gancho visual.
