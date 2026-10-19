@@ -30,8 +30,9 @@ Para entender la demanda real de un nicho en YouTube sin dejar rincones sin expl
 2. **Búsqueda en Ventana de Incógnito (Creador / VA):**
    - El creador abre una ventana de navegación en **modo incógnito** (libre de sesgos de historial de visualización personal) y busca el primer término de la pila.
 
-3. **Detección del Outlier (Anomalía Estadística):**
+3. **Detección del Outlier (Anomalía Estadística y Relatibilidad):**
    - Se localiza un video que haya superado ampliamente el rendimiento habitual (métrica: **5x a 10x de visualizaciones respecto al promedio del canal o a suscriptores**).
+   - **Filtro de Relatibilidad Universal sobre Volumen Bruto:** No elegir ciegamente el video con más millones de visitas si trata de un elemento hiper-especializado que nadie comprende fuera del nicho (ej. un "cuchillo de bismuto"). Es infinitamente superior modelar un outlier de 8M sobre un concepto universalmente reconocible (Red Bull, café, dinero, hábitos cotidianos, mascotas) que uno de 20M sobre un tecnicismo que carece de resonancia amplia.
    - El creador pasa el enlace o título al agente, quien lo registra en la base de datos de research y analiza su *curiosity gap*.
 
 4. **Inmersión en el Canal:**

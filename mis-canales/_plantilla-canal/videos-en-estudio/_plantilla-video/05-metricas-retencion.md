@@ -36,6 +36,7 @@
   - [ ] **Pico Viral en Ascenso / Fuerte:** (Las velas suben consecutivamente hora tras hora, ej. >500-10.000 vistas/hora).  
     ➔ **ESTADO: EN ESPERA. PROHIBIDO PUBLICAR EL SIGUIENTE VIDEO.**
   - [ ] **Aplanamiento Sostenido (*Flatline*) - Regla de las 12 Horas:** Se requieren **al menos 12 horas continuas de línea plana** en tiempo real antes de subir el siguiente Short (para evitar truncar impulsos tardíos de YouTube).  
+    *(En videos con picos virales masivos de >10.000 vistas/h, esperar a que el ritmo decaiga por debajo de 5.000 vistas/h durante al menos 24 horas antes del siguiente upload).*  
     ➔ **ESTADO: VENTANA DESPEJADA. APROBADO PUBLICAR EL SIGUIENTE VIDEO.**
 
 ---

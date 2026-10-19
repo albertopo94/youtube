@@ -57,11 +57,22 @@ YouTube exige declarar en YouTube Studio cuando el contenido pueda confundirse c
 6. **Revelación (*Reveal*):** Muestra el resultado final transformado (*Segundos 53-59*).
 - **Anclaje de Contraste Antes/Después (Opcional):** Si el video trata sobre una transformación, fijar claramente el estado inicial en los primeros segundos (mediante una captura, gráfica, imagen de referencia o pantalla dividida) para que la revelación final complete la expectativa de forma evidente.
 
+### Arquetipo Opcional: La Estructura del Arco en Bucle (*Looped Arc*)
+*(Modelo para romper la predictibilidad en videos cortos y medianos)*:
+- La estructura lineal básica `Gancho ➔ Acción plana ➔ Recompensa` suele volverse monótona hacia la mitad del metraje.
+- **El Arco en Bucle añade tensión intermedia:**
+  $$\text{Gancho (Bucle Abierto)} \longrightarrow \text{Acción Inicial} \longrightarrow \mathbf{Conflicto / Error\ Inesperado} \longrightarrow \mathbf{Recuperación / Reintento} \longrightarrow \text{Payoff / Recompensa}$$
+- *Mecánica:* El reto arranca con normalidad ➔ A mitad de camino ocurre un fallo imprevisto, error de cálculo o dificultad técnica (**Conflicto**) ➔ El creador debe adaptarse, probar otra técnica o recalibrar (**Recuperación**) ➔ Se alcanza el resultado final con un remate de impacto (**Payoff**). Esto mantiene al espectador sin saber si el intento tendrá éxito o fracasará.
+
 ---
 
 ## 3. Ganchos y Apertura (Los Primeros 5 a 30 Segundos)
 
 El objetivo de la apertura es alinear de inmediato las expectativas del espectador con lo prometido en el título y la miniatura, protegiendo la métrica clave de **retención a los 30 segundos**.
+
+### El Filtro del Gancho en Bucle Abierto (*Open Loop Hook*)
+- ❌ **El error que mata la retención (Afirmación cerrada):** Redactar un gancho que describe y destripa el resultado final (*"Este creador convirtió 100 Red Bulls en polvo usando una máquina especial"*). El espectador ya obtuvo la respuesta en el segundo 3; no tiene motivo para seguir mirando y desliza (*swipe away*).
+-  **El Gancho como Pregunta o Enigma Abierto:** Formular el gancho como una incógnita irresistible (*"¿Qué pasaría si comprimieras 100 latas de Red Bull en una sola bebida?"*). El cerebro del espectador entra en tensión cognitiva y la **única forma de cerrar el bucle es quedarse hasta el segundo final**.
 
 ### Adaptabilidad según Formato (Apertura Flexible)
 La regla de validar la promesa en los primeros segundos es una guía de retención, no una camisa de fuerza idéntica para todos los géneros:

@@ -3,7 +3,7 @@
 - **Título aprobado:**
 - **Promesa de Trama (Plot Promise):**
 - **Formato / Género:** (Divulgación / Ensayo / Tutorial / Narrativa / Relax / Proceso)
-- **Estructura Narrativa:** `[ ] Dinámica de Valor General` / `[ ] Proceso y Transformación (Declaración ➔ Evaluación ➔ Proceso ➔ Revelación)` / `[ ] Estructura Libre según género`
+- **Estructura Narrativa:** `[ ] Dinámica de Valor General` / `[ ] Arco en Bucle (Conflicto ➔ Recuperación ➔ Payoff)` / `[ ] Proceso y Transformación` / `[ ] Estructura Libre según género`
 - **Grado de Guionado:** `[ ] Palabra por palabra (Full Script para voz en off/IA)` / `[ ] Estructura nítida (Bullet points con espacio para pensar para screencasts/experto)`
 - **Duración total estimada:** (ej. 8 minutos)
 - **Estado de Locución:** `[ ] Borrador provisional (Scratch Track)` / `[ ] Definitiva aprobada`
@@ -29,10 +29,11 @@
 
 > **Regla de ingeniería:** Cada bloque de locución tiene un identificador estable `[Bxx]`. Esto permite que una modificación futura en una frase solo requiera regenerar el audio de ese bloque y reajustar su escena correspondiente en el editor.
 
-### [B01_Hook_Promesa] — Reafirmar la Promesa y Unfair Edge Statement
+### [B01_Hook_Promesa] — Reafirmar la Promesa y Bucle Abierto
 - **Tiempo estimado:** `00:00 - 00:10` (~10s)
 - **1. Reafirmación de la Promesa (Segundos 0-5):** *(Confirmar que están en el lugar correcto cumpliendo lo prometido en el packaging)*.
-- **2. Unfair Edge Statement (Autoridad en una frase):** *(Por qué deben escucharme a mí y no a otro)*:
+- **2. Filtro de Bucle Abierto:** ¿El gancho plantea una pregunta o incógnita irresistible en lugar de una afirmación cerrada que destripe el final?
+- **3. Unfair Edge Statement (Autoridad en una frase - si aplica según género):** *(Por qué deben escucharme a mí y no a otro)*:
   > *"..."*
 - **Locución literal (Texto para voz):**
   > *"..."*

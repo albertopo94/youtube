@@ -136,3 +136,10 @@ Si un Short o video quedó atrapado con cero impresiones del feed (ej. menos de 
   - Montaje asistido con diseño sonoro (*audio ducking*, efectos de sonido sincronizados).
   - Verificación de fuentes primarias y control de calidad humano (*Definition of Done*).
 - Esta intervención humana sustancial garantiza que el canal cumpla holgadamente con los requisitos del Programa de Socios de YouTube (YPP) y lo blinda frente a reclamos de contenido repetitivo.
+
+### Edición de Valor Añadido (*Value-Added Editing*) e Hibridación Progresiva con IA
+Si un formato se apoya en curaduría, reacciones técnicas o análisis de experimentos/metraje existente de terceros, debe aplicar **transformación sustancial obligatoria** para calificar a monetización:
+1. **Guion y Locución 100% Originales:** Prohibido utilizar el audio original. La narración debe tener una estructura propia (ej. Arco en Bucle), un nuevo gancho de bucle abierto y un análisis o narración exclusiva.
+2. **Re-montaje y Diseño Sonoro Integral:** La cadencia visual se altera por completo; se añaden efectos de sonido propios, música de fondo calibrada y subtítulos dinámicos.
+3. **Atribución Clara:** Mencionar y dar crédito al creador original en el título o descripción (`@NombreDelCanal`).
+4. **Hibridación Progresiva con IA (Regla del 30%-50%):** Sustituir una parte sustancial de las tomas (ej. entre un 30% y un 50% de las escenas) por gráficos, diagramas o metraje sintético generado con IA (ej. animaciones conceptuales en Google Flow o herramientas afines). Esto eleva la pieza a una obra derivada con alta aportación editorial que supera holgadamente las auditorías humanas de AdSense.

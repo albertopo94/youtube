@@ -107,13 +107,14 @@ Todo tema y propuesta de packaging debe fundamentarse en los principios de *Brea
    - *Campaña única:* Prohibido proponer videos virales fuera de temática (*off-topic hits*); un éxito que atrae a la audiencia equivocada destruye la retención de los videos posteriores. El canal debe fidelizar a un mismo perfil recurrente.
 
 7. **Directivas Específicas para Producción de YouTube Shorts:**
-   - *Arquetipo de Entretenimiento (Referencia Opcional):* En formatos virales de entretenimiento o procesos, funcionan conceptos universalmente accesibles, demostración de esfuerzo visible y dinámicas de antes/después (*compulsión de finalización*).
-   - *Estructura de Proceso / Transformación (Opcional según género):* Para videos de transformaciones o procesos técnicos, se puede adoptar el modelo `Declaración ➔ Evaluación ➔ Aislamiento ➔ Proceso ➔ Construcción ➔ Revelación`, utilizando opcionalmente el anclaje de contraste (mostrar el estado inicial y contrastarlo en la revelación final).
+   - *Filtro de Relatibilidad en Outliers:* Priorizar conceptos universalmente comprensibles (comida, dinero, hábitos cotidianos, mascotas) sobre cifras brutas de videos hiper-técnicos que carecen de tracción masiva fuera de su nicho.
+   - *Arquetipo del Arco en Bucle (*Looped Arc*):* Romper la predictibilidad lineal con la secuencia `Bucle Abierto ➔ Acción ➔ Conflicto/Fallo inesperado ➔ Recuperación/Reintento ➔ Payoff`.
+   - *Ganchos en Bucle Abierto:* Formular el gancho como pregunta o enigma que solo se cierre al final; evitar afirmaciones cerradas que destripen el resultado en el segundo 3.
    - *Transposición Cross-Niche:* Reutilizar mecánicas de ganchos, progresión y payoffs de videos de 50M+ visitas de nichos maduros adaptándolas al tema propio.
    - *Sonda Algorítmica:* El primer Short de un canal nuevo es una sonda exploratoria; la viralidad matemática suele iniciar entre el 2º y 4º upload.
-   - *Cadencia por Velas Horarias (Regla de las 12 Horas):* **Prohibido subir un nuevo Short mientras el anterior esté en pleno pico viral**. Esperar al menos **12 horas continuas de aplanamiento (*flatline*)** en tiempo real antes de publicar el próximo.
+   - *Cadencia por Velas Horarias (Regla de las 12-24 Horas):* **Prohibido subir un nuevo Short mientras el anterior esté en pleno pico viral**. Esperar al menos **12 horas continuas de aplanamiento (*flatline*)**, o que el ritmo caiga por debajo de 5.000 vistas/h durante 24h en picos masivos, antes de publicar el próximo.
    - *Protocolo Anti-Shadowban:* Si se elimina un Short para darle una segunda oportunidad, es **obligatorio modificar audio, video y metadatos** antes de re-subir para no ser marcado como spam por hash duplicado.
-   - *Doctrina Contenido Habilitado por IA:* Cuidar la intervención humana en dirección de arte, montaje sonoro y narrativa para blindar el canal frente a la política de contenido inauténtico (*anti-AI slop*).
+   - *Edición de Valor Añadido e Hibridación IA:* En formatos de curaduría o análisis de metraje existente, aplicar guion/locución 100% original, re-montaje con SFX propios, atribución explícita y sustitución del 30%-50% de planos con tomas de IA para asegurar monetización plena.
    - *Heurísticas vs. Reglas Estrictas:* Consejos de packaging (como longitud de texto en miniaturas o ubicación visual) son **heurísticas orientativas, jamás camisas de fuerza** que limiten la creatividad adecuada al formato.
 
 ---
