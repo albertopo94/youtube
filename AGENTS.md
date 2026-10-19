@@ -161,7 +161,10 @@ Las herramientas de la oficina están catalogadas en `_framework/herramientas-y-
 - **Fact-Checking:** Consultar **Google Scholar & Labs** para abstracts y DOIs de papers primarios (apoyándose en **Google AI Studio** para ingesta completa de PDFs con paywall o metodología densa).
 - **Storyboard, Animatic y Locución:** Usar **Google Docs Video Scene Editor** o plantillas internas; generar locución provisional o definitiva con **Google AI Studio Generate Speech (`aistudio.google.com/generate-speech?model=gemini-3.8-flash-tts`)**, **ElevenLabs (tier gratuito)**, **Luvvoice (Free tier / MCP oficial: `luvvoice.com/es/mcp`)** o TTS de sistema.
 - **Montaje y Edición:** Priorizar **FilmCraft** por su arquitectura abierta nativa para CLI y protocolo de control con agentes (MCP). El resultado del video piloto determinará si es viable en el entorno local o si se requiere asistencia manual en editores de escritorio.
-- **Video Cinemático e Imágenes IA:** Usar **Google Flow (`flow.google.com`)** para generar tomas sintéticas de alta calidad o B-roll conceptual cuando no exista en stock libre.
+- **Video Cinemático, Storyboard y Personajes IA:** Usar **Google Flow (`flow.google.com`)** para:
+  1. Montar storyboards visuales de concepto antes de arriesgar tiempo en una producción completa.
+  2. Mantener la **consistencia de personajes (*character consistency*)** a lo largo de múltiples planos encadenando nodos de referencia (rostro, vestimenta, estilo).
+  3. Generar B-roll cinemático y tomas sintéticas cuando no existan en stock libre.
 - **Música, Jingles y Branding Sonoro:** Usar **Google Flow Music (`flowmusic.app`)** para crear la firma sonora oficial del canal, jingles de cabecera o canciones completas estructuradas; o la **YouTube Audio Library** para pistas de fondo libres de reclamos.
 - **Búsqueda de Assets:** Conectar vía API/MCP con **Coverr**, **Pexels**, **Pixabay**, **Wikimedia Commons** u **Openverse**.
 
@@ -169,7 +172,7 @@ Las herramientas de la oficina están catalogadas en `_framework/herramientas-y-
 Cuando una herramienta requiera interacción visual, inicio de sesión o ejecución manual en una interfaz web o software de escritorio, el agente **tiene prohibido dar instrucciones abstractas**. Debe **entregar el paquete completamente preparado y listo para usar** según el caso:
 
 - **Generadores de Música y Audio (Google Flow Music, etc.):** El agente debe entregar el **prompt musical completo listo para copiar** (género, tempo/BPM aproximado, instrumentación, curva emocional y duración deseada para cada bloque).
-- **Generadores Visuales y de Video Cinemático (Google Flow, Midjourney, Flux, DALL-E):** El agente entrega el **prompt visual o cinemático detallado**, con parámetros técnicos (relación de aspecto `--ar 16:9` o `--ar 1:1`, estilo de iluminación, encuadre, movimiento de cámara y punto focal).
+- **Generadores Visuales, Video Cinemático y Personajes (Google Flow, Midjourney, Flux, DALL-E):** El agente entrega el **prompt visual o cinemático detallado** (con encuadre, iluminación y punto focal), y en caso de requerir un personaje recurrente en Google Flow, define el nodo de referencia maestro para asegurar la coherencia estética en planos derivados.
 - **Simuladores de Feed (Thumblytics):** El agente entrega los 3 conceptos visuales y la pregunta exacta para el *glance test* para que el creador solo tenga que subirlos y simular.
 - **Plataformas de Publicación (YouTube Studio):** El agente entrega el título final, la descripción formateada con capítulos y marcas de tiempo, la lista de tags separada por comas y los textos de atribución de licencias listos para pegar.
 - **Investigación con Paywall (Google Scholar & Labs):** El agente entrega el DOI, enlace directo, título del paper y el abstract resumido para que el creador pueda descargar el PDF completo si requiere credenciales.

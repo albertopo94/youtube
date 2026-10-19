@@ -33,9 +33,11 @@ $$\text{Selección de Pista / Beat} \longrightarrow \text{Marcación de Golpes R
 ### Las 6 Fases del Montaje Iterativo (Flujo Audio-First):
 1. **Guion maestro estructurado por bloques (`[B01]`, `[B02]...`):** Cada bloque tiene texto de locución, objetivo y duración estimada.
 2. **Locución provisional (*Scratch track*):** Montar la voz de prueba en la línea de tiempo de Premiere, DaVinci o FilmCraft.
-3. **Animatic / Montaje preliminar (Wireframe audiovisual):** Colocar imágenes provisionales, capturas de pantalla, bocetos rápidos o placas de texto sobre la voz de prueba.
+3. **Animatic / Montaje preliminar (Wireframe audiovisual):** Colocar imágenes provisionales, capturas de pantalla, bocetos rápidos o placas de texto sobre la voz de prueba.  
+   *(En producciones visuales complejas, se puede usar **Google Flow** para montar un storyboard visual preliminar y validar la estética general antes de comprometer horas de producción).*
 4. **Punto de control de aprobación narrativa:** Verificar el video como conjunto. ¿Se entiende? ¿Alguna escena aburre o sobra? Se recortan o ajustan frases en el guion **sin haber gastado créditos de IA ni horas de render**.
-5. **Producción de assets definitivos:** Una vez congelada la narrativa, se graban o generan los assets en alta resolución (Midjourney/Flux, clips de stock, motion graphics) y la locución final.
+5. **Producción de assets definitivos y Consistencia de Personajes:** Una vez congelada la narrativa, se graban o generan los assets en alta resolución.  
+   *(Si el video utiliza un personaje o avatar recurrente, se utiliza el canvas de nodos de **Google Flow** para fijar un nodo maestro de referencia del personaje y generar planos derivados con **consistencia de rostro, vestimenta y estilo** a lo largo de las distintas escenas).*
 6. **Diseño sonoro final:** Ajuste de música con *audio ducking* (bajada de volumen al hablar) y efectos sonoros (SFX) sincronizados exactamente con los cortes y transiciones.
 
 ---
