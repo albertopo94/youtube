@@ -9,11 +9,11 @@
 
 ## 1. Registro de Intervalos de Consulta (Datos Comparables)
 
-| Intervalo de Consulta | Fecha / Hora de Extracción | Impresiones Totales | CTR (%) | Vistas Totales | Retención a 30s (%) | Porcentaje Medio Visto (APV %) | Tiempo de Visualización (Horas) | Suscriptores Netos (+ / -) |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Primeras 24 Horas** | `DD/MM/AAAA` | | | | | | | |
-| **Día 7 (1ª Semana)** | `DD/MM/AAAA` | | | | | | | |
-| **Día 28 (1er Mes)** | `DD/MM/AAAA` | | | | | | | |
+| Intervalo de Consulta | Fecha / Hora de Extracción | Impresiones Totales | CTR (%) | Tasa Deslizamiento (*Viewed vs Swiped %*) | Vistas Totales | Retención a 30s (%) | Porcentaje Medio Visto (APV %) | Tiempo Visualización (Horas) | Suscriptores Netos (+ / -) |
+| :--- | :--- | :--- | :--- | :---: | :--- | :--- | :--- | :--- | :--- |
+| **Primeras 24 Horas** | `DD/MM/AAAA` | | | | | | | | |
+| **Día 7 (1ª Semana)** | `DD/MM/AAAA` | | | | | | | | |
+| **Día 28 (1er Mes)** | `DD/MM/AAAA` | | | | | | | | |
 
 ---
 
@@ -35,7 +35,7 @@
 - **Comportamiento de las Velas Horarias en Studio:**
   - [ ] **Pico Viral en Ascenso / Fuerte:** (Las velas suben consecutivamente hora tras hora, ej. >500-10.000 vistas/hora).  
     ➔ **ESTADO: EN ESPERA. PROHIBIDO PUBLICAR EL SIGUIENTE VIDEO.**
-  - [ ] **Aplanamiento Sostenido (*Flatline*) / Descenso Estable:** (Las vistas por hora han decaído a un ritmo residual).  
+  - [ ] **Aplanamiento Sostenido (*Flatline*) - Regla de las 12 Horas:** Se requieren **al menos 12 horas continuas de línea plana** en tiempo real antes de subir el siguiente Short (para evitar truncar impulsos tardíos de YouTube).  
     ➔ **ESTADO: VENTANA DESPEJADA. APROBADO PUBLICAR EL SIGUIENTE VIDEO.**
 
 ---

@@ -115,3 +115,24 @@ Si un Short o video quedó atrapado con cero impresiones del feed (ej. menos de 
 3. **Re-exportación Limpia:** Exportar un archivo nuevo con un nombre de archivo diferente desde el editor.
 4. **Metadatos Renovados:** Reescribir el título y la descripción con variaciones de palabras clave.
 5. **Comprobación de Cadencia:** No re-subir de inmediato. Verificar en YouTube Studio que las velas horarias del canal estén estables antes de publicar la versión corregida.
+
+---
+
+## 🛡️ 5. Política de Monetización: "Contenido Habilitado por IA" vs. "Basura de IA" (*AI Slop*)
+
+> **La realidad oficial de YouTube:** YouTube **no sanciona ni desmonetiza por el hecho de utilizar herramientas de inteligencia artificial**. Al contrario, YouTube integra activamente herramientas generativas dentro de su propia plataforma (YouTube Create).
+
+### Lo que YouTube SÍ sanciona y desmonetiza (Contenido Inauténtico):
+1. **Variación mínima entre subidas:** Canales que utilizan un script automatizado para cambiar únicamente una palabra o una imagen secundaria sobre una plantilla idéntica cientos de veces.
+2. **Generación masiva desatendida (*AI Slop*):** Publicar decenas de videos diarios sin curaduría, sin dirección de arte humana y con narrativas incoherentes.
+
+### El Estándar de Nuestra Oficina: Contenido Habilitado por IA
+> **Definición operativa:**  
+> *"Contenido en el cual la inteligencia artificial actúa como una extensión de la visión creativa y artesanal humana, produciendo resultados visuales, pedagógicos o narrativos que no serían factibles o accesibles a través de medios físicos tradicionales."*
+
+- En nuestra oficina, cada video cuenta con:
+  - Estructuración de guion por bloques atómicos.
+  - Curaduría de imágenes de referencia para consistencia de iluminación y personajes.
+  - Montaje asistido con diseño sonoro (*audio ducking*, efectos de sonido sincronizados).
+  - Verificación de fuentes primarias y control de calidad humano (*Definition of Done*).
+- Esta intervención humana sustancial garantiza que el canal cumpla holgadamente con los requisitos del Programa de Socios de YouTube (YPP) y lo blinda frente a reclamos de contenido repetitivo.

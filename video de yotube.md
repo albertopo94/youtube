@@ -1,305 +1,149 @@
-[00:00] this YouTube channel generates $5,000 per month and I want that so for the next 30 days I'm copying that
-[00:06] exact style of content to get the same results but for this to work we need to start today selecting
-[00:13] the niche the YouTube channel that we are taking inspiration from creates these Minecraft animations and just filtering by recent
-[00:21] shorts you can see they are consistently getting millions of views but I don't think entering this Minecraft niche would
-[00:26] be a good idea though because from my research I have found that it's being dominated by established channels all
-[00:32] uploading similar content what I think we can do here though is take the existing viral video topics from the
-[00:38] Minecraft channels and then apply them to the most popular topic in the world which is football but there is
-[00:43] one big issue governing this entire process i don't know how to animate but this is where my boy NSR
-[00:49] comes in he is my animator and we have formed a partnership and this entire plan should allow the channel
-[00:56] to go viral opening the channel the YouTube channel that we are using is an account that was made in
-[01:02] 2017 you don't need one this old but one of the keys that you need to follow if you want
-[01:07] to get views on your first upload is that you must use an account that you have been active on
-[01:12] for at least 1 week so since our channel is old we need to give it an update firstly the
-[01:17] channel name i'm going to come over to ChattyPT because I have no idea what to call this one and
-[01:22] I'm just going to give it a simple description of our channel now okay i do like this one here
-[01:26] which is foot motion because it's a blend of football and animation and as you would expect with YouTube it
-[01:33] is not available what I like to do if it's not available is just add a real at the end
-[01:37] and yeah it's available so let's roll with that okay now the next step is channel assets which is our
-[01:42] profile picture and banner let me pull up Photoshop and we will get it done all I did was type
-[01:47] out the channel name for the profile picture and wrote subscribe on the banner i only spent 5 minutes creating
-[01:53] these because neither of these impact your channel's performance so I just finished the final step which was to upload
-[02:00] the profile picture and banner to the channel one of the things I also wanted to show you was the
-[02:05] channel dashboard where it reads zero subscribers that is definitely a scary site but let's keep moving short creation we
-[02:15] need to create a short to upload and from my end it's just going to be creation of the video
-[02:19] topic and then some basic editing after the animation is complete so let's get into it i went to established
-[02:26] channels and got inspiration to create a story board that my animator could follow within the story board I gave
-[02:31] a general scene design and then made a retentionbased story based on the examples I found and in the early
-[02:38] stages of creating the storyboard I found out this information so I just found three animated football channels that we
-[02:45] are going into competition with but not really one of them is no longer active in the football niche but
-[02:51] at one stage they were going viral then we have this channel here they are uploading way too frequently and
-[02:56] it's to the point that it's hurting the channel's performance and really as you can see their quality isn't the
-[03:02] best either and finally we have Skippers they are uploading once a week their quality is great and they are
-[03:08] very creative with their video topics even though I could only find these three channels we are only really competing
-[03:15] with skippers here and I wouldn't say he's dominating this niche either so there is still room for us to
-[03:20] perform well and as a side note to this this type of competitor analysis should have been done even before
-[03:26] we decided on football animations okay so all the research into the niche and then creating the storyboard took me
-[03:32] just under 25 minutes to complete i kept the storyboard quite basic because your first short is always just a
-[03:40] test for the algorithm there is no point spending a lot of time making your first short your first upload
-[03:46] is always a test for YouTube to initially find the audience that engages best with your content it's always by
-[03:53] the second third or fourth upload that you actually start going viral okay but to finish up today I have
-[03:59] just sent off the storyboard to the animator and I will update you when it's complete day two okay so
-[04:08] the animator did get back to me with the first animation already and I am very surprised at how fast
-[04:14] that was and the thing is I do not know how good this animator is at this point yet we
-[04:19] did meet through my private coaching because he did want me to review his channel which was creating shorts like
-[04:25] this and I'll press play for you now and you probably do recognize this style of short because he did
-[04:30] pick inspiration from a very popular channel but as you could imagine because the niche is so saturated he did
-[04:36] get terrible results once again competitive research is very important anyway though let's have a look at what he sent
-[04:44] me together
-[04:49] okay I'm not going to lie i want to pause that there i'm already very impressed with the quality let
-[04:55] me pull this up onto my computer now and I'll get started doing my part it was now my turn
-[05:00] to put in some work i first started off by opening Premiere Pro which is my video editor then I
-[05:05] dragged in the animation from my animator i then got on to adding sound effects throughout the short then finally
-[05:11] a music track and this took me just over 15 minutes of editing time overall the animator nailed my storyboard
-[05:17] and brought all my ideas to life at this point I've never done anything like this with YouTube automation and
-[05:23] it does feel amazing not having to do every single component by myself
-[05:30] okay so the short is exported to my desktop from Premiere Pro and I'm going to drag it up to
-[05:35] YouTube now and upload it for titles you always want to name it something related to your short so I'm
-[05:40] going to call this help Ronaldo save messy and then I'm going to come up to Google here and get
-[05:47] to emojis there we go now for descriptions I just like to rename the title and then add a hashtag
-[05:52] shorts and you always want to select that this content is not made for kids so you don't end up
-[05:57] on YouTube kids now for tags these are especially important if it's your first upload so I'm just going to
-[06:02] come down now and just add a couple that are relevant to my niche which is football okay that's it
-[06:07] you really don't need to worry about optimizing any of these upload settings everything basic just like this is perfect
-[06:13] okay now finally let's press upload and let's see how this goes day three it's been just under 24 hours
-[06:21] since uploading our first short and I have some results to show you we got 2500 views and 75 subscribers
-[06:28] these are not the best results yet but we are starting to get our second big push so as long
-[06:32] as we don't flatline anytime soon we will be okay i'm about to hop on a call with the animator
-[06:37] and I will let you know how that goes we discussed the performance of the short and how I think
-[06:42] we can approach the next short differently because looking back to the first day I was lazy i just took
-[06:50] exactly what worked for an old competitor without putting in any of my creativity and the entire plan was to
-[06:56] take inspiration from the Minecraft channels not our competitors so this time I went into detail with my animator about
-[07:03] how we're going to use this Minecraft short where characters are trying to lift up Thor's hammer we are going
-[07:08] to recreate this short by replacing the characters with football players replacing any relevant objects and finally changing the scene
-[07:16] to a football stadium i just finished the call and that did take 30 minutes the main theme of that
-[07:21] call was that YouTube shorts is completely broken this new short that we are taking inspiration from reached 80 million
-[07:28] views which means there was something inherently viral about this short whether it was the hook the editing the pacing
-[07:35] the payoff there was something that clicked with viewers at a mass scale this is why taking the core components
-[07:41] of a viral short and taking it to a different niche is a failproof way to go viral well at
-[07:46] least it should work theoretically we're going to find this out regardless of this though I will be monitoring the
-[07:52] first shorts performance over the coming days and I will update you when the animator gets back to me with
-[07:57] the second animation day six i just received the second animation for our second short and I have been monitoring
-[08:06] the first short's performance it's now sitting at 15,000 views since we got this push after the first 24 hours
-[08:13] overall this performance so far does help validate that our niche is one worth pursuing because if our shorts performance
-[08:19] over the last few days look like this we would know that either our niche is just too saturated or
-[08:25] there's just no audience on YouTube interested in our content coming back to look over the second short now and
-[08:30] it looks great once again he really perfected exactly what I told him to do with this short and it
-[08:36] is now a perfect time to finish this short with sound effects and upload it because even though our first
-[08:41] short got 15,000 views it has now flatlined which means uploading this new short won't affect its performance this time
-[08:48] around I just downloaded the sound from the example we followed because we are taking the exact same pacing from
-[08:53] the Minecraft short and I also added a few more sound effects throughout where I thought it was lacking to
-[08:59] finish off I exported the short in the best possible settings and went to upload it once again I named
-[09:04] the short something relevant rewarded the title for the description did basic tags and that was it it was uploaded
-[09:11] okay so I just got a burst of excitement because the short is now uploaded and I am very excited
-[09:18] to see how this one is going to perform because we are following a much more systematic approach to the
-[09:24] video topic this time and the views should reflect this anyway though I will update you once we start to
-[09:30] get traction on the short day eight it's been 2 days since uploading our second short and it has been
-[09:38] pushed to over 23,000 views and so far we have gained 283 subscribers from this short you can see on
-[09:44] the right here we are getting anywhere from 500 to 200 views per hour coming over to our comments now
-[09:50] you can see we are starting to receive them which means that we are engaging with the right audience and
-[09:54] overall seeing our channel's growth between the two uploads is a very positive sign and at this stage our second
-[10:01] short could still break out and go viral and I am monitoring that by referring to the hourly candles on
-[10:07] the right hand side if they start going up every hour consecutively that is a sign that we will go
-[10:12] viral but if we start to see sustained flat candles or decreasing candles that is when we will upload our
-[10:19] next short and we have started working towards our third short because we did have a call 1 hour ago
-[10:25] where we discussed our next step forward essentially we are repeating the same process as before where we take inspiration
-[10:31] directly from the Minecraft channel the short that we are using this time though has reached 46 million views and
-[10:37] it's a very simple concept it's just characters tapping the other person in front of them and doing a dance
-[10:42] to a song and the payoff at the end is this last character getting revenge on the person before them
-[10:47] just like last time we will be doing relevant changes to football but at a fundamental level it's going to
-[10:52] be the same short anyway though I'm going to continue to monitor this short and I will update you when
-[10:57] the third short is complete
-[11:01] it's day 10 now and I have some unfortunate news the second short has now flatlined at 25,000 views on
-[11:09] the positive side though I have gotten the third shot back and we are about to upload it watching it
-[11:14] back right now it is very addictive it might look a bit boring to you because I can't play it
-[11:19] back with the sound otherwise I will get copyrighted on the video that you're watching right now but take my
-[11:24] word for it the sound completes this but one thing that sticks out to me as a potential negative is
-[11:29] its length it's currently 26 seconds and comparing that to my two other shorts it's going to be by far
-[11:35] the shortest if you did not know creating longer short form content does give you an advantage because you can
-[11:40] get higher watch time which is the most important metric across every single platform but even though I've been concerned
-[11:46] about this I have been constantly reminding myself here that we are taking inspiration from a short that has 46
-[11:52] million views so if their short could get 46 million views with 26 seconds that is good enough for me
-[11:58] anyway though I have gone ahead and done all the upload settings for this short using the exact same process
-[12:03] that I followed for the first two shorts and finally let's press upload and hope this one does well day
-[12:10] 11 our latest short is sitting at 14,000 views one thing I want to show you though is by looking
-[12:16] at our second short it reached 4,800 views in the first 24 hours and remember this number because when I
-[12:23] come back to our most recent short you will see we are already at 14,000 views and the first 24
-[12:28] hours isn't even complete yet and this is relevant because the short that got 4,800 views in the first 24
-[12:34] hours is now at 26,000 views which means our most recent short is outperforming our highs viewed significantly and the
-[12:42] best part is it doesn't look like it's slowing down even though these hourly candles look pretty flat we are
-[12:47] still being pushed every hour into the shorts feed and I do expect these hourly candles to start picking up
-[12:52] once again and to wrap up today's update the channel is now sitting at just under 1,000 subscribers which is
-[12:58] our first big milestone for reaching monetization so we are finally making steps towards that $5,000 per month mark day
-[13:06] 13 so I've just been chilling out today until I just checked our analytics i'm not sure how well you
-[13:12] can see that but we are starting to go viral we are just under 80,000 views on our most recent
-[13:17] short and even though this growth to 80,000 views is already insane if I come into our real-time chart you
-[13:22] can see how things are just going crazy this is the type of exponential growth that I was telling you
-[13:27] about and it's almost at a point now where it's almost 10,000 views per hour at this point it just
-[13:32] looks bad in videos like this when results come this easy and if you have created shorts before chances are
-[13:37] you didn't get results this fast one of the keys that you need to master is what niche you're entering
-[13:42] and what video topics you are creating that is why at the start of the videos you see me spending
-[13:47] so much time on formulating my niche because it's one of the main ways that you can guarantee success without
-[13:53] having to upload over 30 shorts it's been 3 hours since we spoke last and the short has officially broken
-[13:59] 100,000 views and coming over to our alley candles now you can see that we're continuing that exponential pattern and
-[14:06] we actually broke more than 10,000 views per hour and the best part is it does not look like it's
-[14:11] slowing down anytime soon and finally we have doubled our subscriber count day 14 our latest short is now sitting
-[14:19] at 300,000 views let me just come into our chart now so you can get a detailed look and you
-[14:25] can see that last night we got one big push but now things are starting to slow down this is
-[14:29] because when your content starts to get as many views as this your channel starts to become sensitive to what
-[14:34] time of day it is where I live typically at night I get more views like last night the short
-[14:39] got 27,000 views in just 1 hour but now the hour is 11:00 a.m which means it's starting to slow
-[14:45] down but most importantly we aren't flatlining here even though the short so far has exceeded my expectations we need
-[14:52] to continue this momentum and start creating our next short during the evening I got on a call with the
-[14:57] animator to discuss our next short i did some more research into the Minecraft niche and I found this short
-[15:02] that has over 128 million views this short is much more complex than all of our previous shorts and it
-[15:08] has a story line behind it essentially it's just multiple characters drawing an object which is the rising action and
-[15:15] then the short reaches a climax where this character performs poorly and the final resolution is this last character transforming
-[15:21] and getting revenge so this short has everything needed to go viral except for the hook but I'll let you
-[15:27] judge that for yourself finally on the call we touched on the shorts performance and we could not be more
-[15:34] happier because it's now just under half a million views and as we discussed on the call the best part
-[15:40] is we are only three shorts into this jack Craig coaching over the next 90 days if you want to
-[15:47] start your own YouTube shorts channel and gain 10 million views and start earning a full-time income you can get
-[15:53] access to my private coaching and just like you have seen in this video so far I get results take
-[15:59] Carlos a 9 to-ive office worker who joined my coaching with zero experience and after 45 days in my program
-[16:05] he began generating over 1 million views per day and his channel is now generating more money than his day
-[16:11] job or take Aaron for example he is 13 years old and when he joined my coaching his channel was
-[16:16] struggling to even hit 10,000 views fast forward to the end of my 90 days of coaching and he is
-[16:21] now making over £3,000 per month that is over £4,000 USD at 13 years of age results like these are
-[16:29] achievable with my coaching because you get access to weekly calls with myself where I will sit down with you
-[16:34] and give you personal content strategies editing audits channel audits and give you the answers to make your channel go
-[16:40] viral and in between these weekly calls you will get access to a private chat where you can ask me
-[16:45] any questions around the clock this is just the start of what's included in my coaching like for example you
-[16:51] get access to my proven unreleased niche guides that are completely untapped and I always test the niches myself or
-[16:57] give you real data to prove why they will work because as you've probably realized from watching this video going
-[17:02] viral fast comes down to one main thing positioning your channel in the right niche now besides Aaron's and Carlos
-[17:09] results there are also numerous more listed on my website from students who have completed my coaching each student testimonial
-[17:16] is backed by their real dashboards because as you've probably seen from this video so far I am all about
-[17:21] getting results on my website linked below you'll get a full breakdown on everything included in my coaching and by
-[17:27] just scrolling through you'll see how my coaching is the most proven and complete out there day 15 let me
-[17:36] give you a quick update on how the channel is doing firstly the channel has reached 8,000 subscribers our short
-[17:41] is sitting at just under 700,000 views and we are still getting very strong pushes into the shorts feed as
-[17:47] shown by the hourly candles and for our two other shorts they are going okay but nothing amazing the highlight
-[17:53] between the two is obviously our second short which is at 34,000 views and to be honest looking at this
-[17:59] chart now it is much more positive than I thought but coming back to the channel now it's now time
-[18:04] to upload our new short that we began creating yesterday we had a very quick turnaround on this because we
-[18:09] are both extremely motivated to continue our momentum once again there is no secrets with uploading and we don't need
-[18:15] to use any fancy tools and one habit that I want you to start doing is watching your short back
-[18:20] in this little player i cannot tell you how many times I've watched my short back and there's been an
-[18:25] error that I found anyway I think everything looks good here let's upload it and I will update you on
-[18:30] the short when we start to get some results day 16 i cannot make this up the short has received
-[18:38] 121 views in the last 16 hours what is going on here what is concerning about this is our real-time
-[18:45] views here we have only gotten 12% of our views from the shorts feed whereas it should be our highest
-[18:50] viewed traffic source it should not be channel pages we are getting this traffic from our channel pages because our
-[18:56] highest viewed short is now just under 900,000 views and really this has me puzzled for now as to the
-[19:03] exact reason why this short is at 121 views our last short is almost at a million views it should
-[19:10] not be like this i've spent the last 30 minutes trying to wrap my head around what is going on
-[19:14] and despite these bad results I know this short can go viral because don't forget we are using the exact
-[19:20] same process that worked for our previous short that is now sitting at just under 900,000 views but why did
-[19:27] this short get 121 views well I have broken it down into three possible different reasons the first being inappropriate
-[19:35] scenes you can see at this part of the short Mbappe is using his waist to draw which could be
-[19:40] deemed as inappropriate from YouTube's censorship AI but considering that the original short had the same movement this probably isn't
-[19:47] one of the reasons the second reason sound effects towards the end of the short on the soundtrack there are
-[19:52] sound effects which were taken from a popular movie and YouTube is very strict about anything being taken from TV
-[19:58] shows or movies as written in their shorts policy but again we took this soundtrack straight from the example short
-[20:03] so there should be no issues here the third reason YouTube is only prioritizing our viral short and not giving
-[20:08] any attention to our new uploads if you have watched my videos before you know I tell you to give
-[20:13] your shorts time to perform so you don't push them off the shorts feed and looking back we may have
-[20:18] gotten ahead of ourselves and tried to rush things and based on these reasons I am deleting this short but
-[20:23] do not get me wrong here i am not giving up on this short yet because I know the potential
-[20:28] we have with it if you are ever deleting shorts though you need to be careful you cannot re-upload your
-[20:33] short without any changes otherwise you will shadowban your account and I'm going to make changes to our short to
-[20:39] address the first two issues behind why our short is getting no views firstly it was just removing the two
-[20:44] parts that had sound effects from the movie and then sending a recording to my animator asking him to change
-[20:50] the scene where Mbappe was drawing with his waist he was online and fixed it straight away so I have
-[20:55] fixed the first two issues and I am deciding to now go ahead and re-upload the short re-uploading the short
-[21:01] now will allow us to isolate our issue to just YouTube not pushing our short so let's go ahead and
-[21:06] press upload and let's hope now that we can get pushed into the shorts feed day 17 it's been just
-[21:13] over 24 hours since re-uploading that short and I have not checked the results yet because to be honest with
-[21:19] you I have been scared to check anyway let's have a look at this for the first time together i'll
-[21:25] come up and press shorts and we'll have a look now
-[21:30] I don't want to look
-[21:35] 189 views i mean yeah 189 views is slightly better than our last result but as you can imagine this
-[21:42] still means we did not get pushed into the shorts feed at least on the bright side here our third
-[21:46] short has surpassed 1 million views which is obviously a great result but seriously though how can we get 1
-[21:52] million views and not even 1,000 views on our fourth short but at least now we have a better idea
-[19:57] of exactly why this short is not getting views originally we came up with those three possible reasons and we
-[22:03] solved the first two meaning that now we believe it's just because YouTube is prioritizing our viral short well at
-[22:09] least we think so there could be some issue with the channel that we don't know about yet but at
-[22:13] this point I really doubt this what I'm going to do next is delete the short once again and I'm
-[22:18] going to wait this time until our viral short starts to slow down by monitoring the real-time view candles day
-[22:27] 18 the short is finally starting to slow down where last night we did not get our usual push to
-[22:33] 10,000 views per hour so it is now a good time to upload and that is what I'm going to
-[22:38] do right now something that I have not spoken to you about yet is this new short here my animator
-[22:44] and I did decide to create this new short last night because we just want to be certain that there
-[22:48] is no issues with our channel this new short is very basic though it's essentially football players singing and they
-[22:54] get a reward based on their score from this bar eventually this last player comes up but he does not
-[22:59] perform well and then there's a call to action and then he finally beats everyone and this short that we
-[23:04] got inspiration from has 13 million views as I mentioned though this short is very basic and I don't think
-[23:10] this short will perform particularly well but that is not the goal here it's to see if our channel is
-[23:15] broken i have completed the upload settings now and let's see if we do get some pushes into the short
-[23:20] speed have a look at this ready the short we just uploaded 2 hours ago is now at 200 views
-[23:26] which means we did get pushed into the shorts feed which is what we have been struggling to get and
-[23:31] we were correct in saying that YouTube was just busy with pushing our viral short so as you can tell
-[23:36] I am very relieved now and I'm also very excited because we now have the opportunity to push our short
-[23:43] that we think has potential day 20 we have now flatlined at 15,000 views and the short did gain us
-[23:51] 200 subscribers as you can see these are not the best results but I do not care all that matters
-[23:57] here is that we got pushed into the shorts feed what we really care about is this short here which
-[24:02] we are going to upload today i am planning to completely redo the soundtrack and this isn't because I think
-[24:08] there's something wrong with it we just need to make some change to it so YouTube does not think we
-[24:12] are re-uploading the same short and potentially shadowban us that evening I worked on recreating the sound effects throughout the
-[24:19] short and added a different soundtrack and all of that editing did take me just over 10 minutes after making
-[24:25] those changes it is now time to upload the short and even though I have been very confident about this
-[24:31] short I am nervous to upload it because it's day 20 of the challenge and I do not want to
-[24:36] get to the end of the 30 days and only have one viral short i want you to see that
-[24:41] firsthand youtube shorts and really any type of content can be approached with a methodical mindset where you are not
-[24:47] throwing ideas against a wall until they stick anyway let's press upload now and let's hope that YouTube actually gives
-[24:54] this short a chance because once again I know the potential we have with this one at least I think
-[24:59] I do day 21 5,000 views on our latest short i know that this is not many views yet but
-[25:07] I am excited because YouTube is finally pushing this short so be excited with me anyway coming back to the
-[25:14] overall analytics it is performing a 2 out of five and it's only just behind our viral short which is
-[25:20] now at 1.2 million views only time is going to tell now so let's see what is going to happen
-[25:26] it's been just over 12 hours since we spoke last and we are currently at 14,000 views and if I
-[25:32] come into the chart you will see how positive it is looking our views did start to flatten out after
-[25:37] the last update I gave you but now we are starting to get a big push coming out of the
-[25:42] first 24 hours i will keep you updated on how this short goes over the coming days day 23 35,000
-[25:51] views i told you that it would work it's the best feeling when you know something is going to work
-[25:56] based on your experience and it actually pays off and based on my experience when shorts start to perform like
-[26:02] this after the first 48 hours there is only one place where your shorts end up which is getting millions
-[26:09] of views so I am so excited to see where this short is going to end up over the coming
-[26:14] days so the view chart is now a straight line just going up something that's very interesting I want to
-[26:19] show you is by coming to the current time it is just after 6:30 and our views per hour is
-[26:25] already at 4,000 views which means this short could already be at 10,000 views per hour and this goes to
-[26:31] show that you should believe in yourself and not doubt yourself and even though it may not have looked like
-[26:36] it I was extremely discouraged after seeing the second upload with no pushes into the shorts feed but if I
-[26:42] originally stuck to my principle of giving shorts time to breathe we wouldn't have had this issue to begin with
-[26:48] so to conclude here try not to let your emotions get to you when things are going well and not
-[26:53] so well
-[26:56] it's the last day of the 30-day period so it's time to reveal where we got the channel to over
-[27:01] the last 30 days we gained 37,000 subscribers and reached 3.4 million views i am proud of how we performed
-[27:08] here but there is an elephant in the room we failed to meet our goal of earning at least $5,000
-[27:13] by copying the Minecraft channel with that said I still consider this channel a success because it's clearly on the
-[27:19] path to reaching that target we've already hit the first stage of monetization and with more effort and perhaps a
-[27:25] more realistic time frame hitting $10,000 per month with this channel is very achievable looking a bit deeper now our
-[27:31] latest short the one we've been tracking has now hit 1.6 million views what's especially promising with this short is
-[27:38] that it's bringing in a large number of new viewers as shown by this blue line here it's an important
-[27:43] sign of healthy growth because it means the channel isn't just relying upon our first viral short which is currently
-[27:49] at 1.7 million views i do expect our newer viral short to surpass the first one in the coming days
-[27:55] because you need to remember it has a 10day head start you wouldn't have seen this top short here i
-[28:00] published it a few days ago and I didn't update you about it because at the time it was day
-[28:04] 26 and I felt that the challenge was already over at that point so I didn't think much of it
-[28:10] but as you can see it's starting to gain a decent amount of views and I think with a bit
-[28:14] more time this short has potential to perform really well something that has been reinforced to me while running this
-[28:19] channel is that in the early days of running a shorts channel it's an incredibly passive process we're uploading frequently
-[28:25] if you're not giving your shorts time to breathe does in fact hurt your shorts performance obviously this channel would
-[28:31] not have been possible without my animator but don't use this as an excuse as to why you aren't seeing
-[28:36] results or why you cannot get started creating content today and you don't need a complex niche like mine that
-[28:42] requires an animator to start every single channel that I have blown up in the past has been with no
-[28:47] animators no outsourcing just myself putting in the work and in my last video you saw this i took a
-[28:53] channel from zero views to over 250,000 views in just 7 days with two uploads and before that I got
-[28:59] 10 million views on the second short I uploaded to a brand new channel i monetized that channel in just
-[29:04] 22 days and before long I was earning thousands of dollars per month at the end of the day you
-[29:09] can keep making excuses or keep following advice from people who haven't actually done it themselves consistently but as you've
-[29:16] seen everything I create gets results literally millions of views i'm here to teach you if you're ready no matter
-[29:22] your niche whether you're doing faceless content or not or whatever platform you are posting from if you want some
-[29:28] proof go to my website you can see all the results I get for anyone who joins my coaching i
-[29:32] put in the work so you don't need to guess you just follow the steps and get results
+[00:00] Este es mi canal de YouTube de IA que hice estallar en 7 días y quiero que tú empieces a hacer lo mismo, pero aún más rápido. Así que en este video voy a iniciar un canal de YouTube completamente nuevo y lo operaré durante 24 horas con inteligencia artificial para que puedas replicar mis acciones y obtener resultados similares. Pero para que esto suceda, necesitamos empezar ahora mismo.
+
+Hora 1: Selección del nicho
+Tomaremos inspiración de este canal de aquí: a través de 29 subidas, han ganado más de 250 millones de visitas y su primera subida fue hace solo 3 meses. Si te preguntas cuánto significa esto en términos de retorno financiero, este canal habría ganado 50,000 dólares estadounidenses, lo que significa que este canal está ganando 16,000 dólares al mes. Como puedes entender, esta es la razón por la que tomamos este canal como inspiración. Lo que este canal está subiendo son estos procedimientos de comida obsesivos que consumen un tiempo increíble.
+
+[01:00] Mientras ves esto, probablemente estés pensando: "Jack, esto es contenido de comida que requiere un esfuerzo extremo e inversión financiera". Y eso es lo que yo también pensé al ver este contenido por primera vez, pero tras una mayor investigación, este contenido se está creando con IA. Si prestas mucha atención a ciertas partes de algunos videos, hay pequeños errores que no ocurrirían si fuera una grabación real, como esta parte de aquí donde claramente hay un problema con la regla y hay una cara en la tabla de cortar.
+
+[01:30] En el momento en que me di cuenta de esto, todavía tenía mis dudas porque nadie en los comentarios hacía observaciones sobre que el contenido fuera de IA, así que tuve que probarlo por mí mismo. Aquí está mi intento de 10 segundos en este contenido: "Hoy convertimos este trozo de carne en una funda de iPhone 17 Pro Max. Primero recorto el filete a exactamente 1 milímetro de ancho". ¿Es realista, verdad?
+
+[01:55] Y al igual que el canal de ejemplo, aparte de esta prueba, esta no es la forma en que vamos a abordarlo. Lo que los creadores suelen hacer cuando ven un canal como este es simplemente replicar el contenido, pero esa es la forma más rápida de no obtener resultados, porque YouTube no premia los duplicados de canales existentes. Así que lo que voy a hacer para evitar esto es estudiar este contenido.
+
+[02:13] Así que entré en estado de flujo para analizar el contenido. Primero comencé abriendo un documento de Word y anoté el título del video más popular del canal, la cantidad de visitas que tenía, y para cada escena anoté ciertos detalles como la duración de cada escena, una descripción de lo que sucedió visualmente, el guion y una captura de pantalla de la escena.
+
+[02:37] Diseñar el video de esta manera estructurada te obliga a prestar atención a cómo se están creando estos videos, lo que nos permitirá replicar las fuentes que están dentro de estos videos virales. Y repetí este proceso para los tres videos más populares del canal para aumentar nuestro tamaño de muestra, y después de 18 minutos de trabajo repetitivo, el documento estaba completo.
+
+[02:57] Así que he mapeado cómo creo que se están creando estos videos, y para ayudarte a entender, desglosaremos este de aquí con 35 millones de visitas. El video comienza con una declaración: "Hoy estamos pellizcando 99,099 floretes de brócoli", que es lo que vamos a llamar la fase de declaración.
+
+[03:13] Luego, el creador pasa a una fase de evaluación, como en este video donde los floretes son inspeccionados y medidos. A continuación viene lo que me gusta llamar la fase de aislamiento, donde en este video cada florete se abre y se inserta un solo pellizco de sal uno por uno.
+
+[03:31] Después de eso, suele haber un lapso de tiempo de algún proceso intrincado que vamos a llamar la fase de proceso, y típicamente hay una fase de construcción donde todas las partes se juntan rápidamente, y finalmente la fase de revelación del producto terminado.
+
+[03:44] Y podemos representar visualmente esta estructura en un gráfico que se ve así. Y esto es lo que vamos a llamar la fórmula general del canal Brazen, y lo que creo que podemos hacer con esta estructura —que está probada con más de 250 millones de visitas— es que podemos aplicarla a un tema diferente para crear nuestro propio nicho que no tenga competencia.
+
+[04:04] Pero tenemos que tener cuidado aquí: el canal de Brazen satisface tres criterios que permiten que su contenido funcione tan bien, y debemos asegurarnos de que nuestro nuevo tema satisfaga cada uno de estos criterios.
+
+Criterio 1: El contenido tiene que ser universalmente relatable. Brazen hace videos sobre comida; no se requiere conocimiento de nicho o interés específico para entenderlo, es una cuestión de la vida cotidiana, y esa es una de las razones por las que sus videos obtienen tantas visitas. Es instantáneamente comprensible y accesible para todos.
+
+Criterio 2: Debe haber un gancho emocional. ¿Recuerdas los comentarios que te mostraba? Todo el mundo llama loco al creador por gastar tanto tiempo en esto. El espectador ve una cantidad irracional de esfuerzo por un resultado inútil y no puede apartar la mirada. En el caso de Brazen, está desencadenando una emoción de absurdidad. Así que cualquier tema que decidamos debe tener algún tipo de gancho emocional.
+
+Criterio 3: Compulsión de finalización. Como sabes, en el gancho de los videos el creador hace una declaración y los espectadores quieren verla cumplida y terminada. Es por eso que la retención en estos videos es muy alta y otra razón del éxito del canal.
+
+[05:16] Así que ahora, con estos criterios identificados, surge la pregunta de qué seleccionaremos exactamente como nuestro tema. Y estamos de suerte porque he estado pensando en esto durante mucho tiempo: he visto muchos videos de mascotas funcionar extremadamente bien porque es un tema altamente relatable.
+
+[05:35] He estado haciendo lluvias de ideas sobre cómo podríamos dar forma a esta idea para cumplir con los dos criterios restantes, y lo que creo que podemos hacer es crear un salón de mascotas con IA donde las mascotas vendrán a nosotros sucias y luego se irán completamente transformadas, lo cual cumple con nuestro criterio de compulsión de finalización y cumple con nuestro gancho emocional porque iremos a extremos en el proceso de aseo para crear una emoción de absurdidad.
+
+[06:03] Con los criterios cumplidos, creo que no hay razón por la cual no obtengamos resultados locos. Por supuesto, esto depende de si podemos obtener buenos resultados usando IA, porque no tengo los fondos para invertir en un salón de mascotas real, ni tenemos el tiempo porque solo tenemos 24 horas aquí. Así que veo este proceso como ligeramente problemático, pero averigüemos si podemos hacer esto juntos.
+
+Configuración del canal
+Este es el canal de YouTube que usaremos para subir nuestros videos. Si hago clic en la sección "más", notarás que la cuenta fue creada hace 7 meses. Si quieres empezar en YouTube y empezar a subir videos, recomiendo tener una cuenta que tenga al menos 7 días de antigüedad y tenga algo de historial de visualización. Si no haces esto, YouTube pensará que tu cuenta es spam y no tendrás ninguna posibilidad de conseguir visitas.
+
+[06:46] De todos modos, volviendo a nuestro canal, notarás que tenemos un nombre de usuario generado aleatoriamente. Lo que voy a hacer es entrar en "Personalizar canal" aquí y vamos a cambiar primero el nombre. No sé muy bien cómo llamarlo, así que voy a venir aquí e ir a ChatGPT; voy a alimentarlo con una descripción simple de lo que trata nuestro canal y luego pedirle sugerencias de nombres.
+
+[07:08] Así que obtuvimos bastantes resultados, pero inmediatamente lo que me llamó la atención fue este concepto de aquí: Street Dog Salon (Salón de perros callejeros). Vamos a copiarlo y volver a YouTube para ver si nos da la opción, y no está disponible. Lo que me gusta hacer si el nombre no está disponible es simplemente añadir un "real" al final, y eso está disponible. Vamos con eso.
+
+[07:29] Muy bien, nuestro nombre de canal está configurado, pasemos a los recursos del canal comenzando con la foto de perfil. Decidí usar un generador de imágenes de IA llamado Higsfield. Todo lo que hice fue escribir una instrucción de imagen y hacer clic en generar. La imagen que decidí crear fue esta, que mostraba pelaje sucio a la izquierda y pelaje limpio a la derecha. Con esa imagen descargada, volví a nuestro canal y subí la foto de perfil, y después de 4 minutos el canal estaba listo.
+
+[08:00] Muy bien, el canal ya está configurado y si miras desde mi fondo notarás que no hay un banner de canal, solo tenemos una foto de perfil configurada. Y la razón por la que hice esto es simple: no afecta a cuántas visitas obtenemos y queremos centrarnos en las visitas para nuestro canal de YouTube porque así es como nos pagan. Así que continuemos con lo que realmente importa.
+
+Ideación de videos (Hora 2)
+Me moví a la etapa más importante de un canal de YouTube: la ideación de videos, porque al final del día los videos que subes determinan cuántas visitas obtienes; tu nicho solo te da dirección. Antes de crear cualquier video, paso 11 minutos simplemente generando la idea del video.
+
+[08:42] Así que la ideación está completa y lo hice basándome en mi intuición en lugar de la investigación. A un alto nivel, lo tenía claro: empezar con un perro descuidado, luego realizar una evaluación donde medimos la longitud del pelaje y la cobertura de suciedad; a partir de ahí pasamos a una fase de aislamiento donde el perro se coloca en un baño y cada enredo se limpia uno por uno usando una aspiradora. Luego, para la fase de proceso, sería acondicionamiento y un masaje terapéutico. Después de eso iríamos a la fase de construcción donde secamos el pelo con secador y cortamos el pelaje a medidas exactas usando instrumentos, y finalmente pasamos a la fase de revelación donde sería la transformación final.
+
+[09:17] Esa es la idea general que tengo para nuestro primer video y para avanzar desde aquí necesitamos escribir un guion y luego generar el video usando IA. Para ayudarnos a hacer esto, profundicé más en el documento de Word que hicimos antes pegándolo en ChatGPT; le pedí que nos ayudara a entender las técnicas de redacción de guiones, los cortes promedio por fase y la duración de las escenas. Esto dio como resultado la siguiente información, y se extiende sobre nuestra estructura general inicial, y lo llamaremos el desglose de fases.
+
+[09:50] Esencialmente actúa como una estructura para cada fase donde tenemos la duración de cada fase, cuántas escenas hay y finalmente una fórmula de guion. Espero que puedas ver que cuando abordas YouTube de esta manera, no dejas nada a la suerte porque todo se basa en videos probados que tienen millones de visitas. Obviamente todo esto sigue siendo a un alto nivel, pero queremos mantenerlo en marcha desde este punto para no quedar atrapados en la parálisis por análisis.
+
+Hora 2: Creación del video
+Es hora de dar vida al video que se nos ocurrió y no vamos a perder el tiempo. Primero comencé copiando nuestra estructura en ChatGPT para cada fase junto con la estructura general de guiones que encontramos, y le pedí que generara un guion. El que obtuvimos no era perfecto de ninguna manera; incluso si le proporcionas a la IA mucha información, debes recordar que no tiene experiencia en la gestión de canales de YouTube, por lo que nunca debes confiar ciegamente en ella.
+
+[10:50] Así que hice muchos ajustes para mejorar el flujo y alinearlo mejor con las fases de Brazen. Era hora de hacer el video usando Higsfield. Fui a la pestaña de imágenes, hice clic en "crear imagen" y necesitábamos una instrucción de imagen que va en este cuadro de aquí. Así que fui a ChatGPT y le di una descripción simple de lo que quería; por ejemplo, para nuestra primera imagen quería crear un entorno de salón de perros que no pareciera perfecto, tuviera buena iluminación y no tuviera perros visibles porque en esta etapa solo estoy construyendo nuestra escena. Una vez que obtuvimos la primera instrucción de vuelta, la copié a Higsfield y presioné generar, y después de 30 segundos teníamos la imagen de vuelta.
+
+[11:26] Así es como se va a ver el salón de perros; Higsfield hizo un gran trabajo generando esta imagen basada en la instrucción que le dimos. Vamos a usar esta imagen en el futuro cada vez que creemos una imagen dentro de nuestro salón presionando este botón de imagen de referencia aquí abajo. Es importante construir tus escenas de IA tal como lo estoy haciendo aquí porque te permitirá alcanzar consistencia en tus videos de IA.
+
+[11:51] Con nuestra imagen de referencia fuera del camino, pasamos a crear nuestra primera imagen para el video y, por supuesto, necesitábamos un perro. Así que fui a Google Imágenes y encontré esta imagen de un perro desaliñado y se convirtió en nuestra segunda imagen de referencia. Seguí el mismo proceso que antes generando la instrucción de imagen usando ChatGPT, luego presionando generar, y finalmente tuvimos nuestra primera imagen para nuestro video, con la que estaba bastante feliz. Es bastante lindo. Creo que necesitamos ponerle un nombre juntos, aunque no sé cómo lo llamaríamos.
+
+[12:21] No más juegos, volví directamente al grano. Presioné el botón de animar y nos llevó al generador de video de Higsfield; simplemente le di una instrucción de video simple para que el perro se moviera y mirara alrededor, y después de 30 segundos se generó el primer video. Sin embargo, no estaba completamente satisfecho con el resultado, ya que era bastante básico y para que fuera una de las primeras tres escenas de nuestro video tenía que ser perfecto.
+
+[12:49] Así que decidí trabajar un poco más en nuestra primera imagen. Tuve la idea de convertir nuestra primera imagen en una Polaroid con la palabra "antes" en la parte inferior y luego recrear nuestra primera imagen con dos manos con guantes sosteniendo la Polaroid. Luego convertí esta imagen en un video y la obtuve de vuelta.
+
+[13:01] Segundo intento hecho en el primer video y estoy mucho más impresionado con este nivel de calidad. Se ve mucho mejor y hay mucho en qué centrarse. Supongo que con nuestra primera imagen simplemente no pusimos suficiente amor en ella. También con esta idea de la Polaroid del "antes", creo que al final del video podemos comparar esta imagen de "antes" con la transformación completa del perro. Creo que va a ser una idea genial y una mejor manera de alimentar el criterio de compulsión de finalización. Al menos creo que es una buena idea, pero veamos si realmente resulta bien.
+
+[13:39] Con eso fuera del camino, repetí el mismo proceso que viste generando las imágenes y videos para cada fase del video. Luego era hora de juntar todas las generaciones usando mi editor de elección: Premiere Pro. Antes de continuar, necesitaba una locución, así que fui a la función de locución de Higsfield para generar todas las locuciones. Después de completarlas, las descargué y las arrastré a mi línea de tiempo; eliminé todo el aire muerto en la locución y luego sincronicé los clips con los videos. Se añadió música de fondo y finalmente se generaron y redimensionaron los subtítulos, dejando un total de 2 horas y 3 minutos de trabajo completado.
+
+[14:18] Así que el video está terminado. Definitivamente pasé un poco demasiado tiempo en él y me excedí, pero déjame mostrarte lo que pudimos crear.
+
+Y aquí vamos, comenzando con la fase de declaración donde hacemos nuestra declaración.
+
+Luego pasamos a la fase de evaluación donde medimos la longitud del pelaje uno por uno.
+
+Y si avanzamos un poco, eventualmente entramos en la fase de aislamiento donde el perro se coloca en un baño y cada enredo se limpia uno por uno usando una aspiradora de agua.
+
+Avanzando un poco más, eventualmente llegamos a la fase de proceso donde estamos acondicionando y masajeando al perro.
+
+Avanzando una vez más, eventualmente llegamos a la fase de construcción donde hacemos esos recortes finales usando instrumentos.
+
+Y después de esto llegamos a la revelación final donde se nos ocurrió la idea de la Polaroid, donde tenemos esa Polaroid de "antes y después" comparando el producto final. Y si seguimos adelante, finalmente llegamos a esa idea de tablero que ideamos.
+
+[15:13] Así que ese es el video completado y estoy muy impresionado con lo que la IA pudo hacer por nosotros. Vamos a subir este video y ponerlo a prueba ahora. Pero si quieres acceso al mismo generador de imágenes y videos que usé en este video, puedes registrarte en Higsfield usando mi enlace abajo. Estoy patrocinado por Higsfield, pero puedo decir honestamente que son mi generador de imágenes y videos de IA preferido al crear videos de IA. Pero continuemos subiendo el video.
+
+Hora de subida
+Es hora de poner a prueba todo lo que hemos hecho y subir nuestro video. Para el título de nuestro video, vamos a tomar inspiración de Brazen y, basándonos en lo que estudiamos antes, sus títulos suelen seguir una fórmula. Así que ahora lo que voy a hacer es reemplazar estas palabras con lo relevante para nosotros.
+
+[15:59] Lo que también me gusta hacer con mis títulos es agregar dos emojis. Para las descripciones, de nuevo, lo que he hecho es tomar inspiración de Brazen y luego aquí abajo simplemente añadiremos tres hashtags diferentes. Muy bien, nuestro título y descripción están ordenados, bajemos aquí. Siempre queremos seleccionar que este contenido no está hecho para niños para no terminar en YouTube Kids. Para todas estas otras configuraciones aquí, no hay nada más que necesitemos seleccionar, y para las etiquetas voy a añadir algunas que sean relevantes.
+
+[16:27] Muy bien, se ve listo para funcionar, publiquemos este video. Muy bien, el video ya está publicado, pero hay una última cosa que queremos hacer. Algo que he notado sobre el canal de Brazen es que está configurando miniaturas personalizadas, por eso su canal se ve tan limpio entre todas sus subidas. Y ahora mismo si miras el nuestro, es un poco feo. No te mencioné esto, pero mientras creábamos nuestro video creé una miniatura usando Photoshop y si vengo a nuestro archivo de video aquí verás que la establecí como nuestro primer fotograma. Para configurar miniaturas personalizadas en los Shorts de YouTube, por alguna razón solo puedes hacerlo desde tu teléfono móvil.
+
+[17:02] Así que voy a entrar en mi teléfono aquí y seleccionar mi aplicación de YouTube, luego venir a nuestro canal y luego podemos ver nuestro primer video allí con la miniatura fea. Voy a presionar esos tres puntos, luego presionar "editar", y luego presionar este lápiz en la esquina superior izquierda, y luego, como es nuestro primer fotograma, todo lo que necesitamos hacer es presionar el botón de verificación y luego guardar.
+
+[17:23] Y luego, si venimos a nuestra computadora aquí y actualizamos, la miniatura se ha actualizado y se ve mucho más limpia. Para ser honesto, aunque hicimos esto, probablemente no afectará cuántas visitas obtengamos en nuestro video; es más para el caso en que YouTube comience a servir este video en la página de inicio de YouTube. Y realmente espero que lo haga porque solo tenemos 24 horas para hacer que esto funcione. Pero por ahora, sentémonos y veamos cómo se desempeña este video.
+
+Hora 12
+Después de tomar un descanso durante la tarde, fue hora de otra fase de ideación para un segundo video. Para la estructura del video esta vez decidí reemplazar al perro con un gato porque realmente quería inclinarme más hacia el ángulo de la absurdidad para nuestro segundo video, y esta nueva estructura lo hace porque los gatos no se asean tan a menudo como los perros.
+
+[18:14] Con la ideación del video completa para el segundo video, volví a Higsfield para empezar a crear el segundo video, y durante este tiempo eché un primer vistazo a nuestras analíticas. Actualmente estamos pasando por nuestro primer impulso de YouTube y puedes ver que es una línea recta hacia arriba. Espero que esta línea comience a aplanarse, como ya lo está haciendo, porque este es nuestro primer impulso. Cuando tu canal es nuevo y empiezas a publicar Shorts de YouTube, es muy común que YouTube haga impulsos de prueba como el que estamos experimentando ahora.
+
+[18:48] Y durante estos impulsos YouTube comienza a entender: 1) quién está interactuando mejor con tu contenido, y 2) probando tu short para ver qué tan bien se desempeña contra esa audiencia. Y podemos obtener una visión temprana de qué tan bien se está desempeñando viniendo a nuestro panel aquí y mirando esta métrica de porcentaje promedio visualizado: es igual al 82%, y considerando que la duración de nuestro video es de 59 segundos, eso es muy fuerte.
+
+[19:08] Sin embargo, voy a seguir haciendo nuestro segundo video aquí porque nos permitirá tener otra subida lista si este video no continúa desempeñándose como esperamos. Después de esa rápida revisión, volví directamente a crear nuestro segundo video usando Higsfield. Después de hacer todas las generaciones y editar el video tal como antes, el segundo video finalmente se completó después de 2 horas y 4 minutos.
+
+Hora 20
+Es la mañana siguiente después de terminar nuestro segundo video y no lo hemos subido todavía porque no queremos abrumar al algoritmo; queremos darle una sola cosa en qué enfocarse. No he revisado las analíticas todavía, pero una buena señal ya es que tenemos notificaciones de canal, lo que significa que 1) la gente está comentando o 2) se están suscribiendo.
+
+[19:55] Hagamos clic en esta notificación de campana para averiguarlo: tres suscriptores. Eso no está nada mal, habría preferido comentarios. Pero vengamos aquí a la foto de perfil de nuestro canal y luego presionemos "YouTube Studio": 14,000 visitas, ¡fantástico! Más importante aún, nuestro porcentaje promedio visualizado es del 88%, eso es un aumento del 6% desde ayer, lo que significa que a medida que YouTube continúa impulsando este video, se está desempeñando aún mejor, lo cual es una señal muy fuerte para que YouTube siga impulsando este video.
+
+[20:32] En cuanto a los suscriptores del canal, estamos en 18, lo cual es genial. Pero una cosa que quiero ver en las próximas 24 horas es que lleguen algunos comentarios en el canal, porque esa es una indicación realmente buena de que la gente disfruta de tu contenido.
+
+[20:42] Pero con eso fuera del camino, dirijámonos a nuestras analíticas de video y obtengamos una mirada más profunda. Muy bien, impulsos muy interesantes aquí. Lo más importante, ese primer impulso que estábamos analizando la noche pasada de alrededor de 1,000 visitas se ve muy pequeño en comparación con los otros impulsos que obtuvimos. Obtuvimos este impulso más grande aquí a las 5 horas y luego otro impulso a las 7 horas, y ahora estamos siendo impulsados continuamente hacia el algoritmo cada hora, dejándonos en 14,500 visitas. Sé que solo tenemos 14,000 visitas, pero en mi opinión, dado que estamos siendo impulsados continuamente y nuestra retención sigue aumentando, parece que esto es solo el principio para Street Dog Salon.
+
+Hora 27
+Como puedes ver, se está ralentizando, lo cual no se esperaba. YouTube puede ser una montaña rusa emocional donde las cosas pueden ir perfectamente pero luego de repente no continúan como se esperaba. Es importante que mantengamos la cabeza fría porque fundamentalmente nuestras estadísticas siguen siendo casi perfectas.
+
+[21:51] También hemos llegado a 30 suscriptores ahora, pero todavía no hay comentarios, lo cual no es ideal. Nuestra proporción de "me gusta" a "no me gusta" se mantiene saludable, pero sí, no hay mucho más que podamos hacer ahora mismo excepto mantenernos positivos. Sigo reteniendo nuestra segunda subida aquí solo porque necesito ver al menos 12 horas de una línea plana continua antes de subir nuestro segundo video.
+
+Han pasado poco menos de 12 horas desde que hablamos por última vez y eché un vistazo a esas analíticas, y no voy a mentir, podría sorprenderte tanto como a mí. Redoble de tambores por favor...
+
+[22:31]  300,000 visitas, ¡insano verdad! Parece que después de aplanarse por un tiempo fuimos impulsados muy agresivamente y parece que no va a disminuir la velocidad en el corto plazo. Usualmente no veo resultados tan rápidos como este porque suelo seleccionar nichos con baja relatabilidad universal.
+
+[22:54] A pesar de todo esto, seguimos viendo una tasa de porcentaje promedio visualizado muy fuerte y continua del 85%. Ha disminuido alrededor de un 3%, pero eso es de esperar considerando lo duro que YouTube ha empujado este video. Un elefante en la habitación, sin embargo, es que hemos visto un aumento masivo en suscriptores a 730 y, lo que es más importante, finalmente tenemos 22 comentarios.
+
+[23:16] Todavía no podemos ver una métrica muy importante llamada tasa de deslizamiento (swipe rate) que generalmente se encuentra en este cuadro de aquí, y esta métrica se refiere a cuántas personas se quedan viendo nuestro video pasados los primeros 3 segundos. Pero considerando lo duro que estamos siendo impulsados, asumo que es muy alto. En general, estoy muy orgulloso de lo que pudimos lograr aquí con una sola subida. Te actualizaré mañana.
+
+(Jack Craig Coaching)
+Si quieres iniciar tu propio canal de YouTube que te genere un ingreso, puedes obtener acceso a mi asesoramiento privado dentro de mi coaching. Te llevo a través del mismo proceso que ves en mis videos para contenido de formato largo o corto. Te ayudo a desarrollar tu propio nicho que está construido para el crecimiento y te guío a través de la ideación y ejecución de cada video que subes.
+
+[24:22] Actualización final (Hora 48)
+Así que es la hora 48 y ahora estamos en 700,000 visitas, bueno, para ser específicos, 694,000. Nuestro porcentaje promedio visualizado bajó alrededor de un 18%, lo cual no es ideal, pero no importa porque tenemos 700,000 visitas en las últimas 48 horas. Así que las cosas salieron mejor de lo esperado, hasta el punto de que todavía no tiene sentido subir nuestro segundo video porque todavía estamos siendo impulsados. No estamos viendo visitas por hora tan altas en comparación con hace 12 horas, pero sigue siendo sustancial con alrededor de 10,000 visitas por hora.
+
+[25:06] Y finalmente llegamos a 2,000 suscriptores. Este es nuestro conteo de visitas en vivo, veamos juntos si podemos ver un aumento allí... ahí lo tienes, ¡casi perfectamente cuando lo dije!
+
+[25:19] Pero quiero que te des cuenta de lo que ocurrió aquí: durante las últimas 48 horas en un día laborable cualquiera, pudimos iniciar un canal de YouTube que bien podría continuar ganando miles de dólares al mes al igual que nuestro canal de inspiración Brazen. Y sí, este contenido sería monetizable.
+
+[25:32] Muchos creadores en esta plataforma difunden desinformación y generan miedo sobre si el contenido de IA es monetizable o no simplemente por visitas. Para explicarte los hechos, YouTube introdujo una política llamada contenido inauténtico que apunta al contenido de IA, pero no al contenido que hemos creado aquí hoy. Lo que específicamente no monetizan es: 1) contenido que tiene una variación mínima entre las subidas, o 2) contenido que es fácilmente replicable a escala.
+
+[26:02] Como has visto hoy, el proceso que seguimos es muy manual y hay un gran elemento humano involucrado. Y creo que necesitamos una definición cuando creamos contenido de IA de esta manera, tal vez algo como contenido habilitado por IA, y la definición sería: contenido en el cual la inteligencia artificial sirve como una extensión de la visión creativa humana produciendo resultados que no serían factibles a través de medios tradicionales. Y esto es muy diferente a la basura de IA (AI slop).
+
+[26:28] Y si todavía te preocupa la postura de YouTube sobre la IA, YouTube ha estado presionando a los creadores para que usen su IA a través de la aplicación YouTube Create, y si continúas proporcionando una instrucción de video y luego esperas a que se genere, inmediatamente te ofrecen subir ese video de IA directamente a su plataforma. Así que si eso no es evidencia de que YouTube quiere que crees contenido de IA, no sé qué lo es.
+
+[26:52] Si quieres estar al frente de esta nueva era de creación de contenido y quieres mi ayuda para hacerlo, puedes obtener acceso a mi coaching privado usando el enlace de abajo, donde ayudo a creadores de todos los niveles a iniciar su propio canal de YouTube rentable.

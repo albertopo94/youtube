@@ -46,6 +46,17 @@ YouTube exige declarar en YouTube Studio cuando el contenido pueda confundirse c
 -  **Estructura dinámica orientada al valor:**
   $$\text{Conflicto / Dilema} \longrightarrow \text{Contexto Dosificado} \longrightarrow \text{Desarrollo / Argumento Central} \longrightarrow \text{Resolución (Payoff)} \longrightarrow \text{CTA Orgánico}$$
 
+### Estructura de 6 Fases para Videos de Proceso y Transformación (Fórmula Brazen)
+Especialmente diseñada para videos de procesos obsesivos, transformaciones de mascotas, restauraciones, manualidades extremas o ciencia visual con IA (retención del 80%-85% en Shorts):
+
+1. **Fase de Declaración (*Declaration - Segundos 0-5*):** Declaración inicial contundente con cifra o meta extrema que fija el desafío (*"Hoy limpiamos 99.099 floretes de brócoli"* o *"Hoy transformamos a este perro callejero"*).
+2. **Fase de Evaluación (*Evaluation - Segundos 5-15*):** Medición con regla o balanza, inspección milimétrica de la suciedad, nudos o estado inicial defectuoso.
+3. **Fase de Aislamiento (*Isolation - Segundos 15-30*):** Tratamiento obsesivo de los elementos uno a uno (aspirar cada nudo, extraer cada impureza por separado).
+4. **Fase de Proceso (*Process - Segundos 30-45*):** Proceso intrincado, terapéutico o químico acelerado (baño de espuma, acondicionamiento, masaje).
+5. **Fase de Construcción (*Construction - Segundos 45-53*):** Acabados de precisión con instrumentos (tijeras, secador, pulido milimétrico).
+6. **Fase de Revelación (*Reveal - Segundos 53-59*):** El resultado final impecable y transformado.
+- **Técnica de la Polaroid (Anclaje de Compulsión de Finalización):** En la primera escena se muestra una foto tipo Polaroid sostenida con guantes que dice *"ANTES"*. En la revelación final se coloca esa misma Polaroid física junto al resultado terminado para saldar visualmente la promesa en el último segundo.
+
 ---
 
 ## 3. Ganchos y Apertura (Los Primeros 5 a 30 Segundos)
