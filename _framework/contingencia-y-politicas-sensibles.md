@@ -100,3 +100,18 @@ El contenido no infringe las políticas de desinformación ni salud; se trata de
 
 El video aporta contexto educativo y no desincentiva tratamientos ni promueve prácticas perjudiciales. Agradezco la reevaluación del caso.
 ```
+
+---
+
+### Paso C: Protocolo de Re-Upload Anti-Shadowban (Para Shorts o Videos Estancados)
+
+Si un Short o video quedó atrapado con cero impresiones del feed (ej. menos de 200 visitas) debido a una colisión de cadencia con un video viral previo o una sospecha de infracción menor, y el creador decide eliminarlo para darle una segunda oportunidad:
+
+> ⚠️ **REGLA SUPREMA:** **Jamás re-subir el archivo idéntico.** El algoritmo de YouTube calcula el hash binario del archivo y la huella espectral de audio. Re-subir el mismo archivo activa los filtros de spam algorítmico y puede provocar un **shadowban** permanente en el canal.
+
+#### Pasos Obligatorios antes de un Re-Upload:
+1. **Modificación de la Pista de Audio:** Cambiar la canción de acompañamiento, alterar los efectos sonoros o re-ecualizar la mezcla.
+2. **Alteración Visual:** Recortar o cambiar al menos un fragmento o escena, ajustar sutilmente la velocidad (ej. 101%) o modificar el primer segundo del gancho.
+3. **Re-exportación Limpia:** Exportar un archivo nuevo con un nombre de archivo diferente desde el editor.
+4. **Metadatos Renovados:** Reescribir el título y la descripción con variaciones de palabras clave.
+5. **Comprobación de Cadencia:** No re-subir de inmediato. Verificar en YouTube Studio que las velas horarias del canal estén estables antes de publicar la versión corregida.

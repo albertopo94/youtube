@@ -28,7 +28,19 @@
 
 ---
 
-## 3. Estado de la Herramienta Nativa "Prueba y Compara" (Test & Compare)
+## 3. Monitoreo de Velas Horarias en Tiempo Real (Cadencia para el Siguiente Upload)
+
+> **Regla de oro de cadencia (*Dejar respirar al video*):** YouTube no empuja dos videos simultáneos con fuerza en el feed de Shorts. Subir un nuevo video mientras el anterior vuela en su pico destruirá el nuevo y frenará el momentum.
+
+- **Comportamiento de las Velas Horarias en Studio:**
+  - [ ] **Pico Viral en Ascenso / Fuerte:** (Las velas suben consecutivamente hora tras hora, ej. >500-10.000 vistas/hora).  
+    ➔ **ESTADO: EN ESPERA. PROHIBIDO PUBLICAR EL SIGUIENTE VIDEO.**
+  - [ ] **Aplanamiento Sostenido (*Flatline*) / Descenso Estable:** (Las vistas por hora han decaído a un ritmo residual).  
+    ➔ **ESTADO: VENTANA DESPEJADA. APROBADO PUBLICAR EL SIGUIENTE VIDEO.**
+
+---
+
+## 4. Estado de la Herramienta Nativa "Prueba y Compara" (Test & Compare)
 - [ ] **Prueba activa en YouTube Studio** (hasta 3 miniaturas / títulos)
 - **Variantes en prueba:**
   - Variante A: `[Descripción breve]`
@@ -40,7 +52,7 @@
 
 ---
 
-## 4. Retrospectiva Editorial: Evaluación de Satisfacción del Espectador (*Viewer Satisfaction*)
+## 5. Retrospectiva Editorial: Evaluación de Satisfacción del Espectador (*Viewer Satisfaction*)
 
 > *Principio:* El CTR y la retención bruta son métricas ruidosas. Lo que define si YouTube activará el bucle *Winner-Take-All* es si el video superó la expectativa creada al hacer clic.
 
@@ -53,7 +65,7 @@
 
 ---
 
-## 5. Diagnóstico de Cuellos de Botella del Embudo (*Bottleneck Analysis*)
+## 6. Diagnóstico de Cuellos de Botella del Embudo (*Bottleneck Analysis*)
 
 > **"Every upload should make the next decision better. Diagnose where the drop-off happened so you can fix that and iterate."**
 

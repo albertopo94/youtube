@@ -3,6 +3,7 @@
 - **Nombre tentativo del canal:** 
 - **Nicho / Temática:**
 - **Mercado e Idioma principal:** (Español / Inglés / Hindi / Multiidioma)
+- **Calentamiento de Cuenta (*Account Warmup*):** `[ ] Cuenta activa con más de 1 semana de uso humano previo` / `[ ] Cuenta recién creada (Obligatorio: usarla 7 días navegando/comentando antes del primer upload para evitar sandbox de cero vistas)`
 - **Fecha de inicio de estudio:** 
 
 ---

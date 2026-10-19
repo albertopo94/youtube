@@ -106,6 +106,12 @@ Todo tema y propuesta de packaging debe fundamentarse en los principios de *Brea
    - *Anti-sesgo de positividad:* Al evaluar un formato exitoso, el agente debe investigar también los videos que fracasaron con ese formato para identificar las reglas de ejecución y trampas a evitar.
    - *Campaña única:* Prohibido proponer videos virales fuera de temática (*off-topic hits*); un éxito que atrae a la audiencia equivocada destruye la retención de los videos posteriores. El canal debe fidelizar a un mismo perfil recurrente.
 
+7. **Directivas Específicas para Producción de YouTube Shorts:**
+   - *Transposición Cross-Niche:* Reutilizar mecánicas de ganchos, progresión y payoffs de videos de 50M+ visitas de nichos maduros adaptándolas al tema propio.
+   - *Sonda Algorítmica:* El primer Short de un canal nuevo es una sonda exploratoria; la viralidad matemática suele iniciar entre el 2º y 4º upload.
+   - *Cadencia por Velas Horarias:* **Prohibido subir un nuevo Short mientras el anterior esté en pleno pico viral** en tiempo real en YouTube Studio (*dejar respirar al Short*).
+   - *Protocolo Anti-Shadowban:* Si se elimina un Short para darle una segunda oportunidad, es **obligatorio modificar audio, video y metadatos** antes de re-subir para no ser marcado como spam por hash duplicado.
+
 ---
 
 ## 🎯 05. Criterios de Salida Verificables (Definition of Done) por Fase

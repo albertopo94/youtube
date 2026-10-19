@@ -42,6 +42,25 @@ $$\text{Selección de Pista / Beat} \longrightarrow \text{Marcación de Golpes R
 
 ---
 
+## ⚡ Especialización: Dinámica Operativa y Algoritmo de YouTube Shorts
+
+Si el video producido es en formato vertical (**YouTube Shorts**), rigen reglas algorítmicas y de cadencia específicas:
+
+### 1. El Primer Short es una Sonda Algorítmica (No sobre-perfeccionar la entrega 1):
+- El primer Short de un canal nuevo no busca la perfección absoluta: su único trabajo es servir de **sonda exploratoria** para que los sistemas de recomendación de YouTube calibren a qué perfil de usuario enviarle las primeras impresiones.
+- La viralidad matemática y los picos fuertes suelen desencadenarse entre el **2º, 3º o 4º upload**. No perder días en el primero; lanzarlo rápido y analizar la respuesta.
+
+### 2. Duración, Ritmo y Bucles Continuos (*Seamless Loops*):
+- Los Shorts de **25 a 50 segundos** con densidad de información tienen ventaja matemática sobre piezas excesivamente cortas (permiten acumular más tiempo de visualización total).
+- Diseñar el último segundo del Short para que la frase o el movimiento conecte de forma natural con el primer segundo del video (*Seamless Loop*), elevando el porcentaje medio visto por encima del 100%.
+
+### 3. La Regla de Cadencia: "Dejar Respirar a los Shorts" (*Do Not Stifle Momentum*):
+- ❌ **El error fatal:** Subir videos en horarios fijos ciegos. Si un Short anterior está en pleno despegue algorítmico (recibiendo miles de vistas por hora), **ESTÁ TERMINANTEMENTE PROHIBIDO subir el siguiente Short**.
+- **La razón algorítmica:** El feed de YouTube Shorts prioriza empujar un solo video a la vez por canal. Si subes un nuevo Short mientras el anterior está en pleno pico, el nuevo quedará atrapado con 100 o 200 vistas y el canal perderá el impulso.
+- **La Métrica Guía:** Monitorear las **velas horarias en tiempo real de YouTube Studio**. Mientras las velas sigan creciendo o se mantengan en picos altos, se espera. Solo cuando las velas horarias se aplanan (*flatline*) o decrecen de forma sostenida, se publica el siguiente video.
+
+---
+
 ## 1. Conocer al Público Objetivo
 Saber exactamente para qué rango de edad y perfil se está editando. El lenguaje visual, el humor, la tipografía y el ritmo deben ajustarse a su sensibilidad cultural y visual.
 

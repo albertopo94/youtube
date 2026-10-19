@@ -115,7 +115,23 @@ La gente puede desear intensamente un resultado (dormir mejor, tener energía, g
 
 ---
 
-## 4. Metodología: Cómo Encontrar una Idea de Video Increíble
+## 4. La Técnica de Transposición Cross-Niche (El Atajo de Viralidad)
+
+> **"Taking the core components of a viral video (hook, pacing, climax, payoff) from one saturated niche and applying it to a different, massive topic is a systematic way to engineer success."**
+
+### El Principio de Trasplante Estructural:
+- En lugar de competir frontalmente en nichos hiper-saturados donde canales históricos dominan el feed (ej. gaming/Minecraft con millones de videos idénticos), se analiza qué dinámicas narrativas alcanzaron **40M a 80M+ de reproducciones** en esos ecosistemas.
+- Se aísla el **esqueleto de la viralidad**:
+  1. *El Hook inicial:* El desafío o dilema visual planteado en los primeros 2 segundos.
+  2. *La Acción Creciente (*Rising Action*):* Tensión o progresión acelerada por turnos o intentos.
+  3. *El Clímax / Giro:* El momento de fallo inesperado o dificultad extrema.
+  4. *El Payoff final:* La recompensa, venganza, transformación o remate cómico.
+- **El Trasplante:** Se sustituyen los personajes, escenarios y objetos por los de tu propio nicho o temática (ej. personajes de Minecraft cambiados por futbolistas legendarios; o un reto de videojuegos cambiado por un experimento científico cotidiano).
+- Se conserva la cadencia sonora y la estructura matemática que ya demostró resonar a escala masiva en el cerebro de la audiencia.
+
+---
+
+## 5. Metodología: Cómo Encontrar una Idea de Video Increíble
 
 ### 1. Tema (Subject) Increíble: El "What"
 - *¿De qué va el video?*
@@ -167,7 +183,7 @@ Antes de pasar una idea a guion, debe aprobar estos 7 filtros:
 
 ---
 
-## 5. Protocolo de Verificación de Hechos y Rigor de Fuentes (Fact-Checking)
+## 6. Protocolo de Verificación de Hechos y Rigor de Fuentes (Fact-Checking)
 
 Para videos que aborden papers científicos, divulgación tecnológica, historia, noticias o finanzas, **el rigor es un pilar de retención y credibilidad**:
 - **Peligro de la sobresimplificación:** Explicar un paper complejo o un concepto técnico de forma accesible para todos los públicos no debe significar distorsionar las conclusiones originales de los autores ni afirmar correlaciones dudosas como hechos demostrados.
@@ -181,7 +197,7 @@ Para videos que aborden papers científicos, divulgación tecnológica, historia
 
 ---
 
-## 6. Maduración de Ideas: De la Variedad a la Decisión Estratégica
+## 7. Maduración de Ideas: De la Variedad a la Decisión Estratégica
 Tener un banco amplio de ideas en `ideas.md` (papers, noticias satíricas, cócteles, lore, relax/dormir) es valioso como semillero, pero **cada canal exige una estrategia, público y métricas distintas**:
 - Un canal de divulgación científica exige rigor, gráficos claros y credibilidad.
 - Un canal pausado para dormir exige diseño sonoro inmersivo y duraciones extendidas.
@@ -189,6 +205,6 @@ Tener un banco amplio de ideas en `ideas.md` (papers, noticias satíricas, cóct
 
 ---
 
-## 7. Estrategia Lingüística como Hipótesis de Mercado
+## 8. Estrategia Lingüística como Hipótesis de Mercado
 La tabla de mercados de `_framework/estrategia-idiomas.md` (Español, Inglés, Hindi) debe tratarse como una **herramienta para formular hipótesis**, no como un ranking definitivo obligatorio:
 - Un mercado de cientos de millones de hablantes solo es una oportunidad real si somos capaces de producir contenido con la calidad cultural, idiomática y diferenciación requerida para competir en ese nicho.
