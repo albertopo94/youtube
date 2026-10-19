@@ -1,8 +1,11 @@
 # 06 - Verificación de Fuentes y Fact-Checking de este Video
 
-> **Regla de integridad:** El agente no puede marcar ninguna afirmación como `Verificado` sin haber consultado directamente la fuente primaria, registrando el DOI, enlace o cita bibliográfica y la fecha de consulta.
+> **Regla de integridad:** El agente no puede marcar ninguna afirmación como `Verificado` sin haber consultado directamente la fuente primaria, registrando el DOI, enlace o cita bibliográfica y la fecha de consulta. Consultar directivas en `_framework/contingencia-y-politicas-sensibles.md`.
+> 
+> *Nota de aplicabilidad:* Si el video pertenece a **Régimen 1 (Ficción, Fantasía, Cuentos para dormir o Relatos)**, marcar este documento como `N/A - Régimen de Ficción` y continuar directamente con el guion.
 
 - **Tema / Paper central:** 
+- **Régimen de Veracidad:** `[ ] Régimen 1: Ficción (N/A)` / `[ ] Régimen 2: Factual General` / `[ ] Régimen 3: Zona Roja YMYL`
 - **Grado de controversia o riesgo:** `[ ] Bajo (consenso amplio)` / `[ ] Medio (cifras/datos técnicos)` / `[ ] Alto (salud/financiero/polémico)`
 
 ---

@@ -31,6 +31,13 @@ YouTube exige declarar en YouTube Studio cuando el contenido pueda confundirse c
 3. **Voces sintéticas de biblioteca claramente reconocibles como IA:** Locución sintética estándar que no intente engañar sobre la identidad de una persona real.
 4. **Asistencia de producción interna:** Uso de IA para lluvia de ideas, redacción de guiones, generación de subtítulos automáticos o corrección de color.
 
+### Puerta de Seguridad YMYL: Linter de Léxico Prohibido y Matización Científica
+*(Aplicable a canales de Ciencia, Salud, Nutrición, Finanzas y Noticias - Ver `_framework/contingencia-y-politicas-sensibles.md`)*:
+- **Carga de la Prueba:** Prohibido redactar una afirmación fáctica en el guion sin su respectivo DOI o fuente primaria registrada en `06-fuentes-y-verificacion.md`.
+- **Eliminación de Absolutos Sensacionalistas:** Sustituir frases que disparan las alarmas de YouTube (*"este estudio demuestra"*, *"cura definitiva"*, *"el secreto oculto"*) por formulaciones rigurosas (*"un mecanismo observado preliminarmente"*, *"los datos sugieren una correlación"*).
+- **Matización Animales vs. Humanos:** Si el estudio citado fue en roedores o células in vitro, el guion **debe aclararlo expresamente en la locución**.
+- **Disclaimer Legal Obligatorio:** Incluir en la descripción del video la cláusula de exención de responsabilidad médica o financiera correspondiente.
+
 ---
 
 ## 2. Estructura de Storytelling: Del Conflicto al Valor

@@ -117,6 +117,7 @@ Para que una fase se considere `APROBADO`, debe existir evidencia física demost
   - Estructura atómica por bloques `[Bxx]` con el **grado de guionado adecuado** (*palabra por palabra* para voz en off/IA; *estructura nítida con viñetas* para screencasts, código o expertos a cámara).
   - Fórmula de intro en 3 pasos (reafirmar promesa en segundos 0-5, *Unfair Edge Statement* de autoridad y roadmap de compromiso mental).
   - Aportación editorial justificada y fuentes primarias registradas en `06-fuentes-y-verificacion.md`.
+  - **Cumplimiento del Régimen de Veracidad y Linter YMYL:** Si el video pertenece a Régimen 3 (Ciencia, Salud, Dinero), el agente **tiene prohibido redactar afirmaciones fácticas sin su DOI o fuente primaria en `06-fuentes-y-verificacion.md`**. Debe aplicar el linter de léxico prohibido (sin absolutos ni promesas médicas) y matizar obligatoriamente si el estudio fue en modelos animales. En canales de Régimen 1 (Ficción/Relax), se permite libertad narrativa sin fact-checking.
   - **CTA diseñado como el 'Siguiente Paso Más Útil' adaptable al arquetipo y etapa:** En canales de relax, ficción o en Etapa 1 (tracción inicial sin negocio montado), el único CTA permitido es el **bucle de retención hacia el siguiente video complementario del canal**. Solo en canales de negocio maduros se estructuran recursos descargables (*The Give*) o herramientas desatascadoras bajo el filtro del experto imparcial.
 - **Fase Animatic:** Existe una locución provisional reproducible y un timeline/animatic de baja fidelidad donde el ritmo y el flujo narrativo fueron evaluados y aprobados.
 - **Fase Producción y Edición:** Existen los recursos generados/descargados, la tabla de `03-storyboard-y-edicion.md` vinculada 1:1 con los bloques de guion, respetando la **ley de anti-decoración** (*la edición elimina fricción, no rescata un video vacío; si un visual no aclara o demuestra, es solo movimiento y se elimina*), y el video exportado ha superado los checks de sonido (*sound check*), ritmo (*flow check*) y estilo (*style check*).
@@ -190,3 +191,4 @@ Cuando una herramienta requiera interacción visual, inicio de sesión o ejecuci
 | **Matriz de Capacidades Comprobadas** | `_framework/herramientas-y-apis.md` |
 | **Trazabilidad Legal de Recursos** | `_framework/plantillas/registro-licencias-template.md` |
 | **Fact-Checking y Fuentes Primarias** | `_framework/plantillas/registro-verificacion-fuentes-template.md` |
+| **Políticas YMYL, Léxico y Contingencia** | `_framework/contingencia-y-politicas-sensibles.md` |

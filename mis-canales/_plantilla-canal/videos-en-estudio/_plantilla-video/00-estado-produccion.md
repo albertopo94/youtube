@@ -4,6 +4,7 @@
 - **Video Slug / ID:** 
 - **Título provisional o aprobado:** 
 - **Flujo Audiovisual seleccionado:** `[ ] Audio-First` / `[ ] Screen-First` / `[ ] Speaker-First` / `[ ] Music-First`
+- **Régimen de Veracidad:** `[ ] Régimen 1: Ficción / Relax` / `[ ] Régimen 2: Divulgación Factual` / `[ ] Régimen 3: Zona Roja YMYL (Ciencia / Salud / Finanzas)`
 - **Fecha de inicio:** 
 - **Última actualización:** 
 

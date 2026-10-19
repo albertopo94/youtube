@@ -13,7 +13,11 @@
 
 - [ ] **Aportación Original:** ¿Aporta análisis, síntesis, narrativa o conclusiones que van más allá del material de origen?
 - [ ] **Anti-Contenido Reutilizado:** ¿Evita sustituir la obra original (en libros) o reproducir clips ajenos sin valor añadido (en noticias)?
-- [ ] **Fact-Checking Completado:** ¿Las afirmaciones sustanciales están verificadas en `_framework/plantillas/registro-verificacion-fuentes-template.md`?
+- [ ] **Fact-Checking Completado:** ¿Las afirmaciones sustanciales están verificadas con DOI en `06-fuentes-y-verificacion.md`? *(Obligatorio en Régimen 3 YMYL; no aplica en Régimen 1 Ficción)*.
+- [ ] **Linter de Léxico Prohibido y Matización Científica (YMYL):**
+  - ¿Se eliminaron términos absolutos como *"este estudio demuestra"*, *"cura milagrosa"*, *"el secreto oculto"*?
+  - ¿Si el estudio fue en modelos animales (ratones/in vitro), se explicita claramente en la locución que no es concluyente en humanos?
+  - ¿Se incluye el disclaimer legal correspondiente en la descripción del video?
 - [ ] **Declaración de Contenido Sintético / IA (YouTube Policy):**
   - [ ] **No requiere declaración:** Animación/estilo ficticio, clonación de la propia voz del creador, voz sintética estándar de biblioteca que no imita a terceros, o gráficos abstractos.
   - [ ] **Sí requiere declaración obligatoria en Studio:** Muestra personas reales diciendo/haciendo cosas ficticias, voz que imita a una persona real, escenas/eventos fotorrealistas que parecen reales pero no ocurrieron, o música IA fotorrealista.

@@ -61,6 +61,7 @@ youtube/
 ├── _framework/                        # El núcleo metodológico de la oficina
 │   ├── reglas-sistema.md              # Reglas operativas para agentes (5 opciones + manual vs auto)
 │   ├── ciclo-produccion.md            # Ciclo macro y blueprint del flujo automatizado de 6 pasos
+│   ├── contingencia-y-politicas-sensibles.md # Regímenes de veracidad, léxico prohibido YMYL y plan de apelación
 │   ├── estrategia-idiomas.md          # Ranking y mercados prioritarios (Español, Inglés, Hindi)
 │   ├── herramientas-y-apis.md         # Directorio de ArtCraft (FilmCraft/EffectCraft/SoundCraft), MCPs y APIs de stock
 │   ├── roles/
