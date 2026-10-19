@@ -157,9 +157,9 @@ Las herramientas de la oficina están catalogadas en `_framework/herramientas-y-
 
 ### 1. Cuándo invocar cada herramienta (Mapeo por Fase):
 - **Investigación e Ideación:** Consultar YouTube Studio (pestañas Research y Audience), VidIQ (competencia y outliers), Google Trends y Books Ngrams.
-- **Packaging:** Diseñar variantes de títulos y miniaturas; sugerir **Thumblytics** para simulación previa de feed; inspirarse en **AdForum** para ganchos publicitarios de alto impacto; usar **Google AI Studio** para refinamiento multimodal de prompts.
-- **Fact-Checking:** Consultar **Google Scholar & Labs** para abstracts y DOIs de papers primarios.
-- **Storyboard y Animatic:** Usar **Google Docs Video Scene Editor** o plantillas internas; generar locución provisional con **ElevenLabs (tier gratuito)**, **Luvvoice (Free tier / MCP oficial: `luvvoice.com/es/mcp`)** o TTS de sistema.
+- **Packaging:** Diseñar variantes de títulos y miniaturas; sugerir **Thumblytics** para simulación previa de feed; inspirarse en **AdForum** para ganchos publicitarios de alto impacto; usar **Google AI Studio** para refinamiento multimodal de prompts, contraste visual de miniaturas frente al feed y lectura profunda de papers científicos de hasta 2M de tokens.
+- **Fact-Checking:** Consultar **Google Scholar & Labs** para abstracts y DOIs de papers primarios (apoyándose en **Google AI Studio** para ingesta completa de PDFs con paywall o metodología densa).
+- **Storyboard, Animatic y Locución:** Usar **Google Docs Video Scene Editor** o plantillas internas; generar locución provisional o definitiva con **Google AI Studio Generate Speech (`aistudio.google.com/generate-speech?model=gemini-3.8-flash-tts`)**, **ElevenLabs (tier gratuito)**, **Luvvoice (Free tier / MCP oficial: `luvvoice.com/es/mcp`)** o TTS de sistema.
 - **Montaje y Edición:** Priorizar **FilmCraft** por su arquitectura abierta nativa para CLI y protocolo de control con agentes (MCP). El resultado del video piloto determinará si es viable en el entorno local o si se requiere asistencia manual en editores de escritorio.
 - **Video Cinemático e Imágenes IA:** Usar **Google Flow (`flow.google.com`)** para generar tomas sintéticas de alta calidad o B-roll conceptual cuando no exista en stock libre.
 - **Música, Jingles y Branding Sonoro:** Usar **Google Flow Music (`flowmusic.app`)** para crear la firma sonora oficial del canal, jingles de cabecera o canciones completas estructuradas; o la **YouTube Audio Library** para pistas de fondo libres de reclamos.
