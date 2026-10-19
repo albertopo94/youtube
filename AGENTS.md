@@ -102,6 +102,10 @@ Todo tema y propuesta de packaging debe fundamentarse en los principios de *Brea
      4. Pedir al creador que explore la **barra lateral de recomendaciones (*Up Next*)** del video outlier para ramificar hacia nuevos creadores.
      5. Gestionar el retroceso (*backtracking*) cuando una rama se agota para pasar al siguiente término de la pila.
 
+6. **Evidencia Negativa y el Canal como Campaña Única:**
+   - *Anti-sesgo de positividad:* Al evaluar un formato exitoso, el agente debe investigar también los videos que fracasaron con ese formato para identificar las reglas de ejecución y trampas a evitar.
+   - *Campaña única:* Prohibido proponer videos virales fuera de temática (*off-topic hits*); un éxito que atrae a la audiencia equivocada destruye la retención de los videos posteriores. El canal debe fidelizar a un mismo perfil recurrente.
+
 ---
 
 ## 🎯 05. Criterios de Salida Verificables (Definition of Done) por Fase
@@ -109,11 +113,13 @@ Todo tema y propuesta de packaging debe fundamentarse en los principios de *Brea
 Para que una fase se considere `APROBADO`, debe existir evidencia física demostrable:
 
 - **Fase Packaging:** Existen 5 títulos candidatos y 3 conceptos de miniatura bien diferenciados con bocetos/prompts en `01-packaging.md`. Título y enfoque elegidos por el creador.
-- **Fase Guion:** Existe el documento `02-guion.md` con estructura atómica por bloques `[Bxx]`, fórmula de intro en 3 pasos (reafirmar promesa en segundos 0-5, *Unfair Edge Statement* de autoridad y roadmap de compromiso mental), aportación editorial justificada, fuentes primarias registradas en `06-fuentes-y-verificacion.md`, y **CTA diseñado como el 'Siguiente Paso Más Útil' adaptable al arquetipo y etapa**:
-  - En canales de entretenimiento, ficción, relax o canales en Etapa 1 (fase de tracción inicial sin negocio montado), **queda terminantemente prohibido forzar embudos de venta, lead magnets o newsletters**. El único CTA obligatorio es el **bucle de retención hacia el siguiente video complementario del canal** para alimentar el algoritmo de YouTube.
-  - Solo en canales maduros de negocio o servicios se estructuran recursos descargables (*The Give*) o herramientas desatascadoras bajo el filtro del experto imparcial. Prohibido en cualquier caso el pitch comercial desconectado.
+- **Fase Guion:** Existe el documento `02-guion.md` con:
+  - Estructura atómica por bloques `[Bxx]` con el **grado de guionado adecuado** (*palabra por palabra* para voz en off/IA; *estructura nítida con viñetas* para screencasts, código o expertos a cámara).
+  - Fórmula de intro en 3 pasos (reafirmar promesa en segundos 0-5, *Unfair Edge Statement* de autoridad y roadmap de compromiso mental).
+  - Aportación editorial justificada y fuentes primarias registradas en `06-fuentes-y-verificacion.md`.
+  - **CTA diseñado como el 'Siguiente Paso Más Útil' adaptable al arquetipo y etapa:** En canales de relax, ficción o en Etapa 1 (tracción inicial sin negocio montado), el único CTA permitido es el **bucle de retención hacia el siguiente video complementario del canal**. Solo en canales de negocio maduros se estructuran recursos descargables (*The Give*) o herramientas desatascadoras bajo el filtro del experto imparcial.
 - **Fase Animatic:** Existe una locución provisional reproducible y un timeline/animatic de baja fidelidad donde el ritmo y el flujo narrativo fueron evaluados y aprobados.
-- **Fase Producción y Edición:** Existen los recursos generados/descargados, la tabla de `03-storyboard-y-edicion.md` vinculada 1:1 con los bloques de guion, respetando la coherencia de estilo con el empaque (*la edición elimina fricción, no rescata un video vacío*), y el video exportado ha superado los checks de sonido (*sound check*), ritmo (*flow check*) y estilo (*style check*).
+- **Fase Producción y Edición:** Existen los recursos generados/descargados, la tabla de `03-storyboard-y-edicion.md` vinculada 1:1 con los bloques de guion, respetando la **ley de anti-decoración** (*la edición elimina fricción, no rescata un video vacío; si un visual no aclara o demuestra, es solo movimiento y se elimina*), y el video exportado ha superado los checks de sonido (*sound check*), ritmo (*flow check*) y estilo (*style check*).
 - **Fase Auditoría Legal:** Todos los recursos cuentan con licencia verificada, términos archivados y textos de atribución en `04-registro-recursos.md`.
 
 ---

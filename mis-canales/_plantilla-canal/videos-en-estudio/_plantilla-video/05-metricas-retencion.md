@@ -50,3 +50,17 @@
 - **Puntos de retención máxima / picos:** ¿Qué sección generó re-visualizaciones o picos de atención?
 - **Sentimiento y Señales Cualitativas en Comentarios:** ¿Los espectadores expresan haber aprendido algo revelador o haberse sorprendido con el mecanismo presentado?
 - **Conclusión accionable para el siguiente video:**
+
+---
+
+## 5. Diagnóstico de Cuellos de Botella del Embudo (*Bottleneck Analysis*)
+
+> **"Every upload should make the next decision better. Diagnose where the drop-off happened so you can fix that and iterate."**
+
+- **Cadena del Embudo:** `Impresiones ➔ Vistas ➔ Clics en Descripción / Descargas (Leads) ➔ Clientes / Resultados`
+- **Diagnóstico del Punto de Fuga (*Drop-off*):**
+  - [ ] **Cuello de Botella en Tráfico / Packaging:** Pocas impresiones o CTR deficiente. *(La idea no tenía demanda amplia preexistente o el packaging no conectó con el dolor de la audiencia).*
+  - [ ] **Cuello de Botella en Retención / Contenido:** Hubo clics pero caída temprana de retención. *(La promesa no se reafirmó en la intro o el ritmo fue denso/aburrido).*
+  - [ ] **Cuello de Botella en Conversión / CTA:** Buenas visitas y retención completa, pero nadie tomó el siguiente paso. *(El CTA fue un pitch comercial agresivo, se sintió como un 'take' o el recurso ofrecido no era la extensión lógica e indispensable).*
+  - [ ] **Cuello de Botella en Página Externa / Embudo:** Hubo clics al enlace de la descripción, pero baja tasa de descarga/registro en la web de destino.
+- **Corrección para el Siguiente Video:** *(Qué cambio específico de packaging, estructura o CTA se implementará en la próxima subida).*

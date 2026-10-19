@@ -69,8 +69,12 @@ Toda secuencia sólida de video se apoya en 3 momentos clave que a su vez ayudan
 
 ## 4. Dominar las 3 C's of YouTube Visuals
 
-### 1. Content (El "What" visual del montaje)
-Todo elemento visual en pantalla debe tener un propósito justificado:
+### 1. Content (El "What" visual del montaje y el Filtro Anti-Decoración)
+
+> **"What most editing gurus call retention is just decoration. If a visual does not clarify, prove, or help the viewer follow the lesson, it's just movement and you don't need it."**  
+> *(Lo que la mayoría de 'gurús de edición' llaman retención es simple decoración. Si un elemento visual no aclara, no demuestra o no ayuda a seguir la lección, es solo movimiento innecesario: elimínalo).*
+
+Para audiencias sofisticadas, profesionales o de aprendizaje real, los memes hiperactivos, zooms aleatorios y subtítulos parpadeantes degradan la credibilidad del canal. Todo elemento visual en pantalla debe tener un propósito justificado:
 - **Metraje A-Roll:** Alguien hablando directamente a cámara (sujeto principal).
 - **Metraje B-Roll (Apoyo):** Complementa y muestra de qué se habla. 5 tipos principales de tomas:
   1. *Wide shots:* Establece la ubicación y ambienta la escena.
@@ -81,8 +85,8 @@ Todo elemento visual en pantalla debe tener un propósito justificado:
 - **Texto en pantalla:** Destacar un punto clave, aportar contexto o asistir transiciones.
 - **Grabaciones de pantalla:** Para seguir paso a paso explicaciones técnicas o tutoriales.
 - **Imágenes / Iconos:** Para ilustrar conceptos u objetos mencionados.
-- **Clips externos / Memes:** Para aportar contexto cultural, referencias o toques de humor.
-- **Motion Graphics:** Para graficar ideas complejas o datos abstractos.
+- **Clips externos / Memes:** Para aportar contexto cultural o toques sutiles de humor (usar con moderación).
+- **Motion Graphics y Gráficos:** Para graficar ideas complejas o datos abstractos. Debe **demostrar o clarificar**, jamás rellenar.
 
 ### 2. Clarity (Claridad y Punto Focal)
 - **Focal Point (Punto focal):** Debe ser evidente en cada frame a dónde debe mirar el espectador.

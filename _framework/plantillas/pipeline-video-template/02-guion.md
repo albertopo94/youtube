@@ -3,6 +3,7 @@
 - **Título aprobado:**
 - **Promesa de Trama (Plot Promise):**
 - **Formato / Género:** (Divulgación / Ensayo / Tutorial / Narrativa / Relax)
+- **Grado de Guionado:** `[ ] Palabra por palabra (Full Script para voz en off/IA)` / `[ ] Estructura nítida (Bullet points con espacio para pensar para screencasts/experto)`
 - **Duración total estimada:** (ej. 8 minutos)
 - **Estado de Locución:** `[ ] Borrador provisional (Scratch Track)` / `[ ] Definitiva aprobada`
 

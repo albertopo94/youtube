@@ -98,6 +98,17 @@ Para trabajar de forma modular y económica con agentes de IA y herramientas de 
   - Fluidez al oído (frases que en texto parecen buenas pero habladas suenan pedantes o trabadas).
 - Una vez validado y aprobado el ritmo con el *animatic*, recién se procede a renderizar la locución definitiva.
 
+### 3. Grados de Guionado según el Formato (Palabra por Palabra vs. Estructura Nítida)
+
+> **"A full script can make a strong expert worse on camera. You need to figure out which ideas require exact wording versus a sharp structure with room to think."**
+
+- **Grado A: Guion Completo Palabra por Palabra (*Full Script*):**
+  - *Cuándo usar:* Videos narrados con locución en off (TTS de ElevenLabs, documentales, historias, ensayos científicos densos).
+  - *Razón:* Cuando no hay un presentador humano improvisando, cada palabra cuenta para el ritmo, la retención y los bucles abiertos (*open loops*). La locución debe estar pulida al milímetro.
+- **Grado B: Estructura Nítida con Espacio para Pensar (*Sharp Structure / Bullet Points*):**
+  - *Cuándo usar:* Grabaciones de pantalla (screencasts de software/código), retos técnicos en vivo, o expertos hablando directamente a cámara.
+  - *Razón:* Forzar a un programador o experto a leer un guion palabra por palabra mientras interactúa con una pantalla arruina la naturalidad y lo vuelve rígido. Se define con precisión el objetivo de cada bloque `[Bxx]`, las cifras clave y el remate, pero se deja libertad para explicar con soltura la acción real.
+
 ---
 
 ## 6. Arquitectura de Conversión: El CTA como el "Siguiente Paso Más Útil"

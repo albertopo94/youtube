@@ -95,13 +95,23 @@ La gente puede desear intensamente un resultado (dormir mejor, tener energía, g
 
 > **"The goal of every video is viewer satisfaction, not retention or raw CTR. Those are noisy proxy metrics. You optimize for: did you blow away the expectation you set?"**
 
-### La Dinámica de Plataforma *Winner-Take-All* (El Ganador se Lleva Todo):
+### 1. La Dinámica de Plataforma *Winner-Take-All* (El Ganador se Lleva Todo):
 1. **El bucle de YouTube (*The Flywheel*):**
    - El packaging atrae al público objetivo correcto (no a curiosos que abandonan).
    - El video cumple y **supera ampliamente la expectativa** creada por el título y la miniatura.
    - Si la audiencia queda más satisfecha con tu video que con las opciones de la competencia, YouTube concluye: *"A esta audiencia le fascina este video; empujémoslo a más personas con este perfil exacto"*.
 2. **Dominio del Nicho:**
    - En YouTube, el video que gana en clics cualificados y en satisfacción se convierte en el video hegemónico del tema en el feed de inicio y en las búsquedas, absorbiendo la gran mayoría del tráfico.
+
+### 2. El Canal como una Campaña Global Única (Peligro del *Off-Topic Hit*)
+- **"Tu video con más visitas puede ser el menos valioso de tu canal."**
+- Un éxito viral sobre un tema tangencial o superficial atrae a miles de suscriptores que ignorarán los siguientes videos. Esto destruye la métrica de satisfacción inter-video y provoca que el algoritmo deje de empujar tus publicaciones posteriores.
+- **Principio:** Un canal de YouTube es **una sola campaña coherente orientada a un espectador ideal recurrente**, no una colección de videos aislados que compiten por audiencias distintas.
+
+### 3. El Peaje de la Especificidad (*The Specificity Trade-off*)
+- La especificidad siempre te cobra un peaje en alcance (*reach*): cuanto más técnico o específico sea el packaging, menos vistas brutas obtendrá.
+- **Debes pagar ese precio cuando hace que el cliente ideal se sienta profundamente comprendido.**
+- **Regla:** Diseñar el título y la miniatura tan amplios como sea posible (*Broad Desire*) **sin sacrificar jamás la resonancia con tu cliente objetivo central**. Si al ampliar el título diluyes la claridad para el espectador que realmente te importa, no hagas ese intercambio.
 
 ---
 
@@ -145,13 +155,15 @@ Son todas las ideas base posibles que pueden salir de un binomio `Topic + Format
 *(Se pueden usar combinaciones de ellos si el branding del canal y la narrativa del video lo permiten).*
 
 ### 4. Criterios de Eliminación: The Elimination Trials
-Antes de pasar una idea a guion, debe aprobar estos 6 filtros:
+Antes de pasar una idea a guion, debe aprobar estos 7 filtros:
 1. **Feasibility (Factibilidad):** *¿Es factible esta idea? ¿Es posible para nosotros ejecutarla con los recursos y herramientas actuales?*
 2. **New Audience Interest:** *¿Un nuevo espectador casual se mantendría interesado por este video?*
 3. **Existing Audience Interest:** *¿Esta idea será interesante para al menos el 80% de mi audiencia actual o target?*
 4. **View Potential:** *¿Tiene el potencial real de alcanzar el objetivo de visualizaciones del canal?*
-5. **Alineación con el Branding:** *¿Esta idea encaja con la marca, tono, misión y visión del canal? (En un canal nuevo no limita tanto, pero no debe desvirtuar el concepto).*
+5. **Alineación con el Branding / Campaña Única:** *¿Esta idea atrae exactamente al mismo cliente ideal de los demás videos del canal, o es un 'off-topic hit' que diluirá la audiencia?*
 6. **Packageability (Adaptabilidad de packaging):** *¿Puedes idear un título contundente y una miniatura atractiva e irresistible para esta idea? Si no tiene buen packaging, la idea no avanza.*
+7. **Auditoría de Evidencia Negativa (Anti-Sesgo de Positividad):** *¿Hemos analizado los videos que usaron este mismo formato y fracasaron?*  
+   *(La evidencia positiva demuestra que la idea puede funcionar; la evidencia negativa enseña los errores de ejecución que debemos evitar, ej. ritmo, cantidad de puntos o profundidad).*
 
 ---
 
