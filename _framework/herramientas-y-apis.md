@@ -47,7 +47,7 @@ Catálogo técnico de plataformas, software y APIs de la oficina de YouTube.
 | **Google Flow Music** | `01 / 04 / 05` | Creación de canciones de estudio completas, jingles de branding, remixing de instrumentos y diseño sonoro | 🟢 DISPONIBLE / DOC. | Web: [flowmusic.app](https://www.flowmusic.app/). Generación musical con letra, voces cantadas y vibe-coding. | Permite crear la firma sonora oficial del canal (intro/outro) y pistas con cambios dinámicos de energía según el guion. |
 | **YouTube Audio Library** | `05` | Música y efectos sonoros libres de Content ID | 🟢 PROBADA EN ENTORNO | Descarga de pistas seguras directamente desde Studio. | 100% segura contra reclamos en YouTube. Cuidar atribución si aplica. |
 | **AudioCraft (Meta)** | `05` | Generación musical por IA de Meta | ⛔ RESTRICCIÓN LEGAL | Identificación de modelos MusicGen/AudioGen. | **Pesos oficiales bajo licencia CC-BY-NC (No Comercial). Incompatible con monetización.** |
-| **YouTube Data API v3** | `07` | Subida y publicación desatendida | 🔵 VISIÓN FUTURA | Lectura de especificaciones de Google Cloud. | Subidas de apps no auditadas quedan privadas. No automatizar en fase piloto. |
+| **YouTube Data API v3** | `07` | Subida y gestión de videos por API (`videos.insert`) | 🟡 DISPONIBLE / DOC. | Documentación oficial de Google Developers. | La documentación oficial permite visibilidad pública en proyectos estándar. Sin embargo, no dispone de API para 'Prueba y Compara' A/B nativo. En fase piloto se prioriza carga manual en Studio. |
 
 ---
 

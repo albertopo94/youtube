@@ -15,7 +15,7 @@
 
 ## Flujo Automatizado Objetivo (Visión Futura y Realidad Operativa)
 
-> **Nota de ingeniería:** El siguiente flujo define la arquitectura objetivo hacia la que evoluciona la oficina. En la actualidad, debido a restricciones de la YouTube Data API (las subidas de proyectos no verificados quedan forzadas como privadas y no existe API pública para el A/B testing nativo), los pasos 3 y 4 se ejecutan con asistencia de los agentes pero con **carga y publicación manual por el creador en YouTube Studio**.
+> **Nota de ingeniería:** El siguiente flujo define la arquitectura objetivo hacia la que evoluciona la oficina. Si bien la API de YouTube (`videos.insert`) permite subidas programáticas, no ofrece endpoints para la herramienta nativa "Prueba y Compara" de títulos y miniaturas. Por prudencia operativa y control de calidad, durante la fase piloto los pasos 3 y 4 se ejecutan con **asistencia del agente pero con carga y configuración manual por el creador en YouTube Studio**.
 
 1. **Generación de ideas:** Asistida por agentes mediante análisis de outliers y Google Trends.
 2. **Producción de títulos y miniaturas (Packaging First):** El agente produce variantes de títulos y prompts/bocetos de 3 miniaturas.

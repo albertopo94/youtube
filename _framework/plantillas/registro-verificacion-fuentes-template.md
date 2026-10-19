@@ -1,16 +1,29 @@
-# Plantilla: Registro de Verificación de Fuentes y Fact-Checking
+# Plantilla: Registro de Fuentes Primarias y Fact-Checking
 
 Utilizar este registro en todo video que involucre afirmaciones factuales, papers científicos, datos históricos, noticias o explicaciones técnicas para blindar la credibilidad del canal y evitar desinformación o distorsión.
 
 ---
 
-## Tabla de Verificación de Afirmaciones (Fact-Checking)
+## 🔬 Parte 1: Investigación Previa (Antes de Redactar el Guion)
 
-| # | Afirmación en el Guion | Fuente Primaria (Paper DOI, Libro, Estudio) | Fecha Consulta | Segunda Fuente Independiente (si aplica) | Estado de Verificación | Notas / Matices del Estudio |
-| :-: | :--- | :--- | :-: | :--- | :---: | :--- |
-| **01** | *"El cerebro reduce un X% su actividad durante..."* | DOI: 10.1038/... (Nature Neuroscience, 2024) | 18/10/2026 | DOI: 10.1016/... (The Lancet) | `Verificado` | El estudio fue en ratones; matizar en el guion que no es concluyente en humanos. |
-| **02** | *"Esta civilización descubrió..."* | Fuente histórica primaria / Paper arqueológico | 18/10/2026 | Enciclopedia de Historia Antigua | `Verificado` | Evitar generalizaciones absolutas; señalar consenso mayoritario. |
-| **...** | ... | ... | ... | ... | ... | ... |
+- **Tema / Paper Central:** `[Título del estudio, libro o hecho a investigar]`
+- **Fuentes de Partida Identificadas:**
+  1. `[Enlace / DOI de fuente primaria 1]`
+  2. `[Enlace / DOI de fuente primaria 2]`
+- **Hechos Comprobados de Base:** *(Datos y conclusiones consensuadas que sustentan la idea)*:
+- **Límites de la Evidencia y Advertencias:** *(Qué aspectos aún están en debate o no deben afirmarse como dogmas absolutos)*:
+
+---
+
+## 📋 Parte 2: Verificación del Borrador del Guion (Antes de la Aprobación Definitiva)
+
+> **Regla de integridad:** El agente no puede marcar ninguna afirmación como `VERIFICADO` sin haber consultado directamente la fuente primaria, registrando el DOI, enlace o cita bibliográfica y la fecha de consulta.
+
+| Bloque Guion | Afirmación Específica en el Guion | Fuente Primaria (DOI / Libro / Archivo) | Fecha de Consulta | Segunda Fuente Independiente (si riesgo alto) | Estado (`VERIFICADO` / `EN_DEBATE` / `DESCARTADO`) | Matices y Advertencias (Evitar Sobresimplificación) |
+| :---: | :--- | :--- | :---: | :--- | :---: | :--- |
+| `[B01_Hook]` | *"[Afirmación redactada en el gancho]"* | `[Insertar DOI o URL real]` | `DD/MM/AAAA` | `[Segunda fuente si aplica]` | `PENDIENTE` | *(Aclarar si fue en animales, muestra pequeña, etc.)* |
+| `[B04_Desarrollo]` | *"[Afirmación redactada en el desarrollo]"* | `[Insertar DOI o URL real]` | `DD/MM/AAAA` | N/A | `PENDIENTE` | *(Consenso científico o matiz de los autores)* |
+| `...` | ... | ... | ... | ... | ... | ... |
 
 ---
 

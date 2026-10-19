@@ -1,6 +1,6 @@
 # 06 - Verificación de Fuentes y Fact-Checking de este Video
 
-> **Regla de integridad:** El agente no puede marcar ninguna afirmación como `Verificado` sin haber consultado directamente la fuente primaria, registrando el DOI, enlace o cita bibliográfica y la fecha de consulta. Consultar directivas en `_framework/contingencia-y-politicas-sensibles.md`.
+> **Regla de integridad:** El agente no puede marcar ninguna afirmación como `VERIFICADO` sin haber consultado directamente la fuente primaria, registrando el DOI, enlace o cita bibliográfica y la fecha de consulta. Consultar directivas en `_framework/contingencia-y-politicas-sensibles.md`.
 > 
 > *Nota de aplicabilidad:* Si el video pertenece a **Régimen 1 (Ficción, Fantasía, Cuentos para dormir o Relatos)**, marcar este documento como `N/A - Régimen de Ficción` y continuar directamente con el guion.
 
@@ -10,17 +10,27 @@
 
 ---
 
-## 1. Tabla de Verificación de Afirmaciones Factuales
+## 🔬 Parte 1: Investigación Previa (Antes de Redactar el Guion)
 
-| Bloque Guion | Afirmación en el Guion | Fuente Primaria (DOI de Paper, Libro, Archivo) | Fecha de Consulta | Segunda Fuente Independiente (obligatoria si riesgo medio/alto) | Estado (`Verificado` / `En debate` / `Descartado`) | Matices y Advertencias (Evitar Sobresimplificación) |
+- **Fuentes de Partida Identificadas:**
+  1. `[Enlace / DOI de fuente primaria 1]`
+  2. `[Enlace / DOI de fuente primaria 2]`
+- **Hechos Comprobados de Base:** *(Datos y conclusiones consensuadas que sustentan la idea)*:
+- **Límites de la Evidencia:** *(Qué aspectos no deben presentarse como hechos concluyentes)*:
+
+---
+
+## 📋 Parte 2: Verificación del Borrador del Guion (Antes de la Aprobación Definitiva)
+
+| Bloque Guion | Afirmación Específica en el Guion | Fuente Primaria (DOI de Paper, Libro, Archivo) | Fecha de Consulta | Segunda Fuente Independiente (obligatoria si riesgo medio/alto) | Estado (`VERIFICADO` / `EN_DEBATE` / `DESCARTADO`) | Matices y Advertencias (Evitar Sobresimplificación) |
 | :---: | :--- | :--- | :---: | :--- | :---: | :--- |
-| `[B01_Hook]` | *"..."* | DOI / Enlace | `DD/MM/AAAA` | DOI / Enlace | `Verificado` | *(Aclarar si fue en animales, muestra pequeña, etc.)* |
-| `[B04_Desarrollo]` | *"..."* | DOI / Enlace | `DD/MM/AAAA` | N/A | `Verificado` | Consenso científico general. |
+| `[B01_Hook]` | *"[Texto literal del guion]"* | `[Insertar DOI o URL real]` | `DD/MM/AAAA` | `[Segunda fuente]` | `PENDIENTE` | *(Aclarar si fue en animales, muestra pequeña, etc.)* |
+| `[B04_Desarrollo]` | *"[Texto literal del guion]"* | `[Insertar DOI o URL real]` | `DD/MM/AAAA` | N/A | `PENDIENTE` | *(Matiz metodológico de los autores)* |
 | `...` | ... | ... | ... | ... | ... | ... |
 
 ---
 
-## 2. Checkpoints de Rigor para Afirmaciones de Alto Riesgo
+## Checkpoints de Rigor para Afirmaciones de Alto Riesgo
 - [ ] **Sin correlación falsa:** ¿El guion distingue estrictamente entre correlación y causalidad demostrada?
 - [ ] **Sin afirmaciones absolutas en temas en debate:** Si la comunidad científica o histórica está dividida, ¿el guion explicita que se trata de una teoría o hipótesis?
 - [ ] **Revisión Humana Obligatoria:** Puntos numéricos críticos o conclusiones controversiales validados por el creador.

@@ -1,26 +1,34 @@
-# Políticas Sensibles (YMYL), Regímenes de Veracidad y Plan de Contingencia
+# Políticas Sensibles (YMYL), Seguridad Editorial y Plan de Contingencia
 
-Este documento establece las barreras de seguridad editorial para evitar penalizaciones, huelgas (*strikes*) o cancelaciones de cuenta por políticas de **Desinformación, Prácticas Engañosas y Contenido Sensible en YouTube (YMYL: *Your Money or Your Life*)**, así como los protocolos de respuesta y apelación ante incidencias.
-
----
-
-## 🚦 1. Los 3 Regímenes de Veracidad por Temática
-
-Cada canal y video debe clasificarse bajo uno de los tres regímenes en `00-estado-produccion.md`:
-
-| Régimen | Temáticas Típicas | Tolerancia a la Ficción / Hipérbole | Riesgo de Penalización | Requisito Operativo del Agente |
-| :--- | :--- | :---: | :---: | :--- |
-| **Régimen 1: Ficción, Fantasía y Relax** | Cuentos para dormir, animación, parodias, historias de lore, relatos de misterio. | **Máxima** (Se asume la narrativa artística). | **Cero por veracidad** (cuidar solo copyright). | Redacción creativa libre. No requiere tabla de fact-checking `06`. Dejar claro en el packaging el carácter de relato o ficción. |
-| **Régimen 2: Divulgación Factual / Hobby** | Resúmenes de libros, coctelería, historia, tecnología general, motos, viajes. | **Moderada** | **Bajo** | Citar fuentes generales y no presentar conjeturas o debates abiertos como dogmas históricos absolutos. |
-| **Régimen 3: Zona Roja YMYL (Ciencia, Salud, Dinero, Noticias)** | Papers de neurociencia/sueño, salud física y mental, nutrición, finanzas, noticias de actualidad. | **TOLERANCIA CERO** | **EXTREMO** (Retiro de video, strikes de normas y cierre de canal). | **Carga de la prueba obligatoria.** Prohibido escribir una afirmación en el guion sin su DOI o paper verificado en `06-fuentes-y-verificacion.md`. Linter de léxico prohibido estricto. |
+Este documento establece las barreras de seguridad editorial para prevenir penalizaciones, reclamaciones de derechos y desmonetización en YouTube, así como los protocolos de contingencia y apelación ante incidencias.
 
 ---
 
-## 🚫 2. Linter de Léxico Prohibido vs. Redacción Blindada (Zona Roja YMYL)
+## 🏷️ Clasificación de Reglas y Directivas
+Para evitar confusiones entre políticas obligatorias de la plataforma y tácticas de creadores, cada directiva cuenta con una etiqueta de procedencia:
+- 🔵 **`[Política Oficial YouTube]`**: Norma formal documentada en los Términos de Servicio, Normas de la Comunidad o políticas del Programa de Socios de YouTube (YPP).
+- 🟢 **`[Práctica Editorial]`**: Estándar interno de calidad, rigor y diseño de nuestra oficina.
+- 🟡 **`[Hipótesis Experimental]`**: Táctica empírica observada en creadores externos, sujeta a prueba y nunca tratada como ley infalible.
 
-YouTube utiliza clasificadores automáticos de lenguaje natural (NLP) para detectar desinformación médica y financiera. El agente tiene prohibido emplear términos absolutos o sensacionalistas:
+---
 
-| ❌ Término / Estructura Prohibida (Alarma en YouTube) |  Redacción Blindada (Científica y Aprobada) |
+## 🚦 1. Los 3 Regímenes de Veracidad por Temática `[Práctica Editorial]`
+
+Cada canal y video se clasifica bajo uno de los tres regímenes en `00-estado-produccion.md`:
+
+| Régimen | Temáticas Típicas | Tolerancia a la Ficción / Hipérbole | Enfoque de Seguridad Editorial | Requisito Operativo del Agente |
+| :--- | :--- | :---: | :--- | :--- |
+| **Régimen 1: Ficción, Fantasía y Relax** | Cuentos para dormir, animación, parodias, historias de lore, relatos de misterio. | **Máxima** (Se asume la narrativa artística). | Proteger derechos de autor y marcas registradas. | Redacción creativa libre. No requiere tabla de fact-checking `06`. Dejar claro en el packaging el carácter de relato o ficción. |
+| **Régimen 2: Divulgación Factual / Hobby** | Resúmenes de libros, coctelería, historia, tecnología general, motos, viajes. | **Moderada** | Citar fuentes y evitar presentar hipótesis como hechos probados. | Citar fuentes generales y no presentar conjeturas o debates abiertos como dogmas históricos absolutos. |
+| **Régimen 3: Zona Roja YMYL (Ciencia, Salud, Dinero, Noticias)** | Papers de neurociencia/sueño, salud física y mental, nutrición, finanzas, noticias de actualidad. | **TOLERANCIA CERO** | **Riesgo crítico de retiro y strikes de desinformación.** | **Carga de la prueba obligatoria.** Prohibido escribir una afirmación en el guion sin su DOI o paper verificado en `06-fuentes-y-verificacion.md`. Linter de léxico prohibido estricto. |
+
+---
+
+## 🚫 2. Linter de Léxico Prohibido vs. Redacción Blindada (YMYL) `[Práctica Editorial]`
+
+YouTube utiliza clasificadores automáticos de lenguaje natural (NLP) para detectar desinformación médica y financiera `[Política Oficial YouTube]`. El agente debe evitar términos absolutos o sensacionalistas:
+
+| ❌ Término / Estructura a Evitar |  Redacción Blindada (Científica y Aprobada) |
 | :--- | :--- |
 | *"Este estudio demuestra que..."* | *"Los investigadores observaron una correlación preliminar en..."* |
 | *"Cura milagrosa / Solución definitiva / Elimina para siempre..."* | *"Un mecanismo biológico que ayuda al organismo a regular..."* |
@@ -28,16 +36,47 @@ YouTube utiliza clasificadores automáticos de lenguaje natural (NLP) para detec
 | *"Si no haces esto vas a enfermar de [Enfermedad grave]..."* | *"Los datos epidemiológicos asocian este hábito con un menor riesgo relativo de..."* |
 | *"Garantiza un rendimiento financiero del X% sin riesgo..."* | *"Casos de estudio históricos donde este método arrojó..."* |
 
-### Regla de Oro: "Modelos Animales vs. Ensayos en Humanos"
-- **Peligro:** El 80% de los canales sancionados en salud toman un estudio realizado en **ratones o cultivos celulares (*in vitro*)** y lo titulan como si fuera una cura demostrada en personas.
-- **Obligación:** Si el paper citado en `06-fuentes-y-verificacion.md` fue realizado en roedores o modelos celulares, el guion **debe matizar explícitamente**:
-  > *"Es importante aclarar que este mecanismo fue observado en modelos animales y los científicos aún investigan cómo se traslada a la fisiología humana."*
+### Matización Obligatoria: Modelos Animales vs. Ensayos en Humanos `[Práctica Editorial]`
+- **Principio de rigor:** Si el paper citado en `06-fuentes-y-verificacion.md` fue realizado en roedores o cultivos celulares (*in vitro*), el guion **debe matizar explícitamente en la locución**:
+  > *"Es importante aclarar que este mecanismo fue observado en modelos preliminares de laboratorio y los científicos aún investigan cómo se traslada a la fisiología humana."*
 
 ---
 
-## ⚖️ 3. Cláusulas de Exención de Responsabilidad (*Disclaimers* Legales)
+## ⚖️ 3. Distinción Jurídica Crítica: Copyright vs. Permiso vs. Monetización `[Política Oficial YouTube]`
 
-Para todo video en **Régimen 3 (YMYL)**, se debe incluir obligatoriamente en la descripción y de forma sutil en pantalla:
+Es indispensable no confundir tres planos completamente distintos al trabajar con metraje o referencias de terceros:
+
+1. **Derechos de Autor Legales (Copyright / DMCA):**  
+   - Dar crédito al autor (`@NombreDelCanal`) en el título o descripción **NO otorga derechos legales de uso** ni protege contra reclamaciones de copyright.
+   - Solo se puede usar material de terceros si: se cuenta con una licencia explícita, está en dominio público / Creative Commons compatible, o ampara una excepción legal tasada y verificada.
+2. **Permiso del Creador Original:**  
+   - Contar con la autorización expresa del creador original previene demandas de copyright, pero **NO garantiza la monetización en YouTube**.
+3. **Política de Contenido Reutilizado de YouTube (YPP):**  
+   - YouTube evalúa si el canal aporta un valor educativo, analítico, crítico o de entretenimiento sustancial propio. 
+   - **YouTube puede denegar la monetización por contenido reutilizado aunque el creador original te haya dado permiso por escrito**, si considera que tu video es una simple redistribución de material existente sin transformación significativa.
+
+---
+
+## 🛡️ 4. Política de Monetización: Aportación Editorial vs. Contenido Inauténtico `[Política Oficial YouTube]`
+
+> **La realidad oficial de YouTube:** YouTube **no sanciona ni desmonetiza por el hecho de utilizar herramientas de inteligencia artificial**. Lo que sanciona la política de **Contenido Inauténtico / Reutilizado** es la falta de aportación humana genuina.
+
+### Lo que YouTube SÍ desmonetiza:
+1. **Variación mínima entre subidas:** Videos creados con plantillas automatizadas donde solo cambia una palabra o una imagen sin narrativa propia.
+2. **Generación masiva desatendida (*AI Slop*):** Canales que publican decenas de videos diarios sin curaduría, sin dirección de arte y con narrativas incoherentes.
+
+### Criterio de Transformación Editorial Sustancial:
+- **No existen porcentajes mágicos:** Reemplazar un porcentaje arbitrario de planos (ej. 30% o 50%) por imágenes de IA **no garantiza en absoluto la monetización**.
+- Para que un video califique a monetización cuando analiza o comenta material de terceros, debe demostrar:
+  1. Guion y locución con un análisis crítico, explicativo o narrativo propio.
+  2. Selección y montaje justificado con diseño sonoro original.
+  3. Aportación de valor que haga que el espectador aprenda o experimente algo nuevo que no obtendría simplemente viendo el video original.
+
+---
+
+## ⚖️ 5. Cláusulas de Exención de Responsabilidad (*Disclaimers* Legales) `[Práctica Editorial]`
+
+Para todo video en **Régimen 3 (YMYL)**, se debe incluir en la descripción y sutilmente en pantalla:
 
 ### Disclaimer de Salud / Divulgación Científica:
 ```text
@@ -51,9 +90,9 @@ Aviso legal: El contenido de este video es puramente educativo y analítico. No 
 
 ---
 
-## 🛑 4. Plan de Contingencia ante Reclamaciones y Sanciones de YouTube
+## 🛑 6. Plan de Contingencia ante Reclamaciones y Sanciones `[Práctica Editorial]`
 
-Si un video publicado recibe una notificación o sanción en YouTube Studio, el creador y los agentes deben seguir este árbol de decisión:
+Si un video publicado recibe una notificación o sanción en YouTube Studio:
 
 ```text
                                 ¿Qué tipo de notificación se recibió?
@@ -70,76 +109,29 @@ Si un video publicado recibe una notificación o sanción en YouTube Studio, el 
       [SÍ]              [NO]                                         [SÍ]                    [NO]
   Impugnar con      Reemplazar audio                             Usar Editor Web         Evaluar Apelación
   licencia en       en Studio Editor                             de YouTube Studio       Formal con DOIs
-  `04-registro`     (sin borrar video)                           (Recortar segmento)     (Menos de 800 chars)
+  `04-registro`     (sin borrar video)                           (Recortar segmento)     (Concisa con fuentes)
 ```
 
----
-
 ### Paso A: Remediación No Destructiva (Editor Web de YouTube Studio)
-- **REGLA SUPREMA:** **NUNCA borrar un video sancionado si la falta se debe a un fragmento o pista puntual.** Borrar el video destruye el historial de visualizaciones, comentarios y tiempo de reproducción acumulado.
-- YouTube Studio cuenta con un **Editor Web integrado**:
-  - Si un fragmento de 15 segundos infringe normas o contiene una afirmación conflictiva: se utiliza la herramienta **Recortar (*Trim*)** para extirpar ese segmento exacto directamente en los servidores de YouTube. El video se mantiene online con la misma URL.
-  - Si una canción tiene reclamo: se utiliza la opción **Reemplazar canción** o **Silenciar audio** en Studio.
+- **REGLA DE PRECAUCIÓN:** **Evitar borrar un video sancionado si la falta se debe a un fragmento puntual.** Borrar el video destruye el historial de visualizaciones, comentarios y tiempo de reproducción acumulado.
+- Utilizar la herramienta **Recortar (*Trim*)** o **Reemplazar canción** del Editor Web de YouTube Studio para eliminar el segmento infractor directamente en la nube conservando la URL.
 
----
+### Paso B: Protocolo y Plantilla de Apelación Formal (Revisión Humana)
+Si un video en Régimen 3 fue marcado erróneamente por los filtros automáticos y se cuenta con las fuentes primarias en `06-fuentes-y-verificacion.md`:
+- Redactar una apelación **concisa y fáctica** (la interfaz de Studio suele recomendar textos breves y directos, idealmente de menos de 800-1000 caracteres):
 
-### Paso B: Protocolo y Prompt de Apelación Formal (Revisión Humana)
-Si YouTube marca un video por supuesta "desinformación" debido a un falso positivo de sus bots algorítmicos, y el video está respaldado por los DOIs de `06-fuentes-y-verificacion.md`:
-
-> **Límite de YouTube:** Las apelaciones en Studio tienen un límite estricto de **800 caracteres**. No escribir ensayos; presentar datos duros y fuentes primarias.
-
-#### Prompt / Plantilla de Apelación Formal:
 ```text
 Estimado equipo de revisión de YouTube:
 
 Solicito la revisión humana de la decisión tomada sobre este video. 
-El contenido no infringe las políticas de desinformación ni salud; se trata de divulgación científica rigurosa sustentada en literatura académica primaria con revisión por pares:
+El contenido no infringe las políticas de desinformación ni salud; se trata de divulgación científica respaldada en literatura académica primaria con revisión por pares:
 
-1. Afirmación del minuto [XX:XX]: Respaldada por el estudio publicado en [Nombre de la revista, ej. Nature Neuroscience] (DOI: [Insertar DOI]).
-2. En el minuto [YY:YY] se incluye explícitamente la matización de que los resultados corresponden a modelos preliminares y se incorpora la advertencia legal médica correspondiente.
+1. Afirmación del minuto [XX:XX]: Respaldada por el estudio publicado en [Nombre de la revista] (DOI: [Insertar DOI real]).
+2. En el minuto [YY:YY] se incluye explícitamente la advertencia legal médica y la aclaración sobre el alcance de los resultados.
 
-El video aporta contexto educativo y no desincentiva tratamientos ni promueve prácticas perjudiciales. Agradezco la reevaluación del caso.
+El video aporta contexto educativo original y no promueve prácticas perjudiciales ni disuade de atención médica. Agradezco la reevaluación del caso.
 ```
 
----
-
-### Paso C: Protocolo de Re-Upload Anti-Shadowban (Para Shorts o Videos Estancados)
-
-Si un Short o video quedó atrapado con cero impresiones del feed (ej. menos de 200 visitas) debido a una colisión de cadencia con un video viral previo o una sospecha de infracción menor, y el creador decide eliminarlo para darle una segunda oportunidad:
-
-> ⚠️ **REGLA SUPREMA:** **Jamás re-subir el archivo idéntico.** El algoritmo de YouTube calcula el hash binario del archivo y la huella espectral de audio. Re-subir el mismo archivo activa los filtros de spam algorítmico y puede provocar un **shadowban** permanente en el canal.
-
-#### Pasos Obligatorios antes de un Re-Upload:
-1. **Modificación de la Pista de Audio:** Cambiar la canción de acompañamiento, alterar los efectos sonoros o re-ecualizar la mezcla.
-2. **Alteración Visual:** Recortar o cambiar al menos un fragmento o escena, ajustar sutilmente la velocidad (ej. 101%) o modificar el primer segundo del gancho.
-3. **Re-exportación Limpia:** Exportar un archivo nuevo con un nombre de archivo diferente desde el editor.
-4. **Metadatos Renovados:** Reescribir el título y la descripción con variaciones de palabras clave.
-5. **Comprobación de Cadencia:** No re-subir de inmediato. Verificar en YouTube Studio que las velas horarias del canal estén estables antes de publicar la versión corregida.
-
----
-
-## 🛡️ 5. Política de Monetización: "Contenido Habilitado por IA" vs. "Basura de IA" (*AI Slop*)
-
-> **La realidad oficial de YouTube:** YouTube **no sanciona ni desmonetiza por el hecho de utilizar herramientas de inteligencia artificial**. Al contrario, YouTube integra activamente herramientas generativas dentro de su propia plataforma (YouTube Create).
-
-### Lo que YouTube SÍ sanciona y desmonetiza (Contenido Inauténtico):
-1. **Variación mínima entre subidas:** Canales que utilizan un script automatizado para cambiar únicamente una palabra o una imagen secundaria sobre una plantilla idéntica cientos de veces.
-2. **Generación masiva desatendida (*AI Slop*):** Publicar decenas de videos diarios sin curaduría, sin dirección de arte humana y con narrativas incoherentes.
-
-### El Estándar de Nuestra Oficina: Contenido Habilitado por IA
-> **Definición operativa:**  
-> *"Contenido en el cual la inteligencia artificial actúa como una extensión de la visión creativa y artesanal humana, produciendo resultados visuales, pedagógicos o narrativos que no serían factibles o accesibles a través de medios físicos tradicionales."*
-
-- En nuestra oficina, cada video cuenta con:
-  - Estructuración de guion por bloques atómicos.
-  - Curaduría de imágenes de referencia para consistencia de iluminación y personajes.
-  - Montaje asistido con diseño sonoro (*audio ducking*, efectos de sonido sincronizados).
-  - Verificación de fuentes primarias y control de calidad humano (*Definition of Done*).
-- Esta intervención humana sustancial garantiza que el canal cumpla holgadamente con los requisitos del Programa de Socios de YouTube (YPP) y lo blinda frente a reclamos de contenido repetitivo.
-
-### Edición de Valor Añadido (*Value-Added Editing*) e Hibridación Progresiva con IA
-Si un formato se apoya en curaduría, reacciones técnicas o análisis de experimentos/metraje existente de terceros, debe aplicar **transformación sustancial obligatoria** para calificar a monetización:
-1. **Guion y Locución 100% Originales:** Prohibido utilizar el audio original. La narración debe tener una estructura propia (ej. Arco en Bucle), un nuevo gancho de bucle abierto y un análisis o narración exclusiva.
-2. **Re-montaje y Diseño Sonoro Integral:** La cadencia visual se altera por completo; se añaden efectos de sonido propios, música de fondo calibrada y subtítulos dinámicos.
-3. **Atribución Clara:** Mencionar y dar crédito al creador original en el título o descripción (`@NombreDelCanal`).
-4. **Hibridación Progresiva con IA (Regla del 30%-50%):** Sustituir una parte sustancial de las tomas (ej. entre un 30% y un 50% de las escenas) por gráficos, diagramas o metraje sintético generado con IA (ej. animaciones conceptuales en Google Flow o herramientas afines). Esto eleva la pieza a una obra derivada con alta aportación editorial que supera holgadamente las auditorías humanas de AdSense.
+### Paso C: Diagnóstico antes de Re-Subir Videos Estancados `[Práctica Editorial]`
+- Si un video no obtiene impresiones, **no asumir automáticamente un "shadowban"**. Diagnosticar primero el motivo real (metadatos, adecuación del packaging, retención en los primeros segundos o interés de la audiencia).
+- Si el creador decide retirar un video para republicarlo, se recomienda corregir y mejorar la edición, el título y los recursos visuales para ofrecer una pieza con valor renovado, evitando subir duplicados idénticos que confundan al algoritmo o a los suscriptores.

@@ -28,28 +28,31 @@
 
 ---
 
-## 3. Monitoreo de Velas Horarias en Tiempo Real (Cadencia para el Siguiente Upload)
+## 3. Monitoreo de Velas Horarias y Cadencia Editorial `[Práctica Editorial]`
 
-> **Regla de oro de cadencia (*Dejar respirar al video*):** YouTube no empuja dos videos simultáneos con fuerza en el feed de Shorts. Subir un nuevo video mientras el anterior vuela en su pico destruirá el nuevo y frenará el momentum.
+> **Aclaración oficial:** Según la documentación de YouTube, las visualizaciones no dependen del intervalo de tiempo entre publicaciones; la prioridad es la calidad y la sostenibilidad del ritmo de producción para el creador.
 
-- **Comportamiento de las Velas Horarias en Studio:**
-  - [ ] **Pico Viral en Ascenso / Fuerte:** (Las velas suben consecutivamente hora tras hora, ej. >500-10.000 vistas/hora).  
-    ➔ **ESTADO: EN ESPERA. PROHIBIDO PUBLICAR EL SIGUIENTE VIDEO.**
-  - [ ] **Aplanamiento Sostenido (*Flatline*) - Regla de las 12 Horas:** Se requieren **al menos 12 horas continuas de línea plana** en tiempo real antes de subir el siguiente Short (para evitar truncar impulsos tardíos de YouTube).  
-    *(En videos con picos virales masivos de >10.000 vistas/h, esperar a que el ritmo decaiga por debajo de 5.000 vistas/h durante al menos 24 horas antes del siguiente upload).*  
-    ➔ **ESTADO: VENTANA DESPEJADA. APROBADO PUBLICAR EL SIGUIENTE VIDEO.**
+- **Monitoreo Opcional de Velas Horarias en Studio:**
+  - [ ] **Pico activo en tiempo real:** (El creador puede optar por observar el comportamiento del pico antes de lanzar el siguiente video).
+  - [ ] **Ritmo estable o en meseta:** (Cadencia de producción normal según el calendario planificado).
 
 ---
 
-## 4. Estado de la Herramienta Nativa "Prueba y Compara" (Test & Compare)
-- [ ] **Prueba activa en YouTube Studio** (hasta 3 miniaturas / títulos)
-- **Variantes en prueba:**
+## 4. Estado de la Herramienta Nativa "Prueba y Compara" (Test & Compare) `[Política Oficial YouTube]`
+
+> **Condición de elegibilidad oficial:** La herramienta nativa "Prueba y Compara" de YouTube Studio **solo está disponible para videos largos estándar (Long-form)**. Actualmente **NO es compatible con YouTube Shorts**, transmisiones en vivo ni estrenos.
+
+- **Elegibilidad del formato:**
+  - [ ] **Video Largo (Long-form):** Elegible para prueba nativa en YouTube Studio (hasta 3 miniaturas).
+  - [ ] **YouTube Short / Directo:** No elegible para la herramienta nativa (se realiza seguimiento estándar de métricas).
+
+- **Si es Video Largo y la prueba está activa:**
   - Variante A: `[Descripción breve]`
   - Variante B: `[Descripción breve]`
   - Variante C: `[Descripción breve]`
-- **Duración de la prueba:** (del `DD/MM` al `DD/MM`)
-- **Ganador determinado por YouTube:** (por *Watch Time Share*) ➔ Variante [A / B / C]
-- *Nota importante:* No modificar títulos ni miniaturas manualmente mientras la prueba esté en curso para evitar reiniciar la recolección de datos.
+  - **Duración de la prueba:** (del `DD/MM` al `DD/MM`)
+  - **Ganador determinado por YouTube:** (por *Watch Time Share*) ➔ Variante [A / B / C]
+  - *Nota oficial:* No modificar títulos ni miniaturas manualmente mientras la prueba esté en curso para evitar reiniciar la recolección de datos.
 
 ---
 
