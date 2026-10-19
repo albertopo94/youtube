@@ -38,6 +38,10 @@ YouTube exige declarar en YouTube Studio cuando el contenido pueda confundirse c
 - **Matización Animales vs. Humanos:** Si el estudio citado fue en roedores o células in vitro, el guion **debe aclararlo expresamente en la locución**.
 - **Disclaimer Legal Obligatorio:** Incluir en la descripción del video la cláusula de exención de responsabilidad médica o financiera correspondiente.
 
+### Regla de Oro de Credibilidad Ética (Prohibido Inventar Credenciales)
+- ❌ **Prohibición absoluta:** El agente **tiene terminantemente prohibido inventar experiencias personales falsas, títulos académicos ficticios o credenciales inventadas** para simular autoridad (*"tras pasar 10 años en Wall Street..."* o *"luego de analizar personalmente 500 pacientes..."* si no es una realidad comprobable del creador).
+-  **Construcción de Autoridad Legítima:** Cuando el narrador no cuente con una biografía de autoridad personal directa, **la credibilidad se sostiene en fuentes primarias verificadas, citas transparentes, razonamiento lógico riguroso y demostraciones prácticas**. Un canal transmite máxima confianza con hechos y método, sin necesidad de inventar un personaje ficticio.
+
 ---
 
 ## 2. Estructura de Storytelling: Del Conflicto al Valor
@@ -79,6 +83,14 @@ La regla de validar la promesa en los primeros segundos es una guía de retenci�
 - **Formatos dinámicos / Desafíos / Tutoriales:** La promesa debe validarse en los primeros **5 a 10 segundos** tanto con audio como con video para evitar abandono inmediato.
 - **Ensayos científicos / Documentales / Divulgación profunda:** Requieren establecer una atmósfera o pregunta provocadora (*hook de misterio o tensión*) en los primeros 15 a 30 segundos antes de desplegar el argumento.
 - **Relatos / Contenido pausado (ej. relax o bedtime stories):** El tono y la inmersión sonora inicial son prioritarios sobre un corte apresurado.
+
+### Caja de Herramientas: 5 Técnicas Opcionales de Apertura
+El agente dispone de este repertorio de ganchos para elegir el que mejor encaje con la idea:
+1. **La Pregunta Imposible de Ignorar:** Genera una incógnita o tensión cognitiva directa (*"¿Qué pasaría si...?"*).
+2. **El Dato que Rompe Creencias:** Expone un hecho o estadística sorprendente que contradice el sentido común de la audiencia.
+3. **El Escenario Hipotético:** Sitúa al espectador en una circunstancia vívida que apela a su experiencia cotidiana (*"Imagina que te despiertas mañana y..."*).
+4. **La Promesa Directa / Demostración Inmediata:** Expone de frente el resultado o solución que se obtendrá al final del video.
+5. **Inmersión Atmosférica / Enigma Narrativo:** Para relatos de ficción, historias o relax, arranca sumergiendo al espectador en el ambiente sonoro y el contexto dramático sin estridencias.
 
 ---
 
@@ -129,7 +141,15 @@ Para trabajar de forma modular y económica con agentes de IA y herramientas de 
   - Fluidez al oído (frases que en texto parecen buenas pero habladas suenan pedantes o trabadas).
 - Una vez validado y aprobado el ritmo con el *animatic*, recién se procede a renderizar la locución definitiva.
 
-### 3. Grados de Guionado según el Formato (Palabra por Palabra vs. Estructura Nítida)
+### 3. Pautas de Escritura para Voz Sintética / Narrada (Escribir para el Oído)
+- **Lenguaje conversacional:** Escribir como se habla naturalmente. Las estructuras gramaticales excesivamente densas o académicas fatigan al oyente.
+- **Dinamismo auditivo:** Alternar frases cortas y contundentes con oraciones explicativas más fluidas para crear una cadencia atractiva.
+- **Pausas y respiración:** Utilizar puntos y comas bien calibrados para indicar pausas dramáticas o de respiro a la voz sintética.
+- **Términos técnicos:** Evitar encadenar palabras complejas o siglas sin explicarlas de inmediato.
+- **Símbolos y números:** Escribir los símbolos por su nombre fonético completo (*"por ciento"*, *"dólares"*) para evitar lecturas defectuosas del motor TTS.
+- **El Momento de Mayor Valor:** En lugar de forzar un giro artificial a 2/3 del video si la historia no lo pide, asegurar que el video contenga un **momento de máxima recompensa intelectual o emocional** (la prueba decisiva, la revelación del mecanismo o la conclusión práctica).
+
+### 4. Grados de Guionado según el Formato (Palabra por Palabra vs. Estructura Nítida)
 
 > **"A full script can make a strong expert worse on camera. You need to figure out which ideas require exact wording versus a sharp structure with room to think."**
 

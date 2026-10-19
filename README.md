@@ -65,7 +65,9 @@ youtube/
 │   ├── estrategia-idiomas.md          # Ranking y mercados prioritarios (Español, Inglés, Hindi)
 │   ├── herramientas-y-apis.md         # Directorio de ArtCraft (FilmCraft/EffectCraft/SoundCraft), MCPs y APIs de stock
 │   ├── referencias/                   # Síntesis de casos de estudio reales y análisis de formatos
-│   │   └── sintesis-casos-shorts.md
+│   │   ├── sintesis-casos-shorts.md   # Síntesis de casos de estudio de retención y formatos
+│   │   ├── auditorias/                # Archivo histórico de auditorías
+│   │   └── prompts/                   # Prompts y referencias externas de inspiración (Prompt Maestro)
 │   ├── roles/
 │   │   ├── 01-investigacion-ideas.md  # Detección de outliers + método Topic/Format/Spice + 6 filtros
 │   │   ├── 02-packaging-miniaturas.md # 3 C's, psicología, curiosity gaps, 3 tests y estrategia 3 miniaturas
