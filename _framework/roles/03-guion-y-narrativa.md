@@ -97,3 +97,33 @@ Para trabajar de forma modular y económica con agentes de IA y herramientas de 
   - Duración real de las frases y naturalidad de las pausas.
   - Fluidez al oído (frases que en texto parecen buenas pero habladas suenan pedantes o trabadas).
 - Una vez validado y aprobado el ritmo con el *animatic*, recién se procede a renderizar la locución definitiva.
+
+---
+
+## 6. Arquitectura de Conversión: El CTA como el "Siguiente Paso Más Útil"
+
+> **"Views alone do not grow your business. The video does not have to make the whole sale; it just has to make the next useful step obvious."**
+
+### 1. La Muerte del "Pitch Aleatorio" (Random Pitch)
+- ❌ **Prohibido el esquema tradicional:** `Valor ➔ Valor ➔ Valor ➔ Pitch desconectado` (*"Y por cierto, si quieres que te gestionemos las campañas, haz clic en el enlace..."* o *"Únete a mi newsletter gratuita..."*).
+- Este tipo de llamadas se sienten como un **"Take" (quitarle al espectador)**, generan fricción comercial y rompen la satisfacción acumulada.
+-  **El Principio del "Give":**  
+  > **"The action should feel like it's the most useful next step. Instead of being a take, it's a give and the viewer is thanking you for it."**  
+  *(La acción debe sentirse como el siguiente paso indispensable para aplicar lo aprendido; en vez de pedirle algo, le estás dando un recurso y el espectador te lo agradece).*
+
+---
+
+### 2. Las Dos Vías de Integración de Ofertas:
+
+#### Vía 1: El Producto como Desatascador Narrativo (Para Software, Apps o Productos)
+- En lugar de hacer un "video demostrativo de una funcionalidad", se empaqueta la herramienta dentro de un desafío o historia real (ej. caso *Instantly.ai*: reto de conseguir la primera venta de un negocio en 10 horas, donde la función de dominios precalentados resuelve el obstáculo crítico del tiempo).
+- **El Filtro del Experto Imparcial (*The Unbiased Expert Test*):**  
+  > *"¿Un experto completamente imparcial que no tuviera ningún interés económico en este producto lo seguiría incluyendo aquí porque hace que el video sea más útil?"*  
+  - Si la respuesta es **SÍ**, la mención es orgánica, creíble y eleva el video.
+  - Si la respuesta es **NO**, la herramienta está forzada con calzador y quemará la confianza de la audiencia.
+
+#### Vía 2: La Extensión Natural de la Lección (Para Servicios, Consultoría, Info o Canales Educativos)
+- Cuando el servicio o consultoría no puede actuar como herramienta física dentro de la historia, se crea un activo tangible que **continúa la lección donde termina el video**:
+  - *Si el video enseña una estrategia de anuncios:* El dolor inmediato siguiente es dónde ver ejemplos ➔ **Lead Magnet:** *"Te dejo gratis nuestra biblioteca viva de anuncios ganadores en Notion"*.
+  - *Si el video enseña a gestionar una empresa con KPIs:* El dolor inmediato es cómo estructurar la tabla ➔ **Lead Magnet:** *"Descarga gratis la plantilla exacta de Google Sheets con el Scorecard que uso cada semana"*.
+- **La función del Lead Magnet:** El espectador se descarga un recurso que necesita desesperadamente para ejecutar lo que acaba de aprender, entra al embudo encantado y agradecido, y queda en la lista para ofertas de alto valor posteriores.

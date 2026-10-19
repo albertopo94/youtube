@@ -80,9 +80,13 @@
 
 ---
 
-### [B07_Cierre_CTA] — Cierre Orgánico y Recomendación
-- **Tiempo estimado:** `05:00 - 05:20` (~20s)
-- **Objetivo narrativo:** CTA no invasivo y gancho hacia el siguiente video del canal.
-- **Locución literal (Texto para voz):**
+### [B07_Cierre_CTA] — Conversión Orgánica (El Siguiente Paso Más Útil)
+- **Tiempo estimado:** `05:00 - 05:30` (~30s)
+- **Tipo de Llamada a la Acción:**
+  - [ ] **Vía 1 (Herramienta / Software):** La herramienta fue el desatascador que resolvió el obstáculo del video. *(Filtro del Experto Imparcial validado: ¿un experto independiente la mencionaría? Sí).*
+  - [ ] **Vía 2 (Extensión de la Lección / Lead Magnet):** Activo funcional gratuito que el espectador necesita para aplicar lo aprendido *(plantilla de Notion, Google Sheet, dataset, checklist, código fuente)*.
+  - [ ] **Cierre Editorial (Flywheel de YouTube):** Recomendación contundente del siguiente video del canal que responde la siguiente duda lógica.
+- **El Recurso / Activo Ofrecido (*The Give*):** *(Descripción del recurso que se entrega en la descripción)*.
+- **Locución literal (Texto para voz - Redactado como 'Give' indispensable, prohibido el pitch comercial desconectado):**
   > *"..."*
-- **Visual sugerido (para Animatic):** Tarjeta final y plantilla de recomendación.
+- **Visual sugerido (para Animatic):** Mockup en pantalla del recurso descargable o flecha sutil a la descripción + Tarjeta final del siguiente video.
