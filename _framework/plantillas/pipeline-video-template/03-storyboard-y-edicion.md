@@ -20,6 +20,8 @@
 
 ## 🎬 Fase 2: Tabla de Escenas y Producción Definitiva
 
+> **Nota de trazabilidad:** Cada fila enlaza con el bloque de guion `[Bxx]` correspondiente para saber exactamente qué frase de la locución acompaña la imagen. Esta relación es **trazable y flexible, no rígidamente 1 a 1**: un solo bloque largo de guion puede dividirse en varios planos y ángulos visuales, y una toma amplia puede sostenerse durante dos frases cortas.
+
 | Escena # | Bloque Guion | Timecode | Texto de Locución Asociado | Tipo de Plano / Visual Definitivo | Asset Final (`assets/...`) | Diseño Sonoro (SFX / Música) |
 | :---: | :---: | :---: | :--- | :--- | :--- | :--- |
 | **01** | `[B01_Hook]` | `00:00 - 00:08` | *"..."* | B-roll extreme close-up + Motion title | `clips/intro_zoom.mp4` | Impact Whoosh + Inicio de beat |

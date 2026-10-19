@@ -21,16 +21,17 @@
   - ¿Se incluye el disclaimer legal correspondiente en la descripción del video?
 - [ ] **Declaración de Contenido Sintético / IA (YouTube Policy):**
   - [ ] **No requiere declaración:** Animación/estilo ficticio, clonación de la propia voz del creador, voz sintética estándar de biblioteca que no imita a terceros, o gráficos abstractos.
-  - [ ] **Sí requiere declaración obligatoria en Studio:** Muestra personas reales diciendo/haciendo cosas ficticias, voz que imita a una persona real, escenas/eventos fotorrealistas que parecen reales pero no ocurrieron, o música IA fotorrealista.
+  - [ ] **Sí requiere declaración obligatoria en Studio:** Muestra personas reales diciendo/haciendo cosas ficticias, voz que imita a una persona real, escenas o eventos realistas generados por IA, o música generada por IA (conforme a los criterios vigentes de YouTube Studio).
 
 ---
 
 ## 2. Guion Maestro Estructurado por Bloques Atómicos (IDs Estables)
 
-> **Regla de ingeniería:** Cada bloque de locución tiene un identificador estable `[Bxx]`. Esto permite que una modificación futura en una frase solo requiera regenerar el audio de ese bloque y reajustar su escena correspondiente en el editor.
+> **Regla de ingeniería y flexibilidad temporal:** Cada bloque de locución tiene un identificador estable `[Bxx]` para facilitar la sincronización con el audio y las escenas en el editor.  
+> *Nota de adaptabilidad:* La cantidad de bloques y su duración deben calcularse en función de la **duración objetivo real del video** (ej. 1 min en Shorts, 8 min en divulgación o 20 min en un ensayo) y la velocidad de locución (~130 a 150 palabras por minuto). Los bloques y tiempos siguientes son un **ejemplo ilustrativo de referencia modular**: el agente puede añadir, dividir o consolidar bloques según el contenido, asegurando que no existan solapamientos de tiempo.
 
 ### [B01_Hook_Promesa] — Reafirmar la Promesa y Bucle Abierto
-- **Tiempo estimado:** `00:00 - 00:10` (~10s)
+- **Tiempo estimado (Ejemplo):** `00:00 - 00:10` (~10s)
 - **1. Reafirmación de la Promesa (Segundos 0-5):** *(Confirmar que están en el lugar correcto cumpliendo lo prometido en el packaging)*.
 - **2. Filtro de Bucle Abierto:** ¿El gancho plantea una pregunta o incógnita irresistible en lugar de una afirmación cerrada que destripe el final?
 - **3. Unfair Edge Statement (Autoridad en una frase - si aplica según género):** *(Por qué deben escucharme a mí y no a otro)*:
@@ -42,8 +43,8 @@
 ---
 
 ### [B02_Roadmap_Compromiso] — Roadmap de Compromiso Mental y Curiosity Gap
-- **Tiempo estimado:** `00:10 - 00:30` (~20s)
-- **3. Roadmap de Compromiso Mental (*Where the video is going*):** *(Desglose rápido de lo que cubriremos para que el espectador decida quedarse el video completo)*.
+- **Tiempo estimado (Ejemplo):** `00:10 - 00:25` (~15s)
+- **3. Roadmap de Compromiso Mental (*Where the video is going*):** *(Desglose rápido de lo que cubriremos para que el espectador decida quedarse el video completo; opcional según género)*.
 - **Curiosity Gap:** *(Pregunta o enigma central que mantendrá la tensión)*.
 - **Locución literal (Texto para voz):**
   > *"..."*
@@ -52,7 +53,7 @@
 ---
 
 ### [B03_Conflicto] — El Dilema Central o Tensión Cognitiva
-- **Tiempo estimado:** `00:25 - 01:10` (~45s)
+- **Tiempo estimado (Ejemplo):** `00:25 - 01:10` (~45s)
 - **Objetivo narrativo:** Establecer por qué este problema o misterio es difícil o fascinante.
 - **Locución literal (Texto para voz):**
   > *"..."*

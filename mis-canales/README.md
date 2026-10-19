@@ -19,7 +19,13 @@ mis-canales/[nombre-canal]/
 │       ├── 05-metricas-retencion.md      # Impresiones, fuentes, retención y Test & Compare
 │       └── 06-fuentes-y-verificacion.md  # Fact-checking: fuentes primarias, DOIs y matices
 └── videos-publicados/             # Historial de videos subidos a YouTube
-    └── video-001-slug/            # Carpeta trasladada tras publicación con su entregable-final.md
-        ├── entregable-final.md           # Título final, URL en YouTube, créditos y descripción
-        └── metricas-retencion.md         # Registro de rendimiento post-publicación
+    └── video-001-slug/            # Carpeta trasladada íntegramente tras publicación (conserva 00 a 06 + entregable-final.md):
+        ├── 00-estado-produccion.md       # Estado final de cierre (PUBLICADO)
+        ├── 01-packaging.md               # Packaging original aprobado
+        ├── 02-guion.md                   # Guion definitivo de producción
+        ├── 03-storyboard-y-edicion.md    # Storyboard y ficha técnica del render master
+        ├── 04-registro-recursos.md       # Trazabilidad legal de licencias preservada
+        ├── 05-metricas-retencion.md      # Registro continuo de métricas (24h, 7d, 28d)
+        ├── 06-fuentes-y-verificacion.md  # Registro de fuentes primarias y fact-checking
+        └── entregable-final.md           # Metadata definitiva, URL de YouTube y créditos públicos
 ```

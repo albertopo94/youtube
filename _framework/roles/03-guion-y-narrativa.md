@@ -23,7 +23,7 @@ YouTube exige declarar en YouTube Studio cuando el contenido pueda confundirse c
 **Casos que SÍ requieren marcar la casilla de declaración obligatoria:**
 1. **Personas reales y su voz:** Hacer parecer que una persona real dijo o hizo algo que no ocurrió, o generar sintéticamente la voz de una persona reconocible.
 2. **Escenas y eventos fotorrealistas:** Mostrar desastres, sucesos de actualidad, lugares geográficos o eventos históricos con apariencia realista generados por IA que nunca sucedieron.
-3. **Música generada por IA:** Composiciones musicales sintéticas realistas que imiten estilos de artistas o ejecuciones reales.
+3. **Música generada por IA:** Pistas musicales o interpretaciones vocales generadas con herramientas de inteligencia artificial (conforme a las directrices vigentes de YouTube Studio sobre contenido alterado o sintético).
 
 **Casos que NO requieren declaración:**
 1. **Animación y contenido manifiestamente ficticio:** Estilos de anime, dibujos animados, stop-motion o efectos visuales claramente fantásticos.

@@ -12,15 +12,18 @@ Para evitar confusiones entre políticas obligatorias de la plataforma y táctic
 
 ---
 
-## 🚦 1. Los 3 Regímenes de Veracidad por Temática `[Práctica Editorial]`
+## 🚦 1. Evaluación de Factualidad y Riesgo de Daño (YMYL) `[Práctica Editorial]`
 
-Cada canal y video se clasifica bajo uno de los tres regímenes en `00-estado-produccion.md`:
+Para evitar encasillar a los canales en compartimentos estancos o dejar desprotegidas historias ficticias que introduzcan afirmaciones factuales, el rigor editorial se evalúa en **dos dimensiones complementarias**:
 
-| Régimen | Temáticas Típicas | Tolerancia a la Ficción / Hipérbole | Enfoque de Seguridad Editorial | Requisito Operativo del Agente |
-| :--- | :--- | :---: | :--- | :--- |
-| **Régimen 1: Ficción, Fantasía y Relax** | Cuentos para dormir, animación, parodias, historias de lore, relatos de misterio. | **Máxima** (Se asume la narrativa artística). | Proteger derechos de autor y marcas registradas. | Redacción creativa libre. No requiere tabla de fact-checking `06`. Dejar claro en el packaging el carácter de relato o ficción. |
-| **Régimen 2: Divulgación Factual / Hobby** | Resúmenes de libros, coctelería, historia, tecnología general, motos, viajes. | **Moderada** | Citar fuentes y evitar presentar hipótesis como hechos probados. | Citar fuentes generales y no presentar conjeturas o debates abiertos como dogmas históricos absolutos. |
-| **Régimen 3: Zona Roja YMYL (Ciencia, Salud, Dinero, Noticias)** | Papers de neurociencia/sueño, salud física y mental, nutrición, finanzas, noticias de actualidad. | **TOLERANCIA CERO** | **Riesgo crítico de retiro y strikes de desinformación.** | **Carga de la prueba obligatoria.** Prohibido escribir una afirmación en el guion sin su DOI o paper verificado en `06-fuentes-y-verificacion.md`. Linter de léxico prohibido estricto. |
+### Dimensión A: Naturaleza de la Afirmación
+- **Afirmación Ficcional / Artística:** Elementos dramáticos, metáforas, recursos cómicos o mundos imaginarios. No requieren verificación factual; se rigen por la coherencia narrativa y el respeto al copyright de personajes de terceros.
+- **Afirmación Factual:** Cualquier dato, fecha, cifra, atribución histórica, declaración de personas reales o explicación científica/técnica del mundo real. **Toda afirmación factual debe sustentarse en fuentes consultadas, incluso si aparece dentro de un formato narrativo o de relax.**
+
+### Dimensión B: Grado de Riesgo de Daño (Impacto Potencial de un Error)
+- **Riesgo Bajo (General):** Fenómenos de ciencia básica cotidiana (ej. por qué el cielo es azul), cultura, curiosidades o ficción pura. El error no compromete la salud, la seguridad ni la economía de la audiencia. Verificación proporcional con fuentes de acceso general.
+- **Riesgo Medio (Técnico / Histórico):** Cifras específicas, tutoriales de programación, citas históricas o análisis de productos. Exige cotejo de fuentes y evitar atribuir consenso absoluto a debates historiográficos o tecnológicos abiertos.
+- **Riesgo Alto — Zona YMYL (*Your Money or Your Life*):** Consejos de salud física o mental, nutrición clínica, tratamientos, farmacología, finanzas, inversión o noticias de actualidad. **Tolerancia cero:** Prohibido emitir afirmaciones que contradigan el consenso científico/médico o prometan resultados económicos garantizados. Exige carga de la prueba con fuentes primarias en `06-fuentes-y-verificacion.md`.
 
 ---
 
@@ -74,9 +77,11 @@ Es indispensable no confundir tres planos completamente distintos al trabajar co
 
 ---
 
-## ⚖️ 5. Cláusulas de Exención de Responsabilidad (*Disclaimers* Legales) `[Práctica Editorial]`
+## ⚖️ 5. Avisos y Cláusulas Editoriales de Exención de Responsabilidad (*Disclaimers*) `[Práctica Editorial]`
 
-Para todo video en **Régimen 3 (YMYL)**, se debe incluir en la descripción y sutilmente en pantalla:
+> **Aclaración jurídica fundamental:** La inclusión de un aviso legal en la descripción o en el video constituye una **medida editorial interna de prudencia y transparencia** hacia la audiencia. **Un disclaimer NO constituye un blindaje legal automático**, no exime de responsabilidad ante normativas sanitarias locales ni valida consejos negligentes. El rigor en el contenido es el único estándar de seguridad real.
+
+Para videos que aborden temas de salud, medicina o decisiones financieras, se recomienda incluir en la descripción:
 
 ### Disclaimer de Salud / Divulgación Científica:
 ```text

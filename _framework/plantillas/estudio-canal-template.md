@@ -3,7 +3,7 @@
 - **Nombre tentativo del canal:** 
 - **Nicho / Temática:**
 - **Mercado e Idioma principal:** (Español / Inglés / Hindi / Multiidioma)
-- **Calentamiento de Cuenta (*Account Warmup*):** `[ ] Cuenta activa con más de 1 semana de uso humano previo` / `[ ] Cuenta recién creada (Obligatorio: usarla 7 días navegando/comentando antes del primer upload para evitar sandbox de cero vistas)`
+- **Estado de la Cuenta de YouTube:** `[ ] Cuenta existente con historial de uso` / `[ ] Cuenta nueva` *(Nota experimental: registrar fecha de creación para observar el comportamiento de las primeras impresiones sin presuponer bloqueos algorítmicos)*
 - **Fecha de inicio de estudio:** 
 
 ---
@@ -20,11 +20,11 @@
 
 ### Base de Datos de Nodos y Outliers Validados:
 
-| Término Semilla | Video Outlier (Título y URL) | Canal (Vistas vs. Subs) | Ratio Outlier | Deseo Amplio / Dolor Detectado | Curiosity Gap de Miniatura | Recomendaciones Laterales Relevantes (Próximos Nodos) |
-| :--- | :--- | :--- | :---: | :--- | :--- | :--- |
-| *[Semilla 1]* | *"..."* - `https://...` | Canal X (`15k subs`) | `12x` (`180k views`) | Alivio de niebla mental | Comparativa cerebro limpio vs. opaco | Video Y (`https://...`), Canal Z |
-| *[Semilla 2]* | *"..."* - `https://...` | Canal W (`50k subs`) | `8x` (`400k views`) | Energía matutina rápida | Número redondo grande + cara asombro | Video K (`https://...`) |
-| ... | ... | ... | ... | ... | ... | ... |
+| Término Semilla | Video Outlier (Título y URL) | Canal | Antigüedad | Mediana de Vistas del Canal (3-6 meses) | Vistas del Outlier | Ratio vs. Mediana | Deseo Amplio / Dolor | Curiosity Gap Miniatura | Recomendaciones Laterales |
+| :--- | :--- | :--- | :---: | :---: | :---: | :---: | :--- | :--- | :--- |
+| *[Semilla 1]* | *"..."* - `https://...` | Canal X (`15k subs`) | `hace 2 meses` | `15.000` | `180.000` | `12x` | Alivio de niebla mental | Comparativa cerebro limpio vs. opaco | Video Y (`https://...`), Canal Z |
+| *[Semilla 2]* | *"..."* - `https://...` | Canal W (`50k subs`) | `hace 3 semanas` | `50.000` | `400.000` | `8x` | Energía matutina rápida | Número redondo grande + cara asombro | Video K (`https://...`) |
+| ... | ... | ... | ... | ... | ... | ... | ... | ... | ... |
 
 ---
 

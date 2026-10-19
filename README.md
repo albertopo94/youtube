@@ -12,7 +12,7 @@ La producción moderna en YouTube funciona como un ciclo de vida de desarrollo d
 | :--- | :--- | :--- |
 | **Product Discovery / PM** | **Investigador & Scout** | Detectar *outliers*, validar nichos en VidIQ/Trends y filtrar ideas inviables con los 6 filtros de eliminación. |
 | **API Contract / Interface Spec** | **Packager (Packaging First)** | Diseñar el Título y la Miniatura **antes** de escribir el guion. Es la promesa de interfaz con el usuario. |
-| **Core Dev / Backend** | **Guionista (Narrative Architect)** | Guion con estructura `Conflicto ➔ Contexto ➔ Mensaje ➔ CTA`, cumpliendo la promesa en los primeros 5 segundos. |
+| **Core Dev / Backend** | **Guionista (Narrative Architect)** | Guion estructurado por bloques atómicos, adaptando la apertura y la narrativa al formato y género. |
 | **Frontend / Assets** | **Director Visual (Storyteller)** | Storyboard, selección de planos (A-roll / B-roll), assets de stock (Pexels, Coverr, Pixabay) y generación visual. |
 | **Audio Engineer** | **Diseñador Sonoro** | Música de fondo, ecualización de voz y colocación de efectos de sonido (SFX) para acentuar emociones. |
 | **QA / Linter / Compliance** | **Auditor de Calidad & Legal** | Sound check, flow check, style check y registro estricto de procedencia/licencias de cada recurso. |

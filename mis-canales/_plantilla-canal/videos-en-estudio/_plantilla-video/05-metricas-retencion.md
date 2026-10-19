@@ -9,11 +9,11 @@
 
 ## 1. Registro de Intervalos de Consulta (Datos Comparables)
 
-| Intervalo de Consulta | Fecha / Hora de Extracción | Impresiones Totales | CTR (%) | Tasa Deslizamiento (*Viewed vs Swiped %*) | Vistas Totales | Retención a 30s (%) | Porcentaje Medio Visto (APV %) | Tiempo Visualización (Horas) | Suscriptores Netos (+ / -) |
+| Intervalo de Consulta | Fecha / Hora de Extracción | Impresiones Totales | CTR (%) | Tasa Deslizamiento (*Shorts: Viewed vs Swiped %*) | Vistas Totales | Retención a 30s (%) | Porcentaje Medio Visto (APV %) | Tiempo Visualización (Horas) | Suscriptores Netos (+ / -) |
 | :--- | :--- | :--- | :--- | :---: | :--- | :--- | :--- | :--- | :--- |
-| **Primeras 24 Horas** | `DD/MM/AAAA` | | | | | | | | |
-| **Día 7 (1ª Semana)** | `DD/MM/AAAA` | | | | | | | | |
-| **Día 28 (1er Mes)** | `DD/MM/AAAA` | | | | | | | | |
+| **Primeras 24 Horas** | `DD/MM/AAAA` | | | *(N/A si Long-form)* | | | | | |
+| **Día 7 (1ª Semana)** | `DD/MM/AAAA` | | | *(N/A si Long-form)* | | | | | |
+| **Día 28 (1er Mes)** | `DD/MM/AAAA` | | | *(N/A si Long-form)* | | | | | |
 
 ---
 
@@ -56,16 +56,18 @@
 
 ---
 
-## 5. Retrospectiva Editorial: Evaluación de Satisfacción del Espectador (*Viewer Satisfaction*)
+## 5. Retrospectiva Editorial: Evaluación de Satisfacción e Hipótesis `[Práctica Editorial]`
 
-> *Principio:* El CTR y la retención bruta son métricas ruidosas. Lo que define si YouTube activará el bucle *Winner-Take-All* es si el video superó la expectativa creada al hacer clic.
+> *Principio:* El objetivo de la retrospectiva es contrastar la hipótesis inicial de contenido contra las señales de respuesta de la audiencia, identificando decisiones editoriales concretas para la próxima entrega y evitando conclusiones circulares o atribuciones automáticas al algoritmo.
 
-- **Cumplimiento de la Promesa:** ¿El video superó con creces lo que prometía el packaging o se quedó corto en algún punto?
-- **Comportamiento en los primeros 30 segundos:** ¿Coincidió la expectativa de la miniatura con el arranque del video según el gráfico de retención?
-- **Puntos de fuga o abandono:** ¿En qué minuto/escena exacta cayó la curva y por qué motivo (explicación densa, cambio brusco de ritmo, broma fuera de lugar)?
-- **Puntos de retención máxima / picos:** ¿Qué sección generó re-visualizaciones o picos de atención?
-- **Sentimiento y Señales Cualitativas en Comentarios:** ¿Los espectadores expresan haber aprendido algo revelador o haberse sorprendido con el mecanismo presentado?
-- **Conclusión accionable para el siguiente video:**
+- **Hipótesis puesta a prueba en este video:** `[Qué ángulo, formato o mecanismo esperábamos validar con esta pieza]`
+- **Cumplimiento de la Promesa y Satisfacción:** ¿El contenido entregó y superó lo prometido en el packaging o se detectaron discrepancias entre expectativa y desarrollo?
+- **Comportamiento en los primeros 30 segundos:** ¿Coincidió la expectativa de la miniatura/título con el arranque del video según la curva de retención?
+- **Puntos de fuga o abandono:** ¿En qué momento exacto cayó la curva y qué causa editorial probable se identifica (explicación densa, cambio brusco de ritmo, broma fuera de tono)?
+- **Picos de retención / Re-visualizaciones:** ¿Qué sección o recurso visual provocó pausas o repeticiones?
+- **Sentimiento Cualitativo en Comentarios:** ¿Los espectadores expresan haber comprendido la lección o haberse sorprendido con el enfoque?
+- **Limitaciones de la Muestra:** `[Volumen de datos acumulado, período de observación transcurrido y fuentes principales]`
+- **Decisión Accionable para el Siguiente Video:** `[Qué hipótesis se mantiene, cuál se descarta y qué cambio específico de guion, packaging o edición se probará en la siguiente subida]`
 
 ---
 

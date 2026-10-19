@@ -11,9 +11,16 @@ Catálogo técnico de plataformas, software y APIs de la oficina de YouTube.
 
 ## 🚦 Niveles de Validación en el Entorno Local
 
-- 🟢 **PROBADA EN ENTORNO:** Función ejecutada con éxito en este entorno (web o local). Lista para producción.
-- 🟡 **DISPONIBLE / DOCUMENTADA:** Integración o API accesible con credenciales, pendiente de validación de extremo a extremo.
-- 🔴 **EXPERIMENTAL / CANDIDATA A PILOTO:** Herramienta en fase temprana cuyo rendimiento se evaluará en el video piloto.
+Toda herramienta debe evaluarse sobre cuatro evidencias técnicas verificables:
+1. **Identidad y Versión:** Repositorio o URL oficial, proveedor y modelo/versión exacta.
+2. **Prueba Ejecutada:** Acción técnica real probada localmente (no solo lectura de documentación).
+3. **Resultado Verificable:** Archivo generado, log reproducible, captura o comprobante inspeccionado.
+4. **Última Validación:** Fecha, entorno de prueba (macOS Intel x86_64), plan y límites comprobados.
+
+### Clasificación Operativa:
+- 🟢 **PROBADA EN ENTORNO:** Función ejecutada con éxito de extremo a extremo en este entorno (web o local). Lista para producción.
+- 🟡 **DISPONIBLE / DOCUMENTADA:** Integración, API o plantilla accesible, pero cuya ejecución completa no ha sido verificada localmente.
+- 🔴 **EXPERIMENTAL / CANDIDATA A PILOTO:** Herramienta en fase temprana cuyo rendimiento real en este equipo se evaluará en el video piloto.
 - ⛔ **RESTRICCIÓN LEGAL:** Licencias incompatibles con monetización en YouTube (ej. pesos CC-BY-NC).
 - 🔵 **VISIÓN FUTURA:** No disponible por limitaciones oficiales de la API del proveedor.
 
@@ -28,15 +35,15 @@ Catálogo técnico de plataformas, software y APIs de la oficina de YouTube.
 | **VidIQ (Web & Extension)** | `00 / 01` | Detección de outliers (5x) y palabras clave | 🟢 PROBADA EN ENTORNO | Auditoría de competidores y casos atípicos. | Tier gratuito limita el historial profundo de métricas. |
 | **Thumblytics** | `01` | Simulación de miniaturas en feed de YouTube | 🟢 PROBADA EN ENTORNO | Carga de bocetos para evaluar contraste en feed. | Requiere que el creador suba las imágenes manualmente en la web. |
 | **AdForum** | `01` | Referencias publicitarias y ganchos de alto impacto | 🟢 PROBADA EN ENTORNO | Inspiración para intros y promesas visuales. | Catálogo comercial externo para consulta manual. |
-| **Google AI Studio (Chat, Vision & Speech)** | `01/02/03/04/05` | Suite multimodal: análisis de 2M tokens, auditoría visual de miniaturas y generador nativo de voz/TTS | 🟢 PROBADA EN ENTORNO | Web: [aistudio.google.com](https://aistudio.google.com/). Módulo de voz: [aistudio.google.com/generate-speech](https://aistudio.google.com/generate-speech?model=gemini-3.8-flash-tts). | Ingesta de papers y libros para fact-checking (`02`), test visual de miniaturas (`01`) y locución con Gemini TTS (`04/05`). **Nota de paywall:** la herramienta no evade muros de pago; requiere que el PDF esté en acceso abierto o que el creador lo provea con acceso institucional. |
+| **Google AI Studio (Chat, Vision & Speech)** | `01/02/03/04/05` | Suite multimodal: análisis de textos largos, auditoría visual de miniaturas y módulo TTS | 🟢 PROBADA (WEB) | Web: [aistudio.google.com](https://aistudio.google.com/). Módulo de voz: [aistudio.google.com/generate-speech](https://aistudio.google.com/generate-speech?model=gemini-3.8-flash-tts). | **Límites por modelo:** Modelos multimodales (Gemini Flash/Pro) ofrecen ventana de 1M-2M tokens para ingesta de documentos en acceso abierto; el modelo de voz (*Generate Speech*) tiene un límite de entrada de ~8.192 tokens por petición. **Nota de paywalls:** no evade muros de pago de artículos cerrados; el creador debe suministrar el PDF legítimo. |
 | **Google Scholar & Labs** | `02` | Búsqueda de papers primarios (Fact-checking) | 🟢 PROBADA EN ENTORNO | Localización de DOIs, abstracts y autores. | Ciertos papers completos exigen suscripción institucional. |
-| **Google Docs Video Scene Editor** | `03 / 04` | Estructuración colaborativa de escenas y guion | 🟢 PROBADA EN ENTORNO | Organización visual de escenas por bloques. | Editor colaborativo en la nube de Google. |
+| **Google Docs Video Scene Editor** | `03 / 04` | Plantilla colaborativa de escenas y guion en Google Docs | 🟡 DISPONIBLE / DOC. | Documento en la nube de Google Docs para organización visual de escenas. | Enlace a plantilla colaborativa de previsualización; validar acceso y compatibilidad con el creador. |
 | **ElevenLabs (Tier Free)** | `04` | Locución provisional (*Scratch Track*) para animatic | 🟢 PROBADA EN ENTORNO | Generación rápida de voz para validar ritmo sin costo. | Cuota mensual limitada de caracteres; apto para pruebas internas. |
 | **Luvvoice (Web, MCP & Skill)** | `04` | Locución provisional (TTS gratuito) con soporte MCP y Skill | 🟢 DISPONIBLE / MCP | Web: [luvvoice.com/es](https://luvvoice.com/es) (Docs: [/es/doc](https://luvvoice.com/es/doc), MCP: [/es/mcp](https://luvvoice.com/es/mcp), Skill: [/es/skill](https://luvvoice.com/es/skill)). | **Solo Free Tier.** Ideal para locución provisional (*Scratch Track*) y animatic sin costo. Dispone de servidor MCP oficial y Skill para integración con agentes. |
 | **ElevenLabs (Tier Creator)** | `05` | Locución comercial definitiva | 🟡 DISPONIBLE / DOC. | Derechos comerciales de salida bajo suscripción de pago. | Requiere suscripción activa para monetización en YouTube. |
-| **FilmCraft** | `04 / 05` | **Montaje y timeline asistido por agentes (CLI / MCP)** | 🔴 CANDIDATA A PILOTO | Lectura de repositorio y protocolo de control para agentes. | **Herramienta prioritaria para automatización.** En fase alfa (~56%); su viabilidad para renders se decidirá en el piloto. |
-| **EffectCraft** | `05` | Motion graphics y efectos visuales vía agentes | 🔴 EXPERIMENTAL | Protocolo de control documentado. | Fase alfa temprana. Se evaluará tras consolidar FilmCraft. |
-| **SoundCraft** | `05` | Mezcla y edición de pistas de audio | 🔴 EXPERIMENTAL | Arquitectura tipo Pro Tools documentada. | Fase pre-alfa. No apto para master final inmediato. |
+| **FilmCraft** | `04 / 05` | **Montaje y timeline asistido por agentes (CLI / MCP)** | 🔴 CANDIDATA A PILOTO | Repositorio: [github.com/storytold/filmcraft](https://github.com/storytold/filmcraft). Protocolo de control documentado. | **Herramienta prioritaria para automatización por agentes.** En fase alfa (~56%). La creación de proyectos, montaje por CLI/MCP y render reproducible de extremo a extremo en macOS Intel es el objetivo central de validación del video piloto. |
+| **EffectCraft** | `05` | Motion graphics y efectos visuales vía agentes | 🔴 EXPERIMENTAL | Repositorio: [github.com/storytold/effectcraft](https://github.com/storytold/effectcraft). | Protocolo de control documentado. Fase alfa temprana; supeditada a la validación previa de FilmCraft. |
+| **SoundCraft** | `05` | Mezcla y edición de pistas de audio | 🔴 EXPERIMENTAL | Repositorio: [github.com/storytold/soundcraft](https://github.com/storytold/soundcraft). | Arquitectura tipo Pro Tools documentada. Fase pre-alfa; no apto para master final inmediato. |
 | **Coverr (Web)** | `05` | Descarga de clips de stock libres de derechos | 🟢 PROBADA EN ENTORNO | Descarga directa de archivos mp4 para edición. | La web otorga licencia libre; guardar captura de términos en `licencias/`. |
 | **Coverr (MCP / API)** | `05` | Búsqueda asistida de clips para agentes | 🟡 DISPONIBLE / DOC. | Identificación del servidor MCP (`mcp.coverr.co`). | Plan Demo limitado a 50 req/h; términos de API restringen uso comercial gratuito. |
 | **Pexels & Pixabay APIs** | `05` | Catálogo de fotos y videos de stock | 🟡 DISPONIBLE / DOC. | Documentación y obtención de credenciales de API. | Exige verificar derechos de imagen de personas y marcas registradas. |

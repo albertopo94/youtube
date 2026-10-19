@@ -124,15 +124,19 @@ Todo tema y propuesta de packaging debe fundamentarse en los principios de *Brea
 Para que una fase se considere `APROBADO`, debe existir evidencia física demostrable:
 
 - **Fase Packaging:** Existen 5 títulos candidatos y 3 conceptos de miniatura bien diferenciados con bocetos/prompts en `01-packaging.md`. Título y enfoque elegidos por el creador.
-- **Fase Guion:** Existe el documento `02-guion.md` con:
-  - Estructura atómica por bloques `[Bxx]` con el **grado de guionado adecuado** (*palabra por palabra* para voz en off/IA; *estructura nítida con viñetas* para screencasts, código o expertos a cámara).
-  - Apertura adaptada al género: fórmula de intro en 3 pasos (reafirmar promesa, *Unfair Edge Statement* de autoridad y roadmap de compromiso mental) en formatos educativos, de ciencia, análisis o negocios; o inmersión atmosférica, enigma y acción directa en ficción, cuentos, misterio o tutoriales rápidos (sin forzar declaraciones de autoridad ni roadmaps que rompan la intriga).
-  - Aportación editorial justificada y fuentes primarias registradas en `06-fuentes-y-verificacion.md`.
-  - **Prohibición de Credenciales Falsas:** Prohibido inventar biografías, experiencia personal ficticia o credenciales académicas/financieras para simular autoridad en el narrador; la credibilidad se construye sobre fuentes verificadas, razonamiento transparente y demostraciones prácticas.
-  - **Cumplimiento del Régimen de Veracidad y Linter YMYL:** Si el video pertenece a Régimen 3 (Ciencia, Salud, Dinero), el agente **tiene prohibido redactar afirmaciones fácticas sin su DOI o fuente primaria en `06-fuentes-y-verificacion.md`**. Debe aplicar el linter de léxico prohibido (sin absolutos ni promesas médicas) y matizar obligatoriamente si el estudio fue en modelos animales. En canales de Régimen 1 (Ficción/Relax), se permite libertad narrativa sin fact-checking.
-  - **CTA diseñado como el 'Siguiente Paso Más Útil' adaptable al arquetipo y etapa:** En canales de relax, ficción o en Etapa 1 (tracción inicial sin negocio montado), el único CTA permitido es el **bucle de retención hacia el siguiente video complementario del canal**. Solo en canales de negocio maduros se estructuran recursos descargables (*The Give*) o herramientas desatascadoras bajo el filtro del experto imparcial.
+- **Fase Guion:** Existe el documento `02-guion.md` con bloques identificados `[Bxx]` que satisface los siguientes criterios:
+  - **Condiciones Estrictamente Obligatorias:**
+    1. *Cumplir la promesa editorial:* Satisface y desarrolla la expectativa generada por el packaging aprobado en `01-packaging.md`.
+    2. *Prohibición de credenciales falsas:* Prohibido inventar biografías, experiencia personal ficticia o títulos académicos/financieros para simular autoridad en el narrador. La credibilidad se construye sobre fuentes verificadas, razonamiento transparente y rigor metodológico.
+    3. *Verificación según naturaleza y riesgo:* Toda afirmación fáctica relevante debe sustentarse en fuentes consultadas registradas en `06-fuentes-y-verificacion.md`, aplicando el linter de léxico prohibido y matización en temas sensibles (YMYL).
+    4. *Aportación editorial propia:* Supera la puerta de originalidad (no es mera paráfrasis ni duplicado de videos ajenos).
+    5. *Grado de guionado adecuado:* Justifica la elección entre *palabra por palabra* (para locución IA/off) o *estructura nítida con viñetas* (para screencasts o experto a cámara).
+  - **Técnicas Narrativas Opcionales (Caja de Herramientas a Evaluar):**
+    - La fórmula de intro de 3 pasos (*Unfair Edge* + Roadmap) se evalúa para educación o negocios; en ficción, misterio, relax o tutoriales rápidos se eligen aperturas inmersivas o de acción directa sin destripar la intriga.
+    - El gancho puede formularse como pregunta, dato chocante, hipótesis o demostración según el impacto buscado.
+    - La arquitectura dramática (tres actos, arco en bucle o dinámica de valor) y el tipo de CTA (bucle al siguiente video o recurso funcional) se eligen según el arquetipo y la madurez del canal.
 - **Fase Animatic:** Existe una locución provisional reproducible y un timeline/animatic de baja fidelidad donde el ritmo y el flujo narrativo fueron evaluados y aprobados.
-- **Fase Producción y Edición:** Existen los recursos generados/descargados, la tabla de `03-storyboard-y-edicion.md` vinculada 1:1 con los bloques de guion, respetando la **ley de anti-decoración** (*la edición elimina fricción, no rescata un video vacío; si un visual no aclara o demuestra, es solo movimiento y se elimina*), y el video exportado ha superado los checks de sonido (*sound check*), ritmo (*flow check*) y estilo (*style check*).
+- **Fase Producción y Edición:** Existen los recursos generados/descargados, la tabla de `03-storyboard-y-edicion.md` trazable con los bloques de guion `[Bxx]` (con correspondencia clara pero sin forzar una rigidez 1:1, permitiendo que un bloque tenga varios planos si la dinámica lo requiere), respetando la **ley de anti-decoración** (*la edición elimina fricción, no rescata un video vacío; si un visual no aclara o demuestra, es solo movimiento y se elimina*), y el video exportado ha superado los checks de sonido (*sound check*), ritmo (*flow check*) y estilo (*style check*).
 - **Fase Auditoría Legal:** Todos los recursos cuentan con licencia verificada, términos archivados y textos de atribución en `04-registro-recursos.md`.
 
 ---
@@ -146,20 +150,26 @@ Para que una fase se considere `APROBADO`, debe existir evidencia física demost
 
 ---
 
-## 🏗️ 07. Scaffolding y Estructura por Video en Producción
+## 🏗️ 07. Scaffolding y Contrato Canónico de Archivos por Video
 
-Cada carpeta de video en `mis-canales/[canal]/videos-en-estudio/[numero-slug]/` debe contener exactamente:
+### 1. Durante la Producción Activa:
+Cada carpeta de video en `mis-canales/[canal]/videos-en-estudio/[numero-slug]/` se compone de los siguientes archivos:
 
 ```text
 [numero-slug]/
 ├── 00-estado-produccion.md       # Estado persistente, fase actual y siguiente acción
-├── 01-packaging.md               # 5 títulos + 3 variantes de miniatura para prueba nativa
-├── 02-guion.md                   # Guion por bloques [Bxx], locución provisional y puerta de originalidad
-├── 03-storyboard-y-edicion.md    # Animatic preliminar, tabla de escenas y diseño sonoro
+├── 01-packaging.md               # Títulos candidatos + variantes para prueba nativa en long-form
+├── 02-guion.md                   # Guion por bloques [Bxx], locución y puerta de originalidad
+├── 03-storyboard-y-edicion.md    # Storyboard, animatic preliminar y ficha técnica de render
 ├── 04-registro-recursos.md       # Registro integral de stock, IA visual, TTS, música y licencias
-├── 05-metricas-retencion.md      # Impresiones, fuentes, retención y prueba nativa de YouTube
-└── 06-fuentes-y-verificacion.md  # Fact-checking: afirmaciones, fuentes primarias DOI y estado
+├── 05-metricas-retencion.md      # Registro de rendimiento, retención y elegibilidad A/B
+└── 06-fuentes-y-verificacion.md  # Fact-checking: investigación previa y verificación de borrador
 ```
+
+### 2. Tras la Publicación en YouTube:
+- La carpeta del video se traslada **íntegramente** de `videos-en-estudio/[numero-slug]/` a `mis-canales/[canal]/videos-publicados/[numero-slug]/`.
+- **Preservación estricta de trazabilidad:** Se conservan intactos todos los archivos de producción originales (`00` a `06`) para mantener las pruebas de licencias, DOIs verificados y versiones aprobadas.
+- Se genera el archivo **`entregable-final.md`** (usando `_framework/plantillas/entregable-final-template.md`) con la URL pública definitiva, créditos y descripción oficial, y se actualiza `00-estado-produccion.md` al estado de cierre.
 
 ---
 
@@ -169,8 +179,8 @@ Las herramientas de la oficina están catalogadas en `_framework/herramientas-y-
 
 ### 1. Cuándo invocar cada herramienta (Mapeo por Fase):
 - **Investigación e Ideación:** Consultar YouTube Studio (pestañas Research y Audience), VidIQ (competencia y outliers), Google Trends y Books Ngrams.
-- **Packaging:** Diseñar variantes de títulos y miniaturas; sugerir **Thumblytics** para simulación previa de feed; inspirarse en **AdForum** para ganchos publicitarios de alto impacto; usar **Google AI Studio** para refinamiento multimodal de prompts, contraste visual de miniaturas frente al feed y lectura profunda de papers científicos de hasta 2M de tokens.
-- **Fact-Checking:** Consultar **Google Scholar & Labs** para abstracts y DOIs de papers primarios (apoyándose en **Google AI Studio** para ingesta completa de PDFs con paywall o metodología densa).
+- **Packaging:** Diseñar variantes de títulos y miniaturas; sugerir **Thumblytics** para simulación previa de feed; inspirarse en **AdForum** para ganchos publicitarios de alto impacto; usar **Google AI Studio** para refinamiento multimodal de prompts, contraste visual de miniaturas frente al feed y lectura profunda de textos largos.
+- **Fact-Checking:** Consultar **Google Scholar & Labs** para abstracts y fuentes primarias (apoyándose en **Google AI Studio** para ingesta de documentos en acceso abierto o PDFs facilitados por el creador si están tras paywall institucional).
 - **Storyboard, Animatic y Locución:** Usar **Google Docs Video Scene Editor** o plantillas internas; generar locución provisional o definitiva con **Google AI Studio Generate Speech (`aistudio.google.com/generate-speech?model=gemini-3.8-flash-tts`)**, **ElevenLabs (tier gratuito)**, **Luvvoice (Free tier / MCP oficial: `luvvoice.com/es/mcp`)** o TTS de sistema.
 - **Montaje y Edición:** Priorizar **FilmCraft** por su arquitectura abierta nativa para CLI y protocolo de control con agentes (MCP). El resultado del video piloto determinará si es viable en el entorno local o si se requiere asistencia manual en editores de escritorio.
 - **Video Cinemático, Storyboard y Personajes IA:** Usar **Google Flow (`flow.google.com`)** para:

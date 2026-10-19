@@ -30,9 +30,10 @@ Para entender la demanda real de un nicho en YouTube sin dejar rincones sin expl
 2. **Búsqueda en Ventana de Incógnito (Creador / VA):**
    - El creador abre una ventana de navegación en **modo incógnito** (libre de sesgos de historial de visualización personal) y busca el primer término de la pila.
 
-3. **Detección del Outlier (Anomalía Estadística y Relatibilidad):**
-   - Se localiza un video que haya superado ampliamente el rendimiento habitual (métrica: **5x a 10x de visualizaciones respecto al promedio del canal o a suscriptores**).
-   - **Filtro de Relatibilidad Universal sobre Volumen Bruto:** No elegir ciegamente el video con más millones de visitas si trata de un elemento hiper-especializado que nadie comprende fuera del nicho (ej. un "cuchillo de bismuto"). Es infinitamente superior modelar un outlier de 8M sobre un concepto universalmente reconocible (Red Bull, café, dinero, hábitos cotidianos, mascotas) que uno de 20M sobre un tecnicismo que carece de resonancia amplia.
+3. **Detección del Outlier (Anomalía Estadística con Contexto Temporal):**
+   - Se localiza un video que haya superado significativamente el rendimiento habitual del canal.
+   - **Contexto Temporal y Mediana:** No comparar únicamente vistas totales contra suscriptores (un video antiguo acumula vistas con los años). El ratio debe calcularse contrastando las vistas del video contra la **mediana de visualizaciones de videos comparables publicados por ese mismo canal en una ventana temporal reciente (últimos 3 a 6 meses)**.
+   - **Filtro de Relatibilidad Universal sobre Volumen Bruto:** No elegir ciegamente el video con más millones de visitas si trata de un elemento hiper-especializado que nadie comprende fuera del nicho (ej. un "cuchillo de bismuto"). Es preferible modelar un outlier de 8M sobre un concepto universalmente reconocible (Red Bull, café, dinero, hábitos cotidianos, mascotas) que uno de 20M sobre un tecnicismo que carece de resonancia amplia.
    - El creador pasa el enlace o título al agente, quien lo registra en la base de datos de research y analiza su *curiosity gap*.
 
 4. **Inmersión en el Canal:**
@@ -92,17 +93,17 @@ La gente puede desear intensamente un resultado (dormir mejor, tener energía, g
 
 ---
 
-## 3. La Métrica Reina: Satisfacción del Espectador (*Viewer Satisfaction*) y el Bucle *Winner-Take-All*
+## 3. Modelo Mental Editorial: Satisfacción del Espectador (*Viewer Satisfaction*) `[Práctica Editorial]`
 
-> **"The goal of every video is viewer satisfaction, not retention or raw CTR. Those are noisy proxy metrics. You optimize for: did you blow away the expectation you set?"**
+> **"El objetivo de cada video es maximizar la satisfacción del espectador con respecto a la promesa del empaque, por encima de métricas superficiales o ruidosas."**
 
-### 1. La Dinámica de Plataforma *Winner-Take-All* (El Ganador se Lleva Todo):
-1. **El bucle de YouTube (*The Flywheel*):**
-   - El packaging atrae al público objetivo correcto (no a curiosos que abandonan).
-   - El video cumple y **supera ampliamente la expectativa** creada por el título y la miniatura.
-   - Si la audiencia queda más satisfecha con tu video que con las opciones de la competencia, YouTube concluye: *"A esta audiencia le fascina este video; empujémoslo a más personas con este perfil exacto"*.
-2. **Dominio del Nicho:**
-   - En YouTube, el video que gana en clics cualificados y en satisfacción se convierte en el video hegemónico del tema en el feed de inicio y en las búsquedas, absorbiendo la gran mayoría del tráfico.
+### 1. El Bucle de Recomendación de YouTube:
+- La documentación pública de YouTube explica que sus sistemas de recomendación buscan personalizar el contenido para cada usuario según su historial, tiempo de visualización y señales de satisfacción (encuestas, retención, interacciones).
+- **El Modelo Mental de Trabajo:**
+  1. El packaging (título y miniatura) atrae al espectador adecuado planteando una expectativa honesta y atractiva.
+  2. El video entrega y **supera la promesa inicial**, reduciendo abandonos tempranos y aumentando las señales de satisfacción.
+  3. YouTube interpreta que este contenido responde con alta calidad a los intereses de ese grupo de usuarios y amplía su prueba hacia audiencias con perfiles de consumo similares.
+  *(Tratamos esto como una hipótesis de trabajo editorial orientada a la excelencia del contenido, no como una certeza matemática infalible).*
 
 ### 2. El Canal como una Campaña Global Única (Peligro del *Off-Topic Hit*)
 - **"Tu video con más visitas puede ser el menos valioso de tu canal."**
