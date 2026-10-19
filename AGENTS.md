@@ -161,14 +161,15 @@ Las herramientas de la oficina están catalogadas en `_framework/herramientas-y-
 - **Fact-Checking:** Consultar **Google Scholar & Labs** para abstracts y DOIs de papers primarios.
 - **Storyboard y Animatic:** Usar **Google Docs Video Scene Editor** o plantillas internas; generar locución provisional con **ElevenLabs (tier gratuito)**, **Luvvoice (Free tier / MCP oficial: `luvvoice.com/es/mcp`)** o TTS de sistema.
 - **Montaje y Edición:** Priorizar **FilmCraft** por su arquitectura abierta nativa para CLI y protocolo de control con agentes (MCP). El resultado del video piloto determinará si es viable en el entorno local o si se requiere asistencia manual en editores de escritorio.
-- **Música y SFX:** Explorar **FlowMusic**, **Google Flow** o la **YouTube Audio Library** libre de reclamos.
+- **Video Cinemático e Imágenes IA:** Usar **Google Flow (`flow.google.com`)** para generar tomas sintéticas de alta calidad o B-roll conceptual cuando no exista en stock libre.
+- **Música, Jingles y Branding Sonoro:** Usar **Google Flow Music (`flowmusic.app`)** para crear la firma sonora oficial del canal, jingles de cabecera o canciones completas estructuradas; o la **YouTube Audio Library** para pistas de fondo libres de reclamos.
 - **Búsqueda de Assets:** Conectar vía API/MCP con **Coverr**, **Pexels**, **Pixabay**, **Wikimedia Commons** u **Openverse**.
 
 ### 2. Protocolo de Traspaso (Handoff Agente ➔ Creador):
 Cuando una herramienta requiera interacción visual, inicio de sesión o ejecución manual en una interfaz web o software de escritorio, el agente **tiene prohibido dar instrucciones abstractas**. Debe **entregar el paquete completamente preparado y listo para usar** según el caso:
 
-- **Generadores de Música y Audio (FlowMusic, Google Flow, etc.):** El agente debe entregar el **prompt musical completo listo para copiar** (género, tempo/BPM aproximado, instrumentación, curva emocional y duración deseada para cada bloque).
-- **Generadores Visuales y de Miniaturas (Midjourney, Flux, DALL-E):** El agente entrega el **prompt visual detallado**, con parámetros técnicos (relación de aspecto `--ar 16:9` o `--ar 1:1`, estilo de iluminación, encuadre y focal point).
+- **Generadores de Música y Audio (Google Flow Music, etc.):** El agente debe entregar el **prompt musical completo listo para copiar** (género, tempo/BPM aproximado, instrumentación, curva emocional y duración deseada para cada bloque).
+- **Generadores Visuales y de Video Cinemático (Google Flow, Midjourney, Flux, DALL-E):** El agente entrega el **prompt visual o cinemático detallado**, con parámetros técnicos (relación de aspecto `--ar 16:9` o `--ar 1:1`, estilo de iluminación, encuadre, movimiento de cámara y punto focal).
 - **Simuladores de Feed (Thumblytics):** El agente entrega los 3 conceptos visuales y la pregunta exacta para el *glance test* para que el creador solo tenga que subirlos y simular.
 - **Plataformas de Publicación (YouTube Studio):** El agente entrega el título final, la descripción formateada con capítulos y marcas de tiempo, la lista de tags separada por comas y los textos de atribución de licencias listos para pegar.
 - **Investigación con Paywall (Google Scholar & Labs):** El agente entrega el DOI, enlace directo, título del paper y el abstract resumido para que el creador pueda descargar el PDF completo si requiere credenciales.
