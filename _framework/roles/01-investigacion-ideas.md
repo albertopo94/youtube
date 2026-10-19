@@ -91,7 +91,21 @@ La gente puede desear intensamente un resultado (dormir mejor, tener energía, g
 
 ---
 
-## 3. Metodología: Cómo Encontrar una Idea de Video Increíble
+## 3. La Métrica Reina: Satisfacción del Espectador (*Viewer Satisfaction*) y el Bucle *Winner-Take-All*
+
+> **"The goal of every video is viewer satisfaction, not retention or raw CTR. Those are noisy proxy metrics. You optimize for: did you blow away the expectation you set?"**
+
+### La Dinámica de Plataforma *Winner-Take-All* (El Ganador se Lleva Todo):
+1. **El bucle de YouTube (*The Flywheel*):**
+   - El packaging atrae al público objetivo correcto (no a curiosos que abandonan).
+   - El video cumple y **supera ampliamente la expectativa** creada por el título y la miniatura.
+   - Si la audiencia queda más satisfecha con tu video que con las opciones de la competencia, YouTube concluye: *"A esta audiencia le fascina este video; empujémoslo a más personas con este perfil exacto"*.
+2. **Dominio del Nicho:**
+   - En YouTube, el video que gana en clics cualificados y en satisfacción se convierte en el video hegemónico del tema en el feed de inicio y en las búsquedas, absorbiendo la gran mayoría del tráfico.
+
+---
+
+## 4. Metodología: Cómo Encontrar una Idea de Video Increíble
 
 ### 1. Tema (Subject) Increíble: El "What"
 - *¿De qué va el video?*
@@ -141,7 +155,7 @@ Antes de pasar una idea a guion, debe aprobar estos 6 filtros:
 
 ---
 
-## 3. Protocolo de Verificación de Hechos y Rigor de Fuentes (Fact-Checking)
+## 5. Protocolo de Verificación de Hechos y Rigor de Fuentes (Fact-Checking)
 
 Para videos que aborden papers científicos, divulgación tecnológica, historia, noticias o finanzas, **el rigor es un pilar de retención y credibilidad**:
 - **Peligro de la sobresimplificación:** Explicar un paper complejo o un concepto técnico de forma accesible para todos los públicos no debe significar distorsionar las conclusiones originales de los autores ni afirmar correlaciones dudosas como hechos demostrados.
@@ -155,7 +169,7 @@ Para videos que aborden papers científicos, divulgación tecnológica, historia
 
 ---
 
-## 4. Maduración de Ideas: De la Variedad a la Decisión Estratégica
+## 6. Maduración de Ideas: De la Variedad a la Decisión Estratégica
 Tener un banco amplio de ideas en `ideas.md` (papers, noticias satíricas, cócteles, lore, relax/dormir) es valioso como semillero, pero **cada canal exige una estrategia, público y métricas distintas**:
 - Un canal de divulgación científica exige rigor, gráficos claros y credibilidad.
 - Un canal pausado para dormir exige diseño sonoro inmersivo y duraciones extendidas.
@@ -163,6 +177,6 @@ Tener un banco amplio de ideas en `ideas.md` (papers, noticias satíricas, cóct
 
 ---
 
-## 5. Estrategia Lingüística como Hipótesis de Mercado
+## 7. Estrategia Lingüística como Hipótesis de Mercado
 La tabla de mercados de `_framework/estrategia-idiomas.md` (Español, Inglés, Hindi) debe tratarse como una **herramienta para formular hipótesis**, no como un ranking definitivo obligatorio:
 - Un mercado de cientos de millones de hablantes solo es una oportunidad real si somos capaces de producir contenido con la calidad cultural, idiomática y diferenciación requerida para competir en ese nicho.

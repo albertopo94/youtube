@@ -7,6 +7,8 @@
 
 ## 1. Concepto y Personalidad
 - **Claim / Propuesta de Valor única:** 
+- **Unfair Edge Statement del Canal (Frase de Autoridad Injusta):**  
+  *(La frase contundente y memorable que se repetirá en las intros de los videos para establecer de inmediato por qué deben escuchar a este canal y no a la competencia: ej. "Analizo los 50 papers originales de neurociencia para que no pierdas tiempo con mitos...")*
 - **Público Objetivo (Target):** Rango de edad, intereses, momentos de consumo (ej. relax antes de dormir, estudio, entretenimiento rápido).
 - **Tono de Voz:** (Humor satírico, tono chill, divulgación científica rigurosa, etc.).
 

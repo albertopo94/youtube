@@ -109,9 +109,9 @@ Todo tema y propuesta de packaging debe fundamentarse en los principios de *Brea
 Para que una fase se considere `APROBADO`, debe existir evidencia física demostrable:
 
 - **Fase Packaging:** Existen 5 títulos candidatos y 3 conceptos de miniatura bien diferenciados con bocetos/prompts en `01-packaging.md`. Título y enfoque elegidos por el creador.
-- **Fase Guion:** Existe el documento `02-guion.md` con estructura atómica por bloques `[Bxx]`, plot promise definida en los primeros segundos, aportación editorial justificada y fuentes primarias registradas en `06-fuentes-y-verificacion.md`.
+- **Fase Guion:** Existe el documento `02-guion.md` con estructura atómica por bloques `[Bxx]`, fórmula de intro en 3 pasos (reafirmar promesa en segundos 0-5, *Unfair Edge Statement* de autoridad y roadmap de compromiso mental), aportación editorial justificada y fuentes primarias registradas en `06-fuentes-y-verificacion.md`.
 - **Fase Animatic:** Existe una locución provisional reproducible y un timeline/animatic de baja fidelidad donde el ritmo y el flujo narrativo fueron evaluados y aprobados.
-- **Fase Producción y Edición:** Existen los recursos generados/descargados, la tabla de `03-storyboard-y-edicion.md` vinculada 1:1 con los bloques de guion, y el video exportado ha superado los checks de sonido (*sound check*), ritmo (*flow check*) y estilo (*style check*).
+- **Fase Producción y Edición:** Existen los recursos generados/descargados, la tabla de `03-storyboard-y-edicion.md` vinculada 1:1 con los bloques de guion, respetando la coherencia de estilo con el empaque (*la edición elimina fricción, no rescata un video vacío*), y el video exportado ha superado los checks de sonido (*sound check*), ritmo (*flow check*) y estilo (*style check*).
 - **Fase Auditoría Legal:** Todos los recursos cuentan con licencia verificada, términos archivados y textos de atribución en `04-registro-recursos.md`.
 
 ---

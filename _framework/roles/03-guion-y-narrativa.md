@@ -53,17 +53,27 @@ La regla de validar la promesa en los primeros segundos es una guía de retenci�
 
 ---
 
-## 4. Elementos Clave de una Gran Introducción
+## 4. La Fórmula de la Intro en 3 Pasos (Alineación, Autoridad y Compromiso Mental)
 
-### 1. Defining Your "Plot Promise" (Promesa de Trama)
-Toda apertura debe confirmar al espectador que está en el lugar correcto y que la promesa del packaging será saldada.
+Toda apertura eficaz debe responder en pocos segundos a las 3 preguntas críticas que se hace el espectador al hacer clic:
 
-### 2. The "Rest" of Your Intro (Los 3 Ingredientes)
-1. **Contexto mínimo indispensable:** Sólo el necesario para entender el siguiente punto; el resto se dosifica durante el desarrollo.
-2. **Curiosity Gaps (Brechas de curiosidad):** Abrir preguntas o contradicciones al inicio cuyas respuestas se entregarán a lo largo del video.
-3. **Unique Service Proposition:** Evidenciar esfuerzo, autoridad, estilo visual o prueba tangible desde temprano (*métrica: reducir el "tiempo hasta el valor"*).
+### 1. Reafirmar la Promesa (*Reaffirm what they clicked for*)
+- En el segundo cero, confirmar de inmediato con audio y video que el espectador está en el lugar correcto.
+- Cumplir la expectativa directa del título y la miniatura para que decida quedarse unos segundos más.
 
-### 3. Frontloading (Adelantar la Experiencia)
+### 2. El "Unfair Edge Statement" (Por qué debes escucharme a mí y no a otro)
+- La pregunta inconsciente inmediata es: *¿Por qué debería creerte a vos y no a los otros 20 creadores que hablan de lo mismo?*
+- Establecer en **una frase memorable, clavada y contundente** tu autoridad o ventaja injusta única:
+  - *"Sé esto porque pasé los últimos 3 meses leyendo los 50 papers originales de Oxford sobre..."*
+  - *"Gestiono 100M$ al mes en pauta publicitaria para clientes como X..."*
+- **Regla:** Esta declaración debe pulirse y repetirse como un sello de autoridad a lo largo de los videos del canal.
+
+### 3. El Roadmap de Compromiso Mental (*Where the video is going / Spoiler Intro*)
+- Una cosa es hacer una promesa; otra es lograr que el espectador decida **mentalmente comprometerse** a mirar un video de 10, 20 o 60 minutos.
+- Enumerar de forma lógica y rápida los hitos del video: *"Te voy a mostrar exactamente cómo configurar X, qué error arruina el 90% de los intentos, y el método exacto para resolver Y"*.
+- Al ver la estructura completa de lo que viene, el espectador concluye lógicamente: *"Esto es exactamente todo lo que necesito saber"* y se queda hasta el final.
+
+### 4. Frontloading (Adelantar la Experiencia)
 Si el video contendrá animación destacada, datos reveladores o edición especial, mostrar un destello de esa calidad en los primeros compases para fijar el estándar de producción en la mente de la audiencia.
 
 ---

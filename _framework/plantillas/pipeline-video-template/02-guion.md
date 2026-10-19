@@ -23,21 +23,24 @@
 
 > **Regla de ingeniería:** Cada bloque de locución tiene un identificador estable `[Bxx]`. Esto permite que una modificación futura en una frase solo requiera regenerar el audio de ese bloque y reajustar su escena correspondiente en el editor.
 
-### [B01_Hook] — Apertura y Validación de Promesa
-- **Tiempo estimado:** `00:00 - 00:08` (~8s)
-- **Objetivo narrativo:** Validar de inmediato la expectativa del packaging con audio y visual de impacto.
+### [B01_Hook_Promesa] — Reafirmar la Promesa y Unfair Edge Statement
+- **Tiempo estimado:** `00:00 - 00:10` (~10s)
+- **1. Reafirmación de la Promesa (Segundos 0-5):** *(Confirmar que están en el lugar correcto cumpliendo lo prometido en el packaging)*.
+- **2. Unfair Edge Statement (Autoridad en una frase):** *(Por qué deben escucharme a mí y no a otro)*:
+  > *"..."*
 - **Locución literal (Texto para voz):**
   > *"..."*
 - **Visual sugerido (para Animatic):** Placa de texto o imagen temporal de alta tensión.
 
 ---
 
-### [B02_Contexto] — Contexto Mínimo Indispensable y Curiosity Gap
-- **Tiempo estimado:** `00:08 - 00:25` (~17s)
-- **Objetivo narrativo:** Plantear la pregunta que mantendrá al espectador atento durante el video.
+### [B02_Roadmap_Compromiso] — Roadmap de Compromiso Mental y Curiosity Gap
+- **Tiempo estimado:** `00:10 - 00:30` (~20s)
+- **3. Roadmap de Compromiso Mental (*Where the video is going*):** *(Desglose rápido de lo que cubriremos para que el espectador decida quedarse el video completo)*.
+- **Curiosity Gap:** *(Pregunta o enigma central que mantendrá la tensión)*.
 - **Locución literal (Texto para voz):**
   > *"..."*
-- **Visual sugerido (para Animatic):** Gráfico provisional o captura del paper/fuente.
+- **Visual sugerido (para Animatic):** Gráfico provisional o captura del paper/fuente con rótulos de las secciones.
 
 ---
 

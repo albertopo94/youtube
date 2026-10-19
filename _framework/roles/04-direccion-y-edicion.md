@@ -55,7 +55,19 @@ Toda secuencia sólida de video se apoya en 3 momentos clave que a su vez ayudan
 
 ---
 
-## 3. Dominar las 3 C's of YouTube Visuals
+## 3. Coherencia entre Packaging y Estilo de Edición (La Ley de la Fricción)
+
+> **"Editing can remove friction from the process, but it cannot rescue a weak idea or an empty video."**  
+> *(La edición puede eliminar fricción visual y cognitiva del proceso, pero jamás podrá rescatar una mala idea ni un video vacío).*
+
+### La Regla de Alineación de Expectativas:
+- **No sobre-editar lo que se prometió crudo:** Si la miniatura y el título prometen un proceso transparente, real y sin filtros (ej. un speedrun, una llamada real o un experimento en vivo), una edición hiper-producida con transiciones innecesarias provoca rechazo (*"Esto no es lo que cliqué"*).
+- **No sub-editar lo que se prometió cinemático:** Si el packaging vende un documental de alto impacto o divulgación científica profunda, el ritmo, el color grading y la selección de B-roll deben cumplir ese estándar.
+- **Principio:** La edición debe calibrarse para cumplir y superar la expectativa estética exacta generada por el empaque, ni un milímetro por encima ni por debajo.
+
+---
+
+## 4. Dominar las 3 C's of YouTube Visuals
 
 ### 1. Content (El "What" visual del montaje)
 Todo elemento visual en pantalla debe tener un propósito justificado:
@@ -91,7 +103,7 @@ Todo elemento visual en pantalla debe tener un propósito justificado:
 
 ---
 
-## 4. Emoción: Provocar Respuestas Viscerales
+## 5. Emoción: Provocar Respuestas Viscerales
 Hace que los videos se recuerden, comenten y compartan:
 1. **Framing y Shot Selection:** Close-ups para intimidad, drama o tensión; wide shots para aislamiento o perspectiva; movimientos sutiles o acelerados de cámara.
 2. **Sound Design (Diseño de Sonido):**
@@ -103,7 +115,7 @@ Hace que los videos se recuerden, comenten y compartan:
 
 ---
 
-## 5. Final Checks (Control de Calidad Pre-Entrega)
+## 6. Final Checks (Control de Calidad Pre-Entrega)
 
 1. **The Sound Check:**
    - La edición no se escucha únicamente en un estudio silencioso con auriculares profesionales; el espectador puede estar en el metro, gimnasio o una cafetería ruidosa.

@@ -40,8 +40,13 @@
 
 ---
 
-## 4. Retrospectiva Editorial y Aprendizajes
+## 4. Retrospectiva Editorial: Evaluación de Satisfacción del Espectador (*Viewer Satisfaction*)
+
+> *Principio:* El CTR y la retención bruta son métricas ruidosas. Lo que define si YouTube activará el bucle *Winner-Take-All* es si el video superó la expectativa creada al hacer clic.
+
+- **Cumplimiento de la Promesa:** ¿El video superó con creces lo que prometía el packaging o se quedó corto en algún punto?
 - **Comportamiento en los primeros 30 segundos:** ¿Coincidió la expectativa de la miniatura con el arranque del video según el gráfico de retención?
 - **Puntos de fuga o abandono:** ¿En qué minuto/escena exacta cayó la curva y por qué motivo (explicación densa, cambio brusco de ritmo, broma fuera de lugar)?
 - **Puntos de retención máxima / picos:** ¿Qué sección generó re-visualizaciones o picos de atención?
+- **Sentimiento y Señales Cualitativas en Comentarios:** ¿Los espectadores expresan haber aprendido algo revelador o haberse sorprendido con el mecanismo presentado?
 - **Conclusión accionable para el siguiente video:**
