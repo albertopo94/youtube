@@ -3,7 +3,7 @@
 - **Título aprobado:**
 - **Promesa de Trama (Plot Promise):**
 - **Formato / Género:** (Divulgación / Ensayo / Tutorial / Narrativa / Relax / Proceso)
-- **Estructura Narrativa:** `[ ] Dinámica de Valor General` / `[ ] 6 Fases de Proceso/Transformación (Fórmula Brazen con Polaroid)`
+- **Estructura Narrativa:** `[ ] Dinámica de Valor General` / `[ ] Proceso y Transformación (Declaración ➔ Evaluación ➔ Proceso ➔ Revelación)` / `[ ] Estructura Libre según género`
 - **Grado de Guionado:** `[ ] Palabra por palabra (Full Script para voz en off/IA)` / `[ ] Estructura nítida (Bullet points con espacio para pensar para screencasts/experto)`
 - **Duración total estimada:** (ej. 8 minutos)
 - **Estado de Locución:** `[ ] Borrador provisional (Scratch Track)` / `[ ] Definitiva aprobada`

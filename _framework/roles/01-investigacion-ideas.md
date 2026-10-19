@@ -129,11 +129,11 @@ La gente puede desear intensamente un resultado (dormir mejor, tener energía, g
 - **El Trasplante:** Se sustituyen los personajes, escenarios y objetos por los de tu propio nicho o temática (ej. personajes de Minecraft cambiados por futbolistas legendarios; o un reto de videojuegos cambiado por un experimento científico cotidiano).
 - Se conserva la cadencia sonora y la estructura matemática que ya demostró resonar a escala masiva en el cerebro de la audiencia.
 
-### Los 3 Criterios Psicológicos para Shorts de Rendimiento Masivo:
-Para que un concepto en Shorts supere las 500k-1M+ reproducciones rápidamente, debe cumplir con estos 3 filtros simultáneos:
-1. **Universalmente Relatable (Accesibilidad Total):** El tema no requiere conocimientos especializados ni contexto previo (mascotas, comida, transformaciones, orden, objetos cotidianos). Cualquier persona del planeta lo comprende en 1 segundo.
-2. **Gancho Emocional de Absurdidad o Esfuerzo Irracional (*Irrational Effort*):** El espectador percibe un nivel de obsesión, precisión y dedicación tan desproporcionado por un resultado insólito que queda hipnotizado (*"este creador está loco por gastar tanto tiempo en esto"*).
-3. **Compulsión de Finalización (*Completion Compulsion*):** La mente humana detesta los bucles abiertos; al ver un objeto o ser en estado deplorable o una meta extrema al inicio, el espectador siente la necesidad irresistible de quedarse hasta el segundo 59 para presenciar la transformación completada.
+### Arquetipo Opcional de Estudio: Dinámicas de Shorts de Entretenimiento Masivo
+*(Patrón de referencia extraído de canales de entretenimiento viral; no es un filtro obligatorio para canales educativos, técnicos, B2B ni de nicho)*:
+1. **Universalmente Relatable (Accesibilidad):** En entretenimiento puro, temas cotidianos (mascotas, comida, transformaciones, orden) facilitan el alcance masivo sin barreras de entrada.
+2. **Esfuerzo Visible o Inusual:** En retos y entretenimiento, un nivel de obsesión o detalle desproporcionado engancha por curiosidad. En canales educativos o serios, este principio se traduce simplemente en **demostrar rigor, datos contrastados o pruebas tangibles**.
+3. **Compulsión de Finalización:** Plantear un dilema, enigma o estado inicial que invite naturalmente a quedarse hasta el final para conocer el desenlace.
 
 ---
 
