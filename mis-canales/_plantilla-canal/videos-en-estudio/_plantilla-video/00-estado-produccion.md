@@ -43,8 +43,8 @@
 - **Duración exacta:** `[MM:SS]`
 - **Inspección Técnica de Calidad:**
   - [ ] ¿El archivo abre y reproduce de principio a fin sin errores de códec ni artefactos?
-  - [ ] ¿Pacing visual conforme (ningún plano estático supera los 7 segundos sin cambio visual o dinamismo)?
-  - [ ] ¿Arquitectura de 3 pistas de audio presente (A1 voz normalizada a -23 LUFS, A2 música con ducking activo y A3 SFX sincronizados)?
+  - [ ] ¿Pacing visual conforme al perfil del video? (perfil por defecto: ningún plano estático supera **5 segundos** sin cambio visual o dinamismo; las extensiones requieren la **justificación de propósito** escrita en `03-storyboard-y-edicion.md` — el criterio de este video manda sobre el default)
+  - [ ] ¿Diseño de audio conforme al perfil del video? (perfil por defecto: A1 voz −23 LUFS / pico < −1.5 dBTP, A2 música con ducking −18 dB, A3 SFX; variaciones válidas solo con **justificación escrita** en `03-storyboard-y-edicion.md` y resultado **medido y escuchado**, no declarado)
   - [ ] ¿Sincronización exacta entre locución y cortes de imagen (sin desfases de audio)?
   - [ ] ¿Cero fotogramas negros no intencionados ni microgaps?
   - [ ] ¿Niveles de audio balanceados (*sound check* superado en móvil y auriculares)?
