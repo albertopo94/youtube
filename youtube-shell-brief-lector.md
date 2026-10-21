@@ -83,7 +83,7 @@ que no la lea va a terminar cargando code review a una oficina de video.
 
 | Concepto de software | Contraparte en producción de video |
 | :-- | :-- |
-| Test-first (RED antes de GREEN) | **Animatic antes del render** + hoja de aceptación antes del master: el animatic es el "test que falla primero" del video final |
+| Test-first (RED antes de GREEN) | **Animatic antes del render** + hoja de aceptación antes del master. **Matiz (advertencia externa 2026-10-21):** el animatic NO es literalmente un test RED — es un prototipo temprano de ritmo/narrativa; lo que más se parece a pruebas formales son la hoja de aceptación y el verificador de media |
 | Review de código con lentes independientes (risk/resilience/readability/reliability) | Review de artefacto creativo: gates de guion (anti-spoiler, fuentes, originalidad), review de packaging, quality gate del render **medido** |
 | El diff como evidencia de lo hecho | El documento de estado versionado por video + el informe de mediciones como evidencia |
 | "Resumible desde el diff" | Resumible desde `00-estado` + los archivos en disco (el framework ya lo manda) |
@@ -129,12 +129,11 @@ en el repo de referencia. El producto lo convierte de instrucción en control.
 | Cola de pendientes con condiciones de desbloqueo | `PENDIENTES.md` (especialmente P6 y P7) | Historial de decisiones; P7 contiene el diseño |
 | Revisión externa + disposition | `_framework/referencias/auditorias/revision-externa-*.md` | Antecedentes; la cita que originó la visión |
 
-**Nota de propiedad:** el repo de referencia es público pero **aún sin
-archivo `LICENSE`** (default de GitHub: all rights reserved). El creador es el
-dueño del contenido y autoriza la extracción expresamente; para evitar fricción
-legal futura, al primer commit del producto se crea un `LICENSE` MIT en el
-repo de referencia también. Al extraer assets se conserva atribución al repo
-de origen en el `CREDITS.md` del producto.
+**Nota de propiedad:** el repo de referencia **ya tiene `LICENSE` MIT** (agregado
+2026-10-21, commit `934c4e3`, justamente para habilitar esta extracción). El
+creador es el dueño del contenido y autoriza la extracción expresamente. Al
+extraer assets se conserva atribución al repo de origen en el `CREDITS.md` del
+producto.
 
 ## 4. Lo que el producto NO trae gratis y hay que construir
 
@@ -378,3 +377,63 @@ CLI Go aparte): tiers de riesgo, máquina de estados de revisión, congelado de
 candidatos, corrección acotada. Para youtube-shell: el patrón "núcleo Go/TS
 determinista + paquete de prompt heurístico verificado por hash" es el que se
 replica; el detalle interno de ese CLI no es importable.
+
+## 11. Segunda opinión externa sobre el producto (2026-10-21)
+
+**Fuente:** `_framework/referencias/producto/opinion-externa-producto-2026-10-21.md`
+(el mismo revisor, tras contrastar los 4 repos de §0). Veredicto: **la analogía es
+correcta como arquitectura de referencia y el producto vale la pena**; con tres
+salvedades que se integraron a este brief:
+
+### 11.1 Lo que confirmó (no cambia el diseño, lo valida)
+- La relación de 4 capas y "cada repo responde una pregunta distinta". Aclara que
+  gentle-shell no es una cuarta capa técnica a reproducir literalmente: es el
+  ejemplo de **cómo empaquetar**. (El brief ya lo decía en §2; now with witness.)
+- **El principio que importa NO es importar TDD/CI/code review literales**, sino:
+  *"el agente no debe ser el único responsable de comprobar si ha cumplido sus
+  propias instrucciones"*. Su ejemplo de tool de transición de fase = §4.1 exacto.
+- **El piloto como prueba de regresión**: el master medido (−17.5 LUFS, 1 pista) es
+  el caso que los verificadores del producto deben detectar. §6/§7 ya lo usaban
+  como smoke test; queda ratificado como **acceptance test del MVP**.
+- Tres límites que **protegen** la idea (no la debilitan): el animatic no es un
+  test RED literal (corregido en §2.1); una medición objetiva no determina si el
+  video es BUENO (el gate técnico convive con el checkpoint creativo humano, que
+  en este framework ya es exclusivamente del creador); la aprobación humana no se
+  reemplaza con un booleano — el sistema puede impedir omitirla, no ejercerla.
+- **No reproducir gentle-shell entero** (complejidad, agentes de programación y
+  revisión de código no trasladan). Coincide con §2.1-C; el MVP se concentra en
+  máquina de estados + validación de contrato + medición del master + integraciones
+  audiovisuales reales.
+
+### 11.2 La advertencia técnica nueva (la más importante) — VERIFICADA
+Pi **no trae un sistema de permisos/aislamiento integrado**: las tools habilitadas
+usan los permisos del SO del proceso (`docs/how-pi-works.md`:47-49, verificado en
+los docs locales de pi). Conclusión del revisor, correcta: **un gate "estructural"
+no es exponer un comando de chequeo — es controlar las operaciones**: interceptar
+las llamadas a herramientas, restringir qué tools están disponibles por fase,
+controlar las transiciones y, donde corresponda, aislamiento a nivel de SO. Si el
+agente conserva otra vía de escritura/ejecución que le permite continuar, el gate
+es decorativo.
+
+**Cómo se implementa esto sobre pi (evidencia local, no teoría):** el patrón ya
+existe en el stack que estudiamos (§10.3): las admissions de gentle-shell **bloquean
+en el hook del tool call** (`bounded-writer-admission.ts` devuelve `{block:true}`
+cuando la superficie es inválida), y el modo de permisos confirma/bloquea llamadas
+por patrón. Pi permite a una extensión inspeccionar y **rechazar tool calls antes
+de que se ejecuten** (`docs/extensions.md` — hooks de tool call + annotations
+readOnly/destructive). Es decir: el producto no necesita reemplazar pi; necesita una
+extensión whose admissions lean el estado de fase y bloqueen la llamada, exactamente
+como hace el harness de código con las superficies de edición. El aislamiento de SO
+(containerization/chroot) queda como opción endurecida para uso multiusuario.
+
+**→ Consecuencia para §4.1 (refinada):** la máquina de estados son DOS piezas, no
+una: (a) el evaluador de transiciones (qué fases están permitidas según estado) y
+(b) **la capa de intercepción** que hace que las tools de la fase bloqueada no estén
+disponibles / sean rechazadas en el hook. Un evaluador sin intercepción es el
+checker de este repo: útil, pero decorativo como gate.
+
+### 11.3 Fixes de mantenimiento que esta opinión produjo
+- §3 decía que el repo de referencia no tenía LICENSE: **stale** — se agregó MIT el
+  2026-10-21 (`934c4e3`); nota corregida.
+- §2.1 equiparaba animatic≙test RED de forma demasiado literal; matiz del revisor
+  integrado en la tabla.
