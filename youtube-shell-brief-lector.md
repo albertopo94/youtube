@@ -11,6 +11,31 @@
 
 ---
 
+## 0. Origen de la idea y repos de referencia
+
+**Cómo surgió:** el 2026-10-21, una revisión externa del repo de referencia dijo:
+*"el framework es todavía instrucciones en Markdown, no controles automatizados".*
+De esa cita salió la pregunta del creador: ¿y si este framework no fuera un manual
+que un agente genérico lee, sino el harness interno de un agente propio? Al estudiar
+el patrón de referencia (gentle-shell sobre pi, con gentle-ai como workflow) quedó
+demostrado que el patrón existe, se distribuye como paquete instalable y funciona:
+el piloto de video del repo de referencia fue ejecutado por un agente de esa misma
+familia. `youtube-shell` es replicar ese patrón en el dominio de producción de video.
+
+| Repo | Rol para `youtube-shell` | Qué se toma (y qué NO) |
+| :-- | :-- | :-- |
+| [github.com/earendil-works/pi](https://github.com/earendil-works/pi) | **Runtime (capa 1)** | Se usa tal cual (MIT). No se fork al inicio. Aporta: modelo, tools, sesiones, subagentes, skills, formato de paquete instalable. |
+| [github.com/Gentleman-Programming/gentle-ai](https://github.com/Gentleman-Programming/gentle-ai) | **Disciplina genérica (capa 2)** | Se emula el *patrón* de ingeniería: ODD (tamaño de tarea por comprensión/riesgo/resumabilidad), memoria de proyecto (Engram), evidencia de verificación, docs de feature, "delegar por razón, no por tamaño", revisión nativa. **No se copia su código ni sus marcas** (es para código, no para video). |
+| [github.com/Gentleman-Programming/gentle-shell](https://github.com/Gentleman-Programming/gentle-shell) | **El producto espejo (capa 4)** | Se copia el *patrón de empaquetado*: paquete de pi con persona, skills, orquestador, memoria, subagentes, instalador. Es la prueba de que un harness de dominio se puede distribuir así. **Nada de su nombre, marca ni assets** (trademarks: ver restricción §5.1). |
+| [github.com/albertopo94/youtube](https://github.com/albertopo94/youtube) | **Conocimiento de dominio (capa 3) + cliente cero** | El framework completo a extraer (tabla §3): fases, linters, YMYL, licencias, medición de media, integraciones MCP. Sigue siendo la oficina del creador: el primer usuario del producto (dogfooding). |
+
+**Relación entre ellos:** pi = motor · gentle-ai = disciplina genérica para código
+(patrón a imitar) · gentle-shell = empaquetado de esa disciplina como agente
+vertical (plantilla del producto) · el repo de referencia = dominio vertical de
+video (el contenido que hace único a este producto).
+
+---
+
 ## 1. Una frase
 
 **`youtube-shell` es un agente de producción de video, empaquetado como el
