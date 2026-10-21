@@ -11,6 +11,11 @@
 - **Régimen de Veracidad:** `[ ] Régimen 1: Ficción (N/A)` / `[ ] Régimen 2: Factual General` / `[ ] Régimen 3: Zona Roja YMYL`
 - **Grado de controversia o riesgo:** `[ ] Bajo (consenso amplio)` / `[ ] Medio (cifras/datos técnicos)` / `[ ] Alto (salud/financiero/polémico)`
 
+> **Aclaración del Régimen 1 (Ficción):** la ficción **no** exime automático de verificar. Un relato puede mencionar
+> personas reales, lugares, hechos históricos, ciencia o salud. Cada afirmación factual concreta se registra y se
+> verifica según su riesgo; solo la ficción que **no hace ninguna afirmación sobre lo real** puede marcarse `N/A`.
+> El riesgo decide los controles, no el género.
+
 ---
 
 ## 🔬 Parte 1: Investigación Previa (Antes de Redactar el Guion)

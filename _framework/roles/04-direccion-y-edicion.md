@@ -87,21 +87,27 @@ Toda secuencia sólida de video se apoya en 3 momentos clave que a su vez ayudan
 ### Las 4 Capas de Pulido Técnico y el Protocolo de Control de FilmCraft
 Un software de edición no es una simple pegadora de clips; un montaje sin pulido resulta tosco y amateur. Toda edición profesional exige aplicar cuatro capas:
 
-1. **Regla de Pacing Visual y Densidad de Planos (4 a 7 Segundos por Cambio):**
-   - ❌ **Prohibida la "mentalidad de diapositiva de PowerPoint":** En videos de YouTube (divulgación, ensayos o documentales), **ningún plano estático puede permanecer en pantalla más de 4 a 7 segundos sin una variación visual**.
+1. **Regla de Pacing Visual ( perfil por defecto, con excepción justificada):**
+   - ❌ **Prohibida la "mentalidad de diapositiva de PowerPoint":** por defecto, **ningún plano estático puede permanecer en pantalla más de 5 segundos sin una variación visual** (corte a nuevo plano, detalle B-roll, punch-in de escala 100% a 105%, o aparición escalonada de textos).
+   - **Excepción que paga peaje:** si el formato lo justifica, se puede extender el plano. La extensión **paga peaje**: se escribe en esta tabla una línea de **propósito creativo** (ej. "bloque de payoff emocional; la quietud es el recurso").
+   - **Prohibido:** "se me ocurrió así", "lo dejé como está" o cualquier extensión sin una frase de propósito. La justificación se evalúa en la misma escena que el plano.
+   - **No es universal:** videos Music-First / ambient, ensayos contemplativos o explicaciones lentas pueden tener planos más largos con justificación; el umbral de 5 s es el perfil por defecto, no una ley para todos los géneros.
    - Cubrir un bloque narrativo de 40 o 60 segundos con una sola imagen congelada destruye la retención del espectador.
    - **Exigencia de dinamismo:** Todo bloque extenso debe subdividirse en múltiples planos complementarios (detalles B-roll, cambios de ángulo, esquemas) o acompañarse de dinamismo de cuadro continuo (paneo Ken Burns, zooms lentos progresivos o rótulos y flechas que aparecen escalonadamente al ritmo de la voz).
+   - **Nota histórica:** antes esta regla decía "4 a 7 segundos" y la regla 4 decía "más de 3 segundos". Dos umbrales distintos, ninguno aplicable a todos los géneros; se unifican en 5 s como perfil por defecto.
 
 2. **Cortes de Continuidad (J-Cuts y L-Cuts):** Desfasar la entrada o salida del audio respecto a la imagen (entre 12 y 24 fotogramas) en transiciones de bloques narrativos, evitando cortes rectos secos que delaten el montaje.
 
-3. **Arquitectura Obligatoria de 3 Pistas de Audio (Diseño Sonoro y Ducking):**
+3. **Arquitectura de Audio (estudio de sonoro, perfil por defecto):**
    - Un montaje no está terminado si solo tiene la voz en la pista A1. Antes de exportar el render master, la línea de tiempo debe estructurar formalmente tres capas de audio:
-     - **Pista A1 (Locución / Voz principal):** Normalizada a estándares profesionales de transmisión (-23 LUFS con `essentialSound.autoMatch`).
-     - **Pista A2 (Música de fondo):** Atenuada automáticamente a **-18 dB / -24 dB** durante el diálogo con rampa suave a **-12 dB** en pausas dramáticas (`essentialSound.generateDucking`).
+     - **Pista A1 (Locución / Voz principal):** Normalizada a estándares profesionales de transmisión (**−23 LUFS** integrado, pico < −1.5 dBTP con `essentialSound.autoMatch`).
+     - **Pista A2 (Música de fondo):** Atenuada automáticamente a **−18 dB** durante el diálogo con rampa suave a **−12 dB** en pausas dramáticas (`essentialSound.generateDucking`).
      - **Pista A3 (Efectos de sonido / SFX):** Acentos sonoros colocados milimétricamente en la sílaba o fotograma exacto del impacto visual.
+   - **Estos valores son el perfil por defecto.** Un formato distinto (ambient, documental sonoro, etc.) puede variarlos con **justificación escrita en esta tabla**; lo que no se puede variar es que el resultado se **mida y escuche**: narración clara, equilibrio inteligible y ritmo vivo. Exigir un resultado editorial no es lo mismo que exigir una técnica concreta.
    - Si los archivos de música o SFX no están en disco, el agente debe solicitarlos, generarlos o descargarlos antes de dar la fase por completada.
 
-4. **Dinámica de Cuadro (*Punch-ins*):** En tomas que duren más de 3 segundos, aplicar reencuadres o zooms continuos sutiles (escala del 100% al 105% mediante keyframes de transformación en FilmCraft).
+4. **Dinámica de Cuadro (*Punch-ins*):** En tomas que duren **más de 5 segundos**, aplicar reencuadres o zooms continuos sutiles (escala del 100% al 105% mediante keyframes de transformación en FilmCraft).
+   - **Nota histórica:** antes esta regla decía "más de 3 segundos" y la regla 1 decía "4 a 7". Dos umbrales distintos; se unifican en 5 s como perfil por defecto.
 
 ### Consistencia Visual y Libertad de Contraste Intencional:
 - **Línea base de coherencia:** Aplicar en los prompts visuales los 4 anclajes de estilo (medio visual, paleta cromática dominante, iluminación/óptica y nodo maestro del sujeto o entorno).

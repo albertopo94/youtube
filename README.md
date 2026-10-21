@@ -119,7 +119,21 @@ Para realizar pruebas experimentales, testear herramientas (como locuciones TTS 
 
 ```bash
 # 1. Desde la carpeta padre del proyecto (ej. /Users/.../Proyectos):
-rsync -av --exclude='.git' youtube/ youtube-prueba/
+#    ⚠️ rsync NO respeta .gitignore: solo copia lo que se excluye explícitamente.
+#    Sin las exclusiones de abajo, la copia se lleva .env, claves (.pem/.key),
+#    credenciales, cachés (.atl/), renders y exports. Y luego el paso 2 invita a
+#    hacer 'gh repo create' encima: el sandbox se convierte en un espejo de los
+#    secretos del maestro. Exclusiones obligatorias:
+rsync -av \
+  --exclude='.git' \
+  --exclude='.env' --exclude='.env.*' \
+  --exclude='*.pem' --exclude='*.key' --exclude='*.local' \
+  --exclude='.atl/' --exclude='.codegraph/' \
+  --exclude='renders/' --exclude='**/renders/' \
+  --exclude='exports/' --exclude='**/exports/' \
+  --exclude='*.mp4' --exclude='*.mov' --exclude='*.mp3' --exclude='*.wav' \
+  --exclude='*.png' --exclude='*.jpg' \
+  youtube/ youtube-prueba/
 
 # 2. (Opcional) Si deseas versionar los avances del sandbox en un repositorio privado independiente:
 cd youtube-prueba
