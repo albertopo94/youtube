@@ -6,7 +6,11 @@
 >
 > **Origen:** repo de referencia `github.com/albertopo94/youtube`
 > (oficina de producción de video con framework propio, público, versionado).
-> **Fecha de este brief:** 2026-10-21.
+> **Portabilidad:** todos los paths relativos de este documento (`_framework/…`,
+> `odd/…`, `AGENTS.md`, plantillas) viven en el repo de referencia y son
+> navegables público en `https://github.com/albertopo94/youtube/tree/main/…` —
+> un agente en cualquier máquina puede leerlos sin clonar la oficina.
+> **Fecha de este brief:** 2026-10-21 (v3: integra opinión externa del producto §11).
 > **Estado:** aprobado el concepto por el creador. Nombre tentativo: `youtube-shell`.
 
 ---
@@ -264,7 +268,10 @@ opcional del usuario", nunca como dependencia del producto.
 ## 10. Cómo funciona el harness de referencia (estudio con evidencia path:line)
 
 Estudio realizado 2026-10-21 sobre el paquete gentle-pi instalado localmente
-(raíz abreviada GP/ = `~/.local/lib/node_modules/gentle-pi/`). Referencia
+(raíz abreviada GP/ = `~/.local/lib/node_modules/gentle-pi/`; el mismo código es
+público: paquete npm `gentle-pi` y el repo `Gentleman-Programming/gentle-shell`, donde
+las rutas `extensions/…`, `lib/…`, `assets/…` son las mismas — verificables en
+cualquier máquina con `npm i gentle-pi` o leyendo el repo). Referencia
 directa para quien desarrolle youtube-shell: responde las 3 preguntas de
 ingeniería — inyección del harness, flujo agéntico completo, y la frontera
 determinista vs heurística.
@@ -387,7 +394,10 @@ replica; el detalle interno de ese CLI no es importable.
 ## 11. Segunda opinión externa sobre el producto (2026-10-21)
 
 **Fuente:** `_framework/referencias/producto/opinion-externa-producto-2026-10-21.md`
-(el mismo revisor, tras contrastar los 4 repos de §0). Veredicto: **la analogía es
+en el repo de referencia (URL pública: `https://github.com/albertopo94/youtube/blob/main/_framework/referencias/producto/opinion-externa-producto-2026-10-21.md`;
+nota: este brief es autocontenido — el documento fuente es el testimonio histórico,
+no una dependencia para trabajar). El mismo revisor, tras contrastar los 4 repos de §0.
+Veredicto: **la analogía es
 correcta como arquitectura de referencia y el producto vale la pena**; con tres
 salvedades que se integraron a este brief:
 
