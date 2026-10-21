@@ -255,3 +255,126 @@ opcional del usuario", nunca como dependencia del producto.
    repo se corren con un paquete de pi de esa familia. El piloto de
    FilmCraft fue ejecutado por ese agente. El MVP ya fue validado en vivo;
    falta empaquetarlo.
+
+## 10. Cómo funciona el harness de referencia (estudio con evidencia path:line)
+
+Estudio realizado 2026-10-21 sobre el paquete gentle-pi instalado localmente
+(raíz abreviada GP/ = `~/.local/lib/node_modules/gentle-pi/`). Referencia
+directa para quien desarrolle youtube-shell: responde las 3 preguntas de
+ingeniería — inyección del harness, flujo agéntico completo, y la frontera
+determinista vs heurística.
+
+### 10.1 Inyección: cómo el contenido llega al modelo
+
+- Entrada: `GP/package.json` declara `pi.extensions`, `pi.skills`, `pi.prompts`,
+  `pi.themes`. Cada `GP/extensions/*.ts` es una extensión (13 archivos; la
+  principal `gentle-ai.ts` ~10.800 líneas). `postinstall` instala el binario Go.
+- Punto de inyección: `pi.on("before_agent_start")` en
+  `GP/extensions/gentle-ai.ts`:10284+. El harness COMPLETO solo entra en la
+  sesión PADRE (los hijos reciben otra cosa).
+- Se APPEND al system prompt, nunca reemplazo: `lib/append-system-prompt.ts`
+  muta `appendSystemPrompt` de forma idempotente.
+- Lo que entra SIEMPRE (presupuesto canónico: 9.100 bytes de core, test
+  `tests/orchestrator-budget.test.ts`:35, con historial de alzas documentado):
+  identidad/persona (~70 líneas de TS), `assets/orchestrator.md` (91 líneas),
+  y solo 9 líneas extraídas del bundle de revisión (93 existentes) — el bundle
+  NO se inyecta entero; verificación SHA-256 antes de leer
+  (`readVerifiedMirrorFile`).
+- Lo que entra BAJO DEMANDA (lazy): 8 archivos `orchestrator-*.md` (33-163
+  líneas) anunciados con punteros que deben NOMBRAR su contenido (test lo
+  prohíbe colapsar); los lee el modelo on-demand con `read`.
+- Skills: NO via prompt; indexación por trigger vía catálogo en disco
+  (`.atl/skill-registry.md`) regenerado con watch+debounce.
+- Subagentes: sus `.md` NO se inyectan al padre; viajan como
+  `--append-system-prompt` del PROCESO HIJO (si >1000 bytes, se materializan a
+  tmpdir 0700). El padre solo ve nombre/descripción/tools vía
+  `subagent_list_agents`. Ahorro documentado: quitar bloques gestionados del
+  AGENTS.md del hijo ahorra ~37k tokens de prefijo POR HIJO
+  (`lib/child-context-files.ts`).
+
+### 10.2 Flujo agéntico de principio a fin
+
+- Las 7 fases ODD viven en el bundle (`routing/pi.md`:5-11): Autorizar →
+  Explorar → Resolver incertidumbre → Clasificar (Task Size) → Track (doc de
+  feature + espejo de memoria + `todo`) → Implementar (handoff POR REFERENCIA:
+  `Spec: odd/tasks/x.md, T2, S3-S4`) → Cerrar. El core solo mantiene la copia
+  condensada de criterios y los 7 mecanismos de delegación.
+- Cada fase tiene TOOL registrada, no solo prosa: `todo`
+  (`extensions/gentle-todo.ts`), `gentle_odd_phase` (fase visible),
+  `subagent_run`/`list_agents`/mensajería padre-hijo (`extensions/gentle-agents.ts`),
+  revisión nativa (`gentle_review*`), `session_worktree_register`. La memoria
+  (`mem_*`) es OTRO paquete aparte: el core prohíbe afirmar que existe si no
+  está cargado.
+- Delegación: 7 triggers, cada uno obligatorio SOLO si su condición se cumple;
+  "ningún trigger aplica por defecto; con duda, trabajar inline". Umbrales
+  duros: batch inline ≤3 llamadas/~10k tokens; más allá → un explorador
+  read-only con informe ≤2k tokens y evidencia path:line.
+- Context backstop: umbral= min(150k, 15% de la ventana), calculado por CÓDIGO
+  (`lib/context-backstop.ts`) y pegado al resultado de la herramienta — antes
+  era prosa y el modelo tenía que "estimar su propio contexto" (el comentario
+  documenta esa migración de prosa a código).
+- task vs background: enum validado (valor inválido = throw); en background el
+  mensaje ordena terminar el turno y NUNCA pollerear; el `sleep` suelto está
+  bloqueado en runtime mientras hay trabajo activo. Cada subagente es un
+  proceso pi propio con `--tools` explícito derivado del frontmatter del agente
+  (el hijo NO hereda las tools del padre).
+- Paralelismo: escritores paralelos solo con "Allowed edit surfaces" disjuntas
+  validadas por código (`lib/bounded-writer-admission.ts`) o worktrees aislados.
+
+### 10.3 La frontera determinista vs heurística (la pregunta de oro)
+
+Es CÓDIGO que falla (no prosa):
+
+| Regla | Implementación | Fallo |
+| :-- | :-- | :-- |
+| Superficies del writer | parser Markdown canónico; rechaza `.`, raíz, absolutos, `..`, globs amplios | bloquea el tool call con el problema concreto |
+| Writer sin doc de feature | admite solo si el `Spec:` apunta a archivo EXISTENTE (symlinks resueltos) | bloquea |
+| Verificador sin riesgo | exige línea `Risk: item N` (1-6) + documento | bloquea |
+| Dispatch de revisión dual | headings exactos, IDs canónicos, SHA-256 del ledger recalculado | rechaza con el contrato completo |
+| Confinamiento worktree | registros por-target y por-sesión | throw |
+| Consentimiento/review | 9 JSON schemas + fixtures; CLI Go con exit code | exit≠0 + parse estricto |
+| Tokens opacos (cursors) | re-derivación base64url y comparación byte a byte; whitelists | fail-closed a `unavailable` |
+| Bash destructivo | deny-patterns léxicas + comandos guardados allow/confirm/block | bloqueo (los propios docs admiten que es LÉXICO, no evaluación de shell) |
+| Fase ODD | máquina de precedencia inferred vs explicit | throw |
+
+Se deja al LLM a PROPÓSITO: elección de lentes ("juzga por consecuencia, no
+por nombres de archivo") con razón obligatoria; clasificación de task size y
+riesgo (el "resume test" es deliberadamente semántico; el código solo CONSUME
+la línea que el modelo escribió); redacción del handoff; cuándo preguntar;
+cuándo delegar (el umbral es duro, el disparo es juicio).
+
+**El POR QUÉ, textual, en tres fragmentos del propio código/docs:**
+
+1. `bounded-writer-admission.ts`:69-71: *"las reglas de prompt solas no
+   detuvieron la delegación de tareas pequeñas (una petición de dos funciones
+   seguía iniciando dos writers para unidades de ~35 líneas)"* → la regla
+   migró a CÓDIGO después de fallar como PROSA. Igual en `verifier-admission`
+   y `context-backstop`.
+2. `orchestration/pi.md`:51-52: *"Pi never reconstructs lineage, target,
+   revision, ... Go owns repository binding, frozen evidence, validation,
+   admission, and closure."* → Go (determinista) es dueño del ESTADO y la
+   VALIDACIÓN; el agente es dueño del JUICIO.
+3. `orchestration/pi.md`:3: *"prompt prose never creates authority"* → la
+   prosa nunca otorga autoridad; solo los bindings emitidos por el runtime.
+
+**Criterio extraíble (para youtube-shell):** va en CÓDIGO lo que es
+verificable estructuralmente y tiene artefacto observable (sección Markdown,
+path, hash, exit code, token opaco). Va en PROMPT lo que exige juicio de
+consecuencia (riesgo, pertinencia, redacción, oportunidad). El patrón no es
+"prohibir" sino **exigir la forma y validarla**: el modelo siempre escribe la
+superficie; el runtime decide si es estrecha.
+
+Traducción al dominio video: "la fase N no arranca si N-1 no está APROBADO" =
+código (el estado es un artefacto observable en 00-estado-produccion.md).
+"Escribir el gancho" = prompt. "¿Este tema es YMYL?" = el modelo lo declara;
+el checker exige que la declaración EXISTA con forma válida; la creación
+aprobada queda como decisión humana (checkpoint). Y la lección de
+inversión: no escribas los gates en prosa esperando obediencia — el camino
+probado es prosa primero, observar la falla, y SOLO THEN migrar la regla a
+código (así nació cada admissions-check de Gentle-Programming).
+
+**No verificable localmente** (espejos/schemas, la implementación vive en el
+CLI Go aparte): tiers de riesgo, máquina de estados de revisión, congelado de
+candidatos, corrección acotada. Para youtube-shell: el patrón "núcleo Go/TS
+determinista + paquete de prompt heurístico verificado por hash" es el que se
+replica; el detalle interno de ese CLI no es importable.
