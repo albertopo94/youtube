@@ -30,9 +30,10 @@ familia. `youtube-shell` es replicar ese patrón en el dominio de producción de
 | [github.com/albertopo94/youtube](https://github.com/albertopo94/youtube) | **Conocimiento de dominio (capa 3) + cliente cero** | El framework completo a extraer (tabla §3): fases, linters, YMYL, licencias, medición de media, integraciones MCP. Sigue siendo la oficina del creador: el primer usuario del producto (dogfooding). |
 
 **Relación entre ellos:** pi = motor · gentle-ai = disciplina genérica para código
-(patrón a imitar) · gentle-shell = empaquetado de esa disciplina como agente
-vertical (plantilla del producto) · el repo de referencia = dominio vertical de
-video (el contenido que hace único a este producto).
+(patrón a imitar — **ver §2.1 qué se extrae y qué no**) · gentle-shell =
+empaquetado de esa disciplina como agente vertical (plantilla del producto) ·
+el repo de referencia = dominio vertical de video (el contenido que hace único
+a este producto).
 
 ---
 
@@ -54,8 +55,51 @@ Este producto le da memoria, pipeline y evidencia."*
 | :-- | :-- | :-- | :-- |
 | 4 · Producto | `youtube-shell`: runtime + harness de video | **nuevo (este trabajo)** | Construirlo |
 | 3 · Conocimiento de dominio | El framework del repo de referencia: fases, linters, YMYL, licencias, medición | **el creador (existente)** | Extraerlo y empaquetarlo |
-| 2 · Disciplina genérica | gentle-ai (ODD, memoria, evidencia, review) | Gentleman-Programming | **Emular el patrón, no heredar el código** (es para código) |
+| 2 · Disciplina genérica | gentle-ai (ODD, memoria, evidencia, review) | Gentleman-Programming | **Emular el patrón, no heredar el código** (es para código; ver §2.1) |
 | 1 · Runtime | `pi` (MIT) | earendil-works | Usarlo, no forkarlo (al menos al inicio) |
+
+### 2.1 Qué se extrae de la disciplina — y qué NO (tabla de adopción)
+
+La disciplina de referencia está escrita para **ingeniería de software**:
+su contenido incluye TDD, review de diffs, PRs, lineage de revisiones y
+mecanismos de entrega de código. **No se importa el contenido: se importan
+los principios donde existen contrapartes en producción de video**, y se
+sacan de ecuación los que no la tienen. Esta tabla es obligatoria: un agente
+que no la lea va a terminar cargando code review a una oficina de video.
+
+**A — Se adopta (el patrón ya tiene equivalente en el repo de referencia):**
+
+| Principio de la disciplina | Equivalente en el dominio video |
+| :-- | :-- |
+| Autorización: trabajo read-only hasta que el usuario pide un cambio | Ya existe: niveles de autonomía de `AGENTS.md` (autonomía normal / checkpoints creativos / confirmación obligatoria) |
+| Documento de feature + estado persistente que sobrevive la sesión | Ya existe: `00-estado-produccion.md` + suite `00→06` ("completar casillas no equivale a haber demostrado el resultado") |
+| Subagentes con ruta de regreso (explorador / escritor / verificador) | Funciona: agente de investigación (DFS/outliers), agente de guion, verificador de media (mediciones) |
+| "Delegar por una razón, no por tamaño" | Se conserva el principio de enrutado |
+| Confirmación humana antes de operaciones sensibles (costo, irreversible, publicación) | Ya existe: `AGENTS.md` §02.3 (publicar, gastos, borrados irreversibles, git destructivo) |
+| Skills como unidad de conocimiento de dominio | Se conserva el mecanismo; el contenido es de video |
+| Memoria de proyecto entre sesiones | Se conserva; el estado por video ya lo provee el framework |
+
+**B — Se adapta (concepto de software → contraparte de media):**
+
+| Concepto de software | Contraparte en producción de video |
+| :-- | :-- |
+| Test-first (RED antes de GREEN) | **Animatic antes del render** + hoja de aceptación antes del master: el animatic es el "test que falla primero" del video final |
+| Review de código con lentes independientes (risk/resilience/readability/reliability) | Review de artefacto creativo: gates de guion (anti-spoiler, fuentes, originalidad), review de packaging, quality gate del render **medido** |
+| El diff como evidencia de lo hecho | El documento de estado versionado por video + el informe de mediciones como evidencia |
+| "Resumible desde el diff" | Resumible desde `00-estado` + los archivos en disco (el framework ya lo manda) |
+| CI / suite de tests | `check-contrato.sh` + mediciones ffmpeg como "CI" del pipeline |
+
+**C — No se trae (mecanismo de software sin equivalente en el dominio):**
+
+- TDD literal (tests de código RED/GREEN) — el principio sí, el mecanismo no.
+- Code review de diffs, PRs, PR encadenados, delivery por commits como unidad de trabajo (en video la unidad es el **entregable de fase**, no el commit; el git versiona estados y docs, no el metraje).
+- RDD: lineage, receipts, autoridad de revisión, árboles congelados — no tiene contraparte en media en el MVP.
+- Worktrees y ramas de código como paralelismo (en video el paralelismo es **assets en paralelo** — generar 14 placas a la vez — no código en paralelo).
+
+**Regla de oro del §2.1:** si un concepto de la disciplina no puede
+enunciarse con ejemplos de este dominio (bloques, placas, ducking, vetados,
+licencias, fases), no entra en el producto. El software no se mete en la
+oficina; la oficina sí se mete en el agente.
 
 **Principio rector:** NO construir runtime. La capa 1 ya tiene dueño y es MIT.
 Construir un runtime propio (F2 del diseño) queda explícamente descartado por
