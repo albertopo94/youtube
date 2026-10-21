@@ -140,6 +140,12 @@ producto.
 Única pieza con ingeniería nueva real:
 
 ### 4.1 La máquina de estados de fases
+
+> ⚠️ **Refinada por la opinión externa de §11.2:** la máquina son DOS piezas — el
+> evaluador de transiciones (qué fases están permitidas) **y** la capa de
+> intercepción de tool calls que hace que las tools de una fase bloqueada sean
+> rechazadas en el hook (patrón verificado en §10.3 y en los docs de pi). Un
+> evaluador sin intercepción es decorativo: pi no aísla por defecto.
 Hoy las fases (00-estado, packaging, guion, storyboard, recursos, métricas) se
 cumplen **por buena voluntad del agente** (nivel 1 de los 3 niveles de fuerza).
 El producto la convierte en **control estructural** (nivel 3): la fase N no
