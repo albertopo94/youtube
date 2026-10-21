@@ -14,7 +14,7 @@
 
 - [ ] **Aportación Original:** ¿Aporta análisis, síntesis, narrativa o conclusiones que van más allá del material de origen?
 - [ ] **Anti-Contenido Reutilizado:** ¿Evita sustituir la obra original (en libros) o reproducir clips ajenos sin valor añadido (en noticias)?
-- [ ] **Fact-Checking Completado:** ¿Las afirmaciones sustanciales están verificadas con DOI en `06-fuentes-y-verificacion.md`? *(Obligatorio en Régimen 3 YMYL; no aplica en Régimen 1 Ficción)*.
+- [ ] **Fact-Checking Completado:** ¿Las afirmaciones sustanciales están verificadas con DOI en `06-fuentes-y-verificacion.md`? *(Obligatorio en Régimen 3 YMYL. En Régimen 1 Ficción: solo es `N/A` si el guion **no hace ninguna afirmación sobre lo real**; si menciona personas reales, lugares, hechos históricos, ciencia o salud, esas afirmaciones específicas se registran y verifican igual — el riesgo decide los controles, no el género).*
 - [ ] **Linter de Léxico Prohibido y Matización Científica (YMYL):**
   - ¿Se eliminaron términos absolutos como *"este estudio demuestra"*, *"cura milagrosa"*, *"el secreto oculto"*?
   - ¿Si el estudio fue en modelos animales (ratones/in vitro), se explicita claramente en la locución que no es concluyente en humanos?

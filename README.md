@@ -121,19 +121,32 @@ Para realizar pruebas experimentales, testear herramientas (como locuciones TTS 
 # 1. Desde la carpeta padre del proyecto (ej. /Users/.../Proyectos):
 #    ⚠️ rsync NO respeta .gitignore: solo copia lo que se excluye explícitamente.
 #    Sin las exclusiones de abajo, la copia se lleva .env, claves (.pem/.key),
-#    credenciales, cachés (.atl/), renders y exports. Y luego el paso 2 invita a
-#    hacer 'gh repo create' encima: el sandbox se convierte en un espejo de los
-#    secretos del maestro. Exclusiones obligatorias:
+#    cachés y renders. Y luego el paso 2 invita a 'gh repo create' encima:
+#    el sandbox se convierte en un espejo de los secretos del maestro.
+#
+#    Estrategia (verificada con dry-run en openrsync/macOS): excluir los
+#    SECRETOS por patrón y los MEDIOS por UBICACIÓN de carpeta. Se excluye por
+#    extensión global solo el video/audio pesado descartable, NUNCA imágenes:
+#    así sobreviven al sandbox el material de referencia (banner) y la
+#    evidencia legal (`licencias/`, `assets/licencias/` — capturas de términos,
+#    PDFs), que no son output descartable.
 rsync -av \
-  --exclude='.git' \
+  --exclude='.git/' \
   --exclude='.env' --exclude='.env.*' \
   --exclude='*.pem' --exclude='*.key' --exclude='*.local' \
-  --exclude='.atl/' --exclude='.codegraph/' \
-  --exclude='renders/' --exclude='**/renders/' \
-  --exclude='exports/' --exclude='**/exports/' \
-  --exclude='*.mp4' --exclude='*.mov' --exclude='*.mp3' --exclude='*.wav' \
-  --exclude='*.png' --exclude='*.jpg' \
+  --exclude='.atl/' --exclude='.codegraph/' --exclude='.DS_Store' \
+  --exclude='renders/' --exclude='exports/' \
+  --exclude='audio/' --exclude='video/' --exclude='clips/' --exclude='thumbs/' \
+  --exclude='*.mp4' --exclude='*.mov' --exclude='*.avi' \
+  --exclude='*.mp3' --exclude='*.wav' \
   youtube/ youtube-prueba/
+
+# ⚠️ Límite conocido de esta estrategia: la exclusión por carpeta solo
+#    protege si los medios descartables viven en sus carpetas canónicas
+#    (`renders/ exports/ audio/ video/ clips/ thumbs/` — las que ya usa el
+#    pipeline). Un .mp4 suelto fuera de esas carpetas SÍ viaja al sandbox.
+#    Regla operativa: los descartables van SIEMPRE en su carpeta; si un
+#    experimento genera medios en otra ruta, agregala al comando antes de copiar.
 
 # 2. (Opcional) Si deseas versionar los avances del sandbox en un repositorio privado independiente:
 cd youtube-prueba
