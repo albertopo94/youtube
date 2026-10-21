@@ -32,12 +32,12 @@ Esta iteración no agrega metodología creativa nueva; hace que lo escrito sea v
 
 | ID | Spec | Ruta | Commit |
 | :-- | :-- | :-- | :-- |
-| T1 | S5, S6 | `_framework/referencias/evidencia-piloto/medicion-master-piloto.md` — informe medido y reproducible del master, declarando el alcance real de la corrida (animatic con scratch track, no master de producto) | `docs(pilot): record measured quality evidence of the pilot master` |
-| T2 | S1, S2 | `_framework/herramientas-y-apis.md` — leyenda en 3 niveles (Documentado / Probado / Validado para este flujo), reclasificación de las filas cuyo color no tiene evidencia, FilmCraft a su estado real post-piloto. EffectCraft **intocable** por S2 | `fix(tools): align validation legend with recorded evidence` |
-| T3 | S3 | Pacing 4-7s vs 3s y las 3 pistas con valores fijos pasan a perfil por género + peaje de justificación en `_framework/roles/04-direccion-y-edicion.md`, ambas copias de `03-storyboard-y-edicion.md` y `AGENTS.md` | `refactor(editing): turn pacing and audio constants into genre profiles with justified exceptions` |
-| T4 | S1, S3 | Sincronizar timecodes e IDs de bloque entre `02-guion.md` y `03-storyboard-y-edicion.md` (ambas copias) y cerrar la exención de ficción en `06-fuentes-y-verificacion.md` | `fix(templates): sync script and storyboard timings and narrow fiction exemption` |
-| T5 | S1 | `README.md` — el `rsync` del sandbox con exclusiones explícitas de secretos y medios, porque `rsync` no respeta `.gitignore` | `fix(sandbox): exclude secrets and media from the sandbox copy` |
-| T6 | S1, S3 | Checker determinista de contrato (timecodes coincidentes, estados válidos, color respaldado por evidencia) + `revision y señalamientos de un amigo.md` archivada con status por hallazgo | `feat(framework): add contract checker and record review disposition` |
+| T1 | S5, S6 | `_framework/referencias/evidencia-piloto/medicion-master-piloto.md` — informe medido y reproducible del master, declarando el alcance real de la corrida (animatic con scratch track, no master de producto) | `a03b111` ✅ |
+| T2 | S1, S2 | `_framework/herramientas-y-apis.md` — leyenda en 3 niveles (Documentado / Probado / Validado para este flujo), reclasificación de las filas cuyo color no tiene evidencia, FilmCraft a su estado real post-piloto. EffectCraft **intocable** por S2 | `7273357` + `31780a0` ✅ |
+| T3 | S3 | Pacing 4-7s vs 3s y las 3 pistas con valores fijos pasan a perfil por género + peaje de justificación en `_framework/roles/04-direccion-y-edicion.md`, ambas copias de `03-storyboard-y-edicion.md` y `AGENTS.md` | `7273357` ✅ |
+| T4 | S1, S3 | Sincronizar timecodes e IDs de bloque entre `02-guion.md` y `03-storyboard-y-edicion.md` (ambas copias) y cerrar la exención de ficción en `06-fuentes-y-verificacion.md` | `7273357` ✅ |
+| T5 | S1 | `README.md` — el `rsync` del sandbox con exclusiones explícitas de secretos y medios, porque `rsync` no respeta `.gitignore` | `7273357` ✅ |
+| T6 | S1, S3 | Checker determinista de contrato (timecodes coincidentes, estados válidos, color respaldado por evidencia) + `revision y señalamientos de un amigo.md` archivada con status por hallazgo | `31780a0` ✅ |
 
 ## Log
 
@@ -61,3 +61,14 @@ Esta iteración no agrega metodología creativa nueva; hace que lo escrito sea v
 - **L6.** Cronología verificada que da la razón al revisor: el master se renderizó `2026-10-20 00:24`
   y la regla de pacing y 3 pistas se escribió `2026-10-20 00:52` con el mensaje
   `...before master render`. El estándar se redactó después del resultado que dice gobernar.
+- **L7.** Hito del checker: primera corrida contra el maestro dio 13 errores (RED), incluyendo
+  `🟢 DISPONIBLE / MCP` de Luvvoice y `🟢 DISPONIBLE / DOC.` de Flow con color verde (el bug exacto
+  que señaló el revisor). Tras corregir leyenda y texto: 0 errores (GREEN). Segunda corrida contra la
+  copia vieja del sandbox: detecta los mismos bugs históricos donde aún viven (10 errores + 7 IDs de
+  bloque del piloto pre-renombrado). El checker prueba contra evidencia real, no contra plantillas vacías.
+- **L8.** Corrección de alcance del checker: la regla 4 original buscaba palabras mágicas
+  ("evidencia", "piloto") dentro de la fila; producía falsos positivos en 13 filas 🟢 legítimas.
+  Fue reemplazada por la regla estructural correcta: color 🟢 ⇒ la celda de estado dice PROBADA y la
+  columna "Acciones Específicamente Probadas" tiene contenido; color 🟡 ⇒ DOCUMENTADA. El checker
+  también tuvo un bug propio (`head()` ensombrecía el comando `head`) que fabricó una línea
+  `=== -1 ===`; detectado, renombrado a `sec()`, verificado.
