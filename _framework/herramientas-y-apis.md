@@ -42,7 +42,7 @@ Toda herramienta debe evaluarse sobre cuatro evidencias técnicas verificables:
 | **Luvvoice (Web, MCP & Skill)** | `04` | Locución provisional (TTS gratuito) con soporte MCP y Skill | 🟢 DISPONIBLE / MCP | Web: [luvvoice.com/es](https://luvvoice.com/es) (Docs: [/es/doc](https://luvvoice.com/es/doc), MCP: [/es/mcp](https://luvvoice.com/es/mcp), Skill: [/es/skill](https://luvvoice.com/es/skill)). | **Solo Free Tier.** Ideal para locución provisional (*Scratch Track*) y animatic sin costo. Dispone de servidor MCP oficial y Skill para integración con agentes. |
 | **ElevenLabs (Tier Creator)** | `05` | Locución comercial definitiva | 🟡 DISPONIBLE / DOC. | Derechos comerciales de salida bajo suscripción de pago. | Requiere suscripción activa para monetización en YouTube. |
 | **FilmCraft** | `04 / 05` | **Montaje y timeline asistido por agentes (CLI / MCP)** | 🔴 CANDIDATA A PILOTO | Repositorio: [github.com/storytold/filmcraft](https://github.com/storytold/filmcraft). Protocolo verificado en código. | **Herramienta prioritaria para automatización por agentes.** Su protocolo de control y MCP soportan nativamente: recorte de pistas, cortes J/L, Essential Sound, normalización de sonoridad (`essentialSound.autoMatch`), curvas de ducking paramétrico (`essentialSound.generateDucking`) y keyframes de escala/posición. En fase alfa (~56%), el render reproducible en macOS Intel es el objetivo central del piloto. |
-| **EffectCraft** | `05` | Motion graphics y efectos visuales vía agentes | 🔴 EXPERIMENTAL | Repositorio: [github.com/storytold/effectcraft](https://github.com/storytold/effectcraft). | Protocolo de control documentado. Fase alfa temprana; supeditada a la validación previa de FilmCraft. |
+| **EffectCraft** | `05` | Motion graphics, cinemática de textos, onomatopeyas pop y overlays animados vía CLI/MCP | 🟢 PROBADA EN ENTORNO | Binario local: `effectcraft-cli 0.11.1` (`/Users/albertmac11/.local/bin/effectcraft-cli`). Repo: [github.com/storytold/effectcraft](https://github.com/storytold/effectcraft). | Soporta scripting JSX estilo After Effects (`app.project`, capas, keyframes), servidor MCP nativo (`effectcraft-cli mcp`) y renderizado directo a video (`render --comp C --out clip.mp4` en H.264, ProRes o transparente). Genera clips animados de 3 a 6s para la pista V2 en FilmCraft. |
 | **SoundCraft** | `05` | Mezcla y edición de pistas de audio | 🔴 EXPERIMENTAL | Repositorio: [github.com/storytold/soundcraft](https://github.com/storytold/soundcraft). | Arquitectura tipo Pro Tools documentada. Fase pre-alfa; no apto para master final inmediato. |
 | **Coverr (Web)** | `05` | Descarga de clips de stock libres de derechos | 🟢 PROBADA EN ENTORNO | Descarga directa de archivos mp4 para edición. | La web otorga licencia libre; guardar captura de términos en `licencias/`. |
 | **Coverr (MCP / API)** | `05` | Búsqueda asistida de clips para agentes | 🟡 DISPONIBLE / DOC. | Identificación del servidor MCP (`mcp.coverr.co`). | Plan Demo limitado a 50 req/h; términos de API restringen uso comercial gratuito. |
@@ -64,3 +64,20 @@ Toda herramienta debe evaluarse sobre cuatro evidencias técnicas verificables:
 2. **Montaje:** Intentar el montaje con **FilmCraft** por su integración con agentes (CLI/MCP). Si en este Mac Intel surgen fallos de render o inestabilidad, recurrir a un editor consolidado de escritorio (DaVinci Resolve o CapCut) como plan de contingencia documentado.
 3. **Imágenes / B-Roll:** Descargar stock verificado desde las webs oficiales de Coverr/Pexels archivando la licencia en `licencias/`. Generar visuales con Midjourney/Flux bajo suscripción comercial.
 4. **Publicación:** Subir manualmente a YouTube Studio y activar la prueba nativa "Prueba y Compara".
+
+---
+
+## 3. Lecciones Operativas de FilmCraft y EffectCraft en macOS Intel (Comprobadas en el Piloto)
+
+A partir de la ejecución técnica real del video piloto de 09:36 minutos en este entorno, se establecen estas reglas de ingeniería:
+
+1. **Orden Obligatorio de Inicialización:**
+   `file.newProject` ➔ `file.newSequence` (con resolución y fps explícitos). Si no se crea la secuencia inmediatamente, los comandos posteriores (`inspect` o `timeline.place`) fallan con error `no active sequence`.
+2. **Escala Temporal en Ticks Enteros:**
+   FilmCraft calcula el tiempo de timeline en enteros exactos: **`254.016.000.000` ticks por segundo**. Cualquier inserción de clips o keyframes debe multiplicar los segundos por esta constante.
+3. **Persistencia Obligatoria en Disco (`--save`):**
+   Al ejecutar comandos headless vía `filmcraft-cli exec`, es obligatorio incluir el flag `--save`. De lo contrario, los cambios ocurren en la memoria RAM del proceso y no se escriben en el archivo `.fcproj`.
+4. **Rendimiento de Render en macOS Intel:**
+   En este Mac Intel x86_64, la exportación H.264 a 1080p @ 24fps procesa a **~12.6 fps** (aproximadamente la mitad de la velocidad de tiempo real; un video de 9.5 minutos tarda ~18 minutos de render). No es un cuelgue ni fallo de memoria; prever esa ventana de procesamiento.
+5. **Generación de Placas y Títulos:**
+   Para renderizar títulos, viñetas o gráficos sin dependencias externas (PIL o ImageMagick), el agente debe utilizar **`effectcraft-cli render-frame`** o compilar scripts nativos con Swift (`swiftc` con CoreGraphics/AppKit).
