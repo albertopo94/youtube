@@ -57,7 +57,7 @@ sec "2. Estados de producción válidos"
 # ---------------------------------------------------------------------------
 while IFS= read -r estado; do
   rel=${estado#"$ROOT"/}
-  bad=$(grep -E 'Fase activa' "$estado" | grep -vE 'NO_INICIADO|EN_CURSO|BLOQUEADO|PENDIENTE_APROBACION|APROBADO' | grep -vE '^\s*$' || true)
+  bad=$(grep -E '(Estado actual|Fase activa)' "$estado" | grep -vE 'NO_INICIADO|EN_CURSO|BLOQUEADO|PENDIENTE_APROBACION|APROBADO' | grep -vE '^\s*$' || true)
   if [ -z "$bad" ]; then
     pass "$rel — estado normalizado"
   else
@@ -89,7 +89,8 @@ check_pair() {
        tc=$(grep -F "[$id]" "$story" 2>/dev/null | grep -oE '`[0-9]{2}:[0-9]{2} - [0-9]{2}:[0-9]{2}`|`← derivar`' | head -1 | tr -d '`')
        [ -n "$tc" ] && printf '%s|%s\n' "$id" "$tc" || true
      done) || true
-  # cruzar
+  # cruzar. Un bloque del guion AUSENTE del storyboard es FALLO (el storyboard
+  # es la orden de compra: sin la escena no se puede producir), no advertencia.
   if [ -z "$g" ]; then
     warn "$label — el guion no usa IDs [Bxx_Nombre]; no se pueden cruzar timecodes (¿plantilla antigua?)"
     return 0
@@ -98,7 +99,7 @@ check_pair() {
     local stc
     stc=$(printf '%s\n' "$s" | awk -F'|' -v id="$gid" '$1==id {print $2}')
     case "$stc" in
-      '')          warn "$label — $gid existe en guion pero no en storyboard";;
+      '')          fail "$label — $gid existe en guion pero NO en storyboard";;
       "← derivar") pass "$label — $gid storyboard derivado de guion (permitido)";;
       "$gtc")      pass "$label — $gid coincide ($gtc)";;
       *)           fail "$label — $gid: guion '$gtc' vs storyboard '$stc'";;
