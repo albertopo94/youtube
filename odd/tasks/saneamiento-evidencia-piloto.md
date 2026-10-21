@@ -81,3 +81,7 @@ Esta iteración no agrega metodología creativa nueva; hace que lo escrito sea v
   E (desglose EffectCraft PROBADA vs OBLIGATORIA) queda como decisión pendiente del
   creador; no se tocó S2. El propio checker quedó mejor: fixtures con exit codes
   explícitos, el hallazgo del revisor reproducido y cubierto.
+- **L10.** Decisión E tomada por el creador (2026-10-21): desglosar la etiqueta de
+  EffectCraft. Nueva categoría 🟣 OBLIGATORIA (decisión del creador) — ejecución aún no
+  registrada; V2 sigue obligatorio (AGENTS.md intacto); P3 y el ledger actualizados.
+  E pasa a RESUELTO en revision-externa-2-disposicion.

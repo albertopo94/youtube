@@ -69,18 +69,14 @@ salud se registran y verifican — *el riesgo decide los controles, no el géner
 Ambas copias sincronizadas.
 
 ### E. EffectCraft: separar "obligatorio por decisión" de "probado en entorno"
-🟣 **DECISIÓN PENDIENTE DEL CREADOR.** El revisor entiende y respeta la decisión
-de mantener EffectCraft en V2; pide **no compartir una sola etiqueta** entre dos
-hechos distintos: *"Required by product decision"* ≠ *"tested successfully in this
-environment"*. Técnicamente tiene razón: hoy `🟢 PROBADA EN ENTORNO` afirma un
-hecho de evidencia que el repo no contiene (cero clips en el piloto y en disco).
-Opción recomendada si el creador acepta: la celda de estado pasa a
-`🟢 OBLIGATORIA (decisión del creador) — sin ejecución registrada aún`, la
-obligatoriedad V2 queda intacta, y la promoción a "probada de hecho" la trae la
-primera producción real con un overlay suyo archivado (P3 de PENDIENTES.md ya
-describe exactamente esa condición de cierre). **No se modificó sin aprobación
-explícita** porque toca una decisión de producto expresamente tomada el 2026-10-21
-(S2 en `odd/tasks/saneamiento-evidencia-piloto.md`).
+✅ **RESUELTO — decisión del creador tomada el 2026-10-21 tras presentar las dos
+opciones.** Aceptó el desglose recomendado: nueva categoría **🟣 OBLIGATORIA
+(decisión del creador) — ejecución aún no registrada** en la leyenda del catálogo;
+la fila de EffectCraft la adopta, **la obligatoriedad en V2 queda intacta** (AGENTS.md
+no se tocó: sigue imponiendo overlays en V2), y la promoción a 🟢 la traerá la primera
+producción real con un overlay archivado (P3 de `PENDIENTES.md`, actualizado). Los dos
+hechos que el revisor pedía separar ahora tienen cada uno su verdad: el mandato es
+decisión del creador, la evidencia todavía no existe.
 
 ## Nota de honestidad metodológica del revisor (positiva, registrar)
 

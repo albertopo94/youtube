@@ -56,9 +56,12 @@ listo para cuando haya ganas reales.
 
 ## 🔵 P3 — Efectividad de EffectCraft en una producción real
 
-**Estado:** 🟢 PROBADA y obligatorio en V2 por **decisión explícita del creador**
-(S2 en `odd/tasks/saneamiento-evidencia-piloto.md`), aunque la medición del piloto
-no encontró ningún clip suyo en disco.
+**Estado:** 🟣 **OBLIGATORIA (decisión del creador) — ejecución aún no registrada** en V2
+(decisión explícita del creador, 2026-10-21; desglose aceptado el mismo día tras el
+hallazgo E de la segunda revisión externa). Antes compartía la etiqueta 🟢 PROBADA,
+que afirmaba una evidencia inexistente: ningún clip suyo en el repo ni en el piloto.
+La **obligatoriedad en V2 no cambió**; lo que cambió es que el mandato ya no se
+disfraza de hecho probado.
 
 **🔓 Condición de cierre:** la primera producción real debe generar al menos un
 overlay V2 con `effectcraft-cli` y archivar el clip resultante como evidencia.
