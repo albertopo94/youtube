@@ -137,6 +137,59 @@ nuevo que se agregue a `check-contrato.sh`.
 
 ---
 
+## 🟣 P7 — Producto: agente vertical de producción de video ("creator-shell")
+
+**Origen:** visión del creador 2026-10-21, nacida de la cita del amigo (sección 4)
++ estudio de gentle-shell / gentle-ai / pi.
+
+**El stack entendido (4 capas):**
+
+| Capa | Qué es | Dueño |
+| :-- | :-- | :-- |
+| 4 · **Producto** | "gentle-shell para creadores": runtime instalable cuyo harness interno es el framework YouTube | **el creador** |
+| 3 · **Conocimiento de dominio** | Este repo: fases 00→07, checkpoints, vetados, YMYL, licencias, medición ffmpeg, FilmCraft/EffectCraft MCP | **el creador** |
+| 2 · **Disciplina genérica** | gentle-ai: ODD, memoria, evidencia, revisión (patrón a emular, no a heredar ciegamente: es para código) | Gentleman-Programming |
+| 1 · **Runtime** | pi: modelo, tools, sesiones, subagentes | earendil-works |
+
+**La tesis:** gentle-shell probó que el patrón "pi + harness + empaquetado con
+persona/skills/orquestador/memoria" funciona y se distribuye como paquete npm/Pi
+(`gentle-pi`). El producto replica el patrón en el dominio creativo: los gates de
+código (TDD, review, evidencia de commit) se reemplazan por gates de producción
+(fase N no arranca si N−1 no está APROBADO; master no se entrega si no mide LUFS/
+pistas/frames negros; idea no se propone si está vetada; asset no entra sin licencia).
+
+**Principio rector:** NO construir runtime (capa 1 ya tiene dueño). El moat es la
+capa 3 convertida en controles ejecutables — el "quality gate" de un agente de
+código no sabe de LUFS, ni de políticas de monetización de YouTube, ni de anti-slop,
+ni de licencias. Ese dominio no lo tiene ningún harness existente.
+
+**Separación de responsabilidades (resuelve "¿evoluciona este repo u otro?"):**
+- Este repo = oficina (contenido, canales, configuración). Sigue siendo workspace de referencia.
+- Producto = software (harness extraído: AGENTS.md→persona+orquestador, roles→skills,
+  checker+medición→tools, MCPs→integraciones, 00-estado→máquina de estados).
+- El producto dogfoodea contra este repo; el canal del creador es el cliente cero
+  (como Gentleman-Programming usa gentle-shell para construir gentle-shell).
+
+**Hecho clave que destraba todo:** el MVP ya fue validado en vivo — el piloto de
+FilmCraft lo ejecutó gentle-shell (este agente) sobre este framework. El producto es
+empaquetar ese flujo como paquete instalable, agregando la única pieza que falta:
+la máquina de estados que hace cumplir las fases. **No requiere tener canal** (canal
+de ensayo ajeno sirve como cliente demo): es independiente de P2.
+
+**Decisión de forma (pendiente del creador):**
+- **F1 · Paquete de Pi** (formato gentle-pi): el más corto; monta sobre el runtime que
+  ya demostró el patrón; distribución `pi install`.
+- **F2 · Producto standalone** con su propio runtime al estilo de gentle-shell:
+  máximo control/identidad, costo de mantenimiento de un fork de runtime.
+- Recomendación registrada: **F1 primero**, F2 solo si el producto crece fuera del
+  ecosistema pi.
+
+**🔓 Condición de desbloqueo:** que el creador decida arrancar el producto (y con qué
+nombre/forma). Mientras tanto, este repo sigue sumando los insumos: cada verificador
+nuevo, cada gate de fase bien especificado, es una feature del producto ya diseñada.
+
+---
+
 ## Regla de esta cola
 
 Ningún ítem se "hace por las dudas" sin su condición de desbloqueo.
