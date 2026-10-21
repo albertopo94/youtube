@@ -453,3 +453,89 @@ checker de este repo: útil, pero decorativo como gate.
   2026-10-21 (`934c4e3`); nota corregida.
 - §2.1 equiparaba animatic≙test RED de forma demasiado literal; matiz del revisor
   integrado en la tabla.
+
+## 12. Tercera opinión externa: arquitectura concreta de gates (2026-10-21)
+
+**Fuente:** `_framework/referencias/producto/opinion-externa-producto-2-2026-10-21.md`
+(repo público de referencia; mismo revisor, tras profundizar en el código de
+gentle-shell). Es la que convierte §11 en arquitectura ejecutable.
+**⚠️ Incompleto:** el revisor menciona un "documento técnico/guía" adjunto con el
+PRD delegable — **ese documento NO llegó al repo**; pedirlo antes de implementar.
+
+### 12.1 Verificación local de sus afirmaciones (hecha 2026-10-21)
+- ✅ **CIERTA y matiza §11.2:** `odd-phase.ts` es SOLO la etiqueta visual
+  (línea 1: "Bounded ODD phase signal for the Gentle prompt's working label").
+  Estar en una fase = seguimiento; impedir una operación = control. Son módulos
+  distintos en gentle-shell y no deben confundirse en youtube-shell.
+- ✅ **CIERTA:** el control pre-ejecución existe como `pi.on("tool_call", () =>
+  ({block:true, reason}))` (`extensions/gentle-agents.ts:508,847` — el bloqueo
+  de `sleep` lo demuestra). `verifier-admission.ts` gating confirmado.
+- ⚠️ `child-safety.ts` no existe en el paquete npm instalado (el mecanismo sí
+  está verificado; el archivo pertenece al repo principal — no verificable localmente por ese nombre).
+- ⚠️ **STALE:** sus "dos defectos" del checker (`Fase activa`; bloque ausente como
+  warning) fueron corregidos el mismo día en `a1dd403` con suite de 6 fixtures
+  (exit codes explícitos). Su inspección era contra `bc5d49b`. Su recomendación
+  metodológica (fixtures con exit code) ya estaba implementada.
+
+### 12.2 Diseño de aprobaciones anti-auto-aprobación (la pieza nueva — adoptada)
+Flujo de fase propuesto (reemplaza la idea simple de "casilla APROBADO"):
+1. `EN_CURSO` — el agente trabaja en el entregable.
+2. `PENDIENTE_APROBACION` — **solo si** los controles automáticos pasaron y existe
+   evidencia identificable (la herramienta de transición lo comprueba; el modelo
+   no puede escribir este estado a mano).
+3. `APROBADO` — **acción explícita del creador en la UI de pi**, NUNCA una tool
+   que el modelo pueda invocar con `estado=APROBADO`.
+4. `Aprobación obsoleta` — si un archivo aprobado cambia, su aprobación queda
+   invalidada hasta re-verificación.
+
+**Vínculo de la aprobación:** huellas **SHA-256 de los archivos aprobados** +
+resultados de las comprobaciones + identidad de quien confirmó. Cierra el
+explot real que el revisor identificó: el agente consigue la aprobación del
+guion, lo edita después, y sigue como si el guion aprobado siguiera intacto.
+El `00-estado-produccion.md` sigue siendo la VISTA legible, pero la autoridad
+vive en el registro de la extensión, no en una casilla Markdown editable.
+
+### 12.3 La vía alternativa — política de tools del MVP (adoptada)
+Que el gate bloquee tool calls no sirve si queda otra vía (bash libre, un MCP
+que escriba archivos). Tres medidas para v0.1:
+1. **Restringir las tools disponibles por fase** (no solo bloquear al ejecutar).
+2. **Interceptar operaciones sensibles** con verificación de capacidades/rutas
+   en tiempo de ejecución; **los MCP no quedan exentos por ser MCP**.
+3. **No exponer shell arbitrario en el flujo de producción controlado**: las
+   operaciones necesarias (medición, render) van por herramientas propias.
+   (Coherente con §10.3: los propios guards de gentle-shell admiten que su
+   filtro léxico de bash no es un sandbox.)
+Aislamiento de SO: fuera del MVP, a estudiar después (containerization de pi).
+
+### 12.4 Verificador de media: cuatro resultados, no dos (adoptada)
+La medición devuelve **PASS / FAIL / WARN / NOT_EVALUABLE** contra la hoja de
+aceptación PREEXistente. Ejemplo del revisor: 1 solo stream AAC no prueba
+cuántas pistas había en la timeline del editor; sin música no se puede afirmar
+"ducking falló" — es **NOT_EVALUABLE**. Estándares obligatorios se definen ANTES
+del render; excepciones se justifican y aprueban, no se inventan después.
+**Rol del piloto:** fixture de prueba NEGATIVA contra una hoja que exija las
+propiedades faltantes — sin afirmar retroactivamente que incumplió reglas
+escritas después de renderizarlo (refina el "acceptance test del MVP" de §11.1).
+
+### 12.5 Orden de trabajo recomendado (8 pasos — adoptado como ruta del repo nuevo)
+1. Alinear fases reales 01–07 con documentos canónicos 00–06 (IDs de archivo ≠
+   fases de proceso).
+2. Motor de estados INDEPENDIENTE de pi, con tests de transiciones válidas/inválidas.
+3. Aprobaciones humanas + evidencia vinculada a huellas (§12.2).
+4. Integrar controles en pi y probar que las llamadas denegadas NO modifican nada.
+5. Corregir/testar el verificador de contrato (→ en este repo ya está: `a1dd403`
+   + fixtures; se porta como base).
+6. Medición del master con hoja de aceptación explícita (§12.4).
+7. Fixtures válidas/inválidas del conjunto; inventariar operaciones reales de
+   FilmCraft MCP antes de conectarlo.
+8. Empaquetar cuando el control básico funcione.
+
+**Lema del diseño (cita del revisor):** la pieza central no es una IA que
+recuerde mejor tu metodología; es un runtime que pueda **demostrar por qué
+permite una operación, por qué la bloquea y qué evidencia justifica el resultado**.
+
+**Lección anti-copia que él mismo señaló:** gentle-shell documenta un intento
+histórico de limitar escrituras por historial de sesión que su test actual
+RECHAZA explícitamente ("una segunda escritura directa no debe rechazarse solo
+por el historial"). No copiar reglas ajenas sin comprobar si siguen vigentes:
+restringir invariantes reales del dominio, no restricciones arbitrarias.
