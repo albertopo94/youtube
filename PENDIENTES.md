@@ -86,6 +86,57 @@ archivada como evidencia, promoción a 🟢 con alcance declarado.
 
 ---
 
+## 🟣 P6 — Visión de producto: pasar de "instrucciones en Markdown" a "agente con harness propio"
+
+**Origen (cita textual de la revisión externa 2026-10-21, sección 4):**
+
+> *"The current repo has a reasonably strong structure for guiding agents, coordinating
+> approvals, documenting research and tracking assets. It is still primarily a collection of
+> Markdown instructions and templates. I did not find an executable orchestration system or
+> automated test suite in the current repository. Therefore, terms such as 'mandatory linter,'
+> 'verified delivery' and 'quality gate' describe instructions for the agent, not yet automated
+> controls capable of detecting every violation."*
+
+**La idea que eso disparó (visión del creador, 2026-10-21):** este repo no tiene por qué
+quedarse siendo un manual que los agentes *leen y acatan*. Puede evolucionar —o correr en
+paralelo— hacia un **agente de producción con un runtime propio** (estilo Pi, Hermes,
+DeepSeek TUI o un Claude/Codex de escritorio) que lleve **este framework como harness por
+detrás**: gobernanza, checkpoints, estados, linters y mediciones no como sugerencias,
+sino como controles que el runtime ejecuta.
+
+**Los 3 niveles de fuerza que existen (dónde estamos hoy):**
+
+| Nivel | Qué es | Estado |
+| :-- | :-- | :-- |
+| 1. **Markdown que el agente lee** | AGENTS.md, roles, plantillas. Cumplimiento = buena voluntad del modelo. | ✅ Esto es casi todo el repo hoy |
+| 2. **Verificadores que rompen** | `check-contrato.sh`, mediciones de ffmpeg contra hoja de aceptación. El error se detecta, aunque sea tarde. | 🟡 Recién nacido (2026-10-21) |
+| 3. **Gates estructurales** | El runtime no *puede* saltarse el paso: la fase N+1 no arranca si la N no pasó. | ⬜ Requiere un runtime (esta visión) |
+
+**Las 3 vías posibles (aún sin elegir — es decisión de producto del creador):**
+
+- **Vía A — Evolver el repo en el lugar.** Expandir los verificadores existentes y volver
+  el pipeline ejecutable por pasos (cada fase = comando que valida antes de dejar avanzar).
+  Cero infraestructura nueva; sube nivel 1→2 sin construir un agente.
+- **Vía B — Este repo *ya es* el harness de agentes que existen.** AGENTS.md es formato
+  que leen Claude Code / Codex CLI / Gemini CLI / Pi; FilmCraft y EffectCraft ya exponen
+  MCP. "El producto" sería empaquetar el repo como workspace agéntico portable: otro
+  runtime, mismo framework. El camino más corto a lo que el amigo dice que falta.
+- **Vía C — Runtime propio** (el sueño tipo Pi/Hermes/desktop con control de autonomía,
+  fases visibles y subagentes). Máximo control, costo máximo. Solo tiene sentido sobre un
+  flujo de producción **ya probado** (P1/P2), o se termina automatizando un proceso no validado.
+
+**Tensión conocida y registrada:** el §6.2 del propio AGENTS.md dice "No automatizar
+prematuramente antes de completar manualmente un primer video piloto". El piloto de
+framework **ya ocurrió**, así que la puerta está entreabierta; se abre del todo cuando
+exista una producción real con hoja de aceptación (P1). Nota honesta: esta vía NO
+requiere tener canal — se puede avanzar en Vía A/B sin producir un solo video.
+
+**🔓 Condición de desbloqueo:** decisión explícita del creador sobre qué vía (A/B/C) y
+cuándo. Mientras esté frenada, el nivel 2 sigue creciendo gratis con cada verificador
+nuevo que se agregue a `check-contrato.sh`.
+
+---
+
 ## Regla de esta cola
 
 Ningún ítem se "hace por las dudas" sin su condición de desbloqueo.
