@@ -135,7 +135,7 @@ Todo tema y propuesta de packaging debe fundamentarse en los principios de *Brea
 
 Para que una fase se considere `APROBADO`, debe existir evidencia física demostrable:
 
-- **Fase Packaging:** Existen 5 títulos candidatos y 3 conceptos de miniatura bien diferenciados con bocetos/prompts en `01-packaging.md`. Título y enfoque elegidos por el creador.
+- **Fase Packaging:** Existen 5 títulos candidatos que exploran **palancas o ángulos distintos** (metodología en `_framework/roles/02-packaging-miniaturas.md` §3) y 3 conceptos de miniatura bien diferenciados con bocetos/prompts en `01-packaging.md`. El título principal elegido tiene una **justificación escrita** (deseo/dolor al que apunta, bucle que abre, adecuación al canal) y pasa el check de legibilidad (asimilable de un vistazo; lo importante al inicio; ~55 caracteres como heurística, no ley). Título y enfoque elegidos por el creador.
 - **Fase Guion:** Existe el documento `02-guion.md` con bloques identificados `[Bxx]` que satisface los siguientes criterios:
   - **Condiciones Estrictamente Obligatorias:**
     1. *Cumplir la promesa editorial:* Satisface y desarrolla la expectativa generada por el packaging aprobado en `01-packaging.md`.
@@ -174,6 +174,7 @@ Para que una fase se considere `APROBADO`, debe existir evidencia física demost
 ```text
 [nombre-canal]/
 ├── backlog-ideas.md              # 📥 Ideas aprobadas en cola + 🚫 Ideas vetadas para este canal
+├── banco-de-titulos.md          # 🧭 Norte de estructuras/palabras que funcionan en ESTE canal (opcional, heurístico, nunca plantilla obligatoria)
 ├── estudio-mercado.md            # Outliers, competidores y análisis DFS
 └── propuesta-branding.md         # Concepto, audiencia, tono y Unfair Edge Statement
 ```

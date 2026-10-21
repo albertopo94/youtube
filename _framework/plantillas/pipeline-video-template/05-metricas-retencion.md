@@ -82,3 +82,18 @@
   - [ ] **Cuello de Botella en Conversión / CTA:** Buenas visitas y retención completa, pero nadie tomó el siguiente paso. *(El CTA fue un pitch comercial agresivo, se sintió como un 'take' o el recurso ofrecido no era la extensión lógica e indispensable).*
   - [ ] **Cuello de Botella en Página Externa / Embudo:** Hubo clics al enlace de la descripción, pero baja tasa de descarga/registro en la web de destino.
 - **Corrección para el Siguiente Video:** *(Qué cambio específico de packaging, estructura o CTA se implementará en la próxima subida).*
+
+---
+
+## 7. Protocolo de Re-empaque Post-publicación (Título) `[Práctica Editorial]`
+
+> Regla madre: **no quedarse con un título que no funciona**, pero tampoco cambiar a ciegas. Coherente con rol 02 §6: **nunca** tocar el título durante una prueba nativa activa (la reinicia).
+
+1. **Ventana de decisión temprana (primeras 24 h):** si **CTR e impresiones están ambos por debajo del promedio del canal**, hay algo en título/miniatura que no conecta → preparar re-empaque (título y/o miniatura).
+2. **Si están en el promedio: NO tocar todavía.** Esperar a pasar la ventana en que este canal suele ganar impulso (según el canal: 2 días, una semana o más). Si aún se desconoce: en YouTube Studio, revisar el rango gris de "Típico en este periodo" y buscar cambios de pendiente para estimar la propia ventana.
+3. **El efecto de un cambio puede tardar:** un título nuevo puede tardar una semana o más en mostrar impacto; esperar la evidencia antes de volver a tocar.
+4. **Registrar cada re-empaque en la tabla** y promover las estructuras ganadoras/perdedoras al `banco-de-titulos.md` del canal (con el dato que las respalde).
+
+| Fecha del cambio | Título viejo ➜ nuevo | Motivo (dato observado) | Efecto medido (CTR/impresiones antes ➜ después) |
+| :-- | :-- | :-- | :-- |
+| | | | |

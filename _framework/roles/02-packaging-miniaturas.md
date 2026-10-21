@@ -35,7 +35,41 @@ La brecha de curiosidad es el espacio entre lo que el espectador ve y lo que nec
 
 ---
 
-## 3. Diseño Increíble: The C's of Thumbnail Design
+## 3. Arquitectura de Títulos
+
+> Derivado de las notas del creador (`_framework/referencias/notas-creador/notas-titulos-2026-10-21.md`, fuente no verificada). Todo lo siguiente es una **caja de heurísticas**: el criterio final es siempre el espectador target, el branding del canal y el contenido del video. Un título no se elige por aplicar la primera palanca disponible; se elige como hipótesis a validar.
+
+### 3.1 Doctrina rectora: el título es un bucle abierto
+- El título abre una pregunta que **solo se cierra dentro del video** (misma lógica del bucle abierto de apertura del guion `[B01]`).
+- No hace falta que nombre el tema exacto: puede apuntar cerca, **siempre que el video pague de verdad la pregunta que abrió**. El payoff "¡ahhh, era esto otro!" es válido; el clickbait que no paga, no.
+- Conexión con Schwartz (AGENTS.md §04): la palanca que genera el clic debe colgar del **deseo ancho o dolor preexistente**; el mecanismo se revela dentro.
+
+### 3.2 Palancas para abrir bucles más fuertes (caja heurística, no taxonomía cerrada)
+Emparejadas con las brechas de curiosidad de la §2:
+
+| Palanca | Mecanismo | Ejemplo ilustrativo (EN, origen) | Miniatura §2 que empareja |
+| :-- | :-- | :-- | :-- |
+| Insider Information | Conocimiento de adentro | "Day in the life of an AI startup founder" | Story |
+| Authority | Respaldo de credencial reconocible | "Doctor reacts to terrible TikTok medical advice" | Story / Novelty |
+| Beginners | Guía total para empezar desde cero | "How to play chess: the ultimate guide for beginners" | Result |
+| Timeliness | Anclaje al momento del calendario | "6 habits to make 2025 your best year yet" | Novelty |
+| Regrets | Confesión con costo pagado | "I bought 22 rental units and now I regret it. Here's why..." | Story |
+| Trend Jacking | Ola de un tema de actualidad | "The ugly truth behind the Olympics" | Novelty / Moment |
+| Numbers | Dato concreto e impactante | "These 11 income streams made me $220,000 in 2024" | Result |
+| Contrast | Yuxtaposición extrema | "$1 vs $500,000 plane ticket" | Transformation |
+| Counterintuitive | Afirmación contraintuitiva | "Why studying less will give you an unfair advantage" | Story / Novelty |
+| Superlatives | El máximo de su categoría | "I tested the world's 5 deadliest weapons" | Result / Moment |
+| Impossible Challenge | Resultado en duda | "Can you get the splits in one day?" | Story |
+| Challenging Convention | Cuestionar una creencia instalada | "Why Californians regret moving to Austin Texas" | Story |
+| Extreme | Grados máximos | "The most insane camera ever made" | Novelty |
+| Ask a Question | Pregunta explícita, respuesta dentro | "Where did all the bubble wrap go?" | Story |
+| Exciting Journey | Proceso transformador | "I trained like a black belt for 90 days" | Transformation |
+| List | Inventario enumerable | "19 incredible books to read in 2025" | Result |
+| *(no exhaustiva)* | Nuevas palancas se agregan; cada una es una hipótesis, no una ley | — | — |
+
+*(Ejemplos transcritos de las notas originales en inglés: ilustrativos, no datos probados sobre el algoritmo.)*
+
+## 4. Diseño Increíble: The C's of Thumbnail Design
 El objetivo es transmitir la idea principal de forma ultrarrápida: **extremadamente obvia de ver e increíblemente fácil de procesar**.
 
 ### 1. Contents (Contenido)
@@ -64,7 +98,7 @@ Guía el ojo del espectador de inmediato a la zona crítica:
 
 ---
 
-## 4. Análisis y Control de Calidad: Los 3 Tests
+## 5. Análisis y Control de Calidad: Los 3 Tests
 Antes de dar por buena una miniatura, debe superar 3 pruebas:
 1. **The Clarity Test:** ¿Se entiende perfectamente en la vista más pequeña (ej. barra lateral de sugeridos en móvil)? ¿Se lee cada palabra sin esfuerzo? ¿Es identificable cada objeto?
 2. **The Contrast Test:** ¿Destaca entre la multitud? Colocar la miniatura en medio de miniaturas de competidores directos y verificar si interrumpe el patrón de scroll.
@@ -72,7 +106,7 @@ Antes de dar por buena una miniatura, debe superar 3 pruebas:
 
 ---
 
-## 5. Estrategia de 3 Miniaturas y Pruebas A/B Nativas (Test & Compare)
+## 6. Estrategia de 3 Miniaturas y Pruebas A/B Nativas (Test & Compare)
 Para cada video se desarrollan **hasta 3 conceptos de miniatura independientes**:
 - **Variante A, Variante B y Variante C:** Cada una debe explorar una brecha de curiosidad o ángulo visual diferente (no simples variaciones de color o tipografía).
 

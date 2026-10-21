@@ -21,13 +21,16 @@
 ---
 
 ## 2. Opciones de Títulos (Mínimo 5 Alternativas Creativas)
-1. Título 1:
-2. Título 2:
-3. Título 3:
-4. Título 4:
-5. Título 5:
+> Método: `_framework/roles/02-packaging-miniaturas.md` §3 (Arquitectura de Títulos). Las 5 alternativas deben explorar **palancas o ángulos distintos** (no 5 sinónimos). Consultar el `banco-de-titulos.md` del canal como norte (opcional, no obligatorio).
+
+1. Título 1: (palanca usada: ____)
+2. Título 2: (palanca usada: ____)
+3. Título 3: (palanca usada: ____)
+4. Título 4: (palanca usada: ____)
+5. Título 5: (palanca usada: ____)
 
 - **Título Principal Seleccionado:** 
+- **Justificación del título elegido:** *(a qué deseo/dolor apunta, qué bucle abre y por qué es el adecuado para este canal y este espectador; puede ser "otro" si ninguna palanca de la caja aplicaba bien)*
 - *(Opcional para Videos Largos en Prueba A/B Nativa):*
   - Título Variante B:
   - Título Variante C:
@@ -59,6 +62,7 @@
 ---
 
 ## 4. Checklist de Control de Calidad
+- [ ] **Legibilidad del título (Heurística):** asimilable de un vistazo; idealmente ≤55 caracteres (los más largos válidos si la estructura es eficaz); lo más importante al inicio; sin sacrificar claridad por quedar bajo el número.
 - [ ] **Clarity Test:** ¿Legible y comprensible en tamaño reducido?
 - [ ] **Contrast Test:** ¿Destaca entre miniaturas de la competencia directa?
 - [ ] **Glance Test:** ¿Se entiende el gancho en menos de 2 segundos?

@@ -129,6 +129,7 @@ La gente puede desear intensamente un resultado (dormir mejor, tener energía, g
   3. *El Clímax / Giro:* El momento de fallo inesperado o dificultad extrema.
   4. *El Payoff final:* La recompensa, venganza, transformación o remate cómico.
 - **El Trasplante:** Se sustituyen los personajes, escenarios y objetos por los de tu propio nicho o temática (ej. personajes de Minecraft cambiados por futbolistas legendarios; o un reto de videojuegos cambiado por un experimento científico cotidiano).
+- **La Estructura del Título también es transplantable:** al aislar el esqueleto de un outlier, registrar además **qué palanca de título usó** (`_framework/roles/02-packaging-miniaturas.md` §3) y si su miniatura emparejaba (`Moment`/`Story`/`Result`/`Transformation`/`Novelty`). Reutilizar la *estructura* (ej. "X vs Y", "I [reto extremo] for [tiempo]", "The ugly truth behind [tema]") adaptándola al contenido propio; nunca copiar el título literal ni importar sus métricas como promesa.
 - Se conserva la cadencia sonora y la estructura matemática que ya demostró resonar a escala masiva en el cerebro de la audiencia.
 
 ### Arquetipo Opcional de Estudio: Dinámicas de Shorts de Entretenimiento Masivo
