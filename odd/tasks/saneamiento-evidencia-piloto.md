@@ -72,3 +72,12 @@ Esta iteración no agrega metodología creativa nueva; hace que lo escrito sea v
   columna "Acciones Específicamente Probadas" tiene contenido; color 🟡 ⇒ DOCUMENTADA. El checker
   también tuvo un bug propio (`head()` ensombrecía el comando `head`) que fabricó una línea
   `=== -1 ===`; detectado, renombrado a `sec()`, verificado.
+- **L9.** Segunda revisión externa recibida (head `bc5d49b`): respuesta "generally good";
+  hallazgos restantes A-E. Disposición completa en
+  `_framework/referencias/auditorias/revision-externa-2-disposicion-2026-10-21.md`.
+  A→`adcea73`; C→`a1dd403` (checker + suite de 6 fixtures); B y D→`6fc2a4c` (el rsync
+  real usa exclusión por ubicación porque openrsync de macOS no soporta el allowlist
+  con `--include='**/licencias/**'` que sugería el revisor — verificado por dry-run).
+  E (desglose EffectCraft PROBADA vs OBLIGATORIA) queda como decisión pendiente del
+  creador; no se tocó S2. El propio checker quedó mejor: fixtures con exit codes
+  explícitos, el hallazgo del revisor reproducido y cubierto.
