@@ -1,202 +1,941 @@
-> ⚠️ **Nota de trazabilidad (agregada 2026-10-22, no parte de los apuntes originales):**
-> Este archivo es una **fuente de referencia externa no verificada**, no una regla del sistema.
-> 1. Remite repetidamente a un documento titulado *"Arquitectura Algorítmica, Métricas de Satisfacción y Dinámicas de Audiencia..."* y a referencias numeradas `[cite: N]` (22 únicas) que **no existen en este repositorio** y no se pueden resolver desde él.
-> 2. Su análisis y disposición por hallazgo están en `_framework/referencias/auditorias/revision-externa-3-2026-10-22.md` y `revision-externa-3-disposicion-2026-10-22.md`: de estos apuntes **solo se incorporaron tres aportaciones** al framework (matriz de superficies, tabla de diagnóstico post-publicación, puerta de congruencia promesa➜contenido). El resto queda como hipótesis pendiente de validar o conocimiento descartado, y **no** debe citarse como base de reglas del sistema.
+Cómo hacer videos con IA que NO parecen IA:
+- IA que se nota vs. IA real
+- Paso 1: Personaje
+- Paso 2: Escenario y luz
+- Textura vs. ruido
+- Paso 3: Prompt Seedance
 
-### **1\. Integración en** **\_framework/roles/01-investigacion-ideas.md** **y** **01-packaging.md**
+transcripcion del video publicado por mi amigo:
+"
+Este video que estás viendo en pantalla
+0:02
+fue creado con inteligencia artificial y
+0:04
+sí lo puedes llegar a notar. Ahora
+0:07
+quiero mostrarte este otro que también
+0:09
+fue creado con inteligencia artificial,
+0:11
+pero con una metodología, con un paso a
+0:14
+paso. La imagen se ve más real, se ve
+0:16
+más nítida, se integra y parece una
+0:20
+escena bastante cinematográfica. El día
+0:23
+de hoy te voy a mostrar [música] el paso
+0:25
+a paso de cómo construimos este proceso
+0:28
+para que tus imágenes, tus videos dejen
+0:30
+de parecer plásticas y con mucho ruido y
+0:33
+puedas generar imágenes, videos bastante
+0:37
+reales [música] e interesantes. Debes de
+0:39
+saber que hoy en día estamos nosotros en
+0:41
+nuestro estudio creando comerciales para
+0:43
+marcas internacionales.
+0:46
+Y todo esto gracias al poder saber
+0:48
+utilizar estas metodologías y estas
+0:52
+imágenes. Mi nombre es Ruba y te voy a
+Quién soy
+0:54
+estar apoyando. Te voy a enseñar cómo
+0:56
+utilizar la inteligencia artificial
+0:57
+[música] para optimizar procesos y
+0:59
+también para generar ingresos. Así que
+1:02
+no se diga más, vamos a seguir los
+1:04
+pasos. Te voy a dar [resoplido] los
+1:05
+trucos, los hacks para que dejes de
+1:07
+crear videos que parecen NIA y empieces
+1:10
+a crear videos potentes que puedas
+1:13
+llegar a vender [música] y
+1:14
+comercializar. Bien, lo primero que
+Paso 1: Personaje
+1:16
+necesitamos antes de generar nuestros
+1:19
+videos, necesitamos entender que tenemos
+1:22
+que seguir un sistema. El primer paso es
+1:24
+crear nuestra plantilla de personajes y
+1:28
+de escenarios.
+1:29
+[música]
+1:29
+Esto nos va a servir para que siempre
+1:32
+tengamos consistencia en todos los
+1:34
+videos. Si nosotros generamos pues un
+1:38
+video y luego [música]
+1:40
+modificamos o queremos volver a generar
+1:43
+ese mismo personaje en otra escena,
+1:45
+puede que cambie la ropa, los gestos y
+1:48
+necesitamos que todo sea consistente
+1:49
+para que el video sea mucho más
+1:51
+realista. Para crear tu plantilla de
+1:53
+personaje es muy sencillo. Yo voy a
+1:55
+utilizar esta foto. Yo te recomiendo que
+1:56
+sea una foto de muy buena calidad. Por
+1:58
+ejemplo, si acerco la foto, se ve eh
+2:01
+bueno, todo lo que es mi mi rostro.
+2:03
+Entonces, te recomiendo que sea con
+2:06
+buena iluminación, una iluminación
+2:08
+natural [música]
+2:09
+y esto nos va a ayudar a que, bueno,
+2:11
+tome todos tus rasgos de forma correcta.
+2:13
+[música]
+2:14
+Para construir tu plantilla de
+2:16
+personaje, te voy a dejar todos los
+2:17
+recursos en nuestra comunidad gratuita.
+2:19
+La vas a tener en el link. Vas a dar
+2:20
+clic en unirte al grupo, vas [música] a
+2:23
+entrar, creas tu cuenta de forma
+2:24
+gratuita y aquí mismo vas a entrar
+2:26
+directo a Design Turbo, que es nuestra
+2:28
+comunidad donde les estamos subiendo
+2:30
+mucho contenido de valor, eh, y muchas
+2:33
+clases de inteligencia artificial.
+2:35
+Entonces, nos vamos a ir a donde dice
+2:36
+cursos y nos vamos a ir a donde dice IA
+2:39
+[música] aplicada. Yo te voy a dejar el
+2:41
+link directo para que entres a esta
+2:42
+clase. Y aquí vas a tener este [música]
+2:45
+prompt que es la plantilla de personaje.
+2:47
+Entonces, lo vamos a copiar
+2:48
+absolutamente todo. [música] Control C.
+2:50
+Y esto nos lo vamos a llevar a un
+2:53
+generador de imágenes. [música] Hay
+GPT Image vs. Seedream
+2:55
+muchos generadores de imágenes, hay
+2:57
+muchos modelos. Los modelos se están
+2:58
+actualizando continuamente. Yo ya he
+3:01
+probado muchos modelos y he probado
+3:04
+muchas formas de crear los videos y te
+3:06
+puedo decir lo que actualmente está
+3:08
+funcionando y también lo que no está
+3:10
+funcionando. Esto va a ir evolucionando
+3:12
+y va a ir cambiando. Por eso tienes que
+3:14
+estar a la vanguardia siempre con la
+3:15
+inteligencia artificial. Debes de saber
+3:17
+[música] que hay que utilizar el modelo
+3:20
+correcto. Oye, Chaji GPT ahorita es el
+3:22
+mejor. Sí, pero al menos para la
+3:25
+construcción de estos videos [música]
+3:27
+puede que existan otros modelos de
+3:29
+generación de imagen que te den mejores
+3:31
+resultados. Ahora te lo voy a explicar.
+3:34
+[música] Para métodos prácticos, yo voy
+3:36
+a utilizar una plataforma que se llama
+3:37
+Hicio vas a encontrar el link si te
+3:39
+quieres registrar y obtienes descuentos.
+3:42
+¿Okay? Esta plataforma no es 100%
+3:44
+gratuita, vaya, puedes generar algunas
+3:46
+cosas, pero si queremos pasar al
+3:48
+siguiente nivel, ya sabes qué,
+3:49
+necesitamos [música]
+3:50
+pues ese update, pero es muy importante
+3:52
+que sepas utilizarlo. Entonces, nos
+3:54
+vamos a ir a donde dice imagen y es una
+3:56
+plataforma que aloja [música]
+3:58
+todos, absolutamente todas las
+4:00
+herramientas de inteligencia artificial,
+4:02
+por eso lo usamos. [música] Bien, aquí
+4:04
+dentro nos daremos cuenta en crear
+4:06
+imagen, aquí estamos, crear imagen,
+4:08
+[música] que si le damos clic aquí en
+4:10
+los modelos, que es donde vienen todos
+4:12
+los modelos, pues nos van a aparecer
+4:14
+todos los modelos que hoy en día
+4:15
+existen. [música] ¿Okay? Nosotros vamos
+4:17
+a probarlo con dos que ahorita son
+4:20
+modelos que funcionan muy bien, por
+4:22
+ejemplo, lo que es el GPT Image 2.5
+4:25
+Somburst. [música]
+4:26
+Entonces, vamos a colocarlo y aquí vamos
+4:28
+a pegar el prompt. Es muy importante que
+4:31
+le coloquemos nuestra foto aquí en
+4:33
+reference. Vamos a subir nuestra foto.
+4:36
+Yo la tengo ya lista. Yo ya la tengo
+4:38
+aquí. [música] Eh, si tienen la foto
+4:40
+también de su cuerpo es muy importante
+4:42
+para que detecte su [música] complexión.
+4:44
+Yo en este caso no lo voy a hacer y voy
+4:47
+a utilizar solamente esta fotografía,
+4:50
+que [música] es la que les estoy
+4:51
+compartiendo y la que les mostré al
+4:53
+inicio. Entonces, muy importante. Aquí
+4:55
+nos va a preguntar. Nosotros vamos a
+4:57
+poner la medida 169, que es horizontal.
+5:00
+Aquí lo voy a dejar en extra high, que
+5:02
+[música] es muy fuerte, eh, lo que es el
+5:04
+detalle. Y aquí podemos dejarlo en 2K o
+5:07
+en 4K. Eh, esto lo podemos dejar en
+5:09
+auto. Tenemos otras medidas si queremos
+5:11
+[música]
+5:12
+eh generar más. Yo solamente voy a
+5:14
+generar una y me va a gastar 4.5
+5:17
+[música] créditos, que es poco. Aquí
+5:20
+está el detalle, ¿okay? [música] Porque
+5:22
+no solamente lo vamos a hacer en chat,
+5:25
+sino o en GPT, en el modelo GPT image
+5:27
+2.5. Este es el modelo que utilizas
+5:29
+también en Chaji GPT. Lo vamos a hacer
+5:31
+también en Cdream 5.0. ¿Okay? [música]
+5:34
+Lo voy a hacer en este modelo también
+5:36
+que es el modelo que estamos utilizando.
+5:38
+Y ahorita te voy a decir el por qué. A
+5:40
+que muchas veces eh GPT lo hace mejor,
+5:43
+pero quiero mostrarte [música] el por
+5:45
+qué para esto en específico lo estamos
+5:46
+utilizando. Entonces, lo vamos a hacer
+5:47
+también en Cdream 5.0. Lo dejamos en 2K
+5:51
+169 y lo generamos.
+5:54
+Aquí está la clave. Este fue la imagen
+5:56
+generada por Chat GPT, bueno, por el
+5:59
+modelo GPT 2.5 y es muy buen resultado.
+6:03
+De hecho fue un resultado muy bueno
+6:05
+porque también la fotografía, bueno, fue
+6:07
+tomada por una DJI eh, que toma muy
+6:10
+buenas fotos, [música] entonces es un
+6:12
+resultado muy bueno, pero algo que no me
+6:14
+gusta es la parte de cómo el modelo 2.5
+6:18
+genera lo que es la complexión.
+6:21
+Normalmente exagera mucho lo que son las
+6:23
+extremidades. Bueno, yo no le di
+6:25
+evidentemente mi cuerpo, pero al menos
+6:28
+te lo te lo digo, exagera muchas veces
+6:31
+[música] y hace un poco más ancho lo que
+6:33
+son e los antebrazos y el cuerpo se ve
+6:36
+un poco deforme cuando lo vamos a
+6:38
+construir ya eh en un video. Aquí otros
+6:41
+detalles es que GPT tiende a colocarte
+6:45
+manchas lisas dentro del, bueno, más que
+6:49
+manchas dentro de la imagen. Tal vez no
+6:52
+se nota ver, pero al menos yo que estoy
+6:54
+en la computadora, puedo ver algunas
+6:56
+manchas y estas manchas [música]
+6:58
+las va a replicar lo que es el modelo de
+7:01
+generación de video. Es muy importante
+7:03
+que que lo sepamos. [música] Esta salió
+7:05
+una muy buena foto, pero si hacemos un
+7:07
+poco de zoom, sí puedo notar lo que son
+7:09
+unas pequeñas [música] manchitas dentro
+7:11
+del fondo y eso las va a generar y las
+7:14
+va a replicar lo que es e sedans,
+7:16
+¿okay?, que es el modelo de generación
+7:18
+de video. [música] Ahora tenemos este
+7:21
+que limpió más la imagen. Este es el
+7:25
+modelo Cream 5.0 que también utilizamos,
+7:28
+que la complexión es mucho mejor, está
+7:31
+[música] bien adaptada, funciona bien la
+7:33
+complexión. Y aquí, si nos damos cuenta,
+7:36
+limpia un poquito más, no genera tanta
+7:39
+textura [música] y tampoco te plastifica
+7:41
+lo que es el rostro. Así que esta imagen
+7:44
+[música] funciona mejor para la
+7:46
+inteligencia artificial de generación de
+7:48
+video. Aunque esta es un poquito más
+7:50
+acercada,
+7:52
+esta [música] como es más lisa, te ayuda
+7:55
+a generar una buena generación de video,
+7:57
+un buen video. Por eso es que estamos
+8:00
+utilizando Cdream 5.0. ¿Okay? Esa es la
+8:03
+gran diferencia. Si se dan cuenta, una
+8:06
+tiene menos textura y otra si le agrega
+8:08
+más detalle, [música] más textura y esto
+8:10
+lo va a replicar el modelo. Ahora, este
+8:12
+[resoplido] es otro ejemplo. Este
+8:13
+también fue generado con CH GPT, con el
+8:16
+modelo GPT, que volvemos a lo mismo,
+8:19
+aquí nos damos cuenta que tiene mucha
+8:21
+textura, [música] entonces esta textura
+8:24
+la va a replicar y la va a exagerar el
+8:27
+modelo de generación [música] de video.
+8:29
+Por eso tenemos que cuidar, limpiar,
+8:32
+pulir, que no tengamos tanta [música]
+8:35
+textura en lo que es el video, si no lo
+8:36
+va a exagerar. Ese es el punto, no
+8:39
+siempre el modelo GPT lanza así las
+8:42
+imágenes. De hecho, si generas [música]
+8:43
+promps específicos con ciertas
+8:46
+iluminaciones, lo puedes lograr, pero al
+8:48
+menos los resultados que estamos viendo
+8:50
+[música]
+8:51
+en este video los hemos generado con el
+8:53
+modelo CDAM 5.0 Pro, que funciona muy
+8:57
+bien y te genera resultados [música]
+8:58
+potentes. Bien, ahora tenemos nuestra
+9:01
+plantilla de personaje. Ahora el
+Paso 2: Escenario y luz
+9:03
+siguiente paso es crear nuestro
+9:04
+escenario para que también sea
+9:06
+consistente. Tenemos que darnos cuenta
+9:08
+que el escenario importa mucho la
+9:10
+iluminación que queramos aplicar.
+9:12
+Podríamos colocar referencias, por
+9:14
+ejemplo, busca en Pinterest qué
+9:16
+referencias te gustarían, las descargas
+9:18
+y les dices, "Quiero este tipo de
+9:20
+iluminación." Yo te recomiendo que
+9:22
+utilices Cloud o CH GPT para que te
+9:24
+genere el prompt, ¿okay? Entonces,
+9:26
+nosotros lo vamos a hacer, por ejemplo,
+9:27
+en cloud.
+9:28
+[música]
+9:28
+Y aquí vamos a hacer lo siguiente. Yo le
+9:30
+dije a lo que es mi cloud, le dije,
+9:33
+"Quiero crear una imagen de una pista de
+9:35
+correr con iluminación cinematográfica.
+9:37
+Genérame un prompt para usarlo en un
+9:40
+generador de imágenes." Entonces, aquí
+9:43
+va a construir lo que es el prompt. Y
+9:46
+este prompt ya lo voy [música] a
+9:47
+utilizar yo para crear mi eh ahora sí
+9:52
+que mi escenario. Aquí nos fuimos a
+9:55
+Higfield y aquí utilizamos [música] tres
+9:57
+modelos diferentes: GPT, utilizamos Soul
+10:00
+Cinema y utilizamos también lo que es
+10:03
+Cream [música] 5.0. Te voy a dar las
+10:05
+diferencias, los resultados. Este fue
+10:07
+creado con Cream 5.0. Me voy a mover un
+10:10
+pelín por acá. Y la verdad que funciona
+10:13
+muy bien. Se ve [música] bastante
+10:15
+bastante bien, muy cinematográfico.
+10:17
+Tenemos este que el resultado también es
+10:18
+muy bueno. [música] Eh, luego tenemos
+10:21
+este que este me gustó mucho. Fíjense
+10:23
+cómo se ve lo que es el suelo. Se ve muy
+10:26
+real, [música] me gusta. Luego tenemos
+10:28
+este que se ve muy bien. Y luego tenemos
+10:30
+que también es Soul Cinema. Soul Cinema.
+10:32
+Este también. Y [música] eh C Dream. C
+10:34
+Dream. Y vamos a ver el que hizo Chai
+10:36
+PT. El que hizo Chai PT es este, ¿okay?
+10:39
+Y quiero que se den cuenta, es muy buen
+10:41
+resultado, pero fíjense en el suelo que
+10:43
+[música] tiene una
+10:46
+textura increíble. Okay. Se ve muy
+10:49
+texturizado. Bueno, porque así es el
+10:51
+suelo, pero le agrega mucha textura. Y
+Textura vs. ruido
+10:54
+ojo, no confundamos lo que es la textura
+10:57
+con lo que es el ruido. Esto que vemos
+11:00
+aquí es ruido. Lo agrega la imagen para
+11:02
+hacerlo un poquito más cinematográfico.
+11:04
+Esto que ven aquí es ruido, pero este
+11:07
+[música]
+11:08
+esta textura, este HDR se ve muchísimo y
+11:12
+[música] eso cuando nosotros
+11:13
+construyemos el video se lo puede
+11:16
+utilizar y lo va a exagerar más [música]
+11:19
+la herramienta de generación de video.
+11:21
+Por eso vamos a seleccionar, por
+11:22
+ejemplo, este me gustó mucho, aunque
+11:25
+tiene bastante ruido. Vamos a probarlo y
+11:28
+vamos a utilizar [música] esta imagen.
+11:30
+Así que la voy a descargar. Oye, un
+Masterclass
+11:33
+paréntesis, si te está gustando el video
+11:35
+y estás aprendiendo muchísimo, quiero
+11:37
+decirte que vamos a estar dando una
+11:39
+masterclass donde te vamos a mostrar
+11:41
+cómo estamos creando comerciales, cómo
+11:44
+estamos utilizando el poder de la
+11:45
+inteligencia artificial para [música]
+11:46
+generar ingresos en nuestro estudio.
+11:49
+Queremos mostrarte esos hacks, queremos
+11:51
+mostrarte esas estrategias que tú hoy en
+11:53
+día ya puedes estar utilizando para
+11:55
+empezar a generar [música] ingreso con
+11:58
+estas herramientas, con este
+11:59
+conocimiento que te estoy brindando. Así
+12:01
+[música] que te espero, regístrate. Es
+12:04
+una clase privada donde, bueno, va a
+12:06
+haber mucho, mucho conocimiento de
+12:09
+valor. Entonces, para poder acceder,
+12:11
+regístrate aquí. La vamos a tener ya muy
+12:14
+pronto, así que te espero. [música]
+12:16
+Entonces, te dejo el link para que te
+12:17
+puedas registrar. Bien, sigamos.
+Paso 3: Prompt Seedance
+12:20
+[resoplido]
+12:20
+Nuestro siguiente paso es crear lo que
+12:23
+es el prompt para ahora sí generar el
+12:25
+video. Bien, aquí, ¿qué es lo que vamos
+12:27
+a hacer? Yo voy a colocar eh la imagen
+12:30
+que se ha generado y también voy a
+12:31
+colocar el el Entonces, aquí, ¿qué es lo
+12:34
+que le voy a decir? genera [música] un
+12:36
+prompt para Sidans 2.5, que le estamos
+12:39
+diciendo qué modelo vamos a utilizar
+12:41
+para que carguen su base de datos cómo
+12:43
+vamos a construir el prompt. [música]
+12:44
+Quiero que sea de 15 segundos. Vamos a
+12:46
+decirle la cantidad. Este video será un
+12:48
+video de preparación donde [música] la
+12:50
+persona en múltiples tomas, le estamos
+12:53
+diciendo múltiples tomas para [música]
+12:55
+que no sea una secuencia completa, sino
+12:58
+que estemos utilizando múltiples tomas,
+13:00
+[música] distintas cámaras, etcétera.
+13:02
+Tomas y acercamientos de cama. que se
+13:05
+vea cómo la persona se está preparando
+13:07
+para correr, se ve su mirada, se ve cómo
+13:09
+se estira, [música]
+13:10
+cómo se acomodan los lentes, cómo
+13:12
+respira, agrega más tomas de
+13:14
+acercamientos [música]
+13:15
+y aquí le colocamos un poquito de las
+13:17
+especificaciones que queremos. La
+13:19
+iluminación es cinematográfica y debemos
+13:21
+integrar a la perfección a nuestro
+13:22
+atleta. [música]
+13:23
+Entonces, si te das cuenta, le estamos
+13:24
+diciendo qué modelo, cuántos segundos
+13:26
+queremos, qué es lo que queremos que
+13:27
+suceda. Y si queremos en el mismo prompt
+13:29
+que sucedan múltiples tomas, hay que
+13:31
+pedírselo. [música] De esta misma forma
+13:33
+ya nos ha generado lo que es este
+13:35
+prompt, que si se dan cuenta, pues es un
+13:37
+prompt eh, donde tiene [música] lo que
+13:39
+son ocho tomas y tenemos un bueno, lo
+13:43
+que son 15 segundos. Entonces, de esta
+13:45
+misma forma vamos a [música] copiar.
+13:48
+Una vez que la tenemos ya lista, aquí la
+13:50
+copiamos. Nos vamos directamente a
+13:52
+Higfield o bueno, donde podemos utilizar
+13:55
+Sidan 2.5. Aquí les voy a decir qué es
+13:58
+lo que nosotros [música] utilizamos. Nos
+14:00
+fuimos a video, nos fuimos a Sidans 2.5
+14:03
+y aquí estamos en Higfield, [música]
+14:05
+pegamos lo que es el prompt completo y
+14:07
+subimos las imágenes de referencia. Yo
+14:09
+las tengo aquí arriba. Entonces, estas
+14:11
+dos las subimos, las tenemos aquí.
+14:12
+[música] Y es muy importante porque el
+14:14
+prompt nos pide, pues nos dice, a ver,
+14:16
+imagen número uno. Y lo taguea. [música]
+14:19
+Esto lo puede tomar de forma, bueno, es
+14:22
+completamente inteligente, eh, para
+14:24
+saber que eso nos estamos refiriendo a
+14:26
+lo que es un el personaje, pero también
+14:29
+se lo podemos colocar. Esto [música] es
+14:31
+el personaje. Y te dice múltiplos
+14:33
+ángulos de la referencia, bueno, del
+14:36
+personaje. Y aquí esta es la locación.
+14:38
+Entonces, aquí nos dice esta es la
+14:40
+locación.
+14:40
+[música]
+14:41
+Y ya con eso pues ya los taguea, ya los
+14:43
+tiene listo. Ahora, importante, ¿qué es
+14:45
+lo que vamos a hacer? Nos vamos a, vamos
+14:47
+a bajar aquí, [música] seleccionar
+14:49
+sidans 2.5. Algo que yo les recomiendo
+Tip: modo Draft
+14:51
+es utilicen draft, ¿okay? [música] ¿Por
+14:54
+qué? Porque draft no va a gastar lo que
+14:56
+es sus créditos y después pueden
+14:58
+aumentarlo o generar a 1080. [música] Es
+15:01
+decir, si yo coloco draft aquí mismo,
+15:03
+esto es para que sea un borrador, o sea,
+15:05
+nos genera un borrador para ver cómo se
+15:07
+ve y no malgastemos nuestros [música]
+15:08
+créditos. Porque si nosotros esto lo
+15:10
+llevamos, por ejemplo, lo ponemos ya en
+15:12
+1080, pues nos va a gastar bastantes
+15:14
+créditos. [música] Por eso, si están
+15:16
+creando un comercial para una marca, yo
+15:18
+siempre primero empiezo draft, ya me
+15:20
+gustó el resultado, ahora sí lo
+15:22
+incrementamos a 1080. [música] Entonces,
+15:24
+aquí eh ya tenemos la configuración 15
+15:28
+segundos a 169. Y esto simplemente vamos
+15:32
+a darle clic en generar.
+15:34
+Y ahora sí, chequea nada más el
+15:36
+resultado. [resoplido]
+Resultado final
+15:52
+No, tenemos ya un resultado que se ve
+15:54
+bastante real. A ver, puntos importantes
+15:57
+y vamos a ser honestos, el hecho de
+15:59
+colocarle sudor sí aumenta lo que es la
+16:02
+textura, pero en las partes donde, por
+16:05
+ejemplo, no tiene tanto sudor, aquí sí
+16:07
+está se le cae el sudor completamente y
+16:10
+pues sí puede aumentar un poquito ese
+16:12
+texturizado. [música] Sin embargo, la
+16:14
+verdad, el resultado se ve muy pero muy
+16:16
+bien y funciona muy pero muy bien.
+16:19
+Parece un resultado [música] bastante
+16:21
+cinematográfico y logramos el cometido.
+16:24
+Ahora debo decirles que ya están en otro
+Recap
+16:27
+nivel. Ahora ustedes saben cómo
+16:30
+construir videos de alta calidad
+16:32
+utilizando un personaje, una plantilla,
+16:34
+un escenario y también los hacks que
+16:36
+nosotros nos han servido para poder
+16:38
+[música] crear videos que se vean más
+16:40
+reales y apartarnos de esos videos que
+16:43
+se ven o parecen inteligencia [música]
+16:44
+artificial. Mis queridos master, yo soy
+16:47
+Ruba y espero que este video les haya
+16:49
+servido mucho. [música] Les voy a dejar
+16:51
+los links para que se registren a la
+16:52
+masterclass y también puedan descargar o
+16:55
+copiar los links para entrar a la
+16:56
+comunidad y [música] muchas sorpresitas
+16:59
+que les traemos para todos ustedes. Nos
+17:01
+vemos en el siguiente video y recuerden,
+17:04
+no paren [música] de aprender porque la
+17:06
+inteligencia artificial avanza, así que
+17:08
+nosotros tenemos que ir cinco pasos
+17:10
+adelante de ella. Nos vemos en el
+17:12
+siguiente tutorial. Bye bye.
+"
 
-#### **Matriz de Objetivos y Dinámicas por Superficie Algorítmica**
 
-YouTube no opera con un único algoritmo monolítico, sino con múltiples superficies independientes ajustadas a objetivos de usuario y señales de comportamiento completamente distintas.
-
-* **Página de Inicio (** **Homepage / Browse Feed** **):**
-  * **Mecánica y Señales del Sistema:** Evalúa el historial de reproducción de largo plazo (*watch history*) del usuario, su afinidad temática global y el rendimiento de retención general del vídeo. Utiliza filtrado colaborativo (*Collaborative Filtering*) para emparejar espectadores con hábitos de consumo similares.
-  * **Objetivo de la Plataforma:** Personalización de amplio espectro y descubrimiento de contenido afín antes de que el usuario busque algo específico.
-  * **Directiva Operativa para el Agente:** Configurar las propuestas de empaquetado (*packaging*) con una identidad visual e iconográfica consistente. Si el canal construye un lenguaje visual reconocible, los espectadores frecuentes identificarán de inmediato la miniatura en un feed saturado, aumentando el CTR orgánico repetido.
-  * **Fuentes de Referencia Exactas:**
-    * **Documento Markdown:** *Arquitectura Algorítmica, Métricas de Satisfacción y Dinámicas de Audiencia...* (Sección: *Arquitectura Multietapa del Sistema de Recomendación / Tabla de Superficies*).
-    * **Documentación Oficial de Google Help:** *How YouTube recommendations work* ([https://support.google.com/youtube/answer/16089387](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fsupport.google.com%2Fyoutube%2Fanswer%2F16089387)).
-    * **Manual de Industria Gyre:** *YouTube recommendation system 2026: how to grow with it* ([https://gyre.pro/blog/youtube-recommendation-system-how-to-hack-it-for-explosive-growth](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fgyre.pro%2Fblog%2Fyoutube-recommendation-system-how-to-hack-it-for-explosive-growth)).
-* **Panel "A continuación" / Recomendados (** **Up Next / Suggested Videos** **):**
-  * **Mecánica y Señales del Sistema:** El detonante primario es el **vídeo actual** que el usuario está reproduciendo en ese preciso instante. El sistema mide la coherencia semántica y el comportamiento de sesión a corto plazo.
-  * **Objetivo de la Plataforma:** Garantizar la continuidad de la sesión de visualización en curso.
-  * **Directiva Operativa para el Agente:** Cada idea y guion debe plantearse conceptualmente como la "continuación lógica" (*logical next watch*) de los vídeos más populares del nicho o del propio catálogo del canal. Se deben programar enlaces explícitos en el guion, tarjetas intermedias y pantallas finales hacia el siguiente vídeo para acumular créditos de *Session Continuation*.
-  * **Fuentes de Referencia Exactas:**
-    * **Paper Académico Fundamental:** Zhe Zhao et al. (Google/YouTube), *Recommending What Video to Watch Next: A Multitask Ranking System* ([https://openreview.net/pdf?id=gxlKBGBBwN](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fopenreview.net%2Fpdf%3Fid%3DgxlKBGBBwN) / Conferencia ACM RecSys [https://www.semanticscholar.org/paper/Recommending-what-video-to-watch-next%3A-a-multitask-Zhao-Hong/e85f83d76b443795a9aee58e51c6cd76834c59f9](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.semanticscholar.org%2Fpaper%2FRecommending-what-video-to-watch-next%253A-a-multitask-Zhao-Hong%2Fe85f83d76b443795a9aee58e51c6cd76834c59f9)).
-    * **Blog Oficial de YouTube:** Cristos Goodrow (VP de Ingeniería), *On YouTube's recommendation system* ([https://blog.youtube/inside-youtube/on-youtubes-recommendation-system/](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fblog.youtube%2Finside-youtube%2Fon-youtubes-recommendation-system%2F)).
-    * **Documento Markdown:** *Arquitectura Algorítmica...* (Sección: *Panel A Continuación*).
-* **Resultados de Búsqueda (** **Search** **):**
-  * **Mecánica y Señales del Sistema:** Combina la relevancia contextual del título, descripción enriquecida y subtítulos automáticos (procesados mediante NLP/Procesamiento de Lenguaje Natural) con el CTR y la retención generada específicamente tras realizar esa consulta.
-  * **Objetivo de la Plataforma:** Resolver de forma directa e inmediata una duda o consulta explícita formulada por el usuario.
-  * **Directiva Operativa para el Agente:** Tratar la búsqueda como un embudo de conversión (*funnel* de adquisición) para transformar tráfico frío en espectadores recurrentes. Exigir títulos de menos de 60 caracteres redactados con las palabras exactas que teclearía un usuario y descripciones narrativas estructuradas de más de 200 palabras.
-  * **Fuentes de Referencia Exactas:**
-    * **Libro de Creador:** Derral Eves, *The YouTube Formula* (Análisis por Brandon Boswell: [https://brandonkboswell.com/sources/The-YouTube-Formula](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fbrandonkboswell.com%2Fsources%2FThe-YouTube-Formula)).
-    * **Documento Markdown:** *Arquitectura Algorítmica...* (Sección: *Resultados de Búsqueda* y *Filtrado Basado en Contenido*).
-* **Feed de Shorts:**
-  * **Mecánica y Señales del Sistema:** Mide la tasa de finalización del clip (*completion rate*), la tasa de bucle (*seamless loop*) y la frecuencia de deslizamiento sin ver (*swipe-away rate* vs *viewed*).
-  * **Directiva Operativa para el Agente:** Eliminar cualquier tipo de introducción, saludo o cierre tradicional. El gancho visual y conceptual debe ocurrir en el segundo cero.
-  * **Fuentes de Referencia Exactas:**
-    * **Manual de Industria Gyre:** *YouTube recommendation system 2026: how to grow with it* ([https://gyre.pro/blog/youtube-recommendation-system-how-to-hack-it-for-explosive-growth](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fgyre.pro%2Fblog%2Fyoutube-recommendation-system-how-to-hack-it-for-explosive-growth)).
-
----
-
-### **2\. Integración en** **\_framework/roles/02-packaging-miniaturas.md**
-
-#### **A. Optimización para Visión por Computadora (OCR + Detección Facial)**
-
-* **Mecánica Algorítmica de la Plataforma:** YouTube analiza las imágenes de las miniaturas antes y durante su publicación utilizando algoritmos de visión por computadora (*Computer Vision*). El sistema ejecuta **OCR (Reconocimiento Óptico de Caracteres)** para leer cualquier texto incrustado y aplica **modelos de detección facial y emocional** para evaluar los rostros presentados. Esta información visual se transforma en vectores de datos que agrupan el vídeo en clústeres temáticos específicos (por ejemplo, relacionándolo con otros vídeos que incluyen al mismo personaje, objeto o emoción).
-* **Directiva Operativa para el Agente:**
-  1. Cada concepto visual propuesto para una miniatura debe cumplir la regla de composición comprobada: **1 rostro humano con una expresión emocional clara y legible + 1 objeto/elemento focal de alto impacto**.
-  2. El texto incrustado no debe superar las 3 o 4 palabras, usando fuentes gruesas con alto contraste cromático para facilitar la lectura inmediata en pantallas móviles (que representan más del 70% del tráfico).
-* **Fuentes de Referencia Exactas:**
-  * **Libro de Creador y Resumen:** Derral Eves, *The YouTube Formula* (Resumen en Shortform: [https://www.shortform.com/pdf/the-youtube-formula-pdf-derral-eves](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.shortform.com%2Fpdf%2Fthe-youtube-formula-pdf-derral-eves) y notas de Brandon Boswell: [https://brandonkboswell.com/sources/The-YouTube-Formula](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fbrandonkboswell.com%2Fsources%2FThe-YouTube-Formula)).
-  * **Documento Markdown:** *Arquitectura Algorítmica...* (Sección: *Análisis Visual de Miniaturas*).
-  * **Guía Especializada:** Music Tomorrow, *YouTube's Recommendation Algorithm for Artists: Complete Guide* ([https://music-tomorrow.com/blog/a-complete-guide-to-youtube-recommendation-algorithms-for-music-and-artists](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fmusic-tomorrow.com%2Fblog%2Fa-complete-guide-to-youtube-recommendation-algorithms-for-music-and-artists)).
-
-#### **B. Protocolo de Pruebas A/B Nativas (** **Test &amp; Compare** **) y Métrica** **Watch Time Share**
-
-* **Mecánica Algorítmica de la Plataforma:** La herramienta nativa de pruebas A/B dentro de YouTube Studio permite subir hasta 3 variantes de miniatura por vídeo. A diferencia de las herramientas externas que determinan la ganadora basándose únicamente en la Tasa de Clics (CTR) inicial, el sistema nativo de YouTube evalúa el éxito según la **Cuota de Tiempo de Visualización (** **Watch Time Share** **)** que aporta cada opción.
-* **Directiva Operativa para el Agente:**
-  1. Si una miniatura genera muchos clics pero los usuarios abandonan el vídeo rápidamente, el sistema la descartará por perjudicar la retención.
-  2. El agente debe redactar las 3 variantes de empaquetado en `01-packaging.md` bajo dos enfoques complementarios: una variante orientada al beneficio explícito y otra al hueco de curiosidad (*curiosity gap*), asegurando que ambas sean 100% coherentes con el contenido real del vídeo.
-* **Fuentes de Referencia Exactas:**
-  * **Informe de Industria:** John Circle Associates, *YouTube Launches First Stage of Thumbnail A/B Testing in YouTube Studio* ([https://johncircleassociate.com/youtube-launches-first-stage-of-thumbnail-a-b-testing-in-youtube-studio/](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjohncircleassociate.com%2Fyoutube-launches-first-stage-of-thumbnail-a-b-testing-in-youtube-studio%2F)).
-  * **Documento Markdown:** *Arquitectura Algorítmica...* (Sección: *Experimentación Mediante Pruebas A/B*).
-
----
-
-### **3\. Integración en** **\_framework/roles/03-guion-y-narrativa.md**
-
-#### **A. Regla de los Primeros 7–10 Segundos y Estructura del Gancho (** **Hook** **)**
-
-* **Mecánica Algorítmica de la Plataforma:** El algoritmo analiza minuciosamente la retención durante los primeros 30 segundos de reproducción. Caídas abruptas en esta fase indican al sistema que la promesa visual/textual de la miniatura no se cumplió, lo que congela de inmediato la recomendación del vídeo hacia nuevas audiencias.
-* **Directiva Operativa para el Agente:**
-  1. En el primer bloque del guion (`[B01]`), **prohibir estrictamente** cortinillas animadas, intros corporativas, saludos vacíos ("hola a todos, bienvenidos a mi canal...") o patrocinios tempranos.
-  2. Los primeros 5 a 10 segundos deben validar de inmediato la propuesta del título/miniatura, exponer el conflicto principal e introducir un gancho de curiosidad que sostenga la atención hasta el minuto 1.
-* **Fuentes de Referencia Exactas:**
-  * **Documento Markdown:** *Arquitectura Algorítmica...* (Sección: *Análisis de la Curva de Retención de Audiencia*).
-  * **Libro de Creador:** Derral Eves, *The YouTube Formula* ([https://brandonkboswell.com/sources/The-YouTube-Formula](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fbrandonkboswell.com%2Fsources%2FThe-YouTube-Formula)).
-  * **Manual Gyre:** *YouTube recommendation system 2026* ([https://gyre.pro/blog/youtube-recommendation-system-how-to-hack-it-for-explosive-growth](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fgyre.pro%2Fblog%2Fyoutube-recommendation-system-how-to-hack-it-for-explosive-growth)).
-
-#### **B. Detector/Linter de** **Quality CTR** **(Prevención de Clickbait Engañoso)**
-
-* **Mecánica Algorítmica de la Plataforma:** El sistema MMoE supervisa la **Tasa de Clics de Calidad (** **Quality CTR** **/ QCR)**. Si un par título-miniatura logra un CTR muy elevado (por ejemplo, 12%), pero los espectadores abandonan el metraje en los primeros 15 a 30 segundos, el algoritmo clasifica la publicación como **engañosa (** **deceptive clickbait** **)**. Esto frena la distribución en la Página de Inicio y reduce el alcance futuro de todo el canal.
-* **Directiva Operativa para el Agente:** Implementar un control de calidad obligatorio en la fase de guionado: todo concepto o promesa destacada en la miniatura o título debe ser explicada, mostrada o satisfecha explícitamente en la primera mitad del guion.
-* **Fuentes de Referencia Exactas:**
-  * **Documento Markdown:** *Arquitectura Algorítmica...* (Sección: *La Tasa de Clics de Calidad (Quality CTR) vs. Clickbait Deceptivo*).
-  * **Blog Oficial de YouTube:** Cristos Goodrow, *On YouTube's recommendation system* ([https://blog.youtube/inside-youtube/on-youtubes-recommendation-system/](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fblog.youtube%2Finside-youtube%2Fon-youtubes-recommendation-system%2F)).
-
-#### **C. Interrupciones de Patrón (** **Pattern Interrupts** **) para la Curva de Retención**
-
-* **Mecánica Algorítmica de la Plataforma:** Para mantener una retención superior al 50% en vídeos de más de 8-10 minutos, la curva de audiencia exige estímulos visuales y auditivos recurrentes que eviten la fatiga de atención.
-* **Directiva Operativa para el Agente:** Obligar a que la plantilla de guion y la tabla de storyboard incluyan una **interrupción de patrón cada 20 a 30 segundos**. Esto incluye cambios de plano (A-roll a B-roll), efectos de sonido (SFX), zooms de reencuadre, textos explicativos en pantalla o variaciones en la música de fondo.
-* **Fuentes de Referencia Exactas:**
-  * **Libro de Creador:** Derral Eves, *The YouTube Formula* ([https://brandonkboswell.com/sources/The-YouTube-Formula](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fbrandonkboswell.com%2Fsources%2FThe-YouTube-Formula)).
-  * **Documento Markdown:** *Arquitectura Algorítmica...* (Sección: *Tabla de Estrategia de Retención Recomendada*).
-
----
-
-### **4\. Integración en** **05-metricas-retencion.md** **y** **\_framework/reglas-sistema.md**
-
-#### **A. Modelo de Expansión Algorítmica por Cohortes de Audiencia**
-
-* **Mecánica Algorítmica de la Plataforma:** Un vídeo recién subido no se muestra a toda la audiencia de golpe. El algoritmo lo testea primero en una **cohorte primaria** (suscriptores más activos y espectadores recurrentes). Si las métricas de retención y *Quality CTR* son positivas, se escala a una **cohorte secundaria** (usuarios con hábitos similares que no conocen el canal). Si el rendimiento se sostiene, se distribuye a la **cohorte amplia** en la Página de Inicio global.
-* **Directiva Operativa para el Agente:** Configurar la lógica de lectura de analíticas en `05-metricas-retencion.md`: si la Tasa de Clics (CTR) disminuye pero las **Impresiones aumentan exponencialmente**, el agente **no debe cambiar la miniatura**. Esta disparidad indica que el algoritmo está probando el vídeo con éxito en cohortes frías más amplias.
-* **Fuentes de Referencia Exactas:**
-  * **Documento Markdown:** *Arquitectura Algorítmica...* (Sección: *Evaluación por Cohortes y Expansión Algorítmica*).
-  * **Manual Gyre:** *YouTube recommendation system 2026* ([https://gyre.pro/blog/youtube-recommendation-system-how-to-hack-it-for-explosive-growth](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fgyre.pro%2Fblog%2Fyoutube-recommendation-system-how-to-hack-it-for-explosive-growth)).
-
-#### **B. Métrica de Tiempo de Visualización Valorizado (** **Valued Watch Time** **)**
-
-* **Mecánica Algorítmica de la Plataforma:** El algoritmo ya no mide únicamente los minutos brutos consumidos. Muestrea a los usuarios mediante encuestas de satisfacción de 1 a 5 estrellas. Mediante aprendizaje automático, la plataforma predice la probabilidad de satisfacción para el 100% de las reproducciones. Solo las visualizaciones asociadas a calificaciones de 4 o 5 estrellas computan como **Tiempo de Visualización Valorizado**.
-* **Directiva Operativa para el Agente:** Priorizar la entrega de valor real, veracidad probada y claridad conceptual sobre la extensión artificial del vídeo. Metrajes largos inflados sin sustancia generan valoraciones negativas en encuestas, penalizando la distribución del canal.
-* **Fuentes de Referencia Exactas:**
-  * **Blog Oficial de YouTube:** Cristos Goodrow, *On YouTube's recommendation system* ([https://blog.youtube/inside-youtube/on-youtubes-recommendation-system/](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fblog.youtube%2Finside-youtube%2Fon-youtubes-recommendation-system%2F)).
-  * **Paper Académico de Google:** Zhe Zhao et al., *Recommending What Video to Watch Next: A Multitask Ranking System* ([https://openreview.net/pdf?id=gxlKBGBBwN](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fopenreview.net%2Fpdf%3Fid%3DgxlKBGBBwN)).
-  * **Documento Markdown:** *Arquitectura Algorítmica...* (Sección: *La Transición al Tiempo de Visualización Valorizado*).
-
-#### **C. Protocolo de Diagnóstico y Toma de Decisiones en Tiempo Real**
-
-* **Lógica Operativa para el Agente de IA:**
-  1. **Caso A (CTR Bajo + Impresiones Altas):** *Diagnóstico:* Expansión a cohorte fría en progreso. **Acción:** Mantener empaquetado intacto.
-  2. **Caso B (CTR Bajo + Impresiones Bajas/Promedio tras 3-4 horas):** *Diagnóstico:* Fallo de impacto en la primera impresión. **Acción:** Ordenar cambio inmediato a la miniatura variante B preparada en `01-packaging.md`.
-  3. **Caso C (Caída de retención &gt;50% en los primeros 30 segundos):** *Diagnóstico:* Falso gancho o desalineación con la miniatura. **Acción:** Registrar la falla estructural en `05-metricas-retencion.md` para corregir la fórmula de inicio en la plantilla de guion del próximo vídeo.
-* **Fuentes de Referencia Exactas:**
-  * **Libro de Creador:** Derral Eves, *The YouTube Formula* ([https://brandonkboswell.com/sources/The-YouTube-Formula](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fbrandonkboswell.com%2Fsources%2FThe-YouTube-Formula)).
-  * **Documento Markdown:** *Arquitectura Algorítmica...* (Sección: *Marco Estratégico de Ejecución para Creadores*).
-
-
-
----
-
-### **1\. Edición de Retención e Interrupciones de Patrón (** **Pattern Interrupts** **)**
-
-* **Fundamento Algorítmico y Técnico:** El sistema de recomendación evalúa el Tiempo de Visualización Promedio (AVD) y el Porcentaje de Reproducción Promedio (APV) para determinar la distribución de un vídeo [cite: 31, 32, 237, 260, 268]. Cuando la curva de retención decae debido a la fatiga visual del espectador, se debe ejecutar una *interrupción de patrón* (*pattern interrupt*) para resetear el foco de atención antes de que abandone la reproducción [cite: 226, 230].
-* **Frecuencia de Estímulos en la Línea de Tiempo:**
-  * **Vídeos cortos (&lt;5 minutos):** Cambiar de estímulo o elemento visual cada **3 a 5 segundos** [cite: 32].
-  * **Vídeos largos (&gt;10 minutos):** Introducir una interrupción de patrón cada **20 a 30 segundos** [cite: 32, 226, 269].
-* **Técnicas Concretas de Montaje:**
-  * **Reencuadres y Zooms Dinámicos:** Aplicar acercamientos o zooms de corte en palabras clave [cite: 226].
-  * **Texto en Pantalla (** **Words on Screen** **):** Resaltar conceptos neurálgicos con texto animado para reforzar la fijación visual [cite: 226].
-  * **Efectos de Sonido (** **SFX** **):** Acompañar los cortes y transiciones con efectos de sonido (*whoshes*, *pops*) que acentúen giros narrativos [cite: 226].
-  * **Alternancia A-Roll / B-Roll:** Romper las tomas estáticas de cámara parlante (*A-roll*) intercalando material de recurso (*B-roll*), gráficos o capturas [cite: 48, 226, 338].
-* **Fuentes de Referencia Exactas:**
-  * **Documento Markdown:** *Arquitectura Algorítmica, Métricas de Satisfacción...* (Sección: *Análisis de la Curva de Retención de Audiencia* y *Tabla de Estrategia de Retención Recomendada*[1][2]).
-  * **Notas de Creador:** Brandon Boswell, *The YouTube Formula* (Highlights sobre *Pattern Interrupts* y *Reengagement*[3]). URL: [https://brandonkboswell.com/sources/The-YouTube-Formula](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fbrandonkboswell.com%2Fsources%2FThe-YouTube-Formula).
-  * **Resumen del Libro:** Derral Eves, *The YouTube Formula* (Resumen en Shortform[6]). URL: [https://www.shortform.com/app/book/the-youtube-formula](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.shortform.com%2Fapp%2Fbook%2Fthe-youtube-formula).
-  * **Manual de Industria Gyre:** *YouTube recommendation system 2026: how to grow with it* (Sección: *The retention–recommendation link every creator should know*[7]). URL: [https://gyre.pro/blog/youtube-recommendation-system-how-to-hack-it-for-explosive-growth](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fgyre.pro%2Fblog%2Fyoutube-recommendation-system-how-to-hack-it-for-explosive-growth).
-
----
-
-### **2\. Montaje Limpio del Inicio y Recorte de "Relleno" (Los Primeros 7–10 Segundos)**
-
-* **Fundamento Algorítmico y Técnico:** El algoritmo supervisa minuciosamente los primeros 30 segundos de reproducción [cite: 31, 276]. Una caída abrupta en este tramo notifica al sistema que el inicio no validó la promesa visual del empaquetado, lo que frena la recomendación en cohortes secundarias y penaliza la Tasa de Clics de Calidad (*Quality CTR*) [cite: 30, 31, 39, 40].
-* **Pautas Concretas de Edición para la Apertura:**
-  * **Eliminación Total de Introducciones:** Suprimir cortinillas animadas, logotipos corporativos, saludos vacíos (*"Hola chicos, bienvenidos de nuevo a mi canal..."*) o patrocinios tempranos [cite: 31].
-  * **Validación Inmediata de la Promesa:** Entregar la propuesta del título/miniatura en los primeros **5 a 10 segundos** con un gancho explícito o una sorpresa visual que confirme al espectador que está en el lugar correcto [cite: 31, 222, 225, 269].
-  * **Estructura del Hook:** Plantear el conflicto principal o la pregunta central en el segundo cero para sostener la curiosidad hasta el primer minuto [cite: 31, 225].
-* **Fuentes de Referencia Exactas:**
-  * **Documento Markdown:** *Arquitectura Algorítmica...* (Sección: *Análisis de la Curva de Retención de Audiencia*[1]).
-  * **Blog Oficial de YouTube:** Cristos Goodrow (VP de Ingeniería), *On YouTube's recommendation system* (Sección: *How we personalize recommendations / Clicks &amp; Watchtime*[10][11]). URL: [https://blog.youtube/inside-youtube/on-youtubes-recommendation-system/](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fblog.youtube%2Finside-youtube%2Fon-youtubes-recommendation-system%2F).
-  * **Manual Gyre:** *YouTube recommendation system 2026* (Sección: *Open strong*[8]). URL: [https://gyre.pro/blog/youtube-recommendation-system-how-to-hack-it-for-explosive-growth](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fgyre.pro%2Fblog%2Fyoutube-recommendation-system-how-to-hack-it-for-explosive-growth).
-
----
-
-### **3\. Expresividad Visual, Encuadres y Lenguaje de Cámara**
-
-* **Fundamento Algorítmico y Técnico:** Los modelos de visión por computadora de YouTube analizan las imágenes y los fotogramas del vídeo reconociendo rostros, composiciones visuales y grados de emoción [cite: 26, 217]. El lenguaje de cámara influye tanto en esta clasificación automática como en la permanencia humana frente a la pantalla [cite: 26, 338].
-* **Tácticas de Grabación y Movimiento:**
-  * **Caso de Estudio** **Matt's Off Road Recovery** **:** Un ajuste en los ángulos de cámara, un mayor movimiento en la toma y una edición centrada en los rostros expresivos multiplicó la retención promedio y elevó el consumo a 1.7 millones de reproducciones diarias [cite: 338].
-  * **Dinamismo en Cámara:** Evitar encuadres estáticos y tomas prolongadas de "cabeza parlante" sin movimiento [cite: 338].
-  * **Puntos Focales Clarios:** Garantizar una composición limpia con un punto focal definido para facilitar la lectura por los sistemas de *Computer Vision* [cite: 26, 41].
-* **Fuentes de Referencia Exactas:**
-  * **Documento Markdown:** *Arquitectura Algorítmica...* (Sección: *Extracción Multimodal de Funciones / Análisis Visual*[13][14]).
-  * **Resumen del Libro:** Derral Eves, *The YouTube Formula* (Caso práctico *Matt's Off Road Recovery*[6]). URL: [https://www.shortform.com/app/book/the-youtube-formula](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.shortform.com%2Fapp%2Fbook%2Fthe-youtube-formula).
-  * **Notas de Creador:** Brandon Boswell, *The YouTube Formula* (Highlights sobre Visión por Computadora y Reconocimiento Facial[15]). URL: [https://brandonkboswell.com/sources/The-YouTube-Formula](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fbrandonkboswell.com%2Fsources%2FThe-YouTube-Formula).
-
----
-
-### **4\. Edición de Cierre (** **Outro** **) y la Técnica de la "Joya Oculta" (** **Hidden Gem** **)**
-
-* **Fundamento Algorítmico y Técnico:** El algoritmo premia la *Continuación de Sesión* (*Session Continuation*) asignando más peso en la superficie de recomendados a los vídeos que redirigen al usuario hacia otro metraje de la plataforma sin romper la navegación [cite: 27, 42].
-* **Errores y Soluciones de Montaje al Final:**
-  * **Prohibir Frases de Desocupación (** **Trigger Phrases** **):** Decir *"Bueno, eso ha sido todo por hoy"* o *"Gracias por ver"* envía una señal verbal de desenganche que hace huir al espectador antes de ver las pantallas finales [cite: 236, 238].
-  * **Outro Rápido y Enlazado:** Mantener el ritmo alto hasta el último segundo y realizar una llamada a la acción verbal de 8 a 10 segundos hacia el siguiente vídeo sugerido (*target video*) [cite: 238].
-  * **Técnica de la "Joya Oculta" (** **Hidden Gem** **):** Incluir un elemento de alto valor al final del vídeo (similar a una escena post-créditos) para acostumbrar a la audiencia a ver hasta el segundo 100% [cite: 226].
-* **Fuentes de Referencia Exactas:**
-  * **Libro / Notas:** Derral Eves, *The YouTube Formula* (Highlights sobre *Trigger Phrases*, *Outros* y *Hidden Gem*[3]). URL: [https://brandonkboswell.com/sources/The-YouTube-Formula](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fbrandonkboswell.com%2Fsources%2FThe-YouTube-Formula).
-  * **Documento Markdown:** *Arquitectura Algorítmica...* (Sección: *Continuación de Sesión y Estrategia de Publicación*[17]).
-
----
-
-### **5\. Producción Sonora, Subtitulado e Ingesta de Audio (NLP)**
-
-* **Fundamento Algorítmico y Técnico:** YouTube procesa la pista de audio mediante modelos de Procesamiento de Lenguaje Natural (NLP) e ingesta de subtítulos [cite: 23, 26, 218]. La coherencia entre las palabras habladas y los metadatos ayuda a clasificar el vídeo dentro de las categorías semánticas correctas [cite: 23, 26, 218].
-* **Criterios Prácticos de Edición de Audio:**
-  * **Subtítulos de Calidad (Closed Captions - CC):** No depender únicamente del auto-CC de YouTube; proporcionar o revisar subtítulos limpios y bien sincronizados fortalece la ingesta de datos del algoritmo [cite: 218, 239].
-  * **Diseño Sonoro Emocional:** Integrar música de fondo acorde al tono narrativo y efectos de sonido en momentos estratégicos [cite: 48, 226].
-  * **Modelos Multimodales (MuLan):** En producciones musicales o de audio complejo, sistemas multimodales como MuLan procesan la música y los comentarios para clasificar los contenidos por estados de ánimo o géneros [cite: 295, 296].
-* **Fuentes de Referencia Exactas:**
-  * **Documento Markdown:** *Arquitectura Algorítmica...* (Sección: *Procesamiento de Subtítulos y Transcripciones*[13]).
-  * **Notas de Creador:** Brandon Boswell, *The YouTube Formula* (Highlights sobre subtítulos y transcripciones de audio[18][19]). URL: [https://brandonkboswell.com/sources/The-YouTube-Formula](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fbrandonkboswell.com%2Fsources%2FThe-YouTube-Formula).
-  * **Guía Especializada:** Music Tomorrow, *YouTube's Recommendation Algorithm for Artists* (Sección: *How YouTube Algorithms Understand Music / MuLan*[20]). URL: [https://music-tomorrow.com/blog/a-complete-guide-to-youtube-recommendation-algorithms-for-music-and-artists](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fmusic-tomorrow.com%2Fblog%2Fa-complete-guide-to-youtube-recommendation-algorithms-for-music-and-artists).
+Prompt plantilla de personaje: 
+"Photorealistic character reference sheet of the person in Image 1, on a seamless neutral gray studio background, split into two side-by-side panels: a full-body view on the left and a face close-up on the right. Aspect ratio 3:2 landscape.   Image 1: character anchor. This is the only identity source. Treat it as a strict contract.   Layout: Two equal vertical panels side by side, separated by a thin, clean vertical divider line in a slightly lighter gray. Both panels share the same flat neutral mid-gray backdrop (approximately #808080), uniform, no gradient, no texture, no props. Same lighting and same color temperature in both panels. Both panels show the exact same individual.   Left panel, full body: Head-to-toe front view, standing upright in a relaxed neutral pose, arms resting at the sides slightly away from the torso so the silhouette reads clearly, feet about shoulder-width apart, weight evenly balanced. Entire body in frame with breathing room above the head and below the feet. Camera at eye level from mid-body height, 50mm lens feel, no wide-angle distortion. Soft, subtle contact shadow under the feet only.   Right panel, face close-up: Front-facing head-and-shoulders close-up, centered, eyes looking directly into the camera, neutral relaxed expression with the mouth closed. 85mm portrait lens feel, eye level, face in sharp focus from forehead to chin.   Change: Only the background, pose, framing, and lighting. Replace the original background with the seamless gray studio backdrop.   Preserve: Exact face and facial features, facial proportions, skin tone, apparent age, eye color, eyebrow shape, nose, lips, jawline, hairstyle, hair color and hairline, facial hair if present, body type and body proportions, and distinctive marks such as freckles, moles, scars, or tattoos. Keep the clothing, accessories, colors, and fabric textures from Image 1. If part of the outfit is not visible in Image 1, complete it in a simple, neutral way that matches the visible clothing. If the person wears glasses, keep them with semi-translucent lenses so the eyes stay visible.   Rendering: Photorealistic studio photograph, like a talent-agency casting digital or a wardrobe reference photo. Soft, even, diffused front lighting with gentle fill, no dramatic shadows. Realistic skin texture with visible pores and natural imperfections, matte skin, natural color balance, subtle film grain, lightly processed look. Honest and natural.   Use case: character reference sheet and identity anchor for consistent image and video generation.   Constraints: do not redesign or idealize the person, no beautification, no glamorization, no heavy retouching, no face drift between panels, no extra people, no props, no text, no labels, no logos, no watermark, no added accessories".
