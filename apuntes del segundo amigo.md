@@ -1,3 +1,8 @@
+> ⚠️ **Nota de trazabilidad (agregada 2026-10-22, no parte de los apuntes originales):**
+> Este archivo es una **fuente de referencia externa no verificada**, no una regla del sistema.
+> 1. Remite repetidamente a un documento titulado *"Arquitectura Algorítmica, Métricas de Satisfacción y Dinámicas de Audiencia..."* y a referencias numeradas `[cite: N]` (22 únicas) que **no existen en este repositorio** y no se pueden resolver desde él.
+> 2. Su análisis y disposición por hallazgo están en `_framework/referencias/auditorias/revision-externa-3-2026-10-22.md` y `revision-externa-3-disposicion-2026-10-22.md`: de estos apuntes **solo se incorporaron tres aportaciones** al framework (matriz de superficies, tabla de diagnóstico post-publicación, puerta de congruencia promesa➜contenido). El resto queda como hipótesis pendiente de validar o conocimiento descartado, y **no** debe citarse como base de reglas del sistema.
+
 ### **1\. Integración en** **\_framework/roles/01-investigacion-ideas.md** **y** **01-packaging.md**
 
 #### **Matriz de Objetivos y Dinámicas por Superficie Algorítmica**

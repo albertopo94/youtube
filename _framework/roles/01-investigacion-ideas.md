@@ -115,6 +115,26 @@ La gente puede desear intensamente un resultado (dormir mejor, tener energía, g
 - **Debes pagar ese precio cuando hace que el cliente ideal se sienta profundamente comprendido.**
 - **Regla:** Diseñar el título y la miniatura tan amplios como sea posible (*Broad Desire*) **sin sacrificar jamás la resonancia con tu cliente objetivo central**. Si al ampliar el título diluyes la claridad para el espectador que realmente te importa, no hagas ese intercambio.
 
+### 3.4 Superficies de Descubrimiento y Estrategia Editorial por Superficie `[Hipótesis Editorial]`
+
+> **Origen y naturaleza:** Esta matriz se destiló del análisis de `_framework/referencias/auditorias/revision-externa-3-2026-10-22.md` sobre los apuntes del segundo amigo. No es una tabla de pesos secretos del algoritmo: es una **hipótesis de trabajo editorial** sobre a qué superficie de YouTube conviene prestar atención y cómo. Cada fila se marca como hipótesis, con enlace a la fuente oficial, y sin atribuir pesos internos ni mecanismos no verificados.
+
+YouTube no opera con un único algoritmo monolítico, sino con múltiples superficies independientes ajustadas a objetivos de usuario y señales de comportamiento distintas. Un mismo vídeo puede necesitar un enfoque editorial diferente según la audiencia que se pretenda atraer.
+
+| Superficie | Qué estudia el agente | Aplicación editorial |
+| :--- | :--- | :--- |
+| **Inicio / Browse Feed** | Qué audiencia podría interesarse por el tema sin estar buscándolo activamente. El sistema evalúa historial de reproducción de largo plazo, afinidad temática global y retención general; usa filtrado colaborativo para emparejar espectadores con hábitos similares. | Conceptos, títulos y miniaturas que despierten interés sin confundir sobre el contenido. Identidad visual e iconográfica consistente para que los espectadores frecuentes identifiquen la miniatura en un feed saturado. |
+| **Sugeridos / Up Next** | Qué relación podría tener el vídeo con lo que el espectador acaba de ver. El vídeo actual es la señal principal; el sistema mide coherencia semántica y comportamiento de sesión a corto plazo. | Analizar vídeos relacionados, desarrollar continuaciones naturales y enlazar contenido complementario (tarjetas intermedias, pantallas finales) para acumular créditos de *Session Continuation*. |
+| **Búsqueda** | Qué pregunta explícita intenta resolver el espectador. Combina relevancia contextual (título, descripción, subtítulos) con CTR y retención específicas de esa consulta. | Títulos comprensibles con intención de búsqueda clara y contenido que responda realmente a la consulta. Tratar la búsqueda como embudo de adquisición para transformar tráfico frío en espectadores recurrentes. |
+| **Shorts** | Qué puede conseguir que el espectador decida seguir mirando y disfrute del vídeo. Mide tasa de finalización, tasa de bucle y frecuencia de deslizamiento sin ver. | Gancho temprano (el segundo cero), desarrollo directo y evaluación de las métricas propias de Shorts. Eliminar introducciones, saludos o cierres tradicionales. |
+
+**Fuentes oficiales de referencia:**
+- Documentación oficial de Google Help: *How YouTube recommendations work* — <https://support.google.com/youtube/answer/16089387>
+- Blog oficial de YouTube: Cristos Goodrow (VP de Ingeniería), *On YouTube's recommendation system* — <https://blog.youtube/inside-youtube/on-youtubes-recommendation-system/>
+- Paper académico de referencia: Zhe Zhao et al. (Google/YouTube), *Recommending What Video to Watch Next: A Multitask Ranking System* (ACM RecSys) — <https://openreview.net/pdf?id=gxlKBGBBwN>
+
+**Límite de esta matriz:** Las filas describen la *intención* de cada superficie y su *señal observable*, no su ponderación interna. Cualquier interpretación que convierta esta tabla en una receta de "cómo hackear cada superficie" va más allá de lo que las fuentes oficiales permiten y debe ser tratada como experimentación, no como regla.
+
 ---
 
 ## 4. La Técnica de Transposición Cross-Niche (El Atajo de Viralidad)

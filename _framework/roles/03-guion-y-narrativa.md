@@ -31,6 +31,20 @@ YouTube exige declarar en YouTube Studio cuando el contenido pueda confundirse c
 3. **Voces sintéticas de biblioteca claramente reconocibles como IA:** Locución sintética estándar que no intente engañar sobre la identidad de una persona real.
 4. **Asistencia de producción interna:** Uso de IA para lluvia de ideas, redacción de guiones, generación de subtítulos automáticos o corrección de color.
 
+### Puerta de Congruencia Promesa ➜ Contenido (Linter de Alineación) `[Puerta Obligatoria]`
+
+> **Origen:** Se destiló del análisis de `_framework/referencias/auditorias/revision-externa-3-2026-10-22.md` sobre los apuntes del segundo amigo. Reemplaza la propuesta de un detector de «Quality CTR / QCR»: no se puede implementar el supuesto Quality CTR como puntuación concreta porque no existe una especificación pública que permita calcularla o reproducirla. En su lugar, se construye un control editorial **evaluable con criterios editoriales y ejemplos contrastables**, que comprueba lo mismo de forma observable: que el contenido cumple la expectativa que genera el packaging.
+
+Antes de dar por aprobado cualquier guion, el agente debe responder afirmativamente a estas 5 preguntas:
+
+1. **¿Qué promete explícitamente el título?** (Señalar la frase o palanca del título aprobado en `01-packaging.md`).
+2. **Qué expectativa genera la miniatura?** (Qué brecha de curiosidad y qué escena/elemento visual la abre, ver rol 02 §2).
+3. **¿El vídeo entrega lo prometido?** (El desarrollo cubre la promesa; no hay afirmaciones visuales o textuales que el vídeo no pueda justificar).
+4. **¿La apertura permite reconocer pronto que el contenido corresponde a esa expectativa?** (Ver rol 03 §3: la promesa debe validarse en los primeros 5–30 segundos según el formato, sin spoiler prematuro).
+5. **¿Hay alguna afirmación que el vídeo no pueda respaldar?** (Cualquier cosa que suene como un resultado garantizado, un mecanismo interno de YouTube o una métrica oculta).
+
+**Regla:** Si alguna respuesta es **NO**, el guion no avanza. Se registra la incongruencia en `06-fuentes-y-verificacion.md` como hallazgo de control y se corrige antes de la locución definitiva. Esta puerta es **independiente** de la puerta de originalidad (aportación editorial propia) y de la YMYL (linter de léxico): una cosa es que el contenido sea original y otra cosa es que lo que promete sea lo que realmente entrega.
+
 ### Puerta de Seguridad YMYL: Linter de Léxico Prohibido y Matización Científica
 *(Aplicable a canales de Ciencia, Salud, Nutrición, Finanzas y Noticias - Ver `_framework/contingencia-y-politicas-sensibles.md`)*:
 - **Carga de la Prueba:** Prohibido redactar una afirmación fáctica en el guion sin su respectivo DOI o fuente primaria registrada en `06-fuentes-y-verificacion.md`.
