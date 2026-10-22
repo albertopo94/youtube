@@ -50,7 +50,7 @@
 
 ## 6. Registro de Referencias Reutilizables (Personajes, Escenarios, Luz) `[Opcional]`
 
-> **Origen:** revisión externa 4 (`referencias/auditorias/revision-externa-4-2026-10-22.md`). Se completa cuando el video (o el canal) tenga personajes, escenarios o estilos que se reutilicen entre planos o videos. Cada referencia es el ancla de continuidad de `03-storyboard-y-edicion.md` §1.1.
+> **Origen:** revisión externa 4 (`_framework/referencias/auditorias/revision-externa-4-2026-10-22.md`). Se completa cuando el video (o el canal) tenga personajes, escenarios o estilos que se reutilicen entre planos o videos. Cada referencia es el ancla de continuidad de `03-storyboard-y-edicion.md` §1.1.
 
 | ID de Referencia | Archivo o Ruta | Función (personaje / escenario / producto / iluminación / estilo) | Elementos Invariantes (rasgos que deben permanecer) | Variaciones Permitidas (qué puede cambiar por plano) | Procedencia y Permisos (origen y autorización, p. ej. persona autorizada) | Escenas Relacionadas |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |

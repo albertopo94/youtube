@@ -21,13 +21,13 @@
 
 ### 1.1 Preparación de Referencias de Continuidad `[Opcional — solo cuando la continuidad visual sea importante]`
 
-> **Origen:** revisión externa 4 (`referencias/auditorias/revision-externa-4-2026-10-22.md`). Procedimiento **agnóstico de herramientas**: no depende de ninguna plataforma; se aplica cuando el video tenga un personaje, producto o escenario recurrente. No exigirlo en vídeos que no necesitan continuidad.
+> **Origen:** revisión externa 4 (`_framework/referencias/auditorias/revision-externa-4-2026-10-22.md`). Procedimiento **agnóstico de herramientas**: no depende de ninguna plataforma; se aplica cuando el video tenga un personaje, producto o escenario recurrente. No exigirlo en vídeos que no necesitan continuidad.
 
 - **Qué registrar por referencia:** función (personaje / escenario / producto / iluminación / estilo), **elementos invariantes** (qué debe permanecer: rostro, vestuario, proporciones, dirección de la luz, paleta) y **variaciones permitidas** (qué puede cambiar entre planos: pose, encuadre, ángulo de cámara).
 - **Límite de información real:** una foto del rostro no permite conocer con precisión un cuerpo que no aparece en ella; no se pide al generador conservar lo que la referencia no muestra. Si la continuidad de cuerpo o vestuario importa, incorporar una referencia de cuerpo completo cuando sea posible.
 - **Documento vs. imagen que se anima:** una lámina de referencia compuesta (ej. dos paneles lado a lado) sirve para *documentar* al personaje, pero un generador de video puede interpretar la división como parte de la escena (duplicar al personaje o partir la composición). Para generar, usar las vistas por separado cuando la herramienta admita varias referencias. **Usar una lámina compuesta solo si se comprobó que el modelo la interpreta como referencia y no como escena; no asumir que todas las herramientas interpretan igual las referencias múltiples.**
 - **Textura y acabado son parámetros estéticos del proyecto:** piel lisa, grano cinematográfico, nitidez máxima o eliminación de textura **nunca** son valores universales de una referencia maestra; son decisiones estéticas elegidas según el proyecto, sin contradecir el objetivo de la generación. Distinguir siempre textura natural de artefactos.
-- **Arquillar, no solo describir:** los anclajes de la §1 deben poder guardarse como **archivos de referencia concretos** (imagen de personaje, de escenario, de luz), no solo como texto dentro de cada prompt. Registrarlos en `04-registro-recursos.md` (sección de referencias reutilizables).
+- **Archivar, no solo describir:** los anclajes de la §1 deben poder guardarse como **archivos de referencia concretos** (imagen de personaje, de escenario, de luz), no solo como texto dentro de cada prompt. Registrarlos en `04-registro-recursos.md` (sección de referencias reutilizables).
 
 ---
 
@@ -65,7 +65,7 @@
 
 ### 3.1 Generación con IA: pruebas preliminares e inspección del resultado real `[Política de Costo y Calidad]`
 
-> **Origen:** revisión externa 4 (`referencias/auditorias/revision-externa-4-2026-10-22.md`). Agnóstico de herramientas: se aplica cuando se generen recursos definitivos de pago con IA, con la plataforma que el creador tenga disponible.
+> **Origen:** revisión externa 4 (`_framework/referencias/auditorias/revision-externa-4-2026-10-22.md`). Agnóstico de herramientas: se aplica cuando se generen recursos definitivos de pago con IA, con la plataforma que el creador tenga disponible.
 
 **Pruebas preliminares antes de lo definitivo:**
 - [ ] Comprobar si la herramienta elegida ofrece un modo de prueba económico (borrador, preview, baja resolución). **Nunca asumir que es gratuito:** registrar el costo real de la prueba en `04-registro-recursos.md`.
@@ -102,7 +102,9 @@
 
 ## 🎛️ 4. Las 4 Capas Obligatorias de Pulido Técnico (No Aceptar Ensambles Crudos)
 
-Para que el montaje se considere profesional (sea ejecutado por el agente en FilmCraft o en editor de escritorio), debe incorporar estas cuatro capas:
+Para que el montaje se considere profesional (sea ejecutado con la herramienta de montaje elegida por el creador —el flujo de referencia actual es FilmCraft, ver `AGENTS.md` §08.1— o en un editor de escritorio), debe incorporar estas cuatro capas. Cuando una regla nombre una función concreta de una herramienta, esa función es **un medio de lograr la intención editorial descrita**; si la herramienta elegida no la tiene, se usa su equivalente o un procedimiento manual que alcance el mismo resultado medible.
+
+> **Referencia cruzada:** `AGENTS.md` §05 (DoD de la fase) remite a esta sección como única fuente del pacing y del perfil de audio; si ambos textos difieren, manda esta sección.
 
 1. **Regla de Pacing Visual ( perfil por defecto, con excepción justificada):**
    - **Por defecto:** ningún plano estático permanece en pantalla más de **5 segundos** sin un cambio visual (corte a nuevo plano, detalle B-roll, punch-in de escala 100% a 105%, o aparición escalonada de textos).
@@ -112,10 +114,10 @@ Para que el montaje se considere profesional (sea ejecutado por el agente en Fil
 2. **Cortes de Continuidad (J-Cuts y L-Cuts):**
    - [ ] En transiciones narrativas clave, el audio de la siguiente escena entra entre 12 y 24 fotogramas (0.5 a 1s) antes de que la imagen corte, evitando cambios de plano secos.
 3. **Arquitectura de Audio (estudio de sonoro, perfil por defecto):**
-   - [ ] **Pista A1 (Voz):** Nivel de locución normalizado a estándares de transmisión (**−23 LUFS** integrado, pico < −1.5 dBTP) mediante `essentialSound.autoMatch`.
-   - [ ] **Pista A2 (Música):** Curva de ducking sobre la música: reducida a **−18 dB** durante la voz, subiendo con rampa suave (*fade-up*) a **−12 dB** en las pausas dramáticas (`essentialSound.generateDucking`).
+   - [ ] **Pista A1 (Voz):** Nivel de locución normalizado a estándares de transmisión (**−23 LUFS** integrado, pico < −1.5 dBTP) mediante la función de normalización de la herramienta (en el flujo de referencia: `essentialSound.autoMatch`).
+   - [ ] **Pista A2 (Música):** Curva de ducking sobre la música: reducida a **−18 dB** durante la voz, subiendo con rampa suave (*fade-up*) a **−12 dB** en las pausas dramáticas (en el flujo de referencia: `essentialSound.generateDucking`; en cualquier otra herramienta: su función de ducking o una envolvente manual equivalente).
    - [ ] **Pista A3 (SFX):** Efectos de sonido de acento (impactos, swooshes, clicks) colocados exactamente en la sílaba o fotograma donde ocurre el gancho visual.
-   - **Estos valores son el perfil por defecto.** Un formato distinto (ambient, documental sonoro, etc.) puede variarlos con **justificación escrita en esta tabla**; lo que no se puede variar es que el resultado se **mida y escuche**: narración clara, equilibrio inteligible y ritmo vivo. Exigir un resultado editorial no es lo mismo que exigir una técnica concreta.
+   - **Estos valores son el perfil por defecto.** Un formato distinto (ambient, documental sonoro, etc.) puede variarlos —o suprimir una pista que no aporta valor al género— con **justificación escrita en esta tabla**; lo que no se puede variar es que el resultado se **mida y escuche**: narración clara, equilibrio inteligible y ritmo vivo. Exigir un resultado editorial no es lo mismo que exigir una técnica concreta. La supresión de una pista también es una excepción justificada (ver `AGENTS.md` §05, niveles 1–3).
 4. **Dinámica de Cuadro (*Pacing Visual*):**
    - [ ] En planos estáticos o imágenes fijas que duren **más de 5 segundos**, aplicar zooms continuos sutiles (*punch-ins* de escala 100% a 105% o paneo Ken Burns) para evitar sensación de foto congelada.
    - **Antes esta regla decía "más de 3 segundos" y la regla 1 decía "4 a 7".** Dos umbrales distintos y ninguno aplicable a todos los géneros; se unifican en 5 s como perfil por defecto, con la excepción justificada de la regla 1.

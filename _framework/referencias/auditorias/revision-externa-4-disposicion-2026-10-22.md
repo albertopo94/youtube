@@ -96,3 +96,24 @@
 
 ### C5. Especificación creativa portable
 ✅ **ADOPTADO.** En `AGENTS.md` §02.4 (principio nuevo) y `03` §3: la intención del plano (acción, sujeto, elementos invariantes, cambios permitidos, cámara, duración, resultado esperado) se describe de forma **portable**, independiente de la sintaxis de la herramienta; el agente adapta después la especificación a la plataforma elegida usando solo funciones comprobadas. El conocimiento no queda atrapado en prompts de un producto concreto.
+
+---
+
+## Ronda de coherencia interna (A–E) — `revision-externa-4-originales-coherencia-2026-10-22.md`
+
+*El revisor confirmó que el contenido principal estaba bien integrado (commit `68ccb1d`) y limitó esta ronda a contradicciones heredadas. Fuente archivada verbatim con ese nombre.*
+
+### A. Secciones 05 y 08 imponían herramientas pese a la política §02.4
+✅ **RESUELTO.** §08.1 reencabezado como **flujo de referencia actualmente validado en el entorno del creador, no dependencia universal**; los imperativos ("Priorizar FilmCraft", "Usar EffectCraft", "Usar Google Flow", "utilizar exclusivamente…") reescritos como flujo de referencia con capacidad equivalente admitida; §05 (DoD) alinea sus menciones de herramientas hacia §08.1/§02.4. Se conservan los procedimientos validados, identificados como referencia.
+
+### B. Pacing "4 a 7 segundos" (AGENTS §05) vs. perfil de 5 s (plantilla 03)
+✅ **RESUELTO.** Unificado en 5 s como **perfil editorial predeterminado con excepción de propósito creativo escrito**; la regla operativa vive en `03` §4 y AGENTS §05 remite a ella en vez de fijar un umbral distinto.
+
+### C. "Arquitectura Obligatoria de 3 Pistas" contradecía el carácter de perfil
+✅ **RESUELTO.** §05 reescrito en 3 niveles: **requisito del resultado siempre** (narración inteligible, medido y escuchado), **perfil de mezcla predeterminado** para formatos que lo necesiten (A1/A2/A3 con valores), y **excepción justificada** cuando una pista no aporta valor al género (ambient, musical, documental sin música, screencast). La plantilla 03 refleja la supresión de pista como excepción legítima.
+
+### D. Funciones propietarias (`essentialSound.*`) como único camino
+✅ **RESUELTO.** `03` §4 reencabezado: la función concreta es **un medio de lograr la intención editorial**; si la herramienta elegida no la tiene, se usa su equivalente o procedimiento manual con el mismo resultado medible. `AGENTS.md` §08.1 declara lo mismo para sus nombres de función.
+
+### E. Errata "Arquillar" y rutas `referencias/` sin prefijo
+✅ **RESUELTO.** "Arquillar" ➜ "Archivar" (ambas copias de 03); rutas `referencias/auditorias/...` y `referencias/apuntes-...` normalizadas con prefijo `_framework/` en AGENTS.md, 03 y 04 (ambas copias). Los documentos archivados verbatim del revisor no se modifican.
