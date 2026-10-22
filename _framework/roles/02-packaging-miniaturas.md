@@ -69,6 +69,15 @@ Emparejadas con las brechas de curiosidad de la §2:
 
 *(Ejemplos transcritos de las notas originales en inglés: ilustrativos, no datos probados sobre el algoritmo.)*
 
+### 3.3 El título debe representar la profundidad del contenido
+
+> **Origen:** revisión externa 5 (`_framework/referencias/auditorias/revision-externa-5-2026-10-22.md`).
+
+El espectador infiere del título **cuánto vale la pena invertir** en el video. Un título que suena a pieza de cinco segundos no sostiene la promesa de un video de veinte minutos, y el CTR cae aunque la idea sea buena.
+- **Comprobación:** *¿el título comunicado sugiere una profundidad proporcional a la duración y el desarrollo real del video?*
+- Un título minimalista para un ensayo largo (**"pisé un bicho"** para 20 minutos de análisis) se lee como video corto y no se clickea como video largo.
+- Es una **heurística de proporción**, no una exigencia de títulos largos: lo ideal sigue siendo corto, simple e irrechazable, con lo importante al inicio (~55 caracteres como referencia, no como ley: por encima de ese orden hay riesgo de truncado con puntos suspensivos en algunos dispositivos).
+
 ## 4. Diseño Increíble: The C's of Thumbnail Design
 El objetivo es transmitir la idea principal de forma ultrarrápida: **extremadamente obvia de ver e increíblemente fácil de procesar**.
 

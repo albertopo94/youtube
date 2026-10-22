@@ -237,3 +237,20 @@ Tener un banco amplio de ideas en `ideas.md` (papers, noticias satíricas, cóct
 ## 8. Estrategia Lingüística como Hipótesis de Mercado
 La tabla de mercados de `_framework/estrategia-idiomas.md` (Español, Inglés, Hindi) debe tratarse como una **herramienta para formular hipótesis**, no como un ranking definitivo obligatorio:
 - Un mercado de cientos de millones de hablantes solo es una oportunidad real si somos capaces de producir contenido con la calidad cultural, idiomática y diferenciación requerida para competir en ese nicho.
+
+---
+
+## 9. Registro de Inspiración y Conexiones entre Temas `[Procedimiento Complementario Opcional]`
+
+> **Origen:** revisión externa 5 (`_framework/referencias/auditorias/revision-externa-5-2026-10-22.md`). El protocolo DFS (§1) encuentra **demanda y outliers**; este registro cultiva **materia prima para ideas originales**. Son complementarios: no es otra metodología de ideación.
+
+**Por qué:** quien solo busca videos que ya funcionaron termina repitiendo el mismo pozo de ideas. Ampliar deliberadamente lo que se conoce (otras disciplinas, formatos, temas vecinos) da más elementos con los que combinar conceptos nuevos.
+
+**Cómo:** para cada hallazgo que resulte inesperado, el agente registra cinco campos (en `estudio-mercado.md` del canal o en el bloque de notas que el creador prefiera):
+1. **Qué se descubrió y en qué fuente** (con enlace/fecha).
+2. **Qué aspecto resultó inesperado** o interesante.
+3. **Qué pregunta, reto o posibilidad creativa sugiere.**
+4. **Cómo se relaciona con el público del canal** (qué dolor o deseo amplio toca — ver §2).
+5. **Qué idea original podría desarrollarse** a partir de ello.
+
+**Límite ético y editorial:** la inspiración es un punto de partida, **no una autorización para copiar** el concepto, el título o la ejecución de otro creador. Lo transplantable es la *estructura* (§4), nunca el empaque literal ni las métricas ajenas como promesa.

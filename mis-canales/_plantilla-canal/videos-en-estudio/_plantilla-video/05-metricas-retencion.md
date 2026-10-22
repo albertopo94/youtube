@@ -61,13 +61,15 @@
 > *Principio:* El objetivo de la retrospectiva es contrastar la hipótesis inicial de contenido contra las señales de respuesta de la audiencia, identificando decisiones editoriales concretas para la próxima entrega y evitando conclusiones circulares o atribuciones automáticas al algoritmo.
 
 - **Hipótesis puesta a prueba en este video:** `[Qué ángulo, formato o mecanismo esperábamos validar con esta pieza]`
+- **Hipótesis: qué se mantiene y qué se descarta:** `[A partir de los datos, qué hipótesis de este video se confirma y cuál se abandona]`
 - **Cumplimiento de la Promesa y Satisfacción:** ¿El contenido entregó y superó lo prometido en el packaging o se detectaron discrepancias entre expectativa y desarrollo?
 - **Comportamiento en los primeros 30 segundos:** ¿Coincidió la expectativa de la miniatura/título con el arranque del video según la curva de retención?
 - **Puntos de fuga o abandono:** ¿En qué momento exacto cayó la curva y qué causa editorial probable se identifica (explicación densa, cambio brusco de ritmo, broma fuera de tono)?
 - **Picos de retención / Re-visualizaciones:** ¿Qué sección o recurso visual provocó pausas o repeticiones?
 - **Sentimiento Cualitativo en Comentarios:** ¿Los espectadores expresan haber comprendido la lección o haberse sorprendido con el enfoque?
 - **Limitaciones de la Muestra:** `[Volumen de datos acumulado, período de observación transcurrido y fuentes principales]`
-- **Decisión Accionable para el Siguiente Video:** `[Qué hipótesis se mantiene, cuál se descarta y qué cambio específico de guion, packaging o edición se probará en la siguiente subida]`
+- **Mejora Única Nombrada para el Siguiente Video:** `[UNA sola mejora concreta, verificable y atribuible: qué se cambia, en qué fase, y qué dato del video actual la motivó. Ej. "cortar el preámbulo de B01 de 22 s a 8 s porque la mayor caída de retención ocurre en los primeros 30 s".]` **No es una lista de propósitos generales ni "mejorar la calidad".** Se elige una sola porque varias a la vez impiden saber cuál funcionó. Si la retrospectiva no puede nombrar ninguna mejora, se registra *"sin mejora identificable con estos datos"* en lugar de inventar una.
+- **Acumulación de mejoras:** `[vídeo de la serie en que se aplica esta mejora y qué se espera observar para confirmarla]` *(Práctica de mejora continua por entrega: el valor está en mejorar algo medible cada vez, no en una cifra mágica de publicaciones.)*
 
 ---
 

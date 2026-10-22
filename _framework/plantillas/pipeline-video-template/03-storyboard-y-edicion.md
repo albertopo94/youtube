@@ -121,3 +121,22 @@ Para que el montaje se considere profesional (sea ejecutado con la herramienta d
 4. **Dinámica de Cuadro (*Pacing Visual*):**
    - [ ] En planos estáticos o imágenes fijas que duren **más de 5 segundos**, aplicar zooms continuos sutiles (*punch-ins* de escala 100% a 105% o paneo Ken Burns) para evitar sensación de foto congelada.
    - **Antes esta regla decía "más de 3 segundos" y la regla 1 decía "4 a 7".** Dos umbrales distintos y ninguno aplicable a todos los géneros; se unifican en 5 s como perfil por defecto, con la excepción justificada de la regla 1.
+
+---
+
+## 👀 5. Prueba Cualitativa con Espectadores Externos `[Opcional — antes del render definitivo]`
+
+> **Origen:** revisión externa 5 (`_framework/referencias/auditorias/revision-externa-5-2026-10-22.md`). El Glance Test del rol 02 §5 cubre la **imagen**; esto extiende la mirada externa al **arranque, la comprensión y el ritmo del video**. El creador ya no percibe los problemas de su propio video porque lo conoce demasiado.
+
+**Procedimiento (con personas que no participaron en la producción):**
+1. Mostrar **solo la miniatura y el título**: preguntar qué esperan encontrar.
+2. Mostrar el montaje (o una versión suficientemente representativa) **sin explicar antes la intención del creador**.
+3. Preguntar después: qué entendieron, **dónde perdieron el interés**, qué les pareció innecesario o confuso.
+
+**Registro (señales cualitativas, no métricas):**
+
+| Probador | Qué esperaba | Qué entendió | Dónde perdió el interés | Qué sobró / no entendió |
+| :--- | :--- | :--- | :--- | :--- |
+| `[inicial]` | | | | |
+
+**Límites honestos:** una muestra pequeña **no demuestra** cómo se comportará toda la audiencia ni sustituye las analíticas posteriores (`05-metricas-retencion.md`). Sirve para detectar problemas que el creador ya no ve. Si no hay quien participe, esta sección se salta: no bloquea la producción.

@@ -45,6 +45,21 @@ Antes de dar por aprobado cualquier guion, el agente debe responder afirmativame
 
 **Regla:** Si alguna respuesta es **NO**, el guion no avanza. Se registra la incongruencia en `06-fuentes-y-verificacion.md` como hallazgo de control y se corrige antes de la locución definitiva. Esta puerta es **independiente** de la puerta de originalidad (aportación editorial propia) y de la YMYL (linter de léxico): una cosa es que el contenido sea original y otra cosa es que lo que promete sea lo que realmente entrega.
 
+### Puerta de Correspondencia del Arranque (Prueba Concreta) `[Puerta Obligatoria]`
+
+> **Origen:** revisión externa 5 (`_framework/referencias/auditorias/revision-externa-5-2026-10-22.md`), destilada del estudio de prácticas de MrBeast. Complementa la puerta anterior con la **comprobación física del arranque**, no solo de la promesa abstracta. La documentación oficial de YouTube también vincula la expectativa creada por título y miniatura con lo que ocurre en los primeros 30 segundos.
+
+Se aprueba **antes de cerrar guion y storyboard**, respondiendo por escrito:
+
+| Comprobación | Pregunta a responder |
+| :--- | :--- |
+| **Primera imagen** | ¿Mantiene una relación visual comprensible con el concepto de la miniatura, cuando ese tipo de correspondencia es pertinente al formato? |
+| **Primera frase** | ¿Confirma el tema o la promesa del título **sin preámbulo que no aporte valor**? |
+| **Primeros 20–30 segundos** | ¿Presenta suficiente contexto, interés, reto o recompensa para que el espectador entienda por qué conviene quedarse? |
+| **Cumplir y superar** | ¿El video confirma lo prometido y **empieza a aportar valor adicional**, sin engañar ni exagerar lo que puede entregar? |
+
+**Es una prueba editorial, no una orden de que el primer plano replique literalmente la miniatura.** El género puede exigir otra apertura (inmersión atmosférica en relax/ficción, demostración directa en tutorial). Lo que no se admite es que la apertura no tenga relación con lo que se vendió, o que se demore en decirlo.
+
 ### Puerta de Seguridad YMYL: Linter de Léxico Prohibido y Matización Científica
 *(Aplicable a canales de Ciencia, Salud, Nutrición, Finanzas y Noticias - Ver `_framework/contingencia-y-politicas-sensibles.md`)*:
 - **Carga de la Prueba:** Prohibido redactar una afirmación fáctica en el guion sin su respectivo DOI o fuente primaria registrada en `06-fuentes-y-verificacion.md`.
@@ -82,6 +97,19 @@ Antes de dar por aprobado cualquier guion, el agente debe responder afirmativame
   $$\text{Gancho (Bucle Abierto)} \longrightarrow \text{Acción Inicial} \longrightarrow \mathbf{Conflicto / Error\ Inesperado} \longrightarrow \mathbf{Recuperación / Reintento} \longrightarrow \text{Payoff / Recompensa}$$
 - *Mecánica:* El reto arranca con normalidad ➔ A mitad de camino ocurre un fallo imprevisto, error de cálculo o dificultad técnica (**Conflicto**) ➔ El creador debe adaptarse, probar otra técnica o recalibrar (**Recuperación**) ➔ Se alcanza el resultado final con un remate de impacto (**Payoff**). Esto mantiene al espectador sin saber si el intento tendrá éxito o fracasará.
 
+### Caja de Herramientas: Reactivación Narrativa en Videos Largos `[Opcional — solo si la duración lo pide]`
+
+> **Origen:** revisión externa 5 (`_framework/referencias/auditorias/revision-externa-5-2026-10-22.md`). Una única línea argumental lineal difícilmente sostiene la atención de un video de doble dígito de minutos hasta su desenlace.
+
+Para videos largos que lo necesiten, se puede planificar **un punto de reactivación a mitad del metraje**. Opciones (no es lista cerrada):
+1. **Una pregunta nueva** que profundice en el tema.
+2. **Un caso inesperado o excepción** que cambie la interpretación de lo ya explicado.
+3. **Una demostración práctica** que permita comprobar lo explicado.
+4. **Una recompensa parcial** que resuelva una cuestión y planteé otra.
+5. **Una línea narrativa secundaria** que contribuya al objetivo principal.
+
+**Límites:** no se impone un giro cada tres minutos ni se fabrican obstáculos artificiales. Un video científico, un tutorial o un ensayo puede sostener la atención con **claridad, descubrimiento progresivo y demostraciones**, sin parecer un reto de entretenimiento. Si el formato no necesita reactivación, no se fuerza.
+
 ### Prohibición del Cliché del "Listicle" de Autoayuda en el Payoff:
 - ❌ **El reflejo perezoso a evitar:** Terminar un video de divulgación científica, histórica o de análisis profundo con "3 tips rápidos de autoayuda para tu día a día (1. Duerme bien, 2. Repasa tus notas, 3. Come sano)". Esto degrada un descubrimiento de alto nivel a un post genérico de TikTok y destruye la recompensa intelectual.
 -  **El Payoff de Reencuadre Mental:** La resolución debe cerrar el dilema planteado al inicio ofreciendo un **nuevo modelo mental transformador** para el espectador (ej. entender que el olvido no es un fallo de memoria, sino un mecanismo biológico activo de limpieza sináptica sin el cual el cerebro colapsaría por sobrecalentamiento informático).
@@ -92,10 +120,17 @@ Antes de dar por aprobado cualquier guion, el agente debe responder afirmativame
 
 El objetivo de la apertura es alinear de inmediato las expectativas del espectador con lo prometido en el título y la miniatura, protegiendo la métrica clave de **retención a los 30 segundos**.
 
-### ❌ Linter Narrativo Anti-Spoiler (Prohibición de Resolución Prematura)
-- **La trampa mortal del agente:** Desvelar la causa biológica, técnica o el desenlace del misterio en los primeros compases del video (*"un estudio descubrió que el cerebro se come los recuerdos con microglía celular..."*). Si en el segundo 30 el espectador ya sabe la respuesta, la tensión cognitiva muere y el resto del video se convierte en una monografía enciclopédica aburrida.
-- **La regla estricta:** En los dos primeros bloques de apertura **está terminantemente prohibido nombrar el mecanismo técnico/biológico central o dar la conclusión**.
-- **Qué va en la apertura:** El síntoma universal, el dolor, el dilema o la paradoja (*"Olvidar no es un desgaste pasivo de tu mente: es una orden activa que consume enormes cantidades de energía... pero ¿por qué tu cerebro gastaría tantos recursos en destruir lo que tanto te costó aprender?"*). La revelación del mecanismo desconocido se reserva para la mitad del video.
+### ❌ Linter Narrativo Anti-Spoiler — **Condicionado por Formato** (no es una prohibición universal)
+
+> **Corrección de la revisión externa 5** (`_framework/referencias/auditorias/revision-externa-5-2026-10-22.md`): esta regla estaba redactada como prohibición estricta para todos los videos, heredada del canal de divulgación con revelación central. Contradecía la adaptabilidad por género del propio §3 y era activamente dañina en tutoriales y explicación directa.
+
+- **Cuándo APLICA (el descubrimiento es parte de la experiencia):** misterio, transformación, reto, investigación, divulgación con mecanismo central revelado.  
+  ❌ **La trampa a evitar:** desvelar la causa biológica/técnica o el desenlace en los primeros compases. Si en el segundo 30 el espectador ya sabe la respuesta, la tensión cognitiva muere y el resto del video se vuelve una monografía.  
+  ✅ **Qué va en la apertura:** el síntoma universal, el dolor, el dilema o la paradoja (*"Olvidar no es un desgaste pasivo de tu mente: es una orden activa que consume enormes cantidades de energía... pero ¿por qué tu cerebro gastaría tantos recursos en destruir lo que tanto te costó aprender?"*). La revelación se reserva para el desarrollo.
+- **Cuándo NO APLICA (la respuesta temprana es el valor):** tutoriales, screencasts, explicación directa, videos que resuelven una pregunta concreta del espectador (búsqueda), documentación técnica.  
+  ❌ **La trampa aquí:** retrasar artificialmente la respuesta para fabricar tensión. El espectador que busca cómo resolver algo **abandona si no obtiene señales de que la respuesta llega**; frustrar la consulta es perder la retención que se quería proteger.  
+  ✅ **Qué va en la apertura:** confirma la promesa pronto y construye el interés sobre el **cómo**, el **por qué** o la **aplicación**, no sobre esconder el resultado.
+- **Registro obligatorio:** el guion (`02-guion.md`) declara en una línea qué caso aplica y por qué. El payoff **nunca** puede ser un listicle vago de autoayuda.
 
 ### El Filtro del Gancho en Bucle Abierto (*Open Loop Hook*)
 - ❌ **El error que mata la retención (Afirmación cerrada):** Redactar un gancho que describe y destripa el resultado final (*"Este creador convirtió 100 Red Bulls en polvo usando una máquina especial"*). El espectador ya obtuvo la respuesta en el segundo 3; no tiene motivo para seguir mirando y desliza (*swipe away*).
