@@ -56,7 +56,17 @@ El agente **debe detenerse y solicitar confirmación expresa** antes de:
 - Modificar o borrar archivos existentes relevantes de forma irreversible.
 - Operaciones destructivas de Git.
 
-### 4. Filtro de Comunicación Ejecutiva (Entregables y Experiencia vs. Fontanería Interna)
+### 4. Política General de Selección de Herramientas (Método Agnóstico de Proveedores)
+Las herramientas, modelos y plataformas mencionados en el repositorio (Google Flow, FilmCraft, EffectCraft, Higgsfield, Seedance, Seedream, Midjourney, ElevenLabs, etc.) son **ejemplos, no dependencias obligatorias**. El framework enseña métodos; el producto concreto se decide según cada proyecto y las herramientas disponibles.
+- **Partir de lo que el creador tiene:** el agente parte de las herramientas que el creador tiene disponibles y prefiere.
+- **Recomendación debatible:** el agente puede proponer otra herramienta si existe una ventaja relevante, pero debe explicar qué mejora, qué pierde, qué cuesta y qué limitaciones tiene. El creador puede debatir la recomendación y decide; **el agente no cambia de herramienta unilateralmente**.
+- **Comprobar la capacidad antes de proponer:** antes de proponer un flujo dependiente de una función específica (modo borrador, referencia multi-imagen, extensión de clip, etc.), el agente debe comprobar si la herramienta elegida la ofrece o si existe un procedimiento equivalente.
+- **Nunca asumir gratuidad:** ningún modo «Draft», «Preview» o «Borrador» es gratuito por definición; el costo real se registra en `04-registro-recursos.md` antes de escalar a la versión definitiva.
+- **Prohibida la magia de nombres de modelo:** no afirmar que escribir el nombre de un modelo en un prompt permite a otro LLM «cargar su base de datos» o conocer sus capacidades privadas; nombrar el modelo solo lo orienta.
+- **Comparaciones de modelos son hipótesis:** una conclusión informal ("el modelo X limpió mejor esta imagen") es una observación de un flujo concreto, no una prueba universal ni una regla del sistema.
+*(Origen: revisión externa 4, `referencias/auditorias/revision-externa-4-2026-10-22.md`: destilación de `apuntes del segundo amigo.md`, commit `f523833`.)*
+
+### 5. Filtro de Comunicación Ejecutiva (Entregables y Experiencia vs. Fontanería Interna)
 - El agente debe comunicarse con el creador como un **Director Creativo y de Producción**, hablando en términos de entregables tangibles y experiencia de escucha (*"uní las pistas de audio de los bloques con medio segundo de pausa entre cada una para que escuches el flujo continuo en tu reproductor"*).
 - **Prohibido el ruido de fontanería de terminal:** No arrojar nombres de herramientas de bajo nivel ni comandos de consola (`ffmpeg`, `sox`, scripts bash crudos) como justificación del resultado, a menos que el creador pregunte explícitamente por la implementación técnica interna.
 
@@ -225,7 +235,7 @@ Cuando una herramienta requiera interacción visual, inicio de sesión o ejecuci
 
 - **Ficha Obligatoria de Entrega de Prompts:** Todo prompt que el agente solicite generar al creador (sea en el chat o en `03-storyboard-y-edicion.md`) debe estructurarse con estos campos obligatorios:
   1. *Tipo de Recurso:* Identificar con claridad si el resultado esperado es: 🖼️ **Imagen estática**, 🎥 **Clip de video con movimiento**, 🎵 **Pista musical** o 🔊 **Efecto sonoro (SFX)**.
-  2. *Herramienta y Pestaña / Módulo exacto:* Indicar la plataforma y la sección concreta (ej. Google Flow [`flow.google.com`] ➔ Pestaña *"Imagen"* [Modelo Imagen 3] vs. Pestaña *"Video"* [Modelo Veo]; Google Flow Music [`flowmusic.app`]; Midjourney; ElevenLabs).
+  2. *Herramienta y método de ejecución:* Indicar la plataforma elegida (o el método genérico si la tarea no depende de un proveedor) y los **parámetros necesarios para ejecutar la tarea** (modos, resolución, ratio, parámetros de estilo, etc.). La pestaña o módulo concreto es opcional y se indica solo cuando la herramienta elegida lo tenga (ej. Google Flow [`flow.google.com`] ➔ Pestaña *"Imagen"* vs. Pestaña *"Video"*). *Ver política de selección de herramientas en §02.4.*
   3. *Modo Operativo:* (ej. Text-to-Image con `--ar 16:9`, Image-to-Video con movimiento de cámara, o Text-to-Music con BPM/género).
   4. *Prompt listo para copiar:* Texto completo, calibrado y sin necesidad de edición posterior.
   5. *Acción sugerida en la interfaz:* (ej. *"si te convence el fotograma en Flow, hacé clic en el botón 'Crear Video' de ese mismo nodo para animarlo 5 segundos"*).

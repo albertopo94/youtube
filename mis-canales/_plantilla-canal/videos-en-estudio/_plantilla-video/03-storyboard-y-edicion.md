@@ -2,10 +2,10 @@
 
 - **Canal / Video:** 
 - **Entorno de Montaje Principal:** `[ ] FilmCraft (CLI / MCP)` / `[ ] DaVinci Resolve` / `[ ] Premiere Pro` / `[ ] CapCut` / `[ ] Híbrido`
-- **Estrategia de Adquisición Multifuente:**
-  - *Generación Cinemática / Abstracta:* Google Flow / Midjourney / Flux
-  - *B-Roll Real / Documental:* Coverr / Pexels / Wikimedia Commons / Google Imágenes
-  - *Motion Graphics / Efectos:* EffectCraft / Rótulos gráficos
+- **Estrategia de Adquisición Multifuente:** *(campos genéricos; los proveedores concretos son ejemplos ilustrativos, no el flujo — ver política de herramientas en `AGENTS.md` §02.4)*
+  - *Generación Cinemática / Abstracta:* `[herramienta de generación de imagen/video que el creador tenga disponible, ej. Google Flow, Midjourney, Flux, o equivalente]`
+  - *B-Roll Real / Documental:* `[banco de stock libre disponible, ej. Coverr, Pexels, Wikimedia Commons]`
+  - *Motion Graphics / Efectos:* `[herramienta de overlays del flujo, ej. EffectCraft o equivalente]`
 
 ---
 
@@ -15,9 +15,18 @@
   1. *Motor / Medio visual:* `[ej. Cinematic 35mm grain / Ilustración 3D / Micrografía de laboratorio]`
   2. *Paleta cromática dominante:* `[ej. Tonos fríos azulados con sombras navy y acentos teal]`
   3. *Iluminación y óptica:* `[ej. Volumétrica suave, lente 50mm con poca profundidad de campo]`
-  4. *Sujeto / Escenario Maestro:* `[Imagen o nodo de referencia fijado en Google Flow]`
+  4. *Sujeto / Escenario Maestro:* `[archivo o nodo de referencia fijado en la herramienta elegida]`
 - **Rupturas Visuales Intencionales (Opcional por humor o impacto):**  
   *(¿Hay algún plano que rompe deliberadamente el estilo para causar gracia, sorpresa o excentricidad consciente? ej. meme retro pixel art, plano VHS o dibujo infantil)*:
+
+### 1.1 Preparación de Referencias de Continuidad `[Opcional — solo cuando la continuidad visual sea importante]`
+
+> **Origen:** revisión externa 4 (`referencias/auditorias/revision-externa-4-2026-10-22.md`). Procedimiento **agnóstico de herramientas**: no depende de ninguna plataforma; se aplica cuando el video tenga un personaje, producto o escenario recurrente. No exigirlo en vídeos que no necesitan continuidad.
+
+- **Qué registrar por referencia:** función (personaje / escenario / producto / iluminación / estilo), **elementos invariantes** (qué debe permanecer: rostro, vestuario, proporciones, dirección de la luz, paleta) y **variaciones permitidas** (qué puede cambiar entre planos: pose, encuadre, ángulo de cámara).
+- **Límite de información real:** una foto del rostro no permite conocer con precisión un cuerpo que no aparece en ella; no se pide al generador conservar lo que la referencia no muestra. Si la continuidad de cuerpo o vestuario importa, incorporar una referencia de cuerpo completo cuando sea posible.
+- **Documento vs. imagen que se anima:** una lámina de referencia compuesta (ej. dos paneles lado a lado) sirve para *documentar* al personaje, pero un generador de video puede interpretar la división como parte de la escena (duplicar al personaje o partir la composición). Para generar, usar las vistas por separado cuando la herramienta admita varias referencias.
+- **Arquillar, no solo describir:** los anclajes de la §1 deben poder guardarse como **archivos de referencia concretos** (imagen de personaje, de escenario, de luz), no solo como texto dentro de cada prompt. Registrarlos en `04-registro-recursos.md` (sección de referencias reutilizables).
 
 ---
 
@@ -38,18 +47,40 @@
 > **Nota de trazabilidad y entrega de prompts:** Cada fila enlaza con el bloque de guion `[Bxx]` correspondiente.  
 > **Ficha de Prompt Obligatoria:** Todo prompt que el agente entregue al creador debe indicar:  
 > 1) *Tipo de Asset* (🖼️ Imagen estática / 🎥 Clip de video / 🎵 Música / 🔊 SFX).  
-> 2) *Herramienta y Pestaña exacta* (ej. Google Flow `flow.google.com` ➔ Pestaña *"Imagen"* vs. Pestaña *"Video"*).  
+> 2) *Herramienta y método de ejecución:* la plataforma elegida (o método genérico si la tarea no depende de un proveedor) y los **parámetros necesarios para ejecutar la tarea**; la pestaña/módulo concreto es opcional y se indica solo si la herramienta lo tiene (ej. Google Flow ➔ Pestaña *"Imagen"* vs. Pestaña *"Video"*). *Ver `AGENTS.md` §02.4.*  
 > 3) *Modo operativo* (Text-to-Image 16:9, Image-to-Video con cámara, etc.).  
 > 4) *Prompt listo para copiar*.
 
-| Escena # | Bloque Guion | Timecode | Texto de Locución Asociado | Tipo de Asset (Imagen / Video / Audio) | Herramienta Destino & Módulo Exacto | Prompt de Generación / URL del Asset | Diseño Sonoro (SFX / Música) |
+| Escena # | Bloque Guion | Timecode | Texto de Locución Asociado | Tipo de Asset (Imagen / Video / Audio) | Herramienta / Método elegido | Prompt de Generación / URL del Asset | Diseño Sonoro (SFX / Música) |
 | :---: | :---: | :---: | :--- | :---: | :--- | :--- | :--- |
-| **01** | `[B01_Dilema_BucleAbierto]` | `← derivar` | *"..."* | 🖼️ Imagen estática *(luego animar)* | Google Flow ➔ Pestaña *"Imagen"* (Imagen 3) | `[Prompt con anclajes de estilo] --ar 16:9` | Impact Whoosh + Pista musical |
-| **02** | `[B02_La_Falsa_Causa]` | `← derivar` | *"..."* | 🎥 Clip de video | Stock libre: Coverr / Pexels | `[URL directa de búsqueda / descarga]` | Sub-bass bajo voz |
-| **03** | `[B03_El_Quiebre_o_Anomalia]` | `← derivar` | *"..."* | 🎥 Clip de video cinemático | Google Flow ➔ Pestaña *"Video"* (Veo) | `[Prompt con movimiento de cámara]` | SFX click en palabra clave |
+| **01** | `[B01_Dilema_BucleAbierto]` | `← derivar` | *"..."* | 🖼️ Imagen estática *(luego animar)* | `[ej. generador de imagen con anclajes de estilo]` | `[Prompt con anclajes de estilo] --ar 16:9` | Impact Whoosh + Pista musical |
+| **02** | `[B02_La_Falsa_Causa]` | `← derivar` | *"..."* | 🎥 Clip de video | `[banco de stock libre disponible]` | `[URL directa de búsqueda / descarga]` | Sub-bass bajo voz |
+| **03** | `[B03_El_Quiebre_o_Anomalia]` | `← derivar` | *"..."* | 🎥 Clip de video cinemático | `[ej. generador de video con imagen de referencia]` | `[Prompt con movimiento de cámara]` | SFX click en palabra clave |
 | **...** | ... | ... | ... | ... | ... | ... | ... |
 
+> *Los nombres concretos de proveedores que aparecían antes en esta tabla (Google Flow, Coverr, etc.) eran ejemplos; el flujo no depende de ellos (ver `AGENTS.md` §02.4).*
+
 > **Los timecodes de esta tabla no son ejemplos fijos.** Derivan del **guion aprobado en `02-guion.md`** y de la **locución real medida** (duración y pausas del audio grabado). Un ejemplo con números concretos se copia; un ejemplo con "← derivar" no. Antes esta tabla llevaba IDs y tiempos de la estructura previa (`[B01_Dilema]`, `00:00-00:08`), que no coincidían con el guion (`[B01_Dilema_BucleAbierto]`, `00:00-00:15`) y se propagaban como si fueran reales.
+
+### 3.1 Generación con IA: pruebas preliminares e inspección del resultado real `[Política de Costo y Calidad]`
+
+> **Origen:** revisión externa 4 (`referencias/auditorias/revision-externa-4-2026-10-22.md`). Agnóstico de herramientas: se aplica cuando se generen recursos definitivos de pago con IA, con la plataforma que el creador tenga disponible.
+
+**Pruebas preliminares antes de lo definitivo:**
+- [ ] Comprobar si la herramienta elegida ofrece un modo de prueba económico (borrador, preview, baja resolución). **Nunca asumir que es gratuito:** registrar el costo real de la prueba en `04-registro-recursos.md`.
+- [ ] Si NO ofrece modo económico, valorar una alternativa: prueba más pequeña, una imagen fija animada mínimamente, un clip simplificado o validación manual del storyboard.
+- [ ] La prueba valida: encuadre, acción, movimiento, **identidad del personaje** (vs. la referencia de la §1.1) y continuidad entre planos.
+- [ ] Solo escalar a la versión definitiva (resolución/calidad máxima) los recursos que superaron la prueba.
+
+**Decisión de cómo generar: secuencia multi-toma vs. planos separados:**
+- Ambas vías son válidas; el agente recomienda una y el creador decide, en función de: continuidad necesaria, control por plano, coste y capacidades **comprobadas** de la herramienta elegida. No imponer una por convención.
+
+**Inspección del resultado real (sobre el clip generado, no solo sobre la imagen de referencia):**
+- [ ] **Identidad:** el personaje conserva los elementos invariantes de la referencia (rostro, vestuario, rasgos); sin deriva entre planos.
+- [ ] **Anatomía:** extremidades, proporciones y manos sin deformaciones.
+- [ ] **Movimiento:** parpadeos, respiración y gesto naturales; sin congelamiento ni salto de fotogramas.
+- [ ] **Iluminación y continuidad:** dirección de la luz coherente entre planos y con la referencia de escenario.
+- [ ] **Textura vs. artefactos:** distinguir el ruido artificial (manchas, HDR excesivo, grano duplicado) de la textura natural (poros, grano fílmico intencional). **No** ordenar que todo sea liso: una piel sin textura también se ve plástica. La comprobación definitiva se hace con el clip integrado en el montaje.
 
 ---
 
