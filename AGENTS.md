@@ -64,7 +64,9 @@ Las herramientas, modelos y plataformas mencionados en el repositorio (Google Fl
 - **Nunca asumir gratuidad:** ningún modo «Draft», «Preview» o «Borrador» es gratuito por definición; el costo real se registra en `04-registro-recursos.md` antes de escalar a la versión definitiva.
 - **Prohibida la magia de nombres de modelo:** no afirmar que escribir el nombre de un modelo en un prompt permite a otro LLM «cargar su base de datos» o conocer sus capacidades privadas; nombrar el modelo solo lo orienta.
 - **Comparaciones de modelos son hipótesis:** una conclusión informal ("el modelo X limpió mejor esta imagen") es una observación de un flujo concreto, no una prueba universal ni una regla del sistema.
-*(Origen: revisión externa 4, `referencias/auditorias/revision-externa-4-2026-10-22.md`: destilación de `apuntes del segundo amigo.md`, commit `f523833`.)*
+- **Especificación creativa portable:** la intención de un plano (acción, sujeto, elementos invariantes, cambios permitidos, cámara, duración y resultado esperado) se describe de forma independiente de la sintaxis de cualquier herramienta; el agente adapta después esa especificación a la plataforma elegida usando solo funciones cuya disponibilidad se haya comprobado. El conocimiento no queda atrapado en prompts de un producto concreto.
+- **Corrección dirigida:** ante un resultado defectuoso, se identifica primero el defecto principal y su origen (referencia, prompt, parámetros o método) y se corrige ese elemento antes de reevaluar; se evitan regeneraciones indiscriminadas sin hipótesis de mejora.
+*(Origen: revisión externa 4 y su complemento, `referencias/auditorias/revision-externa-4-2026-10-22.md`: destilación de `referencias/apuntes-segundo-amigo.md`, commit `f523833`.)*
 
 ### 5. Filtro de Comunicación Ejecutiva (Entregables y Experiencia vs. Fontanería Interna)
 - El agente debe comunicarse con el creador como un **Director Creativo y de Producción**, hablando en términos de entregables tangibles y experiencia de escucha (*"uní las pistas de audio de los bloques con medio segundo de pausa entre cada una para que escuches el flujo continuo en tu reproductor"*).

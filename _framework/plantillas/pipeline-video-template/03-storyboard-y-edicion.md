@@ -25,7 +25,8 @@
 
 - **Qué registrar por referencia:** función (personaje / escenario / producto / iluminación / estilo), **elementos invariantes** (qué debe permanecer: rostro, vestuario, proporciones, dirección de la luz, paleta) y **variaciones permitidas** (qué puede cambiar entre planos: pose, encuadre, ángulo de cámara).
 - **Límite de información real:** una foto del rostro no permite conocer con precisión un cuerpo que no aparece en ella; no se pide al generador conservar lo que la referencia no muestra. Si la continuidad de cuerpo o vestuario importa, incorporar una referencia de cuerpo completo cuando sea posible.
-- **Documento vs. imagen que se anima:** una lámina de referencia compuesta (ej. dos paneles lado a lado) sirve para *documentar* al personaje, pero un generador de video puede interpretar la división como parte de la escena (duplicar al personaje o partir la composición). Para generar, usar las vistas por separado cuando la herramienta admita varias referencias.
+- **Documento vs. imagen que se anima:** una lámina de referencia compuesta (ej. dos paneles lado a lado) sirve para *documentar* al personaje, pero un generador de video puede interpretar la división como parte de la escena (duplicar al personaje o partir la composición). Para generar, usar las vistas por separado cuando la herramienta admita varias referencias. **Usar una lámina compuesta solo si se comprobó que el modelo la interpreta como referencia y no como escena; no asumir que todas las herramientas interpretan igual las referencias múltiples.**
+- **Textura y acabado son parámetros estéticos del proyecto:** piel lisa, grano cinematográfico, nitidez máxima o eliminación de textura **nunca** son valores universales de una referencia maestra; son decisiones estéticas elegidas según el proyecto, sin contradecir el objetivo de la generación. Distinguir siempre textura natural de artefactos.
 - **Arquillar, no solo describir:** los anclajes de la §1 deben poder guardarse como **archivos de referencia concretos** (imagen de personaje, de escenario, de luz), no solo como texto dentro de cada prompt. Registrarlos en `04-registro-recursos.md` (sección de referencias reutilizables).
 
 ---
@@ -75,12 +76,27 @@
 **Decisión de cómo generar: secuencia multi-toma vs. planos separados:**
 - Ambas vías son válidas; el agente recomienda una y el creador decide, en función de: continuidad necesaria, control por plano, coste y capacidades **comprobadas** de la herramienta elegida. No imponer una por convención.
 
+**Especificación creativa portable (intención vs. sintaxis de herramienta):**
+- La intención del plano se describe de forma **independiente de la sintaxis de cualquier plataforma**: acción, sujeto, elementos invariantes, cambios permitidos, cámara, duración y resultado esperado.
+- El agente adapta después esa especificación a la herramienta elegida, usando solo funciones cuya disponibilidad se haya comprobado (ver `AGENTS.md` §02.4).
+- El conocimiento no queda atrapado en prompts de un producto concreto; cambiar de herramienta no obliga a rehacer el razonamiento.
+
 **Inspección del resultado real (sobre el clip generado, no solo sobre la imagen de referencia):**
 - [ ] **Identidad:** el personaje conserva los elementos invariantes de la referencia (rostro, vestuario, rasgos); sin deriva entre planos.
 - [ ] **Anatomía:** extremidades, proporciones y manos sin deformaciones.
 - [ ] **Movimiento:** parpadeos, respiración y gesto naturales; sin congelamiento ni salto de fotogramas.
 - [ ] **Iluminación y continuidad:** dirección de la luz coherente entre planos y con la referencia de escenario.
 - [ ] **Textura vs. artefactos:** distinguir el ruido artificial (manchas, HDR excesivo, grano duplicado) de la textura natural (poros, grano fílmico intencional). **No** ordenar que todo sea liso: una piel sin textura también se ve plástica. La comprobación definitiva se hace con el clip integrado en el montaje.
+
+**Ciclo de corrección dirigida (ante un defecto):**
+- Identificar el defecto principal y localizar su origen: **referencia** (elementos invariantes o acabado), **prompt**, **parámetros** (resolución, ratio, duración) o **método/herramienta**.
+- Corregir solo ese elemento; **evitar regeneraciones indiscriminadas sin hipótesis de mejora**.
+- Volver a evaluar y registrar el aprendizaje (qué cambió, qué se corrigió, resultado).
+
+**Comparación de modelos por pruebas controladas (solo cuando la elección sea material):**
+- Si la elección del modelo puede mejorar significativamente el proyecto, usar una tarea representativa con criterios comparables.
+- Registrar el modelo y su **versión**, los parámetros disponibles, las referencias, el **coste** y las limitaciones.
+- Evaluar sobre el objetivo y el **clip final integrado en el montaje**, no sobre una captura seleccionada. No convertir una prueba aislada en superioridad universal; no exigir comparaciones cuando la decisión no es material.
 
 ---
 

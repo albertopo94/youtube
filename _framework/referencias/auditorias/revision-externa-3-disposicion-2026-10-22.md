@@ -1,6 +1,6 @@
 # Revisión externa 3 — Disposición por hallazgo
 
-**Fuente:** análisis destilado por el primer amigo y el creador sobre `apuntes del segundo amigo.md` (apuntes del segundo amigo, 2026-10-22). El análisis se conserva en `revision-externa-3-2026-10-22.md`.
+**Fuente:** análisis destilado por el primer amigo y el creador sobre `apuntes del segundo amigo.md` (apuntes del segundo amigo, 2026-10-22; hoy archivada en `_framework/referencias/apuntes-segundo-amigo.md`). El análisis se conserva en `revision-externa-3-2026-10-22.md`.
 **Veredicto general del revisor:** *"tu amigo aporta valor principalmente como fuente de hipótesis editoriales y conocimiento práctico de creador, no como fuente fiable de especificaciones internas del algoritmo"*.
 **Estado:** archivado con disposición explícita por cada propuesta. De los apuntes se incorporaron **tres** aportaciones al framework; el resto queda como referencia descartable.
 
@@ -57,7 +57,7 @@
 
 ## 11. Trazabilidad de las fuentes del documento original
 
-✅ **RESUELTO** para el repo: se agregó nota de trazabilidad al inicio de `apuntes del segundo amigo.md` aclarando que es fuente no verificada, que el documento "Arquitectura Algorítmica..." y las 22 referencias `[cite: N]` no existen en el repositorio, y señalando dónde está esta disposición.
+✅ **RESUELTO** para el repo: se agregó nota de trazabilidad al inicio de la fuente aclarando que es fuente no verificada, que el documento "Arquitectura Algorítmica..." y las 22 referencias `[cite: N]` no existen en el repositorio, y señalando dónde está esta disposición. *(Nota posterior: esa versión histórica del archivo fue reemplazada en el commit `f523833` por el tutorial de generación audiovisual; el contenido evaluado aquí queda preservado en el blob de git de los commits `55eb762`/`ed51514` y la fuente actual vive en `_framework/referencias/apuntes-segundo-amigo.md`.)*
 
 ## 12. Duplicación interna del documento
 

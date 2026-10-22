@@ -70,8 +70,29 @@
 
 ## 14. Trazabilidad de las revisiones sobre el archivo
 
-✅ **RESUELTO.** `apuntes del segundo amigo.md` se mantiene como fuente original inmutable (commit `f523833`). Esta revisión (`revision-externa-4-*`) evalúa su contenido actual. La `revision-externa-3-*` evalúa la versión histórica anterior (algoritmo de YouTube). Los dos documentos de análisis del primer amigo quedan archivados verbatim como `revision-externa-4-originales-senalamientos-2026-10-22.md` y `revision-externa-4-originales-segunda-opinion-2026-10-22.md`.
+✅ **RESUELTO.** La fuente se conserva inmutable en `_framework/referencias/apuntes-segundo-amigo.md` (movida desde la raíz en el complemento de esta revisión; contenido idéntico al commit `f523833`). Esta revisión (`revision-externa-4-*`) evalúa su contenido actual. La `revision-externa-3-*` evalúa la versión histórica anterior (algoritmo de YouTube). Los documentos de análisis del primer amigo quedan archivados verbatim como `revision-externa-4-originales-senalamientos-2026-10-22.md`, `revision-externa-4-originales-segunda-opinion-2026-10-22.md` y, del complemento, `revision-externa-4-originales-complemento-2026-10-22.md`.
 
 ## 15. Integración con plataforma concreta (Higgsfield, Seedance, Seedream, Google Flow, Midjourney)
 
 🔵 **PENDIENTE — decisión explícita de NO hacer.** No se creó subsistema de generación de personajes ni integración con ninguna plataforma. La oficina enseña al agente a razonar sobre referencias, continuidad, costes y calidad; el producto concreto se decide después, según cada proyecto y las herramientas disponibles del creador.
+
+---
+
+## Complemento (C1–C5) — señalamientos adicionales del primer amigo (2026-10-22)
+
+*Fuente: `revision-externa-4-originales-complemento-2026-10-22.md` (archivado verbatim). Son refinamientos de la propuesta, no un subsistema nuevo. Se aplican sobre `AGENTS.md` §02.4 y `03-storyboard-y-edicion.md` (ambas copias).*
+
+### C1. Referencias compuestas: solo si se comprobó su interpretación
+🟡 **ADAPTADO.** `03` §1.1 ya advertía el riesgo de la lámina partida; se refuerza: usar vistas separadas cuando la herramienta lo permita; usar una lámina compuesta **solo si se comprobó** que el modelo la interpreta como referencia y no como escena. No asumir que todas las herramientas interpretan igual las referencias múltiples.
+
+### C2. Textura y acabado como parámetros estéticos del proyecto
+✅ **ADOPTADO.** En `03` §1.1: piel lisa, grano cinematográfico, nitidez máxima o eliminación de textura **nunca** son valores universales de una referencia maestra: son parámetros estéticos elegidos según el proyecto, sin contradecir el objetivo de la generación.
+
+### C3. Ciclo de corrección dirigida ante defectos
+✅ **ADOPTADO.** En `03` §3.1: ante un resultado defectuoso, identificar el defecto principal, localizar su origen (referencia / prompt / parámetros / método), corregir solo ese elemento, reevaluar y registrar el aprendizaje. Prohibidas las regeneraciones indiscriminadas sin hipótesis de mejora.
+
+### C4. Comparación de modelos por pruebas controladas, solo cuando importa
+✅ **ADOPTADO.** En `03` §3.1: si la elección del modelo es material para el proyecto, comparar con una tarea representativa y criterios comparables; registrar versión, parámetros, referencias, coste y limitaciones; evaluar sobre el objetivo y el clip final integrado (no sobre una captura seleccionada). No convertir una prueba aislada en superioridad universal y no exigir comparaciones cuando la decisión no es material.
+
+### C5. Especificación creativa portable
+✅ **ADOPTADO.** En `AGENTS.md` §02.4 (principio nuevo) y `03` §3: la intención del plano (acción, sujeto, elementos invariantes, cambios permitidos, cámara, duración, resultado esperado) se describe de forma **portable**, independiente de la sintaxis de la herramienta; el agente adapta después la especificación a la plataforma elegida usando solo funciones comprobadas. El conocimiento no queda atrapado en prompts de un producto concreto.

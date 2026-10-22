@@ -1,6 +1,6 @@
 # Revisión externa 4 — Análisis: generación audiovisual con IA (agnóstico de herramientas)
 
-**Fuente:** `apuntes del segundo amigo.md` (commit `f523833`, transcripción de video de 17 min sobre "Cómo hacer videos con IA que NO parecen IA" + prompt plantilla de personaje).
+**Fuente:** `_framework/referencias/apuntes-segundo-amigo.md` (commit `f523833`; la fuente se archivó allí desde la raíz para este complemento. Transcripción de video de 17 min sobre "Cómo hacer videos con IA que NO parecen IA" + prompt plantilla de personaje).
 **Análisis por el primer amigo:** `revision-externa-4-originales-senalamientos-2026-10-22.md` (primera pasada) y `revision-externa-4-originales-segunda-opinion-2026-10-22.md` (segunda pasada tras la restricción del creador).
 **Restricción del creador (decisión que condiciona esta revisión):** *"No enfoquemos o centremos el aporte a la herramienta Higgsfield o Seedance, esas son solo una de tantas, y puede que el usuario tenga otras, se puede debatir o convenzer en el momento."*
 **Trazabilidad:** esta revisión evalúa el **contenido actual** del archivo (tutorial de generación audiovisual). La `revision-externa-3-2026-10-22.md` corresponde a una **versión histórica** del archivo (contenido sobre el algoritmo de YouTube) y sigue vigente para esa versión.
@@ -57,4 +57,4 @@ Se incorpora como **método audiovisual agnóstico de herramientas**: principios
 **No se hizo (decisión explícita):**
 - No se creó un subsistema de generación de personajes ni una integración con ninguna plataforma.
 - No se catalogaron Seedance/Seedream/GPT Image en `herramientas-y-apis.md` como capacidad obligatoria; se mencionan solo como ejemplos ilustrativos.
-- `apuntes del segundo amigo.md` se mantiene intacto como fuente original.
+- La fuente se conserva intacta en `_framework/referencias/apuntes-segundo-amigo.md` (movida desde la raíz en el complemento de esta revisión; contenido idéntico al commit `f523833`).
