@@ -119,3 +119,79 @@ YouTube no opera con un único algoritmo monolítico, sino con múltiples superf
 * **Fuentes de Referencia Exactas:**
   * **Libro de Creador:** Derral Eves, *The YouTube Formula* ([https://brandonkboswell.com/sources/The-YouTube-Formula](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fbrandonkboswell.com%2Fsources%2FThe-YouTube-Formula)).
   * **Documento Markdown:** *Arquitectura Algorítmica...* (Sección: *Marco Estratégico de Ejecución para Creadores*).
+
+
+
+---
+
+### **1\. Edición de Retención e Interrupciones de Patrón (** **Pattern Interrupts** **)**
+
+* **Fundamento Algorítmico y Técnico:** El sistema de recomendación evalúa el Tiempo de Visualización Promedio (AVD) y el Porcentaje de Reproducción Promedio (APV) para determinar la distribución de un vídeo [cite: 31, 32, 237, 260, 268]. Cuando la curva de retención decae debido a la fatiga visual del espectador, se debe ejecutar una *interrupción de patrón* (*pattern interrupt*) para resetear el foco de atención antes de que abandone la reproducción [cite: 226, 230].
+* **Frecuencia de Estímulos en la Línea de Tiempo:**
+  * **Vídeos cortos (&lt;5 minutos):** Cambiar de estímulo o elemento visual cada **3 a 5 segundos** [cite: 32].
+  * **Vídeos largos (&gt;10 minutos):** Introducir una interrupción de patrón cada **20 a 30 segundos** [cite: 32, 226, 269].
+* **Técnicas Concretas de Montaje:**
+  * **Reencuadres y Zooms Dinámicos:** Aplicar acercamientos o zooms de corte en palabras clave [cite: 226].
+  * **Texto en Pantalla (** **Words on Screen** **):** Resaltar conceptos neurálgicos con texto animado para reforzar la fijación visual [cite: 226].
+  * **Efectos de Sonido (** **SFX** **):** Acompañar los cortes y transiciones con efectos de sonido (*whoshes*, *pops*) que acentúen giros narrativos [cite: 226].
+  * **Alternancia A-Roll / B-Roll:** Romper las tomas estáticas de cámara parlante (*A-roll*) intercalando material de recurso (*B-roll*), gráficos o capturas [cite: 48, 226, 338].
+* **Fuentes de Referencia Exactas:**
+  * **Documento Markdown:** *Arquitectura Algorítmica, Métricas de Satisfacción...* (Sección: *Análisis de la Curva de Retención de Audiencia* y *Tabla de Estrategia de Retención Recomendada*[1][2]).
+  * **Notas de Creador:** Brandon Boswell, *The YouTube Formula* (Highlights sobre *Pattern Interrupts* y *Reengagement*[3]). URL: [https://brandonkboswell.com/sources/The-YouTube-Formula](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fbrandonkboswell.com%2Fsources%2FThe-YouTube-Formula).
+  * **Resumen del Libro:** Derral Eves, *The YouTube Formula* (Resumen en Shortform[6]). URL: [https://www.shortform.com/app/book/the-youtube-formula](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.shortform.com%2Fapp%2Fbook%2Fthe-youtube-formula).
+  * **Manual de Industria Gyre:** *YouTube recommendation system 2026: how to grow with it* (Sección: *The retention–recommendation link every creator should know*[7]). URL: [https://gyre.pro/blog/youtube-recommendation-system-how-to-hack-it-for-explosive-growth](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fgyre.pro%2Fblog%2Fyoutube-recommendation-system-how-to-hack-it-for-explosive-growth).
+
+---
+
+### **2\. Montaje Limpio del Inicio y Recorte de "Relleno" (Los Primeros 7–10 Segundos)**
+
+* **Fundamento Algorítmico y Técnico:** El algoritmo supervisa minuciosamente los primeros 30 segundos de reproducción [cite: 31, 276]. Una caída abrupta en este tramo notifica al sistema que el inicio no validó la promesa visual del empaquetado, lo que frena la recomendación en cohortes secundarias y penaliza la Tasa de Clics de Calidad (*Quality CTR*) [cite: 30, 31, 39, 40].
+* **Pautas Concretas de Edición para la Apertura:**
+  * **Eliminación Total de Introducciones:** Suprimir cortinillas animadas, logotipos corporativos, saludos vacíos (*"Hola chicos, bienvenidos de nuevo a mi canal..."*) o patrocinios tempranos [cite: 31].
+  * **Validación Inmediata de la Promesa:** Entregar la propuesta del título/miniatura en los primeros **5 a 10 segundos** con un gancho explícito o una sorpresa visual que confirme al espectador que está en el lugar correcto [cite: 31, 222, 225, 269].
+  * **Estructura del Hook:** Plantear el conflicto principal o la pregunta central en el segundo cero para sostener la curiosidad hasta el primer minuto [cite: 31, 225].
+* **Fuentes de Referencia Exactas:**
+  * **Documento Markdown:** *Arquitectura Algorítmica...* (Sección: *Análisis de la Curva de Retención de Audiencia*[1]).
+  * **Blog Oficial de YouTube:** Cristos Goodrow (VP de Ingeniería), *On YouTube's recommendation system* (Sección: *How we personalize recommendations / Clicks &amp; Watchtime*[10][11]). URL: [https://blog.youtube/inside-youtube/on-youtubes-recommendation-system/](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fblog.youtube%2Finside-youtube%2Fon-youtubes-recommendation-system%2F).
+  * **Manual Gyre:** *YouTube recommendation system 2026* (Sección: *Open strong*[8]). URL: [https://gyre.pro/blog/youtube-recommendation-system-how-to-hack-it-for-explosive-growth](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fgyre.pro%2Fblog%2Fyoutube-recommendation-system-how-to-hack-it-for-explosive-growth).
+
+---
+
+### **3\. Expresividad Visual, Encuadres y Lenguaje de Cámara**
+
+* **Fundamento Algorítmico y Técnico:** Los modelos de visión por computadora de YouTube analizan las imágenes y los fotogramas del vídeo reconociendo rostros, composiciones visuales y grados de emoción [cite: 26, 217]. El lenguaje de cámara influye tanto en esta clasificación automática como en la permanencia humana frente a la pantalla [cite: 26, 338].
+* **Tácticas de Grabación y Movimiento:**
+  * **Caso de Estudio** **Matt's Off Road Recovery** **:** Un ajuste en los ángulos de cámara, un mayor movimiento en la toma y una edición centrada en los rostros expresivos multiplicó la retención promedio y elevó el consumo a 1.7 millones de reproducciones diarias [cite: 338].
+  * **Dinamismo en Cámara:** Evitar encuadres estáticos y tomas prolongadas de "cabeza parlante" sin movimiento [cite: 338].
+  * **Puntos Focales Clarios:** Garantizar una composición limpia con un punto focal definido para facilitar la lectura por los sistemas de *Computer Vision* [cite: 26, 41].
+* **Fuentes de Referencia Exactas:**
+  * **Documento Markdown:** *Arquitectura Algorítmica...* (Sección: *Extracción Multimodal de Funciones / Análisis Visual*[13][14]).
+  * **Resumen del Libro:** Derral Eves, *The YouTube Formula* (Caso práctico *Matt's Off Road Recovery*[6]). URL: [https://www.shortform.com/app/book/the-youtube-formula](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.shortform.com%2Fapp%2Fbook%2Fthe-youtube-formula).
+  * **Notas de Creador:** Brandon Boswell, *The YouTube Formula* (Highlights sobre Visión por Computadora y Reconocimiento Facial[15]). URL: [https://brandonkboswell.com/sources/The-YouTube-Formula](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fbrandonkboswell.com%2Fsources%2FThe-YouTube-Formula).
+
+---
+
+### **4\. Edición de Cierre (** **Outro** **) y la Técnica de la "Joya Oculta" (** **Hidden Gem** **)**
+
+* **Fundamento Algorítmico y Técnico:** El algoritmo premia la *Continuación de Sesión* (*Session Continuation*) asignando más peso en la superficie de recomendados a los vídeos que redirigen al usuario hacia otro metraje de la plataforma sin romper la navegación [cite: 27, 42].
+* **Errores y Soluciones de Montaje al Final:**
+  * **Prohibir Frases de Desocupación (** **Trigger Phrases** **):** Decir *"Bueno, eso ha sido todo por hoy"* o *"Gracias por ver"* envía una señal verbal de desenganche que hace huir al espectador antes de ver las pantallas finales [cite: 236, 238].
+  * **Outro Rápido y Enlazado:** Mantener el ritmo alto hasta el último segundo y realizar una llamada a la acción verbal de 8 a 10 segundos hacia el siguiente vídeo sugerido (*target video*) [cite: 238].
+  * **Técnica de la "Joya Oculta" (** **Hidden Gem** **):** Incluir un elemento de alto valor al final del vídeo (similar a una escena post-créditos) para acostumbrar a la audiencia a ver hasta el segundo 100% [cite: 226].
+* **Fuentes de Referencia Exactas:**
+  * **Libro / Notas:** Derral Eves, *The YouTube Formula* (Highlights sobre *Trigger Phrases*, *Outros* y *Hidden Gem*[3]). URL: [https://brandonkboswell.com/sources/The-YouTube-Formula](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fbrandonkboswell.com%2Fsources%2FThe-YouTube-Formula).
+  * **Documento Markdown:** *Arquitectura Algorítmica...* (Sección: *Continuación de Sesión y Estrategia de Publicación*[17]).
+
+---
+
+### **5\. Producción Sonora, Subtitulado e Ingesta de Audio (NLP)**
+
+* **Fundamento Algorítmico y Técnico:** YouTube procesa la pista de audio mediante modelos de Procesamiento de Lenguaje Natural (NLP) e ingesta de subtítulos [cite: 23, 26, 218]. La coherencia entre las palabras habladas y los metadatos ayuda a clasificar el vídeo dentro de las categorías semánticas correctas [cite: 23, 26, 218].
+* **Criterios Prácticos de Edición de Audio:**
+  * **Subtítulos de Calidad (Closed Captions - CC):** No depender únicamente del auto-CC de YouTube; proporcionar o revisar subtítulos limpios y bien sincronizados fortalece la ingesta de datos del algoritmo [cite: 218, 239].
+  * **Diseño Sonoro Emocional:** Integrar música de fondo acorde al tono narrativo y efectos de sonido en momentos estratégicos [cite: 48, 226].
+  * **Modelos Multimodales (MuLan):** En producciones musicales o de audio complejo, sistemas multimodales como MuLan procesan la música y los comentarios para clasificar los contenidos por estados de ánimo o géneros [cite: 295, 296].
+* **Fuentes de Referencia Exactas:**
+  * **Documento Markdown:** *Arquitectura Algorítmica...* (Sección: *Procesamiento de Subtítulos y Transcripciones*[13]).
+  * **Notas de Creador:** Brandon Boswell, *The YouTube Formula* (Highlights sobre subtítulos y transcripciones de audio[18][19]). URL: [https://brandonkboswell.com/sources/The-YouTube-Formula](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fbrandonkboswell.com%2Fsources%2FThe-YouTube-Formula).
+  * **Guía Especializada:** Music Tomorrow, *YouTube's Recommendation Algorithm for Artists* (Sección: *How YouTube Algorithms Understand Music / MuLan*[20]). URL: [https://music-tomorrow.com/blog/a-complete-guide-to-youtube-recommendation-algorithms-for-music-and-artists](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fmusic-tomorrow.com%2Fblog%2Fa-complete-guide-to-youtube-recommendation-algorithms-for-music-and-artists).
