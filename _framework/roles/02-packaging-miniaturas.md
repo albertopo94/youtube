@@ -69,14 +69,15 @@ Emparejadas con las brechas de curiosidad de la §2:
 
 *(Ejemplos transcritos de las notas originales en inglés: ilustrativos, no datos probados sobre el algoritmo.)*
 
-### 3.3 El título debe representar la profundidad del contenido
+### 3.3 Proporción entre la promesa del título y lo que el video entrega `[Heurística a evaluar]`
 
-> **Origen:** revisión externa 5 (`_framework/referencias/auditorias/revision-externa-5-2026-10-22.md`).
+> **Origen:** aporte del orquestador surgido al contrastar el repo con la revisión externa 5; **no** es una conclusión extraída de la transcripción de MrBeast. Ver `revision-externa-5-disposicion-2026-10-22.md`, punto 6.
 
-El espectador infiere del título **cuánto vale la pena invertir** en el video. Un título que suena a pieza de cinco segundos no sostiene la promesa de un video de veinte minutos, y el CTR cae aunque la idea sea buena.
-- **Comprobación:** *¿el título comunicado sugiere una profundidad proporcional a la duración y el desarrollo real del video?*
-- Un título minimalista para un ensayo largo (**"pisé un bicho"** para 20 minutos de análisis) se lee como video corto y no se clickea como video largo.
-- Es una **heurística de proporción**, no una exigencia de títulos largos: lo ideal sigue siendo corto, simple e irrechazable, con lo importante al inicio (~55 caracteres como referencia, no como ley: por encima de ese orden hay riesgo de truncado con puntos suspensivos en algunos dispositivos).
+**Hipótesis editorial, no ley ni predicción de CTR:** el título comunica al espectador cuánto valor de inversión pide el video, **junto con la miniatura, el contexto del canal y el público**. La comprobación útil es de **veracidad de la promesa**, no de longitud.
+- **Comprobación:** *¿el título promete algo que el video realmente entrega, y no se presenta como pieza trivial lo que es un desarrollo extenso (ni como desarrollo extenso lo que es una pieza breve)?*
+- **Ejemplo ilustrativo (hipotético, no un dato medido):** un título minimalista para un ensayo de 20 minutos puede leerse como video corto y atraer a quien buscaba algo breve. Es un **riesgo a evaluar**, no una consecuencia segura: un título breve o enigmático también puede atraer perfectamente a la audiencia de un ensayo largo.
+- **Lo que NO afirma esta sección:** que exista una relación causal demostrada entre "parecer video corto" y caída de CTR; que los títulos deban ser largos para contenido largo; que esta heurística pase por encima del criterio creativo sobre cómo expresar la profundidad.
+- Se conserva lo de siempre: idealmente corto, simple e irrechazable, con lo importante al inicio (~55 caracteres como referencia, no como ley; por encima de ese orden hay riesgo de truncado con puntos suspensivos en algunos dispositivos).
 
 ## 4. Diseño Increíble: The C's of Thumbnail Design
 El objetivo es transmitir la idea principal de forma ultrarrápida: **extremadamente obvia de ver e increíblemente fácil de procesar**.

@@ -40,7 +40,7 @@ Antes de dar por aprobado cualquier guion, el agente debe responder afirmativame
 1. **¿Qué promete explícitamente el título?** (Señalar la frase o palanca del título aprobado en `01-packaging.md`).
 2. **Qué expectativa genera la miniatura?** (Qué brecha de curiosidad y qué escena/elemento visual la abre, ver rol 02 §2).
 3. **¿El vídeo entrega lo prometido?** (El desarrollo cubre la promesa; no hay afirmaciones visuales o textuales que el vídeo no pueda justificar).
-4. **¿La apertura permite reconocer pronto que el contenido corresponde a esa expectativa?** (Ver rol 03 §3: la promesa debe validarse en los primeros 5–30 segundos según el formato, sin spoiler prematuro).
+4. **¿La apertura permite reconocer pronto que el contenido corresponde a esa expectativa?** (Ver rol 03 §3: la promesa debe validarse en los primeros 5–30 segundos según el formato. **Entregar la respuesta o el resultado pronto no es un spoiler**: en tutoriales y videos de consulta, la respuesta temprana *es* el cumplimiento de la promesa; ver el anti-spoiler condicionado por formato).
 5. **¿Hay alguna afirmación que el vídeo no pueda respaldar?** (Cualquier cosa que suene como un resultado garantizado, un mecanismo interno de YouTube o una métrica oculta).
 
 **Regla:** Si alguna respuesta es **NO**, el guion no avanza. Se registra la incongruencia en `06-fuentes-y-verificacion.md` como hallazgo de control y se corrige antes de la locución definitiva. Esta puerta es **independiente** de la puerta de originalidad (aportación editorial propia) y de la YMYL (linter de léxico): una cosa es que el contenido sea original y otra cosa es que lo que promete sea lo que realmente entrega.
@@ -55,10 +55,10 @@ Se aprueba **antes de cerrar guion y storyboard**, respondiendo por escrito:
 | :--- | :--- |
 | **Primera imagen** | ¿Mantiene una relación visual comprensible con el concepto de la miniatura, cuando ese tipo de correspondencia es pertinente al formato? |
 | **Primera frase** | ¿Confirma el tema o la promesa del título **sin preámbulo que no aporte valor**? |
-| **Primeros 20–30 segundos** | ¿Presenta suficiente contexto, interés, reto o recompensa para que el espectador entienda por qué conviene quedarse? |
+| **Ventana de arranque según formato** | En la ventana que corresponda al formato, la duración y la promesa (Shorts: desde el segundo cero; formatos dinámicos/tutoriales: ~5–10 s; ensayos y documentales: ~15–30 s), ¿el video presenta suficiente contexto, interés, reto o recompensa para que el espectador entienda por qué conviene quedarse? |
 | **Cumplir y superar** | ¿El video confirma lo prometido y **empieza a aportar valor adicional**, sin engañar ni exagerar lo que puede entregar? |
 
-**Es una prueba editorial, no una orden de que el primer plano replique literalmente la miniatura.** El género puede exigir otra apertura (inmersión atmosférica en relax/ficción, demostración directa en tutorial). Lo que no se admite es que la apertura no tenga relación con lo que se vendió, o que se demore en decirlo.
+**Es una prueba editorial, no una orden de que el primer plano replique literalmente la miniatura.** El género puede exigir otra apertura (inmersión atmosférica en relax/ficción, demostración directa en tutorial). **Las ventanas temporales de la tabla son referencias, no una regla idéntica para todo video:** un Short se evalúa desde el segundo cero y un ensayo largo en su propia ventana; la métrica de "retención a los 30 s" es un indicador documentado de long-form y **no se traslada mecánicamente a Shorts** (cuya señal propia es *viewed vs swiped*). Lo que no se admite es que la apertura no tenga relación con lo que se vendió, o que se demore en decirlo según el estándar del propio formato.
 
 ### Puerta de Seguridad YMYL: Linter de Léxico Prohibido y Matización Científica
 *(Aplicable a canales de Ciencia, Salud, Nutrición, Finanzas y Noticias - Ver `_framework/contingencia-y-politicas-sensibles.md`)*:
@@ -132,9 +132,11 @@ El objetivo de la apertura es alinear de inmediato las expectativas del espectad
   ✅ **Qué va en la apertura:** confirma la promesa pronto y construye el interés sobre el **cómo**, el **por qué** o la **aplicación**, no sobre esconder el resultado.
 - **Registro obligatorio:** el guion (`02-guion.md`) declara en una línea qué caso aplica y por qué. El payoff **nunca** puede ser un listicle vago de autoayuda.
 
-### El Filtro del Gancho en Bucle Abierto (*Open Loop Hook*)
-- ❌ **El error que mata la retención (Afirmación cerrada):** Redactar un gancho que describe y destripa el resultado final (*"Este creador convirtió 100 Red Bulls en polvo usando una máquina especial"*). El espectador ya obtuvo la respuesta en el segundo 3; no tiene motivo para seguir mirando y desliza (*swipe away*).
--  **El Gancho como Pregunta o Enigma Abierto:** Formular el gancho como una incógnita irresistible (*"¿Qué pasaría si comprimieras 100 latas de Red Bull en una sola bebida?"*). El cerebro del espectador entra en tensión cognitiva y la **única forma de cerrar el bucle es quedarse hasta el segundo final**.
+### El Filtro del Gancho en Bucle Abierto (*Open Loop Hook*) — Herramienta Opcional
+-  **El Gancho como Pregunta o Enigma Abierto (herramienta opcional, condicionada al formato):** Formular el gancho como una incógnita irresistible (*"¿Qué pasaría si comprimieras 100 latas de Red Bull en una sola bebida?"*). El cerebro del espectador entra en tensión cognitiva y **mientras el bucle siga abierto, el motivo para quedarse es cerrarlo**.
+  - **Cuándo es la herramienta correcta:** retos, misterios, transformaciones, narrativas donde el desenlace es el valor. Allí la promesa se cierra cerca del final.
+  - **Cuándo NO lo es:** tutoriales, explicación directa y videos que responden una consulta de búsqueda. **No se debe obligar a retrasar una respuesta que el espectador vino a buscar.** Allí el bucle abierto se traslada: la respuesta se entrega pronto y la tensión pasa al **cómo aplicarla, qué limitaciones tiene o por qué funciona**.
+  - ❌ **El error que mata la retención (afirmación cerrada, en los casos donde sí aplica el bucle):** redactar un gancho que describe y destripa el resultado final (*"Este creador convirtió 100 Red Bulls en polvo usando una máquina especial"*) antes de que el video pueda mostrar el proceso.
 
 ### Adaptabilidad según Formato (Apertura Flexible)
 La regla de validar la promesa en los primeros segundos es una guía de retención, no una camisa de fuerza idéntica para todos los géneros:

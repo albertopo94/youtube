@@ -7,6 +7,20 @@
 - **Grado de Guionado:** `[ ] Palabra por palabra (Full Script para voz en off/IA)` / `[ ] Estructura nítida (Bullet points con espacio para pensar para screencasts/experto)`
 - **Duración total estimada:** (ej. 8 minutos)
 - **Estado de Locución:** `[ ] Borrador provisional (Scratch Track)` / `[ ] Definitiva aprobada`
+- **Modo de Progresión (anti-spoiler condicionado, rol 03 §3):** `[ ] El descubrimiento es parte de la experiencia (misterio/transformación/reto/divulgación con revelación)` / `[ ] La respuesta temprana es el valor (tutorial/explicación directa/consulta de búsqueda)` — **Justificación en una línea:** `[por qué este caso para este video]
+
+---
+
+## 0. Puerta de Correspondencia del Arranque (Obligatorio — antes de cerrar guion y storyboard)
+
+> Rol 03 §1. Las cuatro comprobaciones van **respondidas por escrito** aquí; es evidencia exigible por `AGENTS.md` §05 (DoD de guion). La ventana temporal se evalúa según formato y duración (Shorts: segundo cero; dinámico/tutorial: ~5–10 s; ensayo/documental: ~15–30 s).
+
+| Comprobación | Respuesta escrita |
+| :--- | :--- |
+| **Primera imagen** — ¿relación visual comprensible con el concepto de la miniatura cuando es pertinente? | |
+| **Primera frase** — ¿confirma el tema/promesa sin preámbulo que no aporte? | |
+| **Ventana de arranque del formato** — ¿contexto/interés/reto/recompensa suficientes para quedarse? | |
+| **Cumplir y superar** — ¿confirma lo prometido y empieza a aportar valor extra sin exagerar? | |
 
 ---
 

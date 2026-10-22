@@ -54,3 +54,24 @@
 ## 10. Trazabilidad
 
 ⚪ La transcripción se archiva en `_framework/referencias/estudio-mrbeast-transcripcion.md` (movida desde la raíz; contenido intacto). La opinión del revisor queda archivada verbatim como `revision-externa-5-originales-2026-10-22.md`. **Deuda documentada:** los enlaces a las entrevistas originales de MrBeast no están identificados; hasta identificarlos, ninguna afirmación atribuida a MrBeast puede usarse como fundamento de una regla.
+
+---
+
+## Ronda de pulido (P1–P5) — `revision-externa-5-originales-pulido-2026-10-22.md`
+
+*Segunda vuelta del revisor sobre lo ya implementado. Veredicto: la integración está bien hecha y no hay nada que revertir; son precisiones que afectan a cómo se comporta un agente que siga las instrucciones al pie de la letra. Fuente archivada verbatim.*
+
+### P1. La ventana "20–30 segundos" de la puerta de arranque era demasiado universal
+✅ **RESUELTO.** La fila pasa a **"ventana de arranque según formato"** con referencias explícitas (Shorts desde el segundo cero; dinámicos/tutoriales ~5–10 s; ensayos/documentales ~15–30 s) y la aclaración de que **la retención a los 30 s es un indicador de long-form que no se traslada mecánicamente a Shorts** (cuya señal propia es *viewed vs swiped*). Las ventanas son referencias, no una regla idéntica para todo video.
+
+### P2. El "bucle abierto" seguía imponiendo esperar hasta el final
+✅ **RESUELTO.** `roles/03` §3: el filtro pasa a **herramienta opcional condicionada al formato**, con cuándo aplica (retos, misterios, transformaciones), cuándo no (tutoriales, explicación directa, búsqueda: **no se obliga a retrasar la respuesta que el espectador vino a buscar**; la tensión se traslada al cómo/por qué/aplicación) y la advertencia de afirmación cerrada acotada a los casos donde el bucle aplica. Se eliminó el bullet duplicado. También se aclaró en la puerta de congruencia que **entregar la respuesta pronto no es un spoiler**.
+
+### P3. La nueva puerta no figuraba como condición del DoD global
+✅ **RESUELTO.** `AGENTS.md` §05 añade la condición **2. Puerta de Correspondencia del Arranque** como evidencia exigible de la fase (cuatro comprobaciones respondidas por escrito antes de cerrar guion y storyboard). La lista queda renumerada 1–7 sin duplicados.
+
+### P4. §3.3 tenía atribución incorrecta y formulación causal
+✅ **RESUELTO.** Corregida la atribución: es **aporte del orquestador** surgido al contrastar el repo con la revisión 5, no una conclusión de la transcripción (coherente con el punto 6 de esta disposición). Renombrada a *"Proporción entre la promesa del título y lo que el video entrega [Heurística a evaluar]"*, reescrita como hipótesis con una sección explícita de **lo que NO afirma** (ni causalidad demostrada con el CTR, ni títulos largos para contenido largo, ni prioridad sobre el criterio creativo). El ejemplo pasa a marcarse como hipotético, no medido. `AGENTS.md` §05 centra la condición en promesa clara y veraz, con margen creativo.
+
+### P5. La "mejora única" sugería una atribución causal más fuerte que los datos
+✅ **RESUELTO.** Se reemplaza la justificación causal ("varias a la vez impiden saber cuál funcionó") por la razón real: **priorizar una para mantener el foco del siguiente ciclo**. Se añade advertencia explícita de que no es un experimento controlado —entre videos varían tema, público y fuentes de tráfico— y de que la atribución causal exige comparaciones comparables; si los datos no la soportan, se describe la observación sin afirmar la causa.
