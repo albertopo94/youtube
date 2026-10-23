@@ -122,19 +122,21 @@ Para realizar pruebas experimentales, testear herramientas (como locuciones TTS 
 #    ⚠️ rsync NO respeta .gitignore. Nunca copies el árbol completo con una
 #    lista corta de exclusiones: un secreto o medio nuevo puede quedar fuera.
 #
-#    Primero inspecciona la copia sin escribirla. La lista cubre credenciales
-#    frecuentes y todos los medios descartables definidos por este repositorio;
-#    aun así, revisa el resultado antes de ejecutar el comando real.
+#    Primero inspecciona la copia sin escribirla. Estas son exclusiones
+#    seleccionadas de credenciales, temporales, proyectos de edición y medios;
+#    no sustituyen la revisión de la salida antes de ejecutar el comando real.
 rsync -avn \
   --exclude='.git/' \
   --exclude='.env' --exclude='.env.*' --exclude='.npmrc' \
   --exclude='credentials.json' --exclude='*credential*' --exclude='*secret*' \
   --exclude='*.pem' --exclude='*.key' --exclude='*.p12' --exclude='*.pfx' --exclude='*.local' \
-  --exclude='.atl/' --exclude='.codegraph/' --exclude='.DS_Store' --exclude='cache/' \
+  --exclude='.atl/' --exclude='.codegraph/' --exclude='.DS_Store' --exclude='.DS_Store?' --exclude='.Spotlight-V100' --exclude='Thumbs.db' \
+  --exclude='cache/' --exclude='*.tmp' --exclude='*.temp' --exclude='*.log' \
   --exclude='renders/' --exclude='exports/' --exclude='raw_footage/' \
   --exclude='audio/' --exclude='video/' --exclude='clips/' --exclude='thumbs/' \
   --exclude='*.mp4' --exclude='*.mov' --exclude='*.avi' --exclude='*.mkv' --exclude='*.webm' --exclude='*.m4v' --exclude='*.flv' \
   --exclude='*.mp3' --exclude='*.wav' --exclude='*.flac' --exclude='*.aac' --exclude='*.aiff' \
+  --exclude='*.prproj' --exclude='*.drp' --exclude='*.aep' --exclude='*.fcpx' --exclude='*.blend' \
   youtube/ youtube-prueba/
 
 #    Si el dry-run no muestra secretos ni medios descartables, repetir el mismo

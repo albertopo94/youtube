@@ -293,6 +293,7 @@ Cuando una herramienta requiera interacción visual, inicio de sesión o ejecuci
 | **Guion, Ganchos y Puerta de Originalidad** | `_framework/roles/03-guion-y-narrativa.md` |
 | **Dirección, Flujos Audiovisuales y Edición** | `_framework/roles/04-direccion-y-edicion.md` |
 | **Matriz de Capacidades Comprobadas** | `_framework/herramientas-y-apis.md` |
+| **Revisión de framework consumida por otros repos** | `_framework/compatibilidad-consumidores.md` |
 | **Trazabilidad Legal de Recursos** | `_framework/plantillas/registro-licencias-template.md` |
 | **Fact-Checking y Fuentes Primarias** | `_framework/plantillas/registro-verificacion-fuentes-template.md` |
 | **Políticas YMYL, Léxico y Contingencia** | `_framework/contingencia-y-politicas-sensibles.md` |
