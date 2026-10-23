@@ -9,11 +9,11 @@
 
 ## 1. Registro de Intervalos de Consulta (Datos Comparables)
 
-| Intervalo de Consulta | Fecha / Hora de Extracción | Impresiones Totales | CTR (%) | Shorts: Viewed vs Swiped (%) | Shorts: Duración Media (s) | Vistas Totales | Retención a 30s (% *disponible y pertinente; Long-form ≥60s, ≥100 vistas*) | Porcentaje Medio Visto (APV %) | Tiempo Visualización (Horas) | Suscriptores Netos (+ / -) |
+| Intervalo de Consulta | Fecha / Hora de Extracción | Impresiones Totales | CTR (%) | Shorts: Viewed vs Swiped (%) | Shorts: Duración Media (s) | Vistas Totales | Retención/introducción a 30 s (% *registrar si está disponible y es pertinente*) | Porcentaje Medio Visto (APV %) | Tiempo Visualización (Horas) | Suscriptores Netos (+ / -) |
 | :--- | :--- | :--- | :--- | :---: | :---: | :--- | :--- | :--- | :--- | :--- |
-| **Primeras 24 Horas** | `DD/MM/AAAA` | | | *(Shorts)* | *(Shorts)* | | *(disponible y pertinente; Long-form ≥60s, ≥100 vistas; Shorts: métricas propias)* | | | |
-| **Día 7 (1ª Semana)** | `DD/MM/AAAA` | | | *(Shorts)* | *(Shorts)* | | *(disponible y pertinente; Long-form ≥60s, ≥100 vistas; Shorts: métricas propias)* | | | |
-| **Día 28 (1er Mes)** | `DD/MM/AAAA` | | | *(Shorts)* | *(Shorts)* | | *(disponible y pertinente; Long-form ≥60s, ≥100 vistas; Shorts: métricas propias)* | | | |
+| **Primeras 24 Horas** | `DD/MM/AAAA` | | | *(Shorts)* | *(Shorts)* | | *(registrar si está disponible y es pertinente; Long-form: requiere ≥60s y ≥100 vistas para momentos destacados; Shorts: métricas propias)* | | | |
+| **Día 7 (1ª Semana)** | `DD/MM/AAAA` | | | *(Shorts)* | *(Shorts)* | | *(registrar si está disponible y es pertinente; Long-form: requiere ≥60s y ≥100 vistas para momentos destacados; Shorts: métricas propias)* | | | |
+| **Día 28 (1er Mes)** | `DD/MM/AAAA` | | | *(Shorts)* | *(Shorts)* | | *(registrar si está disponible y es pertinente; Long-form: requiere ≥60s y ≥100 vistas para momentos destacados; Shorts: métricas propias)* | | | |
 
 ---
 

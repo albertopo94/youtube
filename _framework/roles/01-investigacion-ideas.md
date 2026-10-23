@@ -258,7 +258,7 @@ La tabla de mercados de `_framework/estrategia-idiomas.md` (Español, Inglés, H
 
 ---
 
-## 9. Registro de Inspiración y Conexiones entre Temas `[Procedimiento Complementario Opcional]`
+## 10. Registro de Inspiración y Conexiones entre Temas `[Procedimiento Complementario Opcional]`
 
 > **Origen:** revisión externa 5 (`_framework/referencias/auditorias/revision-externa-5-2026-10-22.md`). El protocolo DFS (§1) encuentra **demanda y outliers**; este registro cultiva **materia prima para ideas originales**. Son complementarios: no es otra metodología de ideación.
 
