@@ -130,7 +130,7 @@ rsync -avn \
   --exclude='.env' --exclude='.env.*' --exclude='.npmrc' \
   --exclude='credentials.json' --exclude='*credential*' --exclude='*secret*' \
   --exclude='*.pem' --exclude='*.key' --exclude='*.p12' --exclude='*.pfx' --exclude='*.local' \
-  --exclude='.atl/' --exclude='.codegraph/' --exclude='.DS_Store' --exclude='.DS_Store?' --exclude='.Spotlight-V100' --exclude='Thumbs.db' \
+  --exclude='.atl/' --exclude='.codegraph/' --exclude='.DS_Store' --exclude='.DS_Store?' --exclude='._*' --exclude='.Spotlight-V100' --exclude='.Trashes' --exclude='Thumbs.db' --exclude='ehthumbs.db' \
   --exclude='cache/' --exclude='*.tmp' --exclude='*.temp' --exclude='*.log' \
   --exclude='renders/' --exclude='exports/' --exclude='raw_footage/' \
   --exclude='audio/' --exclude='video/' --exclude='clips/' --exclude='thumbs/' \
