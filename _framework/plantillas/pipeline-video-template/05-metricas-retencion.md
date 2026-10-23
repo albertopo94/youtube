@@ -9,11 +9,11 @@
 
 ## 1. Registro de Intervalos de Consulta (Datos Comparables)
 
-| Intervalo de Consulta | Fecha / Hora de Extracción | Impresiones Totales | CTR (%) | Tasa Deslizamiento (*Shorts: Viewed vs Swiped %*) | Vistas Totales | Retención a 30s (% *disponible y pertinente; Long-form ≥60s, ≥100 vistas*) | Porcentaje Medio Visto (APV %) | Tiempo Visualización (Horas) | Suscriptores Netos (+ / -) |
-| :--- | :--- | :--- | :--- | :---: | :--- | :--- | :--- | :--- | :--- |
-| **Primeras 24 Horas** | `DD/MM/AAAA` | | | *(N/A si Long-form)* | | *(Long-form ≥60s, ≥100 vistas; Shorts: Viewed vs Swiped, AVD)* | | | | |
-| **Día 7 (1ª Semana)** | `DD/MM/AAAA` | | | *(N/A si Long-form)* | | *(Long-form ≥60s, ≥100 vistas; Shorts: Viewed vs Swiped, AVD)* | | | | |
-| **Día 28 (1er Mes)** | `DD/MM/AAAA` | | | *(N/A si Long-form)* | | *(Long-form ≥60s, ≥100 vistas; Shorts: Viewed vs Swiped, AVD)* | | | | |
+| Intervalo de Consulta | Fecha / Hora de Extracción | Impresiones Totales | CTR (%) | Tasa Deslizamiento (*Shorts: Viewed vs Swiped %*) | Vistas Totales | Retención a 30s (% *Long-form ≥60s, ≥100 vistas*) | Shorts: Viewed vs Swiped (%) | Shorts: Duración Media (s) | Porcentaje Medio Visto (APV %) | Tiempo Visualización (Horas) | Suscriptores Netos (+ / -) |
+| :--- | :--- | :--- | :--- | :---: | :--- | :--- | :---: | :---: | :--- | :--- | :--- |
+| **Primeras 24 Horas** | `DD/MM/AAAA` | | | | | *(Long-form ≥60s, ≥100 vistas)* | *(Shorts)* | *(Shorts)* | | | |
+| **Día 7 (1ª Semana)** | `DD/MM/AAAA` | | | | | *(Long-form ≥60s, ≥100 vistas)* | *(Shorts)* | *(Shorts)* | | | |
+| **Día 28 (1er Mes)** | `DD/MM/AAAA` | | | | | *(Long-form ≥60s, ≥100 vistas)* | *(Shorts)* | *(Shorts)* | | | |
 
 ---
 
@@ -104,31 +104,7 @@
 | :-- | :-- | :-- | :-- |
 | | | | |
 
-## 8. Protocolo de Diagnóstico y Republicación de Video `[Práctica Editorial]`
 
-> **Origen:** revisión externa 5 (ronda de pulido 2). Distingue **re-empaquetado** (cambiar título/miniatura, §7) de **republicación** (volver a subir el archivo de video con mejoras). Son decisiones distintas que requieren diagnósticos distintos.
-
-**Cuándo considerar republicar (no solo re-empaquetar):**
-- El video tiene un rendimiento **inesperadamente bajo** en todas las métricas (CTR, retención, CTR de búsqueda) tras haber agotado la ventana de re-empaquetado (§7).
-- El diagnóstico identifica una **causa corregible en el archivo** (ej. error factual, audio desincronizado, pacing insalvable, metadata corrupta) que no se soluciona cambiando título/miniatura.
-- **NO republicar** por bajo rendimiento si la causa es la idea, el packaging o el tema: ahí la acción es mejorar el siguiente video (ver §5).
-
-**Protocolo de diagnóstico antes de republicar:**
-1. **Diagnóstico de causa raíz:** registrar en `06-fuentes-y-verificacion.md` qué falló en el archivo original (error factual, técnico, editorial).
-2. **Mejora verificable:** el archivo a republicar debe incorporar una **corrección concreta y verificable** (no "mejorar la calidad" genérico).
-3. **Registro de republicación:** en la tabla de abajo, registrar versión original vs. republicada, motivo, y qué métrica se espera mover.
-4. **Publicación limpia:** la republicación **no es un re-subida idéntica**. YouTube penaliza archivos idénticos. El archivo debe tener cambios verificables (hash distinto).
-5. **Seguimiento:** comparar métricas de la versión original vs. republicada a 7 y 28 días.
-
-**Registro de Republicaciones:**
-
-| Fecha | Video original (ID/URL) | Motivo (causa raíz) | Mejora aplicada | Métrica objetivo | Resultado a 7d / 28d |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| | | | | | |
-
-**Regla:** **no republicar archivos idénticos**. YouTube puede confundir a la audiencia y al algoritmo. La republicación solo procede con mejora verificable en el archivo.
-
----
 
 ### 7.2 Tabla de Interpretación Prudente (Evitar Decisiones Precipitadas) `[Hipótesis Editorial]`
 
@@ -142,3 +118,30 @@
 | **Prueba nativa con resultado concluyente.** | Hay evidencia directa para comparar las variantes evaluadas. | **Registrar el resultado** y la variante ganadora en el `banco-de-titulos.md` del canal. |
 
 **Regla de no precipitación:** YouTube aconseja evitar decisiones con datos insuficientes y cambios por pequeñas variaciones del CTR. Un título nuevo puede tardar una semana o más en mostrar impacto; esperar la evidencia antes de volver a tocar.
+
+## 8. Protocolo de Diagnóstico y Republicación de Video `[Práctica Editorial]`
+
+> **Origen:** revisión externa 5 (ronda de pulido 2). Distingue **re-empaquetado** (cambiar título/miniatura, §7) de **republicación** (volver a subir el archivo de video con mejoras). Son decisiones distintas que requieren diagnósticos distintos.
+
+**Cuándo considerar republicar (no solo re-empaquetar):**
+- El video tiene un rendimiento **inesperadamente bajo** en todas las métricas (CTR, retención, CTR de búsqueda) tras haber agotado la ventana de re-empaquetado (§7).
+- El diagnóstico identifica una **causa corregible en el archivo** (ej. error factual, audio desincronizado, pacing insalvable, metadata corrupta) que no se soluciona cambiando título/miniatura.
+- **NO republicar** por bajo rendimiento si la causa es la idea, el packaging o el tema: ahí la acción es mejorar el siguiente video (ver §5).
+
+**Protocolo de diagnóstico antes de republicar:**
+1. **Diagnóstico de causa raíz:** registrar en `06-fuentes-y-verificacion.md` qué falló en el archivo original (error factual, técnico, editorial).
+2. **Mejora verificable:** el archivo a republicar debe incorporar una **corrección concreta y verificable** (no "mejorar la calidad" genérico).
+3. **Registro de republicación:** en la tabla de abajo, registrar versión original vs. republicada, motivo, y qué métrica se espera mover.
+4. **Publicación limpia:** la republicación **no es un re-subida idéntica**. Un archivo idéntico no demuestra que el contenido haya mejorado de forma sustancial y puede confundir a la audiencia y al algoritmo. El archivo debe tener cambios verificables.
+5. **Seguimiento:** comparar métricas de la versión original vs. republicada a 7 y 28 días.
+
+**Registro de Republicaciones:**
+
+| Fecha | Video original (ID/URL) | Motivo (causa raíz) | Mejora aplicada | Métrica objetivo | Resultado a 7d / 28d |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| | | | | | |
+
+**Regla:** **no republicar archivos idénticos**. La republicación solo procede con mejora verificable en el archivo.
+
+---
+

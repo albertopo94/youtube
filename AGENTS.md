@@ -146,7 +146,7 @@ Las siguientes materias se mencionan aquí porque aplican a Shorts, pero su desa
 | Arquetipo del Arco en Bucle (Looped Arc) | `roles/03` §2 | Estructura narrativa general (no exclusiva de Shorts) |
 | Ganchos en Bucle Abierto | `roles/03` §3 | Herramienta opcional condicionada al formato |
 | Transposición Cross-Niche | `roles/01` §4 | Metodología de investigación e ideación |
-| Enfoque Ágil en Primeras Subidas | `roles/01` §6 (Protocolo Canónico) / Producción general | Principio de experimentación en canales nuevos (aplicable a cualquier formato) |
+| Enfoque Ágil en Primeras Subidas | `roles/01` §7 (Protocolo Canónico) / Producción general | Principio de experimentación en canales nuevos (aplicable a cualquier formato) |
 | Cadencia Sostenible | `05-metricas-retencion.md` §3 / Producción general | Ritmo sostenible vs. picos virales |
 | Diagnóstico y Republicación | `05-metricas-retencion.md` §8 (Protocolo de Diagnóstico y Republicación) | Republicación con mejora verificable; re-empaquetado en §7 |
 | Edición de Valor Añadido | `roles/03` §1 | Gobernanza editorial y originalidad |
