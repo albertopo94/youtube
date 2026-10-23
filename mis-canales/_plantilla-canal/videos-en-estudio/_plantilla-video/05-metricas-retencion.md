@@ -9,11 +9,11 @@
 
 ## 1. Registro de Intervalos de Consulta (Datos Comparables)
 
-| Intervalo de Consulta | Fecha / Hora de Extracción | Impresiones Totales | CTR (%) | Tasa Deslizamiento (*Shorts: Viewed vs Swiped %*) | Vistas Totales | Retención a 30s (% *Long-form ≥60s, ≥100 vistas*) | Shorts: Viewed vs Swiped (%) | Shorts: Duración Media (s) | Porcentaje Medio Visto (APV %) | Tiempo Visualización (Horas) | Suscriptores Netos (+ / -) |
-| :--- | :--- | :--- | :--- | :---: | :--- | :--- | :---: | :---: | :--- | :--- | :--- |
-| **Primeras 24 Horas** | `DD/MM/AAAA` | | | | | *(Long-form ≥60s, ≥100 vistas)* | *(Shorts)* | *(Shorts)* | | | |
-| **Día 7 (1ª Semana)** | `DD/MM/AAAA` | | | | | *(Long-form ≥60s, ≥100 vistas)* | *(Shorts)* | *(Shorts)* | | | |
-| **Día 28 (1er Mes)** | `DD/MM/AAAA` | | | | | *(Long-form ≥60s, ≥100 vistas)* | *(Shorts)* | *(Shorts)* | | | |
+| Intervalo de Consulta | Fecha / Hora de Extracción | Impresiones Totales | CTR (%) | Shorts: Viewed vs Swiped (%) | Shorts: Duración Media (s) | Vistas Totales | Retención a 30s (% *disponible y pertinente; Long-form ≥60s, ≥100 vistas*) | Porcentaje Medio Visto (APV %) | Tiempo Visualización (Horas) | Suscriptores Netos (+ / -) |
+| :--- | :--- | :--- | :--- | :---: | :---: | :--- | :--- | :--- | :--- | :--- |
+| **Primeras 24 Horas** | `DD/MM/AAAA` | | | *(Shorts)* | *(Shorts)* | | *(disponible y pertinente; Long-form ≥60s, ≥100 vistas; Shorts: métricas propias)* | | | |
+| **Día 7 (1ª Semana)** | `DD/MM/AAAA` | | | *(Shorts)* | *(Shorts)* | | *(disponible y pertinente; Long-form ≥60s, ≥100 vistas; Shorts: métricas propias)* | | | |
+| **Día 28 (1er Mes)** | `DD/MM/AAAA` | | | *(Shorts)* | *(Shorts)* | | *(disponible y pertinente; Long-form ≥60s, ≥100 vistas; Shorts: métricas propias)* | | | |
 
 ---
 
@@ -132,7 +132,7 @@
 1. **Diagnóstico de causa raíz:** registrar en `06-fuentes-y-verificacion.md` qué falló en el archivo original (error factual, técnico, editorial).
 2. **Mejora verificable:** el archivo a republicar debe incorporar una **corrección concreta y verificable** (no "mejorar la calidad" genérico).
 3. **Registro de republicación:** en la tabla de abajo, registrar versión original vs. republicada, motivo, y qué métrica se espera mover.
-4. **Publicación limpia:** la republicación **no es un re-subida idéntica**. Un archivo idéntico no demuestra que el contenido haya mejorado de forma sustancial y puede confundir a la audiencia y al algoritmo. El archivo debe tener cambios verificables.
+4. **Publicación limpia:** la republicación **no es un re-subida idéntica**. Un archivo idéntico no demuestra que el contenido haya mejorado de forma sustancial y **puede confundir a la audiencia y al algoritmo (hipótesis editorial, no comprobada)**. El archivo debe tener cambios verificables.
 5. **Seguimiento:** comparar métricas de la versión original vs. republicada a 7 y 28 días.
 
 **Registro de Republicaciones:**
