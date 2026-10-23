@@ -45,6 +45,8 @@ Este documento centraliza el semillero de conceptos de la oficina. Para evitar l
    - **Producción cinematográfica independiente impulsada por creadores:** Estudiar el modelo de creadores que desarrollan propiedad intelectual propia en internet y escalan a producciones ambiciosas con control autoral y eficiencia de recursos (Kane Parsons con *Backrooms*, Markiplier con *Iron Lung*, Curry Barker con *Obsession*).
    - **Escalar universos creativos:** YouTube como punto de partida para probar conceptos, validar estética y construir comunidad; escalar hacia cortometrajes o largometrajes cuando la idea y la respuesta del público lo justifiquen.
    - **Principio estratégico:** Combinar la capacidad de distribución continua de YouTube con la libertad creativa y la eficiencia del cine independiente.
+10. 🟡 `[POR EXPLORAR]` **Videoclips y canciones originales generados con IA, inspirados en K-Pop y, en menor medida, J-Pop:**
+   Crear música y videoclips originales con IA; no reutilizar canciones, videoclips, artistas, identidades ni material protegido de terceros.
 
 ---
 

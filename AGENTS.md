@@ -2,6 +2,10 @@
 
 Este repositorio es la oficina de producción de canales y videos de YouTube del creador. Todo agente de IA que opere en este workspace debe acatar estrictamente el siguiente contrato de trabajo, niveles de autonomía y directivas técnicas.
 
+> **Lectura obligatoria:** antes de modificar el repositorio, leer también [`_framework/agent-operating-standard.md`](_framework/agent-operating-standard.md). Ese estándar define disciplina transversal de lectura, verificación, commits, versionado y releases; este archivo conserva prioridad para las reglas específicas de producción audiovisual.
+>
+> **Distribución del framework:** `AGENTS.md`, las plantillas y los documentos de `_framework/` son superficie consumible por otros repositorios. Los cambios compatibles se agrupan y publican en una versión coherente; no se crea un release por cada microcorrección. Los tags, releases y publicaciones externas requieren decisión explícita del creador.
+
 ---
 
 ## 🧭 01. Protocolo Universal de Inicio y Continuidad de Tareas
