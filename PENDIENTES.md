@@ -115,7 +115,7 @@ sino como controles que el runtime ejecuta.
 | 2. **Verificadores que rompen** | `check-contrato.sh`, mediciones de ffmpeg contra hoja de aceptación. El error se detecta, aunque sea tarde. | 🟡 Recién nacido (2026-10-21) |
 | 3. **Gates estructurales** | El runtime no *puede* saltarse el paso: la fase N+1 no arranca si la N no pasó. | ⬜ Requiere un runtime (esta visión) |
 
-**Decisión resuelta (2026-10-23):** la exploración A/B/C queda como antecedente. El producto existe como repositorio separado [`albertopo94/youtube-shell`](https://github.com/albertopo94/youtube-shell), distribuido como paquete de Pi. Este repositorio `youtube` sigue siendo el framework de dominio, fuente versionada de plantillas, políticas y verificadores; no se convierte en el runtime.
+**Decisión resuelta (2026-10-23):** la exploración A/B/C queda como antecedente. El producto existe como repositorio separado [`albertopo94/youtube-shell`](https://github.com/albertopo94/youtube-shell), en desarrollo con el objetivo de distribuirse como paquete de Pi. Este repositorio `youtube` sigue siendo el framework de dominio, fuente versionada de plantillas, políticas y verificadores; no se convierte en el runtime.
 
 - **Nivel 1 y 2 aquí:** `AGENTS.md`, plantillas y verificadores documentales continúan evolucionando en este repo.
 - **Nivel 3 en el consumidor:** `youtube-shell` implementa los gates estructurales y consume un contrato de fases semánticas propio.
@@ -164,7 +164,7 @@ empaquetar ese flujo como paquete instalable, agregando la única pieza que falt
 la máquina de estados que hace cumplir las fases. **No requiere tener canal** (canal
 de ensayo ajeno sirve como cliente demo): es independiente de P2.
 
-**Decisión de forma resuelta (2026-10-23):** `youtube-shell` existe como **paquete de Pi** en su repositorio separado. La alternativa standalone queda como posibilidad futura, no como trabajo pendiente de este repo.
+**Decisión de forma resuelta (2026-10-23):** `youtube-shell` existe como repositorio separado cuyo objetivo de distribución es un **paquete de Pi**; su empaquetado sigue su propio ciclo de desarrollo. La alternativa standalone queda como posibilidad futura, no como trabajo pendiente de este repo.
 
 **Contrato entre repositorios:** `youtube` publica el conocimiento de dominio y sus versiones; `youtube-shell` registra la revisión de framework que consume y adapta sus controles en su propio ciclo de desarrollo. Cada cambio incompatible de rutas, plantillas o estados en `youtube` debe incluir notas de migración para el consumidor.
 

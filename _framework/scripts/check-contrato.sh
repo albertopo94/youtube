@@ -67,8 +67,18 @@ while IFS= read -r estado; do
   fi
   value=$(printf '%s\n' "$line" | sed -E 's/^\*\*(Estado actual|Fase activa):\*\*[[:space:]]*`([^`]+)`[[:space:]]*$/\2/')
   case "$value" in
-    NO_INICIADO|EN_CURSO|BLOQUEADO|PENDIENTE_APROBACION|APROBADO|PUBLICADO)
+    NO_INICIADO|EN_CURSO|BLOQUEADO|PENDIENTE_APROBACION|APROBADO)
       pass "$rel — estado normalizado ($value)"
+      ;;
+    PUBLICADO)
+      case "$rel" in
+        mis-canales/*/videos-publicados/*/00-estado-produccion.md)
+          pass "$rel — estado terminal normalizado (PUBLICADO)"
+          ;;
+        *)
+          fail "$rel — PUBLICADO solo es válido dentro de mis-canales/<canal>/videos-publicados/<video>/"
+          ;;
+      esac
       ;;
     *)
       fail "$rel — estado no reconocido: $value"

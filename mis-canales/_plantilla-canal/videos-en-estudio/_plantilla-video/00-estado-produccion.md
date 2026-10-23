@@ -46,7 +46,7 @@
 - **Inspección Técnica de Calidad:**
   - [ ] ¿El archivo abre y reproduce de principio a fin sin errores de códec ni artefactos?
   - [ ] ¿Pacing visual conforme al perfil del video? (perfil por defecto: ningún plano estático supera **5 segundos** sin cambio visual o dinamismo; las extensiones requieren la **justificación de propósito** escrita en `03-storyboard-y-edicion.md` — el criterio de este video manda sobre el default)
-  - [ ] ¿Diseño de audio conforme al perfil del video? (perfil por defecto: A1 voz −23 LUFS / pico < −1.5 dBTP, A2 música con ducking −18 dB, A3 SFX; variaciones válidas solo con **justificación escrita** en `03-storyboard-y-edicion.md` y resultado **medido y escuchado**, no declarado)
+  - [ ] ¿Diseño de audio adecuado al formato? (locución inteligible si aplica, música y SFX solo cuando aporten, equilibrio y picos seguros). El objetivo integrado de sonoridad, el límite de pico y el método de medición del **master final** deben constar en la hoja de aceptación; el resultado se mide cuando aplica y se escucha en control.
   - [ ] ¿Sincronización exacta entre locución y cortes de imagen (sin desfases de audio)?
   - [ ] ¿Cero fotogramas negros no intencionados ni microgaps?
   - [ ] ¿Niveles de audio balanceados (*sound check* superado en móvil y auriculares)?

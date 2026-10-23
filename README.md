@@ -125,21 +125,24 @@ Para realizar pruebas experimentales, testear herramientas (como locuciones TTS 
 #    Primero inspecciona la copia sin escribirla. La lista cubre credenciales
 #    frecuentes y todos los medios descartables definidos por este repositorio;
 #    aun así, revisa el resultado antes de ejecutar el comando real.
-rsync -avn --delete \
+rsync -avn \
   --exclude='.git/' \
   --exclude='.env' --exclude='.env.*' --exclude='.npmrc' \
   --exclude='credentials.json' --exclude='*credential*' --exclude='*secret*' \
   --exclude='*.pem' --exclude='*.key' --exclude='*.p12' --exclude='*.pfx' --exclude='*.local' \
-  --exclude='.atl/' --exclude='.codegraph/' --exclude='.DS_Store' \
-  --exclude='renders/' --exclude='exports/' \
+  --exclude='.atl/' --exclude='.codegraph/' --exclude='.DS_Store' --exclude='cache/' \
+  --exclude='renders/' --exclude='exports/' --exclude='raw_footage/' \
   --exclude='audio/' --exclude='video/' --exclude='clips/' --exclude='thumbs/' \
-  --exclude='*.mp4' --exclude='*.mov' --exclude='*.avi' --exclude='*.mkv' --exclude='*.webm' --exclude='*.m4v' \
-  --exclude='*.mp3' --exclude='*.wav' --exclude='*.flac' --exclude='*.aac' \
+  --exclude='*.mp4' --exclude='*.mov' --exclude='*.avi' --exclude='*.mkv' --exclude='*.webm' --exclude='*.m4v' --exclude='*.flv' \
+  --exclude='*.mp3' --exclude='*.wav' --exclude='*.flac' --exclude='*.aac' --exclude='*.aiff' \
   youtube/ youtube-prueba/
 
 #    Si el dry-run no muestra secretos ni medios descartables, repetir el mismo
-#    comando sin -n para realizar la copia. No publiques el sandbox antes de
-#    revisar otra vez `git status` y los archivos que se van a incluir.
+#    comando sin -n para realizar la copia. La copia normal NO usa --delete:
+#    conserva trabajo que exista solo dentro del sandbox. Una sincronización
+#    destructiva, si alguna vez hiciera falta, se prepara y revisa como una
+#    operación separada con su propia lista explícita de borrados. No publiques
+#    el sandbox antes de revisar otra vez `git status` y los archivos a incluir.
 
 # 2. (Opcional) Si deseas versionar los avances del sandbox en un repositorio privado independiente:
 cd youtube-prueba
