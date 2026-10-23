@@ -9,11 +9,11 @@
 
 ## 1. Registro de Intervalos de Consulta (Datos Comparables)
 
-| Intervalo de Consulta | Fecha / Hora de Extracción | Impresiones Totales | CTR (%) | Tasa Deslizamiento (*Shorts: Viewed vs Swiped %*) | Vistas Totales | Retención a 30s (%) | Porcentaje Medio Visto (APV %) | Tiempo Visualización (Horas) | Suscriptores Netos (+ / -) |
+| Intervalo de Consulta | Fecha / Hora de Extracción | Impresiones Totales | CTR (%) | Tasa Deslizamiento (*Shorts: Viewed vs Swiped %*) | Vistas Totales | Retención a 30s (% *Long-form ≥60s, ≥100 vistas*) | Porcentaje Medio Visto (APV %) | Tiempo Visualización (Horas) | Suscriptores Netos (+ / -) |
 | :--- | :--- | :--- | :--- | :---: | :--- | :--- | :--- | :--- | :--- |
-| **Primeras 24 Horas** | `DD/MM/AAAA` | | | *(N/A si Long-form)* | | | | | |
-| **Día 7 (1ª Semana)** | `DD/MM/AAAA` | | | *(N/A si Long-form)* | | | | | |
-| **Día 28 (1er Mes)** | `DD/MM/AAAA` | | | *(N/A si Long-form)* | | | | | |
+| **Primeras 24 Horas** | `DD/MM/AAAA` | | | *(N/A si Long-form)* | | *(solo Long-form ≥60s, ≥100 vistas)* | | | | |
+| **Día 7 (1ª Semana)** | `DD/MM/AAAA` | | | *(N/A si Long-form)* | | *(solo Long-form ≥60s, ≥100 vistas)* | | | | |
+| **Día 28 (1er Mes)** | `DD/MM/AAAA` | | | *(N/A si Long-form)* | | *(solo Long-form ≥60s, ≥100 vistas)* | | | | |
 
 ---
 

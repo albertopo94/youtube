@@ -131,9 +131,9 @@ Todo tema y propuesta de packaging debe fundamentarse en los principios de *Brea
    - *Campaña única:* Prohibido proponer videos virales fuera de temática (*off-topic hits*); un éxito que atrae a la audiencia equivocada destruye la retención de los videos posteriores. El canal debe fidelizar a un mismo perfil recurrente.
 
 7. **Directivas Específicas para Producción de YouTube Shorts:**
-Esta sección contiene **solo** los criterios operativos que son **realmente propios del formato Shorts** (vertical, <60 s, feed de swipe, sin búsqueda explícita). Todo lo que es principio narrativo, de ideación, de publicación o de gobernanza general tiene su definición canónica en otro documento y aquí solo se remite a ella.
+Esta sección contiene **solo** los criterios operativos que son **realmente propios del formato Shorts** (vídeos verticales o cuadrados de hasta 3 minutos, subidos al feed de Shorts y descubribles también mediante búsqueda, página de inicio, suscripciones y otras superficies). Todo lo que es principio narrativo, de ideación, de publicación o de gobernanza general tiene su definición canónica en otro documento y aquí solo se remite a ella.
 
-- *Filtro de Relatibilidad en Outliers:* Priorizar conceptos universalmente comprensibles (comida, dinero, hábitos cotidianos, mascotas) sobre cifras brutas de videos hiper-técnicos que carecen de tracción masiva fuera de su nicho. **Específico de Shorts** porque el feed de descubrimiento masivo premia lo universalmente reconocible en la primera fracción de segundo.
+- *Filtro de Relatibilidad en Outliers:* Priorizar conceptos universalmente comprensibles (comida, dinero, hábitos cotidianos, mascotas) sobre cifras brutas de vídeos hiper-técnicos que carecen de tracción masiva fuera de su nicho. **Hipótesis editorial:** el feed de descubrimiento masivo de Shorts tiende a premiar lo universalmente reconocible en la primera fracción de segundo; YouTube documenta que el descubrimiento depende de personalización, decisión de ver vs. deslizar, tiempo medio, porcentaje visto, señales de satisfacción, interés temático, competencia y estacionalidad — no una regla universal. Usar como heurística para elegir ejemplos, no como propiedad demostrada del algoritmo.
 - *Observación opcional de picos virales:* Si un Short experimenta un pico viral atípico en tiempo real, el creador puede evaluar espaciar la siguiente subida para observar su desarrollo. **Práctica editorial opcional, específica del comportamiento del feed de Shorts**.
 
 ---
@@ -146,9 +146,9 @@ Las siguientes materias se mencionan aquí porque aplican a Shorts, pero su desa
 | Arquetipo del Arco en Bucle (Looped Arc) | `roles/03` §2 | Estructura narrativa general (no exclusiva de Shorts) |
 | Ganchos en Bucle Abierto | `roles/03` §3 | Herramienta opcional condicionada al formato |
 | Transposición Cross-Niche | `roles/01` §4 | Metodología de investigación e ideación |
-| Enfoque Ágil en Primeras Subidas | `roles/01` §5 / Producción general | Experimentación en canales nuevos |
+| Enfoque Ágil en Primeras Subidas | `roles/01` §5 (Metodología) / Producción general | Principio de experimentación en canales nuevos (aplicable a cualquier formato) |
 | Cadencia Sostenible | `05-metricas-retencion.md` §3 / Producción general | Ritmo sostenible vs. picos virales |
-| Diagnóstico antes de Re-subir | `05-metricas-retencion.md` §7 | Protocolo de diagnóstico y republicación |
+| Diagnóstico y Republicación | `05-metricas-retencion.md` §7 | Re-empaquetado del título; diagnóstico general de rendimiento en §5 |
 | Edición de Valor Añadido | `roles/03` §1 | Gobernanza editorial y originalidad |
 | Heurísticas vs. Reglas Estrictas | `roles/02` §5-6 | Packaging y miniaturas |
 

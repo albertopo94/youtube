@@ -91,9 +91,8 @@ Se aprueba **antes de cerrar guion y storyboard**, respondiendo por escrito:
 - **Anclaje de Contraste Antes/Después (Opcional):** Si el video trata sobre una transformación, fijar claramente el estado inicial en los primeros segundos (mediante una captura, gráfica, imagen de referencia o pantalla dividida) para que la revelación final complete la expectativa de forma evidente.
 
 ### Arquetipo Opcional: La Estructura del Arco en Bucle (*Looped Arc*) — General, no solo cortos/medianos
-*(Modelo para romper la predictibilidad en videos cortos y medianos)*:
 
-> **Encuadre (revisión externa 5, ronda de pulido 2):** este arco es una **estructura narrativa general**, aplicable a cualquier duración cuando la incertidumbre, las dificultades y la resolución contribuyen a sostener el interés. En un video largo puede ser el arco principal o **repetirse como subestructura** de una parte del video. **No es obligatorio para todos los videos**: un tutorial, una explicación cuya respuesta debe darse pronto o una pieza contemplativa que no necesite conflicto no lo usan. Definición canónica también en `AGENTS.md` §04.7.
+> **Encuadre (revisión externa 5, ronda de pulido 2):** este arco es una **estructura narrativa general**, aplicable a cualquier duración cuando la incertidumbre, las dificultades y la resolución contribuyen a sostener el interés. En un video largo puede ser el arco principal o **repetirse como subestructura** de una parte del video. **No es obligatorio para todos los videos**: un tutorial, una explicación cuya respuesta debe darse pronto o una pieza contemplativa que no necesite conflicto no lo usa. Definición canónica en este documento (rol 03 §2).
 
 - La estructura lineal básica `Gancho ➔ Acción plana ➔ Recompensa` suele volverse monótona hacia la mitad del metraje.
 - **El Arco en Bucle añade tensión intermedia:**
