@@ -114,3 +114,35 @@
 - `05-metricas-retencion.md` §7 (Diagnóstico y republicación)
 
 **Estado de la reorganización:** el contenido que no era específicamente de Shorts se ha reescrito **in situ** con referencias a las definiciones canónicas, sin mover viñetas entre archivos (preservando la referencia `§04.7` que usan dos `banco-de-titulos.md`). Si en el futuro se hace una reorganización física, la referencia `§04.7: Heurísticas vs Reglas Estrictas` seguirá resolviendo porque el rótulo se mantiene.
+
+---
+
+### F. Reorganización física de AGENTS.md §04.7 (paso 2 del amigo)
+✅ **RESUELTO (en esta pasada).** Ejecutada la reorganización física acordada en el mapa de referencias:
+
+**Eliminado de §04.7 (movido a canónicos / dejado solo referencia):**
+- Arquetipo del Arco en Bucle → definición canónica en `roles/03` §2
+- Ganchos en Bucle Abierto → definición canónica en `roles/03` §3
+- Transposición Cross-Niche → definición canónica en `roles/01` §4
+- Enfoque Ágil en Primeras Subidas → producción general / `roles/01`
+- Cadencia Sostenible (parte general) → producción general / `05-metricas-retencion.md` §3
+- Diagnóstico antes de Re-subir → `05-metricas-retencion.md` §7
+- Edición de Valor Añadido → `roles/03` §1
+- Heurísticas vs. Reglas (contenido normativo) → `roles/02` §5-6
+
+**Quedado en §04.7 (Shorts-puro):**
+1. **Filtro de Relatibilidad en Outliers** — específico del feed de descubrimiento masivo
+2. **Observación opcional de picos virales** — práctica editorial del feed de Shorts
+
+**Añadido en §04.7:**
+- Tabla **"Véase también (definiciones canónicas)"** con 8 filas enlazando cada tema a su ubicación canónica (`roles/01` §4, `roles/01` §5, `roles/02` §5-6, `roles/03` §1/§2/§3, `05-metricas-retencion.md` §3/§7)
+- **Ancla preservada** explícita: `AGENTS.md §04.7: Heurísticas vs. Reglas Estrictas` (línea 155) para que las referencias en `banco-de-titulos.md` ×2 y `roles/03` sigan resolviendo sin cambios.
+
+**Verificado:**
+- `grep -c "Heurísticas vs. Reglas Estrictas" AGENTS.md` → 2 (ancla + tabla)
+- Referencias `banco-de-titulos.md` ×2 → resuelven a la ancla preservada
+- `roles/03` referencia a `AGENTS.md §04.7` (arco en bucle) → sigue válida
+- Sección §04.7 reducida de 9 viñetas a 2 ítems Shorts-puro + tabla de 8 referencias canónicas
+- Contenido movido no se pierde: ya existía en sus ubicaciones canónicas (se evitó duplicación)
+
+**Estado de la revisión 5:** **CERRADA COMPLETA** — A, B, C, D, E, F todos resueltos. No quedan items pendientes de esta revisión.

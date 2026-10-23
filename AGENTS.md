@@ -131,15 +131,28 @@ Todo tema y propuesta de packaging debe fundamentarse en los principios de *Brea
    - *Campaña única:* Prohibido proponer videos virales fuera de temática (*off-topic hits*); un éxito que atrae a la audiencia equivocada destruye la retención de los videos posteriores. El canal debe fidelizar a un mismo perfil recurrente.
 
 7. **Directivas Específicas para Producción de YouTube Shorts:**
-   - *Filtro de Relatibilidad en Outliers:* Priorizar conceptos universalmente comprensibles (comida, dinero, hábitos cotidianos, mascotas) sobre cifras brutas de videos hiper-técnicos que carecen de tracción masiva fuera de su nicho.
-   - *Arquetipo del Arco en Bucle (Looped Arc):* Estructura narrativa **general, no exclusiva de Shorts**: `Bucle Abierto ➔ Acción ➔ Conflicto/Fallo inesperado ➔ Recuperación/Reintento ➔ Payoff`. Se usa cuando la incertidumbre, las dificultades y la resolución contribuyen a sostener el interés; en un video largo puede ser el arco principal o repetirse como subestructura. **No es obligatorio para todos los videos**: un tutorial, una explicación cuya respuesta debe darse pronto o una pieza contemplativa que no necesite conflicto no lo usan. Definición canónica en `roles/03` §2.
-   - *Ganchos en Bucle Abierto:* Formular el gancho como pregunta o enigma que, **cuando el formato lo justifique** (misterio, retos, transformaciones), se cierre cerca del final; evitar afirmaciones cerradas que destripen el resultado en el segundo 3. **En tutoriales, explicación directa y respuesta de búsqueda la solución se entregar pronto y la tensión se traslada al cómo, el por qué o la aplicación** (ver `roles/03` §3: el bucle abierto es una herramienta opcional condicionada al formato, no una obligación).
-   - *Transposición Cross-Niche:* Metodología de **investigación e ideación**, no específica de Shorts. Definición canónica y desarrollo completo en `roles/01` §4 (*La Técnica de Transposición Cross-Niche*): reutilizar la estructura de ganchos, progresión y payoffs de videos de 50M+ visitas de nichos maduros adaptándolas al tema propio, **nunca copiar títulos ni métricas ajenas como promesa**. Aquí solo se recuerda que aplica también a Shorts.
-   - *Enfoque Ágil en Primeras Subidas:* Principio de **experimentación para canales nuevos**, no necesariamente específico de Shorts. Se refiere a los primeros videos de cualquier formato: priorizar la agilidad y el aprendizaje práctico para observar qué temáticas y formatos generan tracción sin sobre-perfeccionar la primera entrega. Principio general de producción, no exclusivo de Shorts.
-   - *Cadencia Sostenible vs. Picos Virales:* Principio general: YouTube indica que las visualizaciones no dependen del intervalo entre publicaciones; la prioridad es la calidad y un ritmo sostenible. **Práctica opcional específica de Shorts:** si un video experimenta un pico viral atípico en tiempo real, el creador puede evaluar espaciar la siguiente subida para observar su desarrollo. La cadencia es estrategia general; el espaciado del pico es observación de Shorts.
-   - *Diagnóstico antes de Re-subir:* Práctica general de publicación y análisis de rendimiento, **no exclusiva de Shorts**. Si un video tiene rendimiento inesperadamente bajo, diagnosticar primero la causa objetiva (interés de la idea, packaging, retención inicial). Si se decide relanzar, revisar y mejorar la pieza aportando valor renovado, evitando republicar archivos idénticos que confundan a la audiencia o al algoritmo. Protocolo general de diagnóstico y republicación relacionado con `05-metricas-retencion.md`.
-   - *Edición de Valor Añadido (Sin Falsas Garantías):* Se refiere a **originalidad, derechos y monetización de materiales de terceros**, independientemente del formato. En formatos que analicen o comenten metraje existente, es indispensable aportar transformación sustancial (guion y locución propios, nuevo montaje sonoro y valor crítico/educativo). La atribución no otorga derechos legales por sí sola, y la monetización depende de la aportación humana genuina. Integrada en la gobernanza editorial y el control de originalidad (`roles/03` §1).
-   - *Heurísticas vs. Reglas Estrictas:* La advertencia contra convertir heurísticas de packaging en reglas rígidas pertenece a **rol 02 §5-6** (packaging y miniaturas). No se usa como descargo general para otras reglas de esta sección.
+Esta sección contiene **solo** los criterios operativos que son **realmente propios del formato Shorts** (vertical, <60 s, feed de swipe, sin búsqueda explícita). Todo lo que es principio narrativo, de ideación, de publicación o de gobernanza general tiene su definición canónica en otro documento y aquí solo se remite a ella.
+
+- *Filtro de Relatibilidad en Outliers:* Priorizar conceptos universalmente comprensibles (comida, dinero, hábitos cotidianos, mascotas) sobre cifras brutas de videos hiper-técnicos que carecen de tracción masiva fuera de su nicho. **Específico de Shorts** porque el feed de descubrimiento masivo premia lo universalmente reconocible en la primera fracción de segundo.
+- *Observación opcional de picos virales:* Si un Short experimenta un pico viral atípico en tiempo real, el creador puede evaluar espaciar la siguiente subida para observar su desarrollo. **Práctica editorial opcional, específica del comportamiento del feed de Shorts**.
+
+---
+
+### Véase también (definiciones canónicas)
+Las siguientes materias se mencionan aquí porque aplican a Shorts, pero su desarrollo normativo y su gobernanza viven en su ubicación canónica:
+
+| Tema | Ubicación canónica | Qué regula |
+| :--- | :--- | :--- |
+| Arquetipo del Arco en Bucle (Looped Arc) | `roles/03` §2 | Estructura narrativa general (no exclusiva de Shorts) |
+| Ganchos en Bucle Abierto | `roles/03` §3 | Herramienta opcional condicionada al formato |
+| Transposición Cross-Niche | `roles/01` §4 | Metodología de investigación e ideación |
+| Enfoque Ágil en Primeras Subidas | `roles/01` §5 / Producción general | Experimentación en canales nuevos |
+| Cadencia Sostenible | `05-metricas-retencion.md` §3 / Producción general | Ritmo sostenible vs. picos virales |
+| Diagnóstico antes de Re-subir | `05-metricas-retencion.md` §7 | Protocolo de diagnóstico y republicación |
+| Edición de Valor Añadido | `roles/03` §1 | Gobernanza editorial y originalidad |
+| Heurísticas vs. Reglas Estrictas | `roles/02` §5-6 | Packaging y miniaturas |
+
+> **Ancla preservada:** `AGENTS.md` **§04.7: Heurísticas vs. Reglas Estrictas** — esta línea existe para que las referencias externas (`banco-de-titulos.md`) sigan resolviendo. La definición normativa vive en `roles/02` §5-6.
 
 ---
 
