@@ -9,11 +9,11 @@
 
 ## 1. Registro de Intervalos de Consulta (Datos Comparables)
 
-| Intervalo de Consulta | Fecha / Hora de Extracción | Impresiones Totales | CTR (%) | Tasa Deslizamiento (*Shorts: Viewed vs Swiped %*) | Vistas Totales | Retención a 30s (% *Long-form ≥60s, ≥100 vistas*) | Porcentaje Medio Visto (APV %) | Tiempo Visualización (Horas) | Suscriptores Netos (+ / -) |
+| Intervalo de Consulta | Fecha / Hora de Extracción | Impresiones Totales | CTR (%) | Tasa Deslizamiento (*Shorts: Viewed vs Swiped %*) | Vistas Totales | Retención a 30s (% *disponible y pertinente; Long-form ≥60s, ≥100 vistas*) | Porcentaje Medio Visto (APV %) | Tiempo Visualización (Horas) | Suscriptores Netos (+ / -) |
 | :--- | :--- | :--- | :--- | :---: | :--- | :--- | :--- | :--- | :--- |
-| **Primeras 24 Horas** | `DD/MM/AAAA` | | | *(N/A si Long-form)* | | *(solo Long-form ≥60s, ≥100 vistas)* | | | | |
-| **Día 7 (1ª Semana)** | `DD/MM/AAAA` | | | *(N/A si Long-form)* | | *(solo Long-form ≥60s, ≥100 vistas)* | | | | |
-| **Día 28 (1er Mes)** | `DD/MM/AAAA` | | | *(N/A si Long-form)* | | *(solo Long-form ≥60s, ≥100 vistas)* | | | | |
+| **Primeras 24 Horas** | `DD/MM/AAAA` | | | *(N/A si Long-form)* | | *(Long-form ≥60s, ≥100 vistas; Shorts: Viewed vs Swiped, AVD)* | | | | |
+| **Día 7 (1ª Semana)** | `DD/MM/AAAA` | | | *(N/A si Long-form)* | | *(Long-form ≥60s, ≥100 vistas; Shorts: Viewed vs Swiped, AVD)* | | | | |
+| **Día 28 (1er Mes)** | `DD/MM/AAAA` | | | *(N/A si Long-form)* | | *(Long-form ≥60s, ≥100 vistas; Shorts: Viewed vs Swiped, AVD)* | | | | |
 
 ---
 
@@ -91,6 +91,19 @@
 
 ---
 
+## 7. Protocolo de Re-empaque Post-publicación (Título) `[Práctica Editorial]`
+
+> Regla madre: **no quedarse con un título que no funciona**, pero tampoco cambiar a ciegas. Coherente con rol 02 §6: **nunca** tocar el título durante una prueba nativa activa (la reinicia).
+
+1. **Ventana de decisión temprana (primeras 24 h):** si **CTR e impresiones están ambos por debajo del promedio del canal**, hay algo en título/miniatura que no conecta → preparar re-empaque (título y/o miniatura).
+2. **Si están en el promedio: NO tocar todavía.** Esperar a pasar la ventana en que este canal suele ganar impulso (según el canal: 2 días, una semana o más). Si aún se desconoce: en YouTube Studio, revisar el rango gris de "Típico en este periodo" y buscar cambios de pendiente para estimar la propia ventana.
+3. **El efecto de un cambio puede tardar:** un título nuevo puede tardar una semana o más en mostrar impacto; esperar la evidencia antes de volver a tocar.
+4. **Registrar cada re-empaque en la tabla** y promover las estructuras ganadoras/perdedoras al `banco-de-titulos.md` del canal (con el dato que las respalde).
+
+| Fecha del cambio | Título viejo ➜ nuevo | Motivo (dato observado) | Efecto medido (CTR/impresiones antes ➜ después) |
+| :-- | :-- | :-- | :-- |
+| | | | |
+
 ## 8. Protocolo de Diagnóstico y Republicación de Video `[Práctica Editorial]`
 
 > **Origen:** revisión externa 5 (ronda de pulido 2). Distingue **re-empaquetado** (cambiar título/miniatura, §7) de **republicación** (volver a subir el archivo de video con mejoras). Son decisiones distintas que requieren diagnósticos distintos.
@@ -116,19 +129,6 @@
 **Regla:** **no republicar archivos idénticos**. YouTube puede confundir a la audiencia y al algoritmo. La republicación solo procede con mejora verificable en el archivo.
 
 ---
-
-## 7. Protocolo de Re-empaque Post-publicación (Título) `[Práctica Editorial]`
-
-> Regla madre: **no quedarse con un título que no funciona**, pero tampoco cambiar a ciegas. Coherente con rol 02 §6: **nunca** tocar el título durante una prueba nativa activa (la reinicia).
-
-1. **Ventana de decisión temprana (primeras 24 h):** si **CTR e impresiones están ambos por debajo del promedio del canal**, hay algo en título/miniatura que no conecta → preparar re-empaque (título y/o miniatura).
-2. **Si están en el promedio: NO tocar todavía.** Esperar a pasar la ventana en que este canal suele ganar impulso (según el canal: 2 días, una semana o más). Si aún se desconoce: en YouTube Studio, revisar el rango gris de "Típico en este periodo" y buscar cambios de pendiente para estimar la propia ventana.
-3. **El efecto de un cambio puede tardar:** un título nuevo puede tardar una semana o más en mostrar impacto; esperar la evidencia antes de volver a tocar.
-4. **Registrar cada re-empaque en la tabla** y promover las estructuras ganadoras/perdedoras al `banco-de-titulos.md` del canal (con el dato que las respalde).
-
-| Fecha del cambio | Título viejo ➜ nuevo | Motivo (dato observado) | Efecto medido (CTR/impresiones antes ➜ después) |
-| :-- | :-- | :-- | :-- |
-| | | | |
 
 ### 7.2 Tabla de Interpretación Prudente (Evitar Decisiones Precipitadas) `[Hipótesis Editorial]`
 

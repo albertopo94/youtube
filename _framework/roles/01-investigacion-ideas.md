@@ -226,7 +226,7 @@ Para videos que aborden papers científicos, divulgación tecnológica, historia
 
 ---
 
-## 6. Experimentación Ágil en Primeras Publicaciones `[Protocolo Canónico]`
+## 7. Protocolo de Experimentación Ágil en Primeras Publicaciones `[Protocolo Canónico]`
 
 > **Origen:** extraído de la revisión externa 5 (ronda de pulido 2) y consolidado aquí como definición canónica. Remitida desde `AGENTS.md` §04.7 → «Véase también: Enfoque Ágil en Primeras Subidas».
 
@@ -236,7 +236,7 @@ Para videos que aborden papers científicos, divulgación tecnológica, historia
 1. **Cadencia de aprendizaje:** publicar con la mayor frecuencia sostenible que permita mantener un estándar mínimo de calidad (no "basura", pero tampoco "perfección paralizante").
 2. **Hipótesis por video:** cada publicación prueba una hipótesis concreta (tema, ángulo, packaging, duración, estructura). Registrar la hipótesis en `01-packaging.md` o `02-guion.md` antes de producir.
 3. **Feedback loop obligatorio:** tras cada publicación, registrar en `05-metricas-retencion.md` qué hipótesis se validó/invalidó y **una mejora concreta** para la siguiente publicación (ver `05-metricas-retencion.md` §5 — Mejora Única Nombrada).
-3. **Criterio de parada de la fase ágil:** cuando el canal tenga **datos suficientes para identificar patrones** (mínimo 5–10 videos con métricas estables), pasar a una estrategia basada en evidencia en lugar de experimentación pura.
+4. **Criterio de parada de la fase ágil:** cuando el canal tenga **datos suficientes para identificar patrones** (mínimo 5–10 videos con métricas estables), pasar a una estrategia basada en evidencia en lugar de experimentación pura. **Este umbral es una orientación editorial, no una cantidad científicamente validada.**
 
 **Límites:** no es "subir cualquier cosa". El estándar mínimo es que el video cumpla la **Puerta de Congruencia** (rol 03 §1) y la **Puerta de Correspondencia del Arranque** (rol 03 §1). La agilidad es en la **frecuencia y variedad de hipótesis**, no en bajar el estándar editorial.
 
@@ -244,7 +244,7 @@ Para videos que aborden papers científicos, divulgación tecnológica, historia
 
 ---
 
-## 7. Maduración de Ideas: De la Variedad a la Decisión Estratégica
+## 8. Maduración de Ideas: De la Variedad a la Decisión Estratégica
 Tener un banco amplio de ideas en `ideas.md` (papers, noticias satíricas, cócteles, lore, relax/dormir) es valioso como semillero, pero **cada canal exige una estrategia, público y métricas distintas**:
 - Un canal de divulgación científica exige rigor, gráficos claros y credibilidad.
 - Un canal pausado para dormir exige diseño sonoro inmersivo y duraciones extendidas.
@@ -252,7 +252,7 @@ Tener un banco amplio de ideas en `ideas.md` (papers, noticias satíricas, cóct
 
 ---
 
-## 8. Estrategia Lingüística como Hipótesis de Mercado
+## 9. Estrategia Lingüística como Hipótesis de Mercado
 La tabla de mercados de `_framework/estrategia-idiomas.md` (Español, Inglés, Hindi) debe tratarse como una **herramienta para formular hipótesis**, no como un ranking definitivo obligatorio:
 - Un mercado de cientos de millones de hablantes solo es una oportunidad real si somos capaces de producir contenido con la calidad cultural, idiomática y diferenciación requerida para competir en ese nicho.
 

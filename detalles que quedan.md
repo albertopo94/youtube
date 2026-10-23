@@ -1,34 +1,64 @@
-Aún quedan tres problemas concretos. No son motivos para revertir los últimos commits, pero sí para evitar dar la revisión por cerrada.
-1. Dos referencias que siguen sin apuntar a una definición canónica real
-A. «Enfoque Ágil en Primeras Subidas»
+He revisado el último commit, 7b9384f, y los documentos afectados. Has avanzado bastante: las tres soluciones están desarrolladas, pero dos referencias siguen desactualizadas y hay algunos detalles importantes que corregir. No cerraría todavía la revisión.
+1. Experimentación ágil: el protocolo está bien encaminado
+Definición creada
+En roles/01-investigacion-ideas.md, §6 ya existe un protocolo propio. Incluye frecuencia sostenible, hipótesis por publicación, retroalimentación y criterios para pasar a una estrategia más basada en evidencia.
 
-En AGENTS.md, §04.7, línea 149 se apunta a roles/01 §5 (Metodología). Sin embargo, ese apartado trata sobre cómo encontrar ideas de vídeo, sus temas y formatos; no define un protocolo de experimentación ágil para las primeras publicaciones de un canal.
+El problema es que AGENTS.md, §04.7 sigue remitiendo a roles/01 §5, que ya no es la ubicación correcta.
 
-Corrección: definir ese principio en una ubicación central real y referenciarla, o eliminar la fila si has decidido descartar el principio.
+Qué falta: cambiar esa referencia a roles/01 §6. También corregir un detalle de numeración: en el protocolo aparecen dos pasos numerados como 3..
 
+Una precisión adicional: el umbral de 5–10 vídeos para pasar de la experimentación a otra fase debería quedar explícitamente como orientación editorial, no como una cantidad científicamente validada.
+2. Diagnóstico y republicación: ya tiene definición propia, pero requiere pulido
+Protocolo creado
+En 05-metricas-retencion.md has separado correctamente dos decisiones diferentes:
+- Reempaquetar: modificar el título o la miniatura.
+- Republicar: volver a subir el vídeo después de corregir un problema real de la pieza.
+Eso mejora la estructura. Sin embargo, detecto tres cuestiones:
 
-B. «Diagnóstico y Republicación»
+Primera: la referencia de AGENTS.md sigue apuntando a §7. La fila debe referenciar el nuevo protocolo de republicación, §8, y distinguirlo del reempaquetado.
 
-En AGENTS.md, línea 151 se remite a 05-metricas-retencion.md §7. Pero esa sección se titula Protocolo de Re-empaque Post-publicación (Título): trata de cambiar el título o la miniatura, no de decidir si conviene volver a subir el archivo de vídeo.
+Segunda: las secciones aparecen fuera de orden. El nuevo §8 está colocado antes del §7. Conviene moverlo después del protocolo de reempaquetado y de su subsección 7.2, de modo que el documento avance de forma natural.
 
-Corrección: si solo quieres regular los cambios de título y miniatura, renombra la materia para que diga eso. Si también quieres mantener un protocolo para volver a publicar un vídeo, necesita una definición propia que no se confunda con el reempaquetado.
-
-
-2. La restricción de retención a 30 segundos es demasiado categórica
-En roles/03, §1 y en 05-metricas-retencion.md, §1 la retención a 30 segundos queda presentada como un indicador exclusivo del formato largo.
-
-La documentación oficial de YouTube describe la retención a nivel de vídeo y dice que los momentos clave solo se destacan si el vídeo dura al menos 60 segundos y tiene 100 visualizaciones. No establece esa exclusividad con el formato largo. Además, los Shorts tienen métricas propias como How many chose to view, pero YouTube también documenta su duración media de visualización y porcentaje medio visto. 
+Tercera: hay una afirmación que no dejaría así. El texto dice «YouTube penaliza archivos idénticos» y exige un hash distinto. No he encontrado respaldo oficial suficiente para afirmar que YouTube aplique una penalización algorítmica automática por volver a subir un archivo idéntico del propio creador. La política oficial sobre contenido repetitivo o reutilizado trata de originalidad, valor añadido y monetización; no demuestra esa regla específica de penalización. 
 
 Ayuda de YouTube
-+2
++1
 
 
 
 
-Corrección: no elimines la distinción entre formatos; elimina la prohibición categórica. Registra la retención a 30 segundos cuando esté disponible y sea pertinente, sin extrapolar mecánicamente los puntos de referencia de vídeos largos a Shorts.
-Entonces, ¿cómo queda el repositorio?
-Lo comprobado sí ha mejorado: la definición actual de Shorts es mucho más precisa, el arco en bucle ya no se presenta como una técnica exclusiva de vídeos cortos y las dos copias de las plantillas de guion y métricas están sincronizadas.
+Mi recomendación es mantener la regla editorial de no republicar una copia idéntica solo porque rindió mal, pero retirar la afirmación de penalización automática y el hash como prueba de mejora real. Un hash diferente no demuestra que el contenido haya mejorado de forma sustancial.
 
-El límite es que el verificador check-contrato.sh comprueba contratos operativos de los vídeos, no que cada referencia documental apunte a un principio realmente definido allí. Por eso una comprobación técnica puede pasar sin detectar los dos problemas semánticos anteriores.
+Además, el bajo rendimiento no debería bastar por sí solo para justificar una republicación: la decisión debe basarse principalmente en un defecto identificable y corregible.
+3. Retención a 30 segundos: corrección parcial, todavía inconsistente
+En roles/03-guion-y-narrativa.md, §3 la redacción ahora distingue entre la retención temprana y las métricas específicas de Shorts. Ese matiz es positivo.
 
-Mi veredicto: el repositorio está más sólido, pero todavía no lo declararía perfecto ni cerraría completamente esta ronda. Corregiría esos tres puntos y después haría una revisión final de referencias cruzadas y coherencia entre las reglas generales, los roles y las plantillas. Eso permitiría cerrar esta ronda con bastante más confianza, sin confundir una revisión satisfactoria con una garantía absoluta.
+Pero en la plantilla de métricas el cambio no está completo:
+Ubicación	Estado actual
+05-metricas-retencion.md, §1	La columna todavía dice Long-form ≥60s, ≥100 vistas.
+Filas de registro	Todavía indican que el dato solo se registra para Long-form y que es N/A para Shorts.
+Plantilla de vídeos publicados	Sigue usando una columna genérica de retención a 30 segundos sin aclarar su disponibilidad ni incluir una columna específica para las métricas de Shorts.
+La documentación de YouTube establece que los momentos destacados del informe de retención requieren vídeos de al menos 60 segundos y 100 visualizaciones, mientras que las métricas de Shorts incluyen Stayed to watch, duración media y porcentaje medio visto. Eso no justifica convertir automáticamente cualquier medición de retención a 30 segundos en N/A por el simple hecho de que el vídeo sea un Short. 
+
+Ayuda de YouTube
++1
+
+
+
+
+Qué falta: dejar la retención a 30 segundos condicionada a que el dato esté disponible y sea pertinente, sin excluirla automáticamente por formato. La plantilla debe registrar además las métricas de Shorts que sí estén disponibles.
+
+Veredicto
+Resuelto en lo esencial
+
+El protocolo de experimentación ya tiene su propio apartado; la republicación ya se distingue del reempaquetado; y el rol narrativo matiza la interpretación de la retención según el formato.
+
+
+
+Pendiente de corregir
+
+Actualizar las dos referencias de AGENTS.md, ordenar las secciones 7 y 8, retirar la afirmación no fundamentada sobre penalizaciones por archivos idénticos y terminar de ajustar las plantillas de métricas.
+
+
+
+No revertiría tus cambios: el último commit mejora el repositorio. Pero todavía no consideraría cerrada esta ronda. Una vez corregidos estos detalles, tendría sentido realizar una revisión final de coherencia entre los documentos canónicos, sus referencias y todas las plantillas. He hecho esta revisión en solo lectura; no he modificado nada en GitHub.
