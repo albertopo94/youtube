@@ -47,10 +47,10 @@
 ### [B01_Dilema_BucleAbierto] — Tensión Inicial y Pregunta Irresistible
 - **Tiempo estimado (Ejemplo):** `00:00 - 00:15` (~15s)
 - **Objetivo narrativo:** Plantear el síntoma universal, el dolor o la paradoja en bucle abierto.  
-  *(❌ LINTER ANTI-SPOILER: Terminantemente prohibido nombrar el mecanismo biológico/técnico central o dar la solución aquí).*
+  *(Anti-spoiler **condicionado**, ver `roles/03` §3: solo se aplica cuando el descubrimiento forma parte de la experiencia. En tutorial, explicación directa o respuesta de búsqueda, la solución se entrega pronto y la tensión se construye sobre el **cómo**, el **por qué** o la **aplicación** — ese caso usa un bloque de respuesta directa, no este).*
 - **Locución literal (Texto para voz):**
   > *"..."*
-- **Visual sugerido (para Animatic):** Imagen o plano de máxima tensión cognitiva (sin desvelar el desenlace).
+- **Visual sugerido (para Animatic):** Imagen o plano de máxima tensión cognitiva (sin desvelar el desenlace, cuando aplica).
 
 ---
 
@@ -72,12 +72,14 @@
 
 ---
 
-### [B04_La_Revelacion_del_Mecanismo] — El Hallazgo Oculto
+### [B04_La_Revelacion_del_Mecanismo] — El Hallazgo Oculto (solo cuando el descubrimiento es parte de la experiencia)
 - **Tiempo estimado (Ejemplo):** `01:20 - 02:40` (~80s)
-- **Objetivo narrativo:** Revelar por primera vez el **Mecanismo Desconocido** (*Unfamiliar Mechanism* de Eugene Schwartz) que explica la verdad detrás del enigma.
+- **Objetivo narrativo:** Revelar por primera vez el **Mecanismo Desconocido** (*Unfamiliar Mechanism* de Eugene Schwartz) que explica la verdad detrás del enigma.  
+  ⚠️ **Este bloque es del esqueleto de misterio:** se usa cuando el Modo de Progresión del encabezado es *"el descubrimiento es parte de la experiencia"*.  
+  **En los demás modos (tutorial, explicación directa, respuesta de búsqueda) B04 no es una revelación: es la demostración, la aplicación, el procedimiento o el desarrollo de la respuesta.** El agente elige la forma según el formato y la plantilla no le obliga a revelar algo que no deba revelarse.
 - **Locución literal (Texto para voz):**
   > *"..."*
-- **Visual sugerido (para Animatic):** Diagrama animado o visualización conceptual del mecanismo.
+- **Visual sugerido (para Animatic):** Diagrama animado o visualización conceptual del mecanismo (cuando aplica).
 
 ---
 

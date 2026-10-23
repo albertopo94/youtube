@@ -75,3 +75,42 @@
 
 ### P5. La "mejora única" sugería una atribución causal más fuerte que los datos
 ✅ **RESUELTO.** Se reemplaza la justificación causal ("varias a la vez impiden saber cuál funcionó") por la razón real: **priorizar una para mantener el foco del siguiente ciclo**. Se añade advertencia explícita de que no es un experimento controlado —entre videos varían tema, público y fuentes de tráfico— y de que la atribución causal exige comparaciones comparables; si los datos no la soportan, se describe la observación sin afirmar la causa.
+
+---
+
+## Ronda de pulido 2 (A–C) — `revision-externa-5-originales-opinion-2026-10-22.md` + `revision-externa-5-originales-comprobacion-2026-10-22.md`
+
+*Segunda vuelta del primer amigo: veredicto sobre el arco en bucle y la comprobación completa de AGENTS.md §04.7. Ambos documentos archivados verbatim.*
+
+### A. El arco en bucle: de "técnica de Shorts" a "arquetipo narrativo general"
+✅ **RESUELTO (documental y semántico).** El amigo reformula el problema correctamente: no es que el arco *naciera* para Shorts, sino que se *documentó dentro de la sección de Shorts* mientras el rol 03 lo presenta como arquetipo opcional para cortos/medianos. Se elimina la ambigüedad: el arco es una estructura narrativa **general, aplicable a cualquier duración** cuando la incertidumbre, las dificultades y la resolución contribuyen a sostener el interés. **No es obligatorio para todos los videos**: un tutorial, una explicación cuya respuesta debe darse pronto o una pieza contemplativa que no necesite conflicto no lo usan. En un video largo puede ser el arco principal o repetirse como subestructura.
+
+### B. El gancho en bucle abierto: contradicción viva entre AGENTS.md y rol 03
+✅ **RESUELTO (parche aplicado).** El amigo tiene razón: en `AGENTS.md` §04.7 la frase *"pregunta o enigma que solo se cierre al final"* es **la misma instrucción absoluta que desarmamos en v0.5.1 (P2) en el rol 03**. No basta con que la versión correcta exista en el rol si el contrato global contiene la antigua. **Corregido en AGENTS.md §04.7** — ver ronda de pulido 2 en el análisis (sección 2.B). ⚠️ **Deuda abierta:** la reorganización completa de §04.7 (paso 2 del amigo) no se ha ejecutado; la sección sigue mezclando técnicas narrativas, ideación, publicación y monetización.
+
+### C. La plantilla de guion: B01 y B04 forzaban el esqueleto de misterio
+✅ **RESUELTO (parche aplicado).** El hallazgo del amigo era real y **no lo había detectado** en v0.5.1: el encabezado de `02-guion.md` ya ofrecía el *Modo de Progresión* condicionado, pero los bloques de ejemplo **seguían imponiendo** la prohibición absoluta en B01 (*"Terminantemente prohibido nombrar el mecanismo..."*) y presuponiendo revelación a mitad en B04 (*"Revelar por primera vez el Mecanismo Desconocido"*). Un agente que elija "la respuesta temprana es el valor" se encontraba con una plantilla que le obligaba al esqueleto de misterio. **Corregido:** B01 ahora dice que el anti-spoiler se aplica **solo cuando el descubrimiento es parte de la experiencia**, y en los demás modos la tensión se construye sobre el cómo/por qué/aplicación; B04 se reetiqueta *"solo cuando el descubrimiento es parte de la experiencia"* y declara explícitamente que en los otros modos es **demostración, aplicación, procedimiento o desarrollo de la respuesta**. Ambas copias sincronizadas y verificadas con `diff`.
+
+### D. Auditoría de AGENTS.md §04.7 (comprobación completa)
+⚪ **PARCIALMENTE RESUELTO.** El amigo audita las 9 viñetas y clasifica cada una. Su conclusión: la sección **mezcla técnicas narrativas, investigación de ideas, estrategia de publicación y políticas de monetización** — el problema es más amplio que el arco en bucle. Su propuesta de reorganización (sección 3 del análisis): no repartir literalmente las viñetas entre más archivos, sino establecer una **ubicación de referencia para cada tipo de decisión** — AGENTS.md conserva solo lo que es **realmente propio de Shorts** y no está desarrollado canónicamente en otro documento; la transposición cross-niche centraliza en rol 01 §4 (donde ya está); el arco y los ganchos en bucle van al rol 03; las heurísticas-vs-reglas al rol 02. **Paso 2 pendiente** con un mapa completo de referencias cruzadas antes de mover una coma (decisión del creador, pendiente).
+
+---
+
+### E. AGENTS.md §04.7 reorganizada (bugs + referencias canónicas)
+✅ **RESUELTO (en esta pasada).** Todos los bugs y desviaciones de la auditoría:
+
+- **Arco en bucle:** reescrito como arquetipo narrativo **general** (no exclusivo de Shorts), con definición canónica en `roles/03` §2 y referencia cruzada.
+- **Ganchos en bucle abierto:** contradicción absoluta (*"solo se cierre al final"*) eliminada; ahora coincide con rol 03 §3: opcional, condicionado al formato, sin obligar a retrasar respuestas en tutoriales/búsqueda.
+- **Transposición Cross-Niche:** referenciada a `roles/01` §4 (donde ya está desarrollada); aquí solo recordatorio de que aplica a Shorts.
+- **Enfoque Ágil / Cadencia / Diagnóstico / Valor Añadido / Heurísticas vs Reglas:** reescritos como principios generales con referencias a sus ubicaciones canónicas (`roles/01`, `roles/02` §5-6, `roles/03` §1, `05-metricas-retencion.md`, `05-metricas-retencion.md` §5, `05-metricas-retencion.md` §7). Solo queda en Shorts lo que es realmente específico: **Filtro de Relatibilidad** y la **observación opcional de picos virales**.
+
+**Referencias cruzadas canónicas en la sección:**
+- `roles/01` §4 (Transposición Cross-Niche)
+- `roles/02` §5-6 (Heurísticas vs Reglas — packaging)
+- `roles/03` §1 (Gobernanza editorial / originalidad)
+- `roles/03` §2 (Arco en Bucle)
+- `roles/03` §3 (Ganchos en Bucle Abierto / Anti-spoiler condicionado)
+- `05-metricas-retencion.md` §5 (Mejora única / DoD)
+- `05-metricas-retencion.md` §7 (Diagnóstico y republicación)
+
+**Estado de la reorganización:** el contenido que no era específicamente de Shorts se ha reescrito **in situ** con referencias a las definiciones canónicas, sin mover viñetas entre archivos (preservando la referencia `§04.7` que usan dos `banco-de-titulos.md`). Si en el futuro se hace una reorganización física, la referencia `§04.7: Heurísticas vs Reglas Estrictas` seguirá resolviendo porque el rótulo se mantiene.
