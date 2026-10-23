@@ -226,6 +226,24 @@ Para videos que aborden papers científicos, divulgación tecnológica, historia
 
 ---
 
+## 6. Experimentación Ágil en Primeras Publicaciones `[Protocolo Canónico]`
+
+> **Origen:** extraído de la revisión externa 5 (ronda de pulido 2) y consolidado aquí como definición canónica. Remitida desde `AGENTS.md` §04.7 → «Véase también: Enfoque Ágil en Primeras Subidas».
+
+**Principio:** en las primeras publicaciones de un canal (cualquier formato), prioriza la **agilidad y el aprendizaje práctico** sobre la perfección técnica. El objetivo es acumular **reps reales** (reps = repeticiones = publicaciones) para observar qué temáticas, formatos y empaques generan tracción real.
+
+**Protocolo:**
+1. **Cadencia de aprendizaje:** publicar con la mayor frecuencia sostenible que permita mantener un estándar mínimo de calidad (no "basura", pero tampoco "perfección paralizante").
+2. **Hipótesis por video:** cada publicación prueba una hipótesis concreta (tema, ángulo, packaging, duración, estructura). Registrar la hipótesis en `01-packaging.md` o `02-guion.md` antes de producir.
+3. **Feedback loop obligatorio:** tras cada publicación, registrar en `05-metricas-retencion.md` qué hipótesis se validó/invalidó y **una mejora concreta** para la siguiente publicación (ver `05-metricas-retencion.md` §5 — Mejora Única Nombrada).
+3. **Criterio de parada de la fase ágil:** cuando el canal tenga **datos suficientes para identificar patrones** (mínimo 5–10 videos con métricas estables), pasar a una estrategia basada en evidencia en lugar de experimentación pura.
+
+**Límites:** no es "subir cualquier cosa". El estándar mínimo es que el video cumpla la **Puerta de Congruencia** (rol 03 §1) y la **Puerta de Correspondencia del Arranque** (rol 03 §1). La agilidad es en la **frecuencia y variedad de hipótesis**, no en bajar el estándar editorial.
+
+**Cuándo NO aplica:** canales ya consolidados con patrones probados; videos de alto presupuesto/riesgo donde el coste de error no permite experimentación.
+
+---
+
 ## 7. Maduración de Ideas: De la Variedad a la Decisión Estratégica
 Tener un banco amplio de ideas en `ideas.md` (papers, noticias satíricas, cócteles, lore, relax/dormir) es valioso como semillero, pero **cada canal exige una estrategia, público y métricas distintas**:
 - Un canal de divulgación científica exige rigor, gráficos claros y credibilidad.

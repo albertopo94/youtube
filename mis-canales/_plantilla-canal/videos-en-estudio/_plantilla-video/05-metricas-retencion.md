@@ -87,6 +87,36 @@
 
 ---
 
+**Regla de no precipitación:** YouTube aconseja evitar decisiones con datos insuficientes y cambios por pequeñas variaciones del CTR. Un título nuevo puede tardar una semana o más en mostrar impacto; esperar la evidencia antes de volver a tocar.
+
+---
+
+## 8. Protocolo de Diagnóstico y Republicación de Video `[Práctica Editorial]`
+
+> **Origen:** revisión externa 5 (ronda de pulido 2). Distingue **re-empaquetado** (cambiar título/miniatura, §7) de **republicación** (volver a subir el archivo de video con mejoras). Son decisiones distintas que requieren diagnósticos distintos.
+
+**Cuándo considerar republicar (no solo re-empaquetar):**
+- El video tiene un rendimiento **inesperadamente bajo** en todas las métricas (CTR, retención, CTR de búsqueda) tras haber agotado la ventana de re-empaquetado (§7).
+- El diagnóstico identifica una **causa corregible en el archivo** (ej. error factual, audio desincronizado, pacing insalvable, metadata corrupta) que no se soluciona cambiando título/miniatura.
+- **NO republicar** por bajo rendimiento si la causa es la idea, el packaging o el tema: ahí la acción es mejorar el siguiente video (ver §5).
+
+**Protocolo de diagnóstico antes de republicar:**
+1. **Diagnóstico de causa raíz:** registrar en `06-fuentes-y-verificacion.md` qué falló en el archivo original (error factual, técnico, editorial).
+2. **Mejora verificable:** el archivo a republicar debe incorporar una **corrección concreta y verificable** (no "mejorar la calidad" genérico).
+3. **Registro de republicación:** en la tabla de abajo, registrar versión original vs. republicada, motivo, y qué métrica se espera mover.
+4. **Publicación limpia:** la republicación **no es un re-subida idéntica**. YouTube penaliza archivos idénticos. El archivo debe tener cambios verificables (hash distinto).
+5. **Seguimiento:** comparar métricas de la versión original vs. republicada a 7 y 28 días.
+
+**Registro de Republicaciones:**
+
+| Fecha | Video original (ID/URL) | Motivo (causa raíz) | Mejora aplicada | Métrica objetivo | Resultado a 7d / 28d |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| | | | | | |
+
+**Regla:** **no republicar archivos idénticos**. YouTube puede confundir a la audiencia y al algoritmo. La republicación solo procede con mejora verificable en el archivo.
+
+---
+
 ## 7. Protocolo de Re-empaque Post-publicación (Título) `[Práctica Editorial]`
 
 > Regla madre: **no quedarse con un título que no funciona**, pero tampoco cambiar a ciegas. Coherente con rol 02 §6: **nunca** tocar el título durante una prueba nativa activa (la reinicia).

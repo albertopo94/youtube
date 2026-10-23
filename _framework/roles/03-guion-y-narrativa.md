@@ -118,9 +118,9 @@ Para videos largos que lo necesiten, se puede planificar **un punto de reactivac
 
 ---
 
-## 3. Ganchos y Apertura (Los Primeros 5 a 30 Segundos)
+## 3. Ganchos y Apertura (Los Primeros 5 a 30 Segundos según Formato)
 
-El objetivo de la apertura es alinear de inmediato las expectativas del espectador con lo prometido en el título y la miniatura, protegiendo la métrica clave de **retención a los 30 segundos**.
+El objetivo de la apertura es alinear de inmediato las expectativas del espectador con lo prometido en el título y la miniatura, **protegiendo la retención temprana según el formato**: en formatos dinámicos y tutoriales se valida en los primeros 5–10 segundos; en ensayos y documentales en los primeros 15–30 segundos; en Shorts desde el segundo cero. **No existe una métrica universal de "retención a los 30 segundos" aplicable a todos los formatos**: YouTube documenta que los momentos clave de retención requieren ≥60s y ≥100 vistas (long-form); Shorts reportan métricas propias (Viewed vs Swiped, duración media, % medio visto). La apertura debe validar la promesa en la ventana que corresponda al formato.
 
 ### ❌ Linter Narrativo Anti-Spoiler — **Condicionado por Formato** (no es una prohibición universal)
 
