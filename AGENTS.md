@@ -26,7 +26,7 @@ Tanto si un agente ingresa al repositorio por primera vez como si retoma el trab
 ### Al Finalizar o Pausar la Sesión:
 1. **Registrar Entregables y Estado:** Actualizar `00-estado-produccion.md` con:
    - Entregables completados y verificados físicamente.
-   - Estado normalizado (`NO_INICIADO`, `EN_CURSO`, `BLOQUEADO`, `PENDIENTE_APROBACION`, `APROBADO`).
+   - Estado normalizado (`NO_INICIADO`, `EN_CURSO`, `BLOQUEADO`, `PENDIENTE_APROBACION`, `APROBADO`, `PUBLICADO`). `PUBLICADO` es el estado terminal tras publicar y archivar el video.
    - Bloqueos detectados o decisiones pendientes de validación.
    - Siguiente acción exacta que debe ejecutar el próximo agente.
 2. Si se alcanzó un hito creativo, cambiar el estado a `PENDIENTE_APROBACION` y presentar la solicitud al creador.
@@ -156,7 +156,7 @@ Las siguientes materias se mencionan aquí porque aplican a Shorts, pero su desa
 | Edición de Valor Añadido | `roles/03` §1 | Gobernanza editorial y originalidad |
 | Heurísticas vs. Reglas Estrictas | `roles/02` §5-6 | Packaging y miniaturas |
 
-> **Ancla preservada:** `AGENTS.md` **§04.7: Heurísticas vs. Reglas Estrictas** — esta línea existe para que las referencias externas (`banco-de-titulos.md`) sigan resolviendo. La definición normativa vive en `roles/02` §5-6.
+> **Referencia canónica:** la definición normativa de *Heurísticas vs. Reglas Estrictas* vive en `_framework/roles/02-packaging-miniaturas.md` §§5–6. Las plantillas de `banco-de-titulos.md` enlazan directamente a esa ubicación.
 
 ---
 
@@ -184,7 +184,7 @@ Para que una fase se considere `APROBADO`, debe existir evidencia física demost
   - *Regla de Pacing Visual:* **Perfil predeterminado: ningún plano o imagen fija queda congelado más de 5 segundos** sin un cambio visual (corte a nuevo plano, detalle B-roll, punch-in de escala 100%-105% o aparición escalonada de elementos gráficos). Es una **referencia editorial predeterminada, no una ley universal**: puede extenderse con **propósito creativo escrito** cuando el género y la intención de la escena lo justifiquen (ambient, ensayos contemplativos, explicaciones lentas). La regla operativa y sus excepciones viven en `03-storyboard-y-edicion.md` §4; este contrato no debe fijar un umbral distinto.
   - *Arquitectura de Audio (perfil predeterminado, con excepciones justificadas):* Se distinguen tres niveles, para no obligar a introducir pistas que no aportan valor al formato:
     1. **Requisito del resultado (siempre):** narración inteligible y bien nivelada, ausencia de saturación y de cortes de audio, y que el balance se **mida y escuche** sobre el master real.
-    2. **Perfil de mezcla predeterminado (para videos que sí lo necesitan):** voz normalizada a −23 LUFS en A1, música con *ducking* (≈ −18 dB bajo la voz, −12 dB en pausas) en A2 y SFX de acento en A3.
+    2. **Perfil de mezcla predeterminado (adaptable al formato):** definir voz, música y SFX solo cuando aporten al video; proteger la inteligibilidad y el balance. El objetivo integrado de sonoridad y el límite de pico se establecen para el **master final** en su hoja de aceptación, no se imponen automáticamente a una pista aislada.
     3. **Excepción con justificación escrita:** formatos donde una pista no aporta valor o no corresponde al género (piezas ambientales o musicales, un documental que decide no llevar música, un screencast limpio). La excepción se registra en `03-storyboard-y-edicion.md`; no requiere música obligatoria, sí requiere el requisito del nivel 1.
     *Los valores y su carácter de perfil (no ley) se gobiernan desde `03-storyboard-y-edicion.md` §4.*
   - *Consistencia visual con libertad de contraste:* Aplica los 4 anclajes de estilo en los prompts como línea base, pero permite explícitamente rupturas estéticas voluntarias cuando el creador busque humor, parodia, sorpresa o excentricidad artística consciente.

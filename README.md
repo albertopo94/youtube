@@ -119,34 +119,27 @@ Para realizar pruebas experimentales, testear herramientas (como locuciones TTS 
 
 ```bash
 # 1. Desde la carpeta padre del proyecto (ej. /Users/.../Proyectos):
-#    ⚠️ rsync NO respeta .gitignore: solo copia lo que se excluye explícitamente.
-#    Sin las exclusiones de abajo, la copia se lleva .env, claves (.pem/.key),
-#    cachés y renders. Y luego el paso 2 invita a 'gh repo create' encima:
-#    el sandbox se convierte en un espejo de los secretos del maestro.
+#    ⚠️ rsync NO respeta .gitignore. Nunca copies el árbol completo con una
+#    lista corta de exclusiones: un secreto o medio nuevo puede quedar fuera.
 #
-#    Estrategia (verificada con dry-run en openrsync/macOS): excluir los
-#    SECRETOS por patrón y los MEDIOS por UBICACIÓN de carpeta. Se excluye por
-#    extensión global solo el video/audio pesado descartable, NUNCA imágenes:
-#    así sobreviven al sandbox el material de referencia (banner) y la
-#    evidencia legal (`licencias/`, `assets/licencias/` — capturas de términos,
-#    PDFs), que no son output descartable.
-rsync -av \
+#    Primero inspecciona la copia sin escribirla. La lista cubre credenciales
+#    frecuentes y todos los medios descartables definidos por este repositorio;
+#    aun así, revisa el resultado antes de ejecutar el comando real.
+rsync -avn --delete \
   --exclude='.git/' \
-  --exclude='.env' --exclude='.env.*' \
-  --exclude='*.pem' --exclude='*.key' --exclude='*.local' \
+  --exclude='.env' --exclude='.env.*' --exclude='.npmrc' \
+  --exclude='credentials.json' --exclude='*credential*' --exclude='*secret*' \
+  --exclude='*.pem' --exclude='*.key' --exclude='*.p12' --exclude='*.pfx' --exclude='*.local' \
   --exclude='.atl/' --exclude='.codegraph/' --exclude='.DS_Store' \
   --exclude='renders/' --exclude='exports/' \
   --exclude='audio/' --exclude='video/' --exclude='clips/' --exclude='thumbs/' \
-  --exclude='*.mp4' --exclude='*.mov' --exclude='*.avi' \
-  --exclude='*.mp3' --exclude='*.wav' \
+  --exclude='*.mp4' --exclude='*.mov' --exclude='*.avi' --exclude='*.mkv' --exclude='*.webm' --exclude='*.m4v' \
+  --exclude='*.mp3' --exclude='*.wav' --exclude='*.flac' --exclude='*.aac' \
   youtube/ youtube-prueba/
 
-# ⚠️ Límite conocido de esta estrategia: la exclusión por carpeta solo
-#    protege si los medios descartables viven en sus carpetas canónicas
-#    (`renders/ exports/ audio/ video/ clips/ thumbs/` — las que ya usa el
-#    pipeline). Un .mp4 suelto fuera de esas carpetas SÍ viaja al sandbox.
-#    Regla operativa: los descartables van SIEMPRE en su carpeta; si un
-#    experimento genera medios en otra ruta, agregala al comando antes de copiar.
+#    Si el dry-run no muestra secretos ni medios descartables, repetir el mismo
+#    comando sin -n para realizar la copia. No publiques el sandbox antes de
+#    revisar otra vez `git status` y los archivos que se van a incluir.
 
 # 2. (Opcional) Si deseas versionar los avances del sandbox en un repositorio privado independiente:
 cd youtube-prueba

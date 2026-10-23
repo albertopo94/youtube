@@ -107,8 +107,10 @@ La gente puede desear intensamente un resultado (dormir mejor, tener energía, g
 
 ### 2. El Canal como una Campaña Global Única (Peligro del *Off-Topic Hit*)
 - **"Tu video con más visitas puede ser el menos valioso de tu canal."**
-- Un éxito viral sobre un tema tangencial o superficial atrae a miles de suscriptores que ignorarán los siguientes videos. Esto destruye la métrica de satisfacción inter-video y provoca que el algoritmo deje de empujar tus publicaciones posteriores.
-- **Principio:** Un canal de YouTube es **una sola campaña coherente orientada a un espectador ideal recurrente**, no una colección de videos aislados que compiten por audiencias distintas.
+- Un éxito viral sobre un tema tangencial puede atraer espectadores que no vuelven para los siguientes videos. No es una penalización automática ni un daño irreversible por un solo experimento: YouTube evalúa la respuesta de cada audiencia a cada video. Sin embargo, publicar repetidamente contenido que no conecta con los espectadores recomendados puede debilitar el rendimiento del canal con el tiempo.
+- **Principio editorial:** Un canal coherente ayuda a servir mejor a un espectador ideal recurrente; experimentar es válido, pero se evalúa por la respuesta observable de la audiencia, no por una teoría determinista del algoritmo.
+
+**Fuente y límite:** YouTube Help, [Performance FAQ & Troubleshooting](https://support.google.com/youtube/answer/141805) y [Good to know about recommendations](https://support.google.com/youtube/answer/16559651). Esta regla guía la consistencia editorial; no predice ni garantiza recomendaciones.
 
 ### 3. El Peaje de la Especificidad (*The Specificity Trade-off*)
 - La especificidad siempre te cobra un peaje en alcance (*reach*): cuanto más técnico o específico sea el packaging, menos vistas brutas obtendrá.

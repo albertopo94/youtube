@@ -5,8 +5,9 @@
 # Qué comprueba (y por qué):
 #   1. Que existan los 7 archivos canónicos de un video en producción (00..06).
 #      Un agente que no los crea no puede declarar la fase APROBADO.
-#   2. Que los estados de producción usen solo valores permitidos.
-#      "COMPLETADO" o "HECHO" no son estados; son declaraciones sin evidencia.
+#   2. Que cada video declare un estado general exacto y permitido.
+#      "COMPLETADO" o "HECHO" no son estados; PUBLICADO es el estado terminal
+#      de un video archivado.
 #   3. Que los timecodes de 02-guion.md y 03-storyboard-y-edicion.md coincidan
 #      por ID de bloque. El guion y el storyboard describen el mismo video.
 #      Antes esta comprobación la hacía un agente leyendo; y un agente que no
@@ -55,14 +56,24 @@ done < <(find "$ROOT/mis-canales" "$ROOT/canales-en-estudio" -name '00-estado-pr
 # ---------------------------------------------------------------------------
 sec "2. Estados de producción válidos"
 # ---------------------------------------------------------------------------
+# El estado general es una sola declaración explícita. La tabla de fases puede
+# contener otros estados, por lo que no se infiere desde coincidencias parciales.
 while IFS= read -r estado; do
   rel=${estado#"$ROOT"/}
-  bad=$(grep -E '(Estado actual|Fase activa)' "$estado" | grep -vE 'NO_INICIADO|EN_CURSO|BLOQUEADO|PENDIENTE_APROBACION|APROBADO' | grep -vE '^\s*$' || true)
-  if [ -z "$bad" ]; then
-    pass "$rel — estado normalizado"
-  else
-    fail "$rel — estado no reconocido: $(echo "$bad" | head -1 | cut -c1-60)"
+  line=$(grep -E '^\*\*(Estado actual|Fase activa):\*\*[[:space:]]*`[^`]+`[[:space:]]*$' "$estado" | head -1 || true)
+  if [ -z "$line" ]; then
+    fail "$rel — falta un estado general con formato '**Estado actual:** `VALOR`'"
+    continue
   fi
+  value=$(printf '%s\n' "$line" | sed -E 's/^\*\*(Estado actual|Fase activa):\*\*[[:space:]]*`([^`]+)`[[:space:]]*$/\2/')
+  case "$value" in
+    NO_INICIADO|EN_CURSO|BLOQUEADO|PENDIENTE_APROBACION|APROBADO|PUBLICADO)
+      pass "$rel — estado normalizado ($value)"
+      ;;
+    *)
+      fail "$rel — estado no reconocido: $value"
+      ;;
+  esac
 done < <(find "$ROOT/mis-canales" "$ROOT/canales-en-estudio" -name '00-estado-produccion.md' -not -path '*/_plantilla*' 2>/dev/null || true)
 
 # ---------------------------------------------------------------------------

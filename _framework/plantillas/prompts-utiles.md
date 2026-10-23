@@ -50,7 +50,8 @@ Antes de redactar, consulta los parámetros de producción del video:
 - Formato / Género: [GÉNERO: Divulgación / Ensayo / Tutorial / Narrativa / Relax]
 - Fuentes primarias y hechos comprobados en 06-fuentes-y-verificacion.md: [FUENTES]
 - Duración estimada: [DURACIÓN_MINUTOS]
-- Régimen de Veracidad: [Régimen 1 Ficción / Régimen 2 Factual / Régimen 3 YMYL]
+- Formato/género: [Ficción / Relax-Ambient / Divulgación / Tutorial / Otro]
+- Riesgo factual: [Sin afirmaciones sobre la realidad / Afirmaciones verificables / Zona Roja YMYL]
 - CTA objetivo: [Siguiente paso más útil o video complementario]
 
 Instrucciones de Redacción:

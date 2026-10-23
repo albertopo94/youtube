@@ -1,6 +1,6 @@
 # Banco de Títulos de este Canal
 
-> ⚠️ **Norte, no camisa de fuerza** (AGENTS.md §04.7: *Heurísticas vs Reglas Estrictas*).
+> ⚠️ **Norte, no camisa de fuerza** (`_framework/roles/02-packaging-miniaturas.md` §§5–6: *Heurísticas vs. Reglas Estrictas*).
 > Este banco es un **norte**: lo que a ESTE canal y a ESTE espectador le ha funcionado.
 > No es una plantilla a rellenar, no es obligatorio usarlo, y ningún título se aprueba
 > por encajar aquí. El criterio final siempre es: el espectador al que va dirigido,

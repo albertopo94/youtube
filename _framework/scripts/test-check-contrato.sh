@@ -70,40 +70,64 @@ bash "$CHECKER" "$R" > /dev/null 2>&1
 [ $? -eq 1 ] && echo "  [OK]  f1 estado inválido -> exit 1" || { echo "  [ERR] f1 estado inválido -> ¡no exit 1!"; FAILS=$((FAILS+1)); }
 
 # ---------------------------------------------------------------------------
-# Fixture 2: bloque del guion AUSENTE del storyboard => exit 1
+# Fixture 2: PUBLICADO es un estado terminal válido => exit 0
 # ---------------------------------------------------------------------------
 R="$TMP/f2"; mkdir -p "$R"; make_valid_video "$R"
-sed -i '' '2d' "$R/mis-canales/canal-x/videos-en-estudio/01-video/03-storyboard-y-edicion.md"
+sed -i '' 's/`EN_CURSO`/`PUBLICADO`/' "$R/mis-canales/canal-x/videos-en-estudio/01-video/00-estado-produccion.md"
 bash "$CHECKER" "$R" > /dev/null 2>&1
-[ $? -eq 1 ] && echo "  [OK]  f2 bloque faltante en storyboard -> exit 1" || { echo "  [ERR] f2 bloque faltante en storyboard -> ¡no exit 1!"; FAILS=$((FAILS+1)); }
+[ $? -eq 0 ] && echo "  [OK]  f2 estado PUBLICADO -> exit 0" || { echo "  [ERR] f2 estado PUBLICADO -> ¡no exit 0!"; FAILS=$((FAILS+1)); }
 
 # ---------------------------------------------------------------------------
-# Fixture 3: timecodes inconsistentes entre guion y storyboard => exit 1
+# Fixture 3: estado general ausente => exit 1
 # ---------------------------------------------------------------------------
 R="$TMP/f3"; mkdir -p "$R"; make_valid_video "$R"
-sed -i '' 's|`00:15 - 01:00`|`00:15 - 01:30`|' "$R/mis-canales/canal-x/videos-en-estudio/01-video/03-storyboard-y-edicion.md"
+: > "$R/mis-canales/canal-x/videos-en-estudio/01-video/00-estado-produccion.md"
 bash "$CHECKER" "$R" > /dev/null 2>&1
-[ $? -eq 1 ] && echo "  [OK]  f3 timecodes inconsistentes -> exit 1" || { echo "  [ERR] f3 timecodes inconsistentes -> ¡no exit 1!"; FAILS=$((FAILS+1)); }
+[ $? -eq 1 ] && echo "  [OK]  f3 estado ausente -> exit 1" || { echo "  [ERR] f3 estado ausente -> ¡no exit 1!"; FAILS=$((FAILS+1)); }
 
 # ---------------------------------------------------------------------------
-# Fixture 4: 🟢 sin operación probada nombrada => exit 1
+# Fixture 4: estado con sufijo inválido => exit 1
 # ---------------------------------------------------------------------------
 R="$TMP/f4"; mkdir -p "$R"; make_valid_video "$R"
-sed -i '' 's/Operación real ejecutada y resultado inspeccionado\.//' "$R/_framework/herramientas-y-apis.md"
+sed -i '' 's/`EN_CURSO`/`EN_CURSO_INVALIDO`/' "$R/mis-canales/canal-x/videos-en-estudio/01-video/00-estado-produccion.md"
 bash "$CHECKER" "$R" > /dev/null 2>&1
-[ $? -eq 1 ] && echo "  [OK]  f4 🟢 sin operación -> exit 1" || { echo "  [ERR] f4 🟢 sin operación -> ¡no exit 1!"; FAILS=$((FAILS+1)); }
+[ $? -eq 1 ] && echo "  [OK]  f4 estado con sufijo inválido -> exit 1" || { echo "  [ERR] f4 estado con sufijo inválido -> ¡no exit 1!"; FAILS=$((FAILS+1)); }
 
 # ---------------------------------------------------------------------------
-# Fixture 5: 🟢 con texto que no dice PROBADA (la bug original de Luvvoice) => exit 1
+# Fixture 5: bloque del guion AUSENTE del storyboard => exit 1
 # ---------------------------------------------------------------------------
 R="$TMP/f5"; mkdir -p "$R"; make_valid_video "$R"
+sed -i '' '2d' "$R/mis-canales/canal-x/videos-en-estudio/01-video/03-storyboard-y-edicion.md"
+bash "$CHECKER" "$R" > /dev/null 2>&1
+[ $? -eq 1 ] && echo "  [OK]  f5 bloque faltante en storyboard -> exit 1" || { echo "  [ERR] f5 bloque faltante en storyboard -> ¡no exit 1!"; FAILS=$((FAILS+1)); }
+
+# ---------------------------------------------------------------------------
+# Fixture 6: timecodes inconsistentes entre guion y storyboard => exit 1
+# ---------------------------------------------------------------------------
+R="$TMP/f6"; mkdir -p "$R"; make_valid_video "$R"
+sed -i '' 's|`00:15 - 01:00`|`00:15 - 01:30`|' "$R/mis-canales/canal-x/videos-en-estudio/01-video/03-storyboard-y-edicion.md"
+bash "$CHECKER" "$R" > /dev/null 2>&1
+[ $? -eq 1 ] && echo "  [OK]  f6 timecodes inconsistentes -> exit 1" || { echo "  [ERR] f6 timecodes inconsistentes -> ¡no exit 1!"; FAILS=$((FAILS+1)); }
+
+# ---------------------------------------------------------------------------
+# Fixture 7: 🟢 sin operación probada nombrada => exit 1
+# ---------------------------------------------------------------------------
+R="$TMP/f7"; mkdir -p "$R"; make_valid_video "$R"
+sed -i '' 's/Operación real ejecutada y resultado inspeccionado\.//' "$R/_framework/herramientas-y-apis.md"
+bash "$CHECKER" "$R" > /dev/null 2>&1
+[ $? -eq 1 ] && echo "  [OK]  f7 🟢 sin operación -> exit 1" || { echo "  [ERR] f7 🟢 sin operación -> ¡no exit 1!"; FAILS=$((FAILS+1)); }
+
+# ---------------------------------------------------------------------------
+# Fixture 8: 🟢 con texto que no dice PROBADA (la bug original de Luvvoice) => exit 1
+# ---------------------------------------------------------------------------
+R="$TMP/f8"; mkdir -p "$R"; make_valid_video "$R"
 sed -i '' 's/🟢 PROBADA EN ENTORNO/🟢 DISPONIBLE \/ MCP/' "$R/_framework/herramientas-y-apis.md"
 bash "$CHECKER" "$R" > /dev/null 2>&1
-[ $? -eq 1 ] && echo "  [OK]  f5 🟢 con texto no PROBADA -> exit 1" || { echo "  [ERR] f5 🟢 con texto no PROBADA -> ¡no exit 1!"; FAILS=$((FAILS+1)); }
+[ $? -eq 1 ] && echo "  [OK]  f8 🟢 con texto no PROBADA -> exit 1" || { echo "  [ERR] f8 🟢 con texto no PROBADA -> ¡no exit 1!"; FAILS=$((FAILS+1)); }
 
 echo "------------------------------------------"
 if [ "$FAILS" -eq 0 ]; then
-  echo "ALL FIXTURES PASS (6/6)"
+  echo "ALL FIXTURES PASS (9/9)"
   exit 0
 else
   echo "$FAILS fixture(s) FALLEN"

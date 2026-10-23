@@ -115,28 +115,13 @@ sino como controles que el runtime ejecuta.
 | 2. **Verificadores que rompen** | `check-contrato.sh`, mediciones de ffmpeg contra hoja de aceptación. El error se detecta, aunque sea tarde. | 🟡 Recién nacido (2026-10-21) |
 | 3. **Gates estructurales** | El runtime no *puede* saltarse el paso: la fase N+1 no arranca si la N no pasó. | ⬜ Requiere un runtime (esta visión) |
 
-**Las 3 vías posibles (aún sin elegir — es decisión de producto del creador):**
+**Decisión resuelta (2026-10-23):** la exploración A/B/C queda como antecedente. El producto existe como repositorio separado [`albertopo94/youtube-shell`](https://github.com/albertopo94/youtube-shell), distribuido como paquete de Pi. Este repositorio `youtube` sigue siendo el framework de dominio, fuente versionada de plantillas, políticas y verificadores; no se convierte en el runtime.
 
-- **Vía A — Evolver el repo en el lugar.** Expandir los verificadores existentes y volver
-  el pipeline ejecutable por pasos (cada fase = comando que valida antes de dejar avanzar).
-  Cero infraestructura nueva; sube nivel 1→2 sin construir un agente.
-- **Vía B — Este repo *ya es* el harness de agentes que existen.** AGENTS.md es formato
-  que leen Claude Code / Codex CLI / Gemini CLI / Pi; FilmCraft y EffectCraft ya exponen
-  MCP. "El producto" sería empaquetar el repo como workspace agéntico portable: otro
-  runtime, mismo framework. El camino más corto a lo que el amigo dice que falta.
-- **Vía C — Runtime propio** (el sueño tipo Pi/Hermes/desktop con control de autonomía,
-  fases visibles y subagentes). Máximo control, costo máximo. Solo tiene sentido sobre un
-  flujo de producción **ya probado** (P1/P2), o se termina automatizando un proceso no validado.
+- **Nivel 1 y 2 aquí:** `AGENTS.md`, plantillas y verificadores documentales continúan evolucionando en este repo.
+- **Nivel 3 en el consumidor:** `youtube-shell` implementa los gates estructurales y consume un contrato de fases semánticas propio.
+- **Límite de repositorio:** cambios de software, estado de runtime o empaquetado se trabajan y versionan únicamente en `youtube-shell`; aquí solo se mantiene el contrato de dominio y sus referencias compatibles.
 
-**Tensión conocida y registrada:** el §6.2 del propio AGENTS.md dice "No automatizar
-prematuramente antes de completar manualmente un primer video piloto". El piloto de
-framework **ya ocurrió**, así que la puerta está entreabierta; se abre del todo cuando
-exista una producción real con hoja de aceptación (P1). Nota honesta: esta vía NO
-requiere tener canal — se puede avanzar en Vía A/B sin producir un solo video.
-
-**🔓 Condición de desbloqueo:** decisión explícita del creador sobre qué vía (A/B/C) y
-cuándo. Mientras esté frenada, el nivel 2 sigue creciendo gratis con cada verificador
-nuevo que se agregue a `check-contrato.sh`.
+**Próximo trabajo válido:** seguir fortaleciendo el nivel 2 con verificadores documentales y producir una corrida real con hoja de aceptación cuando haya un video activo. No queda pendiente decidir si existe producto ni dónde se desarrolla.
 
 ---
 
@@ -179,17 +164,9 @@ empaquetar ese flujo como paquete instalable, agregando la única pieza que falt
 la máquina de estados que hace cumplir las fases. **No requiere tener canal** (canal
 de ensayo ajeno sirve como cliente demo): es independiente de P2.
 
-**Decisión de forma (pendiente del creador):**
-- **F1 · Paquete de Pi** (formato gentle-pi): el más corto; monta sobre el runtime que
-  ya demostró el patrón; distribución `pi install`.
-- **F2 · Producto standalone** con su propio runtime al estilo de gentle-shell:
-  máximo control/identidad, costo de mantenimiento de un fork de runtime.
-- Recomendación registrada: **F1 primero**, F2 solo si el producto crece fuera del
-  ecosistema pi.
+**Decisión de forma resuelta (2026-10-23):** `youtube-shell` existe como **paquete de Pi** en su repositorio separado. La alternativa standalone queda como posibilidad futura, no como trabajo pendiente de este repo.
 
-**🔓 Condición de desbloqueo:** que el creador decida arrancar el producto (y con qué
-nombre/forma). Mientras tanto, este repo sigue sumando los insumos: cada verificador
-nuevo, cada gate de fase bien especificado, es una feature del producto ya diseñada.
+**Contrato entre repositorios:** `youtube` publica el conocimiento de dominio y sus versiones; `youtube-shell` registra la revisión de framework que consume y adapta sus controles en su propio ciclo de desarrollo. Cada cambio incompatible de rutas, plantillas o estados en `youtube` debe incluir notas de migración para el consumidor.
 
 ---
 

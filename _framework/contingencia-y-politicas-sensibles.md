@@ -29,7 +29,7 @@ Para evitar encasillar a los canales en compartimentos estancos o dejar desprote
 
 ## 🚫 2. Linter de Léxico Prohibido vs. Redacción Blindada (YMYL) `[Práctica Editorial]`
 
-YouTube utiliza clasificadores automáticos de lenguaje natural (NLP) para detectar desinformación médica y financiera `[Política Oficial YouTube]`. El agente debe evitar términos absolutos o sensacionalistas:
+YouTube mantiene políticas de desinformación aplicables a contenido médico y financiero. El funcionamiento interno de sus sistemas de detección no se trata aquí como confirmado sin una fuente primaria específica. El agente debe evitar términos absolutos o sensacionalistas:
 
 | ❌ Término / Estructura a Evitar |  Redacción Blindada (Científica y Aprobada) |
 | :--- | :--- |

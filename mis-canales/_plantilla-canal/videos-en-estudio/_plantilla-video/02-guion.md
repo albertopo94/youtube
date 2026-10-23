@@ -35,7 +35,7 @@
   - ¿Se incluye el disclaimer legal correspondiente en la descripción del video?
 - [ ] **Declaración de Contenido Sintético / IA (YouTube Policy):**
   - [ ] **No requiere declaración:** Animación/estilo ficticio, clonación de la propia voz del creador, voz sintética estándar de biblioteca que no imita a terceros, o gráficos abstractos.
-  - [ ] **Sí requiere declaración obligatoria en Studio:** Muestra personas reales diciendo/haciendo cosas ficticias, voz que imita a una persona real, escenas o eventos realistas generados por IA, o música generada por IA (conforme a los criterios vigentes de YouTube Studio).
+  - [ ] **Revisar y declarar en Studio cuando corresponda:** Muestra personas reales diciendo/haciendo cosas ficticias, voz que imita a una persona real, escenas o eventos realistas generados por IA, o música generada por IA cuando sea el foco principal del video. Aplicar el criterio vigente de YouTube Studio para contenido alterado o sintético; si hay duda, registrar la decisión y la fuente consultada.
 
 ---
 

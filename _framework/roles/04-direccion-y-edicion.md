@@ -98,13 +98,14 @@ Un software de edición no es una simple pegadora de clips; un montaje sin pulid
 
 2. **Cortes de Continuidad (J-Cuts y L-Cuts):** Desfasar la entrada o salida del audio respecto a la imagen (entre 12 y 24 fotogramas) en transiciones de bloques narrativos, evitando cortes rectos secos que delaten el montaje.
 
-3. **Arquitectura de Audio (estudio de sonoro, perfil por defecto):**
-   - Un montaje no está terminado si solo tiene la voz en la pista A1. Antes de exportar el render master, la línea de tiempo debe estructurar formalmente tres capas de audio:
-     - **Pista A1 (Locución / Voz principal):** Normalizada a estándares profesionales de transmisión (**−23 LUFS** integrado, pico < −1.5 dBTP con `essentialSound.autoMatch`).
-     - **Pista A2 (Música de fondo):** Atenuada automáticamente a **−18 dB** durante el diálogo con rampa suave a **−12 dB** en pausas dramáticas (`essentialSound.generateDucking`).
-     - **Pista A3 (Efectos de sonido / SFX):** Acentos sonoros colocados milimétricamente en la sílaba o fotograma exacto del impacto visual.
-   - **Estos valores son el perfil por defecto.** Un formato distinto (ambient, documental sonoro, etc.) puede variarlos con **justificación escrita en esta tabla**; lo que no se puede variar es que el resultado se **mida y escuche**: narración clara, equilibrio inteligible y ritmo vivo. Exigir un resultado editorial no es lo mismo que exigir una técnica concreta.
-   - Si los archivos de música o SFX no están en disco, el agente debe solicitarlos, generarlos o descargarlos antes de dar la fase por completada.
+3. **Arquitectura de Audio (perfil por defecto, adaptable al formato):**
+   - El montaje no se da por terminado hasta que el resultado sonoro sea adecuado al formato, esté medido cuando corresponda y haya sido escuchado. No se agregan música ni SFX solo para completar una cantidad de pistas.
+   - **Pista A1 (Locución / Voz principal, si aplica):** asegurar inteligibilidad, nivel consistente y margen de pico seguro. El objetivo de sonoridad se define para el **master final**, no se impone automáticamente a una pista aislada de voz.
+   - **Pista A2 (Música de fondo, si aporta):** aplicar ducking o envolvente para que no tape la narración; los niveles concretos se ajustan a la mezcla y se registran cuando sean relevantes.
+   - **Pista A3 (Efectos de sonido / SFX, si aportan):** usar acentos sincronizados solo cuando apoyen el ritmo, la comprensión o la emoción sin saturar.
+   - **Master final:** definir en la hoja de aceptación del video el objetivo integrado de sonoridad, el límite de pico y el método de medición. Como referencia de emisión, EBU R 128 usa −23 LUFS para el programa completo; no es un mandato universal para voz aislada ni para todos los destinos de publicación.
+   - Un formato ambient, musical, contemplativo o un screencast limpio puede prescindir de una o más capas si la decisión se justifica en el storyboard. Lo innegociable es el resultado: claridad cuando hay locución, balance, ausencia de picos molestos y escucha de control.
+   - Si una capa necesaria para el perfil aprobado no está disponible, el agente debe solicitarla, generarla o descargarla antes de cerrar la fase.
 
 4. **Dinámica de Cuadro (*Punch-ins*):** En tomas que duren **más de 5 segundos**, aplicar reencuadres o zooms continuos sutiles (escala del 100% al 105% mediante keyframes de transformación en FilmCraft).
    - **Nota histórica:** antes esta regla decía "más de 3 segundos" y la regla 1 decía "4 a 7". Dos umbrales distintos; se unifican en 5 s como perfil por defecto.

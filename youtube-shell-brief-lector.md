@@ -11,7 +11,7 @@
 > navegables público en `https://github.com/albertopo94/youtube/tree/main/…` —
 > un agente en cualquier máquina puede leerlos sin clonar la oficina.
 > **Fecha de este brief:** 2026-10-21 (v3: integra opinión externa del producto §11).
-> **Estado:** aprobado el concepto por el creador. Nombre tentativo: `youtube-shell`.
+> **Estado histórico:** este brief documenta la decisión inicial. El producto ya existe como repositorio separado en [`albertopo94/youtube-shell`](https://github.com/albertopo94/youtube-shell); este repositorio conserva únicamente el framework de dominio y no modifica su runtime.
 
 ---
 
