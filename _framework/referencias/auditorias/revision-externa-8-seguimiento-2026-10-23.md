@@ -51,3 +51,24 @@ Para cerrar esta ronda, dejaría dos tareas concretas: corregir la afirmación i
 **Límite registrado:** el documento de compatibilidad describe el estado observado en el lock del
 consumidor en la fecha indicada; no suscribe que ambos repositorios estén alineados. La alineación
 solo existirá cuando `youtube-shell` adopte las reglas y actualice su propio lock.
+
+---
+
+## Detalle posterior del revisor (2026-10-23)
+
+> Como detalle menor, todavía faltan en las exclusiones del README algunos patrones de
+> `.gitignore`, como `._*`, `.Trashes` y `ehthumbs.db`. Como ahora se advierte que son
+> exclusiones seleccionadas, no lo considero un bloqueo.
+
+**Disposición — resuelto.** Se agregaron `._*`, `.Trashes` y `ehthumbs.db` al comando de copia
+(commit `d800218`).
+
+**Verificación adicional:** se contrastó la lista de `--exclude` del README contra los 41 patrones
+de `.gitignore`. Resultado: **cobertura completa**, sin omisiones. Las 9 exclusiones adicionales
+del README son deliberadas y no provienen de `.gitignore` (`.git/`, `.npmrc`, `credentials.json`,
+`*credential*`, `*secret*`, `*.p12`, `*.pfx`, `*.mp3` y las carpetas del pipeline
+`audio/ video/ clips/ thumbs/`).
+
+La advertencia de «exclusiones seleccionadas; revisar siempre la salida» se mantiene: la
+igualdad nominal con `.gitignore` no garantiza que un archivo nuevo fuera de ambos listados no
+viaje al sandbox.
