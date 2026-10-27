@@ -103,6 +103,11 @@ Generar video con inteligencia artificial para escenas con múltiples personajes
 - Para escenas grupales o entornos con múltiples elementos (reuniones en mesa, fogatas, vehículos, talleres), generar previamente una **vista aérea cenital completa (*high overhead angle*)** que capture la disposición de todos los personajes y objetos.
 - Esta captura cenital se utiliza como imagen de referencia de composición espacial maestra para todos los planos cerrados individuales, reduciendo drásticamente las alucinaciones del modelo en la geometría de los fondos y los fondos cambiantes.
 
+### El Pipeline Asset-First para Personajes IA:
+> **Origen:** estudio de fuente 3 de video con IA (`_framework/referencias/auditorias/estudio-fuente-3-video-ia-2026-10-27.md`). ✅ **ADOPTADO.**
+- **Diseño de Activos previo al Rodaje:** Tratar la producción como el desarrollo de un videojuego: diseñar y fijar el banco de assets del personaje (vestuario diario vs. de trabajo, accesorios, cicatrices y estados como con/sin prenda) **antes de generar las tomas definitivas**. Si un personaje se quita una capucha o chaqueta en una escena, el modelo debe contar con la referencia de cómo luce por debajo para evitar que invente un peinado o complexión distinta.
+- **Objetos del Entorno como Anclas de Trayectoria en Prompts:** Al dirigir movimiento de personajes o vehículos en generadores de video, utilizar un elemento estático del fondo como punto de llegada o parada en el prompt (*"el vehículo avanza desde el plano frontal y se detiene exactamente junto a la farola rota"*). Esto elimina trayectorias erráticas y ancla el movimiento a la física de la escena.
+
 ### La Regla de los Tres Pasos contra el Desperdicio de Créditos de IA:
 1. **Comprobar la imagen fija antes de animar:** validar proporciones, manos, vestimenta y encuadre antes de pedir video.
 2. **Previsualizar el movimiento antes de generar en alta:** verificar la velocidad y trayectoria en modo borrador, baja resolución o animatic.
@@ -202,6 +207,7 @@ Para audiencias sofisticadas, profesionales o de aprendizaje real, los memes hip
 - **Style (Identidad de Marca):**
   - *Color grading uniforme:* Hace que tomas de orígenes variados parezcan filmadas en el mismo universo.
   - Coherencia en fuentes tipográficas, paleta cromática y estilo de animación.
+  - *Eliminación del Look Digital Plástico (Acabado Cinematográfico IA):* Para mitigar la textura sintética y excesivamente pulida de los generadores de video, aplicar en postproducción una capa sutil de grano fílmico orgánico y suavizado perimétrico de enfoque (profundidad de campo). Esto elimina los bordes cortantes artificiales y unifica tomas de distintos modelos en un mismo universo estético sin requerir plugins de pago.
 
 ---
 
@@ -220,6 +226,7 @@ Hace que los videos se recuerden, comenten y compartan:
    - *La Bomba bajo la Mesa (Hitchcock):* Revelar una amenaza, anomalía o dato inquietante al espectador antes de que los personajes en pantalla lo descubran. Conocer el peligro transforma una conversación cotidiana en una secuencia de tensión irresistible.
    - *Mirada Fuera de Cuadro (Off-Screen Gaze):* Hacer que el sujeto mire fijamente hacia afuera del encuadre antes de cortar. Su mirada abre un bucle de curiosidad urgente que solo se cierra al revelar qué ve en el plano siguiente.
    - *Impacto por Salto Abrupto de Escala:* En revelaciones o remates dramáticos, pasar bruscamente de un plano medio a un primerísimo plano que llene el encuadre. La sorpresa no depende del diseño del sujeto, sino del cambio repentino en la distancia visual.
+   - *Rima Visual Repetida con Variación Atmosférica:* Repetir una misma micro-acción física del personaje en 3 momentos clave (ej. inicio, clímax y resolución) alterando únicamente la iluminación, el clima y el encuadre (ej. luz neutra de incertidumbre ➔ lluvia y niebla de conflicto ➔ amanecer despejado de alivio). El arco psicológico se transmite de forma subliminal a través de la atmósfera sin recargar la escena de diálogos explicativos.
 
 ---
 
