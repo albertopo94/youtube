@@ -11,6 +11,8 @@
 5. **Edición:** Ensamblaje visual, ritmo, efectos, diseño sonoro y licencias; validar el animatic antes de producir assets finales.
 6. **Publicación y aprendizaje:** Configurar metadatos, publicar, registrar métricas y usar el aprendizaje para el siguiente ciclo.
 
+> **Heurística de Cierre Mozart vs. Monet:** Superadas las compuertas de calidad del Definition of Done (audio inteligible y nivelado, verificación de fuentes y correspondencia promesa/contenido), el video se cierra y se publica. Queda prohibido retrasar el ciclo de entregas en bucles de retoque subjetivo infinito (*"final_final_v3"*). En YouTube, el aprendizaje empírico y la constancia de catálogo superan al perfeccionismo paralizante.
+
 ---
 
 ## Flujo Automatizado Objetivo (Visión Futura y Realidad Operativa)

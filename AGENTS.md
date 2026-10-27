@@ -193,12 +193,14 @@ Para que una fase se considere `APROBADO`, debe existir evidencia física demost
 
 ---
 
-## 🛡️ 06. Dos Reglas Críticas de Realidad Operativa
+## 🛡️ 06. Tres Reglas Críticas de Realidad Operativa
 
 1. **El Control de Originalidad NO es Garantía de Monetización:**
    El filtro de originalidad y anti-contenido repetitivo eleva el estándar editorial y mitiga riesgos conocidos, pero **no garantiza la monetización ni blinda el canal de forma infalible**. Las decisiones de YouTube son discrecionales y están sujetas a revisiones humanas y cambios de políticas. La función del agente es señalar riesgos y maximizar el valor genuino.
 2. **No Automatizar Prematuramente:**
    No desarrollar aplicaciones de orquestación complejas, dashboards analíticos ni bots de publicación automática por API antes de completar manualmente con éxito un **primer video piloto**. El foco actual es validar el pipeline y las capacidades reales del entorno.
+3. **La Heurística Mozart vs. Monet (Superar el Perfeccionismo Paralizante):**
+   El perfeccionismo obsesivo es procrastinación disfrazada. Una vez que la entrega supera los criterios objetivos del Definition of Done (audio inteligible y medido, ausencia de fotogramas negros, correspondencia entre promesa y contenido, y rigor factual en `06`), **el video se aprueba y se publica**. Prohibido paralizar el canal o postergar semanas una entrega en bucles de micro-retoques estéticos infinitos (*"final_final_v3"*). Mozart compuso más de 600 obras para que la historia recordara sus obras maestras, mientras que Monet destruyó lienzos en ataques de perfeccionismo estéril. En YouTube, lo único peor que un video imperfecto es un video inexistente.
 
 ---
 

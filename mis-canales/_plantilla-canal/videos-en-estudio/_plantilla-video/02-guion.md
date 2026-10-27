@@ -27,6 +27,8 @@
 ## 1. Puerta de Control Editorial y Monetización (Obligatorio)
 
 - [ ] **Aportación Original:** ¿Aporta análisis, síntesis, narrativa o conclusiones que van más allá del material de origen?
+- [ ] **Filtro de Anclas Visuales (Prueba de la Servilleta):** ¿La historia cuenta con elementos visuales, diagramas, demostraciones o anclas tangibles indispensables para el medio video, evitando ser un mero ensayo abstracto que funcionaría mejor como texto?
+- [ ] **Regla de las 3 B's de Locución:** ¿La redacción es Básica (vocabulario llano sin jerga pedante), Audaz (asertiva sin titubeos que socaven autoridad) y Breve (oraciones ≤25 palabras, sin descripciones dobles)?
 - [ ] **Protección de la Satisfacción Acumulada (Payoff):** ¿El desenlace del video cumple y supera la promesa inicial del empaque, aportando una conclusión o beneficio transformador y evitando cierres vacíos de relleno para proteger la reputación y la tasa de regreso de la audiencia?
 - [ ] **Anti-Contenido Reutilizado:** ¿Evita sustituir la obra original (en libros) o reproducir clips ajenos sin valor añadido (en noticias)?
 - [ ] **Fact-Checking Completado:** ¿Las afirmaciones sustanciales están verificadas con DOI en `06-fuentes-y-verificacion.md`? *(Obligatorio en Régimen 3 YMYL. En Régimen 1 Ficción: solo es `N/A` si el guion **no hace ninguna afirmación sobre lo real**; si menciona personas reales, lugares, hechos históricos, ciencia o salud, esas afirmaciones específicas se registran y verifican igual — el riesgo decide los controles, no el género).*

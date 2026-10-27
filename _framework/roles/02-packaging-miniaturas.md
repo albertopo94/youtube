@@ -88,6 +88,7 @@ Todos los elementos que componen la pieza (personas, iconos, gráficos, fondos, 
 - **Personajes / elementos secundarios:** Elementos de apoyo al protagonista.
 - **Líneas guía (Leading lines):** Fondos con perspectiva natural, flechas sutiles o círculos que atraigan la mirada hacia el punto focal.
 - **Jerarquía:** Jugar con escala, enfoque/desenfoque y profundidad entre el elemento principal y los secundarios.
+- **Límite de 3 Elementos Focales (Regla de Simplicidad de MKBHD):** Una miniatura de alto impacto debe componerse de un **máximo de tres elementos focales** simultáneos: 1) Sujeto principal (héroe o rostro), 2) Objeto o elemento de contexto/tensión, y 3) Texto complementario o fondo limpio. Superar tres focos satura la atención y confunde la mirada.
 - **Tratamiento del texto en miniatura (Heurísticas de diseño):**
   - El texto es un actor secundario: sólo debe usarse si es estrictamente complementario y aporta intriga que la imagen sola no transmite.
   - El texto añade carga cognitiva al cerebro: no debe repetir el título del video.
@@ -119,7 +120,7 @@ Antes de diseñar los 3 conceptos obligatorios, inspeccionar qué esquemas visua
 
 ## 5. Análisis y Control de Calidad: Los Tests de Validación
 Antes de dar por buena una miniatura, debe superar 4 pruebas:
-1. **The Clarity Test:** ¿Se entiende perfectamente en la vista más pequeña (ej. barra lateral de sugeridos en móvil)? ¿Se lee cada palabra sin esfuerzo? ¿Es identificable cada objeto?
+1. **The Clarity Test & Regla del 18% (MKBHD):** ¿Se entiende perfectamente en tamaño móvil? Al **reducir la miniatura al 18% de su escala** (simulando cómo se ve en el feed del smartphone), ¿se lee el texto al instante y se identifica cada objeto? Si al 18% se vuelve un borrón confuso, la composición debe simplificarse.
 2. **The Contrast Test:** ¿Destaca entre la multitud? Colocar la miniatura en medio de miniaturas de competidores directos y verificar si interrumpe el patrón de scroll.
 3. **The Glance Test:** Mostrársela a otra persona durante 1-2 segundos. Si no puede decir de qué va o qué le generó curiosidad, debe rediseñarse.
 4. **The Verisimilitude Test (Boceto vs. Render Final):** Muchas miniaturas se ven potentes en el boceto conceptual pero pierden impacto o verosimilitud al fotografiarse o renderizarse. Verificar que la pieza definitiva conserve la tensión visual y no se vea artificial, plástica ni deslucida frente al concepto aprobado.

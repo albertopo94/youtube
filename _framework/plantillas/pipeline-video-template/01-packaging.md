@@ -63,7 +63,7 @@
 
 ## 4. Checklist de Control de Calidad
 - [ ] **Legibilidad del título (Heurística):** asimilable de un vistazo; idealmente ≤55 caracteres (los más largos válidos si la estructura es eficaz); lo más importante al inicio; sin sacrificar claridad por quedar bajo el número.
-- [ ] **Clarity Test:** ¿Legible y comprensible en tamaño reducido?
+- [ ] **Clarity Test & Regla del 18% (MKBHD):** ¿Legible y comprensible al 18% de escala móvil? ¿Composición limpia con un máximo de 3 elementos focales?
 - [ ] **Contrast Test:** ¿Destaca entre miniaturas de la competencia directa?
 - [ ] **Glance Test:** ¿Se entiende el gancho en menos de 2 segundos?
 - [ ] **Verisimilitude Test (Boceto vs. Render Final):** ¿La miniatura final terminada conserva la fuerza y el impacto del concepto/boceto aprobado sin verse plástica, artificial ni deslucida?

@@ -147,9 +147,11 @@ Para audiencias sofisticadas, profesionales o de aprendizaje real, los memes hip
 - **Imágenes / Iconos:** Para ilustrar conceptos u objetos mencionados.
 - **Clips externos / Memes:** Para aportar contexto cultural o toques sutiles de humor (usar con moderación).
 - **Motion Graphics y Gráficos:** Para graficar ideas complejas o datos abstractos. Debe **demostrar o clarificar**, jamás rellenar.
+- **Heurística de Autenticidad Física ("La perfección borra la humanidad" — Casey Neistat):** Frente al abuso de textos ópticos flotantes, cinemáticas artificiales y overlays hiper-producidos que deshumanizan el relato, priorizar demostraciones físicas y analógicas tangibles: mostrar objetos reales, notas manuscritas, recortes en papel o comparaciones sobre una mesa. La textura física y la imperfección analógica transmiten cercanía y retienen mejor que un gráfico digital frío.
 
 ### 2. Clarity (Claridad y Punto Focal)
 - **Focal Point (Punto focal):** Debe ser evidente en cada frame a dónde debe mirar el espectador.
+- **Técnica de Atenuación Selectiva (*Spotlight / Focal Dimming*):** Ante pantallas complejas, documentos densos, miniaturas o infografías con múltiples datos, evitar la fatiga visual de forzar al ojo a mirar cuatro esquinas a la vez. Aplicar un zoom sobre el área explicada y **atenuar (*dim/darken*) o desenfocar el resto del cuadro**, guiando la atención del espectador a un único punto focal indiscutible.
 - **Positioning:** Centrar el sujeto o aplicar la regla de los tercios.
 - **Creating Separation:** Crear separación clara entre el sujeto y el fondo mediante diferencias de brillo, contraste de color o desenfoque (*blur / depth of field*).
 

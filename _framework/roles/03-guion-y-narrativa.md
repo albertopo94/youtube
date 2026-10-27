@@ -78,6 +78,7 @@ Se aprueba **antes de cerrar guion y storyboard**, respondiendo por escrito:
 ### Regla de Oro de Credibilidad Ética (Prohibido Inventar Credenciales)
 - ❌ **Prohibición absoluta:** El agente **tiene terminantemente prohibido inventar experiencias personales falsas, títulos académicos ficticios o credenciales inventadas** para simular autoridad (*"tras pasar 10 años en Wall Street..."* o *"luego de analizar personalmente 500 pacientes..."* si no es una realidad comprobable del creador).
 -  **Construcción de Autoridad Legítima:** Cuando el narrador no cuente con una biografía de autoridad personal directa, **la credibilidad se sostiene en fuentes primarias verificadas, citas transparentes, razonamiento lógico riguroso y demostraciones prácticas**. Un canal transmite máxima confianza con hechos y método, sin necesidad de inventar un personaje ficticio.
+- **El Método del Conejillo de Indias (*The Guinea Pig Method*):** (Masterclass YouTube 2025). Cuando el creador no posea títulos formales, la autoridad legítima se construye mediante la **experiencia o prueba empírica directa**: vivir un reto en carne propia, auditar un proceso durante 30, 90 o 1.000 días, o documentar un experimento metódico. La prueba viva y transparente genera mayor fascinación y credibilidad genuina que un título inventado.
 
 ---
 
@@ -190,6 +191,15 @@ Toda apertura en formatos educativos o de autoridad responde a 3 preguntas crít
 ### 4. Frontloading (Adelantar la Experiencia)
 Si el video contendrá animación destacada, datos reveladores o edición especial, mostrar un destello de esa calidad en los primeros compases para fijar el estándar de producción en la mente de la audiencia.
 
+### 5. Estructura R.A.I.N.Y. de Intros (Alternativa Modular para Ensayos y Educación)
+> **Origen:** Masterclass de YouTube 2025. 🟡 **ADAPTADO.**
+Estructura opcional compacta (<45 s en videos largos, <10 s en formatos dinámicos) para enganchar audiencias escépticas:
+- **R (Result):** Adelantar el resultado que obtendrán o la pregunta irresistible que se resolverá.
+- **A (Address Objection):** Desactivar el detector de mentiras del espectador abordando su principal objeción o duda antes de que abandone (*"sé lo que piensas: que esto no aplica si no tienes equipo profesional..."*).
+- **I (Instant):** Entrada rápida y sin preámbulos institucionales.
+- **N (Now):** Explicar por qué este tema es relevante y oportuno ahora mismo (tendencia, cambio o urgencia).
+- **Y (You):** Establecer por qué tú (el Unfair Edge del canal o la prueba del conejillo de indias).
+
 ---
 
 ## 5. Arquitectura Atómica del Guion (Bloques con IDs Estables y Locución Provisional)
@@ -217,6 +227,16 @@ Para trabajar de forma modular y económica con agentes de IA y herramientas de 
 - **Dinamismo auditivo:** Alternar frases cortas y contundentes con oraciones explicativas más fluidas para crear una cadencia atractiva.
 - **Pausas y respiración:** Utilizar puntos y comas bien calibrados para indicar pausas dramáticas o de respiro a la voz sintética.
 - **Términos técnicos:** Evitar encadenar palabras complejas o siglas sin explicarlas de inmediato.
+
+### 4. La Regla de las 3 B's de Locución (MKBHD: Básico, Audaz, Breve)
+> **Origen:** Masterclass de YouTube 2025 (MKBHD & Jon Youshaei). ✅ **ADOPTADO.**
+Directivas de estilo para la redacción de los bloques `[Bxx]` para asegurar que el guion comunique con claridad y autoridad natural:
+1. **Básico (Lenguaje Llano):** Traducir la jerga técnica a vocabulario accesible (ej. usar *"aprovechar"* en vez de *"apalancar"*; *"habilidades"* en vez de *"competencias"*). Escribir a un nivel de comprensión equivalente a 6º de primaria; la sofisticación radica en las ideas y el análisis, no en la complicación artificial del vocabulario.
+2. **Audaz (Eliminar Titubeos):** Suprimir condicionales y vacilaciones que socavan inconscientemente la autoridad (*"quizás"*, *"posiblemente"*, *"podría ser"*). Formular afirmaciones asertivas y directas (salvo en temas YMYL donde la matización científica sea un requisito legal).
+3. **Breve (Economía Verbal):**
+   - Oraciones de **máximo 25 palabras** para que la locución conserve aire y cadencia.
+   - Párrafos de **máximo 3 frases**.
+   - Prohibidas las redundancias y descripciones dobles: no decir *"el cuarto estaba limpio y ordenado"*, sino simplemente *"limpio"*. Eliminar palabras de relleno que no agreguen información nueva.
 - **Símbolos y números:** Escribir los símbolos por su nombre fonético completo (*"por ciento"*, *"dólares"*) para evitar lecturas defectuosas del motor TTS.
 - **El Momento de Mayor Valor:** En lugar de forzar un giro artificial a 2/3 del video si la historia no lo pide, asegurar que el video contenga un **momento de máxima recompensa intelectual o emocional** (la prueba decisiva, la revelación del mecanismo o la conclusión práctica).
 

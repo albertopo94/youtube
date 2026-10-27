@@ -155,6 +155,14 @@ YouTube no opera con un único algoritmo monolítico, sino con múltiples superf
 - **La Estructura del Título también es transplantable:** al aislar el esqueleto de un outlier, registrar además **qué palanca de título usó** (`_framework/roles/02-packaging-miniaturas.md` §3) y si su miniatura emparejaba (`Moment`/`Story`/`Result`/`Transformation`/`Novelty`). Reutilizar la *estructura* (ej. "X vs Y", "I [reto extremo] for [tiempo]", "The ugly truth behind [tema]") adaptándola al contenido propio; nunca copiar el título literal ni importar sus métricas como promesa.
 - Se conserva la cadencia sonora y la estructura matemática que ya demostró resonar a escala masiva en el cerebro de la audiencia.
 
+### Matriz de Transposición Tridimensional (Género, Época y Medio) y la Regla del 3% (Virgil Abloh):
+> **Origen:** Masterclass de YouTube 2025 (Virgil Abloh, Zach King, MrBeast). ✅ **ADOPTADO.**
+- **La Regla del 3% de Virgil Abloh:** Para que una idea sea percibida como innovadora, no hace falta reinventar la rueda: basta con aplicar un **cambio intencional del 3%** a una estructura ya validada.
+- **Las Tres Vías de Transposición:**
+  1. *Transposición por Género / Nicho:* Mover la premisa estructural entre sectores alejados (ej. comparar barato vs. caro en comida rápida ➔ trasladado a hoteles, autos o herramientas de software).
+  2. *Transposición por Época:* Buscar inspiración décadas o un siglo atrás (ej. Zach King estudiando el cine mudo de Buster Keaton de los años 1920 para adaptar gags físicos, dinamismo visual y cortes de salto). Mientras la competencia copia lo que salió la semana pasada, el catálogo histórico es una cantera inexplorada libre de saturación.
+  3. *Transposición por Medio:* Adaptar formatos exitosos de la televisión clásica, concursos o cine a la velocidad de YouTube (ej. shows de MTV ➔ retos en la vida real de YouTube; dinámicas de Gran Hermano ➔ retos de convivencia en espacios confinados).
+
 ### Arquetipo Opcional de Estudio: Dinámicas de Shorts de Entretenimiento Masivo
 *(Patrón de referencia extraído de canales de entretenimiento viral; no es un filtro obligatorio para canales educativos, técnicos, B2B ni de nicho)*:
 1. **Universalmente Relatable (Accesibilidad):** En entretenimiento puro, temas cotidianos (mascotas, comida, transformaciones, orden) facilitan el alcance masivo sin barreras de entrada.
@@ -187,6 +195,20 @@ Cada formato brinda un tipo de valor distinto. Piensa en: *¿Qué tipo de valor 
   - Siendo significativamente mejor.
   - Siendo significativamente diferente.
   - Combinar formatos ayuda enormemente a ser significativamente diferente.
+
+### 4. La Prueba de la Servilleta y Anclas Visuales (Johnny Harris & Cleo Abram) `[Filtro de Medio]`
+> **Origen:** Masterclass de YouTube 2025. ✅ **ADOPTADO.**
+- **El Filtro de Medio:** Muchas buenas historias fracasan en YouTube porque debieron ser un artículo de blog, un hilo de X o un post de LinkedIn. El medio audiovisual exige **anclas visuales** (elementos físicos o simbólicos que muestran en lugar de contar: ej. billetes convertidos en origami para ilustrar hiperinflación sin jerga macroeconómica).
+- **La Prueba de la Servilleta:** Imagina explicarle la idea a un amigo en una cafetería:
+  - *¿Sientes la necesidad de tomar una servilleta y dibujar un diagrama o esquema?*
+  - *¿Necesitas sacar el teléfono y mostrarle una foto o video diciendo "mira esto"?*
+  - *¿Te descubres señalando un objeto o contraste físico mientras explicas?*
+  - Si la respuesta es **SÍ** ➔ existe un ancla visual legítima y la idea pertenece al medio video.
+  - Si la respuesta es **NO** (la idea se explica enteramente con prosa abstracta sin apoyo gráfico indispensable) ➔ es un ensayo o artículo escrito, no un video de YouTube.
+- **Heurística de Formato según Densidad de Anclas:**
+  - *Múltiples anclas visuales y pruebas:* video largo de YouTube (Long-form).
+  - *Una o dos anclas concentradas:* YouTube Short.
+  - *Cero anclas:* texto o guion no prioritario.
 
 ### 3. Ángulo (Spice) Increíble
 Son todas las ideas base posibles que pueden salir de un binomio `Topic + Format`. Diez ángulos de los innumerables que existen:
