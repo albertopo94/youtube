@@ -214,9 +214,12 @@ Para audiencias sofisticadas, profesionales o de aprendizaje real, los memes hip
 ## 6. Emoción: Provocar Respuestas Viscerales
 Hace que los videos se recuerden, comenten y compartan:
 1. **Framing y Shot Selection:** Close-ups para intimidad, drama o tensión; wide shots para aislamiento o perspectiva; movimientos sutiles o acelerados de cámara.
-2. **Sound Design (Diseño de Sonido):**
-   - La música y efectos de sonido (SFX) dictan el tono emocional en segundos.
-   - Dividir el video en secciones según la emoción deseada (misterio, triunfo, intriga, relax) y diseñar las pistas para cada bloque.
+2. **Sound Design y Realismo Táctil Acústico en Video con IA:**
+   > **Origen:** estudio de fuente 4 de video con IA (`_framework/referencias/auditorias/estudio-fuente-4-video-ia-2026-10-27.md`). ✅ **ADOPTADO.**
+   - *Prohibición de confiar en el audio nativo de generadores de video:* Los audios que generan directamente los modelos de video suelen ser planos, monoaurales o metálicos. La credibilidad de un universo visual generado con IA se sostiene en el diseño sonoro multicapa ensamblado en el editor (diálogos, ambiente, música y foley táctil).
+   - *Foley Compuesto y Coherencia Ambiental:* Un impacto físico nunca es un solo archivo de audio. Si un cuerpo cae en un tejado mojado bajo la lluvia, un golpe seco de cemento destruye la inmersión de inmediato: el sonido debe componerse superponiendo el impacto sordo (*sub-boom*) + textura de salpicadura (*splash*) + gotas dispersas. Todo sonido debe respetar la física del entorno visible (humedad, polvo, madera o cristal).
+   - *Búsqueda de SFX por Física Real, no por Etiqueta:* Evitar buscar nombres genéricos en librerías de sonido (ej. "caída de edificio"). Buscar el fenómeno físico que genera el sonido en la realidad (ej. el silbido y cambio tonal de viento de un paracaidista en caída libre para un personaje cayendo al vacío).
+   - *Capa Base de Ambiente Continuo (Room Tone):* Toda escena debe descansar sobre una pista ininterrumpida de tono de sala o atmósfera ambiental que enlace los cortes visuales y elimine micro-silencios digitales muertos.
    - Los SFX deben sumergir al espectador sin saturar: cada efecto sonoro debe estar justificado.
 3. **Pacing (Ritmo):**
    - El ritmo puede ser veloz o pausado, pero **la verdadera magia radica en el contraste** entre secciones rápidas y momentos de respiro.
