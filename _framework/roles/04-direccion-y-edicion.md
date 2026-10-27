@@ -114,6 +114,19 @@ Generar video con inteligencia artificial para escenas con múltiples personajes
 - **Diseño de Activos previo al Rodaje:** Tratar la producción como el desarrollo de un videojuego: diseñar y fijar el banco de assets del personaje (vestuario diario vs. de trabajo, accesorios, cicatrices y estados como con/sin prenda) **antes de generar las tomas definitivas**. Si un personaje se quita una capucha o chaqueta en una escena, el modelo debe contar con la referencia de cómo luce por debajo para evitar que invente un peinado o complexión distinta.
 - **Objetos del Entorno como Anclas de Trayectoria en Prompts:** Al dirigir movimiento de personajes o vehículos en generadores de video, utilizar un elemento estático del fondo como punto de llegada o parada en el prompt (*"el vehículo avanza desde el plano frontal y se detiene exactamente junto a la farola rota"*). Esto elimina trayectorias erráticas y ancla el movimiento a la física de la escena.
 
+### Hojas de Localización Multicámara Reutilizables (*Master Location Sheets*):
+> **Origen:** estudio de fuente 6 de video con IA (`_framework/referencias/auditorias/estudio-fuente-6-video-ia-2026-10-27.md`). ✅ **ADOPTADO.**
+- En canales con universos visuales consistentes, series animadas o ficción, los escenarios clave (la oficina, el salón, el laboratorio o el taller) **no deben generarse desde cero para cada plano o episodio**.
+- Siguiendo la disciplina de los grandes estudios de animación (ej. los escenarios fijos de Los Simpson), se diseña un **set maestro del escenario** y se exportan de antemano **4 o 5 tiros de cámara estandarizados** de esa misma habitación (plano general de conjunto, plano medio hacia la ventana, tiro hacia la mesa de trabajo, plano contrapicado y vista cenital).
+- Estos fondos pre-validados se archivan en `04-registro-recursos.md`. Al producir una nueva escena, el agente simplemente monta la referencia del personaje sobre el ángulo de fondo correspondiente, asegurando que el universo visual permanezca idéntico entre escenas y episodios con coste cero de regeneración ambiental.
+
+### Sintaxis de Etiquetado Explícito de Referencias en Prompts Complejos:
+> **Origen:** estudio de fuente 6 de video con IA. ✅ **ADOPTADO.**
+- En prompts para escenas multi-personaje o con fondos específicos, queda desaconsejado utilizar redacciones ambiguas en prosa (*"el hombre le habla a la mujer en el salón"*).
+- Emplear una sintaxis de asignación inequívoca etiquetando cada activo por su identificador de referencia:
+  `[Sujeto: @Ref_Personaje_A] en [Ubicación: @Ref_Set_Salon_Angulo_2] dice "..." con [Voz: @Ref_Voz_A]` mientras `[Sujeto: @Ref_Personaje_B] escucha en silencio`.
+  Este mapeo explícito impide que los modelos neuronales confundan identidades, intercambien vestimentas o crucen las voces asignadas a cada personaje.
+
 ### La Regla de los Tres Pasos contra el Desperdicio de Créditos de IA:
 1. **Comprobar la imagen fija antes de animar:** validar proporciones, manos, vestimenta y encuadre antes de pedir video.
 2. **Previsualizar el movimiento antes de generar en alta:** verificar la velocidad y trayectoria en modo borrador, baja resolución o animatic.

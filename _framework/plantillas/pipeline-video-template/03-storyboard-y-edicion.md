@@ -29,6 +29,8 @@
 - **Textura y acabado son parámetros estéticos del proyecto:** piel lisa, grano cinematográfico, nitidez máxima o eliminación de textura **nunca** son valores universales de una referencia maestra; son decisiones estéticas elegidas según el proyecto, sin contradecir el objetivo de la generación. Distinguir siempre textura natural de artefactos.
 - **Archivar, no solo describir:** los anclajes de la §1 deben poder guardarse como **archivos de referencia concretos** (imagen de personaje, de escenario, de luz), no solo como texto dentro de cada prompt. Registrarlos en `04-registro-recursos.md` (sección de referencias reutilizables).
 - **Pipeline Asset-First (estados y prendas):** Para personajes recurrentes, registrar de antemano referencias de sus estados previstos (ej. con y sin prenda de abrigo, cabello recogido vs. suelto) y de su utilería característica para evitar alucinaciones en cambios de vestuario.
+- **Hojas de Localización Multicámara Reutilizables:** Para escenarios recurrentes del canal, generar un set maestro de 4 a 5 tiros de cámara estandarizados (plano general, tiro a ventana, mesa de trabajo, contrapicado) archivados en `04-registro-recursos.md`, reutilizándolos como fondos maestros sin regenerar el entorno desde cero.
+- **Sintaxis de Etiquetado Explícito (@tagging):** En prompts para escenas con múltiples elementos, enlazar explícitamente cada sujeto (`@Ref_P1`), fondo (`@Ref_Set_1`) y voz (`@Ref_Voz_1`) en cada instrucción para evitar alucinaciones cruzadas.
 
 ---
 
