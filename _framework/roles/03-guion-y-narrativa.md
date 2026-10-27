@@ -282,3 +282,19 @@ Para trabajar de forma modular y económica con agentes de IA y herramientas de 
   - Activación de AdSense y enlaces de afiliados limpios en la descripción sin interrumpir la narrativa.
 - **Etapa 3: Backend Propio (Consolidación):**
   - Solo cuando el canal tiene tracción real y audiencia recurrente, se construyen recursos descargables, productos o servicios.
+
+---
+
+### 4. Protocolo Operativo de Enlaces, Afiliados y Patrocinios en Guion
+- **Comprobación Previa (Check de Intención Comercial):** Antes de redactar la locución definitiva de un video, el guionista o agente debe verificar si el video incluye enlaces de afiliados, patrocinios de marca o recursos descargables en la descripción.
+- **Mención Verbal Obligatoria:** Si el video cuenta con enlaces de afiliados o recursos clave, la locución debe incluir una mención verbal natural y contextualizada en el bloque correspondiente (por ejemplo en el cierre o al introducir la herramienta como desatascador). El espectador rara vez desciende a leer la descripción por iniciativa propia sin un llamado verbal orgánico.
+- **Alineación con Packaging:** Todo enlace o recurso mencionado verbalmente debe quedar registrado en la propuesta de descripción en `01-packaging.md` y en el `entregable-final.md`.
+
+---
+
+### 5. Pausas Naturales para Anuncios (Mid-Rolls en Videos > 8 Minutos)
+- **Umbral de Plataforma:** YouTube habilita la colocación de pausas publicitarias intermedias (mid-rolls) únicamente en videos con una duración superior a 8 minutos.
+- **Diseño de Puntos de Interrupción Orgánicos:** En videos de formato largo (>8 min), el guion debe planificar conscientemente 1 o 2 momentos de respiro o transición temática entre bloques (tras redondear una idea o resolver una tensión parcial) y marcarlos explícitamente:
+  `[Pausa natural / Mid-roll sugerido: mm:ss]`
+- **Propósito Editorial:** Evitar que el sistema de inserción automática de YouTube corte el video en medio de una frase o en el clímax de una revelación. Definir las pausas de forma manual en YouTube Studio sobre puntos de transición natural protege la retención y la experiencia del espectador mientras optimiza la monetización por AdSense.
+

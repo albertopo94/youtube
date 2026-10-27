@@ -36,13 +36,17 @@
 - [ ] **Declaración de Contenido Sintético / IA (YouTube Policy):**
   - [ ] **No requiere declaración:** Animación/estilo ficticio, clonación de la propia voz del creador, voz sintética estándar de biblioteca que no imita a terceros, o gráficos abstractos.
   - [ ] **Revisar y declarar en Studio cuando corresponda:** Muestra personas reales diciendo/haciendo cosas ficticias, voz que imita a una persona real, escenas o eventos realistas generados por IA, o música generada por IA cuando sea el foco principal del video. Aplicar el criterio vigente de YouTube Studio para contenido alterado o sintético; si hay duda, registrar la decisión y la fuente consultada.
+- [ ] **Mención de Afiliados, Patrocinios o Recursos Descargables:**
+  - [ ] **No aplica:** Video sin integraciones comerciales ni enlaces de afiliados.
+  - [ ] **Sí aplica:** Se verificó la mención verbal explícita y orgánica dentro de la locución (en el bloque correspondiente) y se preparó el texto de enlaces para la descripción en `01-packaging.md` / `entregable-final.md`.
 
 ---
 
 ## 2. Guion Maestro Estructurado por Bloques Atómicos (IDs Estables)
 
 > **Regla de ingeniería y flexibilidad temporal:** Cada bloque de locución tiene un identificador estable `[Bxx]` para facilitar la sincronización con el audio y las escenas en el editor.  
-> *Nota de adaptabilidad:* La cantidad de bloques y su duración deben calcularse en función de la **duración objetivo real del video** (ej. 1 min en Shorts, 8 min en divulgación o 20 min en un ensayo) y la velocidad de locución (~130 a 150 palabras por minuto). Los bloques y tiempos siguientes son un **ejemplo ilustrativo de referencia modular**: el agente puede añadir, dividir o consolidar bloques según el contenido, asegurando que no existan solapamientos de tiempo.
+> *Nota de adaptabilidad:* La cantidad de bloques y su duración deben calcularse en función de la **duración objetivo real del video** (ej. 1 min en Shorts, 8 min en divulgación o 20 min en un ensayo) y la velocidad de locución (~130 a 150 palabras por minuto). Los bloques y tiempos siguientes son un **ejemplo ilustrativo de referencia modular**: el agente puede añadir, dividir o consolidar bloques según el contenido, asegurando que no existan solapamientos de tiempo.  
+> **Pausas publicitarias naturales (Mid-rolls para videos > 8 min):** En videos de duración superior a 8 minutos, planificar 1 o 2 transiciones o pausas orgánicas entre bloques para insertar anuncios manuales en YouTube Studio sin cortar abruptamente la narración. Señalizar en la cabecera del bloque correspondiente con `[Pausa natural / Mid-roll sugerido: mm:ss]`.
 
 ### [B01_Dilema_BucleAbierto] — Tensión Inicial y Pregunta Irresistible
 - **Tiempo estimado (Ejemplo):** `00:00 - 00:15` (~15s)

@@ -61,7 +61,8 @@
 
 > *Los nombres concretos de proveedores que aparecían antes en esta tabla (Google Flow, Coverr, etc.) eran ejemplos; el flujo no depende de ellos (ver `AGENTS.md` §02.4).*
 
-> **Los timecodes de esta tabla no son ejemplos fijos.** Derivan del **guion aprobado en `02-guion.md`** y de la **locución real medida** (duración y pausas del audio grabado). Un ejemplo con números concretos se copia; un ejemplo con "← derivar" no. Antes esta tabla llevaba IDs y tiempos de la estructura previa (`[B01_Dilema]`, `00:00-00:08`), que no coincidían con el guion (`[B01_Dilema_BucleAbierto]`, `00:00-00:15`) y se propagaban como si fueran reales.
+> **Los timecodes de esta tabla no son ejemplos fijos.** Derivan del **guion aprobado en `02-guion.md`** y de la **locución real medida** (duración y pausas del audio grabado). Un ejemplo con números concretos se copia; un ejemplo con "← derivar" no. Antes esta tabla llevaba IDs y tiempos de la estructura previa (`[B01_Dilema]`, `00:00-00:08`), que no coincidían con el guion (`[B01_Dilema_BucleAbierto]`, `00:00-00:15`) y se propagaban como si fueran reales.  
+> **Pausas publicitarias para YouTube Studio (Mid-rolls en videos > 8 min):** Si el video supera los 8 minutos, registrar en la columna de timecodes o notas de transición los puntos exactos de respiro natural derivados de `02-guion.md` (ej. `[Mid-roll sugerido: 04:15]`). Esto permite ingresar directamente a YouTube Studio e insertar las pausas publicitarias manuales sin cortar frases ni arruinar la retención.
 
 ### 3.1 Generación con IA: pruebas preliminares e inspección del resultado real `[Política de Costo y Calidad]`
 
@@ -122,6 +123,8 @@ Para que el montaje se considere profesional (sea ejecutado con la herramienta d
 4. **Dinámica de Cuadro (*Pacing Visual*):**
    - [ ] En planos estáticos o imágenes fijas que duren **más de 5 segundos**, aplicar zooms continuos sutiles (*punch-ins* de escala 100% a 105% o paneo Ken Burns) para evitar sensación de foto congelada.
    - **Antes esta regla decía "más de 3 segundos" y la regla 1 decía "4 a 7".** Dos umbrales distintos y ninguno aplicable a todos los géneros; se unifican en 5 s como perfil por defecto, con la excepción justificada de la regla 1.
+5. **Pausas Naturales para Anuncios (Mid-Rolls en videos > 8 min):**
+   - [ ] En videos de duración superior a 8 minutos, asegurar que en los puntos de transición identificados en el guion se deje un respiro orgánico (fade out sutil de música, silencio breve de 0.5 a 1 s o cambio de plano limpio) y registrar los timecodes en esta orden de montaje para la inserción manual en YouTube Studio.
 
 ---
 

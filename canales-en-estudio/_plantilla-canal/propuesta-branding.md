@@ -27,11 +27,15 @@
   - [ ] **Etapa 3 (Backend Consolidado):** Embudo formal con productos propios, consultoría o membresías.
 
 - **Modelo de Monetización Proyectado:**
-  - [ ] **Monetización Publicitaria Pura:** (AdSense + Patrocinios por volumen de vistas).
-  - [ ] **Afiliación de Herramientas Recomendadas:** (Comisiones por recomendar libros, software o equipo).
-  - [ ] **Servicios / Consultoría / Agencia:** (Captación de clientes de alto valor).
+  - [ ] **Monetización Publicitaria Pura:** (AdSense con optimización de mid-rolls en videos >8 min + estacionalidad comercial en Q4/diciembre).
+  - [ ] **Afiliación de Herramientas Recomendadas:** (Comisiones por recomendar libros, software o equipo en descripción + mención verbal en locución).
+  - [ ] **Patrocinios de Marca (Sponsorships):** (Integraciones de 30-90s o videos dedicados; sujeto a due diligence previo: empresa real, representante verificado y producto confiable).
+  - [ ] **Servicios / Consultoría / Agencia:** (Captación de clientes de alto valor: 1-on-1, consultoría mensual o entregables estructurados).
   - [ ] **Software / SaaS propio:** (Demostraciones prácticas del software en acción).
-  - [ ] **Infoproductos / Plantillas / Formación:** (Venta de activos digitales o cursos).
+  - [ ] **Infoproductos / Plantillas / Formación:** (Venta de activos digitales, plantillas o cursos).
+
+- **Mitigación de Riesgo de Plataforma (Lista Propia):**
+  - ¿El canal construye lista de correo o comunidad independiente mediante recursos de valor? `[ ] Sí [ ] No (N/A en etapa inicial o puro entretenimiento)`
 
 - **Activo Insignia / Lead Magnet (*The Big Give* - Opcional según arquetipo/etapa):**  
   *(En canales de entretenimiento o en Etapa 1, indicar: `N/A - Foco en loop al siguiente video`. En canales de negocio/servicios maduros, definir la plantilla o recurso gratuito).*

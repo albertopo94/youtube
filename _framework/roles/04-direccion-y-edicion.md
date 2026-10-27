@@ -110,6 +110,11 @@ Un software de edición no es una simple pegadora de clips; un montaje sin pulid
 4. **Dinámica de Cuadro (*Punch-ins*):** En tomas que duren **más de 5 segundos**, aplicar reencuadres o zooms continuos sutiles (escala del 100% al 105% mediante keyframes de transformación en FilmCraft).
    - **Nota histórica:** antes esta regla decía "más de 3 segundos" y la regla 1 decía "4 a 7". Dos umbrales distintos; se unifican en 5 s como perfil por defecto.
 
+### Pausas Naturales para Anuncios (Mid-Rolls en Videos > 8 Minutos):
+- En videos de duración superior a 8 minutos (umbral de YouTube para habilitar anuncios intermedios), el montaje debe contemplar los puntos de interrupción natural señalados en `02-guion.md`.
+- El editor o agente deja un respiro orgánico (fade-out sutil de música, cambio de plano de respiro o pausa de 0.5 a 1 segundo) tras redondear un bloque temático, evitando cortes rectos acelerados en esos puntos.
+- El timecode sugerido se registra en `03-storyboard-y-edicion.md` para que, al momento de subir el master a YouTube Studio, se inserten las pausas publicitarias manuales con precisión de cirujano sin mutilar el flujo auditivo ni visual.
+
 ### Consistencia Visual y Libertad de Contraste Intencional:
 - **Línea base de coherencia:** Aplicar en los prompts visuales los 4 anclajes de estilo (medio visual, paleta cromática dominante, iluminación/óptica y nodo maestro del sujeto o entorno).
 - **Excepción creativa (Sin camisas de fuerza):** Se permite y promueve romper deliberadamente la coherencia estética si existe un objetivo narrativo consciente: un meme retro, un plano con estilo caricatura para causar risa, un corte a blanco y negro dramático o un contraste excéntrico deliberado.
