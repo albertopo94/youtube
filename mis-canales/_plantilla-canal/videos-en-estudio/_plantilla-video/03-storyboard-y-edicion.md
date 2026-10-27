@@ -86,6 +86,8 @@
 
 **Pruebas preliminares antes de lo definitivo:**
 - [ ] **Borradores en 480p:** Generar tandas de prueba en baja resolución / modo borrador para validar encuadre y dinamismo antes de renderizar la toma definitiva en 1080p.
+- [ ] **Aislamiento Acústico en Prompt:** En modelos de video con audio, incluir siempre *"environmental sound only, no music, no subtitles"* para evitar música quemada en pista única.
+- [ ] **Control de Iteraciones:** Limitar la edición Image-to-Image a un máximo de 2 pasadas consecutivas; si el fondo o personaje no encaja, resetear al prompt limpio consolidado.
 - [ ] **Solapamiento en Diálogo:** En planos consecutivos de conversación, repetir la última línea de la toma anterior al inicio de la siguiente para asegurar un margen de corte limpio en el montaje.
 - [ ] Comprobar si la herramienta elegida ofrece un modo de prueba económico (borrador, preview, baja resolución). **Nunca asumir que es gratuito:** registrar el costo real de la prueba en `04-registro-recursos.md`.
 - [ ] Si NO ofrece modo económico, valorar una alternativa: prueba más pequeña, una imagen fija animada mínimamente, un clip simplificado o validación manual del storyboard.
