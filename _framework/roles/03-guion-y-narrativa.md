@@ -227,6 +227,7 @@ Para trabajar de forma modular y económica con agentes de IA y herramientas de 
 - **Dinamismo auditivo:** Alternar frases cortas y contundentes con oraciones explicativas más fluidas para crear una cadencia atractiva.
 - **Pausas y respiración:** Utilizar puntos y comas bien calibrados para indicar pausas dramáticas o de respiro a la voz sintética.
 - **Términos técnicos:** Evitar encadenar palabras complejas o siglas sin explicarlas de inmediato.
+- **Regla de Identidad Sonora contra la "Voz Genérica de IA":** (Ingeniería Inversa Zack D. Films). En canales sin presentador a cámara (*faceless*), queda terminantemente desaconsejado utilizar las voces gratuitas estándar más trilladas de las bibliotecas de TTS (ej. voces estándar de CapCut o de biblioteca genérica). La audiencia detecta esas voces en los dos primeros segundos como "contenido automatizado de baja estofa" y desliza (*swipe away*). **Solución:** Priorizar la clonación de la propia voz del creador (conforme a las directrices de YouTube), o calibrar un modelo neuronal con una personalidad y entonación singulares que forjen la identidad sonora del canal.
 
 ### 4. La Regla de las 3 B's de Locución (MKBHD: Básico, Audaz, Breve)
 > **Origen:** Masterclass de YouTube 2025 (MKBHD & Jon Youshaei). ✅ **ADOPTADO.**

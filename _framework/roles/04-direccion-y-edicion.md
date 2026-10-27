@@ -57,6 +57,12 @@ En formatos verticales cortos (**YouTube Shorts**), rigen principios de dinamism
 - YouTube indica formalmente que las visualizaciones no dependen del intervalo de tiempo entre publicaciones `[Política Oficial YouTube]`. La prioridad es mantener un ritmo de producción sostenible y centrado en la calidad.
 - *Práctica experimental opcional:* Si un Short experimenta un pico viral atípico en tiempo real en YouTube Studio, el creador puede evaluar espaciar la siguiente subida para observar el comportamiento de la curva de audiencia de forma aislada.
 
+### 4. Estructura de Micro-Planos por Oración (*Sentence-to-Shot Planning*):
+> **Origen:** estudio de ingeniería inversa de Zack D. Films (`_framework/referencias/auditorias/estudio-fuente-zackdfilms-shorts-ia-2026-10-27.md`). ✅ **ADOPTADO.**
+- En Shorts explicativos, de curiosidades o misterio con alta retención, **cada oración individual del guion constituye un plano visual independiente**.
+- Quedan prohibidos los planos estáticos o pasivos de más de 3 segundos: cada frase introduce un nuevo ángulo, un plano detalle del objeto mencionado, un punch-in de zoom o una micro-sacudida de pantalla (*screen shake*) en el momento de la revelación o impacto verbal.
+- Esta correlación estricta entre frase y cambio visual sostiene la atención al milímetro y evita que el espectador deslice hacia arriba.
+
 ---
 
 ## 1. Conocer al Público Objetivo
