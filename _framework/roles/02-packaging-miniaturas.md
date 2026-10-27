@@ -107,6 +107,14 @@ Guía el ojo del espectador de inmediato a la zona crítica:
 - Contraste de luminosidad (Claro vs. Oscuro).
 - Separación de planos (iluminación perimetral, desenfoque de fondo).
 
+### Búsqueda de Referencias Visuales (Agnóstico de Herramientas):
+Antes de diseñar los 3 conceptos obligatorios, inspeccionar qué esquemas visuales, ángulos de cámara y paletas ya demostraron tracción en la plataforma:
+- **Vías de consulta sin coste:**
+  1. *Google Imágenes Handoff:* Usar la plantilla parametrizada del framework para localizar imágenes en alta resolución del sujeto o locación.
+  2. *Búsqueda en Incógnito:* Revisar las miniaturas de los 10 videos más vistos del tema para no repetir la misma composición genérica.
+  3. *Herramientas de Búsqueda Visual (si están disponibles):* Si el creador dispone de Viewstats (búsqueda conceptual de miniaturas) o utilidades similares, emplearlas para explorar cómo resuelven otros creadores el punto focal.
+- **Regla:** El framework **nunca depende de herramientas de pago** ($50/mes de Viewstats Pro o equivalentes). Se adopta la disciplina de estudiar la composición visual de referentes antes de generar, usando las vías gratuitas a disposición.
+
 ---
 
 ## 5. Análisis y Control de Calidad: Los Tests de Validación
