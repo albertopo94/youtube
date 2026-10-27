@@ -14,8 +14,8 @@ mantiene sus propias plantillas reducidas. Nunca se modifica un consumidor desde
 
 | Elemento | Valor |
 | :--- | :--- |
-| Revisión del framework usada para esta comparación | `v0.5.13-contextual-contract-checks` (`82da808`) |
-| Fecha de la comparación | 2026-10-23 |
+| Revisión del framework usada para esta comparación | `v0.6.0-directivas-editoriales-y-heuristicas` |
+| Fecha de la comparación | 2026-10-27 |
 | Última versión publicada | consultar `git describe --tags --abbrev=0`; esta tabla solo debe reescribirse cuando cambie una ruta consumida |
 
 Los hashes de la tabla de deriva siguen siendo válidos mientras no cambie el contenido de las
@@ -31,7 +31,7 @@ de las plantillas espejadas.
 | :--- | :--- |
 | Revisión del framework que consume | commit `f552339` (tag `v0.3.0-tercera-revision-externa`) |
 | Fecha de esa revisión | 2026-10-22 |
-| Estado de alineación | **Desalineado**: 6 de 7 plantillas espejadas tienen deriva |
+| Estado de alineación | **Desalineado**: 7 de 7 plantillas espejadas tienen deriva |
 | Trabajo de migración | Pendiente, en el repositorio del consumidor |
 
 ### Deriva de plantillas espejadas
@@ -41,11 +41,11 @@ Hash espejado por el consumidor frente al hash actual del framework.
 | Plantilla espejada en `youtube-shell` | Lock del consumidor | Framework actual | Estado |
 | :--- | :--- | :--- | :---: |
 | `pipeline-video/00-estado-produccion.md` | `f8814f68…` | `21a1b00a…` | **DERIVA** |
-| `pipeline-video/01-packaging.md` | `6821a1c4…` | `6821a1c4…` | igual |
-| `pipeline-video/02-guion.md` | `b6eb0079…` | `c5e92578…` | **DERIVA** |
-| `pipeline-video/03-storyboard-y-edicion.md` | `e194471b…` | `33b65e06…` | **DERIVA** |
+| `pipeline-video/01-packaging.md` | `6821a1c4…` | `a531f75f…` | **DERIVA** |
+| `pipeline-video/02-guion.md` | `b6eb0079…` | `7e221fd2…` | **DERIVA** |
+| `pipeline-video/03-storyboard-y-edicion.md` | `e194471b…` | `216d7a04…` | **DERIVA** |
 | `pipeline-video/04-registro-recursos.md` | `e9c9d571…` | `c8b02da1…` | **DERIVA** |
-| `pipeline-video/05-metricas-retencion.md` | `0c5ce4c0…` | `d7311758…` | **DERIVA** |
+| `pipeline-video/05-metricas-retencion.md` | `0c5ce4c0…` | `ca4b0453…` | **DERIVA** |
 | `pipeline-video/06-fuentes-y-verificacion.md` | `7aa4f46d…` | `122d3af2…` | **DERIVA** |
 
 ### Diferencias con efecto en el runtime del consumidor
