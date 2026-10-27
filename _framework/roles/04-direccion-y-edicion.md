@@ -135,6 +135,13 @@ Generar video con inteligencia artificial para escenas con múltiples personajes
 2. **Previsualizar el movimiento antes de generar en alta:** verificar la velocidad y trayectoria en modo borrador, baja resolución o animatic.
 3. **Planificar el corte antes de generar metraje innecesario:** saber exactamente cuántos segundos de la toma se usarán en el montaje final para no renderizar segundos vacíos.
 
+### Técnicas Avanzadas de Render, Textura y Continuidad en IA:
+> **Origen:** estudio de fuente 9 de video con IA (`_framework/referencias/auditorias/estudio-fuente-9-video-ia-2026-10-27.md`). ✅ **ADOPTADO.**
+- **La Regla de Borradores en 480p antes de Renderizar en 1080p:** Correr las tandas de exploración en baja resolución / modo borrador (480p) para validar encuadre, composición y dinamismo de cámara sin quemar créditos de GPU. Solo la toma ganadora seleccionada se renderiza en alta resolución (1080p).
+- **Texturizado Secundario contra la "Piel de Plástico" (*Poros, no Parches*):** Si la IA genera rostros encerados o cabello artificial sin volumen, inyectar referencias secundarias de textura orgánica (fotografías macro de poros de piel real, mechones de pelo natural y tejido de telas) para transferir micro-detalle táctil a la superficie del personaje.
+- **Solapamiento de Diálogo para Empalme de Tomas (*Dialogue Overlap*):** Al encadenar dos generaciones continuas de una conversación de IA, repetir la última línea de diálogo de la toma anterior al inicio del prompt de la siguiente. Esto genera 1 a 2 segundos de solapamiento de audio y movimiento labial que otorga margen al editor para elegir el punto de corte exacto sin frases truncadas.
+- **Asignación de Micro-Tareas para Multitudes:** Al generar escenas con extras o público de fondo, asignar una acción diferenciada a cada grupo en el prompt (unos conversan con sus tragos, otros bailan de frente, otros caminan) para evitar que la IA los mueva sincronizados como robots.
+
 ---
 
 ## 4. Coherencia entre Packaging y Estilo de Edición (La Ley de la Fricción)
@@ -223,6 +230,7 @@ Para audiencias sofisticadas, profesionales o de aprendizaje real, los memes hip
   - *Cortes rectos (Hard cuts):* Limpios, pero no recomendados si el ritmo o los elementos cambian de forma drástica.
   - *Cortes en J y cortes en L:* El audio entra antes que el video o viceversa, suavizando la transición narrativa.
   - *Cortes de coincidencia (Match cuts):* Continuidad de forma o movimiento entre dos tomas distintas.
+  - *Ocultamiento de Cortes en Barridos Rápidos (Whip Pan / Motion Masking):* En secuencias de acción o peleas con IA, terminar la toma anterior con un movimiento lateral veloz (barrido de cámara o giro del sujeto) e iniciar la siguiente con el mismo impulso. El desenfoque de movimiento (*motion blur*) camufla de forma imperceptible la costura entre dos generaciones de video distintas.
   - *Transiciones activas:* Dissolves, crossfades, slides, whip pans (usarlas con moderación y justificación).
 - **Fricción Visual:** Prestar atención al cambio del punto focal entre escenas continuas. Si el punto focal pasa de la esquina superior izquierda a la esquina inferior derecha bruscamente, fatiga la vista del espectador. Usar técnicas de transición que den tiempo al ojo para adaptarse.
 - **Cuidado con los microgaps:** Espacios vacíos o fotogramas negros no intencionados entre el final de un clip y el siguiente.
