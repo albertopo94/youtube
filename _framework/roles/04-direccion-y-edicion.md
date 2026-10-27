@@ -98,6 +98,11 @@ Generar video con inteligencia artificial para escenas con múltiples personajes
    - Descomponer la secuencia de acción en *beats* físicos atómicos aislados (desplazamiento, frenada, lanzamiento, impacto, caída diferida).
    - La utilería dinámica (un objeto arrojado, arma o proyectil) debe tratarse con su propia trayectoria independiente; evitar exigirle a la IA que coordine lanzamiento, trayectoria, impacto y caída de oponentes en un solo prompt monolítico sin control de capas.
 
+### El Mapa Cenital de Bloqueo Espacial (*Overhead Blueprint*):
+> **Origen:** estudio de fuente 2 de video con IA (`_framework/referencias/auditorias/estudio-fuente-2-video-ia-2026-10-27.md`). ✅ **ADOPTADO.**
+- Para escenas grupales o entornos con múltiples elementos (reuniones en mesa, fogatas, vehículos, talleres), generar previamente una **vista aérea cenital completa (*high overhead angle*)** que capture la disposición de todos los personajes y objetos.
+- Esta captura cenital se utiliza como imagen de referencia de composición espacial maestra para todos los planos cerrados individuales, reduciendo drásticamente las alucinaciones del modelo en la geometría de los fondos y los fondos cambiantes.
+
 ### La Regla de los Tres Pasos contra el Desperdicio de Créditos de IA:
 1. **Comprobar la imagen fija antes de animar:** validar proporciones, manos, vestimenta y encuadre antes de pedir video.
 2. **Previsualizar el movimiento antes de generar en alta:** verificar la velocidad y trayectoria en modo borrador, baja resolución o animatic.
@@ -209,6 +214,12 @@ Hace que los videos se recuerden, comenten y compartan:
    - Los SFX deben sumergir al espectador sin saturar: cada efecto sonoro debe estar justificado.
 3. **Pacing (Ritmo):**
    - El ritmo puede ser veloz o pausado, pero **la verdadera magia radica en el contraste** entre secciones rápidas y momentos de respiro.
+4. **Técnicas Clásicas de Tensión y Retención Cinematográfica (Hitchcock & Dean Cundey):**
+   > **Origen:** estudio de fuente 2 de video con IA. ✅ **ADOPTADO.**
+   - *Espacio de Acecho (Lurking Space):* En escenas de misterio o tensión, iluminar al sujeto dejando zonas de sombra o penumbra perimetral alrededor. El cerebro del espectador asume instintivamente que algo puede ocultarse en la oscuridad, disparando la alerta sin artificios baratos.
+   - *La Bomba bajo la Mesa (Hitchcock):* Revelar una amenaza, anomalía o dato inquietante al espectador antes de que los personajes en pantalla lo descubran. Conocer el peligro transforma una conversación cotidiana en una secuencia de tensión irresistible.
+   - *Mirada Fuera de Cuadro (Off-Screen Gaze):* Hacer que el sujeto mire fijamente hacia afuera del encuadre antes de cortar. Su mirada abre un bucle de curiosidad urgente que solo se cierra al revelar qué ve en el plano siguiente.
+   - *Impacto por Salto Abrupto de Escala:* En revelaciones o remates dramáticos, pasar bruscamente de un plano medio a un primerísimo plano que llene el encuadre. La sorpresa no depende del diseño del sujeto, sino del cambio repentino en la distancia visual.
 
 ---
 

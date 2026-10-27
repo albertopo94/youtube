@@ -74,6 +74,7 @@
 3. *Planificar el corte antes de generar metraje innecesario:* Determinar los segundos exactos necesarios en el timeline para no renderizar segundos vacíos de pago.
 
 **Clasificación de Escenas y Continuidad Espacial (Escalera de 5 Niveles — ver rol 04 §3):**
+- [ ] **Mapa Cenital de Bloqueo:** En escenas grupales o entornos con varios elementos, ¿se fijó una vista aérea cenital como referencia espacial matriz para los tiros de cámara individuales?
 - [ ] **Nivel 1 (Diálogo Estático):** Ejes de mirada (*eyelines*) correspondientes en plano/contraplano e inserts de utilería generados como puntos de fuga para cortes limpios.
 - [ ] **Nivel 2 (Diálogo en Movimiento):** Aprovechar fondos de textura repetitiva (bosque, playa, niebla, desierto) donde las micro-inconsistencias de fondo no distraen.
 - [ ] **Nivel 3 (Plano Secuencia Multi-Personaje):** Mapeo explícito mediante stand-ins coloreados (Azul = P1, Naranja = P2) en prompt y separación de trayectoria de cámara vs. punto de mirada (*target*).
