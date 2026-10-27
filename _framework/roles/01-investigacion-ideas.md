@@ -274,3 +274,43 @@ La tabla de mercados de `_framework/estrategia-idiomas.md` (Español, Inglés, H
 5. **Qué idea original podría desarrollarse** a partir de ello.
 
 **Límite ético y editorial:** la inspiración es un punto de partida, **no una autorización para copiar** el concepto, el título o la ejecución de otro creador. Lo transplantable es la *estructura* (§4), nunca el empaque literal ni las métricas ajenas como promesa.
+
+---
+
+## 11. Heurística de Capitalización de Interés (*Market Cap of Interest*)
+
+> **Origen:** estudio de fuente 2 (MrBeast), capítulo 12. ✅ **ADOPTADO.**
+
+Cuando se debe decidir entre dos o más entidades, temas o sujetos competidores parecidos (ej. Lamborghini vs. Ferrari, una fruta vs. otra, dos retos similares), **no se elige por intuición ni por el primer dato que aparezca**. Se compara el **volumen agregado de búsquedas y vistas históricas** que acumulan esos términos en YouTube.
+
+**Protocolo de decisión:**
+1. Identificar las entidades candidatas que compiten por el mismo espacio temático.
+2. Consultar el volumen de demanda histórica acumulado de cada una (búsquedas + vistas totales en YouTube, no solo el canal propio).
+3. **Regla de decisión por orden de magnitud:** si una entidad tiene un orden de magnitud superior de atracción comprobada (ej. 100B vs. 500M de vistas históricas), **se elige esa entidad** para el título o el sujeto del video.
+4. **Si la diferencia es nominal o no significativa,** la decisión se toma por intuición, contexto de audiencia o criterio creativo del canal.
+
+**Por qué importa:** elegir la entidad con mayor masa crítica de interés no es solo un detalle de packaging. Una diferencia de un orden de magnitud en demanda preexistente se traduce directamente en más impresiones iniciales, mayor alcance del algoritmo y, al final, más vistas. Es una de las palancas de mayor impacto con coste cero.
+
+**Límite:** esta heurística aplica cuando la diferencia es **significativa** (orden de magnitud). No es una fórmula mágica: si dos temas tienen masas críticas similares, el criterio creativo y la alineación con el canal prevalecen.
+
+---
+
+## 12. Regla de Retirada de Formato (*Format Fatigue*)
+
+> **Origen:** estudio de fuente 2 (MrBeast), capítulo 6. ✅ **ADOPTADO.**
+
+Los formatos y series tienen una **vida útil finita**. Continuar empujando un formato que ya demostró su techo genera fatiga de audiencia, encasillamiento del canal y degradación de la retención general.
+
+**Protocolo de gestión de formatos:**
+1. **Tope máximo de entregas por serie:** planificar de antemano un número máximo de episodios (ej. 3-5 para series cortas, 8-10 para formatos extendidos). No hay series infinitas.
+2. **Espaciado en el calendario:** no apretar episodios consecutivos. Espaciar las entregas (semanas o meses entre ellas) mantiene la novedad y evita que la audiencia prevea cada paso.
+3. **Retirada en el pico de rendimiento:** cuando el formato alcanza su máximo de rendimiento (CTR, retención y vistas), **se retira voluntariamente** antes de que los datos empiecen a bajar. No esperar a que la audiencia lo abandone; retirar con dignidad protege el capital de atención del canal.
+4. **Rotación activa:** una vez retirado un formato, el canal introduce uno nuevo o variantes frescas para mantener la percepción de renovación.
+
+**Señales de retirada temprana (no esperar a que fallen):**
+- El CTR del mismo formato empieza a bajar consistentemente entre entregas.
+- Los comentarios muestran repetición ("otro video más de lo mismo").
+- La retención media cae porque el espectador ya conoce el desenlace antes de empezar.
+- El canal empieza a encasillarse en el feed (algoritmo asociando el canal a un solo tipo de contenido).
+
+**Equilibrio:** esta regla no justifica cancelar un formato que aún crece. La retirada es **estratégica y basada en datos**, no caprichosa.

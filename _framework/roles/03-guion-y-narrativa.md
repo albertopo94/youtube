@@ -60,6 +60,14 @@ Se aprueba **antes de cerrar guion y storyboard**, respondiendo por escrito:
 
 **Es una prueba editorial, no una orden de que el primer plano replique literalmente la miniatura.** El género puede exigir otra apertura (inmersión atmosférica en relax/ficción, demostración directa en tutorial). **Las ventanas temporales de la tabla son referencias, no una regla idéntica para todo video:** un Short se evalúa desde el segundo cero y un ensayo largo en su propia ventana; la métrica de "retención a los 30 s" es un indicador documentado de long-form y **no se traslada mecánicamente a Shorts** (cuya señal propia es *viewed vs swiped*). Lo que no se admite es que la apertura no tenga relación con lo que se vendió, o que se demore en decirlo según el estándar del propio formato.
 
+### Puerta de Protección de la Satisfacción Acumulada `[Puerta Obligatoria]`
+
+> **Origen:** estudio de fuente 2 (MrBeast), capítulo 13. ✅ **ADOPTADO.**
+
+- **El CTR genera la primera visita; la satisfacción acumulada genera las siguientes cincuenta.**
+- Si un espectador hace clic en 5 videos y queda decepcionado por promesas infladas, artificios vacíos o payoffs mediocres, en el sexto video preferirá a un competidor aunque el empaque sea impecable.
+- **Comprobación obligatoria en el guion:** ¿El desenlace o payoff del video cumple y **supera** la promesa inicial del título? ¿Aporta una conclusión o beneficio transformador en vez de un listicle superficial de relleno? Si la respuesta es no, el guion debe reescribirse antes de avanzar a la locución.
+
 ### Puerta de Seguridad YMYL: Linter de Léxico Prohibido y Matización Científica
 *(Aplicable a canales de Ciencia, Salud, Nutrición, Finanzas y Noticias - Ver `_framework/contingencia-y-politicas-sensibles.md`)*:
 - **Carga de la Prueba:** Prohibido redactar una afirmación fáctica en el guion sin su respectivo DOI o fuente primaria registrada en `06-fuentes-y-verificacion.md`.
@@ -283,6 +291,11 @@ Para trabajar de forma modular y económica con agentes de IA y herramientas de 
 - **Etapa 3: Backend Propio (Consolidación):**
   - Solo cuando el canal tiene tracción real y audiencia recurrente, se construyen recursos descargables, productos o servicios.
 
+#### Advertencia contra el Backend Prematuro (Filtro Anti-CPG / Negocio Pesado):
+> **Origen:** estudio de fuente 2 (MrBeast), capítulo 24. ✅ **ADOPTADO.**
+- No apresurarse a crear productos físicos complejos, líneas de mercancía o negocios pesados paralelos en las etapas iniciales o intermedias del canal.
+- El costo de oportunidad de descuidar el contenido para gestionar inventarios, logística o empresas nacientes suele destruir el alcance del canal. Para la gran mayoría de los canales, los acuerdos de marca limpios y los enlaces de afiliación bien contextualizados ofrecen un retorno financiero superior con una fracción de la complejidad operativa.
+
 ---
 
 ### 4. Protocolo Operativo de Enlaces, Afiliados y Patrocinios en Guion
@@ -297,4 +310,17 @@ Para trabajar de forma modular y económica con agentes de IA y herramientas de 
 - **Diseño de Puntos de Interrupción Orgánicos:** En videos de formato largo (>8 min), el guion debe planificar conscientemente 1 o 2 momentos de respiro o transición temática entre bloques (tras redondear una idea o resolver una tensión parcial) y marcarlos explícitamente:
   `[Pausa natural / Mid-roll sugerido: mm:ss]`
 - **Propósito Editorial:** Evitar que el sistema de inserción automática de YouTube corte el video en medio de una frase o en el clímax de una revelación. Definir las pausas de forma manual en YouTube Studio sobre puntos de transición natural protege la retención y la experiencia del espectador mientras optimiza la monetización por AdSense.
+
+---
+
+## 7. Doctrina "Copiar con Gusto" vs. Imitación Estilística Superficial (Remix & Elevate)
+
+> **Origen:** estudio de fuente 2 (MrBeast), capítulo 4. ✅ **ADOPTADO.**
+
+Inspirarse en la estructura de un formato, reto o premisa viral (*outlier*) **no autoriza a imitar superficialmente el estilo de edición, el ritmo frenético ni el tono de otro creador**.
+
+- **La regla de Jimmy:** *"Si la audiencia quisiera ver el estilo de MrBeast, vería mi video. No necesitamos a alguien más haciendo mis videos con menos presupuesto y esfuerzo; necesitamos gente haciendo su versión con su propio giro y gusto."*
+- **El modelo Ryan Trahan:** Tomar la premisa estructural (ej. viajar con presupuesto limitado o comparar lugares), pero ejecutarla con la propia voz: ritmo pausado, silencios, humor sutil y personalidad propia.
+- **Directiva:** Al trasponer una idea, adoptar el conflicto estructural y la brecha de curiosidad; adaptar el ritmo, la velocidad de corte y la narrativa a la identidad del canal.
+
 

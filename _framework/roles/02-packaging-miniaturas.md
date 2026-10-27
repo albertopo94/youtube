@@ -99,6 +99,7 @@ Todos los elementos que componen la pieza (personas, iconos, gráficos, fondos, 
 ### 2. Composition (Composición)
 - **Simétrica:** Personaje o punto focal en el centro exacto, con lados izquierdo y derecho equilibrados.
 - **Asimétrica:** Aplica la regla de los tercios para generar dinamismo y espacio negativo.
+- **Pantalla Dividida (*Split-Screen*):** División nítida del cuadro en dos mitades (vertical o diagonal) para comparaciones extremas ($1 vs $1.000.000, antes vs. después, expectativa vs. realidad). Maximiza el contraste cognitivo inmediato en una sola fracción de segundo.
 
 ### 3. Contrast (Contraste)
 Guía el ojo del espectador de inmediato a la zona crítica:
@@ -108,11 +109,12 @@ Guía el ojo del espectador de inmediato a la zona crítica:
 
 ---
 
-## 5. Análisis y Control de Calidad: Los 3 Tests
-Antes de dar por buena una miniatura, debe superar 3 pruebas:
+## 5. Análisis y Control de Calidad: Los Tests de Validación
+Antes de dar por buena una miniatura, debe superar 4 pruebas:
 1. **The Clarity Test:** ¿Se entiende perfectamente en la vista más pequeña (ej. barra lateral de sugeridos en móvil)? ¿Se lee cada palabra sin esfuerzo? ¿Es identificable cada objeto?
 2. **The Contrast Test:** ¿Destaca entre la multitud? Colocar la miniatura en medio de miniaturas de competidores directos y verificar si interrumpe el patrón de scroll.
 3. **The Glance Test:** Mostrársela a otra persona durante 1-2 segundos. Si no puede decir de qué va o qué le generó curiosidad, debe rediseñarse.
+4. **The Verisimilitude Test (Boceto vs. Render Final):** Muchas miniaturas se ven potentes en el boceto conceptual pero pierden impacto o verosimilitud al fotografiarse o renderizarse. Verificar que la pieza definitiva conserve la tensión visual y no se vea artificial, plástica ni deslucida frente al concepto aprobado.
 
 ---
 
@@ -131,3 +133,23 @@ Para cada video se desarrollan **hasta 3 conceptos de miniatura independientes**
    - El CTR fluctúa drásticamente según el origen de las impresiones (sugeridos, búsqueda, notificaciones o página de inicio).
    - En canales nuevos no existe una media histórica fiable contra la cual contrastar.
    - Acumular evidencia estadística suficiente antes de sacar conclusiones o intervenir manualmente. Solo si no se dispone de la herramienta nativa se evaluará un reemplazo planificado tras varios días y con volumen de impresiones significativo.
+
+### Estrategia A/B en Dos Tiempos y Rendimientos Decrecientes:
+- **Fase 1 (Macrocambios):** Probar conceptos visuales radicalmente distintos (cambio de ángulo, escenario de fondo o premisa narrativa diferente).
+- **Fase 2 (Microcambios posteriores):** Una vez que una variante gana claramente, si se optimiza a futuro en catálogo antiguo o pruebas avanzadas, ajustar micro-elementos (recorte del sujeto, texto secundario o saturación de acentos).
+- **Ley de Rendimientos Decrecientes:** Evitar la obsesión infinita con micro-variaciones. Alcanzado un resultado sólido, el mayor retorno de tiempo y esfuerzo proviene de volcar la energía en la producción del siguiente video en cola.
+
+---
+
+## 7. Protocolo Operativo Thumbnail Shoot Day (Sesión en Lote para A-Roll)
+
+> **Origen:** estudio de fuente 2 (MrBeast), capítulos 1 y 20. 🟡 **ADAPTADO.**
+
+Para canales con presentador físico o secuencias A-Roll, improvisar sesiones de fotos al final de cada rodaje desgasta al creador y produce poses cansadas o iluminación descuidada.
+
+**Protocolo en lote:**
+1. **Sesión periódica concentrada (~1 hora):** Reservar un bloque mensual dedicado exclusivamente a fotografiar expresiones (sorpresa, intriga, desafío, escepticismo, alegría), miradas en distintos ángulos y gestos clave con iluminación limpia y uniforme.
+2. **Vestimenta neutra o de contraste:** Utilizar ropa neutra o colores sólidos que faciliten el recorte (*cutout*) y el etalonaje digital posterior.
+3. **Banco de recortes (*Cutouts Bank*):** Guardar los assets recortados en alta resolución en la carpeta de recursos del canal.
+4. **Montaje desacoplado:** Al producir cada video, el empaque se ensambla modularmente combinando los recortes existentes con fondos e infografías diseñados de antemano, reduciendo el tiempo de sesión por video a cero.
+

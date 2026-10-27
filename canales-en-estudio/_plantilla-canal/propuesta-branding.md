@@ -21,6 +21,10 @@
   - [ ] **Pasión / Hobby / Cultura / Práctico:** (Foco en comunidad, afiliados de herramientas/libros recomendados y AdSense).
   - [ ] **Autoridad / Negocio / Servicios / B2B:** (Foco en posicionar autoridad y captar clientes cualificados).
 
+- **Dependencia Operativa del Canal:**
+  - [ ] **Canal de Sistema / Marca (Faceless / Despersonalizado):** La producción audiovisual, guionado y montaje operan por procesos desacoplados del tiempo físico del creador. Riesgo operativo bajo y alta delegabilidad.
+  - [ ] **Canal Centrado en Creador (A-Roll / Presentador):** El creador es el rostro en cámara. Exige aplicar el *Thumbnail Shoot Day* y dirección de arte/vestimenta temática para no convertir al creador en el cuello de botella físico de la producción.
+
 - **Etapa de Desarrollo del Canal:**
   - [ ] **Etapa 1 (Validación y Tracción Inicial - Primeros 10-20 videos):** *Sin backend ni embudos*. El único objetivo es descubrir qué temas funcionan y alimentar el algoritmo conectando cada video con el siguiente.
   - [ ] **Etapa 2 (Monetización Blanda):** Activación de AdSense y enlaces de afiliados limpios en descripciones.
@@ -32,7 +36,8 @@
   - [ ] **Patrocinios de Marca (Sponsorships):** (Integraciones de 30-90s o videos dedicados; sujeto a due diligence previo: empresa real, representante verificado y producto confiable).
   - [ ] **Servicios / Consultoría / Agencia:** (Captación de clientes de alto valor: 1-on-1, consultoría mensual o entregables estructurados).
   - [ ] **Software / SaaS propio:** (Demostraciones prácticas del software en acción).
-  - [ ] **Infoproductos / Plantillas / Formación:** (Venta de activos digitales, plantillas o cursos).
+  - [ ] **Infoproductos / Plantillas / Formación:** (Venta de activos digitales, plantillas o cursos).  
+    *(⚠️ Filtro anti-backend prematuro: desaconsejado en etapas 1 y 2; el costo de oportunidad de descuidar el canal por un negocio paralelo temprano destruye el alcance).*
 
 - **Mitigación de Riesgo de Plataforma (Lista Propia):**
   - ¿El canal construye lista de correo o comunidad independiente mediante recursos de valor? `[ ] Sí [ ] No (N/A en etapa inicial o puro entretenimiento)`

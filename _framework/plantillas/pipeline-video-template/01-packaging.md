@@ -66,4 +66,6 @@
 - [ ] **Clarity Test:** ¿Legible y comprensible en tamaño reducido?
 - [ ] **Contrast Test:** ¿Destaca entre miniaturas de la competencia directa?
 - [ ] **Glance Test:** ¿Se entiende el gancho en menos de 2 segundos?
+- [ ] **Verisimilitude Test (Boceto vs. Render Final):** ¿La miniatura final terminada conserva la fuerza y el impacto del concepto/boceto aprobado sin verse plástica, artificial ni deslucida?
+- [ ] **A/B Macrocambios:** ¿Las variantes A, B y C exploran conceptos visuales radicalmente distintos (ángulo, fondo o premisa diferente) evitando micro-variaciones prematuras?
 - [ ] **TV Friendly:** ¿Elementos principales ubicados en o desde la parte superior?

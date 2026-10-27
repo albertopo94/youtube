@@ -90,6 +90,7 @@ Un software de edición no es una simple pegadora de clips; un montaje sin pulid
 1. **Regla de Pacing Visual ( perfil por defecto, con excepción justificada):**
    - ❌ **Prohibida la "mentalidad de diapositiva de PowerPoint":** por defecto, **ningún plano estático puede permanecer en pantalla más de 5 segundos sin una variación visual** (corte a nuevo plano, detalle B-roll, punch-in de escala 100% a 105%, o aparición escalonada de textos).
    - **Excepción que paga peaje:** si el formato lo justifica, se puede extender el plano. La extensión **paga peaje**: se escribe en esta tabla una línea de **propósito creativo** (ej. "bloque de payoff emocional; la quietud es el recurso").
+   - **Excepción por Empatía Narrativa Comprobada:** (Estudio MrBeast Cap. 25). Una toma o diálogo continuo de 10 a 15 segundos puede sostenerse sin cortes continuos **únicamente si el espectador ya conectó emocionalmente con la personalidad o el conflicto del personaje**. Si el sujeto es desconocido o neutro, la retención se desploma; si el personaje ya fue establecido y el diálogo aporta valor real, la quietud y el plano extendido fortalecen la inmersión en lugar de aburrir.
    - **Prohibido:** "se me ocurrió así", "lo dejé como está" o cualquier extensión sin una frase de propósito. La justificación se evalúa en la misma escena que el plano.
    - **No es universal:** videos Music-First / ambient, ensayos contemplativos o explicaciones lentas pueden tener planos más largos con justificación; el umbral de 5 s es el perfil por defecto, no una ley para todos los géneros.
    - Cubrir un bloque narrativo de 40 o 60 segundos con una sola imagen congelada destruye la retención del espectador.
@@ -118,6 +119,11 @@ Un software de edición no es una simple pegadora de clips; un montaje sin pulid
 ### Consistencia Visual y Libertad de Contraste Intencional:
 - **Línea base de coherencia:** Aplicar en los prompts visuales los 4 anclajes de estilo (medio visual, paleta cromática dominante, iluminación/óptica y nodo maestro del sujeto o entorno).
 - **Excepción creativa (Sin camisas de fuerza):** Se permite y promueve romper deliberadamente la coherencia estética si existe un objetivo narrativo consciente: un meme retro, un plano con estilo caricatura para causar risa, un corte a blanco y negro dramático o un contraste excéntrico deliberado.
+
+### Regla de Vestimenta e Inmersión del Presentador (A-Roll):
+> **Origen:** estudio de fuente 2 (MrBeast), capítulo 25. ✅ **ADOPTADO.**
+- En canales donde el presentador o los sujetos aparecen físicamente en cámara (A-Roll), la vestimenta **no debe ser una ocurrencia improvisada**.
+- Utilizar ropa temática o un atuendo alineado intencionalmente con el universo del video (ej. traje en temas de rigor analítico, ropa de aventura en retos de campo, atuendo funcional de taller en procesos manuales) eleva de inmediato el valor de producción percibido, elimina el aspecto amateur y sumerge al espectador en la atmósfera del relato sin romper la inmersión.
 
 ---
 
