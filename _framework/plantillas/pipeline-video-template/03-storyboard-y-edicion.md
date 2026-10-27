@@ -66,7 +66,19 @@
 
 ### 3.1 Generación con IA: pruebas preliminares e inspección del resultado real `[Política de Costo y Calidad]`
 
-> **Origen:** revisión externa 4 (`_framework/referencias/auditorias/revision-externa-4-2026-10-22.md`). Agnóstico de herramientas: se aplica cuando se generen recursos definitivos de pago con IA, con la plataforma que el creador tenga disponible.
+> **Origen:** revisión externa 4 (`_framework/referencias/auditorias/revision-externa-4-2026-10-22.md`) y estudio de dirección cinematográfica con IA (`_framework/referencias/auditorias/estudio-fuente-1-video-ia-2026-10-27.md`). Agnóstico de herramientas: se aplica cuando se generen recursos con IA, con la plataforma que el creador tenga disponible.
+
+**La Regla de los Tres Pasos contra el Desperdicio de Créditos:**
+1. *Comprobar la imagen fija antes de animar:* Validar anatomía, proporciones, vestimenta y encuadre en estático antes de solicitar video. Si no funciona en foto fija, no funcionará en movimiento.
+2. *Previsualizar el movimiento antes de renderizar en alta:* Probar velocidad, trayectoria y encuadre en baja resolución, modo borrador o animatic.
+3. *Planificar el corte antes de generar metraje innecesario:* Determinar los segundos exactos necesarios en el timeline para no renderizar segundos vacíos de pago.
+
+**Clasificación de Escenas y Continuidad Espacial (Escalera de 5 Niveles — ver rol 04 §3):**
+- [ ] **Nivel 1 (Diálogo Estático):** Ejes de mirada (*eyelines*) correspondientes en plano/contraplano e inserts de utilería generados como puntos de fuga para cortes limpios.
+- [ ] **Nivel 2 (Diálogo en Movimiento):** Aprovechar fondos de textura repetitiva (bosque, playa, niebla, desierto) donde las micro-inconsistencias de fondo no distraen.
+- [ ] **Nivel 3 (Plano Secuencia Multi-Personaje):** Mapeo explícito mediante stand-ins coloreados (Azul = P1, Naranja = P2) en prompt y separación de trayectoria de cámara vs. punto de mirada (*target*).
+- [ ] **Nivel 4 (Cobertura Multicámara Fija):** Cobertura coordinada de 4 o 5 ángulos editados y sincronizados en baja fidelidad antes del render final.
+- [ ] **Nivel 5 (Acción Compleja):** Desglose en *beats* físicos atómicos y seguimiento independiente de utilería arrojada o dinámica.
 
 **Pruebas preliminares antes de lo definitivo:**
 - [ ] Comprobar si la herramienta elegida ofrece un modo de prueba económico (borrador, preview, baja resolución). **Nunca asumir que es gratuito:** registrar el costo real de la prueba en `04-registro-recursos.md`.

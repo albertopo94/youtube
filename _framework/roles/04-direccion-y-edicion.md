@@ -74,7 +74,38 @@ Toda secuencia sólida de video se apoya en 3 momentos clave que a su vez ayudan
 
 ---
 
-## 3. Coherencia entre Packaging y Estilo de Edición (La Ley de la Fricción)
+## 3. Dirección Cinematográfica de Escenas con IA: La Escalera de 5 Niveles y Continuidad Espacial
+
+> **Origen:** estudio de fuente 1 (`_framework/referencias/auditorias/estudio-fuente-1-video-ia-2026-10-27.md`). Metodología agnóstica de software: aplicable tanto en entornos 3D/canvas nodal (Flick, Google Flow) como en storyboards tradicionales y generadores de video (Seedance, Runway, Luma, Kling, Sora). ✅ **ADOPTADO.**
+
+Generar video con inteligencia artificial para escenas con múltiples personajes o interacción física sin planificación espacial produce deformaciones anatómicas, fusión de rostros, intercambio de ropas y cámaras erráticas. El agente y el creador deben clasificar cada plano o secuencia en su nivel de complejidad correspondiente antes de generar:
+
+### La Escalera de Complejidad en 5 Niveles:
+1. **Nivel 1 (Diálogo Estático entre 2 Personajes):**
+   - *Puesta en escena (Staging):* Crear primero un plano general que fije la posición física de ambos personajes en el espacio (ej. quién está en el banco de trabajo y quién en la puerta).
+   - *Ejes de mirada (Eyelines):* En los planos individuales (plano y contraplano), comprobar que las líneas de mirada se correspondan en el ángulo correcto sin quebrar el eje de 180°.
+   - *Inserts de utilería como puntos de corte:* Generar planos detalle de objetos que intervienen en la conversación (un documento, una moneda, una herramienta o una bebida). Estos inserts funcionan como salvavidas en el montaje: permiten cortar limpiamente entre ambos personajes disimulando cualquier salto de continuidad o fallo de sincronización labial.
+   - *Regla de oro de foto fija:* Montar las imágenes fijas en la línea de tiempo **antes** de animar. Si el espacio o las miradas no funcionan en estático, corregir la imagen primero; animar una composición defectuosa solo quema créditos de GPU.
+2. **Nivel 2 (Diálogo en Movimiento / Walking Dialogue):**
+   - *Heurística de texturas repetitivas:* Al filmar personajes caminando o desplazándose, situar la acción en entornos naturales o abiertos con textura uniforme (bosque con niebla, dunas, desierto, sendero rural o playa). Al carecer de puntos de referencia arquitectónicos rígidos, las pequeñas inconsistencias de fondo generadas por la IA pasan completamente desapercibidas para el ojo humano.
+3. **Nivel 3 (Plano Secuencia / Multi-Character Long Take):**
+   - *Técnica de Stand-Ins Coloreados (Mapeo de Identidad):* En escenas con 3 o más personajes, utilizar siluetas o maniquíes de colores primarios puros en el boceto de referencia o mockup (Azul = Personaje 1, Naranja = Personaje 2, Púrpura = Personaje 3). En el prompt se declara el mapeo espacial explícito (*"la figura azul corresponde a la hoja de personaje A; la figura naranja al personaje B"*), impidiendo que la IA mezcle los rostros o fusione vestimentas.
+   - *Separación de trayectoria y objetivo de cámara:* Definir la ruta física de la cámara de forma independiente al punto hacia donde mira (*camera target*), permitiendo encuadrar a la altura de los ojos en lugar de apuntar mecánicamente hacia el suelo.
+4. **Nivel 4 (Cobertura Multicámara Fija):**
+   - Cubrir una misma acción desde 4 o 5 ángulos coordinados (plano abierto de conjunto, plano detalle de mesa, plano frontal de reacción y contrapicado bajo).
+   - Sincronizar y cortar los ángulos en baja resolución o animatic antes de solicitar el renderizado final en alta fidelidad.
+5. **Nivel 5 (Acción Compleja con Cámaras Móviles):**
+   - Descomponer la secuencia de acción en *beats* físicos atómicos aislados (desplazamiento, frenada, lanzamiento, impacto, caída diferida).
+   - La utilería dinámica (un objeto arrojado, arma o proyectil) debe tratarse con su propia trayectoria independiente; evitar exigirle a la IA que coordine lanzamiento, trayectoria, impacto y caída de oponentes en un solo prompt monolítico sin control de capas.
+
+### La Regla de los Tres Pasos contra el Desperdicio de Créditos de IA:
+1. **Comprobar la imagen fija antes de animar:** validar proporciones, manos, vestimenta y encuadre antes de pedir video.
+2. **Previsualizar el movimiento antes de generar en alta:** verificar la velocidad y trayectoria en modo borrador, baja resolución o animatic.
+3. **Planificar el corte antes de generar metraje innecesario:** saber exactamente cuántos segundos de la toma se usarán en el montaje final para no renderizar segundos vacíos.
+
+---
+
+## 4. Coherencia entre Packaging y Estilo de Edición (La Ley de la Fricción)
 
 > **"Editing can remove friction from the process, but it cannot rescue a weak idea or an empty video."**  
 > *(La edición puede eliminar fricción visual y cognitiva del proceso, pero jamás podrá rescatar una mala idea ni un video vacío).*
@@ -127,7 +158,7 @@ Un software de edición no es una simple pegadora de clips; un montaje sin pulid
 
 ---
 
-## 4. Dominar las 3 C's of YouTube Visuals
+## 5. Dominar las 3 C's of YouTube Visuals
 
 ### 1. Content (El "What" visual del montaje y el Filtro Anti-Decoración)
 
@@ -169,7 +200,7 @@ Para audiencias sofisticadas, profesionales o de aprendizaje real, los memes hip
 
 ---
 
-## 5. Emoción: Provocar Respuestas Viscerales
+## 6. Emoción: Provocar Respuestas Viscerales
 Hace que los videos se recuerden, comenten y compartan:
 1. **Framing y Shot Selection:** Close-ups para intimidad, drama o tensión; wide shots para aislamiento o perspectiva; movimientos sutiles o acelerados de cámara.
 2. **Sound Design (Diseño de Sonido):**
@@ -181,7 +212,7 @@ Hace que los videos se recuerden, comenten y compartan:
 
 ---
 
-## 6. Final Checks (Control de Calidad Pre-Entrega)
+## 7. Final Checks (Control de Calidad Pre-Entrega)
 
 1. **The Sound Check:**
    - La edición no se escucha únicamente en un estudio silencioso con auriculares profesionales; el espectador puede estar en el metro, gimnasio o una cafetería ruidosa.
