@@ -48,9 +48,9 @@
 
 > **Nota de trazabilidad y entrega de prompts:** Cada fila enlaza con el bloque de guion `[Bxx]` correspondiente.  
 > **Ficha de Prompt Obligatoria:** Todo prompt que el agente entregue al creador debe indicar:  
-> 1) *Tipo de Asset* (🖼️ Imagen estática / 🎥 Clip de video / 🎵 Música / 🔊 SFX).  
+> 1) *Tipo de Asset* (🖼️ Imagen estática / 🎥 Clip de video / 🎙️ Locución con dirección actoral / 🎵 Música / 🔊 SFX).  
 > 2) *Herramienta y método de ejecución:* la plataforma elegida (o método genérico si la tarea no depende de un proveedor) y los **parámetros necesarios para ejecutar la tarea**; la pestaña/módulo concreto es opcional y se indica solo si la herramienta lo tiene (ej. Google Flow ➔ Pestaña *"Imagen"* vs. Pestaña *"Video"*). *Ver `AGENTS.md` §02.4.*  
-> 3) *Modo operativo* (Text-to-Image 16:9, Image-to-Video con cámara, etc.).  
+> 3) *Modo operativo* (Text-to-Image 16:9, Image-to-Video con cámara, Text-to-Speech con acotaciones, etc.).  
 > 4) *Prompt listo para copiar*.
 
 | Escena # | Bloque Guion | Timecode | Texto de Locución Asociado | Tipo de Asset (Imagen / Video / Audio) | Herramienta / Método elegido | Prompt de Generación / URL del Asset | Diseño Sonoro (SFX / Música) |
