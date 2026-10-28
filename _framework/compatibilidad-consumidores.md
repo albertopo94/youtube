@@ -14,7 +14,7 @@ mantiene sus propias plantillas reducidas. Nunca se modifica un consumidor desde
 
 | Elemento | Valor |
 | :--- | :--- |
-| Revisión del framework usada para esta comparación | `v0.7.0-direccion-cinematografica-y-video-ia` |
+| Revisión del framework usada para esta comparación | `v0.7.1-gobernanza-evidencia-y-alineacion` |
 | Fecha de la comparación | 2026-10-27 |
 | Última versión publicada | consultar `git describe --tags --abbrev=0`; esta tabla solo debe reescribirse cuando cambie una ruta consumida |
 
@@ -43,7 +43,7 @@ Hash espejado por el consumidor frente al hash actual del framework.
 | `pipeline-video/00-estado-produccion.md` | `f8814f68…` | `21a1b00a…` | **DERIVA** |
 | `pipeline-video/01-packaging.md` | `6821a1c4…` | `a531f75f…` | **DERIVA** |
 | `pipeline-video/02-guion.md` | `b6eb0079…` | `5dfe1440…` | **DERIVA** |
-| `pipeline-video/03-storyboard-y-edicion.md` | `e194471b…` | `71e0ce1f…` | **DERIVA** |
+| `pipeline-video/03-storyboard-y-edicion.md` | `e194471b…` | `44203616…` | **DERIVA** |
 | `pipeline-video/04-registro-recursos.md` | `e9c9d571…` | `c8b02da1…` | **DERIVA** |
 | `pipeline-video/05-metricas-retencion.md` | `0c5ce4c0…` | `ca4b0453…` | **DERIVA** |
 | `pipeline-video/06-fuentes-y-verificacion.md` | `7aa4f46d…` | `122d3af2…` | **DERIVA** |
