@@ -31,16 +31,25 @@ Toda instrucción, heurística o control dentro del framework se define a travé
 
 ---
 
-### Dimensión A: Fundamento y Validación
-Responde a: *¿Cuál es el respaldo empírico de esta afirmación en nuestro entorno?*
+### Dimensión A: Fundamento y Validación Propia
+Se divide en dos subcampos complementarios: **Tipo de Fundamento** (de dónde surge la técnica) y **Validación Propia** (qué evidencia real existe en nuestro entorno local).
 
-| Nivel de Fundamento | Definición | Criterio de Verificación |
+#### A1. Tipo de Fundamento (Origen del Conocimiento)
+| Nivel | Definición | Criterio de Verificación |
 | :--- | :--- | :--- |
 | **`FUENTE`** | Descrita o demostrada por un creador, estudio o plataforma externa. | Archivo original y cita precisa en `_framework/referencias/`. No prueba que funcione en nuestro flujo. |
-| **`HIPÓTESIS`** | Propuesta plausible adaptada a nuestra arquitectura, aún no contrastada. | Formulación teórica justificada en el rol correspondiente. |
-| **`PILOTO`** | Probada al menos una vez en nuestro propio entorno (hardware y herramientas locales). | Registro auditable de ejecución (archivo, log, render o métrica archivada). |
-| **`REPETIDA`** | Resultados consistentes y reproducibles a lo largo de múltiples producciones. | Trazabilidad en dos o más videos publicados o entregas independientes. |
-| **`CONTRATO VERIFICADO`** | Invariante técnico o estructural comprobado de forma determinista. | Verificado por script (`check-contrato.sh`), linter o test automatizado de CI. |
+| **`HIPÓTESIS`** | Propuesta o explicación plausible formulada internamente, aún no contrastada. | Formulación teórica justificada en el rol correspondiente. |
+| **`DERIVACIÓN`** | Adaptación de un principio clásico de otra disciplina (cine tradicional, edición analógica, literatura). | Doctrina de referencia archivada y adaptada a la escala de YouTube. |
+| **`CONTRATO INTERNO`** | Regla de arquitectura, invariante estructural o gobernanza propia de la oficina. | Definida por el creador o por el estándar operativo del framework. |
+
+#### A2. Validación Propia (Estado en Nuestro Entorno Local)
+| Estado de Validación | Definición | Criterio de Demostración |
+| :--- | :--- | :--- |
+| **`SIN_PROBAR`** | No se ha ejecutado ninguna prueba en este hardware o entorno de trabajo. | Ausencia de archivos de prueba o logs de ejecución local. |
+| **`PILOTO_PARCIAL`** | Probada en el entorno local pero cubriendo solo un subconjunto de casos o sin completar el ciclo completo. | Registro de prueba técnica puntual archivado (ej. render de placas sin pista de audio). |
+| **`PILOTO_VALIDADO`** | Probada con éxito y evidencia física verificada en una entrega completa de video. | Master exportado que cumple todos los criterios técnicos en el piloto. |
+| **`REPETIDA`** | Resultados consistentes y reproducibles a lo largo de dos o más videos independientes. | Trazabilidad en múltiples entregas en `videos-publicados/`. |
+| **`VERIFICADA_DETERMINÍSTICAMENTE`** | Comprobada de forma estricta y reproducible mediante código, script o CI. | Exit code 0 en `check-contrato.sh` o tests automatizados. |
 
 ---
 
@@ -70,7 +79,9 @@ Responde a: *¿Qué dispuso la oficina tras auditar la fuente?* (Utilizada en lo
 Para que una regla tenga la fuerza de **`COMPUERTA`** y pueda detener la producción de un video o fase, **debe declarar contractualmente cuatro campos**:
 
 1. **Condición de aceptación:** Qué condición inequívoca debe cumplirse.
-2. **Verificador:** Quién o qué realiza la comprobación (script bash, checker automatizado, o aprobación editorial explícita del creador).
+2. **Verificador:** Quién o qué realiza la comprobación. Se distinguen dos modalidades:
+   - **Compuerta Técnica Determinista:** Verificada por código (`check-contrato.sh`, linters o tests de CI).
+   - **Compuerta Editorial Humana:** Verificada mediante inspección y firma del creador o auditor humano (aprobación de packaging, guion o revisión factual).
 3. **Evidencia:** Dónde queda registrado físicamente el comprobante del resultado (log de terminal, DOI en `06`, casillas de firma en `00`, o diff limpio).
 4. **Excepción autorizada:** Quién puede dispensar la regla y cómo se asienta el motivo.
 

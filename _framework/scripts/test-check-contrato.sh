@@ -53,6 +53,12 @@ EOF
 | **Alfa** | `01` | Herramienta A | 🟢 PROBADA EN ENTORNO | Operación real ejecutada y resultado inspeccionado. | Límite de prueba. |
 | **Beta** | `02` | Herramienta B | 🟡 DOCUMENTADA | Descripción de capacidad documentada. | No probada localmente. |
 EOF
+  cat > "$root/_framework/registro-tecnicas.md" <<'EOF'
+| ID | Técnica / Regla | Fundamento | Validación Propia | Fuerza Operativa | Ámbito de Aplicación | Ubicación Canónica | Fuente / Origen | Próxima Acción de Validación |
+| :--- | :--- | :---: | :---: | :---: | :--- | :--- | :--- | :--- |
+| **`GATE-001`** | Correspondencia Timecodes Guion ↔ Storyboard | CONTRATO INTERNO | VERIFICADA_DETERMINÍSTICAMENTE | **COMPUERTA** | Videos en producción (02 vs. 03) | `check-contrato.sh` | Revisión externa 6 | Supervisión continua por CI. |
+| **`VID-IA-001`** | Escalera de 5 Niveles para Escenas IA | FUENTE | SIN_PROBAR | **RECOMENDADA** | Planificación de escenas generativas | `roles/04` §3 | Flick | Prueba en piloto. |
+EOF
 }
 
 # ---------------------------------------------------------------------------
@@ -134,9 +140,27 @@ sed -i '' 's/🟢 PROBADA EN ENTORNO/🟢 DISPONIBLE \/ MCP/' "$R/_framework/her
 bash "$CHECKER" "$R" > /dev/null 2>&1
 [ $? -eq 1 ] && echo "  [OK]  f9 🟢 con texto no PROBADA -> exit 1" || { echo "  [ERR] f9 🟢 con texto no PROBADA -> ¡no exit 1!"; FAILS=$((FAILS+1)); }
 
+# ---------------------------------------------------------------------------
+# Fixture 10: ID duplicado en registro-tecnicas.md => exit 1
+# ---------------------------------------------------------------------------
+R="$TMP/f10"; mkdir -p "$R"; make_valid_video "$R"
+cat >> "$R/_framework/registro-tecnicas.md" <<'EOF'
+| **`GATE-001`** | Duplicado intencional | FUENTE | SIN_PROBAR | **RECOMENDADA** | Ámbito | `roles/01` | Fuente | Prueba. |
+EOF
+bash "$CHECKER" "$R" > /dev/null 2>&1
+[ $? -eq 1 ] && echo "  [OK]  f10 ID duplicado en registro -> exit 1" || { echo "  [ERR] f10 ID duplicado en registro -> ¡no exit 1!"; FAILS=$((FAILS+1)); }
+
+# ---------------------------------------------------------------------------
+# Fixture 11: Fuerza operativa inválida en registro-tecnicas.md => exit 1
+# ---------------------------------------------------------------------------
+R="$TMP/f11"; mkdir -p "$R"; make_valid_video "$R"
+sed -i '' 's/\*\*COMPUERTA\*\*/\*\*FUERZA_INVALIDA\*\*/' "$R/_framework/registro-tecnicas.md"
+bash "$CHECKER" "$R" > /dev/null 2>&1
+[ $? -eq 1 ] && echo "  [OK]  f11 fuerza operativa inválida en registro -> exit 1" || { echo "  [ERR] f11 fuerza operativa inválida en registro -> ¡no exit 1!"; FAILS=$((FAILS+1)); }
+
 echo "------------------------------------------"
 if [ "$FAILS" -eq 0 ]; then
-  echo "ALL FIXTURES PASS (10/10)"
+  echo "ALL FIXTURES PASS (12/12)"
   exit 0
 else
   echo "$FAILS fixture(s) FALLEN"

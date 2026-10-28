@@ -174,6 +174,62 @@ else
 fi
 
 # ---------------------------------------------------------------------------
+sec "5. Coherencia del Registro Central de Técnicas"
+# ---------------------------------------------------------------------------
+REGISTRY="$ROOT/_framework/registro-tecnicas.md"
+if [ -f "$REGISTRY" ]; then
+  # 5a. Extraer IDs y verificar duplicados
+  ids=$(awk -F'|' '/^\| \*\*/ {id=$2; gsub(/[\*` ]/, "", id); if (id != "") print id}' "$REGISTRY")
+  if [ -z "$ids" ]; then
+    fail "registro-tecnicas — no se encontraron filas de técnicas registradas"
+  else
+    dup=$(printf '%s\n' "$ids" | sort | uniq -d)
+    if [ -n "$dup" ]; then
+      fail "registro-tecnicas — IDs duplicados encontrados: $(printf '%s ' $dup)"
+    else
+      pass "registro-tecnicas — $(printf '%s\n' "$ids" | wc -l | tr -d ' ') IDs únicos"
+    fi
+  fi
+
+  # 5b. Validar enums de Fundamento, Validación Propia y Fuerza Operativa
+  while IFS= read -r line; do
+    id=$(echo "$line" | awk -F'|' '{print $2}' | tr -d '*` ')
+    fund=$(echo "$line" | awk -F'|' '{print $4}' | sed -E 's/^[[:space:]]+|[[:space:]]+$//g')
+    val=$(echo "$line" | awk -F'|' '{print $5}' | sed -E 's/^[[:space:]]+|[[:space:]]+$//g')
+    op=$(echo "$line" | awk -F'|' '{print $6}' | tr -d '*` ')
+    [ -z "$id" ] && continue
+
+    case "$fund" in
+      FUENTE|"HIPÓTESIS"|DERIVACIÓN|"CONTRATO INTERNO") : ;;
+      *) fail "registro-tecnicas — '$id': fundamento inválido '$fund'" ;;
+    esac
+
+    case "$val" in
+      SIN_PROBAR|PILOTO_PARCIAL|PILOTO_VALIDADO|REPETIDA|"VERIFICADA_DETERMINÍSTICAMENTE") : ;;
+      *) fail "registro-tecnicas — '$id': validación propia inválida '$val'" ;;
+    esac
+
+    case "$op" in
+      INFORMATIVA|RECOMENDADA|OBLIGATORIA|COMPUERTA) : ;;
+      *) fail "registro-tecnicas — '$id': fuerza operativa inválida '$op'" ;;
+    esac
+  done < <(grep -E '^\| \*\*' "$REGISTRY" || true)
+
+  # 5c. Validar que cada ID usado en roles/ esté presente en el registro
+  if [ -d "$ROOT/_framework/roles" ]; then
+    while IFS= read -r role_id; do
+      if [ -n "$role_id" ]; then
+        if ! printf '%s\n' "$ids" | grep -qx "$role_id"; then
+          fail "roles — ID '$role_id' referenciado en roles/ pero AUSENTE en registro-tecnicas.md"
+        fi
+      fi
+    done < <(grep -oE '\[(GATE|PACK|GUI|VID-IA)-[0-9]{3}\]' "$ROOT"/_framework/roles/*.md 2>/dev/null | awk -F'[][]' '{print $2}' | sort -u || true)
+  fi
+else
+  warn "registro-tecnicas — archivo _framework/registro-tecnicas.md no encontrado (se salta comprobación)"
+fi
+
+# ---------------------------------------------------------------------------
 printf '\n============================================\n'
 printf 'Resultado: %d error(es), %d aviso(s)\n' "$FAIL" "$WARN"
 [ "$FAIL" -gt 0 ] && { printf 'CONTRATO VIOLADO\n'; exit 1; }
