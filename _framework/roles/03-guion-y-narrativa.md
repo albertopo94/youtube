@@ -165,11 +165,11 @@ El agente dispone de este repertorio de ganchos para elegir el que mejor encaje 
 
 ---
 
-## 4. La Fórmula de la Intro en 3 Pasos (Alineación, Autoridad y Compromiso Mental)
+## 4. Caja de Herramientas de Intros y Aperturas (Alineación, Autoridad y Compromiso Mental)
 
-> **Criterio de Aplicabilidad:** Esta fórmula de 3 pasos está diseñada para **formatos de Autoridad, Negocios, Divulgación Científica, Ensayos o Videos de Media y Larga Duración**. En formatos de **Ficción, Cuentos para Dormir, Sátira, Misterio o Tutoriales Ágiles**, forzar un *Unfair Edge* o un *Roadmap* rompe la inmersión: en esos géneros se prioriza la atmósfera, el enigma o la acción inmediata.
+> **Criterio de Aplicabilidad:** Esta caja de herramientas está diseñada para **formatos de Autoridad, Negocios, Divulgación Científica, Ensayos o Videos de Media y Larga Duración**. En formatos de **Ficción, Cuentos para Dormir, Sátira, Misterio o Tutoriales Ágiles**, forzar un *Unfair Edge* o un *Roadmap* rompe la inmersión: en esos géneros se prioriza la atmósfera, el enigma o la acción inmediata.
 
-Toda apertura en formatos educativos o de autoridad responde a 3 preguntas críticas:
+Toda apertura en formatos educativos o de autoridad responde a las necesidades críticas de retención a través de las siguientes técnicas combinables:
 
 ### 1. Reafirmar la Promesa (*Reaffirm what they clicked for*)
 - En el segundo cero, confirmar de inmediato con audio y video que el espectador está en el lugar correcto.
@@ -246,7 +246,7 @@ Directivas de estilo para la redacción de los bloques `[Bxx]` para asegurar que
 - **Símbolos y números:** Escribir los símbolos por su nombre fonético completo (*"por ciento"*, *"dólares"*) para evitar lecturas defectuosas del motor TTS.
 - **El Momento de Mayor Valor:** En lugar de forzar un giro artificial a 2/3 del video si la historia no lo pide, asegurar que el video contenga un **momento de máxima recompensa intelectual o emocional** (la prueba decisiva, la revelación del mecanismo o la conclusión práctica).
 
-### 4. Grados de Guionado según el Formato (Palabra por Palabra vs. Estructura Nítida)
+### 5. Grados de Guionado según el Formato (Palabra por Palabra vs. Estructura Nítida)
 
 > **"A full script can make a strong expert worse on camera. You need to figure out which ideas require exact wording versus a sharp structure with room to think."**
 
