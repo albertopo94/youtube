@@ -14,12 +14,19 @@ mantiene sus propias plantillas reducidas. Nunca se modifica un consumidor desde
 
 | Elemento | Valor |
 | :--- | :--- |
-| Revisión del framework usada para esta comparación | `v0.7.1-gobernanza-evidencia-y-alineacion` |
-| Fecha de la comparación | 2026-10-27 |
+| Revisión del framework usada para esta comparación | `v0.7.2-alineacion-epistemica-y-criterio-outliers` |
+| Fecha de la comparación | 2026-10-29 |
 | Última versión publicada | consultar `git describe --tags --abbrev=0`; esta tabla solo debe reescribirse cuando cambie una ruta consumida |
 
 Los hashes de la tabla de deriva siguen siendo válidos mientras no cambie el contenido de las
 plantillas espejadas, aunque se publiquen versiones que no las toquen.
+
+**Base de la comparación a `v0.7.2`:** `git diff v0.7.1..v0.7.2` sobre
+`_framework/plantillas/pipeline-video-template/` y `entregable-final-template.md` está vacío, y
+los 8 hashes de la columna «Framework actual» se recalcularon el 2026-10-29 y coinciden. Por eso
+la tabla de deriva no se reescribió en esta versión: la superficie espejada de plantillas no
+cambió. Lo que sí cambió en `v0.7.2` es una regla de metodología consumida por una skill del
+consumidor, registrada como diferencia 6 en §2.
 
 ## 2. Consumidor: `albertopo94/youtube-shell`
 
