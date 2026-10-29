@@ -59,10 +59,11 @@ consumidor adoptó formalmente.
 3. **Audio por formato y sonoridad del master** (v0.5.12 / v0.5.13): **ADOPTADO** en `src/checks/media-measurement.ts` y las 4 capas de pulido.
 4. **Verificador de contrato endurecido y registro de técnicas** (v0.5.12 / v0.7.1): **ADOPTADO** en `contract-checker.ts`, `framework-checker.ts` con 20 tests y suite de fixtures `f0..f11`.
 5. **Los 4 Flujos Audiovisuales (Audio-First, Screen-First, Speaker-First, Music-First)** (v0.7.1): **ADOPTADO** en `src/core/phases.ts` y `src/core/machine.ts` adaptando la evidencia en P05.
+6. **Detección de outliers por mediana temporal reciente y desglose de formato** (revisión 11): En `AGENTS.md` §04.5 y `roles/01` §1, el criterio principal de outliers pasa de ser el ratio simple visitas/suscriptores a contrastar contra la mediana reciente (3 a 6 meses) y desglosar Shorts vs. videos largos. La skill `yts-investigacion-ideas` del consumidor todavía instruye el cálculo simple de ratio visitas/suscriptores; pendiente de adopción en su próxima actualización.
 
 ### Acción pendiente en el consumidor
 
-Ninguna pendiente: `youtube-shell` (`v0.10.0`) y `albertopo94/youtube` (`v0.7.1`) se encuentran **totalmente alineados** y sincronizados sin deriva.
+Actualizar la instrucción de detección de outliers en la skill `yts-investigacion-ideas` de `youtube-shell` para incorporar la mediana temporal reciente y el desglose de formato de `AGENTS.md` §04.5. En plantillas espejadas de video, la alineación permanece en **8 de 8 sin deriva**.
 
 ---
 

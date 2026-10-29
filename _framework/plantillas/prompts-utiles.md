@@ -38,6 +38,8 @@ Convierte el guion aprobado en un storyboard detallado y un plan de producción 
 
 ## 4. Prompt Maestro Operativo para Guionado Asistido por IA
 
+> **Estatus normativo:** Este prompt es un recurso operativo independiente diseñado para interactuar con modelos externos o herramientas de chat. La fuente única de verdad y definición canónica para la metodología de guionado, puertas editoriales y directivas narrativas reside en `_framework/roles/03-guion-y-narrativa.md`.
+
 Utilizar este prompt cuando se solicite a un modelo de IA (Claude, Gemini, etc.) redactar o refinar el guion de un video para la oficina de YouTube:
 
 ```text

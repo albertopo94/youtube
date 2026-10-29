@@ -80,7 +80,7 @@ Las herramientas, modelos y plataformas mencionados en el repositorio (Google Fl
 
 ## 🎬 03. Selección del Flujo Audiovisual según el Género
 
-Al iniciar la producción de un video, el agente debe identificar el género y aplicar el flujo audiovisual correspondiente:
+Al iniciar la producción de un video, el agente debe identificar el género y aplicar el flujo audiovisual correspondiente. Esta sección constituye un resumen ejecutivo para orientación rápida; la definición canónica y metodología completa residen en `_framework/roles/04-direccion-y-edicion.md` §0:
 
 1. **Audio-First (Predeterminado):**
    - *Aplicable a:* Ensayos audiovisuales, divulgación científica, documentales e historias narradas.
@@ -126,13 +126,13 @@ Todo tema y propuesta de packaging debe fundamentarse en los principios de *Brea
    - Para investigar un canal o nicho nuevo en `canales-en-estudio/`, el agente debe actuar como **Cerebro y Gestor de la Pila (*Stack*)**:
      1. Generar la lista semilla (*Seed List*) en lenguaje de dolor/deseo del usuario y cargarla en la pila.
      2. Solicitar al creador que busque en YouTube en **ventana de incógnito** el primer término.
-     3. Recibir los enlaces de outliers que el creador identifique, calcular el ratio de visitas vs. suscriptores y extraer los patrones de empaque.
+     3. Recibir los enlaces de outliers que el creador identifique, contrastar su rendimiento frente a la mediana de videos comparables del canal en ventana reciente (3 a 6 meses), desglosar visitas de Shorts vs. formato largo y extraer los patrones de empaque (el ratio visitas/suscriptores opera únicamente como señal orientativa auxiliar; ver metodología completa en `roles/01` §1).
      4. Pedir al creador que explore la **barra lateral de recomendaciones (*Up Next*)** del video outlier para ramificar hacia nuevos creadores.
      5. Gestionar el retroceso (*backtracking*) cuando una rama se agota para pasar al siguiente término de la pila.
 
 6. **Evidencia Negativa y el Canal como Campaña Única:**
    - *Anti-sesgo de positividad:* Al evaluar un formato exitoso, el agente debe investigar también los videos que fracasaron con ese formato para identificar las reglas de ejecución y trampas a evitar.
-   - *Campaña única:* Prohibido proponer videos virales fuera de temática (*off-topic hits*); un éxito que atrae a la audiencia equivocada destruye la retención de los videos posteriores. El canal debe fidelizar a un mismo perfil recurrente.
+   - *Campaña única y experimentos justificados:* Priorizar la coherencia editorial con el perfil del cliente ideal del canal. Un video viral sobre un tema tangencial no genera una penalización algorítmica automática e irreversible por sí solo (YouTube evalúa la respuesta de la audiencia video a video), pero publicar contenido desconectado de forma repetida diluye las recomendaciones con el tiempo. Los videos tangenciales o experimentos fuera de temática no están prohibidos por decreto, pero exigen una hipótesis estratégica y justificación escrita antes de su aprobación (ver `roles/01` §2).
 
 7. **Directivas Específicas para Producción de YouTube Shorts:**
 Esta sección contiene **solo** los criterios operativos que son **realmente propios del formato Shorts** (vídeos verticales o cuadrados de hasta 3 minutos, subidos al feed de Shorts y descubribles también mediante búsqueda, página de inicio, suscripciones y otras superficies). Todo lo que es principio narrativo, de ideación, de publicación o de gobernanza general tiene su definición canónica en otro documento y aquí solo se remite a ella.
